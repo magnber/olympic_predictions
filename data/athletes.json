@@ -1498,5 +1498,1630 @@
     "id": "vanessa-herzog-aut",
     "name": "Vanessa Herzog",
     "country": "AUT"
+  },
+  {
+    "id": "mikael-kingsbury-can",
+    "name": "Mikael Kingsbury",
+    "country": "CAN"
+  },
+  {
+    "id": "matt-graham-aus",
+    "name": "Matt Graham",
+    "country": "AUS"
+  },
+  {
+    "id": "nick-page-usa",
+    "name": "Nick Page",
+    "country": "USA"
+  },
+  {
+    "id": "ikuma-horishima-jpn",
+    "name": "Ikuma Horishima",
+    "country": "JPN"
+  },
+  {
+    "id": "walter-wallberg-swe",
+    "name": "Walter Wallberg",
+    "country": "SWE"
+  },
+  {
+    "id": "benjamin-cavet-fra",
+    "name": "Benjamin Cavet",
+    "country": "FRA"
+  },
+  {
+    "id": "ludvig-fjallstrom-swe",
+    "name": "Ludvig Fjallstrom",
+    "country": "SWE"
+  },
+  {
+    "id": "daichi-hara-jpn",
+    "name": "Daichi Hara",
+    "country": "JPN"
+  },
+  {
+    "id": "cole-mcdonald-usa",
+    "name": "Cole McDonald",
+    "country": "USA"
+  },
+  {
+    "id": "dylan-walczyk-usa",
+    "name": "Dylan Walczyk",
+    "country": "USA"
+  },
+  {
+    "id": "rasmus-stegfeldt-swe",
+    "name": "Rasmus Stegfeldt",
+    "country": "SWE"
+  },
+  {
+    "id": "filip-gravenfors-swe",
+    "name": "Filip Gravenfors",
+    "country": "SWE"
+  },
+  {
+    "id": "albin-holmgren-swe",
+    "name": "Albin Holmgren",
+    "country": "SWE"
+  },
+  {
+    "id": "felix-elofsson-swe",
+    "name": "Felix Elofsson",
+    "country": "SWE"
+  },
+  {
+    "id": "birk-ruud-nor",
+    "name": "Birk Ruud",
+    "country": "NOR"
+  },
+  {
+    "id": "jaelin-kauf-usa",
+    "name": "Jaelin Kauf",
+    "country": "USA"
+  },
+  {
+    "id": "perrine-laffont-fra",
+    "name": "Perrine Laffont",
+    "country": "FRA"
+  },
+  {
+    "id": "tess-johnson-usa",
+    "name": "Tess Johnson",
+    "country": "USA"
+  },
+  {
+    "id": "maia-schwinghammer-can",
+    "name": "Maia Schwinghammer",
+    "country": "CAN"
+  },
+  {
+    "id": "olivia-giaccio-usa",
+    "name": "Olivia Giaccio",
+    "country": "USA"
+  },
+  {
+    "id": "jakara-anthony-aus",
+    "name": "Jakara Anthony",
+    "country": "AUS"
+  },
+  {
+    "id": "anri-kawamura-jpn",
+    "name": "Anri Kawamura",
+    "country": "JPN"
+  },
+  {
+    "id": "hannah-soar-usa",
+    "name": "Hannah Soar",
+    "country": "USA"
+  },
+  {
+    "id": "anastassiya-gorodko-kaz",
+    "name": "Anastassiya Gorodko",
+    "country": "KAZ"
+  },
+  {
+    "id": "justine-dufour-lapointe-can",
+    "name": "Justine Dufour-Lapointe",
+    "country": "CAN"
+  },
+  {
+    "id": "chloe-dufour-lapointe-can",
+    "name": "Chloe Dufour-Lapointe",
+    "country": "CAN"
+  },
+  {
+    "id": "hedda-berntsen-nor",
+    "name": "Hedda Berntsen",
+    "country": "NOR"
+  },
+  {
+    "id": "moa-backlund-swe",
+    "name": "Moa Backlund",
+    "country": "SWE"
+  },
+  {
+    "id": "tilde-hansson-swe",
+    "name": "Tilde Hansson",
+    "country": "SWE"
+  },
+  {
+    "id": "qi-guangpu-chn",
+    "name": "Qi Guangpu",
+    "country": "CHN"
+  },
+  {
+    "id": "noe-roth-sui",
+    "name": "Noe Roth",
+    "country": "SUI"
+  },
+  {
+    "id": "wang-xindi-chn",
+    "name": "Wang Xindi",
+    "country": "CHN"
+  },
+  {
+    "id": "sun-jiaxu-chn",
+    "name": "Sun Jiaxu",
+    "country": "CHN"
+  },
+  {
+    "id": "christopher-lillis-usa",
+    "name": "Christopher Lillis",
+    "country": "USA"
+  },
+  {
+    "id": "eric-loughran-usa",
+    "name": "Eric Loughran",
+    "country": "USA"
+  },
+  {
+    "id": "maxim-burov-rus",
+    "name": "Maxim Burov",
+    "country": "RUS"
+  },
+  {
+    "id": "mykola-puzderko-ukr",
+    "name": "Mykola Puzderko",
+    "country": "UKR"
+  },
+  {
+    "id": "lloyd-wallace-gbr",
+    "name": "Lloyd Wallace",
+    "country": "GBR"
+  },
+  {
+    "id": "pirmin-werner-sui",
+    "name": "Pirmin Werner",
+    "country": "SUI"
+  },
+  {
+    "id": "xu-mengtao-chn",
+    "name": "Xu Mengtao",
+    "country": "CHN"
+  },
+  {
+    "id": "laura-peel-aus",
+    "name": "Laura Peel",
+    "country": "AUS"
+  },
+  {
+    "id": "winter-vinecki-usa",
+    "name": "Winter Vinecki",
+    "country": "USA"
+  },
+  {
+    "id": "megan-nick-usa",
+    "name": "Megan Nick",
+    "country": "USA"
+  },
+  {
+    "id": "kong-fanyu-chn",
+    "name": "Kong Fanyu",
+    "country": "CHN"
+  },
+  {
+    "id": "xu-sicun-chn",
+    "name": "Xu Sicun",
+    "country": "CHN"
+  },
+  {
+    "id": "marion-thenault-can",
+    "name": "Marion Thenault",
+    "country": "CAN"
+  },
+  {
+    "id": "mengtao-xu-chn",
+    "name": "Mengtao Xu",
+    "country": "CHN"
+  },
+  {
+    "id": "liubov-nikitina-rus",
+    "name": "Liubov Nikitina",
+    "country": "RUS"
+  },
+  {
+    "id": "olga-polyuk-ukr",
+    "name": "Olga Polyuk",
+    "country": "UKR"
+  },
+  {
+    "id": "reece-howden-can",
+    "name": "Reece Howden",
+    "country": "CAN"
+  },
+  {
+    "id": "simone-deromedis-ita",
+    "name": "Simone Deromedis",
+    "country": "ITA"
+  },
+  {
+    "id": "florian-wilmsmann-ger",
+    "name": "Florian Wilmsmann",
+    "country": "GER"
+  },
+  {
+    "id": "youri-duplessis-kergomard-fra",
+    "name": "Youri Duplessis Kergomard",
+    "country": "FRA"
+  },
+  {
+    "id": "alex-fiva-sui",
+    "name": "Alex Fiva",
+    "country": "SUI"
+  },
+  {
+    "id": "david-mobaerg-swe",
+    "name": "David Mobaerg",
+    "country": "SWE"
+  },
+  {
+    "id": "kevin-drury-can",
+    "name": "Kevin Drury",
+    "country": "CAN"
+  },
+  {
+    "id": "ryan-regez-sui",
+    "name": "Ryan Regez",
+    "country": "SUI"
+  },
+  {
+    "id": "tobias-baur-sui",
+    "name": "Tobias Baur",
+    "country": "SUI"
+  },
+  {
+    "id": "adam-kappacher-aut",
+    "name": "Adam Kappacher",
+    "country": "AUT"
+  },
+  {
+    "id": "erik-mobaerg-swe",
+    "name": "Erik Mobaerg",
+    "country": "SWE"
+  },
+  {
+    "id": "victor-oehling-norberg-swe",
+    "name": "Victor Oehling Norberg",
+    "country": "SWE"
+  },
+  {
+    "id": "kristoffer-haugen-nor",
+    "name": "Kristoffer Haugen",
+    "country": "NOR"
+  },
+  {
+    "id": "terence-tchiknavorian-fra",
+    "name": "Terence Tchiknavorian",
+    "country": "FRA"
+  },
+  {
+    "id": "marielle-thompson-can",
+    "name": "Marielle Thompson",
+    "country": "CAN"
+  },
+  {
+    "id": "sandra-naeslund-swe",
+    "name": "Sandra Naeslund",
+    "country": "SWE"
+  },
+  {
+    "id": "fanny-smith-sui",
+    "name": "Fanny Smith",
+    "country": "SUI"
+  },
+  {
+    "id": "brittany-phelan-can",
+    "name": "Brittany Phelan",
+    "country": "CAN"
+  },
+  {
+    "id": "talina-gantenbein-sui",
+    "name": "Talina Gantenbein",
+    "country": "SUI"
+  },
+  {
+    "id": "daniela-maier-ger",
+    "name": "Daniela Maier",
+    "country": "GER"
+  },
+  {
+    "id": "india-sherret-can",
+    "name": "India Sherret",
+    "country": "CAN"
+  },
+  {
+    "id": "lisa-andersson-swe",
+    "name": "Lisa Andersson",
+    "country": "SWE"
+  },
+  {
+    "id": "alexandra-edebo-swe",
+    "name": "Alexandra Edebo",
+    "country": "SWE"
+  },
+  {
+    "id": "courtney-hoffos-can",
+    "name": "Courtney Hoffos",
+    "country": "CAN"
+  },
+  {
+    "id": "andrea-limbacher-aut",
+    "name": "Andrea Limbacher",
+    "country": "AUT"
+  },
+  {
+    "id": "alizee-baron-fra",
+    "name": "Alizee Baron",
+    "country": "FRA"
+  },
+  {
+    "id": "nico-porteous-nzl",
+    "name": "Nico Porteous",
+    "country": "NZL"
+  },
+  {
+    "id": "alex-ferreira-usa",
+    "name": "Alex Ferreira",
+    "country": "USA"
+  },
+  {
+    "id": "david-wise-usa",
+    "name": "David Wise",
+    "country": "USA"
+  },
+  {
+    "id": "aaron-blunck-usa",
+    "name": "Aaron Blunck",
+    "country": "USA"
+  },
+  {
+    "id": "noah-bowman-can",
+    "name": "Noah Bowman",
+    "country": "CAN"
+  },
+  {
+    "id": "brendan-mackay-can",
+    "name": "Brendan Mackay",
+    "country": "CAN"
+  },
+  {
+    "id": "simon-d-artois-can",
+    "name": "Simon D Artois",
+    "country": "CAN"
+  },
+  {
+    "id": "kevin-rolland-fra",
+    "name": "Kevin Rolland",
+    "country": "FRA"
+  },
+  {
+    "id": "ben-harrington-nzl",
+    "name": "Ben Harrington",
+    "country": "NZL"
+  },
+  {
+    "id": "eileen-gu-chn",
+    "name": "Eileen Gu",
+    "country": "CHN"
+  },
+  {
+    "id": "rachael-karker-can",
+    "name": "Rachael Karker",
+    "country": "CAN"
+  },
+  {
+    "id": "zoe-atkin-gbr",
+    "name": "Zoe Atkin",
+    "country": "GBR"
+  },
+  {
+    "id": "hanna-faulhaber-usa",
+    "name": "Hanna Faulhaber",
+    "country": "USA"
+  },
+  {
+    "id": "amy-fraser-can",
+    "name": "Amy Fraser",
+    "country": "CAN"
+  },
+  {
+    "id": "valeriya-demidova-rus",
+    "name": "Valeriya Demidova",
+    "country": "RUS"
+  },
+  {
+    "id": "sabrina-cakmakli-ger",
+    "name": "Sabrina Cakmakli",
+    "country": "GER"
+  },
+  {
+    "id": "cassie-sharpe-can",
+    "name": "Cassie Sharpe",
+    "country": "CAN"
+  },
+  {
+    "id": "oliwer-magnusson-swe",
+    "name": "Oliwer Magnusson",
+    "country": "SWE"
+  },
+  {
+    "id": "alex-hall-usa",
+    "name": "Alex Hall",
+    "country": "USA"
+  },
+  {
+    "id": "mac-forehand-usa",
+    "name": "Mac Forehand",
+    "country": "USA"
+  },
+  {
+    "id": "colby-stevenson-usa",
+    "name": "Colby Stevenson",
+    "country": "USA"
+  },
+  {
+    "id": "andri-ragettli-sui",
+    "name": "Andri Ragettli",
+    "country": "SUI"
+  },
+  {
+    "id": "ferdinand-dahl-nor",
+    "name": "Ferdinand Dahl",
+    "country": "NOR"
+  },
+  {
+    "id": "kim-gubser-sui",
+    "name": "Kim Gubser",
+    "country": "SUI"
+  },
+  {
+    "id": "jesper-tjader-swe",
+    "name": "Jesper Tjader",
+    "country": "SWE"
+  },
+  {
+    "id": "henrik-harlaut-swe",
+    "name": "Henrik Harlaut",
+    "country": "SWE"
+  },
+  {
+    "id": "kelly-sildaru-est",
+    "name": "Kelly Sildaru",
+    "country": "EST"
+  },
+  {
+    "id": "megan-oldham-can",
+    "name": "Megan Oldham",
+    "country": "CAN"
+  },
+  {
+    "id": "mathilde-gremaud-sui",
+    "name": "Mathilde Gremaud",
+    "country": "SUI"
+  },
+  {
+    "id": "olivia-asselin-can",
+    "name": "Olivia Asselin",
+    "country": "CAN"
+  },
+  {
+    "id": "darian-stevens-usa",
+    "name": "Darian Stevens",
+    "country": "USA"
+  },
+  {
+    "id": "tess-ledeux-fra",
+    "name": "Tess Ledeux",
+    "country": "FRA"
+  },
+  {
+    "id": "johanne-killi-nor",
+    "name": "Johanne Killi",
+    "country": "NOR"
+  },
+  {
+    "id": "jennie-lee-burmansson-swe",
+    "name": "Jennie-Lee Burmansson",
+    "country": "SWE"
+  },
+  {
+    "id": "yuto-totsuka-jpn",
+    "name": "Yuto Totsuka",
+    "country": "JPN"
+  },
+  {
+    "id": "valentino-guseli-aus",
+    "name": "Valentino Guseli",
+    "country": "AUS"
+  },
+  {
+    "id": "ryusei-yamada-jpn",
+    "name": "Ryusei Yamada",
+    "country": "JPN"
+  },
+  {
+    "id": "ruka-hirano-jpn",
+    "name": "Ruka Hirano",
+    "country": "JPN"
+  },
+  {
+    "id": "jan-scherrer-sui",
+    "name": "Jan Scherrer",
+    "country": "SUI"
+  },
+  {
+    "id": "scotty-james-aus",
+    "name": "Scotty James",
+    "country": "AUS"
+  },
+  {
+    "id": "chase-josey-usa",
+    "name": "Chase Josey",
+    "country": "USA"
+  },
+  {
+    "id": "taylor-gold-usa",
+    "name": "Taylor Gold",
+    "country": "USA"
+  },
+  {
+    "id": "ayumu-hirano-jpn",
+    "name": "Ayumu Hirano",
+    "country": "JPN"
+  },
+  {
+    "id": "andre-hoeflich-ger",
+    "name": "Andre Hoeflich",
+    "country": "GER"
+  },
+  {
+    "id": "chloe-kim-usa",
+    "name": "Chloe Kim",
+    "country": "USA"
+  },
+  {
+    "id": "sena-tomita-jpn",
+    "name": "Sena Tomita",
+    "country": "JPN"
+  },
+  {
+    "id": "queralt-castellet-esp",
+    "name": "Queralt Castellet",
+    "country": "ESP"
+  },
+  {
+    "id": "xuetong-cai-chn",
+    "name": "Xuetong Cai",
+    "country": "CHN"
+  },
+  {
+    "id": "maddie-mastro-usa",
+    "name": "Maddie Mastro",
+    "country": "USA"
+  },
+  {
+    "id": "mitsuki-ono-jpn",
+    "name": "Mitsuki Ono",
+    "country": "JPN"
+  },
+  {
+    "id": "elizabeth-hosking-can",
+    "name": "Elizabeth Hosking",
+    "country": "CAN"
+  },
+  {
+    "id": "kurumi-imai-jpn",
+    "name": "Kurumi Imai",
+    "country": "JPN"
+  },
+  {
+    "id": "su-yiming-chn",
+    "name": "Su Yiming",
+    "country": "CHN"
+  },
+  {
+    "id": "kira-kimura-jpn",
+    "name": "Kira Kimura",
+    "country": "JPN"
+  },
+  {
+    "id": "marcus-kleveland-nor",
+    "name": "Marcus Kleveland",
+    "country": "NOR"
+  },
+  {
+    "id": "mark-mcmorris-can",
+    "name": "Mark McMorris",
+    "country": "CAN"
+  },
+  {
+    "id": "max-parrot-can",
+    "name": "Max Parrot",
+    "country": "CAN"
+  },
+  {
+    "id": "mons-roisland-nor",
+    "name": "Mons Roisland",
+    "country": "NOR"
+  },
+  {
+    "id": "staale-sandbech-nor",
+    "name": "Staale Sandbech",
+    "country": "NOR"
+  },
+  {
+    "id": "chris-corning-usa",
+    "name": "Chris Corning",
+    "country": "USA"
+  },
+  {
+    "id": "sebastien-toutant-can",
+    "name": "Sebastien Toutant",
+    "country": "CAN"
+  },
+  {
+    "id": "red-gerard-usa",
+    "name": "Red Gerard",
+    "country": "USA"
+  },
+  {
+    "id": "zoi-sadowski-synnott-nzl",
+    "name": "Zoi Sadowski-Synnott",
+    "country": "NZL"
+  },
+  {
+    "id": "anna-gasser-aut",
+    "name": "Anna Gasser",
+    "country": "AUT"
+  },
+  {
+    "id": "kokomo-murase-jpn",
+    "name": "Kokomo Murase",
+    "country": "JPN"
+  },
+  {
+    "id": "tess-coady-aus",
+    "name": "Tess Coady",
+    "country": "AUS"
+  },
+  {
+    "id": "julia-marino-usa",
+    "name": "Julia Marino",
+    "country": "USA"
+  },
+  {
+    "id": "laurie-blouin-can",
+    "name": "Laurie Blouin",
+    "country": "CAN"
+  },
+  {
+    "id": "jamie-anderson-usa",
+    "name": "Jamie Anderson",
+    "country": "USA"
+  },
+  {
+    "id": "mia-brookes-gbr",
+    "name": "Mia Brookes",
+    "country": "GBR"
+  },
+  {
+    "id": "eliot-grondin-can",
+    "name": "Eliot Grondin",
+    "country": "CAN"
+  },
+  {
+    "id": "loan-bozzolo-fra",
+    "name": "Loan Bozzolo",
+    "country": "FRA"
+  },
+  {
+    "id": "aidan-chollet-fra",
+    "name": "Aidan Chollet",
+    "country": "FRA"
+  },
+  {
+    "id": "jakob-dusek-aut",
+    "name": "Jakob Dusek",
+    "country": "AUT"
+  },
+  {
+    "id": "adam-lambert-aus",
+    "name": "Adam Lambert",
+    "country": "AUS"
+  },
+  {
+    "id": "julien-tomas-fra",
+    "name": "Julien Tomas",
+    "country": "FRA"
+  },
+  {
+    "id": "cameron-bolton-aus",
+    "name": "Cameron Bolton",
+    "country": "AUS"
+  },
+  {
+    "id": "leon-ulbricht-ger",
+    "name": "Leon Ulbricht",
+    "country": "GER"
+  },
+  {
+    "id": "alessandro-haemmerle-aut",
+    "name": "Alessandro Haemmerle",
+    "country": "AUT"
+  },
+  {
+    "id": "merlin-surget-fra",
+    "name": "Merlin Surget",
+    "country": "FRA"
+  },
+  {
+    "id": "lindsey-jacobellis-usa",
+    "name": "Lindsey Jacobellis",
+    "country": "USA"
+  },
+  {
+    "id": "charlotte-bankes-gbr",
+    "name": "Charlotte Bankes",
+    "country": "GBR"
+  },
+  {
+    "id": "belle-brockhoff-aus",
+    "name": "Belle Brockhoff",
+    "country": "AUS"
+  },
+  {
+    "id": "caterina-carpano-ita",
+    "name": "Caterina Carpano",
+    "country": "ITA"
+  },
+  {
+    "id": "michela-moioli-ita",
+    "name": "Michela Moioli",
+    "country": "ITA"
+  },
+  {
+    "id": "eva-samkova-cze",
+    "name": "Eva Samkova",
+    "country": "CZE"
+  },
+  {
+    "id": "hanna-ihedioha-ger",
+    "name": "Hanna Ihedioha",
+    "country": "GER"
+  },
+  {
+    "id": "lara-casanova-sui",
+    "name": "Lara Casanova",
+    "country": "SUI"
+  },
+  {
+    "id": "benjamin-karl-aut",
+    "name": "Benjamin Karl",
+    "country": "AUT"
+  },
+  {
+    "id": "dmitry-loginov-rus",
+    "name": "Dmitry Loginov",
+    "country": "RUS"
+  },
+  {
+    "id": "roland-fischnaller-ita",
+    "name": "Roland Fischnaller",
+    "country": "ITA"
+  },
+  {
+    "id": "tim-mastnak-slo",
+    "name": "Tim Mastnak",
+    "country": "SLO"
+  },
+  {
+    "id": "sangho-lee-kor",
+    "name": "Sangho Lee",
+    "country": "KOR"
+  },
+  {
+    "id": "edwin-coratti-ita",
+    "name": "Edwin Coratti",
+    "country": "ITA"
+  },
+  {
+    "id": "arvid-auner-aut",
+    "name": "Arvid Auner",
+    "country": "AUT"
+  },
+  {
+    "id": "victor-wild-rus",
+    "name": "Victor Wild",
+    "country": "RUS"
+  },
+  {
+    "id": "ramona-theresia-hofmeister-ger",
+    "name": "Ramona Theresia Hofmeister",
+    "country": "GER"
+  },
+  {
+    "id": "daniela-ulbing-aut",
+    "name": "Daniela Ulbing",
+    "country": "AUT"
+  },
+  {
+    "id": "julie-zogg-sui",
+    "name": "Julie Zogg",
+    "country": "SUI"
+  },
+  {
+    "id": "sofia-nadyrshina-rus",
+    "name": "Sofia Nadyrshina",
+    "country": "RUS"
+  },
+  {
+    "id": "selina-joerg-ger",
+    "name": "Selina Joerg",
+    "country": "GER"
+  },
+  {
+    "id": "sabine-schoeffmann-aut",
+    "name": "Sabine Schoeffmann",
+    "country": "AUT"
+  },
+  {
+    "id": "cheyenne-loch-ger",
+    "name": "Cheyenne Loch",
+    "country": "GER"
+  },
+  {
+    "id": "william-dandjinou-can",
+    "name": "William Dandjinou",
+    "country": "CAN"
+  },
+  {
+    "id": "pietro-sighel-ita",
+    "name": "Pietro Sighel",
+    "country": "ITA"
+  },
+  {
+    "id": "park-ji-won-kor",
+    "name": "Park Ji-won",
+    "country": "KOR"
+  },
+  {
+    "id": "hwang-dae-heon-kor",
+    "name": "Hwang Dae-heon",
+    "country": "KOR"
+  },
+  {
+    "id": "sebastien-lepape-fra",
+    "name": "Sebastien Lepape",
+    "country": "FRA"
+  },
+  {
+    "id": "liu-shaolin-sandor-hun",
+    "name": "Liu Shaolin Sandor",
+    "country": "HUN"
+  },
+  {
+    "id": "ren-ziwei-chn",
+    "name": "Ren Ziwei",
+    "country": "CHN"
+  },
+  {
+    "id": "liu-shaoang-hun",
+    "name": "Liu Shaoang",
+    "country": "HUN"
+  },
+  {
+    "id": "steven-dubois-can",
+    "name": "Steven Dubois",
+    "country": "CAN"
+  },
+  {
+    "id": "pascal-dion-can",
+    "name": "Pascal Dion",
+    "country": "CAN"
+  },
+  {
+    "id": "luca-spechenhauser-ita",
+    "name": "Luca Spechenhauser",
+    "country": "ITA"
+  },
+  {
+    "id": "oleh-handei-ukr",
+    "name": "Oleh Handei",
+    "country": "UKR"
+  },
+  {
+    "id": "courtney-sarault-can",
+    "name": "Courtney Sarault",
+    "country": "CAN"
+  },
+  {
+    "id": "xandra-velzeboer-ned",
+    "name": "Xandra Velzeboer",
+    "country": "NED"
+  },
+  {
+    "id": "kim-gil-li-kor",
+    "name": "Kim Gil-li",
+    "country": "KOR"
+  },
+  {
+    "id": "choi-min-jeong-kor",
+    "name": "Choi Min-jeong",
+    "country": "KOR"
+  },
+  {
+    "id": "suzanne-schulting-ned",
+    "name": "Suzanne Schulting",
+    "country": "NED"
+  },
+  {
+    "id": "kim-boutin-can",
+    "name": "Kim Boutin",
+    "country": "CAN"
+  },
+  {
+    "id": "natalia-maliszewska-pol",
+    "name": "Natalia Maliszewska",
+    "country": "POL"
+  },
+  {
+    "id": "kristen-santos-griswold-usa",
+    "name": "Kristen Santos-Griswold",
+    "country": "USA"
+  },
+  {
+    "id": "hanne-desmet-bel",
+    "name": "Hanne Desmet",
+    "country": "BEL"
+  },
+  {
+    "id": "florence-brunelle-can",
+    "name": "Florence Brunelle",
+    "country": "CAN"
+  },
+  {
+    "id": "vinzenz-geiger-ger",
+    "name": "Vinzenz Geiger",
+    "country": "GER"
+  },
+  {
+    "id": "jarl-magnus-riiber-nor",
+    "name": "Jarl Magnus Riiber",
+    "country": "NOR"
+  },
+  {
+    "id": "johannes-lamparter-aut",
+    "name": "Johannes Lamparter",
+    "country": "AUT"
+  },
+  {
+    "id": "julian-schmid-ger",
+    "name": "Julian Schmid",
+    "country": "GER"
+  },
+  {
+    "id": "ryota-yamamoto-jpn",
+    "name": "Ryota Yamamoto",
+    "country": "JPN"
+  },
+  {
+    "id": "stefan-rettenegger-aut",
+    "name": "Stefan Rettenegger",
+    "country": "AUT"
+  },
+  {
+    "id": "jens-luraas-oftebro-nor",
+    "name": "Jens Luraas Oftebro",
+    "country": "NOR"
+  },
+  {
+    "id": "manuel-faisst-ger",
+    "name": "Manuel Faisst",
+    "country": "GER"
+  },
+  {
+    "id": "ilkka-herola-fin",
+    "name": "Ilkka Herola",
+    "country": "FIN"
+  },
+  {
+    "id": "eero-hirvonen-fin",
+    "name": "Eero Hirvonen",
+    "country": "FIN"
+  },
+  {
+    "id": "joergen-graabak-nor",
+    "name": "Joergen Graabak",
+    "country": "NOR"
+  },
+  {
+    "id": "espen-andersen-nor",
+    "name": "Espen Andersen",
+    "country": "NOR"
+  },
+  {
+    "id": "lukas-greiderer-aut",
+    "name": "Lukas Greiderer",
+    "country": "AUT"
+  },
+  {
+    "id": "espen-bjoernstad-nor",
+    "name": "Espen Bjoernstad",
+    "country": "NOR"
+  },
+  {
+    "id": "akito-watabe-jpn",
+    "name": "Akito Watabe",
+    "country": "JPN"
+  },
+  {
+    "id": "ida-marie-hagen-nor",
+    "name": "Ida Marie Hagen",
+    "country": "NOR"
+  },
+  {
+    "id": "alexa-brabec-usa",
+    "name": "Alexa Brabec",
+    "country": "USA"
+  },
+  {
+    "id": "minja-korhonen-fin",
+    "name": "Minja Korhonen",
+    "country": "FIN"
+  },
+  {
+    "id": "nathalie-armbruster-ger",
+    "name": "Nathalie Armbruster",
+    "country": "GER"
+  },
+  {
+    "id": "katharina-gruber-aut",
+    "name": "Katharina Gruber",
+    "country": "AUT"
+  },
+  {
+    "id": "yuna-kasai-jpn",
+    "name": "Yuna Kasai",
+    "country": "JPN"
+  },
+  {
+    "id": "marte-leinan-lund-nor",
+    "name": "Marte Leinan Lund",
+    "country": "NOR"
+  },
+  {
+    "id": "lisa-hirner-aut",
+    "name": "Lisa Hirner",
+    "country": "AUT"
+  },
+  {
+    "id": "ingrid-laate-nor",
+    "name": "Ingrid Laate",
+    "country": "NOR"
+  },
+  {
+    "id": "jenny-nowak-ger",
+    "name": "Jenny Nowak",
+    "country": "GER"
+  },
+  {
+    "id": "ilia-malinin-usa",
+    "name": "Ilia Malinin",
+    "country": "USA"
+  },
+  {
+    "id": "yuma-kagiyama-jpn",
+    "name": "Yuma Kagiyama",
+    "country": "JPN"
+  },
+  {
+    "id": "adam-siao-him-fa-fra",
+    "name": "Adam Siao Him Fa",
+    "country": "FRA"
+  },
+  {
+    "id": "shun-sato-jpn",
+    "name": "Shun Sato",
+    "country": "JPN"
+  },
+  {
+    "id": "daniel-grassl-ita",
+    "name": "Daniel Grassl",
+    "country": "ITA"
+  },
+  {
+    "id": "nika-egadze-geo",
+    "name": "Nika Egadze",
+    "country": "GEO"
+  },
+  {
+    "id": "mikhail-shaidorov-kaz",
+    "name": "Mikhail Shaidorov",
+    "country": "KAZ"
+  },
+  {
+    "id": "lukas-britschgi-sui",
+    "name": "Lukas Britschgi",
+    "country": "SUI"
+  },
+  {
+    "id": "kazuki-tomono-jpn",
+    "name": "Kazuki Tomono",
+    "country": "JPN"
+  },
+  {
+    "id": "jason-brown-usa",
+    "name": "Jason Brown",
+    "country": "USA"
+  },
+  {
+    "id": "kevin-aymoz-fra",
+    "name": "Kevin Aymoz",
+    "country": "FRA"
+  },
+  {
+    "id": "keegan-messing-can",
+    "name": "Keegan Messing",
+    "country": "CAN"
+  },
+  {
+    "id": "kaori-sakamoto-jpn",
+    "name": "Kaori Sakamoto",
+    "country": "JPN"
+  },
+  {
+    "id": "isabeau-levito-usa",
+    "name": "Isabeau Levito",
+    "country": "USA"
+  },
+  {
+    "id": "loena-hendrickx-bel",
+    "name": "Loena Hendrickx",
+    "country": "BEL"
+  },
+  {
+    "id": "mai-mihara-jpn",
+    "name": "Mai Mihara",
+    "country": "JPN"
+  },
+  {
+    "id": "bradie-tennell-usa",
+    "name": "Bradie Tennell",
+    "country": "USA"
+  },
+  {
+    "id": "kim-ye-lim-kor",
+    "name": "Kim Ye-lim",
+    "country": "KOR"
+  },
+  {
+    "id": "amber-glenn-usa",
+    "name": "Amber Glenn",
+    "country": "USA"
+  },
+  {
+    "id": "mana-kawabe-jpn",
+    "name": "Mana Kawabe",
+    "country": "JPN"
+  },
+  {
+    "id": "haein-lee-kor",
+    "name": "Haein Lee",
+    "country": "KOR"
+  },
+  {
+    "id": "young-you-kor",
+    "name": "Young You",
+    "country": "KOR"
+  },
+  {
+    "id": "felix-loch-ger",
+    "name": "Felix Loch",
+    "country": "GER"
+  },
+  {
+    "id": "jonas-mueller-aut",
+    "name": "Jonas Mueller",
+    "country": "AUT"
+  },
+  {
+    "id": "max-langenhan-ger",
+    "name": "Max Langenhan",
+    "country": "GER"
+  },
+  {
+    "id": "wolfgang-kindl-aut",
+    "name": "Wolfgang Kindl",
+    "country": "AUT"
+  },
+  {
+    "id": "nico-gleirscher-aut",
+    "name": "Nico Gleirscher",
+    "country": "AUT"
+  },
+  {
+    "id": "kristers-aparjods-lat",
+    "name": "Kristers Aparjods",
+    "country": "LAT"
+  },
+  {
+    "id": "dominik-fischnaller-ita",
+    "name": "Dominik Fischnaller",
+    "country": "ITA"
+  },
+  {
+    "id": "sebastian-bley-ger",
+    "name": "Sebastian Bley",
+    "country": "GER"
+  },
+  {
+    "id": "chris-mazdzer-usa",
+    "name": "Chris Mazdzer",
+    "country": "USA"
+  },
+  {
+    "id": "tucker-west-usa",
+    "name": "Tucker West",
+    "country": "USA"
+  },
+  {
+    "id": "julia-taubitz-ger",
+    "name": "Julia Taubitz",
+    "country": "GER"
+  },
+  {
+    "id": "lisa-schulte-aut",
+    "name": "Lisa Schulte",
+    "country": "AUT"
+  },
+  {
+    "id": "madeleine-egle-aut",
+    "name": "Madeleine Egle",
+    "country": "AUT"
+  },
+  {
+    "id": "dajana-eitberger-ger",
+    "name": "Dajana Eitberger",
+    "country": "GER"
+  },
+  {
+    "id": "natalie-geisenberger-ger",
+    "name": "Natalie Geisenberger",
+    "country": "GER"
+  },
+  {
+    "id": "tatjana-huefner-ger",
+    "name": "Tatjana Huefner",
+    "country": "GER"
+  },
+  {
+    "id": "summer-britcher-usa",
+    "name": "Summer Britcher",
+    "country": "USA"
+  },
+  {
+    "id": "emily-sweeney-usa",
+    "name": "Emily Sweeney",
+    "country": "USA"
+  },
+  {
+    "id": "eliza-tiruma-lat",
+    "name": "Eliza Tiruma",
+    "country": "LAT"
+  },
+  {
+    "id": "francesco-friedrich-ger",
+    "name": "Francesco Friedrich",
+    "country": "GER"
+  },
+  {
+    "id": "johannes-lochner-ger",
+    "name": "Johannes Lochner",
+    "country": "GER"
+  },
+  {
+    "id": "adam-edelman-ger",
+    "name": "Adam Edelman",
+    "country": "GER"
+  },
+  {
+    "id": "benjamin-maier-aut",
+    "name": "Benjamin Maier",
+    "country": "AUT"
+  },
+  {
+    "id": "brad-hall-gbr",
+    "name": "Brad Hall",
+    "country": "GBR"
+  },
+  {
+    "id": "christoph-hafer-ger",
+    "name": "Christoph Hafer",
+    "country": "GER"
+  },
+  {
+    "id": "hunter-church-usa",
+    "name": "Hunter Church",
+    "country": "USA"
+  },
+  {
+    "id": "frank-delduca-usa",
+    "name": "Frank Delduca",
+    "country": "USA"
+  },
+  {
+    "id": "justin-kripps-can",
+    "name": "Justin Kripps",
+    "country": "CAN"
+  },
+  {
+    "id": "oskars-kibermanis-lat",
+    "name": "Oskars Kibermanis",
+    "country": "LAT"
+  },
+  {
+    "id": "laura-nolte-ger",
+    "name": "Laura Nolte",
+    "country": "GER"
+  },
+  {
+    "id": "lisa-buckwitz-ger",
+    "name": "Lisa Buckwitz",
+    "country": "GER"
+  },
+  {
+    "id": "kaillie-humphries-usa",
+    "name": "Kaillie Humphries",
+    "country": "USA"
+  },
+  {
+    "id": "elana-meyers-taylor-usa",
+    "name": "Elana Meyers Taylor",
+    "country": "USA"
+  },
+  {
+    "id": "mariama-jamanka-ger",
+    "name": "Mariama Jamanka",
+    "country": "GER"
+  },
+  {
+    "id": "christine-de-bruin-can",
+    "name": "Christine de Bruin",
+    "country": "CAN"
+  },
+  {
+    "id": "kim-kalicki-ger",
+    "name": "Kim Kalicki",
+    "country": "GER"
+  },
+  {
+    "id": "melanie-hasler-sui",
+    "name": "Melanie Hasler",
+    "country": "SUI"
+  },
+  {
+    "id": "matt-weston-gbr",
+    "name": "Matt Weston",
+    "country": "GBR"
+  },
+  {
+    "id": "martins-dukurs-lat",
+    "name": "Martins Dukurs",
+    "country": "LAT"
+  },
+  {
+    "id": "marcus-wyatt-gbr",
+    "name": "Marcus Wyatt",
+    "country": "GBR"
+  },
+  {
+    "id": "christopher-grotheer-ger",
+    "name": "Christopher Grotheer",
+    "country": "GER"
+  },
+  {
+    "id": "axel-jungk-ger",
+    "name": "Axel Jungk",
+    "country": "GER"
+  },
+  {
+    "id": "austin-florian-usa",
+    "name": "Austin Florian",
+    "country": "USA"
+  },
+  {
+    "id": "vladyslav-heraskevych-ukr",
+    "name": "Vladyslav Heraskevych",
+    "country": "UKR"
+  },
+  {
+    "id": "seunggi-jung-kor",
+    "name": "Seunggi Jung",
+    "country": "KOR"
+  },
+  {
+    "id": "janine-flock-aut",
+    "name": "Janine Flock",
+    "country": "AUT"
+  },
+  {
+    "id": "kim-meylemans-bel",
+    "name": "Kim Meylemans",
+    "country": "BEL"
+  },
+  {
+    "id": "tina-hermann-ger",
+    "name": "Tina Hermann",
+    "country": "GER"
+  },
+  {
+    "id": "jaclyn-narracott-aus",
+    "name": "Jaclyn Narracott",
+    "country": "AUS"
+  },
+  {
+    "id": "kimberley-bos-ned",
+    "name": "Kimberley Bos",
+    "country": "NED"
+  },
+  {
+    "id": "hannah-neise-ger",
+    "name": "Hannah Neise",
+    "country": "GER"
+  },
+  {
+    "id": "amelia-coltman-gbr",
+    "name": "Amelia Coltman",
+    "country": "GBR"
+  },
+  {
+    "id": "katie-uhlaender-usa",
+    "name": "Katie Uhlaender",
+    "country": "USA"
+  },
+  {
+    "id": "bruce-mouat-sco",
+    "name": "Bruce Mouat",
+    "country": "SCO"
+  },
+  {
+    "id": "brad-gushue-can",
+    "name": "Brad Gushue",
+    "country": "CAN"
+  },
+  {
+    "id": "niklas-edin-swe",
+    "name": "Niklas Edin",
+    "country": "SWE"
+  },
+  {
+    "id": "yannick-schwaller-sui",
+    "name": "Yannick Schwaller",
+    "country": "SUI"
+  },
+  {
+    "id": "joel-retornaz-ita",
+    "name": "Joel Retornaz",
+    "country": "ITA"
+  },
+  {
+    "id": "korey-dropkin-usa",
+    "name": "Korey Dropkin",
+    "country": "USA"
+  },
+  {
+    "id": "magnus-ramsfjell-nor",
+    "name": "Magnus Ramsfjell",
+    "country": "NOR"
+  },
+  {
+    "id": "steffen-walstad-nor",
+    "name": "Steffen Walstad",
+    "country": "NOR"
+  },
+  {
+    "id": "silvana-tirinzoni-sui",
+    "name": "Silvana Tirinzoni",
+    "country": "SUI"
+  },
+  {
+    "id": "rachel-homan-can",
+    "name": "Rachel Homan",
+    "country": "CAN"
+  },
+  {
+    "id": "kim-eun-jung-kor",
+    "name": "Kim Eun-jung",
+    "country": "KOR"
+  },
+  {
+    "id": "anna-hasselborg-swe",
+    "name": "Anna Hasselborg",
+    "country": "SWE"
+  },
+  {
+    "id": "satsuki-fujisawa-jpn",
+    "name": "Satsuki Fujisawa",
+    "country": "JPN"
+  },
+  {
+    "id": "tabitha-peterson-usa",
+    "name": "Tabitha Peterson",
+    "country": "USA"
+  },
+  {
+    "id": "marianne-roervik-nor",
+    "name": "Marianne Roervik",
+    "country": "NOR"
+  },
+  {
+    "id": "kristin-skaslien-nor",
+    "name": "Kristin Skaslien",
+    "country": "NOR"
+  },
+  {
+    "id": "team-canada-can",
+    "name": "Team Canada",
+    "country": "CAN"
+  },
+  {
+    "id": "team-finland-fin",
+    "name": "Team Finland",
+    "country": "FIN"
+  },
+  {
+    "id": "team-czechia-cze",
+    "name": "Team Czechia",
+    "country": "CZE"
+  },
+  {
+    "id": "team-switzerland-sui",
+    "name": "Team Switzerland",
+    "country": "SUI"
+  },
+  {
+    "id": "team-usa-usa",
+    "name": "Team USA",
+    "country": "USA"
+  },
+  {
+    "id": "team-sweden-swe",
+    "name": "Team Sweden",
+    "country": "SWE"
+  },
+  {
+    "id": "team-germany-ger",
+    "name": "Team Germany",
+    "country": "GER"
+  },
+  {
+    "id": "team-slovakia-svk",
+    "name": "Team Slovakia",
+    "country": "SVK"
+  },
+  {
+    "id": "team-japan-jpn",
+    "name": "Team Japan",
+    "country": "JPN"
   }
 ]

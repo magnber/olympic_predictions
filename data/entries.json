@@ -8398,5 +8398,3288 @@
     "score": 5,
     "source_url": "https://isu-skating.com/speed-skating/world-standings/",
     "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "mikael-kingsbury-can",
+    "score": 1100,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "mikael-kingsbury-can",
+    "score": 1100,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "matt-graham-aus",
+    "score": 950,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "matt-graham-aus",
+    "score": 950,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "nick-page-usa",
+    "score": 850,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "nick-page-usa",
+    "score": 850,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "ikuma-horishima-jpn",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "ikuma-horishima-jpn",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "walter-wallberg-swe",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "walter-wallberg-swe",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "benjamin-cavet-fra",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "benjamin-cavet-fra",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "ludvig-fjallstrom-swe",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "ludvig-fjallstrom-swe",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "daichi-hara-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "daichi-hara-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "cole-mcdonald-usa",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "cole-mcdonald-usa",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "dylan-walczyk-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "dylan-walczyk-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "rasmus-stegfeldt-swe",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "rasmus-stegfeldt-swe",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "filip-gravenfors-swe",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "filip-gravenfors-swe",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "albin-holmgren-swe",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "albin-holmgren-swe",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "felix-elofsson-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "felix-elofsson-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-moguls",
+    "athlete_id": "birk-ruud-nor",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-dual-moguls",
+    "athlete_id": "birk-ruud-nor",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "jaelin-kauf-usa",
+    "score": 1336,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "jaelin-kauf-usa",
+    "score": 1336,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "perrine-laffont-fra",
+    "score": 1090,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "perrine-laffont-fra",
+    "score": 1090,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "tess-johnson-usa",
+    "score": 683,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "tess-johnson-usa",
+    "score": 683,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "maia-schwinghammer-can",
+    "score": 681,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "maia-schwinghammer-can",
+    "score": 681,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "olivia-giaccio-usa",
+    "score": 573,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "olivia-giaccio-usa",
+    "score": 573,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "jakara-anthony-aus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "jakara-anthony-aus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "anri-kawamura-jpn",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "anri-kawamura-jpn",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "hannah-soar-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "hannah-soar-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "anastassiya-gorodko-kaz",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "anastassiya-gorodko-kaz",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "justine-dufour-lapointe-can",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "justine-dufour-lapointe-can",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "chloe-dufour-lapointe-can",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "chloe-dufour-lapointe-can",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "hedda-berntsen-nor",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "hedda-berntsen-nor",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "moa-backlund-swe",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "moa-backlund-swe",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-moguls",
+    "athlete_id": "tilde-hansson-swe",
+    "score": 150,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-dual-moguls",
+    "athlete_id": "tilde-hansson-swe",
+    "score": 150,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "qi-guangpu-chn",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "noe-roth-sui",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "wang-xindi-chn",
+    "score": 304,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "sun-jiaxu-chn",
+    "score": 298,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "christopher-lillis-usa",
+    "score": 274,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "eric-loughran-usa",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "maxim-burov-rus",
+    "score": 220,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "mykola-puzderko-ukr",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "lloyd-wallace-gbr",
+    "score": 180,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-aerials",
+    "athlete_id": "pirmin-werner-sui",
+    "score": 160,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "xu-mengtao-chn",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "laura-peel-aus",
+    "score": 380,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "winter-vinecki-usa",
+    "score": 320,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "megan-nick-usa",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "kong-fanyu-chn",
+    "score": 280,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "xu-sicun-chn",
+    "score": 260,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "marion-thenault-can",
+    "score": 240,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "mengtao-xu-chn",
+    "score": 220,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "liubov-nikitina-rus",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-aerials",
+    "athlete_id": "olga-polyuk-ukr",
+    "score": 180,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/moguls-aerials/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "reece-howden-can",
+    "score": 1038,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "simone-deromedis-ita",
+    "score": 965,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "florian-wilmsmann-ger",
+    "score": 902,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "youri-duplessis-kergomard-fra",
+    "score": 715,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "alex-fiva-sui",
+    "score": 638,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "david-mobaerg-swe",
+    "score": 544,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "kevin-drury-can",
+    "score": 518,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "ryan-regez-sui",
+    "score": 495,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "tobias-baur-sui",
+    "score": 413,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "adam-kappacher-aut",
+    "score": 392,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "erik-mobaerg-swe",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "victor-oehling-norberg-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "kristoffer-haugen-nor",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-ski-cross",
+    "athlete_id": "terence-tchiknavorian-fra",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "marielle-thompson-can",
+    "score": 900,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "sandra-naeslund-swe",
+    "score": 850,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "fanny-smith-sui",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "brittany-phelan-can",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "talina-gantenbein-sui",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "daniela-maier-ger",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "india-sherret-can",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "lisa-andersson-swe",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "alexandra-edebo-swe",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "courtney-hoffos-can",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "andrea-limbacher-aut",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-ski-cross",
+    "athlete_id": "alizee-baron-fra",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/ski-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "nico-porteous-nzl",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "birk-ruud-nor",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "alex-ferreira-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "david-wise-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "aaron-blunck-usa",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "noah-bowman-can",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "brendan-mackay-can",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "simon-d-artois-can",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "kevin-rolland-fra",
+    "score": 200,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-halfpipe",
+    "athlete_id": "ben-harrington-nzl",
+    "score": 150,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "eileen-gu-chn",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "rachael-karker-can",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "zoe-atkin-gbr",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "hanna-faulhaber-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "amy-fraser-can",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "valeriya-demidova-rus",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "sabrina-cakmakli-ger",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-halfpipe",
+    "athlete_id": "cassie-sharpe-can",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "birk-ruud-nor",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "birk-ruud-nor",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "oliwer-magnusson-swe",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "oliwer-magnusson-swe",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "alex-hall-usa",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "alex-hall-usa",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "mac-forehand-usa",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "mac-forehand-usa",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "colby-stevenson-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "colby-stevenson-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "andri-ragettli-sui",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "andri-ragettli-sui",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "ferdinand-dahl-nor",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "ferdinand-dahl-nor",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "kim-gubser-sui",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "kim-gubser-sui",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "jesper-tjader-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "jesper-tjader-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-slopestyle",
+    "athlete_id": "henrik-harlaut-swe",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-m-big-air",
+    "athlete_id": "henrik-harlaut-swe",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "eileen-gu-chn",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "eileen-gu-chn",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "kelly-sildaru-est",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "kelly-sildaru-est",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "megan-oldham-can",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "megan-oldham-can",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "mathilde-gremaud-sui",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "mathilde-gremaud-sui",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "olivia-asselin-can",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "olivia-asselin-can",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "darian-stevens-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "darian-stevens-usa",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "tess-ledeux-fra",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "tess-ledeux-fra",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "johanne-killi-nor",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "johanne-killi-nor",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-slopestyle",
+    "athlete_id": "jennie-lee-burmansson-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "freestyle-w-big-air",
+    "athlete_id": "jennie-lee-burmansson-swe",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/freestyle-freeski/freeski/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "yuto-totsuka-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "valentino-guseli-aus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "ryusei-yamada-jpn",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "ruka-hirano-jpn",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "jan-scherrer-sui",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "scotty-james-aus",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "chase-josey-usa",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "taylor-gold-usa",
+    "score": 280,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "ayumu-hirano-jpn",
+    "score": 260,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-halfpipe",
+    "athlete_id": "andre-hoeflich-ger",
+    "score": 240,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "chloe-kim-usa",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "sena-tomita-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "queralt-castellet-esp",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "xuetong-cai-chn",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "maddie-mastro-usa",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "mitsuki-ono-jpn",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "elizabeth-hosking-can",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-halfpipe",
+    "athlete_id": "kurumi-imai-jpn",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-halfpipe/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "su-yiming-chn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "su-yiming-chn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "kira-kimura-jpn",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "kira-kimura-jpn",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "marcus-kleveland-nor",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "marcus-kleveland-nor",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "mark-mcmorris-can",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "mark-mcmorris-can",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "max-parrot-can",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "max-parrot-can",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "mons-roisland-nor",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "mons-roisland-nor",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "staale-sandbech-nor",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "staale-sandbech-nor",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "chris-corning-usa",
+    "score": 280,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "chris-corning-usa",
+    "score": 280,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "sebastien-toutant-can",
+    "score": 260,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "sebastien-toutant-can",
+    "score": 260,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-slopestyle",
+    "athlete_id": "red-gerard-usa",
+    "score": 240,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-big-air",
+    "athlete_id": "red-gerard-usa",
+    "score": 240,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "zoi-sadowski-synnott-nzl",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "zoi-sadowski-synnott-nzl",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "anna-gasser-aut",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "anna-gasser-aut",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "kokomo-murase-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "kokomo-murase-jpn",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "tess-coady-aus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "tess-coady-aus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "julia-marino-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "julia-marino-usa",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "laurie-blouin-can",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "laurie-blouin-can",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "jamie-anderson-usa",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "jamie-anderson-usa",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-slopestyle",
+    "athlete_id": "mia-brookes-gbr",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-big-air",
+    "athlete_id": "mia-brookes-gbr",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-slopestyle/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "eliot-grondin-can",
+    "score": 827,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "loan-bozzolo-fra",
+    "score": 541,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "aidan-chollet-fra",
+    "score": 503,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "jakob-dusek-aut",
+    "score": 491,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "adam-lambert-aus",
+    "score": 394,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "julien-tomas-fra",
+    "score": 372,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "cameron-bolton-aus",
+    "score": 354,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "leon-ulbricht-ger",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "alessandro-haemmerle-aut",
+    "score": 342,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-cross",
+    "athlete_id": "merlin-surget-fra",
+    "score": 313,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "lindsey-jacobellis-usa",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "charlotte-bankes-gbr",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "belle-brockhoff-aus",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "caterina-carpano-ita",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "michela-moioli-ita",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "eva-samkova-cze",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "hanna-ihedioha-ger",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-cross",
+    "athlete_id": "lara-casanova-sui",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/snowboard-cross/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "benjamin-karl-aut",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "dmitry-loginov-rus",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "roland-fischnaller-ita",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "tim-mastnak-slo",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "sangho-lee-kor",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "edwin-coratti-ita",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "arvid-auner-aut",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-m-pgs",
+    "athlete_id": "victor-wild-rus",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "ramona-theresia-hofmeister-ger",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "ester-ledecka-cze",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "daniela-ulbing-aut",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "julie-zogg-sui",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "sofia-nadyrshina-rus",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "selina-joerg-ger",
+    "score": 350,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "sabine-schoeffmann-aut",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "snowboard-w-pgs",
+    "athlete_id": "cheyenne-loch-ger",
+    "score": 250,
+    "source_url": "https://www.fis-ski.com/DB/snowboard/parallel/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "william-dandjinou-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "william-dandjinou-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "william-dandjinou-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "pietro-sighel-ita",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "pietro-sighel-ita",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "pietro-sighel-ita",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "park-ji-won-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "park-ji-won-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "park-ji-won-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "hwang-dae-heon-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "hwang-dae-heon-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "hwang-dae-heon-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "sebastien-lepape-fra",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "sebastien-lepape-fra",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "sebastien-lepape-fra",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "liu-shaolin-sandor-hun",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "liu-shaolin-sandor-hun",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "liu-shaolin-sandor-hun",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "ren-ziwei-chn",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "ren-ziwei-chn",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "ren-ziwei-chn",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "liu-shaoang-hun",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "liu-shaoang-hun",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "liu-shaoang-hun",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "steven-dubois-can",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "steven-dubois-can",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "steven-dubois-can",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "pascal-dion-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "pascal-dion-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "pascal-dion-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "luca-spechenhauser-ita",
+    "score": 300,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "luca-spechenhauser-ita",
+    "score": 300,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "luca-spechenhauser-ita",
+    "score": 300,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-500m",
+    "athlete_id": "oleh-handei-ukr",
+    "score": 250,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1000m",
+    "athlete_id": "oleh-handei-ukr",
+    "score": 250,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-m-1500m",
+    "athlete_id": "oleh-handei-ukr",
+    "score": 250,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "courtney-sarault-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "courtney-sarault-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "courtney-sarault-can",
+    "score": 800,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "xandra-velzeboer-ned",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "xandra-velzeboer-ned",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "xandra-velzeboer-ned",
+    "score": 750,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "kim-gil-li-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "kim-gil-li-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "kim-gil-li-kor",
+    "score": 700,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "choi-min-jeong-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "choi-min-jeong-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "choi-min-jeong-kor",
+    "score": 650,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "suzanne-schulting-ned",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "suzanne-schulting-ned",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "suzanne-schulting-ned",
+    "score": 600,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "kim-boutin-can",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "kim-boutin-can",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "kim-boutin-can",
+    "score": 550,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "natalia-maliszewska-pol",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "natalia-maliszewska-pol",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "natalia-maliszewska-pol",
+    "score": 500,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "kristen-santos-griswold-usa",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "kristen-santos-griswold-usa",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "kristen-santos-griswold-usa",
+    "score": 450,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "hanne-desmet-bel",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "hanne-desmet-bel",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "hanne-desmet-bel",
+    "score": 400,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-500m",
+    "athlete_id": "florence-brunelle-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1000m",
+    "athlete_id": "florence-brunelle-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "short-track-w-1500m",
+    "athlete_id": "florence-brunelle-can",
+    "score": 350,
+    "source_url": "https://isu-skating.com/short-track/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "vinzenz-geiger-ger",
+    "score": 1506,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "vinzenz-geiger-ger",
+    "score": 1506,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "jarl-magnus-riiber-nor",
+    "score": 1385,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "jarl-magnus-riiber-nor",
+    "score": 1385,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "johannes-lamparter-aut",
+    "score": 1317,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "johannes-lamparter-aut",
+    "score": 1317,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "julian-schmid-ger",
+    "score": 1100,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "julian-schmid-ger",
+    "score": 1100,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "ryota-yamamoto-jpn",
+    "score": 950,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "ryota-yamamoto-jpn",
+    "score": 950,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "stefan-rettenegger-aut",
+    "score": 850,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "stefan-rettenegger-aut",
+    "score": 850,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "jens-luraas-oftebro-nor",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "jens-luraas-oftebro-nor",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "manuel-faisst-ger",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "manuel-faisst-ger",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "ilkka-herola-fin",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "ilkka-herola-fin",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "eero-hirvonen-fin",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "eero-hirvonen-fin",
+    "score": 650,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "joergen-graabak-nor",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "joergen-graabak-nor",
+    "score": 600,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "espen-andersen-nor",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "espen-andersen-nor",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "lukas-greiderer-aut",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "lukas-greiderer-aut",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "espen-bjoernstad-nor",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "espen-bjoernstad-nor",
+    "score": 450,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-normal-hill",
+    "athlete_id": "akito-watabe-jpn",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-large-hill",
+    "athlete_id": "akito-watabe-jpn",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "ilia-malinin-usa",
+    "score": 1500,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "yuma-kagiyama-jpn",
+    "score": 1390,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "adam-siao-him-fa-fra",
+    "score": 1333,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "shun-sato-jpn",
+    "score": 1267,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "daniel-grassl-ita",
+    "score": 1186,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "nika-egadze-geo",
+    "score": 1156,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "mikhail-shaidorov-kaz",
+    "score": 1132,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "lukas-britschgi-sui",
+    "score": 1129,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "kazuki-tomono-jpn",
+    "score": 1105,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "jason-brown-usa",
+    "score": 1067,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "kevin-aymoz-fra",
+    "score": 1000,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-m",
+    "athlete_id": "keegan-messing-can",
+    "score": 950,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "kaori-sakamoto-jpn",
+    "score": 1500,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "isabeau-levito-usa",
+    "score": 1400,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "loena-hendrickx-bel",
+    "score": 1350,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "mai-mihara-jpn",
+    "score": 1300,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "bradie-tennell-usa",
+    "score": 1250,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "kim-ye-lim-kor",
+    "score": 1200,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "amber-glenn-usa",
+    "score": 1150,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "mana-kawabe-jpn",
+    "score": 1100,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "haein-lee-kor",
+    "score": 1050,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "figure-skating-w",
+    "athlete_id": "young-you-kor",
+    "score": 1000,
+    "source_url": "https://isu-skating.com/figure-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "felix-loch-ger",
+    "score": 246,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "jonas-mueller-aut",
+    "score": 245,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "max-langenhan-ger",
+    "score": 240,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "wolfgang-kindl-aut",
+    "score": 159,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "nico-gleirscher-aut",
+    "score": 152,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "kristers-aparjods-lat",
+    "score": 140,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "dominik-fischnaller-ita",
+    "score": 130,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "sebastian-bley-ger",
+    "score": 120,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "chris-mazdzer-usa",
+    "score": 100,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-m-singles",
+    "athlete_id": "tucker-west-usa",
+    "score": 90,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "julia-taubitz-ger",
+    "score": 250,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "lisa-schulte-aut",
+    "score": 220,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "madeleine-egle-aut",
+    "score": 200,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "dajana-eitberger-ger",
+    "score": 180,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "natalie-geisenberger-ger",
+    "score": 160,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "tatjana-huefner-ger",
+    "score": 140,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "summer-britcher-usa",
+    "score": 120,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "emily-sweeney-usa",
+    "score": 100,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "luge-w-singles",
+    "athlete_id": "eliza-tiruma-lat",
+    "score": 90,
+    "source_url": "https://www.fil-luge.org/en/overall-scores",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "francesco-friedrich-ger",
+    "score": 800,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "francesco-friedrich-ger",
+    "score": 800,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "johannes-lochner-ger",
+    "score": 750,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "johannes-lochner-ger",
+    "score": 750,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "adam-edelman-ger",
+    "score": 700,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "adam-edelman-ger",
+    "score": 700,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "benjamin-maier-aut",
+    "score": 650,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "benjamin-maier-aut",
+    "score": 650,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "brad-hall-gbr",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "brad-hall-gbr",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "christoph-hafer-ger",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "christoph-hafer-ger",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "hunter-church-usa",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "hunter-church-usa",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "frank-delduca-usa",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "frank-delduca-usa",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "justin-kripps-can",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "justin-kripps-can",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-two-man",
+    "athlete_id": "oskars-kibermanis-lat",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-m-four-man",
+    "athlete_id": "oskars-kibermanis-lat",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "laura-nolte-ger",
+    "score": 700,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "laura-nolte-ger",
+    "score": 700,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "lisa-buckwitz-ger",
+    "score": 650,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "lisa-buckwitz-ger",
+    "score": 650,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "kaillie-humphries-usa",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "kaillie-humphries-usa",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "elana-meyers-taylor-usa",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "elana-meyers-taylor-usa",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "mariama-jamanka-ger",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "mariama-jamanka-ger",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "christine-de-bruin-can",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "christine-de-bruin-can",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "kim-kalicki-ger",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "kim-kalicki-ger",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-two-woman",
+    "athlete_id": "melanie-hasler-sui",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "bobsled-w-monobob",
+    "athlete_id": "melanie-hasler-sui",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "matt-weston-gbr",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "martins-dukurs-lat",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "marcus-wyatt-gbr",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "christopher-grotheer-ger",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "axel-jungk-ger",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "austin-florian-usa",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "vladyslav-heraskevych-ukr",
+    "score": 300,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-m",
+    "athlete_id": "seunggi-jung-kor",
+    "score": 280,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "janine-flock-aut",
+    "score": 600,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "kim-meylemans-bel",
+    "score": 550,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "tina-hermann-ger",
+    "score": 500,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "jaclyn-narracott-aus",
+    "score": 450,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "kimberley-bos-ned",
+    "score": 400,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "hannah-neise-ger",
+    "score": 350,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "amelia-coltman-gbr",
+    "score": 300,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "skeleton-w",
+    "athlete_id": "katie-uhlaender-usa",
+    "score": 250,
+    "source_url": "https://www.ibsf.org/en/races-and-results",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "bruce-mouat-sco",
+    "score": 84328,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "brad-gushue-can",
+    "score": 77015,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "niklas-edin-swe",
+    "score": 67254,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "yannick-schwaller-sui",
+    "score": 53716,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "joel-retornaz-ita",
+    "score": 41000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "korey-dropkin-usa",
+    "score": 38000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "magnus-ramsfjell-nor",
+    "score": 35000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-m",
+    "athlete_id": "steffen-walstad-nor",
+    "score": 32000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "silvana-tirinzoni-sui",
+    "score": 89851,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "rachel-homan-can",
+    "score": 83284,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "kim-eun-jung-kor",
+    "score": 55925,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "anna-hasselborg-swe",
+    "score": 46567,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "satsuki-fujisawa-jpn",
+    "score": 36836,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "tabitha-peterson-usa",
+    "score": 33000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "marianne-roervik-nor",
+    "score": 30000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-w",
+    "athlete_id": "kristin-skaslien-nor",
+    "score": 28000,
+    "source_url": "https://worldcurling.org/teamrankings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-canada-can",
+    "score": 4100,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-finland-fin",
+    "score": 3955,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-czechia-cze",
+    "score": 3945,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-switzerland-sui",
+    "score": 3945,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-usa-usa",
+    "score": 3900,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-sweden-swe",
+    "score": 3850,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-germany-ger",
+    "score": 3600,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-m",
+    "athlete_id": "team-slovakia-svk",
+    "score": 3500,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-usa-usa",
+    "score": 4150,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-canada-can",
+    "score": 4140,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-finland-fin",
+    "score": 3930,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-czechia-cze",
+    "score": 3920,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-switzerland-sui",
+    "score": 3855,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-sweden-swe",
+    "score": 3800,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-japan-jpn",
+    "score": 3600,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "hockey-w",
+    "athlete_id": "team-germany-ger",
+    "score": 3400,
+    "source_url": "https://www.iihf.com/en/worldranking",
+    "source_date": "2026-02-05"
   }
 ]
