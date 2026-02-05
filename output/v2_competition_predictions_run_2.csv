@@ -1,0 +1,775 @@
+competition_id,competition_name,sport_id,medal,rank,athlete_id,athlete_name,country,probability,win_count
+bobsled-m-four-man,Four-Man Bobsled,bobsled,bronze,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,12.9,12899
+bobsled-m-four-man,Four-Man Bobsled,bobsled,bronze,2,justin-kripps-can,Justin Kripps,CAN,12.2,12207
+bobsled-m-four-man,Four-Man Bobsled,bobsled,bronze,3,frank-delduca-usa,Frank Delduca,USA,11.4,11438
+bobsled-m-four-man,Four-Man Bobsled,bobsled,gold,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,18.5,18508
+bobsled-m-four-man,Four-Man Bobsled,bobsled,gold,2,justin-kripps-can,Justin Kripps,CAN,15.2,15204
+bobsled-m-four-man,Four-Man Bobsled,bobsled,gold,3,frank-delduca-usa,Frank Delduca,USA,12.7,12684
+bobsled-m-four-man,Four-Man Bobsled,bobsled,silver,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,14.7,14704
+bobsled-m-four-man,Four-Man Bobsled,bobsled,silver,2,justin-kripps-can,Justin Kripps,CAN,13.5,13461
+bobsled-m-four-man,Four-Man Bobsled,bobsled,silver,3,frank-delduca-usa,Frank Delduca,USA,12.1,12058
+speed-skating-m-10000m,Men's 10000m,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.7,10719
+speed-skating-m-10000m,Men's 10000m,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.5,8513
+speed-skating-m-10000m,Men's 10000m,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.1,8071
+speed-skating-m-10000m,Men's 10000m,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.6,23578
+speed-skating-m-10000m,Men's 10000m,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.4,10424
+speed-skating-m-10000m,Men's 10000m,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.7,9676
+speed-skating-m-10000m,Men's 10000m,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,14.8,14780
+speed-skating-m-10000m,Men's 10000m,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.2,9235
+speed-skating-m-10000m,Men's 10000m,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,9.0,8963
+speed-skating-m-1000m,Men's 1000m,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.7,10723
+short-track-m-1000m,Men's 1000m,short-track,bronze,1,william-dandjinou-can,William Dandjinou,CAN,11.3,11252
+speed-skating-m-1000m,Men's 1000m,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.5,8467
+short-track-m-1000m,Men's 1000m,short-track,bronze,2,pietro-sighel-ita,Pietro Sighel,ITA,10.8,10768
+speed-skating-m-1000m,Men's 1000m,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.1,8139
+short-track-m-1000m,Men's 1000m,short-track,bronze,3,park-ji-won-kor,Park Ji-won,KOR,10.4,10443
+speed-skating-m-1000m,Men's 1000m,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.7,23662
+short-track-m-1000m,Men's 1000m,short-track,gold,1,william-dandjinou-can,William Dandjinou,CAN,15.0,15033
+speed-skating-m-1000m,Men's 1000m,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.1,10108
+short-track-m-1000m,Men's 1000m,short-track,gold,2,pietro-sighel-ita,Pietro Sighel,ITA,13.7,13663
+speed-skating-m-1000m,Men's 1000m,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.5,9541
+short-track-m-1000m,Men's 1000m,short-track,gold,3,park-ji-won-kor,Park Ji-won,KOR,12.2,12205
+speed-skating-m-1000m,Men's 1000m,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,15.0,15039
+short-track-m-1000m,Men's 1000m,short-track,silver,1,william-dandjinou-can,William Dandjinou,CAN,12.7,12673
+speed-skating-m-1000m,Men's 1000m,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.4,9427
+short-track-m-1000m,Men's 1000m,short-track,silver,2,pietro-sighel-ita,Pietro Sighel,ITA,12.2,12154
+speed-skating-m-1000m,Men's 1000m,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,8.8,8788
+short-track-m-1000m,Men's 1000m,short-track,silver,3,park-ji-won-kor,Park Ji-won,KOR,11.3,11300
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,bronze,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,8.1,8051
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,bronze,2,eric-perrot-fra,Eric Perrot,FRA,7.8,7837
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,bronze,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.1,7061
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,gold,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,11.6,11571
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,gold,2,eric-perrot-fra,Eric Perrot,FRA,11.1,11147
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,gold,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,8.9,8877
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,silver,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,9.3,9338
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,silver,2,eric-perrot-fra,Eric Perrot,FRA,9.3,9264
+biathlon-m-10km-sprint,Men's 10km Sprint,biathlon,silver,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.9,7873
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,bronze,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,8.0,7969
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,bronze,2,eric-perrot-fra,Eric Perrot,FRA,7.8,7819
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,bronze,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.1,7116
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,gold,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,11.7,11732
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,gold,2,eric-perrot-fra,Eric Perrot,FRA,11.1,11131
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,gold,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,9.0,9029
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,silver,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,9.3,9328
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,silver,2,eric-perrot-fra,Eric Perrot,FRA,9.1,9117
+biathlon-m-12.5km-pursuit,Men's 12.5km Pursuit,biathlon,silver,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.8,7819
+speed-skating-m-1500m,Men's 1500m,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.8,10756
+short-track-m-1500m,Men's 1500m,short-track,bronze,1,william-dandjinou-can,William Dandjinou,CAN,11.2,11211
+speed-skating-m-1500m,Men's 1500m,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.4,8393
+short-track-m-1500m,Men's 1500m,short-track,bronze,2,pietro-sighel-ita,Pietro Sighel,ITA,10.9,10910
+speed-skating-m-1500m,Men's 1500m,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.1,8061
+short-track-m-1500m,Men's 1500m,short-track,bronze,3,park-ji-won-kor,Park Ji-won,KOR,10.4,10376
+speed-skating-m-1500m,Men's 1500m,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.6,23632
+short-track-m-1500m,Men's 1500m,short-track,gold,1,william-dandjinou-can,William Dandjinou,CAN,14.8,14848
+speed-skating-m-1500m,Men's 1500m,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.4,10395
+short-track-m-1500m,Men's 1500m,short-track,gold,2,pietro-sighel-ita,Pietro Sighel,ITA,13.7,13686
+speed-skating-m-1500m,Men's 1500m,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.6,9609
+short-track-m-1500m,Men's 1500m,short-track,gold,3,park-ji-won-kor,Park Ji-won,KOR,12.3,12291
+speed-skating-m-1500m,Men's 1500m,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,15.0,14992
+short-track-m-1500m,Men's 1500m,short-track,silver,1,william-dandjinou-can,William Dandjinou,CAN,12.8,12808
+speed-skating-m-1500m,Men's 1500m,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.1,9121
+short-track-m-1500m,Men's 1500m,short-track,silver,2,pietro-sighel-ita,Pietro Sighel,ITA,12.0,12009
+speed-skating-m-1500m,Men's 1500m,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,9.1,9094
+short-track-m-1500m,Men's 1500m,short-track,silver,3,park-ji-won-kor,Park Ji-won,KOR,11.2,11222
+cross-country-m-15km,Men's 15km,cross-country,bronze,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,8.1,8050
+cross-country-m-15km,Men's 15km,cross-country,bronze,2,edvin-anger-swe,Edvin Anger,SWE,6.9,6850
+cross-country-m-15km,Men's 15km,cross-country,bronze,3,erik-valnes-nor,Erik Valnes,NOR,6.3,6288
+cross-country-m-15km,Men's 15km,cross-country,gold,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,12.1,12102
+cross-country-m-15km,Men's 15km,cross-country,gold,2,edvin-anger-swe,Edvin Anger,SWE,8.6,8646
+cross-country-m-15km,Men's 15km,cross-country,gold,3,erik-valnes-nor,Erik Valnes,NOR,7.0,7030
+cross-country-m-15km,Men's 15km,cross-country,silver,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,9.7,9705
+cross-country-m-15km,Men's 15km,cross-country,silver,2,edvin-anger-swe,Edvin Anger,SWE,7.5,7512
+cross-country-m-15km,Men's 15km,cross-country,silver,3,federico-pellegrino-ita,Federico Pellegrino,ITA,6.6,6567
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,bronze,1,eric-perrot-fra,Eric Perrot,FRA,8.0,8032
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,bronze,2,tommaso-giacomel-ita,Tommaso Giacomel,ITA,8.0,8010
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,bronze,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.1,7058
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,gold,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,11.5,11521
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,gold,2,eric-perrot-fra,Eric Perrot,FRA,11.0,11035
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,gold,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,8.9,8930
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,silver,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,9.4,9400
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,silver,2,eric-perrot-fra,Eric Perrot,FRA,9.3,9307
+biathlon-m-15km-mass-start,Men's 15km Mass Start,biathlon,silver,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.8,7850
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,bronze,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,8.0,8018
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,bronze,2,eric-perrot-fra,Eric Perrot,FRA,7.9,7879
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,bronze,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,6.9,6913
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,gold,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,11.7,11680
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,gold,2,eric-perrot-fra,Eric Perrot,FRA,11.1,11081
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,gold,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,8.9,8899
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,silver,1,tommaso-giacomel-ita,Tommaso Giacomel,ITA,9.4,9412
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,silver,2,eric-perrot-fra,Eric Perrot,FRA,8.9,8937
+biathlon-m-20km-individual,Men's 20km Individual,biathlon,silver,3,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,7.8,7819
+speed-skating-m-5000m,Men's 5000m,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.5,10470
+speed-skating-m-5000m,Men's 5000m,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.6,8557
+speed-skating-m-5000m,Men's 5000m,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.1,8121
+speed-skating-m-5000m,Men's 5000m,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.6,23629
+speed-skating-m-5000m,Men's 5000m,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.1,10077
+speed-skating-m-5000m,Men's 5000m,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.5,9506
+speed-skating-m-5000m,Men's 5000m,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,14.9,14910
+speed-skating-m-5000m,Men's 5000m,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.4,9441
+speed-skating-m-5000m,Men's 5000m,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,9.1,9051
+speed-skating-m-500m,Men's 500m,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.7,10706
+short-track-m-500m,Men's 500m,short-track,bronze,1,william-dandjinou-can,William Dandjinou,CAN,10.9,10950
+speed-skating-m-500m,Men's 500m,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.3,8326
+short-track-m-500m,Men's 500m,short-track,bronze,2,pietro-sighel-ita,Pietro Sighel,ITA,10.7,10706
+speed-skating-m-500m,Men's 500m,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.2,8183
+short-track-m-500m,Men's 500m,short-track,bronze,3,park-ji-won-kor,Park Ji-won,KOR,10.3,10340
+speed-skating-m-500m,Men's 500m,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.5,23525
+short-track-m-500m,Men's 500m,short-track,gold,1,william-dandjinou-can,William Dandjinou,CAN,15.2,15244
+speed-skating-m-500m,Men's 500m,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.2,10237
+short-track-m-500m,Men's 500m,short-track,gold,2,pietro-sighel-ita,Pietro Sighel,ITA,13.7,13673
+speed-skating-m-500m,Men's 500m,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.7,9659
+short-track-m-500m,Men's 500m,short-track,gold,3,park-ji-won-kor,Park Ji-won,KOR,12.3,12291
+speed-skating-m-500m,Men's 500m,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,14.9,14943
+short-track-m-500m,Men's 500m,short-track,silver,1,william-dandjinou-can,William Dandjinou,CAN,12.7,12747
+speed-skating-m-500m,Men's 500m,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.3,9290
+short-track-m-500m,Men's 500m,short-track,silver,2,pietro-sighel-ita,Pietro Sighel,ITA,11.9,11946
+speed-skating-m-500m,Men's 500m,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,9.0,9047
+short-track-m-500m,Men's 500m,short-track,silver,3,park-ji-won-kor,Park Ji-won,KOR,11.3,11307
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,bronze,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,8.1,8110
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,bronze,2,edvin-anger-swe,Edvin Anger,SWE,6.9,6922
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,bronze,3,federico-pellegrino-ita,Federico Pellegrino,ITA,6.3,6299
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,gold,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,12.4,12388
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,gold,2,edvin-anger-swe,Edvin Anger,SWE,8.4,8408
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,gold,3,erik-valnes-nor,Erik Valnes,NOR,7.1,7066
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,silver,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,9.8,9762
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,silver,2,edvin-anger-swe,Edvin Anger,SWE,7.6,7604
+cross-country-m-50km-mass,Men's 50km Mass Start,cross-country,silver,3,erik-valnes-nor,Erik Valnes,NOR,6.7,6660
+freestyle-m-aerials,Men's Aerials,freestyle,bronze,1,qi-guangpu-chn,Qi Guangpu,CHN,12.9,12865
+freestyle-m-aerials,Men's Aerials,freestyle,bronze,2,noe-roth-sui,Noe Roth,SUI,12.8,12798
+freestyle-m-aerials,Men's Aerials,freestyle,bronze,3,wang-xindi-chn,Wang Xindi,CHN,11.1,11101
+freestyle-m-aerials,Men's Aerials,freestyle,gold,1,qi-guangpu-chn,Qi Guangpu,CHN,17.7,17702
+freestyle-m-aerials,Men's Aerials,freestyle,gold,2,noe-roth-sui,Noe Roth,SUI,17.6,17612
+freestyle-m-aerials,Men's Aerials,freestyle,gold,3,wang-xindi-chn,Wang Xindi,CHN,11.8,11831
+freestyle-m-aerials,Men's Aerials,freestyle,silver,1,qi-guangpu-chn,Qi Guangpu,CHN,14.7,14684
+freestyle-m-aerials,Men's Aerials,freestyle,silver,2,noe-roth-sui,Noe Roth,SUI,14.6,14646
+freestyle-m-aerials,Men's Aerials,freestyle,silver,3,wang-xindi-chn,Wang Xindi,CHN,11.5,11537
+freestyle-m-big-air,Men's Big Air,freestyle,bronze,1,birk-ruud-nor,Birk Ruud,NOR,12.6,12636
+snowboard-m-big-air,Men's Big Air,snowboard,bronze,1,su-yiming-chn,Su Yiming,CHN,12.8,12846
+freestyle-m-big-air,Men's Big Air,freestyle,bronze,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,12.3,12301
+snowboard-m-big-air,Men's Big Air,snowboard,bronze,2,kira-kimura-jpn,Kira Kimura,JPN,12.6,12564
+freestyle-m-big-air,Men's Big Air,freestyle,bronze,3,alex-hall-usa,Alex Hall,USA,12.1,12052
+snowboard-m-big-air,Men's Big Air,snowboard,bronze,3,marcus-kleveland-nor,Marcus Kleveland,NOR,12.0,11990
+freestyle-m-big-air,Men's Big Air,freestyle,gold,1,birk-ruud-nor,Birk Ruud,NOR,17.5,17484
+snowboard-m-big-air,Men's Big Air,snowboard,gold,1,su-yiming-chn,Su Yiming,CHN,18.4,18374
+freestyle-m-big-air,Men's Big Air,freestyle,gold,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,15.3,15328
+snowboard-m-big-air,Men's Big Air,snowboard,gold,2,kira-kimura-jpn,Kira Kimura,JPN,15.9,15937
+freestyle-m-big-air,Men's Big Air,freestyle,gold,3,alex-hall-usa,Alex Hall,USA,13.9,13929
+snowboard-m-big-air,Men's Big Air,snowboard,gold,3,marcus-kleveland-nor,Marcus Kleveland,NOR,13.7,13699
+freestyle-m-big-air,Men's Big Air,freestyle,silver,1,birk-ruud-nor,Birk Ruud,NOR,14.6,14637
+snowboard-m-big-air,Men's Big Air,snowboard,silver,1,su-yiming-chn,Su Yiming,CHN,15.0,14965
+freestyle-m-big-air,Men's Big Air,freestyle,silver,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,13.9,13850
+snowboard-m-big-air,Men's Big Air,snowboard,silver,2,kira-kimura-jpn,Kira Kimura,JPN,13.9,13901
+freestyle-m-big-air,Men's Big Air,freestyle,silver,3,alex-hall-usa,Alex Hall,USA,12.8,12762
+snowboard-m-big-air,Men's Big Air,snowboard,silver,3,marcus-kleveland-nor,Marcus Kleveland,NOR,12.9,12911
+curling-m,Men's Curling,curling,bronze,1,steffen-walstad-nor,Steffen Walstad,NOR,15.3,15258
+curling-m,Men's Curling,curling,bronze,2,magnus-ramsfjell-nor,Magnus Ramsfjell,NOR,15.0,14989
+curling-m,Men's Curling,curling,bronze,3,korey-dropkin-usa,Korey Dropkin,USA,14.5,14499
+curling-m,Men's Curling,curling,gold,1,steffen-walstad-nor,Steffen Walstad,NOR,21.8,21842
+curling-m,Men's Curling,curling,gold,2,magnus-ramsfjell-nor,Magnus Ramsfjell,NOR,18.8,18770
+curling-m,Men's Curling,curling,gold,3,korey-dropkin-usa,Korey Dropkin,USA,16.5,16480
+curling-m,Men's Curling,curling,silver,1,steffen-walstad-nor,Steffen Walstad,NOR,17.9,17868
+curling-m,Men's Curling,curling,silver,2,magnus-ramsfjell-nor,Magnus Ramsfjell,NOR,16.7,16715
+curling-m,Men's Curling,curling,silver,3,korey-dropkin-usa,Korey Dropkin,USA,15.8,15779
+alpine-m-downhill,Men's Downhill,alpine,bronze,1,marco-odermatt-sui,Marco Odermatt,SUI,10.6,10620
+alpine-m-downhill,Men's Downhill,alpine,bronze,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,7.5,7502
+alpine-m-downhill,Men's Downhill,alpine,bronze,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.0,7032
+alpine-m-downhill,Men's Downhill,alpine,gold,1,marco-odermatt-sui,Marco Odermatt,SUI,24.9,24890
+alpine-m-downhill,Men's Downhill,alpine,gold,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.3,8262
+alpine-m-downhill,Men's Downhill,alpine,gold,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.5,7456
+alpine-m-downhill,Men's Downhill,alpine,silver,1,marco-odermatt-sui,Marco Odermatt,SUI,15.0,15038
+alpine-m-downhill,Men's Downhill,alpine,silver,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.0,7977
+alpine-m-downhill,Men's Downhill,alpine,silver,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.4,7448
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,bronze,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,10.0,10042
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,bronze,2,matt-graham-aus,Matt Graham,AUS,9.5,9486
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,bronze,3,nick-page-usa,Nick Page,USA,8.9,8923
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,gold,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,15.0,14996
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,gold,2,matt-graham-aus,Matt Graham,AUS,12.1,12116
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,gold,3,nick-page-usa,Nick Page,USA,10.3,10317
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,silver,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,12.3,12283
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,silver,2,matt-graham-aus,Matt Graham,AUS,10.6,10639
+freestyle-m-dual-moguls,Men's Dual Moguls,freestyle,silver,3,nick-page-usa,Nick Page,USA,9.4,9404
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,bronze,1,marco-odermatt-sui,Marco Odermatt,SUI,10.5,10541
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,bronze,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,7.3,7317
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,bronze,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.0,6959
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,gold,1,marco-odermatt-sui,Marco Odermatt,SUI,25.0,24983
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,gold,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.2,8244
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,gold,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.5,7456
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,silver,1,marco-odermatt-sui,Marco Odermatt,SUI,14.9,14948
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,silver,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.1,8064
+alpine-m-giant-slalom,Men's Giant Slalom,alpine,silver,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.6,7630
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,bronze,1,nico-porteous-nzl,Nico Porteous,NZL,13.6,13561
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,bronze,1,yuto-totsuka-jpn,Yuto Totsuka,JPN,12.8,12794
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,bronze,2,birk-ruud-nor,Birk Ruud,NOR,12.8,12785
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,bronze,2,valentino-guseli-aus,Valentino Guseli,AUS,12.6,12610
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,bronze,3,alex-ferreira-usa,Alex Ferreira,USA,12.5,12469
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,bronze,3,ryusei-yamada-jpn,Ryusei Yamada,JPN,12.0,12028
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,gold,1,nico-porteous-nzl,Nico Porteous,NZL,19.0,19015
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,gold,1,yuto-totsuka-jpn,Yuto Totsuka,JPN,18.2,18162
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,gold,2,birk-ruud-nor,Birk Ruud,NOR,16.9,16865
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,gold,2,valentino-guseli-aus,Valentino Guseli,AUS,16.1,16143
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,gold,3,alex-ferreira-usa,Alex Ferreira,USA,14.6,14582
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,gold,3,ryusei-yamada-jpn,Ryusei Yamada,JPN,13.9,13896
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,silver,1,nico-porteous-nzl,Nico Porteous,NZL,15.8,15765
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,silver,1,yuto-totsuka-jpn,Yuto Totsuka,JPN,15.1,15054
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,silver,2,birk-ruud-nor,Birk Ruud,NOR,14.8,14799
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,silver,2,valentino-guseli-aus,Valentino Guseli,AUS,14.0,14016
+freestyle-m-halfpipe,Men's Halfpipe,freestyle,silver,3,alex-ferreira-usa,Alex Ferreira,USA,13.4,13386
+snowboard-m-halfpipe,Men's Halfpipe,snowboard,silver,3,ryusei-yamada-jpn,Ryusei Yamada,JPN,12.8,12817
+hockey-m,Men's Ice Hockey,hockey,bronze,1,team-slovakia-svk,Team Slovakia,SVK,13.2,13248
+hockey-m,Men's Ice Hockey,hockey,bronze,2,team-germany-ger,Team Germany,GER,13.0,13042
+hockey-m,Men's Ice Hockey,hockey,bronze,3,team-sweden-swe,Team Sweden,SWE,12.4,12446
+hockey-m,Men's Ice Hockey,hockey,gold,1,team-slovakia-svk,Team Slovakia,SVK,14.3,14255
+hockey-m,Men's Ice Hockey,hockey,gold,2,team-germany-ger,Team Germany,GER,13.7,13732
+hockey-m,Men's Ice Hockey,hockey,gold,3,team-sweden-swe,Team Sweden,SWE,12.5,12549
+hockey-m,Men's Ice Hockey,hockey,silver,1,team-slovakia-svk,Team Slovakia,SVK,13.7,13715
+hockey-m,Men's Ice Hockey,hockey,silver,2,team-germany-ger,Team Germany,GER,13.2,13227
+hockey-m,Men's Ice Hockey,hockey,silver,3,team-sweden-swe,Team Sweden,SWE,12.5,12487
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,bronze,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,11.1,11054
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,bronze,2,johannes-lamparter-aut,Johannes Lamparter,AUT,10.2,10206
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,bronze,3,julian-schmid-ger,Julian Schmid,GER,9.4,9397
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,gold,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,17.6,17612
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,gold,2,johannes-lamparter-aut,Johannes Lamparter,AUT,14.5,14492
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,gold,3,julian-schmid-ger,Julian Schmid,GER,11.0,10998
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,silver,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,13.3,13297
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,silver,2,johannes-lamparter-aut,Johannes Lamparter,AUT,12.2,12177
+nordic-combined-m-large-hill,Men's Individual Large Hill,nordic-combined,silver,3,julian-schmid-ger,Julian Schmid,GER,10.2,10241
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,bronze,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,10.9,10895
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,bronze,2,johannes-lamparter-aut,Johannes Lamparter,AUT,10.5,10454
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,bronze,3,julian-schmid-ger,Julian Schmid,GER,9.5,9454
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,gold,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,17.5,17493
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,gold,2,johannes-lamparter-aut,Johannes Lamparter,AUT,14.4,14361
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,gold,3,julian-schmid-ger,Julian Schmid,GER,11.0,11002
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,silver,1,vinzenz-geiger-ger,Vinzenz Geiger,GER,13.7,13659
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,silver,2,johannes-lamparter-aut,Johannes Lamparter,AUT,11.8,11832
+nordic-combined-m-normal-hill,Men's Individual Normal Hill,nordic-combined,silver,3,julian-schmid-ger,Julian Schmid,GER,10.3,10263
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,bronze,1,stefan-kraft-aut,Stefan Kraft,AUT,8.3,8260
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,bronze,2,jan-hoerl-aut,Jan Hoerl,AUT,7.6,7608
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,bronze,3,pius-paschke-ger,Pius Paschke,GER,7.3,7350
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,gold,1,stefan-kraft-aut,Stefan Kraft,AUT,12.2,12197
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,gold,2,jan-hoerl-aut,Jan Hoerl,AUT,9.8,9786
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,gold,3,pius-paschke-ger,Pius Paschke,GER,9.1,9081
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,silver,1,stefan-kraft-aut,Stefan Kraft,AUT,9.8,9822
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,silver,2,jan-hoerl-aut,Jan Hoerl,AUT,8.5,8520
+ski-jumping-m-large-hill,Men's Large Hill Individual,ski-jumping,silver,3,pius-paschke-ger,Pius Paschke,GER,8.0,7969
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,bronze,1,jordan-stolz-usa,Jordan Stolz,USA,10.6,10620
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,bronze,2,damian-zurek-pol,Damian Zurek,POL,8.3,8297
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,bronze,3,jenning-de-boo-ned,Jenning De Boo,NED,8.0,8011
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,gold,1,jordan-stolz-usa,Jordan Stolz,USA,23.6,23637
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,gold,2,damian-zurek-pol,Damian Zurek,POL,10.2,10184
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,gold,3,jenning-de-boo-ned,Jenning De Boo,NED,9.7,9723
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,silver,1,jordan-stolz-usa,Jordan Stolz,USA,15.0,15036
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,silver,2,damian-zurek-pol,Damian Zurek,POL,9.5,9501
+speed-skating-m-mass-start,Men's Mass Start,speed-skating,silver,3,jenning-de-boo-ned,Jenning De Boo,NED,9.0,8984
+freestyle-m-moguls,Men's Moguls,freestyle,bronze,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,10.1,10134
+freestyle-m-moguls,Men's Moguls,freestyle,bronze,2,matt-graham-aus,Matt Graham,AUS,9.6,9629
+freestyle-m-moguls,Men's Moguls,freestyle,bronze,3,nick-page-usa,Nick Page,USA,8.9,8873
+freestyle-m-moguls,Men's Moguls,freestyle,gold,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,15.1,15082
+freestyle-m-moguls,Men's Moguls,freestyle,gold,2,matt-graham-aus,Matt Graham,AUS,12.2,12184
+freestyle-m-moguls,Men's Moguls,freestyle,gold,3,nick-page-usa,Nick Page,USA,10.4,10380
+freestyle-m-moguls,Men's Moguls,freestyle,silver,1,mikael-kingsbury-can,Mikael Kingsbury,CAN,12.1,12089
+freestyle-m-moguls,Men's Moguls,freestyle,silver,2,matt-graham-aus,Matt Graham,AUS,10.5,10455
+freestyle-m-moguls,Men's Moguls,freestyle,silver,3,nick-page-usa,Nick Page,USA,9.6,9552
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,bronze,1,stefan-kraft-aut,Stefan Kraft,AUT,8.3,8350
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,bronze,2,jan-hoerl-aut,Jan Hoerl,AUT,7.5,7483
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,bronze,3,pius-paschke-ger,Pius Paschke,GER,7.4,7412
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,gold,1,stefan-kraft-aut,Stefan Kraft,AUT,12.2,12235
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,gold,2,jan-hoerl-aut,Jan Hoerl,AUT,9.9,9912
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,gold,3,pius-paschke-ger,Pius Paschke,GER,9.0,9023
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,silver,1,stefan-kraft-aut,Stefan Kraft,AUT,10.0,10025
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,silver,2,jan-hoerl-aut,Jan Hoerl,AUT,8.5,8455
+ski-jumping-m-normal-hill,Men's Normal Hill Individual,ski-jumping,silver,3,pius-paschke-ger,Pius Paschke,GER,8.0,8005
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,bronze,1,benjamin-karl-aut,Benjamin Karl,AUT,14.8,14801
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,bronze,2,dmitry-loginov-rus,Dmitry Loginov,RUS,14.6,14590
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,bronze,3,roland-fischnaller-ita,Roland Fischnaller,ITA,14.0,13952
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,gold,1,benjamin-karl-aut,Benjamin Karl,AUT,20.5,20465
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,gold,2,dmitry-loginov-rus,Dmitry Loginov,RUS,17.8,17762
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,gold,3,roland-fischnaller-ita,Roland Fischnaller,ITA,15.5,15509
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,silver,1,benjamin-karl-aut,Benjamin Karl,AUT,17.1,17114
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,silver,2,dmitry-loginov-rus,Dmitry Loginov,RUS,16.2,16196
+snowboard-m-pgs,Men's Parallel Giant Slalom,snowboard,silver,3,roland-fischnaller-ita,Roland Fischnaller,ITA,14.8,14799
+figure-skating-m,Men's Singles,figure-skating,bronze,1,ilia-malinin-usa,Ilia Malinin,USA,9.7,9669
+figure-skating-m,Men's Singles,figure-skating,bronze,2,yuma-kagiyama-jpn,Yuma Kagiyama,JPN,9.2,9219
+figure-skating-m,Men's Singles,figure-skating,bronze,3,adam-siao-him-fa-fra,Adam Siao Him Fa,FRA,9.1,9076
+figure-skating-m,Men's Singles,figure-skating,gold,1,ilia-malinin-usa,Ilia Malinin,USA,11.8,11797
+figure-skating-m,Men's Singles,figure-skating,gold,2,yuma-kagiyama-jpn,Yuma Kagiyama,JPN,10.5,10550
+figure-skating-m,Men's Singles,figure-skating,gold,3,adam-siao-him-fa-fra,Adam Siao Him Fa,FRA,9.8,9825
+figure-skating-m,Men's Singles,figure-skating,silver,1,ilia-malinin-usa,Ilia Malinin,USA,10.8,10834
+figure-skating-m,Men's Singles,figure-skating,silver,2,yuma-kagiyama-jpn,Yuma Kagiyama,JPN,9.9,9899
+figure-skating-m,Men's Singles,figure-skating,silver,3,adam-siao-him-fa-fra,Adam Siao Him Fa,FRA,9.4,9352
+luge-m-singles,Men's Singles Luge,luge,bronze,1,tucker-west-usa,Tucker West,USA,13.3,13262
+luge-m-singles,Men's Singles Luge,luge,bronze,2,chris-mazdzer-usa,Chris Mazdzer,USA,12.7,12669
+luge-m-singles,Men's Singles Luge,luge,bronze,3,sebastian-bley-ger,Sebastian Bley,GER,11.6,11565
+luge-m-singles,Men's Singles Luge,luge,gold,1,tucker-west-usa,Tucker West,USA,19.2,19209
+luge-m-singles,Men's Singles Luge,luge,gold,2,chris-mazdzer-usa,Chris Mazdzer,USA,16.6,16593
+luge-m-singles,Men's Singles Luge,luge,gold,3,sebastian-bley-ger,Sebastian Bley,GER,12.7,12703
+luge-m-singles,Men's Singles Luge,luge,silver,1,tucker-west-usa,Tucker West,USA,15.8,15775
+luge-m-singles,Men's Singles Luge,luge,silver,2,chris-mazdzer-usa,Chris Mazdzer,USA,14.5,14535
+luge-m-singles,Men's Singles Luge,luge,silver,3,sebastian-bley-ger,Sebastian Bley,GER,12.3,12291
+skeleton-m,Men's Skeleton,skeleton,bronze,1,seunggi-jung-kor,Seunggi Jung,KOR,15.0,14979
+skeleton-m,Men's Skeleton,skeleton,bronze,2,vladyslav-heraskevych-ukr,Vladyslav Heraskevych,UKR,14.4,14412
+skeleton-m,Men's Skeleton,skeleton,bronze,3,austin-florian-usa,Austin Florian,USA,13.9,13861
+skeleton-m,Men's Skeleton,skeleton,gold,1,seunggi-jung-kor,Seunggi Jung,KOR,20.6,20634
+skeleton-m,Men's Skeleton,skeleton,gold,2,vladyslav-heraskevych-ukr,Vladyslav Heraskevych,UKR,18.8,18817
+skeleton-m,Men's Skeleton,skeleton,gold,3,austin-florian-usa,Austin Florian,USA,14.9,14919
+skeleton-m,Men's Skeleton,skeleton,silver,1,seunggi-jung-kor,Seunggi Jung,KOR,17.4,17380
+skeleton-m,Men's Skeleton,skeleton,silver,2,vladyslav-heraskevych-ukr,Vladyslav Heraskevych,UKR,16.3,16338
+skeleton-m,Men's Skeleton,skeleton,silver,3,austin-florian-usa,Austin Florian,USA,14.4,14365
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,bronze,1,reece-howden-can,Reece Howden,CAN,11.2,11214
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,bronze,2,simone-deromedis-ita,Simone Deromedis,ITA,11.0,10961
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,bronze,3,florian-wilmsmann-ger,Florian Wilmsmann,GER,10.4,10381
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,gold,1,reece-howden-can,Reece Howden,CAN,17.0,17042
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,gold,2,simone-deromedis-ita,Simone Deromedis,ITA,15.1,15144
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,gold,3,florian-wilmsmann-ger,Florian Wilmsmann,GER,14.0,14007
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,silver,1,reece-howden-can,Reece Howden,CAN,13.6,13632
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,silver,2,simone-deromedis-ita,Simone Deromedis,ITA,12.8,12838
+freestyle-m-ski-cross,Men's Ski Cross,freestyle,silver,3,florian-wilmsmann-ger,Florian Wilmsmann,GER,11.7,11686
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,bronze,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,8.0,7977
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,bronze,2,edvin-anger-swe,Edvin Anger,SWE,6.9,6886
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,bronze,3,erik-valnes-nor,Erik Valnes,NOR,6.3,6289
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,gold,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,12.0,12046
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,gold,2,edvin-anger-swe,Edvin Anger,SWE,8.5,8479
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,gold,3,erik-valnes-nor,Erik Valnes,NOR,7.1,7059
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,silver,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,9.7,9736
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,silver,2,edvin-anger-swe,Edvin Anger,SWE,7.5,7501
+cross-country-m-skiathlon,Men's Skiathlon,cross-country,silver,3,erik-valnes-nor,Erik Valnes,NOR,6.6,6628
+alpine-m-slalom,Men's Slalom,alpine,bronze,1,marco-odermatt-sui,Marco Odermatt,SUI,10.7,10730
+alpine-m-slalom,Men's Slalom,alpine,bronze,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,7.3,7327
+alpine-m-slalom,Men's Slalom,alpine,bronze,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.0,7002
+alpine-m-slalom,Men's Slalom,alpine,gold,1,marco-odermatt-sui,Marco Odermatt,SUI,24.7,24703
+alpine-m-slalom,Men's Slalom,alpine,gold,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.4,8352
+alpine-m-slalom,Men's Slalom,alpine,gold,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.5,7479
+alpine-m-slalom,Men's Slalom,alpine,silver,1,marco-odermatt-sui,Marco Odermatt,SUI,15.3,15280
+alpine-m-slalom,Men's Slalom,alpine,silver,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.0,7995
+alpine-m-slalom,Men's Slalom,alpine,silver,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.4,7416
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,bronze,1,birk-ruud-nor,Birk Ruud,NOR,12.6,12623
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,bronze,1,su-yiming-chn,Su Yiming,CHN,12.9,12859
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,bronze,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,12.4,12404
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,bronze,2,kira-kimura-jpn,Kira Kimura,JPN,12.5,12491
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,bronze,3,alex-hall-usa,Alex Hall,USA,11.9,11898
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,bronze,3,marcus-kleveland-nor,Marcus Kleveland,NOR,12.1,12115
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,gold,1,birk-ruud-nor,Birk Ruud,NOR,17.3,17287
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,gold,1,su-yiming-chn,Su Yiming,CHN,18.4,18401
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,gold,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,15.5,15529
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,gold,2,kira-kimura-jpn,Kira Kimura,JPN,15.9,15936
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,gold,3,alex-hall-usa,Alex Hall,USA,13.6,13619
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,gold,3,marcus-kleveland-nor,Marcus Kleveland,NOR,13.7,13692
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,silver,1,birk-ruud-nor,Birk Ruud,NOR,14.8,14750
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,silver,1,su-yiming-chn,Su Yiming,CHN,15.1,15147
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,silver,2,oliwer-magnusson-swe,Oliwer Magnusson,SWE,13.7,13683
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,silver,2,kira-kimura-jpn,Kira Kimura,JPN,13.8,13812
+freestyle-m-slopestyle,Men's Slopestyle,freestyle,silver,3,alex-hall-usa,Alex Hall,USA,12.7,12667
+snowboard-m-slopestyle,Men's Slopestyle,snowboard,silver,3,marcus-kleveland-nor,Marcus Kleveland,NOR,12.9,12853
+snowboard-m-cross,Men's Snowboard Cross,snowboard,bronze,1,eliot-grondin-can,Eliot Grondin,CAN,13.4,13390
+snowboard-m-cross,Men's Snowboard Cross,snowboard,bronze,2,loan-bozzolo-fra,Loan Bozzolo,FRA,11.5,11545
+snowboard-m-cross,Men's Snowboard Cross,snowboard,bronze,3,aidan-chollet-fra,Aidan Chollet,FRA,11.3,11342
+snowboard-m-cross,Men's Snowboard Cross,snowboard,gold,1,eliot-grondin-can,Eliot Grondin,CAN,24.4,24373
+snowboard-m-cross,Men's Snowboard Cross,snowboard,gold,2,loan-bozzolo-fra,Loan Bozzolo,FRA,12.8,12812
+snowboard-m-cross,Men's Snowboard Cross,snowboard,gold,3,aidan-chollet-fra,Aidan Chollet,FRA,11.3,11274
+snowboard-m-cross,Men's Snowboard Cross,snowboard,silver,1,eliot-grondin-can,Eliot Grondin,CAN,17.4,17381
+snowboard-m-cross,Men's Snowboard Cross,snowboard,silver,2,loan-bozzolo-fra,Loan Bozzolo,FRA,12.1,12145
+snowboard-m-cross,Men's Snowboard Cross,snowboard,silver,3,aidan-chollet-fra,Aidan Chollet,FRA,11.5,11490
+cross-country-m-sprint,Men's Sprint,cross-country,bronze,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,8.1,8148
+cross-country-m-sprint,Men's Sprint,cross-country,bronze,2,edvin-anger-swe,Edvin Anger,SWE,6.8,6841
+cross-country-m-sprint,Men's Sprint,cross-country,bronze,3,erik-valnes-nor,Erik Valnes,NOR,6.3,6254
+cross-country-m-sprint,Men's Sprint,cross-country,gold,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,12.2,12178
+cross-country-m-sprint,Men's Sprint,cross-country,gold,2,edvin-anger-swe,Edvin Anger,SWE,8.6,8597
+cross-country-m-sprint,Men's Sprint,cross-country,gold,3,erik-valnes-nor,Erik Valnes,NOR,7.1,7105
+cross-country-m-sprint,Men's Sprint,cross-country,silver,1,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,9.6,9580
+cross-country-m-sprint,Men's Sprint,cross-country,silver,2,edvin-anger-swe,Edvin Anger,SWE,7.6,7571
+cross-country-m-sprint,Men's Sprint,cross-country,silver,3,erik-valnes-nor,Erik Valnes,NOR,6.6,6618
+alpine-m-super-g,Men's Super-G,alpine,bronze,1,marco-odermatt-sui,Marco Odermatt,SUI,10.3,10339
+alpine-m-super-g,Men's Super-G,alpine,bronze,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,7.4,7393
+alpine-m-super-g,Men's Super-G,alpine,bronze,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.1,7139
+alpine-m-super-g,Men's Super-G,alpine,gold,1,marco-odermatt-sui,Marco Odermatt,SUI,25.0,24976
+alpine-m-super-g,Men's Super-G,alpine,gold,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,8.3,8293
+alpine-m-super-g,Men's Super-G,alpine,gold,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.4,7445
+alpine-m-super-g,Men's Super-G,alpine,silver,1,marco-odermatt-sui,Marco Odermatt,SUI,15.1,15054
+alpine-m-super-g,Men's Super-G,alpine,silver,2,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,7.9,7896
+alpine-m-super-g,Men's Super-G,alpine,silver,3,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,7.4,7358
+bobsled-m-two-man,Two-Man Bobsled,bobsled,bronze,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,12.8,12770
+bobsled-m-two-man,Two-Man Bobsled,bobsled,bronze,2,justin-kripps-can,Justin Kripps,CAN,12.1,12128
+bobsled-m-two-man,Two-Man Bobsled,bobsled,bronze,3,frank-delduca-usa,Frank Delduca,USA,11.5,11508
+bobsled-m-two-man,Two-Man Bobsled,bobsled,gold,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,18.6,18560
+bobsled-m-two-man,Two-Man Bobsled,bobsled,gold,2,justin-kripps-can,Justin Kripps,CAN,15.2,15228
+bobsled-m-two-man,Two-Man Bobsled,bobsled,gold,3,frank-delduca-usa,Frank Delduca,USA,12.6,12556
+bobsled-m-two-man,Two-Man Bobsled,bobsled,silver,1,oskars-kibermanis-lat,Oskars Kibermanis,LAT,15.0,14988
+bobsled-m-two-man,Two-Man Bobsled,bobsled,silver,2,justin-kripps-can,Justin Kripps,CAN,13.3,13343
+bobsled-m-two-man,Two-Man Bobsled,bobsled,silver,3,frank-delduca-usa,Frank Delduca,USA,12.2,12177
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,bronze,1,melanie-hasler-sui,Melanie Hasler,SUI,14.9,14892
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,bronze,2,kim-kalicki-ger,Kim Kalicki,GER,14.1,14060
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,bronze,3,christine-de-bruin-can,Christine de Bruin,CAN,13.6,13615
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,gold,1,melanie-hasler-sui,Melanie Hasler,SUI,20.8,20811
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,gold,2,kim-kalicki-ger,Kim Kalicki,GER,17.2,17165
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,gold,3,christine-de-bruin-can,Christine de Bruin,CAN,14.5,14546
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,silver,1,melanie-hasler-sui,Melanie Hasler,SUI,17.2,17177
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,silver,2,kim-kalicki-ger,Kim Kalicki,GER,15.5,15477
+bobsled-w-two-woman,Two-Woman Bobsled,bobsled,silver,3,christine-de-bruin-can,Christine de Bruin,CAN,13.9,13861
+speed-skating-w-1000m,Women's 1000m,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.6,9619
+short-track-w-1000m,Women's 1000m,short-track,bronze,1,courtney-sarault-can,Courtney Sarault,CAN,12.2,12166
+speed-skating-w-1000m,Women's 1000m,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,9.0,8985
+short-track-w-1000m,Women's 1000m,short-track,bronze,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,12.1,12061
+speed-skating-w-1000m,Women's 1000m,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.7,7654
+short-track-w-1000m,Women's 1000m,short-track,bronze,3,kim-gil-li-kor,Kim Gil-li,KOR,11.5,11501
+speed-skating-w-1000m,Women's 1000m,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,16.0,16034
+short-track-w-1000m,Women's 1000m,short-track,gold,1,courtney-sarault-can,Courtney Sarault,CAN,16.2,16174
+speed-skating-w-1000m,Women's 1000m,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.8,12791
+short-track-w-1000m,Women's 1000m,short-track,gold,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,14.5,14455
+speed-skating-w-1000m,Women's 1000m,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.0,9014
+short-track-w-1000m,Women's 1000m,short-track,gold,3,kim-gil-li-kor,Kim Gil-li,KOR,13.2,13185
+speed-skating-w-1000m,Women's 1000m,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,12.0,12049
+short-track-w-1000m,Women's 1000m,short-track,silver,1,courtney-sarault-can,Courtney Sarault,CAN,13.7,13710
+speed-skating-w-1000m,Women's 1000m,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.5,10541
+short-track-w-1000m,Women's 1000m,short-track,silver,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,13.1,13146
+speed-skating-w-1000m,Women's 1000m,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.5,8462
+short-track-w-1000m,Women's 1000m,short-track,silver,3,kim-gil-li-kor,Kim Gil-li,KOR,12.2,12163
+cross-country-w-10km,Women's 10km,cross-country,bronze,1,jessie-diggins-usa,Jessie Diggins,USA,7.6,7643
+cross-country-w-10km,Women's 10km,cross-country,bronze,2,victoria-carl-ger,Victoria Carl,GER,6.6,6604
+cross-country-w-10km,Women's 10km,cross-country,bronze,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.0,6031
+cross-country-w-10km,Women's 10km,cross-country,gold,1,jessie-diggins-usa,Jessie Diggins,USA,10.3,10343
+cross-country-w-10km,Women's 10km,cross-country,gold,2,victoria-carl-ger,Victoria Carl,GER,7.8,7848
+cross-country-w-10km,Women's 10km,cross-country,gold,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.8,6807
+cross-country-w-10km,Women's 10km,cross-country,silver,1,jessie-diggins-usa,Jessie Diggins,USA,8.4,8439
+cross-country-w-10km,Women's 10km,cross-country,silver,2,victoria-carl-ger,Victoria Carl,GER,7.1,7080
+cross-country-w-10km,Women's 10km,cross-country,silver,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.4,6445
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,bronze,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,8.6,8639
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,bronze,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.0,7009
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,bronze,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,6.8,6806
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,gold,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,13.0,13004
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,gold,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,8.6,8631
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,gold,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,8.1,8099
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,silver,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,10.3,10320
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,silver,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.7,7675
+biathlon-w-10km-pursuit,Women's 10km Pursuit,biathlon,silver,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,7.3,7292
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,bronze,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,8.4,8355
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,bronze,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.1,7095
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,bronze,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,6.8,6830
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,gold,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,13.0,13046
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,gold,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,8.7,8712
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,gold,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,8.0,8001
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,silver,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,10.3,10268
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,silver,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.6,7558
+biathlon-w-12.5km-mass-start,Women's 12.5km Mass Start,biathlon,silver,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,7.4,7418
+speed-skating-w-1500m,Women's 1500m,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.4,9446
+short-track-w-1500m,Women's 1500m,short-track,bronze,1,courtney-sarault-can,Courtney Sarault,CAN,12.3,12265
+speed-skating-w-1500m,Women's 1500m,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,8.8,8831
+short-track-w-1500m,Women's 1500m,short-track,bronze,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,11.9,11937
+speed-skating-w-1500m,Women's 1500m,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.7,7713
+short-track-w-1500m,Women's 1500m,short-track,bronze,3,kim-gil-li-kor,Kim Gil-li,KOR,11.4,11424
+speed-skating-w-1500m,Women's 1500m,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,16.0,16036
+short-track-w-1500m,Women's 1500m,short-track,gold,1,courtney-sarault-can,Courtney Sarault,CAN,16.2,16250
+speed-skating-w-1500m,Women's 1500m,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.7,12690
+short-track-w-1500m,Women's 1500m,short-track,gold,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,14.4,14378
+speed-skating-w-1500m,Women's 1500m,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.2,9170
+short-track-w-1500m,Women's 1500m,short-track,gold,3,kim-gil-li-kor,Kim Gil-li,KOR,13.3,13331
+speed-skating-w-1500m,Women's 1500m,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,12.0,12005
+short-track-w-1500m,Women's 1500m,short-track,silver,1,courtney-sarault-can,Courtney Sarault,CAN,13.9,13862
+speed-skating-w-1500m,Women's 1500m,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.6,10631
+short-track-w-1500m,Women's 1500m,short-track,silver,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,13.2,13156
+speed-skating-w-1500m,Women's 1500m,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.3,8294
+short-track-w-1500m,Women's 1500m,short-track,silver,3,kim-gil-li-kor,Kim Gil-li,KOR,12.3,12304
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,bronze,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,8.7,8676
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,bronze,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.2,7170
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,bronze,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,6.7,6738
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,gold,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,13.2,13242
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,gold,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,8.6,8580
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,gold,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,8.1,8069
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,silver,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,10.0,9966
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,silver,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.7,7749
+biathlon-w-15km-individual,Women's 15km Individual,biathlon,silver,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,7.4,7361
+speed-skating-w-3000m,Women's 3000m,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.4,9372
+speed-skating-w-3000m,Women's 3000m,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,9.0,8993
+speed-skating-w-3000m,Women's 3000m,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.6,7625
+speed-skating-w-3000m,Women's 3000m,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,16.1,16100
+speed-skating-w-3000m,Women's 3000m,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.7,12715
+speed-skating-w-3000m,Women's 3000m,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.1,9094
+speed-skating-w-3000m,Women's 3000m,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,12.0,12018
+speed-skating-w-3000m,Women's 3000m,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.4,10376
+speed-skating-w-3000m,Women's 3000m,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.3,8320
+speed-skating-w-5000m,Women's 5000m,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.4,9430
+speed-skating-w-5000m,Women's 5000m,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,8.9,8892
+speed-skating-w-5000m,Women's 5000m,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.7,7728
+speed-skating-w-5000m,Women's 5000m,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,16.0,15956
+speed-skating-w-5000m,Women's 5000m,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.8,12796
+speed-skating-w-5000m,Women's 5000m,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.1,9137
+speed-skating-w-5000m,Women's 5000m,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,12.0,12011
+speed-skating-w-5000m,Women's 5000m,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.2,10228
+speed-skating-w-5000m,Women's 5000m,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.4,8385
+speed-skating-w-500m,Women's 500m,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.6,9607
+short-track-w-500m,Women's 500m,short-track,bronze,1,courtney-sarault-can,Courtney Sarault,CAN,12.3,12344
+speed-skating-w-500m,Women's 500m,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,8.7,8735
+short-track-w-500m,Women's 500m,short-track,bronze,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,11.8,11850
+speed-skating-w-500m,Women's 500m,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.7,7657
+short-track-w-500m,Women's 500m,short-track,bronze,3,kim-gil-li-kor,Kim Gil-li,KOR,11.4,11438
+speed-skating-w-500m,Women's 500m,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,15.7,15748
+short-track-w-500m,Women's 500m,short-track,gold,1,courtney-sarault-can,Courtney Sarault,CAN,16.0,15983
+speed-skating-w-500m,Women's 500m,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.7,12689
+short-track-w-500m,Women's 500m,short-track,gold,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,14.5,14507
+speed-skating-w-500m,Women's 500m,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.1,9090
+short-track-w-500m,Women's 500m,short-track,gold,3,kim-gil-li-kor,Kim Gil-li,KOR,13.2,13155
+speed-skating-w-500m,Women's 500m,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,12.2,12168
+short-track-w-500m,Women's 500m,short-track,silver,1,courtney-sarault-can,Courtney Sarault,CAN,13.8,13782
+speed-skating-w-500m,Women's 500m,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.4,10430
+short-track-w-500m,Women's 500m,short-track,silver,2,xandra-velzeboer-ned,Xandra Velzeboer,NED,13.2,13191
+speed-skating-w-500m,Women's 500m,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.3,8283
+short-track-w-500m,Women's 500m,short-track,silver,3,kim-gil-li-kor,Kim Gil-li,KOR,12.1,12072
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,bronze,1,jessie-diggins-usa,Jessie Diggins,USA,7.4,7431
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,bronze,2,victoria-carl-ger,Victoria Carl,GER,6.5,6502
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,bronze,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.2,6193
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,gold,1,jessie-diggins-usa,Jessie Diggins,USA,10.4,10405
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,gold,2,victoria-carl-ger,Victoria Carl,GER,7.7,7714
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,gold,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.9,6920
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,silver,1,jessie-diggins-usa,Jessie Diggins,USA,8.4,8419
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,silver,2,victoria-carl-ger,Victoria Carl,GER,7.0,7038
+cross-country-w-50km-mass,Women's 50km Mass Start,cross-country,silver,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.6,6553
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,bronze,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,8.4,8447
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,bronze,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,6.9,6940
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,bronze,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,6.8,6827
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,gold,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,13.1,13114
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,gold,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,8.7,8705
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,gold,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,8.2,8153
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,silver,1,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,10.4,10362
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,silver,2,suvi-minkkinen-fin,Suvi Minkkinen,FIN,7.8,7844
+biathlon-w-7.5km-sprint,Women's 7.5km Sprint,biathlon,silver,3,maren-kirkeeide-nor,Maren Kirkeeide,NOR,7.4,7450
+freestyle-w-aerials,Women's Aerials,freestyle,bronze,1,xu-mengtao-chn,Xu Mengtao,CHN,12.2,12226
+freestyle-w-aerials,Women's Aerials,freestyle,bronze,2,laura-peel-aus,Laura Peel,AUS,12.2,12207
+freestyle-w-aerials,Women's Aerials,freestyle,bronze,3,winter-vinecki-usa,Winter Vinecki,USA,11.2,11201
+freestyle-w-aerials,Women's Aerials,freestyle,gold,1,xu-mengtao-chn,Xu Mengtao,CHN,16.8,16783
+freestyle-w-aerials,Women's Aerials,freestyle,gold,2,laura-peel-aus,Laura Peel,AUS,15.7,15737
+freestyle-w-aerials,Women's Aerials,freestyle,gold,3,winter-vinecki-usa,Winter Vinecki,USA,12.2,12199
+freestyle-w-aerials,Women's Aerials,freestyle,silver,1,xu-mengtao-chn,Xu Mengtao,CHN,14.5,14478
+freestyle-w-aerials,Women's Aerials,freestyle,silver,2,laura-peel-aus,Laura Peel,AUS,13.6,13584
+freestyle-w-aerials,Women's Aerials,freestyle,silver,3,winter-vinecki-usa,Winter Vinecki,USA,11.5,11480
+freestyle-w-big-air,Women's Big Air,freestyle,bronze,1,eileen-gu-chn,Eileen Gu,CHN,13.4,13445
+snowboard-w-big-air,Women's Big Air,snowboard,bronze,1,anna-gasser-aut,Anna Gasser,AUT,14.3,14341
+freestyle-w-big-air,Women's Big Air,freestyle,bronze,2,kelly-sildaru-est,Kelly Sildaru,EST,13.1,13100
+snowboard-w-big-air,Women's Big Air,snowboard,bronze,2,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,14.2,14241
+freestyle-w-big-air,Women's Big Air,freestyle,bronze,3,megan-oldham-can,Megan Oldham,CAN,12.6,12586
+snowboard-w-big-air,Women's Big Air,snowboard,bronze,3,kokomo-murase-jpn,Kokomo Murase,JPN,13.4,13436
+freestyle-w-big-air,Women's Big Air,freestyle,gold,1,eileen-gu-chn,Eileen Gu,CHN,17.9,17893
+snowboard-w-big-air,Women's Big Air,snowboard,gold,1,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,18.8,18830
+freestyle-w-big-air,Women's Big Air,freestyle,gold,2,kelly-sildaru-est,Kelly Sildaru,EST,16.1,16051
+snowboard-w-big-air,Women's Big Air,snowboard,gold,2,anna-gasser-aut,Anna Gasser,AUT,16.8,16767
+freestyle-w-big-air,Women's Big Air,freestyle,gold,3,megan-oldham-can,Megan Oldham,CAN,14.3,14263
+snowboard-w-big-air,Women's Big Air,snowboard,gold,3,kokomo-murase-jpn,Kokomo Murase,JPN,15.3,15289
+freestyle-w-big-air,Women's Big Air,freestyle,silver,1,eileen-gu-chn,Eileen Gu,CHN,15.3,15330
+snowboard-w-big-air,Women's Big Air,snowboard,silver,1,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,16.2,16248
+freestyle-w-big-air,Women's Big Air,freestyle,silver,2,kelly-sildaru-est,Kelly Sildaru,EST,14.3,14342
+snowboard-w-big-air,Women's Big Air,snowboard,silver,2,anna-gasser-aut,Anna Gasser,AUT,15.3,15343
+freestyle-w-big-air,Women's Big Air,freestyle,silver,3,megan-oldham-can,Megan Oldham,CAN,13.6,13630
+snowboard-w-big-air,Women's Big Air,snowboard,silver,3,kokomo-murase-jpn,Kokomo Murase,JPN,14.2,14244
+curling-w,Women's Curling,curling,bronze,1,kristin-skaslien-nor,Kristin Skaslien,NOR,15.3,15308
+curling-w,Women's Curling,curling,bronze,2,marianne-roervik-nor,Marianne Roervik,NOR,15.3,15300
+curling-w,Women's Curling,curling,bronze,3,tabitha-peterson-usa,Tabitha Peterson,USA,14.9,14888
+curling-w,Women's Curling,curling,gold,1,kristin-skaslien-nor,Kristin Skaslien,NOR,22.2,22244
+curling-w,Women's Curling,curling,gold,2,marianne-roervik-nor,Marianne Roervik,NOR,19.7,19663
+curling-w,Women's Curling,curling,gold,3,tabitha-peterson-usa,Tabitha Peterson,USA,17.3,17252
+curling-w,Women's Curling,curling,silver,1,kristin-skaslien-nor,Kristin Skaslien,NOR,18.2,18225
+curling-w,Women's Curling,curling,silver,2,marianne-roervik-nor,Marianne Roervik,NOR,17.5,17453
+curling-w,Women's Curling,curling,silver,3,tabitha-peterson-usa,Tabitha Peterson,USA,16.2,16156
+alpine-w-downhill,Women's Downhill,alpine,bronze,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,9.1,9143
+alpine-w-downhill,Women's Downhill,alpine,bronze,2,camille-rast-sui,Camille Rast,SUI,8.4,8392
+alpine-w-downhill,Women's Downhill,alpine,bronze,3,emma-aicher-ger,Emma Aicher,GER,6.7,6672
+alpine-w-downhill,Women's Downhill,alpine,gold,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,15.6,15624
+alpine-w-downhill,Women's Downhill,alpine,gold,2,camille-rast-sui,Camille Rast,SUI,12.0,12047
+alpine-w-downhill,Women's Downhill,alpine,gold,3,emma-aicher-ger,Emma Aicher,GER,7.4,7352
+alpine-w-downhill,Women's Downhill,alpine,silver,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,11.7,11728
+alpine-w-downhill,Women's Downhill,alpine,silver,2,camille-rast-sui,Camille Rast,SUI,10.0,10021
+alpine-w-downhill,Women's Downhill,alpine,silver,3,emma-aicher-ger,Emma Aicher,GER,6.9,6920
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,bronze,1,jaelin-kauf-usa,Jaelin Kauf,USA,12.5,12508
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,bronze,2,perrine-laffont-fra,Perrine Laffont,FRA,12.0,11967
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,bronze,3,tess-johnson-usa,Tess Johnson,USA,9.6,9555
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,gold,1,jaelin-kauf-usa,Jaelin Kauf,USA,24.9,24935
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,gold,2,perrine-laffont-fra,Perrine Laffont,FRA,18.5,18515
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,gold,3,tess-johnson-usa,Tess Johnson,USA,9.1,9101
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,silver,1,jaelin-kauf-usa,Jaelin Kauf,USA,17.0,16960
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,silver,2,perrine-laffont-fra,Perrine Laffont,FRA,14.8,14755
+freestyle-w-dual-moguls,Women's Dual Moguls,freestyle,silver,3,tess-johnson-usa,Tess Johnson,USA,9.6,9634
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,bronze,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,9.2,9184
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,bronze,2,camille-rast-sui,Camille Rast,SUI,8.4,8433
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,bronze,3,emma-aicher-ger,Emma Aicher,GER,6.6,6562
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,gold,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,15.5,15503
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,gold,2,camille-rast-sui,Camille Rast,SUI,12.3,12345
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,gold,3,emma-aicher-ger,Emma Aicher,GER,7.3,7349
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,silver,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,11.6,11572
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,silver,2,camille-rast-sui,Camille Rast,SUI,9.9,9904
+alpine-w-giant-slalom,Women's Giant Slalom,alpine,silver,3,emma-aicher-ger,Emma Aicher,GER,6.9,6896
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,bronze,1,eileen-gu-chn,Eileen Gu,CHN,15.0,15006
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,bronze,1,chloe-kim-usa,Chloe Kim,USA,15.2,15210
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,bronze,2,rachael-karker-can,Rachael Karker,CAN,14.9,14910
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,bronze,2,sena-tomita-jpn,Sena Tomita,JPN,14.9,14917
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,bronze,3,zoe-atkin-gbr,Zoe Atkin,GBR,14.2,14210
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,bronze,3,queralt-castellet-esp,Queralt Castellet,ESP,14.1,14092
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,gold,1,eileen-gu-chn,Eileen Gu,CHN,23.9,23934
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,gold,1,chloe-kim-usa,Chloe Kim,USA,23.9,23897
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,gold,2,rachael-karker-can,Rachael Karker,CAN,19.0,19030
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,gold,2,sena-tomita-jpn,Sena Tomita,JPN,19.0,19041
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,gold,3,zoe-atkin-gbr,Zoe Atkin,GBR,14.3,14283
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,gold,3,queralt-castellet-esp,Queralt Castellet,ESP,14.3,14272
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,silver,1,eileen-gu-chn,Eileen Gu,CHN,18.7,18659
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,silver,1,chloe-kim-usa,Chloe Kim,USA,18.6,18629
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,silver,2,rachael-karker-can,Rachael Karker,CAN,16.7,16659
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,silver,2,sena-tomita-jpn,Sena Tomita,JPN,16.7,16740
+freestyle-w-halfpipe,Women's Halfpipe,freestyle,silver,3,zoe-atkin-gbr,Zoe Atkin,GBR,14.4,14377
+snowboard-w-halfpipe,Women's Halfpipe,snowboard,silver,3,queralt-castellet-esp,Queralt Castellet,ESP,14.3,14323
+hockey-w,Women's Ice Hockey,hockey,bronze,1,team-germany-ger,Team Germany,GER,13.2,13176
+hockey-w,Women's Ice Hockey,hockey,bronze,2,team-japan-jpn,Team Japan,JPN,13.1,13121
+hockey-w,Women's Ice Hockey,hockey,bronze,3,team-sweden-swe,Team Sweden,SWE,12.7,12692
+hockey-w,Women's Ice Hockey,hockey,gold,1,team-germany-ger,Team Germany,GER,14.9,14937
+hockey-w,Women's Ice Hockey,hockey,gold,2,team-japan-jpn,Team Japan,JPN,13.7,13713
+hockey-w,Women's Ice Hockey,hockey,gold,3,team-sweden-swe,Team Sweden,SWE,12.9,12890
+hockey-w,Women's Ice Hockey,hockey,silver,1,team-germany-ger,Team Germany,GER,13.8,13840
+hockey-w,Women's Ice Hockey,hockey,silver,2,team-japan-jpn,Team Japan,JPN,13.2,13241
+hockey-w,Women's Ice Hockey,hockey,silver,3,team-switzerland-sui,Team Switzerland,SUI,12.5,12520
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,bronze,1,nika-prevc-slo,Nika Prevc,SLO,9.8,9815
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,bronze,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,8.5,8535
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,bronze,3,lisa-eder-aut,Lisa Eder,AUT,7.7,7667
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,gold,1,nika-prevc-slo,Nika Prevc,SLO,18.2,18239
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,gold,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,12.3,12285
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,gold,3,lisa-eder-aut,Lisa Eder,AUT,9.6,9556
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,silver,1,nika-prevc-slo,Nika Prevc,SLO,12.9,12913
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,silver,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,10.5,10457
+ski-jumping-w-large-hill,Women's Large Hill Individual,ski-jumping,silver,3,lisa-eder-aut,Lisa Eder,AUT,8.5,8481
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,bronze,1,femke-kok-ned,Femke Kok,NED,9.5,9497
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,bronze,2,miho-takagi-jpn,Miho Takagi,JPN,8.8,8773
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,bronze,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,7.8,7794
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,gold,1,femke-kok-ned,Femke Kok,NED,16.1,16074
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,gold,2,miho-takagi-jpn,Miho Takagi,JPN,12.7,12684
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,gold,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,9.0,9014
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,silver,1,femke-kok-ned,Femke Kok,NED,11.9,11886
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,silver,2,miho-takagi-jpn,Miho Takagi,JPN,10.5,10542
+speed-skating-w-mass-start,Women's Mass Start,speed-skating,silver,3,yukino-yoshida-jpn,Yukino Yoshida,JPN,8.3,8316
+freestyle-w-moguls,Women's Moguls,freestyle,bronze,1,jaelin-kauf-usa,Jaelin Kauf,USA,12.5,12536
+freestyle-w-moguls,Women's Moguls,freestyle,bronze,2,perrine-laffont-fra,Perrine Laffont,FRA,12.1,12133
+freestyle-w-moguls,Women's Moguls,freestyle,bronze,3,tess-johnson-usa,Tess Johnson,USA,9.3,9339
+freestyle-w-moguls,Women's Moguls,freestyle,gold,1,jaelin-kauf-usa,Jaelin Kauf,USA,24.9,24921
+freestyle-w-moguls,Women's Moguls,freestyle,gold,2,perrine-laffont-fra,Perrine Laffont,FRA,18.2,18214
+freestyle-w-moguls,Women's Moguls,freestyle,gold,3,maia-schwinghammer-can,Maia Schwinghammer,CAN,9.2,9214
+freestyle-w-moguls,Women's Moguls,freestyle,silver,1,jaelin-kauf-usa,Jaelin Kauf,USA,17.0,17036
+freestyle-w-moguls,Women's Moguls,freestyle,silver,2,perrine-laffont-fra,Perrine Laffont,FRA,14.9,14868
+freestyle-w-moguls,Women's Moguls,freestyle,silver,3,tess-johnson-usa,Tess Johnson,USA,9.5,9528
+bobsled-w-monobob,Women's Monobob,bobsled,bronze,1,melanie-hasler-sui,Melanie Hasler,SUI,14.7,14661
+bobsled-w-monobob,Women's Monobob,bobsled,bronze,2,kim-kalicki-ger,Kim Kalicki,GER,14.3,14315
+bobsled-w-monobob,Women's Monobob,bobsled,bronze,3,christine-de-bruin-can,Christine de Bruin,CAN,13.5,13538
+bobsled-w-monobob,Women's Monobob,bobsled,gold,1,melanie-hasler-sui,Melanie Hasler,SUI,21.0,20993
+bobsled-w-monobob,Women's Monobob,bobsled,gold,2,kim-kalicki-ger,Kim Kalicki,GER,17.1,17143
+bobsled-w-monobob,Women's Monobob,bobsled,gold,3,christine-de-bruin-can,Christine de Bruin,CAN,14.2,14246
+bobsled-w-monobob,Women's Monobob,bobsled,silver,1,melanie-hasler-sui,Melanie Hasler,SUI,17.2,17167
+bobsled-w-monobob,Women's Monobob,bobsled,silver,2,kim-kalicki-ger,Kim Kalicki,GER,15.4,15368
+bobsled-w-monobob,Women's Monobob,bobsled,silver,3,christine-de-bruin-can,Christine de Bruin,CAN,14.1,14122
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,bronze,1,nika-prevc-slo,Nika Prevc,SLO,9.8,9794
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,bronze,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,8.7,8730
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,bronze,3,lisa-eder-aut,Lisa Eder,AUT,7.7,7734
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,gold,1,nika-prevc-slo,Nika Prevc,SLO,18.3,18292
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,gold,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,12.2,12181
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,gold,3,lisa-eder-aut,Lisa Eder,AUT,9.4,9427
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,silver,1,nika-prevc-slo,Nika Prevc,SLO,12.9,12927
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,silver,2,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,10.0,10010
+ski-jumping-w-normal-hill,Women's Normal Hill Individual,ski-jumping,silver,3,lisa-eder-aut,Lisa Eder,AUT,8.7,8697
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,bronze,1,ramona-theresia-hofmeister-ger,Ramona Theresia Hofmeister,GER,14.8,14784
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,bronze,2,ester-ledecka-cze,Ester Ledecka,CZE,14.5,14512
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,bronze,3,daniela-ulbing-aut,Daniela Ulbing,AUT,14.0,14048
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,gold,1,ramona-theresia-hofmeister-ger,Ramona Theresia Hofmeister,GER,20.5,20463
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,gold,2,ester-ledecka-cze,Ester Ledecka,CZE,17.9,17945
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,gold,3,daniela-ulbing-aut,Daniela Ulbing,AUT,15.5,15483
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,silver,1,ramona-theresia-hofmeister-ger,Ramona Theresia Hofmeister,GER,17.2,17236
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,silver,2,ester-ledecka-cze,Ester Ledecka,CZE,16.2,16211
+snowboard-w-pgs,Women's Parallel Giant Slalom,snowboard,silver,3,daniela-ulbing-aut,Daniela Ulbing,AUT,14.8,14766
+figure-skating-w,Women's Singles,figure-skating,bronze,1,kaori-sakamoto-jpn,Kaori Sakamoto,JPN,11.4,11428
+figure-skating-w,Women's Singles,figure-skating,bronze,2,isabeau-levito-usa,Isabeau Levito,USA,11.0,11025
+figure-skating-w,Women's Singles,figure-skating,bronze,3,loena-hendrickx-bel,Loena Hendrickx,BEL,10.6,10615
+figure-skating-w,Women's Singles,figure-skating,gold,1,kaori-sakamoto-jpn,Kaori Sakamoto,JPN,13.6,13563
+figure-skating-w,Women's Singles,figure-skating,gold,2,isabeau-levito-usa,Isabeau Levito,USA,12.0,11983
+figure-skating-w,Women's Singles,figure-skating,gold,3,loena-hendrickx-bel,Loena Hendrickx,BEL,11.4,11422
+figure-skating-w,Women's Singles,figure-skating,silver,1,kaori-sakamoto-jpn,Kaori Sakamoto,JPN,11.9,11939
+figure-skating-w,Women's Singles,figure-skating,silver,2,isabeau-levito-usa,Isabeau Levito,USA,11.3,11329
+figure-skating-w,Women's Singles,figure-skating,silver,3,loena-hendrickx-bel,Loena Hendrickx,BEL,11.0,11022
+luge-w-singles,Women's Singles Luge,luge,bronze,1,eliza-tiruma-lat,Eliza Tiruma,LAT,14.1,14115
+luge-w-singles,Women's Singles Luge,luge,bronze,2,emily-sweeney-usa,Emily Sweeney,USA,14.0,14044
+luge-w-singles,Women's Singles Luge,luge,bronze,3,summer-britcher-usa,Summer Britcher,USA,12.9,12894
+luge-w-singles,Women's Singles Luge,luge,gold,1,eliza-tiruma-lat,Eliza Tiruma,LAT,21.6,21562
+luge-w-singles,Women's Singles Luge,luge,gold,2,emily-sweeney-usa,Emily Sweeney,USA,18.7,18696
+luge-w-singles,Women's Singles Luge,luge,gold,3,summer-britcher-usa,Summer Britcher,USA,14.4,14425
+luge-w-singles,Women's Singles Luge,luge,silver,1,eliza-tiruma-lat,Eliza Tiruma,LAT,17.2,17183
+luge-w-singles,Women's Singles Luge,luge,silver,2,emily-sweeney-usa,Emily Sweeney,USA,15.8,15769
+luge-w-singles,Women's Singles Luge,luge,silver,3,summer-britcher-usa,Summer Britcher,USA,13.7,13708
+skeleton-w,Women's Skeleton,skeleton,bronze,1,katie-uhlaender-usa,Katie Uhlaender,USA,15.1,15060
+skeleton-w,Women's Skeleton,skeleton,bronze,2,amelia-coltman-gbr,Amelia Coltman,GBR,14.8,14765
+skeleton-w,Women's Skeleton,skeleton,bronze,3,hannah-neise-ger,Hannah Neise,GER,13.9,13859
+skeleton-w,Women's Skeleton,skeleton,gold,1,katie-uhlaender-usa,Katie Uhlaender,USA,23.9,23897
+skeleton-w,Women's Skeleton,skeleton,gold,2,amelia-coltman-gbr,Amelia Coltman,GBR,17.9,17888
+skeleton-w,Women's Skeleton,skeleton,gold,3,hannah-neise-ger,Hannah Neise,GER,14.5,14520
+skeleton-w,Women's Skeleton,skeleton,silver,1,katie-uhlaender-usa,Katie Uhlaender,USA,18.7,18745
+skeleton-w,Women's Skeleton,skeleton,silver,2,amelia-coltman-gbr,Amelia Coltman,GBR,16.3,16252
+skeleton-w,Women's Skeleton,skeleton,silver,3,hannah-neise-ger,Hannah Neise,GER,14.1,14145
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,bronze,1,marielle-thompson-can,Marielle Thompson,CAN,11.3,11269
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,bronze,2,fanny-smith-sui,Fanny Smith,SUI,10.6,10628
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,bronze,3,sandra-naeslund-swe,Sandra Naeslund,SWE,10.6,10620
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,gold,1,marielle-thompson-can,Marielle Thompson,CAN,15.3,15270
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,gold,2,sandra-naeslund-swe,Sandra Naeslund,SWE,14.0,14024
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,gold,3,fanny-smith-sui,Fanny Smith,SUI,12.5,12534
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,silver,1,marielle-thompson-can,Marielle Thompson,CAN,12.7,12747
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,silver,2,sandra-naeslund-swe,Sandra Naeslund,SWE,12.0,11981
+freestyle-w-ski-cross,Women's Ski Cross,freestyle,silver,3,fanny-smith-sui,Fanny Smith,SUI,11.7,11682
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,bronze,1,jessie-diggins-usa,Jessie Diggins,USA,7.5,7533
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,bronze,2,victoria-carl-ger,Victoria Carl,GER,6.4,6442
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,bronze,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.2,6229
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,gold,1,jessie-diggins-usa,Jessie Diggins,USA,10.2,10240
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,gold,2,victoria-carl-ger,Victoria Carl,GER,7.9,7875
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,gold,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.9,6893
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,silver,1,jessie-diggins-usa,Jessie Diggins,USA,8.6,8558
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,silver,2,victoria-carl-ger,Victoria Carl,GER,7.0,7048
+cross-country-w-skiathlon,Women's Skiathlon,cross-country,silver,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.6,6559
+alpine-w-slalom,Women's Slalom,alpine,bronze,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,9.1,9101
+alpine-w-slalom,Women's Slalom,alpine,bronze,2,camille-rast-sui,Camille Rast,SUI,8.4,8399
+alpine-w-slalom,Women's Slalom,alpine,bronze,3,emma-aicher-ger,Emma Aicher,GER,6.5,6541
+alpine-w-slalom,Women's Slalom,alpine,gold,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,15.6,15553
+alpine-w-slalom,Women's Slalom,alpine,gold,2,camille-rast-sui,Camille Rast,SUI,12.1,12069
+alpine-w-slalom,Women's Slalom,alpine,gold,3,emma-aicher-ger,Emma Aicher,GER,7.3,7333
+alpine-w-slalom,Women's Slalom,alpine,silver,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,11.4,11413
+alpine-w-slalom,Women's Slalom,alpine,silver,2,camille-rast-sui,Camille Rast,SUI,10.0,10010
+alpine-w-slalom,Women's Slalom,alpine,silver,3,emma-aicher-ger,Emma Aicher,GER,7.1,7056
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,bronze,1,eileen-gu-chn,Eileen Gu,CHN,13.5,13520
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,bronze,1,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,14.4,14362
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,bronze,2,kelly-sildaru-est,Kelly Sildaru,EST,13.1,13114
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,bronze,2,anna-gasser-aut,Anna Gasser,AUT,14.0,14045
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,bronze,3,megan-oldham-can,Megan Oldham,CAN,12.6,12589
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,bronze,3,kokomo-murase-jpn,Kokomo Murase,JPN,13.9,13866
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,gold,1,eileen-gu-chn,Eileen Gu,CHN,18.1,18143
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,gold,1,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,19.1,19069
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,gold,2,kelly-sildaru-est,Kelly Sildaru,EST,16.0,16044
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,gold,2,anna-gasser-aut,Anna Gasser,AUT,17.1,17079
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,gold,3,megan-oldham-can,Megan Oldham,CAN,14.1,14134
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,gold,3,kokomo-murase-jpn,Kokomo Murase,JPN,15.1,15147
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,silver,1,eileen-gu-chn,Eileen Gu,CHN,15.3,15290
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,silver,1,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,16.3,16264
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,silver,2,kelly-sildaru-est,Kelly Sildaru,EST,14.5,14528
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,silver,2,anna-gasser-aut,Anna Gasser,AUT,15.2,15228
+freestyle-w-slopestyle,Women's Slopestyle,freestyle,silver,3,megan-oldham-can,Megan Oldham,CAN,13.5,13456
+snowboard-w-slopestyle,Women's Slopestyle,snowboard,silver,3,kokomo-murase-jpn,Kokomo Murase,JPN,14.4,14394
+snowboard-w-cross,Women's Snowboard Cross,snowboard,bronze,1,lindsey-jacobellis-usa,Lindsey Jacobellis,USA,14.7,14695
+snowboard-w-cross,Women's Snowboard Cross,snowboard,bronze,2,charlotte-bankes-gbr,Charlotte Bankes,GBR,14.2,14241
+snowboard-w-cross,Women's Snowboard Cross,snowboard,bronze,3,belle-brockhoff-aus,Belle Brockhoff,AUS,13.6,13629
+snowboard-w-cross,Women's Snowboard Cross,snowboard,gold,1,lindsey-jacobellis-usa,Lindsey Jacobellis,USA,18.8,18813
+snowboard-w-cross,Women's Snowboard Cross,snowboard,gold,2,charlotte-bankes-gbr,Charlotte Bankes,GBR,16.9,16882
+snowboard-w-cross,Women's Snowboard Cross,snowboard,gold,3,belle-brockhoff-aus,Belle Brockhoff,AUS,14.9,14899
+snowboard-w-cross,Women's Snowboard Cross,snowboard,silver,1,lindsey-jacobellis-usa,Lindsey Jacobellis,USA,16.3,16270
+snowboard-w-cross,Women's Snowboard Cross,snowboard,silver,2,charlotte-bankes-gbr,Charlotte Bankes,GBR,15.3,15307
+snowboard-w-cross,Women's Snowboard Cross,snowboard,silver,3,belle-brockhoff-aus,Belle Brockhoff,AUS,14.3,14317
+cross-country-w-sprint,Women's Sprint,cross-country,bronze,1,jessie-diggins-usa,Jessie Diggins,USA,7.5,7518
+cross-country-w-sprint,Women's Sprint,cross-country,bronze,2,victoria-carl-ger,Victoria Carl,GER,6.6,6576
+cross-country-w-sprint,Women's Sprint,cross-country,bronze,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.1,6146
+cross-country-w-sprint,Women's Sprint,cross-country,gold,1,jessie-diggins-usa,Jessie Diggins,USA,10.4,10381
+cross-country-w-sprint,Women's Sprint,cross-country,gold,2,victoria-carl-ger,Victoria Carl,GER,7.8,7808
+cross-country-w-sprint,Women's Sprint,cross-country,gold,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,7.1,7116
+cross-country-w-sprint,Women's Sprint,cross-country,silver,1,jessie-diggins-usa,Jessie Diggins,USA,8.6,8598
+cross-country-w-sprint,Women's Sprint,cross-country,silver,2,victoria-carl-ger,Victoria Carl,GER,7.2,7185
+cross-country-w-sprint,Women's Sprint,cross-country,silver,3,kerttu-niskanen-fin,Kerttu Niskanen,FIN,6.4,6419
+alpine-w-super-g,Women's Super-G,alpine,bronze,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,9.2,9221
+alpine-w-super-g,Women's Super-G,alpine,bronze,2,camille-rast-sui,Camille Rast,SUI,8.3,8261
+alpine-w-super-g,Women's Super-G,alpine,bronze,3,emma-aicher-ger,Emma Aicher,GER,6.8,6766
+alpine-w-super-g,Women's Super-G,alpine,gold,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,15.4,15384
+alpine-w-super-g,Women's Super-G,alpine,gold,2,camille-rast-sui,Camille Rast,SUI,12.3,12314
+alpine-w-super-g,Women's Super-G,alpine,gold,3,emma-aicher-ger,Emma Aicher,GER,7.3,7309
+alpine-w-super-g,Women's Super-G,alpine,silver,1,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,11.6,11576
+alpine-w-super-g,Women's Super-G,alpine,silver,2,camille-rast-sui,Camille Rast,SUI,9.9,9868
+alpine-w-super-g,Women's Super-G,alpine,silver,3,paula-moltzan-usa,Paula Moltzan,USA,6.9,6897

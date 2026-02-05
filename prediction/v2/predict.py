@@ -25,7 +25,7 @@ from collections import defaultdict
 from pathlib import Path
 
 # Configuration
-NUM_SIMULATIONS = 10000
+NUM_SIMULATIONS = 100000
 NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
@@ -264,93 +264,56 @@ def calculate_confidence_intervals(simulation_results, country):
     }
 
 
-def main():
-    print(f"Loading data from {DATA_DIR}...")
-    sports, competitions, athletes, entries = load_data()
+def run_and_output(sports, competitions, athletes, entries, run_name, output_suffix=""):
+    """Run simulation and write output files."""
+    print(f"\n{'='*60}")
+    print(f"RUN: {run_name}")
+    print(f"{'='*60}")
     
-    print(f"Loaded {len(competitions)} competitions, {len(athletes)} athletes, {len(entries)} entries")
-    
-    comps_with_entries = len(set(e["competition_id"] for e in entries))
-    print(f"Competitions with athlete data: {comps_with_entries}")
-    
-    print(f"\n=== V2 MODEL PARAMETERS ===")
-    print(f"Gold power: {GOLD_POWER} (higher = favorites dominate gold)")
-    print(f"Silver power: {SILVER_POWER}")
-    print(f"Bronze power: {BRONZE_POWER} (most random)")
-    print(f"Top N contenders: {TOP_N_CONTENDERS}")
-    
-    print(f"\nRunning {NUM_SIMULATIONS:,} simulations...")
+    print(f"Running {NUM_SIMULATIONS:,} simulations...")
     results, simulation_results, comp_athlete_medals, entries_by_comp = run_simulation(
         sports, competitions, athletes, entries
     )
     
-    # Filter to Nordic countries
+    # Filter to Nordic countries and sort
     nordic_results = {c: r for c, r in results.items() if c in NORDIC_COUNTRIES}
     sorted_results = sorted(nordic_results.items(), key=lambda x: -x[1]["total"])
     
-    # Get representative simulation
-    rep_sim = get_representative_simulation(simulation_results, NORDIC_COUNTRIES)
-    
     # Print results
-    print("\n" + "=" * 60)
-    print("NORDIC MEDAL PREDICTIONS - 2026 Winter Olympics (V2)")
+    print("\nNORDIC MEDAL PREDICTIONS - 2026 Winter Olympics (V2)")
     print("(Bradley-Terry inspired with position-weighted probabilities)")
-    print("=" * 60)
+    print(f"Prediction = Expected value (mean) from {NUM_SIMULATIONS:,} simulations\n")
     
     for country, medals in sorted_results:
         ci = calculate_confidence_intervals(simulation_results, country)
-        rep = rep_sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
-        rep_total = rep.get("gold", 0) + rep.get("silver", 0) + rep.get("bronze", 0)
-        print(f"\n{country}:")
-        print(f"  Prediction: Gold {rep.get('gold', 0):2d} - Silver {rep.get('silver', 0):2d} - Bronze {rep.get('bronze', 0):2d} (Total: {rep_total})")
-        print(f"  Mean:       Gold {medals['gold']:4.1f} - Silver {medals['silver']:4.1f} - Bronze {medals['bronze']:4.1f} (Total: {medals['total']:.1f})")
-        print(f"  95% CI:     Gold {ci['gold'][0]:2.0f}-{ci['gold'][1]:2.0f}  - Silver {ci['silver'][0]:2.0f}-{ci['silver'][1]:2.0f}  - Bronze {ci['bronze'][0]:2.0f}-{ci['bronze'][1]:2.0f}")
+        pred_g = round(medals['gold'])
+        pred_s = round(medals['silver'])
+        pred_b = round(medals['bronze'])
+        pred_total = pred_g + pred_s + pred_b
+        print(f"{country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total})")
+        print(f"  Mean: {medals['gold']:.2f}-{medals['silver']:.2f}-{medals['bronze']:.2f}, 95% CI: G({ci['gold'][0]:.0f}-{ci['gold'][1]:.0f}) S({ci['silver'][0]:.0f}-{ci['silver'][1]:.0f}) B({ci['bronze'][0]:.0f}-{ci['bronze'][1]:.0f})")
     
     # Write CSV output
     output_dir = Path(__file__).parent.parent.parent / "output"
     output_dir.mkdir(exist_ok=True)
-    output_path = output_dir / "v2_predictions.csv"
+    output_path = output_dir / f"v2_predictions{output_suffix}.csv"
     
     with open(output_path, "w") as f:
-        f.write("country,gold_mean,silver_mean,bronze_mean,total_mean,gold_median,silver_median,bronze_median,total_median,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high\n")
+        f.write("country,gold,silver,bronze,total,gold_mean,silver_mean,bronze_mean,total_mean,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high\n")
         for country, medals in sorted_results:
             ci = calculate_confidence_intervals(simulation_results, country)
-            rep = rep_sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
-            rep_total = rep.get("gold", 0) + rep.get("silver", 0) + rep.get("bronze", 0)
-            f.write(f"{country},{medals['gold']:.1f},{medals['silver']:.1f},{medals['bronze']:.1f},{medals['total']:.1f},")
-            f.write(f"{rep.get('gold', 0)},{rep.get('silver', 0)},{rep.get('bronze', 0)},{rep_total},")
+            pred_g = round(medals['gold'])
+            pred_s = round(medals['silver'])
+            pred_b = round(medals['bronze'])
+            pred_total = pred_g + pred_s + pred_b
+            f.write(f"{country},{pred_g},{pred_s},{pred_b},{pred_total},")
+            f.write(f"{medals['gold']:.2f},{medals['silver']:.2f},{medals['bronze']:.2f},{medals['total']:.2f},")
             f.write(f"{ci['gold'][0]},{ci['gold'][1]},{ci['silver'][0]},{ci['silver'][1]},")
             f.write(f"{ci['bronze'][0]},{ci['bronze'][1]},{ci['total'][0]},{ci['total'][1]}\n")
     
     print(f"\nResults written to {output_path}")
     
-    # Final predictions
-    print("\n" + "=" * 60)
-    print("FINAL PREDICTIONS (for submission)")
-    print("=" * 60)
-    for country, _ in sorted_results:
-        rep = rep_sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
-        g = rep.get("gold", 0)
-        s = rep.get("silver", 0)
-        b = rep.get("bronze", 0)
-        print(f"{country}: Gold {g} - Silver {s} - Bronze {b}")
-    
-    # Sample simulations
-    print("\n" + "=" * 60)
-    print("SAMPLE SINGLE OLYMPICS (showing variance)")
-    print("=" * 60)
-    for i, sim in enumerate(simulation_results[:5]):
-        print(f"\nSimulation {i+1}:")
-        for country in ["NOR", "SWE", "FIN", "DEN"]:
-            if country in sim:
-                g = sim[country]["gold"]
-                s = sim[country]["silver"]
-                b = sim[country]["bronze"]
-                print(f"  {country}: Gold {g} - Silver {s} - Bronze {b} (Total: {g+s+b})")
-            else:
-                print(f"  {country}: Gold 0 - Silver 0 - Bronze 0 (Total: 0)")
-    
-    # Write per-competition predictions
+    # Output per-competition predictions
     comp_predictions = []
     for comp_id, athlete_medals in comp_athlete_medals.items():
         comp = competitions.get(comp_id, {})
@@ -378,14 +341,63 @@ def main():
                     "win_count": count
                 })
     
-    comp_output_path = output_dir / "v2_competition_predictions.csv"
+    comp_output_path = output_dir / f"v2_competition_predictions{output_suffix}.csv"
     with open(comp_output_path, "w") as f:
         f.write("competition_id,competition_name,sport_id,medal,rank,athlete_id,athlete_name,country,probability,win_count\n")
         for p in sorted(comp_predictions, key=lambda x: (x["competition_name"], x["medal"], x["rank"])):
             f.write(f"{p['competition_id']},{p['competition_name']},{p['sport_id']},{p['medal']},{p['rank']},")
             f.write(f"{p['athlete_id']},{p['athlete_name']},{p['country']},{p['probability']:.1f},{p['win_count']}\n")
     
-    print(f"\nCompetition predictions written to {comp_output_path}")
+    print(f"Competition predictions written to {comp_output_path}")
+    
+    return sorted_results
+
+
+def main():
+    print(f"Loading data from {DATA_DIR}...")
+    sports, competitions, athletes, entries = load_data()
+    
+    print(f"Loaded {len(competitions)} competitions, {len(athletes)} athletes, {len(entries)} entries")
+    comps_with_entries = len(set(e["competition_id"] for e in entries))
+    print(f"Competitions with athlete data: {comps_with_entries}")
+    
+    print(f"\n=== V2 MODEL PARAMETERS ===")
+    print(f"Gold power: {GOLD_POWER} (higher = favorites dominate gold)")
+    print(f"Silver power: {SILVER_POWER}")
+    print(f"Bronze power: {BRONZE_POWER} (most random)")
+    print(f"Top N contenders: {TOP_N_CONTENDERS}")
+    
+    # Run 1 - no fixed seed (truly random)
+    results1 = run_and_output(sports, competitions, athletes, entries, "Run 1", "")
+    
+    # Run 2 - different random state (should produce same MEANS due to law of large numbers)
+    results2 = run_and_output(sports, competitions, athletes, entries, "Run 2", "_run_2")
+    
+    # Compare results - means should be nearly identical with 100k simulations
+    print("\n" + "=" * 60)
+    print("STABILITY CHECK: Comparing Run 1 vs Run 2")
+    print("(With 100k simulations, means should converge to same values)")
+    print("=" * 60)
+    
+    all_stable = True
+    for (c1, m1), (c2, m2) in zip(results1, results2):
+        g1, s1, b1 = round(m1['gold']), round(m1['silver']), round(m1['bronze'])
+        g2, s2, b2 = round(m2['gold']), round(m2['silver']), round(m2['bronze'])
+        
+        # Check if means are within 0.5 of each other (statistical tolerance)
+        mean_diff = abs(m1['gold'] - m2['gold']) + abs(m1['silver'] - m2['silver']) + abs(m1['bronze'] - m2['bronze'])
+        stable = mean_diff < 0.5
+        if not stable:
+            all_stable = False
+        
+        match = "✓" if (g1, s1, b1) == (g2, s2, b2) else f"~(diff={mean_diff:.2f})"
+        print(f"{c1}: Run1({g1}-{s1}-{b1}) vs Run2({g2}-{s2}-{b2}) {match}")
+        print(f"      Means: {m1['gold']:.2f}-{m1['silver']:.2f}-{m1['bronze']:.2f} vs {m2['gold']:.2f}-{m2['silver']:.2f}-{m2['bronze']:.2f}")
+    
+    if all_stable:
+        print("\n✓ Means converged - results are statistically stable!")
+    else:
+        print("\n⚠ Means differ more than expected - consider increasing NUM_SIMULATIONS")
 
 
 if __name__ == "__main__":

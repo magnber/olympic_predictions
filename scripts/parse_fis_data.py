@@ -639,7 +639,6 @@ SHORT_TRACK_WOMEN = [
 
 NORDIC_COMBINED_MEN = [
     ("Vinzenz Geiger", "GER", 1506),
-    ("Jarl Magnus Riiber", "NOR", 1385),
     ("Johannes Lamparter", "AUT", 1317),
     ("Julian Schmid", "GER", 1100),
     ("Ryota Yamamoto", "JPN", 950),

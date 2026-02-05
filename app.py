@@ -133,10 +133,10 @@ def main():
                 
                 with col:
                     st.markdown(f"### {flag} {country}")
-                    st.metric("🥇 Gold", f"{row['gold_median']:.0f}", delta=None)
-                    st.metric("🥈 Silver", f"{row['silver_median']:.0f}", delta=None)
-                    st.metric("🥉 Bronze", f"{row['bronze_median']:.0f}", delta=None)
-                    st.metric("📊 Total", f"{row['total_median']:.0f}", delta=None)
+                    st.metric("🥇 Gold", f"{row['gold']:.0f}", delta=None)
+                    st.metric("🥈 Silver", f"{row['silver']:.0f}", delta=None)
+                    st.metric("🥉 Bronze", f"{row['bronze']:.0f}", delta=None)
+                    st.metric("📊 Total", f"{row['total']:.0f}", delta=None)
             
             st.divider()
             
@@ -147,13 +147,84 @@ def main():
             for _, row in df_pred.iterrows():
                 ci_data.append({
                     "Country": row["country"],
-                    "Gold": f"{row['gold_median']:.0f} ({row['gold_low']:.0f}-{row['gold_high']:.0f})",
-                    "Silver": f"{row['silver_median']:.0f} ({row['silver_low']:.0f}-{row['silver_high']:.0f})",
-                    "Bronze": f"{row['bronze_median']:.0f} ({row['bronze_low']:.0f}-{row['bronze_high']:.0f})",
-                    "Total": f"{row['total_median']:.0f} ({row['total_low']:.0f}-{row['total_high']:.0f})",
+                    "Gold": f"{row['gold']:.0f} ({row['gold_low']:.0f}-{row['gold_high']:.0f})",
+                    "Silver": f"{row['silver']:.0f} ({row['silver_low']:.0f}-{row['silver_high']:.0f})",
+                    "Bronze": f"{row['bronze']:.0f} ({row['bronze_low']:.0f}-{row['bronze_high']:.0f})",
+                    "Total": f"{row['total']:.0f} ({row['total_low']:.0f}-{row['total_high']:.0f})",
                 })
             
             st.dataframe(pd.DataFrame(ci_data), use_container_width=True, hide_index=True)
+            
+            st.divider()
+            
+            # Medal Drilldown - show which athletes contribute to predictions
+            st.subheader("🔍 Medal Drilldown")
+            st.markdown("*Which athletes are predicted to win medals?*")
+            
+            # Load corresponding competition predictions
+            comp_pred_file = OUTPUT_DIR / f"{selected_file}_competition_predictions.csv"
+            if not comp_pred_file.exists():
+                # Try without the version prefix matching
+                comp_files = list(OUTPUT_DIR.glob("*_competition_predictions.csv"))
+                if comp_files:
+                    comp_pred_file = comp_files[0]
+            
+            if comp_pred_file.exists():
+                df_comp = pd.read_csv(comp_pred_file)
+                
+                # Filter to Nordic countries with meaningful medal probability (>3%)
+                # Include all ranks, not just rank 1 (which would exclude athletes who are 2nd/3rd favorites)
+                nordic_medals = df_comp[
+                    (df_comp["country"].isin(NORDIC_COUNTRIES)) & 
+                    (df_comp["probability"] >= 3.0)
+                ].copy()
+                
+                if len(nordic_medals) > 0:
+                    # Country selector for drilldown
+                    drilldown_country = st.selectbox(
+                        "Select country to drill down:",
+                        ["All Nordic"] + list(NORDIC_COUNTRIES),
+                        key="drilldown_country"
+                    )
+                    
+                    if drilldown_country != "All Nordic":
+                        nordic_medals = nordic_medals[nordic_medals["country"] == drilldown_country]
+                    
+                    # Add medal emoji
+                    medal_emoji = {"gold": "🥇", "silver": "🥈", "bronze": "🥉"}
+                    nordic_medals["medal_display"] = nordic_medals["medal"].map(medal_emoji)
+                    nordic_medals["prob_str"] = nordic_medals["probability"].apply(lambda x: f"{x:.1f}%")
+                    
+                    # Group by country for summary
+                    if drilldown_country == "All Nordic":
+                        for country in ["NOR", "SWE", "FIN", "DEN"]:
+                            country_data = nordic_medals[nordic_medals["country"] == country]
+                            if len(country_data) > 0:
+                                flag = COUNTRY_FLAGS.get(country, "🏳️")
+                                with st.expander(f"{flag} {country} - {len(country_data)} medal opportunities", expanded=(country == "NOR")):
+                                    # Sort by probability
+                                    country_data = country_data.sort_values("probability", ascending=False)
+                                    
+                                    display_df = country_data[["medal_display", "athlete_name", "competition_name", "sport_id", "prob_str"]].copy()
+                                    display_df.columns = ["Medal", "Athlete", "Event", "Sport", "Probability"]
+                                    st.dataframe(display_df, use_container_width=True, hide_index=True)
+                    else:
+                        # Single country view
+                        nordic_medals = nordic_medals.sort_values("probability", ascending=False)
+                        display_df = nordic_medals[["medal_display", "athlete_name", "competition_name", "sport_id", "prob_str"]].copy()
+                        display_df.columns = ["Medal", "Athlete", "Event", "Sport", "Probability"]
+                        st.dataframe(display_df, use_container_width=True, hide_index=True)
+                    
+                    # Summary stats
+                    st.markdown("---")
+                    st.markdown("**Medal opportunity summary:**")
+                    summary_data = nordic_medals.groupby(["country", "medal"]).size().unstack(fill_value=0)
+                    if len(summary_data) > 0:
+                        st.dataframe(summary_data, use_container_width=True)
+                else:
+                    st.info("No Nordic athletes in top medal predictions for this version.")
+            else:
+                st.info("Competition predictions file not found. Run the prediction script first.")
             
             st.divider()
             
@@ -179,9 +250,9 @@ def main():
                 else:
                     name = country
                 
-                g = int(round(row['gold_median']))
-                s = int(round(row['silver_median']))
-                b = int(round(row['bronze_median']))
+                g = int(round(row['gold']))
+                s = int(round(row['silver']))
+                b = int(round(row['bronze']))
                 submission += f"{name}: 🥇 Gold – {g} 🥈 Silver – {s} 🥉 Bronze – {b}\n"
             
             st.code(submission, language=None)

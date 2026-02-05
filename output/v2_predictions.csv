@@ -1,4 +1,4 @@
-country,gold_mean,silver_mean,bronze_mean,total_mean,gold_median,silver_median,bronze_median,total_median,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high
-NOR,10.1,10.5,10.8,31.3,10,9,11,30,5,15,5,16,6,17,23,40
-SWE,5.5,5.6,5.7,16.9,5,10,2,17,2,10,2,10,2,10,11,24
-FIN,1.7,1.8,1.8,5.2,2,2,2,6,0,4,0,4,0,5,2,9
+country,gold,silver,bronze,total,gold_mean,silver_mean,bronze_mean,total_mean,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high
+NOR,10,10,11,31,9.85,10.31,10.60,30.77,5,15,5,16,5,16,22,40
+SWE,6,6,6,18,5.53,5.62,5.73,16.88,2,10,2,10,2,10,11,24
+FIN,2,2,2,6,1.71,1.77,1.82,5.31,0,4,0,5,0,5,2,9
