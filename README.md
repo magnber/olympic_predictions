@@ -18,28 +18,7 @@ python predict.py
 streamlit run app.py
 ```
 
-## Project Structure
 
-```
-olympic_predictions/
-├── app.py                  # Streamlit visualization
-├── predict.py              # Monte Carlo prediction engine
-├── run_pipeline.py         # Data pipeline orchestrator
-├── database.py             # SQLite database setup
-├── excluded_athletes.py    # Athletes to exclude (injured/retired)
-├── pipelines/
-│   ├── import_legacy.py    # Import baseline JSON data
-│   ├── isu_speed_skating.py # ISU API for speed skating
-│   └── fis_alpine.py       # FIS scraping for alpine
-├── data/                   # Baseline athlete data (JSON)
-├── db/
-│   └── olympics.db         # SQLite database
-├── output/
-│   ├── predictions.csv     # Country medal totals
-│   └── competition_predictions.csv  # Per-event predictions
-└── scripts/
-    └── parse_fis_data.py   # Legacy data generation
-```
 
 ## Data Pipeline
 
@@ -51,10 +30,7 @@ The pipeline aggregates data from multiple sources:
 | **FIS Scraping** | Alpine Skiing | Web scraping - discipline-specific standings |
 | **Legacy JSON** | All others | World Cup overall standings |
 
-### Key Improvements
-- **Event specialization**: Athletes only compete in their actual events
-- **Jordan Stolz fix**: Speed skaters now correctly appear only in their specialized distances
-- **Mikaela Shiffrin fix**: Alpine skiers now have discipline-specific scores (SL/GS vs DH/SG)
+
 
 ## Prediction Model
 
