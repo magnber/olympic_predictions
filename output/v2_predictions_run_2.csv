@@ -1,4 +1,0 @@
-country,gold,silver,bronze,total,gold_mean,silver_mean,bronze_mean,total_mean,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high
-NOR,10,10,11,31,9.83,10.32,10.60,30.75,5,15,5,16,5,16,22,40
-SWE,6,6,6,18,5.53,5.63,5.73,16.89,2,10,2,10,2,10,11,24
-FIN,2,2,2,6,1.71,1.77,1.81,5.29,0,4,0,5,0,5,2,9

@@ -15,7 +15,7 @@ Based on:
 - FiveThirtyEight methodology
 
 Usage: python predict.py
-Output: v3_predictions.csv, v3_predictions_run_2.csv
+Output: v3_predictions.csv, v3_competition_predictions.csv
 """
 
 import json
@@ -33,6 +33,16 @@ DATA_DIR = Path(__file__).parent.parent.parent / "data"
 # Strength uncertainty: models our uncertainty in athlete strength estimates
 # This creates correlated errors - same athlete affected across all their events
 STRENGTH_UNCERTAINTY = 0.15  # 15% coefficient of variation
+
+# TEMPERATURE: Controls how much noise vs skill determines outcomes
+# - Lower temperature = favorites win more consistently
+# - Temperature 1.0 = standard Plackett-Luce (Gumbel stddev ~1.28)
+# - Temperature 0.3 = reduced noise (Gumbel stddev ~0.38), more realistic
+#
+# Why 0.3? Our log-strength spread (1st to 5th) is ~0.4
+# With temp=1.0, noise (stddev 1.28) is 3x larger than signal
+# With temp=0.3, noise (stddev 0.38) matches the signal scale
+TEMPERATURE = 0.3
 
 # Gumbel scale for day-to-day performance variation (within a simulation)
 PERFORMANCE_VARIANCE = 1.0
@@ -82,11 +92,15 @@ def gumbel_noise():
     """
     Generate Gumbel-distributed noise for Plackett-Luce model.
     This models day-to-day performance variation.
+    
+    Scaled by TEMPERATURE to control signal-to-noise ratio:
+    - Standard Gumbel (temp=1.0) has stddev ~1.28
+    - With temp=0.3, stddev ~0.38 (matches log-strength spread)
     """
     u = random.random()
     while u == 0:
         u = random.random()
-    return -PERFORMANCE_VARIANCE * math.log(-math.log(u))
+    return -TEMPERATURE * PERFORMANCE_VARIANCE * math.log(-math.log(u))
 
 
 def sample_strength_multiplier():
@@ -259,7 +273,8 @@ def run_and_output(sports, competitions, athletes, entries, run_name, output_suf
     
     print(f"Running {NUM_SIMULATIONS:,} simulations with variance propagation...")
     print(f"  - Strength uncertainty: {STRENGTH_UNCERTAINTY*100:.0f}% CV")
-    print(f"  - Performance variance: {PERFORMANCE_VARIANCE}")
+    print(f"  - Temperature: {TEMPERATURE} (noise scale)")
+    print(f"  - Effective Gumbel stddev: {TEMPERATURE * 1.28:.2f}")
     
     results, simulation_results, comp_athlete_medals, entries_by_comp = run_simulation(
         sports, competitions, athletes, entries
@@ -357,40 +372,11 @@ def main():
     
     print(f"\n=== V3 MODEL PARAMETERS ===")
     print(f"Strength uncertainty: {STRENGTH_UNCERTAINTY*100:.0f}% (models estimation error)")
-    print(f"Performance variance: {PERFORMANCE_VARIANCE} (day-to-day variation)")
+    print(f"Temperature: {TEMPERATURE} (lower = favorites win more)")
+    print(f"Effective noise stddev: {TEMPERATURE * 1.28:.2f} (vs log-spread ~0.4)")
     print(f"Simulations: {NUM_SIMULATIONS:,}")
     
-    # Run 1 - no fixed seed (truly random)
-    results1 = run_and_output(sports, competitions, athletes, entries, "Run 1", "")
-    
-    # Run 2 - different random state (should produce same MEANS due to law of large numbers)
-    results2 = run_and_output(sports, competitions, athletes, entries, "Run 2", "_run_2")
-    
-    # Compare results - means should be nearly identical with 100k simulations
-    print("\n" + "=" * 60)
-    print("STABILITY CHECK: Comparing Run 1 vs Run 2")
-    print("(With 100k simulations, means should converge to same values)")
-    print("=" * 60)
-    
-    all_stable = True
-    for (c1, m1), (c2, m2) in zip(results1, results2):
-        g1, s1, b1 = round(m1['gold']), round(m1['silver']), round(m1['bronze'])
-        g2, s2, b2 = round(m2['gold']), round(m2['silver']), round(m2['bronze'])
-        
-        # Check if means are within 0.3 of each other (statistical tolerance)
-        mean_diff = abs(m1['gold'] - m2['gold']) + abs(m1['silver'] - m2['silver']) + abs(m1['bronze'] - m2['bronze'])
-        stable = mean_diff < 0.5
-        if not stable:
-            all_stable = False
-        
-        match = "✓" if (g1, s1, b1) == (g2, s2, b2) else f"~(diff={mean_diff:.2f})"
-        print(f"{c1}: Run1({g1}-{s1}-{b1}) vs Run2({g2}-{s2}-{b2}) {match}")
-        print(f"      Means: {m1['gold']:.2f}-{m1['silver']:.2f}-{m1['bronze']:.2f} vs {m2['gold']:.2f}-{m2['silver']:.2f}-{m2['bronze']:.2f}")
-    
-    if all_stable:
-        print("\n✓ Means converged - results are statistically stable!")
-    else:
-        print("\n⚠ Means differ more than expected - consider increasing NUM_SIMULATIONS")
+    run_and_output(sports, competitions, athletes, entries, "V3 Simulation", "")
 
 
 if __name__ == "__main__":

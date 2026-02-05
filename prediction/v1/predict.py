@@ -355,44 +355,18 @@ def run_and_output(sports, competitions, athletes, entries, run_name, output_suf
 
 
 def main():
-    print(f"Loading data from {DATA_DIR}...")
+    print("=" * 60)
+    print("V1 PLACKETT-LUCE MODEL")
+    print("=" * 60)
+    
+    print(f"\nLoading data from {DATA_DIR}...")
     sports, competitions, athletes, entries = load_data()
     
     print(f"Loaded {len(competitions)} competitions, {len(athletes)} athletes, {len(entries)} entries")
     comps_with_entries = len(set(e["competition_id"] for e in entries))
     print(f"Competitions with athlete data: {comps_with_entries}")
     
-    # Run 1 - no fixed seed (truly random)
-    results1 = run_and_output(sports, competitions, athletes, entries, "Run 1", "")
-    
-    # Run 2 - different random state (should produce same MEANS due to law of large numbers)
-    results2 = run_and_output(sports, competitions, athletes, entries, "Run 2", "_run_2")
-    
-    # Compare results - means should be nearly identical with 100k simulations
-    print("\n" + "=" * 60)
-    print("STABILITY CHECK: Comparing Run 1 vs Run 2")
-    print("(With 100k simulations, means should converge to same values)")
-    print("=" * 60)
-    
-    all_stable = True
-    for (c1, m1), (c2, m2) in zip(results1, results2):
-        g1, s1, b1 = round(m1['gold']), round(m1['silver']), round(m1['bronze'])
-        g2, s2, b2 = round(m2['gold']), round(m2['silver']), round(m2['bronze'])
-        
-        # Check if means are within 0.5 of each other (statistical tolerance)
-        mean_diff = abs(m1['gold'] - m2['gold']) + abs(m1['silver'] - m2['silver']) + abs(m1['bronze'] - m2['bronze'])
-        stable = mean_diff < 0.5
-        if not stable:
-            all_stable = False
-        
-        match = "✓" if (g1, s1, b1) == (g2, s2, b2) else f"~(diff={mean_diff:.2f})"
-        print(f"{c1}: Run1({g1}-{s1}-{b1}) vs Run2({g2}-{s2}-{b2}) {match}")
-        print(f"      Means: {m1['gold']:.2f}-{m1['silver']:.2f}-{m1['bronze']:.2f} vs {m2['gold']:.2f}-{m2['silver']:.2f}-{m2['bronze']:.2f}")
-    
-    if all_stable:
-        print("\n✓ Means converged - results are statistically stable!")
-    else:
-        print("\n⚠ Means differ more than expected - consider increasing NUM_SIMULATIONS")
+    run_and_output(sports, competitions, athletes, entries, "V1 Simulation", "")
 
 
 if __name__ == "__main__":
