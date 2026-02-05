@@ -1,0 +1,108 @@
+{
+  "description": "Historical Winter Olympics medal counts - Last 4 games",
+  "source": "Wikipedia / Olympics.com",
+  "last_updated": "2026-02-05",
+  "olympics": [
+    {
+      "year": 2022,
+      "city": "Beijing",
+      "country": "China",
+      "total_events": 109,
+      "medal_table": [
+        {"rank": 1, "country": "NOR", "country_name": "Norway", "gold": 16, "silver": 8, "bronze": 13, "total": 37},
+        {"rank": 2, "country": "GER", "country_name": "Germany", "gold": 12, "silver": 10, "bronze": 5, "total": 27},
+        {"rank": 3, "country": "USA", "country_name": "United States", "gold": 9, "silver": 9, "bronze": 7, "total": 25},
+        {"rank": 4, "country": "CHN", "country_name": "China", "gold": 9, "silver": 4, "bronze": 2, "total": 15},
+        {"rank": 5, "country": "SWE", "country_name": "Sweden", "gold": 8, "silver": 5, "bronze": 5, "total": 18},
+        {"rank": 6, "country": "NED", "country_name": "Netherlands", "gold": 8, "silver": 5, "bronze": 4, "total": 17},
+        {"rank": 7, "country": "AUT", "country_name": "Austria", "gold": 7, "silver": 7, "bronze": 4, "total": 18},
+        {"rank": 8, "country": "SUI", "country_name": "Switzerland", "gold": 7, "silver": 2, "bronze": 6, "total": 15},
+        {"rank": 9, "country": "ROC", "country_name": "ROC", "gold": 5, "silver": 12, "bronze": 15, "total": 32},
+        {"rank": 10, "country": "FRA", "country_name": "France", "gold": 5, "silver": 7, "bronze": 2, "total": 14},
+        {"rank": 11, "country": "CAN", "country_name": "Canada", "gold": 4, "silver": 8, "bronze": 14, "total": 26},
+        {"rank": 12, "country": "JPN", "country_name": "Japan", "gold": 3, "silver": 7, "bronze": 8, "total": 18},
+        {"rank": 13, "country": "ITA", "country_name": "Italy", "gold": 2, "silver": 7, "bronze": 8, "total": 17},
+        {"rank": 14, "country": "KOR", "country_name": "South Korea", "gold": 2, "silver": 5, "bronze": 2, "total": 9},
+        {"rank": 15, "country": "SLO", "country_name": "Slovenia", "gold": 2, "silver": 3, "bronze": 2, "total": 7},
+        {"rank": 16, "country": "FIN", "country_name": "Finland", "gold": 2, "silver": 2, "bronze": 4, "total": 8}
+      ]
+    },
+    {
+      "year": 2018,
+      "city": "PyeongChang",
+      "country": "South Korea",
+      "total_events": 102,
+      "medal_table": [
+        {"rank": 1, "country": "NOR", "country_name": "Norway", "gold": 14, "silver": 14, "bronze": 11, "total": 39},
+        {"rank": 2, "country": "GER", "country_name": "Germany", "gold": 14, "silver": 10, "bronze": 7, "total": 31},
+        {"rank": 3, "country": "CAN", "country_name": "Canada", "gold": 11, "silver": 8, "bronze": 10, "total": 29},
+        {"rank": 4, "country": "USA", "country_name": "United States", "gold": 9, "silver": 8, "bronze": 6, "total": 23},
+        {"rank": 5, "country": "NED", "country_name": "Netherlands", "gold": 8, "silver": 6, "bronze": 6, "total": 20},
+        {"rank": 6, "country": "SWE", "country_name": "Sweden", "gold": 7, "silver": 6, "bronze": 1, "total": 14},
+        {"rank": 7, "country": "KOR", "country_name": "South Korea", "gold": 5, "silver": 8, "bronze": 4, "total": 17},
+        {"rank": 8, "country": "SUI", "country_name": "Switzerland", "gold": 5, "silver": 6, "bronze": 4, "total": 15},
+        {"rank": 9, "country": "FRA", "country_name": "France", "gold": 5, "silver": 4, "bronze": 6, "total": 15},
+        {"rank": 10, "country": "AUT", "country_name": "Austria", "gold": 5, "silver": 3, "bronze": 6, "total": 14},
+        {"rank": 11, "country": "JPN", "country_name": "Japan", "gold": 4, "silver": 5, "bronze": 4, "total": 13},
+        {"rank": 12, "country": "ITA", "country_name": "Italy", "gold": 3, "silver": 2, "bronze": 5, "total": 10},
+        {"rank": 13, "country": "OAR", "country_name": "Olympic Athletes from Russia", "gold": 2, "silver": 6, "bronze": 9, "total": 17},
+        {"rank": 14, "country": "CZE", "country_name": "Czech Republic", "gold": 2, "silver": 2, "bronze": 3, "total": 7},
+        {"rank": 15, "country": "FIN", "country_name": "Finland", "gold": 1, "silver": 1, "bronze": 4, "total": 6},
+        {"rank": 16, "country": "GBR", "country_name": "Great Britain", "gold": 1, "silver": 0, "bronze": 4, "total": 5}
+      ]
+    },
+    {
+      "year": 2014,
+      "city": "Sochi",
+      "country": "Russia",
+      "total_events": 98,
+      "medal_table": [
+        {"rank": 1, "country": "RUS", "country_name": "Russia", "gold": 13, "silver": 11, "bronze": 9, "total": 33},
+        {"rank": 2, "country": "USA", "country_name": "United States", "gold": 9, "silver": 7, "bronze": 12, "total": 28},
+        {"rank": 3, "country": "NOR", "country_name": "Norway", "gold": 11, "silver": 5, "bronze": 10, "total": 26},
+        {"rank": 4, "country": "CAN", "country_name": "Canada", "gold": 10, "silver": 10, "bronze": 5, "total": 25},
+        {"rank": 5, "country": "NED", "country_name": "Netherlands", "gold": 8, "silver": 7, "bronze": 9, "total": 24},
+        {"rank": 6, "country": "GER", "country_name": "Germany", "gold": 8, "silver": 6, "bronze": 5, "total": 19},
+        {"rank": 7, "country": "AUT", "country_name": "Austria", "gold": 4, "silver": 8, "bronze": 5, "total": 17},
+        {"rank": 8, "country": "FRA", "country_name": "France", "gold": 4, "silver": 4, "bronze": 7, "total": 15},
+        {"rank": 9, "country": "SWE", "country_name": "Sweden", "gold": 2, "silver": 7, "bronze": 6, "total": 15},
+        {"rank": 10, "country": "SUI", "country_name": "Switzerland", "gold": 7, "silver": 2, "bronze": 2, "total": 11},
+        {"rank": 11, "country": "CHN", "country_name": "China", "gold": 3, "silver": 4, "bronze": 2, "total": 9},
+        {"rank": 12, "country": "KOR", "country_name": "South Korea", "gold": 3, "silver": 3, "bronze": 2, "total": 8},
+        {"rank": 13, "country": "CZE", "country_name": "Czech Republic", "gold": 2, "silver": 4, "bronze": 2, "total": 8},
+        {"rank": 14, "country": "JPN", "country_name": "Japan", "gold": 1, "silver": 4, "bronze": 3, "total": 8},
+        {"rank": 15, "country": "FIN", "country_name": "Finland", "gold": 1, "silver": 3, "bronze": 1, "total": 5},
+        {"rank": 16, "country": "GBR", "country_name": "Great Britain", "gold": 1, "silver": 1, "bronze": 2, "total": 4}
+      ]
+    },
+    {
+      "year": 2010,
+      "city": "Vancouver",
+      "country": "Canada",
+      "total_events": 86,
+      "medal_table": [
+        {"rank": 1, "country": "CAN", "country_name": "Canada", "gold": 14, "silver": 7, "bronze": 5, "total": 26},
+        {"rank": 2, "country": "GER", "country_name": "Germany", "gold": 10, "silver": 13, "bronze": 7, "total": 30},
+        {"rank": 3, "country": "USA", "country_name": "United States", "gold": 9, "silver": 15, "bronze": 13, "total": 37},
+        {"rank": 4, "country": "NOR", "country_name": "Norway", "gold": 9, "silver": 8, "bronze": 6, "total": 23},
+        {"rank": 5, "country": "KOR", "country_name": "South Korea", "gold": 6, "silver": 6, "bronze": 2, "total": 14},
+        {"rank": 6, "country": "SUI", "country_name": "Switzerland", "gold": 6, "silver": 0, "bronze": 3, "total": 9},
+        {"rank": 7, "country": "CHN", "country_name": "China", "gold": 5, "silver": 2, "bronze": 4, "total": 11},
+        {"rank": 8, "country": "SWE", "country_name": "Sweden", "gold": 5, "silver": 2, "bronze": 4, "total": 11},
+        {"rank": 9, "country": "AUT", "country_name": "Austria", "gold": 4, "silver": 6, "bronze": 6, "total": 16},
+        {"rank": 10, "country": "NED", "country_name": "Netherlands", "gold": 4, "silver": 1, "bronze": 3, "total": 8},
+        {"rank": 11, "country": "RUS", "country_name": "Russia", "gold": 3, "silver": 5, "bronze": 7, "total": 15},
+        {"rank": 12, "country": "FRA", "country_name": "France", "gold": 2, "silver": 3, "bronze": 6, "total": 11},
+        {"rank": 13, "country": "AUS", "country_name": "Australia", "gold": 2, "silver": 1, "bronze": 0, "total": 3},
+        {"rank": 14, "country": "CZE", "country_name": "Czech Republic", "gold": 2, "silver": 0, "bronze": 4, "total": 6},
+        {"rank": 15, "country": "POL", "country_name": "Poland", "gold": 1, "silver": 3, "bronze": 2, "total": 6},
+        {"rank": 16, "country": "FIN", "country_name": "Finland", "gold": 0, "silver": 1, "bronze": 4, "total": 5}
+      ]
+    }
+  ],
+  "nordic_countries_summary": {
+    "description": "Summary of Nordic countries performance in last 4 Winter Olympics",
+    "countries": ["NOR", "SWE", "FIN", "DEN"],
+    "note": "Denmark (DEN) has not won any Winter Olympic medals in the last 4 games"
+  }
+}

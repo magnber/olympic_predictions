@@ -146,6 +146,64 @@ def load_entries_detail():
     return df
 
 
+@st.cache_data
+def load_historical_data():
+    """Load historical Olympics data."""
+    conn = get_connection()
+    
+    # Check if tables exist
+    try:
+        df_check = pd.read_sql_query(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name='historical_medals'",
+            conn
+        )
+        if df_check.empty:
+            conn.close()
+            return None
+    except Exception:
+        conn.close()
+        return None
+    
+    data = {}
+    
+    # Olympics list
+    data["olympics"] = pd.read_sql_query("""
+        SELECT id, year, city, host_country, total_events
+        FROM historical_olympics
+        ORDER BY year DESC
+    """, conn)
+    
+    # All medal data
+    data["medals"] = pd.read_sql_query("""
+        SELECT 
+            ho.year, ho.city,
+            hm.country_code, hm.country_name, hm.rank,
+            hm.gold, hm.silver, hm.bronze, hm.total
+        FROM historical_medals hm
+        JOIN historical_olympics ho ON hm.olympics_id = ho.id
+        ORDER BY ho.year DESC, hm.rank ASC
+    """, conn)
+    
+    # Aggregated by country
+    data["totals"] = pd.read_sql_query("""
+        SELECT 
+            country_code,
+            country_name,
+            SUM(gold) as gold,
+            SUM(silver) as silver,
+            SUM(bronze) as bronze,
+            SUM(total) as total,
+            COUNT(*) as appearances,
+            ROUND(AVG(rank), 1) as avg_rank
+        FROM historical_medals
+        GROUP BY country_code
+        ORDER BY gold DESC, silver DESC, bronze DESC
+    """, conn)
+    
+    conn.close()
+    return data
+
+
 # ============================================================
 # MAIN APP
 # ============================================================
@@ -156,7 +214,7 @@ st.markdown("**Vinter-OL - Milano Cortina**")
 # Sidebar navigation
 page = st.sidebar.radio(
     "Navigasjon",
-    ["Datagrunnlag", "Predikasjon oversikt", "Drilldown"]
+    ["Datagrunnlag", "Historikk", "Predikasjon oversikt", "Drilldown"]
 )
 
 # ============================================================
@@ -390,6 +448,130 @@ if page == "Datagrunnlag":
 
 
 # ============================================================
+# PAGE: HISTORIKK
+# ============================================================
+elif page == "Historikk":
+    st.header("📜 Historiske resultater")
+    st.markdown("**Medaljetabell fra de siste 4 vinter-OL (2010-2022)**")
+    
+    hist_data = load_historical_data()
+    
+    if hist_data is None:
+        st.error("Ingen historiske data funnet.")
+        st.info("Kjør `python run_pipeline.py hist` for å importere historiske data.")
+        st.stop()
+    
+    # Summary - Total medals last 4 Olympics
+    st.subheader("🏆 Samlet medaljetabell (2010-2022)")
+    
+    df_totals = hist_data["totals"].copy()
+    df_totals = df_totals.head(15)
+    
+    # Format for display
+    df_display = df_totals[["country_code", "gold", "silver", "bronze", "total", "appearances", "avg_rank"]].copy()
+    df_display.columns = ["Land", "🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total", "Deltakelser", "Snitt rank"]
+    df_display.index = range(1, len(df_display) + 1)
+    
+    st.dataframe(df_display, use_container_width=True)
+    
+    st.divider()
+    
+    # Pivot table - Countries x Olympics
+    st.subheader("📊 Medaljer per OL")
+    st.caption("Land nedover, OL bortover - viser totalt antall medaljer")
+    
+    df_medals = hist_data["medals"].copy()
+    
+    # Create pivot table
+    df_pivot = df_medals.pivot_table(
+        index="country_code",
+        columns="year",
+        values="total",
+        aggfunc="first"
+    ).fillna(0).astype(int)
+    
+    # Sort by total medals
+    df_pivot["Total"] = df_pivot.sum(axis=1)
+    df_pivot = df_pivot.sort_values("Total", ascending=False)
+    
+    # Rename columns with city names
+    olympics_info = {2022: "Beijing 2022", 2018: "PyeongChang 2018", 2014: "Sochi 2014", 2010: "Vancouver 2010"}
+    df_pivot = df_pivot.rename(columns=olympics_info)
+    
+    # Show top 15
+    df_pivot_display = df_pivot.head(15).copy()
+    df_pivot_display.index.name = "Land"
+    
+    st.dataframe(df_pivot_display, use_container_width=True)
+    
+    st.divider()
+    
+    # Nordic countries focus
+    st.subheader("🇳🇴 Nordiske land")
+    
+    nordic_codes = ["NOR", "SWE", "FIN", "DEN"]
+    df_nordic = hist_data["totals"][hist_data["totals"]["country_code"].isin(nordic_codes)].copy()
+    
+    if not df_nordic.empty:
+        col1, col2, col3, col4 = st.columns(4)
+        cols = [col1, col2, col3, col4]
+        
+        for i, code in enumerate(nordic_codes):
+            row = df_nordic[df_nordic["country_code"] == code]
+            with cols[i]:
+                if not row.empty:
+                    r = row.iloc[0]
+                    st.metric(
+                        code,
+                        f"{int(r['total'])} medaljer",
+                        f"🥇{int(r['gold'])} 🥈{int(r['silver'])} 🥉{int(r['bronze'])}"
+                    )
+                else:
+                    st.metric(code, "0 medaljer", "Ingen medaljer")
+    
+    st.divider()
+    
+    # Per-Olympics breakdown
+    st.subheader("📅 Per OL")
+    
+    olympics_list = hist_data["olympics"]
+    
+    for _, ol in olympics_list.iterrows():
+        year = ol["year"]
+        city = ol["city"]
+        
+        with st.expander(f"**{year} {city}**", expanded=(year == 2022)):
+            # Get medals for this Olympics
+            df_ol = hist_data["medals"][hist_data["medals"]["year"] == year].copy()
+            
+            # Top 10
+            df_top10 = df_ol.head(10)[["rank", "country_code", "gold", "silver", "bronze", "total"]].copy()
+            df_top10.columns = ["Rank", "Land", "🥇", "🥈", "🥉", "Total"]
+            
+            st.dataframe(df_top10, use_container_width=True, hide_index=True)
+            
+            # Nordic countries in this Olympics
+            df_nordic_ol = df_ol[df_ol["country_code"].isin(nordic_codes)]
+            if not df_nordic_ol.empty:
+                st.markdown("**Nordiske land:**")
+                for _, r in df_nordic_ol.iterrows():
+                    st.markdown(f"- **{r['country_code']}**: Rank {r['rank']} - {r['gold']}G {r['silver']}S {r['bronze']}B = {r['total']} medaljer")
+    
+    st.divider()
+    
+    # Trend chart for Norway
+    st.subheader("📈 Norges utvikling")
+    
+    df_nor = hist_data["medals"][hist_data["medals"]["country_code"] == "NOR"].copy()
+    df_nor = df_nor.sort_values("year")
+    
+    if not df_nor.empty:
+        df_chart = df_nor.set_index("year")[["gold", "silver", "bronze"]]
+        st.bar_chart(df_chart)
+        st.caption("Norges medaljer per OL (2010-2022)")
+
+
+# ============================================================
 # PAGE: PREDIKASJON OVERSIKT
 # ============================================================
 elif page == "Predikasjon oversikt":
@@ -615,8 +797,8 @@ st.sidebar.divider()
 st.sidebar.markdown("""
 **Data Pipeline**
 - ISU API (skøyter)
-- FIS Scraping (alpint)
-- FIS Scraping (langrenn)
+- FIS Scraping (alpint, langrenn)
+- Historiske OL-data (2010-2022)
 - Legacy JSON (resten)
 
 *Plackett-Luce Monte Carlo*
