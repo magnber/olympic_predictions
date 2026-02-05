@@ -6,12 +6,14 @@ Orchestrates the data import from various sources:
 1. Legacy JSON data (baseline)
 2. ISU Speed Skating API (event-specific)
 3. FIS Alpine Scraping (discipline-specific)
+4. FIS Cross-Country Scraping (sprint vs distance)
 
 Usage:
-    python run_pipeline.py          # Run all pipelines
-    python run_pipeline.py legacy   # Only legacy import
-    python run_pipeline.py isu      # Only ISU import
-    python run_pipeline.py fis      # Only FIS import
+    python run_pipeline.py           # Run all pipelines
+    python run_pipeline.py legacy    # Only legacy import
+    python run_pipeline.py isu       # Only ISU import
+    python run_pipeline.py fis       # Only FIS Alpine import
+    python run_pipeline.py xc        # Only FIS Cross-Country import
 """
 
 import sys
@@ -27,15 +29,15 @@ def run_all():
     print("=" * 60)
     
     # Step 1: Initialize database
-    print("\n[1/4] Initializing database...")
+    print("\n[1/5] Initializing database...")
     init_db()
     
     # Step 2: Import legacy data
-    print("\n[2/4] Importing legacy data...")
+    print("\n[2/5] Importing legacy data...")
     import_legacy_data()
     
     # Step 3: ISU Speed Skating API
-    print("\n[3/4] Checking ISU API...")
+    print("\n[3/5] Checking ISU API...")
     try:
         from pipelines.isu_speed_skating import test_api_connection, import_isu_data
         if test_api_connection():
@@ -46,15 +48,26 @@ def run_all():
         print(f"  Skipping ISU import: {e}")
     
     # Step 4: FIS Alpine Skiing
-    print("\n[4/4] Fetching FIS Alpine data...")
+    print("\n[4/5] Fetching FIS Alpine data...")
     try:
         from pipelines.fis_alpine import test_scraping, import_fis_alpine_data
         if test_scraping():
             import_fis_alpine_data()
         else:
-            print("  Skipping FIS import (scraping failed)")
+            print("  Skipping FIS Alpine import (scraping failed)")
     except Exception as e:
-        print(f"  Skipping FIS import: {e}")
+        print(f"  Skipping FIS Alpine import: {e}")
+    
+    # Step 5: FIS Cross-Country Skiing
+    print("\n[5/5] Fetching FIS Cross-Country data...")
+    try:
+        from pipelines.fis_cross_country import test_scraping as test_xc, import_fis_cross_country_data
+        if test_xc():
+            import_fis_cross_country_data()
+        else:
+            print("  Skipping FIS XC import (scraping failed)")
+    except Exception as e:
+        print(f"  Skipping FIS XC import: {e}")
     
     # Final stats
     print("\n" + "=" * 60)
@@ -86,10 +99,17 @@ def run_isu_only():
 
 
 def run_fis_only():
-    """Run only FIS import."""
+    """Run only FIS Alpine import."""
     from pipelines.fis_alpine import test_scraping, import_fis_alpine_data
     if test_scraping():
         import_fis_alpine_data()
+
+
+def run_xc_only():
+    """Run only FIS Cross-Country import."""
+    from pipelines.fis_cross_country import test_scraping, import_fis_cross_country_data
+    if test_scraping():
+        import_fis_cross_country_data()
 
 
 if __name__ == "__main__":
@@ -101,8 +121,10 @@ if __name__ == "__main__":
             run_isu_only()
         elif cmd == "fis":
             run_fis_only()
+        elif cmd == "xc":
+            run_xc_only()
         else:
             print(f"Unknown command: {cmd}")
-            print("Usage: python run_pipeline.py [legacy|isu|fis]")
+            print("Usage: python run_pipeline.py [legacy|isu|fis|xc]")
     else:
         run_all()

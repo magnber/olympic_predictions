@@ -69,6 +69,24 @@ def load_database_stats():
     """, conn)
     stats["top_countries"] = df_countries
     
+    # Data quality by sport - shows source and score variance
+    df_quality = pd.read_sql_query("""
+        SELECT 
+            s.name as sport,
+            e.source,
+            COUNT(DISTINCT c.id) as competitions,
+            COUNT(e.id) as entries,
+            ROUND(MIN(e.score), 0) as min_score,
+            ROUND(MAX(e.score), 0) as max_score,
+            ROUND(MAX(e.score) / MAX(MIN(e.score), 1), 2) as score_ratio
+        FROM entries e
+        JOIN competitions c ON e.competition_id = c.id
+        JOIN sports s ON c.sport_id = s.id
+        GROUP BY s.name, e.source
+        ORDER BY s.name
+    """, conn)
+    stats["data_quality"] = df_quality
+    
     conn.close()
     return stats
 
@@ -138,7 +156,7 @@ st.markdown("**Vinter-OL - Milano Cortina**")
 # Sidebar navigation
 page = st.sidebar.radio(
     "Navigasjon",
-    ["Datagrunnlag", "Prediksjoner", "Konkurransedetaljer"]
+    ["Datagrunnlag", "Predikasjon oversikt", "Drilldown"]
 )
 
 # ============================================================
@@ -170,22 +188,63 @@ if page == "Datagrunnlag":
     
     with col1:
         st.subheader("Entries etter kilde")
-        df_sources = stats["entries_by_source"]
+        df_sources = stats["entries_by_source"].copy()
         
-        # Add percentage
+        # Add percentage and description
         total = df_sources["count"].sum()
         df_sources["prosent"] = (df_sources["count"] / total * 100).round(1)
         df_sources["prosent"] = df_sources["prosent"].astype(str) + "%"
         
-        st.dataframe(df_sources, use_container_width=True, hide_index=True)
+        # Add source descriptions
+        source_desc = {
+            "isu": "ISU API - Skøyter",
+            "fis_alpine": "FIS Scraping - Alpint",
+            "fis_xc": "FIS Scraping - Langrenn",
+            "manual": "Legacy JSON"
+        }
+        df_sources["beskrivelse"] = df_sources["source"].map(source_desc).fillna(df_sources["source"])
+        df_sources = df_sources[["beskrivelse", "count", "prosent"]]
+        df_sources.columns = ["Kilde", "Entries", "Prosent"]
         
-        # Visual
-        st.bar_chart(df_sources.set_index("source")["count"])
+        st.dataframe(df_sources, use_container_width=True, hide_index=True)
     
     with col2:
         st.subheader("Entries etter sport")
         df_sports = stats["entries_by_sport"]
         st.dataframe(df_sports, use_container_width=True, hide_index=True)
+    
+    st.divider()
+    
+    # Data quality section
+    st.subheader("📋 Datakvalitet per sport")
+    st.caption("Score ratio = maks/min score. Høyere ratio = bedre differensiering mellom utøvere.")
+    
+    df_quality = stats["data_quality"].copy()
+    
+    # Add quality indicator
+    def quality_indicator(row):
+        if row["source"] in ["isu", "fis_alpine", "fis_xc"]:
+            return "✓ Disiplin-spesifikk"
+        elif row["score_ratio"] > 5:
+            return "⚠ OK differensiering"
+        else:
+            return "✗ Lav differensiering"
+    
+    df_quality["kvalitet"] = df_quality.apply(quality_indicator, axis=1)
+    
+    # Rename columns
+    df_quality = df_quality.rename(columns={
+        "sport": "Sport",
+        "source": "Kilde",
+        "competitions": "Konkurranser",
+        "entries": "Entries",
+        "min_score": "Min Score",
+        "max_score": "Max Score",
+        "score_ratio": "Ratio",
+        "kvalitet": "Kvalitet"
+    })
+    
+    st.dataframe(df_quality, use_container_width=True, hide_index=True)
     
     st.divider()
     
@@ -199,7 +258,7 @@ if page == "Datagrunnlag":
     # Detailed data explorer
     st.subheader("Datautforsker")
     
-    tab1, tab2 = st.tabs(["Utøvere", "Alle Entries"])
+    tab1, tab2, tab3 = st.tabs(["Utøvere", "Alle Entries", "Langrenn Spesialisering"])
     
     with tab1:
         df_athletes = load_athletes()
@@ -235,13 +294,106 @@ if page == "Datagrunnlag":
         
         st.dataframe(df_entries_filtered.head(100), use_container_width=True, hide_index=True)
         st.caption(f"Viser topp 100 av {len(df_entries_filtered)} entries")
+    
+    with tab3:
+        st.markdown("**Sprint vs Distance spesialisering**")
+        st.caption("Viser hvordan FIS cross-country pipeline differensierer mellom sprint og distanse-løpere.")
+        
+        conn = get_connection()
+        
+        # Get cross-country entries with pivot
+        df_xc = pd.read_sql_query("""
+            SELECT 
+                a.name as athlete,
+                a.country_code as country,
+                c.id as comp_id,
+                e.score
+            FROM entries e
+            JOIN athletes a ON e.athlete_id = a.id
+            JOIN competitions c ON e.competition_id = c.id
+            WHERE e.source = 'fis_xc'
+            ORDER BY e.score DESC
+        """, conn)
+        conn.close()
+        
+        if df_xc.empty:
+            st.info("Ingen FIS langrenn-data funnet. Kjør `python run_pipeline.py xc`.")
+        else:
+            # Determine if sprint or distance
+            df_xc["type"] = df_xc["comp_id"].apply(
+                lambda x: "Sprint" if "sprint" in x else "Distance"
+            )
+            
+            # Pivot to show sprint vs distance scores
+            df_pivot = df_xc.pivot_table(
+                index=["athlete", "country"],
+                columns="type",
+                values="score",
+                aggfunc="first"
+            ).reset_index()
+            
+            # Fill NaN with "-" for display
+            df_pivot["Sprint"] = df_pivot["Sprint"].fillna(0)
+            df_pivot["Distance"] = df_pivot["Distance"].fillna(0)
+            
+            # Add specialization indicator
+            def specialization(row):
+                if row["Sprint"] > 0 and row["Distance"] == 0:
+                    return "🏃 Sprint-spesialist"
+                elif row["Sprint"] == 0 and row["Distance"] > 0:
+                    return "🎿 Distanse-spesialist"
+                elif row["Sprint"] > 0 and row["Distance"] > 0:
+                    ratio = row["Sprint"] / row["Distance"]
+                    if ratio > 1.1:
+                        return "↗️ Sprint-fokus"
+                    elif ratio < 0.9:
+                        return "↘️ Distanse-fokus"
+                    else:
+                        return "⚖️ Allrounder"
+                return "-"
+            
+            df_pivot["Spesialisering"] = df_pivot.apply(specialization, axis=1)
+            
+            # Sort by total score
+            df_pivot["total"] = df_pivot["Sprint"] + df_pivot["Distance"]
+            df_pivot = df_pivot.sort_values("total", ascending=False)
+            
+            # Format for display
+            df_pivot["Sprint"] = df_pivot["Sprint"].apply(lambda x: f"{int(x)}" if x > 0 else "-")
+            df_pivot["Distance"] = df_pivot["Distance"].apply(lambda x: f"{int(x)}" if x > 0 else "-")
+            
+            df_display = df_pivot[["athlete", "country", "Sprint", "Distance", "Spesialisering"]].copy()
+            df_display.columns = ["Utøver", "Land", "Sprint pts", "Distance pts", "Spesialisering"]
+            
+            # Filter
+            country_filter_xc = st.multiselect(
+                "Filtrer etter land",
+                options=sorted(df_display["Land"].unique()),
+                default=["NOR", "SWE", "FIN"],
+                key="xc_country_filter"
+            )
+            
+            if country_filter_xc:
+                df_display = df_display[df_display["Land"].isin(country_filter_xc)]
+            
+            st.dataframe(df_display.head(50), use_container_width=True, hide_index=True)
+            
+            # Show stats
+            col1, col2, col3 = st.columns(3)
+            sprint_only = len(df_pivot[df_pivot["Sprint"] != "-"][df_pivot["Distance"] == "-"])
+            dist_only = len(df_pivot[df_pivot["Distance"] != "-"][df_pivot["Sprint"] == "-"])
+            both = len(df_pivot[(df_pivot["Sprint"] != "-") & (df_pivot["Distance"] != "-")])
+            
+            col1.metric("Sprint-spesialister", sprint_only)
+            col2.metric("Distanse-spesialister", dist_only)
+            col3.metric("Allroundere", both)
 
 
 # ============================================================
-# PAGE: PREDIKSJONER
+# PAGE: PREDIKASJON OVERSIKT
 # ============================================================
-elif page == "Prediksjoner":
-    st.header("🏆 Medalje-prediksjoner")
+elif page == "Predikasjon oversikt":
+    st.header("🏆 Predikasjon oversikt")
     
     df_pred = load_predictions()
     
@@ -255,13 +407,26 @@ elif page == "Prediksjoner":
     
     df_top10 = df_pred.head(10).copy()
     
-    # Display as table with medal emojis
+    # Display as table with medal emojis and G/B ratio
     df_display = df_top10.copy()
-    df_display.columns = ["Land", "🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total"]
+    
+    # Calculate G/B ratio before renaming columns
+    df_display["G/B"] = df_display.apply(
+        lambda r: f"{float(r['gold'])/max(float(r['bronze']), 0.1):.2f}", axis=1
+    )
+    
+    df_display = df_display[["country", "gold", "silver", "bronze", "total", "G/B"]]
+    df_display.columns = ["Land", "🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total", "G/B"]
     df_display.index = range(1, len(df_display) + 1)
     df_display.index.name = "Rank"
     
+    # Format numbers with 1 decimal
+    for col in ["🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total"]:
+        df_display[col] = df_display[col].apply(lambda x: f"{float(x):.1f}")
+    
     st.dataframe(df_display, use_container_width=True)
+    
+    st.caption("G/B = Gull/Bronse ratio. >1.0 = flere gull enn bronse (dominans), <1.0 = flere bronse (dybde)")
     
     st.divider()
     
@@ -299,69 +464,148 @@ elif page == "Prediksjoner":
 
 
 # ============================================================
-# PAGE: KONKURRANSEDETALJER
+# PAGE: DRILLDOWN
 # ============================================================
-elif page == "Konkurransedetaljer":
-    st.header("🎿 Konkurransedetaljer")
+elif page == "Drilldown":
+    st.header("🔍 Drilldown")
     
     df_comp = load_competition_predictions()
     
     if df_comp is None:
         st.error("Ingen konkurranseprediksjoner funnet.")
+        st.info("Kjør `python predict.py` for å generere prediksjoner.")
         st.stop()
     
-    # Get unique competitions
-    competitions = sorted(df_comp["competition"].unique())
+    # Two tabs: Athlete and Sport
+    tab_athlete, tab_sport = st.tabs(["Per utøver", "Per sport"])
     
-    # Competition selector
-    selected_comp = st.selectbox(
-        "Velg konkurranse",
-        competitions
-    )
-    
-    if selected_comp:
-        df_filtered = df_comp[df_comp["competition"] == selected_comp].copy()
+    # --------------------------------------------------------
+    # TAB: Per utøver
+    # --------------------------------------------------------
+    with tab_athlete:
+        st.subheader("🏃 Utøver-drilldown")
+        st.caption("Velg en utøver for å se alle konkurranser de kan ta medalje i.")
         
-        # Sort by medal probability
-        df_filtered = df_filtered.sort_values("medal_prob", ascending=False)
+        # Get unique athletes with their countries
+        athletes_list = df_comp[["athlete_name", "country"]].drop_duplicates()
+        athletes_list = athletes_list.sort_values("athlete_name")
+        athletes_list["display"] = athletes_list["athlete_name"] + " (" + athletes_list["country"] + ")"
         
-        # Format probabilities as percentages
-        for col in ["gold_prob", "silver_prob", "bronze_prob", "medal_prob"]:
-            df_filtered[col] = (df_filtered[col] * 100).round(1)
-        
-        df_filtered = df_filtered.rename(columns={
-            "athlete_name": "Utøver",
-            "country": "Land",
-            "gold_prob": "Gull %",
-            "silver_prob": "Sølv %",
-            "bronze_prob": "Bronse %",
-            "medal_prob": "Medalje %"
-        })
-        
-        # Show top medal contenders
-        st.subheader(f"Medaljesannsynlighet: {selected_comp}")
-        
-        df_show = df_filtered[["Utøver", "Land", "Gull %", "Sølv %", "Bronse %", "Medalje %"]].head(20)
-        st.dataframe(df_show, use_container_width=True, hide_index=True)
-        
-        # Country filter
-        st.divider()
-        st.subheader("Filtrer etter land")
-        
-        countries = sorted(df_filtered["Land"].unique())
-        selected_countries = st.multiselect(
-            "Velg land",
-            countries,
-            default=["NOR", "SWE"] if "NOR" in countries else []
+        # Country filter first
+        countries = sorted(df_comp["country"].unique())
+        selected_country = st.selectbox(
+            "Filtrer etter land",
+            ["Alle"] + countries,
+            key="athlete_country_filter"
         )
         
-        if selected_countries:
-            df_country = df_filtered[df_filtered["Land"].isin(selected_countries)]
-            st.dataframe(
-                df_country[["Utøver", "Land", "Gull %", "Sølv %", "Bronse %", "Medalje %"]],
-                use_container_width=True,
-                hide_index=True
-            )
+        if selected_country != "Alle":
+            athletes_filtered = athletes_list[athletes_list["country"] == selected_country]
+        else:
+            athletes_filtered = athletes_list
+        
+        # Athlete selector
+        selected_athlete_display = st.selectbox(
+            "Velg utøver",
+            athletes_filtered["display"].tolist(),
+            key="athlete_selector"
+        )
+        
+        if selected_athlete_display:
+            # Extract athlete name
+            selected_athlete = selected_athlete_display.rsplit(" (", 1)[0]
+            
+            # Get all competitions for this athlete
+            df_athlete = df_comp[df_comp["athlete_name"] == selected_athlete].copy()
+            
+            # Sort by medal probability
+            df_athlete = df_athlete.sort_values("medal_prob", ascending=False)
+            
+            # Format probabilities
+            df_athlete["Gull %"] = (df_athlete["gold_prob"] * 100).round(1)
+            df_athlete["Sølv %"] = (df_athlete["silver_prob"] * 100).round(1)
+            df_athlete["Bronse %"] = (df_athlete["bronze_prob"] * 100).round(1)
+            df_athlete["Medalje %"] = (df_athlete["medal_prob"] * 100).round(1)
+            
+            # Display
+            st.markdown(f"### {selected_athlete}")
+            
+            # Summary metrics
+            total_medal_prob = df_athlete["medal_prob"].sum()
+            expected_golds = df_athlete["gold_prob"].sum()
+            num_competitions = len(df_athlete)
+            
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Konkurranser", num_competitions)
+            col2.metric("Forventet gull", f"{expected_golds:.1f}")
+            col3.metric("Forventet medaljer", f"{total_medal_prob:.1f}")
+            
+            st.divider()
+            
+            # Table with all competitions
+            df_show = df_athlete[["competition", "Gull %", "Sølv %", "Bronse %", "Medalje %"]].copy()
+            df_show.columns = ["Konkurranse", "🥇 Gull %", "🥈 Sølv %", "🥉 Bronse %", "Medalje %"]
+            
+            st.dataframe(df_show, use_container_width=True, hide_index=True)
+    
+    # --------------------------------------------------------
+    # TAB: Per sport
+    # --------------------------------------------------------
+    with tab_sport:
+        st.subheader("🎿 Sport-drilldown")
+        st.caption("Velg en sport for å se alle konkurranser og medaljekandidater.")
+        
+        # Get sports from database
+        conn = get_connection()
+        df_sports = pd.read_sql_query("""
+            SELECT DISTINCT s.name as sport, c.name as competition, c.id as comp_id
+            FROM competitions c
+            JOIN sports s ON c.sport_id = s.id
+            ORDER BY s.name, c.name
+        """, conn)
+        conn.close()
+        
+        # Sport selector
+        sports = sorted(df_sports["sport"].unique())
+        selected_sport = st.selectbox(
+            "Velg sport",
+            sports,
+            key="sport_selector"
+        )
+        
+        if selected_sport:
+            # Get competitions for this sport
+            sport_competitions = df_sports[df_sports["sport"] == selected_sport]["competition"].tolist()
+            
+            st.markdown(f"### {selected_sport}")
+            st.markdown(f"**{len(sport_competitions)} konkurranser**")
+            
+            st.divider()
+            
+            # Show each competition with top contenders
+            for comp_name in sport_competitions:
+                # Get predictions for this competition
+                df_comp_filtered = df_comp[df_comp["competition"] == comp_name].copy()
+                
+                if df_comp_filtered.empty:
+                    st.markdown(f"**{comp_name}** - Ingen data")
+                    continue
+                
+                # Sort by medal probability
+                df_comp_filtered = df_comp_filtered.sort_values("gold_prob", ascending=False)
+                
+                # Get top 5
+                top5 = df_comp_filtered.head(5)
+                
+                # Format
+                top5["Gull %"] = (top5["gold_prob"] * 100).round(1)
+                top5["Medalje %"] = (top5["medal_prob"] * 100).round(1)
+                
+                # Display as expander
+                with st.expander(f"**{comp_name}**", expanded=False):
+                    df_show = top5[["athlete_name", "country", "Gull %", "Medalje %"]].copy()
+                    df_show.columns = ["Utøver", "Land", "🥇 Gull %", "Medalje %"]
+                    st.dataframe(df_show, use_container_width=True, hide_index=True)
 
 
 # ============================================================
@@ -372,6 +616,7 @@ st.sidebar.markdown("""
 **Data Pipeline**
 - ISU API (skøyter)
 - FIS Scraping (alpint)
+- FIS Scraping (langrenn)
 - Legacy JSON (resten)
 
 *Plackett-Luce Monte Carlo*

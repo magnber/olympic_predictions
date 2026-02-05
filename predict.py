@@ -15,7 +15,7 @@ import csv
 from database import get_connection, DB_PATH
 
 # Configuration
-NUM_SIMULATIONS = 10000
+NUM_SIMULATIONS = 100000
 TEMPERATURE = 0.3  # Controls noise level (lower = more deterministic)
 PERFORMANCE_VARIANCE = 1.0  # Base variance for Gumbel noise
 
@@ -238,7 +238,7 @@ def output_results(results, simulation_results, competitions, comp_results, athl
         print(f"{country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total})")
         print(f"  95% CI: G({ci['gold'][0]:.0f}-{ci['gold'][1]:.0f}) S({ci['silver'][0]:.0f}-{ci['silver'][1]:.0f}) B({ci['bronze'][0]:.0f}-{ci['bronze'][1]:.0f})")
     
-    # Write country predictions CSV
+    # Write country predictions CSV (with 1 decimal precision)
     pred_file = OUTPUT_DIR / "predictions.csv"
     with open(pred_file, "w", newline="") as f:
         writer = csv.writer(f)
@@ -246,10 +246,10 @@ def output_results(results, simulation_results, competitions, comp_results, athl
         for country, medals in sorted_results:
             writer.writerow([
                 country,
-                round(medals["gold"]),
-                round(medals["silver"]),
-                round(medals["bronze"]),
-                round(medals["total"])
+                f"{medals['gold']:.1f}",
+                f"{medals['silver']:.1f}",
+                f"{medals['bronze']:.1f}",
+                f"{medals['total']:.1f}"
             ])
     print(f"\n✓ Country predictions: {pred_file}")
     
