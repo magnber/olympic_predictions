@@ -8,12 +8,16 @@ Output: output.csv with medal predictions per country
 """
 
 import json
+import math
 import random
 from collections import defaultdict
 from pathlib import Path
 
 # Configuration
 NUM_SIMULATIONS = 10000
+# Gumbel noise scale - higher = more upsets, lower = favorites always win
+# Typical values: 0.5-1.5. Based on rank-ordered logit model literature.
+PERFORMANCE_VARIANCE = 1.0
 NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 
@@ -73,45 +77,57 @@ def normalize_scores(entries_for_competition, scoring_type):
     return [(aid, s / total) for aid, s in strengths]
 
 
+def gumbel_noise():
+    """
+    Generate Gumbel(0, scale) noise for performance simulation.
+    Gumbel distribution is used in rank-ordered logit models.
+    """
+    u = random.random()
+    # Avoid log(0)
+    while u == 0:
+        u = random.random()
+    return -PERFORMANCE_VARIANCE * math.log(-math.log(u))
+
+
 def simulate_competition(probabilities):
     """
-    Simulate a single competition.
+    Simulate a single competition using rank-ordered logit model.
+    
+    Each athlete's performance = log(strength) + Gumbel noise
+    Athletes are ranked by simulated performance.
+    
+    This approach is based on:
+    - Plackett-Luce model (probability theory)
+    - Rank-ordered logit (econometrics)
+    - Used by FiveThirtyEight, academic sports prediction
+    
     Returns (gold_athlete, silver_athlete, bronze_athlete).
     """
     if len(probabilities) < 3:
-        # Not enough athletes - return what we have
         athletes = [aid for aid, _ in probabilities]
         while len(athletes) < 3:
             athletes.append(None)
         return tuple(athletes[:3])
     
-    # Weighted random selection without replacement
-    remaining = list(probabilities)
-    results = []
+    # Simulate performance for each athlete
+    # Performance = log(strength) + Gumbel noise
+    performances = []
+    for athlete_id, strength in probabilities:
+        if strength <= 0:
+            strength = 0.0001  # Avoid log(0)
+        # Log-strength + random Gumbel noise
+        perf = math.log(strength) + gumbel_noise()
+        performances.append((athlete_id, perf))
     
-    for _ in range(3):  # gold, silver, bronze
-        if not remaining:
-            results.append(None)
-            continue
-        
-        total = sum(p for _, p in remaining)
-        if total <= 0:
-            # Random selection if probabilities are zero
-            idx = random.randint(0, len(remaining) - 1)
-        else:
-            r = random.random() * total
-            cumulative = 0
-            idx = 0
-            for i, (_, p) in enumerate(remaining):
-                cumulative += p
-                if r <= cumulative:
-                    idx = i
-                    break
-        
-        winner = remaining.pop(idx)
-        results.append(winner[0])
+    # Sort by performance (highest = winner)
+    performances.sort(key=lambda x: -x[1])
     
-    return tuple(results)
+    # Return top 3
+    gold = performances[0][0]
+    silver = performances[1][0]
+    bronze = performances[2][0]
+    
+    return (gold, silver, bronze)
 
 
 def run_simulation(sports, competitions, athletes, entries):
@@ -168,6 +184,33 @@ def run_simulation(sports, competitions, athletes, entries):
     return results, simulation_results, comp_athlete_medals, entries_by_comp
 
 
+def get_median_medals(simulation_results, country):
+    """Get median medal counts for a country across all simulations."""
+    golds = []
+    silvers = []
+    bronzes = []
+    totals = []
+    for sim in simulation_results:
+        g = sim.get(country, {}).get("gold", 0)
+        s = sim.get(country, {}).get("silver", 0)
+        b = sim.get(country, {}).get("bronze", 0)
+        golds.append(g)
+        silvers.append(s)
+        bronzes.append(b)
+        totals.append(g + s + b)
+    golds.sort()
+    silvers.sort()
+    bronzes.sort()
+    totals.sort()
+    mid = len(golds) // 2
+    return {
+        "gold": golds[mid],
+        "silver": silvers[mid],
+        "bronze": bronzes[mid],
+        "total": totals[mid]
+    }
+
+
 def calculate_confidence_intervals(simulation_results, country):
     """Calculate 95% confidence interval for a country's medals."""
     golds = []
@@ -222,25 +265,29 @@ def main():
     # Print results
     print("\n" + "=" * 60)
     print("NORDIC MEDAL PREDICTIONS - 2026 Winter Olympics")
+    print("(Using rank-ordered logit model with Gumbel noise)")
     print("=" * 60)
     
     for country, medals in sorted_results:
         ci = calculate_confidence_intervals(simulation_results, country)
+        median = get_median_medals(simulation_results, country)
         print(f"\n{country}:")
-        print(f"  Gold:   {medals['gold']:5.1f}  (95% CI: {ci['gold'][0]:4.0f} - {ci['gold'][1]:4.0f})")
-        print(f"  Silver: {medals['silver']:5.1f}  (95% CI: {ci['silver'][0]:4.0f} - {ci['silver'][1]:4.0f})")
-        print(f"  Bronze: {medals['bronze']:5.1f}  (95% CI: {ci['bronze'][0]:4.0f} - {ci['bronze'][1]:4.0f})")
-        print(f"  Total:  {medals['total']:5.1f}  (95% CI: {ci['total'][0]:4.0f} - {ci['total'][1]:4.0f})")
+        print(f"  Total:  median {median['total']:2d}, mean {medals['total']:5.1f}  (95% CI: {ci['total'][0]:2.0f} - {ci['total'][1]:2.0f})")
+        print(f"  Gold:   median {median['gold']:2d}, mean {medals['gold']:5.1f}  (95% CI: {ci['gold'][0]:2.0f} - {ci['gold'][1]:2.0f})")
+        print(f"  Silver: median {median['silver']:2d}, mean {medals['silver']:5.1f}  (95% CI: {ci['silver'][0]:2.0f} - {ci['silver'][1]:2.0f})")
+        print(f"  Bronze: median {median['bronze']:2d}, mean {medals['bronze']:5.1f}  (95% CI: {ci['bronze'][0]:2.0f} - {ci['bronze'][1]:2.0f})")
     
     # Write CSV output
     output_dir = Path(__file__).parent.parent.parent / "output"
     output_dir.mkdir(exist_ok=True)
     output_path = output_dir / "v1_predictions.csv"
     with open(output_path, "w") as f:
-        f.write("country,gold,silver,bronze,total,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high\n")
+        f.write("country,gold_mean,silver_mean,bronze_mean,total_mean,gold_median,silver_median,bronze_median,total_median,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high\n")
         for country, medals in sorted_results:
             ci = calculate_confidence_intervals(simulation_results, country)
+            median = get_median_medals(simulation_results, country)
             f.write(f"{country},{medals['gold']:.1f},{medals['silver']:.1f},{medals['bronze']:.1f},{medals['total']:.1f},")
+            f.write(f"{median['gold']},{median['silver']},{median['bronze']},{median['total']},")
             f.write(f"{ci['gold'][0]},{ci['gold'][1]},{ci['silver'][0]},{ci['silver'][1]},")
             f.write(f"{ci['bronze'][0]},{ci['bronze'][1]},{ci['total'][0]},{ci['total'][1]}\n")
     
@@ -255,6 +302,21 @@ def main():
         s = round(medals['silver'])
         b = round(medals['bronze'])
         print(f"{country}: Gold {g} - Silver {s} - Bronze {b}")
+    
+    # Show sample single simulations to demonstrate variance
+    print("\n" + "=" * 60)
+    print("SAMPLE SINGLE OLYMPICS (showing natural variance)")
+    print("=" * 60)
+    for i, sim in enumerate(simulation_results[:5]):
+        print(f"\nSimulation {i+1}:")
+        for country in ["NOR", "SWE", "FIN", "DEN"]:
+            if country in sim:
+                g = sim[country]["gold"]
+                s = sim[country]["silver"]
+                b = sim[country]["bronze"]
+                print(f"  {country}: Gold {g} - Silver {s} - Bronze {b} (Total: {g+s+b})")
+            else:
+                print(f"  {country}: Gold 0 - Silver 0 - Bronze 0 (Total: 0)")
     
     # Output per-competition predictions
     comp_predictions = []

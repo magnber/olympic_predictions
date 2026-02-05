@@ -125,7 +125,7 @@ def main():
             
             st.subheader("📊 Medal Predictions")
             
-            # Display as formatted cards
+            # Display as formatted cards (using median values)
             cols = st.columns(len(df_pred))
             for col, (_, row) in zip(cols, df_pred.iterrows()):
                 country = row["country"]
@@ -133,10 +133,10 @@ def main():
                 
                 with col:
                     st.markdown(f"### {flag} {country}")
-                    st.metric("🥇 Gold", f"{row['gold']:.0f}", delta=None)
-                    st.metric("🥈 Silver", f"{row['silver']:.0f}", delta=None)
-                    st.metric("🥉 Bronze", f"{row['bronze']:.0f}", delta=None)
-                    st.metric("📊 Total", f"{row['total']:.0f}", delta=None)
+                    st.metric("🥇 Gold", f"{row['gold_median']:.0f}", delta=None)
+                    st.metric("🥈 Silver", f"{row['silver_median']:.0f}", delta=None)
+                    st.metric("🥉 Bronze", f"{row['bronze_median']:.0f}", delta=None)
+                    st.metric("📊 Total", f"{row['total_median']:.0f}", delta=None)
             
             st.divider()
             
@@ -147,10 +147,10 @@ def main():
             for _, row in df_pred.iterrows():
                 ci_data.append({
                     "Country": row["country"],
-                    "Gold": f"{row['gold']:.0f} ({row['gold_low']:.0f}-{row['gold_high']:.0f})",
-                    "Silver": f"{row['silver']:.0f} ({row['silver_low']:.0f}-{row['silver_high']:.0f})",
-                    "Bronze": f"{row['bronze']:.0f} ({row['bronze_low']:.0f}-{row['bronze_high']:.0f})",
-                    "Total": f"{row['total']:.0f} ({row['total_low']:.0f}-{row['total_high']:.0f})",
+                    "Gold": f"{row['gold_median']:.0f} ({row['gold_low']:.0f}-{row['gold_high']:.0f})",
+                    "Silver": f"{row['silver_median']:.0f} ({row['silver_low']:.0f}-{row['silver_high']:.0f})",
+                    "Bronze": f"{row['bronze_median']:.0f} ({row['bronze_low']:.0f}-{row['bronze_high']:.0f})",
+                    "Total": f"{row['total_median']:.0f} ({row['total_low']:.0f}-{row['total_high']:.0f})",
                 })
             
             st.dataframe(pd.DataFrame(ci_data), use_container_width=True, hide_index=True)
@@ -179,9 +179,9 @@ def main():
                 else:
                     name = country
                 
-                g = int(round(row['gold']))
-                s = int(round(row['silver']))
-                b = int(round(row['bronze']))
+                g = int(round(row['gold_median']))
+                s = int(round(row['silver_median']))
+                b = int(round(row['bronze_median']))
                 submission += f"{name}: 🥇 Gold – {g} 🥈 Silver – {s} 🥉 Bronze – {b}\n"
             
             st.code(submission, language=None)
@@ -214,10 +214,12 @@ def main():
                 key="comp_pred_medal"
             )
             
+            available_countries = set(df_comp_pred["country"].unique().tolist())
+            nordic_in_data = [c for c in NORDIC_COUNTRIES if c in available_countries]
             country_filter = col3.multiselect(
                 "Filter by country:",
-                sorted(df_comp_pred["country"].unique().tolist()),
-                default=NORDIC_COUNTRIES,
+                sorted(available_countries),
+                default=nordic_in_data,
                 key="comp_pred_country"
             )
             
