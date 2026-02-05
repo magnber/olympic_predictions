@@ -1,0 +1,130 @@
+[
+  {
+    "id": "alpine",
+    "name": "Alpine Skiing",
+    "events": 10,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html"
+  },
+  {
+    "id": "biathlon",
+    "name": "Biathlon",
+    "events": 11,
+    "scoring_type": "wc_points",
+    "federation": "IBU",
+    "data_source_url": "https://www.biathlonworld.com/standings"
+  },
+  {
+    "id": "bobsled",
+    "name": "Bobsleigh",
+    "events": 4,
+    "scoring_type": "world_ranking",
+    "federation": "IBSF",
+    "data_source_url": "https://www.ibsf.org/rankings"
+  },
+  {
+    "id": "cross-country",
+    "name": "Cross-Country Skiing",
+    "events": 12,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html"
+  },
+  {
+    "id": "curling",
+    "name": "Curling",
+    "events": 3,
+    "scoring_type": "world_ranking",
+    "federation": "WCF",
+    "data_source_url": "https://worldcurling.org/teamrankings"
+  },
+  {
+    "id": "figure-skating",
+    "name": "Figure Skating",
+    "events": 5,
+    "scoring_type": "season_best",
+    "federation": "ISU",
+    "data_source_url": "https://www.isu.org/figure-skating/rankings"
+  },
+  {
+    "id": "freestyle",
+    "name": "Freestyle Skiing",
+    "events": 15,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/freestyle-skiing/cup-standings.html"
+  },
+  {
+    "id": "hockey",
+    "name": "Ice Hockey",
+    "events": 2,
+    "scoring_type": "world_ranking",
+    "federation": "IIHF",
+    "data_source_url": "https://www.iihf.com/en/worldranking"
+  },
+  {
+    "id": "luge",
+    "name": "Luge",
+    "events": 5,
+    "scoring_type": "world_ranking",
+    "federation": "FIL",
+    "data_source_url": "https://www.fil-luge.org/en/standings"
+  },
+  {
+    "id": "nordic-combined",
+    "name": "Nordic Combined",
+    "events": 3,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html"
+  },
+  {
+    "id": "short-track",
+    "name": "Short Track Speed Skating",
+    "events": 9,
+    "scoring_type": "isu_points",
+    "federation": "ISU",
+    "data_source_url": "https://www.isu.org/short-track/rankings"
+  },
+  {
+    "id": "skeleton",
+    "name": "Skeleton",
+    "events": 3,
+    "scoring_type": "world_ranking",
+    "federation": "IBSF",
+    "data_source_url": "https://www.ibsf.org/rankings"
+  },
+  {
+    "id": "ski-jumping",
+    "name": "Ski Jumping",
+    "events": 6,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html"
+  },
+  {
+    "id": "ski-mountaineering",
+    "name": "Ski Mountaineering",
+    "events": 3,
+    "scoring_type": "world_ranking",
+    "federation": "ISMF",
+    "data_source_url": "https://www.ismf-ski.org/ranking"
+  },
+  {
+    "id": "snowboard",
+    "name": "Snowboard",
+    "events": 11,
+    "scoring_type": "wc_points",
+    "federation": "FIS",
+    "data_source_url": "https://www.fis-ski.com/DB/snowboard/cup-standings.html"
+  },
+  {
+    "id": "speed-skating",
+    "name": "Speed Skating",
+    "events": 14,
+    "scoring_type": "isu_points",
+    "federation": "ISU",
+    "data_source_url": "https://www.isu.org/speed-skating/rankings"
+  }
+]
