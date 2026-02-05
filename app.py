@@ -162,7 +162,9 @@ def main():
             st.markdown("*Which athletes are predicted to win medals?*")
             
             # Load corresponding competition predictions
-            comp_pred_file = OUTPUT_DIR / f"{selected_file}_competition_predictions.csv"
+            # Extract version prefix (e.g., "v3" from "v3_predictions")
+            version_prefix = selected_file.replace("_predictions", "")
+            comp_pred_file = OUTPUT_DIR / f"{version_prefix}_competition_predictions.csv"
             if not comp_pred_file.exists():
                 # Try without the version prefix matching
                 comp_files = list(OUTPUT_DIR.glob("*_competition_predictions.csv"))
@@ -262,12 +264,22 @@ def main():
         st.header("🏆 Competition Predictions")
         st.markdown("*Who is predicted to win each event?*")
         
-        # Load competition predictions
-        comp_pred_file = OUTPUT_DIR / "v1_competition_predictions.csv"
+        # Find available competition prediction files
+        comp_pred_files = list(OUTPUT_DIR.glob("*_competition_predictions.csv"))
         
-        if not comp_pred_file.exists():
-            st.warning("No competition predictions found. Run `python prediction/v1/predict.py` first.")
+        if not comp_pred_files:
+            st.warning("No competition predictions found. Run `python prediction/v3/predict.py` first.")
         else:
+            # Version selector
+            version_names = sorted([f.stem.replace("_competition_predictions", "") for f in comp_pred_files])
+            selected_version = st.selectbox(
+                "Select prediction version:",
+                version_names,
+                index=version_names.index("v3") if "v3" in version_names else 0,
+                key="comp_pred_version"
+            )
+            
+            comp_pred_file = OUTPUT_DIR / f"{selected_version}_competition_predictions.csv"
             df_comp_pred = pd.read_csv(comp_pred_file)
             
             # Filters
