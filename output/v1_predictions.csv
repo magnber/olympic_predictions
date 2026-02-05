@@ -1,5 +1,5 @@
 country,gold_mean,silver_mean,bronze_mean,total_mean,gold_median,silver_median,bronze_median,total_median,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high
-NOR,10.9,10.9,11.0,32.8,11,11,11,33,6,17,6,17,6,17,24,42
-SWE,5.4,5.4,5.5,16.3,5,5,5,16,2,10,2,10,2,10,10,23
-FIN,1.7,1.7,1.8,5.2,2,2,2,5,0,4,0,5,0,5,2,10
+NOR,10.6,10.7,10.8,32.2,14,9,8,31,5,16,5,17,5,17,23,41
+SWE,5.4,5.5,5.5,16.4,4,6,8,18,2,10,2,10,2,10,10,23
+FIN,1.8,1.8,1.8,5.3,1,0,4,5,0,5,0,4,0,5,2,10
 DEN,0.0,0.0,0.0,0.1,0,0,0,0,0,1,0,1,0,1,0,1

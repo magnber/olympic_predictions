@@ -240,11 +240,6 @@
     "country": "USA"
   },
   {
-    "id": "therese-johaug-nor",
-    "name": "Therese Johaug",
-    "country": "NOR"
-  },
-  {
     "id": "anne-kjersti-kalva-nor",
     "name": "Anne Kjersti Kalva",
     "country": "NOR"
@@ -658,11 +653,6 @@
     "id": "vincent-kriechmayr-aut",
     "name": "Vincent Kriechmayr",
     "country": "AUT"
-  },
-  {
-    "id": "aleksander-aamodt-kilde-nor",
-    "name": "Aleksander Aamodt Kilde",
-    "country": "NOR"
   },
   {
     "id": "cameron-alexander-can",

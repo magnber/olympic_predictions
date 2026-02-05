@@ -64,7 +64,6 @@ CROSS_COUNTRY_WOMEN = [
     ("Linn Svahn", "SWE", 1050),
     ("Krista Parmakoski", "FIN", 1000),
     ("Rosie Brennan", "USA", 950),
-    ("Therese Johaug", "NOR", 900),
     ("Anne Kjersti Kalva", "NOR", 850),
     ("Delphine Claudel", "FRA", 800),
     ("Johanna Hagstroem", "SWE", 750),

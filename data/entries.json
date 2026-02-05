@@ -1345,34 +1345,6 @@
   },
   {
     "competition_id": "cross-country-w-sprint",
-    "athlete_id": "therese-johaug-nor",
-    "score": 900,
-    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "cross-country-w-skiathlon",
-    "athlete_id": "therese-johaug-nor",
-    "score": 900,
-    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "cross-country-w-10km",
-    "athlete_id": "therese-johaug-nor",
-    "score": 900,
-    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "cross-country-w-50km-mass",
-    "athlete_id": "therese-johaug-nor",
-    "score": 900,
-    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "cross-country-w-sprint",
     "athlete_id": "anne-kjersti-kalva-nor",
     "score": 850,
     "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
@@ -3692,34 +3664,6 @@
     "competition_id": "alpine-m-slalom",
     "athlete_id": "vincent-kriechmayr-aut",
     "score": 340,
-    "source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "alpine-m-downhill",
-    "athlete_id": "aleksander-aamodt-kilde-nor",
-    "score": 320,
-    "source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "alpine-m-super-g",
-    "athlete_id": "aleksander-aamodt-kilde-nor",
-    "score": 320,
-    "source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "alpine-m-giant-slalom",
-    "athlete_id": "aleksander-aamodt-kilde-nor",
-    "score": 320,
-    "source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
-    "source_date": "2026-02-05"
-  },
-  {
-    "competition_id": "alpine-m-slalom",
-    "athlete_id": "aleksander-aamodt-kilde-nor",
-    "score": 320,
     "source_url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
     "source_date": "2026-02-05"
   },

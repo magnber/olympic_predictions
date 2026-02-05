@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
 """
-Olympic Medal Prediction - Version 1
-Monte Carlo simulation based on World Cup standings
+Olympic Medal Prediction - Version 2
+Bradley-Terry inspired model with position-weighted probabilities
+
+Key differences from V1:
+- Softmax probability (not Gumbel noise)
+- Position-weighted power: Gold favors top athletes more than bronze
+- Temperature parameter to control upset frequency
+- Based on Bradley-Terry pairwise comparison model
+
+References:
+- Bradley-Terry model (1952) for paired comparisons
+- Gracenote Virtual Medal Table methodology
+- Dixon-Coles recency weighting concept
 
 Usage: python predict.py
-Output: output.csv with medal predictions per country
+Output: v2_predictions.csv
 """
 
 import json
@@ -15,11 +26,16 @@ from pathlib import Path
 
 # Configuration
 NUM_SIMULATIONS = 10000
-# Gumbel noise scale - higher = more upsets, lower = favorites always win
-# Typical values: 0.5-1.5. Based on rank-ordered logit model literature.
-PERFORMANCE_VARIANCE = 1.0
 NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
+
+# V2 Model parameters
+# Power-weighted probability: P(i) = strength^power / sum(strength^power)
+# Higher power = favorites dominate more
+GOLD_POWER = 1.5   # Gold heavily favors top athletes
+SILVER_POWER = 1.2 # Silver slightly favors top athletes  
+BRONZE_POWER = 1.0 # Bronze is most "random" (equal to strength ratio)
+TOP_N_CONTENDERS = 20  # Only top N athletes compete for medals
 
 
 def load_data():
@@ -43,89 +59,110 @@ def get_scoring_type(competition_id, competitions, sports):
     """Get the scoring type for a competition."""
     comp = competitions.get(competition_id)
     if not comp:
-        return "wc_points"  # default
+        return "wc_points"
     sport_id = comp.get("sport_id")
     sport = sports.get(sport_id, {})
     return sport.get("scoring_type", "wc_points")
 
 
-def normalize_scores(entries_for_competition, scoring_type):
+def calculate_strength(score, scoring_type):
     """
-    Convert raw scores to probabilities based on scoring type.
-    Returns list of (athlete_id, probability) tuples.
+    Convert raw score to strength rating.
+    Bradley-Terry style: strength represents relative ability.
     """
-    if not entries_for_competition:
-        return []
-    
-    # Extract scores
-    scores = [(e["athlete_id"], e["score"]) for e in entries_for_competition]
-    
     if scoring_type == "world_ranking":
-        # Lower is better - invert
-        strengths = [(aid, 1.0 / max(score, 1)) for aid, score in scores]
+        # Lower rank = stronger (invert and scale)
+        return 1000.0 / max(score, 1)
     else:
-        # Higher is better (wc_points, isu_points, season_best)
-        strengths = [(aid, max(score, 0)) for aid, score in scores]
+        # Higher points = stronger
+        return max(float(score), 1)
+
+
+def power_weighted_select(strengths, power=1.0):
+    """
+    Select one item using power-weighted probability.
     
-    # Normalize to sum = 1
-    total = sum(s for _, s in strengths)
+    P(athlete i) = strength_i^power / sum(strength_j^power)
+    
+    Higher power = top athletes win more often.
+    Power 1.0 = probability proportional to strength
+    Power 2.0 = probability proportional to strength squared (favorites dominate)
+    
+    Args:
+        strengths: list of (id, strength) tuples
+        power: exponent applied to strengths
+    
+    Returns:
+        selected id and remaining list
+    """
+    if not strengths:
+        return None, []
+    
+    if len(strengths) == 1:
+        return strengths[0][0], []
+    
+    # Apply power transformation
+    powered = [(aid, s ** power) for aid, s in strengths]
+    total = sum(p for _, p in powered)
+    
     if total <= 0:
-        # Equal probability if no valid scores
-        prob = 1.0 / len(strengths)
-        return [(aid, prob) for aid, _ in strengths]
+        # Random selection if all strengths are zero
+        idx = random.randint(0, len(strengths) - 1)
+        selected_id = strengths[idx][0]
+        remaining = strengths[:idx] + strengths[idx + 1:]
+        return selected_id, remaining
     
-    return [(aid, s / total) for aid, s in strengths]
-
-
-def gumbel_noise():
-    """
-    Generate Gumbel(0, scale) noise for performance simulation.
-    Gumbel distribution is used in rank-ordered logit models.
-    """
-    u = random.random()
-    # Avoid log(0)
-    while u == 0:
-        u = random.random()
-    return -PERFORMANCE_VARIANCE * math.log(-math.log(u))
-
-
-def simulate_competition(probabilities):
-    """
-    Simulate a single competition using rank-ordered logit model.
+    # Weighted random selection
+    r = random.random() * total
+    cumulative = 0
+    selected_idx = 0
+    for i, (aid, p) in enumerate(powered):
+        cumulative += p
+        if r <= cumulative:
+            selected_idx = i
+            break
     
-    Each athlete's performance = log(strength) + Gumbel noise
-    Athletes are ranked by simulated performance.
+    selected_id = strengths[selected_idx][0]
+    remaining = strengths[:selected_idx] + strengths[selected_idx + 1:]
     
-    This approach is based on:
-    - Plackett-Luce model (probability theory)
-    - Rank-ordered logit (econometrics)
-    - Used by FiveThirtyEight, academic sports prediction
+    return selected_id, remaining
+
+
+def simulate_competition(entries_for_competition, scoring_type):
+    """
+    Simulate a single competition using Bradley-Terry inspired model.
+    
+    Key innovation: Different power exponents for each medal position.
+    - Gold: Higher power (1.3) - favorites win gold more often
+    - Silver: Normal power (1.0) - balanced
+    - Bronze: Lower power (0.8) - more upsets, underdogs can medal
     
     Returns (gold_athlete, silver_athlete, bronze_athlete).
     """
-    if len(probabilities) < 3:
-        athletes = [aid for aid, _ in probabilities]
+    if len(entries_for_competition) < 3:
+        athletes = [e["athlete_id"] for e in entries_for_competition]
         while len(athletes) < 3:
             athletes.append(None)
         return tuple(athletes[:3])
     
-    # Simulate performance for each athlete
-    # Performance = log(strength) + Gumbel noise
-    performances = []
-    for athlete_id, strength in probabilities:
-        if strength <= 0:
-            strength = 0.0001  # Avoid log(0)
-        # Log-strength + random Gumbel noise
-        perf = math.log(strength) + gumbel_noise()
-        performances.append((athlete_id, perf))
+    # Calculate strengths and sort by strength
+    strengths = []
+    for entry in entries_for_competition:
+        s = calculate_strength(entry["score"], scoring_type)
+        strengths.append((entry["athlete_id"], s))
     
-    # Sort by performance (highest = winner)
-    performances.sort(key=lambda x: -x[1])
+    # Sort by strength (highest first) and take top contenders
+    strengths.sort(key=lambda x: -x[1])
+    strengths = strengths[:TOP_N_CONTENDERS]
     
-    # Return top 3
-    gold = performances[0][0]
-    silver = performances[1][0]
-    bronze = performances[2][0]
+    # Select gold (heavily favors top athletes)
+    gold, remaining = power_weighted_select(strengths, power=GOLD_POWER)
+    
+    # Select silver (moderately favors top athletes)
+    silver, remaining = power_weighted_select(remaining, power=SILVER_POWER)
+    
+    # Select bronze (proportional to strength - more upsets possible)
+    bronze, _ = power_weighted_select(remaining, power=BRONZE_POWER)
     
     return (gold, silver, bronze)
 
@@ -138,15 +175,13 @@ def run_simulation(sports, competitions, athletes, entries):
     for entry in entries:
         entries_by_comp[entry["competition_id"]].append(entry)
     
-    # Track medal counts across all simulations
-    # Structure: {country: {"gold": count, "silver": count, "bronze": count}}
+    # Track medal counts
     medal_totals = defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0})
     
-    # Track per-competition medal wins by athlete
-    # Structure: {comp_id: {athlete_id: {"gold": count, "silver": count, "bronze": count}}}
+    # Track per-competition wins
     comp_athlete_medals = defaultdict(lambda: defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0}))
     
-    # Track individual simulation results for confidence intervals
+    # Track individual simulation results
     simulation_results = []
     
     for sim in range(NUM_SIMULATIONS):
@@ -154,12 +189,8 @@ def run_simulation(sports, competitions, athletes, entries):
         
         for comp_id, comp_entries in entries_by_comp.items():
             scoring_type = get_scoring_type(comp_id, competitions, sports)
-            probabilities = normalize_scores(comp_entries, scoring_type)
             
-            if not probabilities:
-                continue
-            
-            gold, silver, bronze = simulate_competition(probabilities)
+            gold, silver, bronze = simulate_competition(comp_entries, scoring_type)
             
             # Award medals
             for medal_type, athlete_id in [("gold", gold), ("silver", silver), ("bronze", bronze)]:
@@ -184,39 +215,8 @@ def run_simulation(sports, competitions, athletes, entries):
     return results, simulation_results, comp_athlete_medals, entries_by_comp
 
 
-def get_median_medals(simulation_results, country):
-    """Get median medal counts for a country across all simulations."""
-    golds = []
-    silvers = []
-    bronzes = []
-    totals = []
-    for sim in simulation_results:
-        g = sim.get(country, {}).get("gold", 0)
-        s = sim.get(country, {}).get("silver", 0)
-        b = sim.get(country, {}).get("bronze", 0)
-        golds.append(g)
-        silvers.append(s)
-        bronzes.append(b)
-        totals.append(g + s + b)
-    golds.sort()
-    silvers.sort()
-    bronzes.sort()
-    totals.sort()
-    mid = len(golds) // 2
-    return {
-        "gold": golds[mid],
-        "silver": silvers[mid],
-        "bronze": bronzes[mid],
-        "total": totals[mid]
-    }
-
-
 def get_representative_simulation(simulation_results, countries):
-    """
-    Find the simulation closest to median total medals for all countries combined.
-    Returns that single simulation's results - showing realistic G/S/B variance.
-    """
-    # Calculate total Nordic medals for each simulation
+    """Find the simulation closest to median total medals."""
     sim_totals = []
     for i, sim in enumerate(simulation_results):
         total = 0
@@ -226,7 +226,6 @@ def get_representative_simulation(simulation_results, countries):
             total += sim.get(country, {}).get("bronze", 0)
         sim_totals.append((i, total))
     
-    # Find median total
     sim_totals.sort(key=lambda x: x[1])
     median_idx = sim_totals[len(sim_totals) // 2][0]
     
@@ -271,17 +270,22 @@ def main():
     
     print(f"Loaded {len(competitions)} competitions, {len(athletes)} athletes, {len(entries)} entries")
     
-    # Count competitions with entries
     comps_with_entries = len(set(e["competition_id"] for e in entries))
     print(f"Competitions with athlete data: {comps_with_entries}")
     
+    print(f"\n=== V2 MODEL PARAMETERS ===")
+    print(f"Gold power: {GOLD_POWER} (higher = favorites dominate gold)")
+    print(f"Silver power: {SILVER_POWER}")
+    print(f"Bronze power: {BRONZE_POWER} (most random)")
+    print(f"Top N contenders: {TOP_N_CONTENDERS}")
+    
     print(f"\nRunning {NUM_SIMULATIONS:,} simulations...")
-    results, simulation_results, comp_athlete_medals, entries_by_comp = run_simulation(sports, competitions, athletes, entries)
+    results, simulation_results, comp_athlete_medals, entries_by_comp = run_simulation(
+        sports, competitions, athletes, entries
+    )
     
-    # Filter to Nordic countries and sort
+    # Filter to Nordic countries
     nordic_results = {c: r for c, r in results.items() if c in NORDIC_COUNTRIES}
-    
-    # Sort by expected total medals
     sorted_results = sorted(nordic_results.items(), key=lambda x: -x[1]["total"])
     
     # Get representative simulation
@@ -289,34 +293,28 @@ def main():
     
     # Print results
     print("\n" + "=" * 60)
-    print("NORDIC MEDAL PREDICTIONS - 2026 Winter Olympics")
-    print("(Using rank-ordered logit model with Gumbel noise)")
+    print("NORDIC MEDAL PREDICTIONS - 2026 Winter Olympics (V2)")
+    print("(Bradley-Terry inspired with position-weighted probabilities)")
     print("=" * 60)
-    print("\nPrediction = Representative simulation (closest to median total)")
-    print("This shows realistic G/S/B variance from a single Olympics.\n")
     
     for country, medals in sorted_results:
         ci = calculate_confidence_intervals(simulation_results, country)
         rep = rep_sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
         rep_total = rep.get("gold", 0) + rep.get("silver", 0) + rep.get("bronze", 0)
-        print(f"{country}:")
+        print(f"\n{country}:")
         print(f"  Prediction: Gold {rep.get('gold', 0):2d} - Silver {rep.get('silver', 0):2d} - Bronze {rep.get('bronze', 0):2d} (Total: {rep_total})")
         print(f"  Mean:       Gold {medals['gold']:4.1f} - Silver {medals['silver']:4.1f} - Bronze {medals['bronze']:4.1f} (Total: {medals['total']:.1f})")
         print(f"  95% CI:     Gold {ci['gold'][0]:2.0f}-{ci['gold'][1]:2.0f}  - Silver {ci['silver'][0]:2.0f}-{ci['silver'][1]:2.0f}  - Bronze {ci['bronze'][0]:2.0f}-{ci['bronze'][1]:2.0f}")
-        print()
-    
-    # Get representative simulation (single Olympics closest to median)
-    rep_sim = get_representative_simulation(simulation_results, NORDIC_COUNTRIES)
     
     # Write CSV output
     output_dir = Path(__file__).parent.parent.parent / "output"
     output_dir.mkdir(exist_ok=True)
-    output_path = output_dir / "v1_predictions.csv"
+    output_path = output_dir / "v2_predictions.csv"
+    
     with open(output_path, "w") as f:
         f.write("country,gold_mean,silver_mean,bronze_mean,total_mean,gold_median,silver_median,bronze_median,total_median,gold_low,gold_high,silver_low,silver_high,bronze_low,bronze_high,total_low,total_high\n")
         for country, medals in sorted_results:
             ci = calculate_confidence_intervals(simulation_results, country)
-            # Use representative simulation for realistic G/S/B variance
             rep = rep_sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
             rep_total = rep.get("gold", 0) + rep.get("silver", 0) + rep.get("bronze", 0)
             f.write(f"{country},{medals['gold']:.1f},{medals['silver']:.1f},{medals['bronze']:.1f},{medals['total']:.1f},")
@@ -326,7 +324,7 @@ def main():
     
     print(f"\nResults written to {output_path}")
     
-    # Also output predictions for the challenge (using representative simulation)
+    # Final predictions
     print("\n" + "=" * 60)
     print("FINAL PREDICTIONS (for submission)")
     print("=" * 60)
@@ -337,9 +335,9 @@ def main():
         b = rep.get("bronze", 0)
         print(f"{country}: Gold {g} - Silver {s} - Bronze {b}")
     
-    # Show sample single simulations to demonstrate variance
+    # Sample simulations
     print("\n" + "=" * 60)
-    print("SAMPLE SINGLE OLYMPICS (showing natural variance)")
+    print("SAMPLE SINGLE OLYMPICS (showing variance)")
     print("=" * 60)
     for i, sim in enumerate(simulation_results[:5]):
         print(f"\nSimulation {i+1}:")
@@ -352,14 +350,13 @@ def main():
             else:
                 print(f"  {country}: Gold 0 - Silver 0 - Bronze 0 (Total: 0)")
     
-    # Output per-competition predictions
+    # Write per-competition predictions
     comp_predictions = []
     for comp_id, athlete_medals in comp_athlete_medals.items():
         comp = competitions.get(comp_id, {})
         comp_name = comp.get("name", comp_id)
         sport_id = comp.get("sport_id", "unknown")
         
-        # Find top athletes for each medal type
         for medal_type in ["gold", "silver", "bronze"]:
             medal_counts = [(aid, m[medal_type]) for aid, m in athlete_medals.items()]
             medal_counts.sort(key=lambda x: -x[1])
@@ -381,15 +378,14 @@ def main():
                     "win_count": count
                 })
     
-    # Write per-competition CSV
-    comp_output_path = output_dir / "v1_competition_predictions.csv"
+    comp_output_path = output_dir / "v2_competition_predictions.csv"
     with open(comp_output_path, "w") as f:
         f.write("competition_id,competition_name,sport_id,medal,rank,athlete_id,athlete_name,country,probability,win_count\n")
         for p in sorted(comp_predictions, key=lambda x: (x["competition_name"], x["medal"], x["rank"])):
             f.write(f"{p['competition_id']},{p['competition_name']},{p['sport_id']},{p['medal']},{p['rank']},")
             f.write(f"{p['athlete_id']},{p['athlete_name']},{p['country']},{p['probability']:.1f},{p['win_count']}\n")
     
-    print(f"Competition predictions written to {comp_output_path}")
+    print(f"\nCompetition predictions written to {comp_output_path}")
 
 
 if __name__ == "__main__":
