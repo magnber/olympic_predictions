@@ -52,7 +52,7 @@ def main():
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Select page:",
-        ["Overview", "Predictions", "Sports", "Competitions", "Athletes", "Entries", "Nordic Summary"]
+        ["Overview", "Predictions", "Competition Predictions", "Sports", "Competitions", "Athletes", "Entries", "Nordic Summary"]
     )
     
     # Overview page
@@ -107,7 +107,9 @@ def main():
         st.header("🎯 Predictions")
         
         # Find all prediction files
-        prediction_files = sorted(OUTPUT_DIR.glob("*.csv")) if OUTPUT_DIR.exists() else []
+        # Only show country-level prediction files (exclude competition predictions)
+        all_files = sorted(OUTPUT_DIR.glob("*.csv")) if OUTPUT_DIR.exists() else []
+        prediction_files = [f for f in all_files if "competition" not in f.stem.lower()]
         
         if not prediction_files:
             st.warning("No prediction files found in /output directory")
@@ -183,6 +185,144 @@ def main():
                 submission += f"{name}: 🥇 Gold – {g} 🥈 Silver – {s} 🥉 Bronze – {b}\n"
             
             st.code(submission, language=None)
+    
+    # Competition Predictions page
+    elif page == "Competition Predictions":
+        st.header("🏆 Competition Predictions")
+        st.markdown("*Who is predicted to win each event?*")
+        
+        # Load competition predictions
+        comp_pred_file = OUTPUT_DIR / "v1_competition_predictions.csv"
+        
+        if not comp_pred_file.exists():
+            st.warning("No competition predictions found. Run `python prediction/v1/predict.py` first.")
+        else:
+            df_comp_pred = pd.read_csv(comp_pred_file)
+            
+            # Filters
+            col1, col2, col3 = st.columns(3)
+            
+            sport_filter = col1.selectbox(
+                "Filter by sport:",
+                ["All"] + sorted(df_comp_pred["sport_id"].unique().tolist()),
+                key="comp_pred_sport"
+            )
+            
+            medal_filter = col2.selectbox(
+                "Filter by medal:",
+                ["All", "gold", "silver", "bronze"],
+                key="comp_pred_medal"
+            )
+            
+            country_filter = col3.multiselect(
+                "Filter by country:",
+                sorted(df_comp_pred["country"].unique().tolist()),
+                default=NORDIC_COUNTRIES,
+                key="comp_pred_country"
+            )
+            
+            # Apply filters
+            filtered = df_comp_pred.copy()
+            if sport_filter != "All":
+                filtered = filtered[filtered["sport_id"] == sport_filter]
+            if medal_filter != "All":
+                filtered = filtered[filtered["medal"] == medal_filter]
+            if country_filter:
+                filtered = filtered[filtered["country"].isin(country_filter)]
+            
+            # Show only rank 1 (top predictions) by default
+            show_all_ranks = st.checkbox("Show top 3 candidates per medal (not just favorites)")
+            if not show_all_ranks:
+                filtered = filtered[filtered["rank"] == 1]
+            
+            # Add flag emoji
+            filtered["flag"] = filtered["country"].map(lambda x: COUNTRY_FLAGS.get(x, "🏳️"))
+            
+            # Format probability
+            filtered["prob_str"] = filtered["probability"].apply(lambda x: f"{x:.1f}%")
+            
+            # Display
+            st.subheader(f"Predictions ({len(filtered)} rows)")
+            
+            # Pivot for better display if showing only rank 1
+            if not show_all_ranks and medal_filter == "All":
+                pivot = filtered.pivot_table(
+                    index=["competition_name", "sport_id"],
+                    columns="medal",
+                    values=["athlete_name", "country", "probability"],
+                    aggfunc="first"
+                ).reset_index()
+                
+                # Flatten column names
+                pivot.columns = [f"{col[1]}_{col[0]}" if col[1] else col[0] for col in pivot.columns]
+                
+                # Reorder columns for display
+                display_cols = ["competition_name", "sport_id"]
+                for medal in ["gold", "silver", "bronze"]:
+                    for field in ["athlete_name", "country", "probability"]:
+                        col_name = f"{medal}_{field}"
+                        if col_name in pivot.columns:
+                            display_cols.append(col_name)
+                
+                pivot = pivot[[c for c in display_cols if c in pivot.columns]]
+                
+                # Rename for display
+                rename_map = {
+                    "competition_name": "Event",
+                    "sport_id": "Sport",
+                    "gold_athlete_name": "🥇 Athlete",
+                    "gold_country": "🥇 Country", 
+                    "gold_probability": "🥇 Prob%",
+                    "silver_athlete_name": "🥈 Athlete",
+                    "silver_country": "🥈 Country",
+                    "silver_probability": "🥈 Prob%",
+                    "bronze_athlete_name": "🥉 Athlete",
+                    "bronze_country": "🥉 Country",
+                    "bronze_probability": "🥉 Prob%",
+                }
+                pivot = pivot.rename(columns=rename_map)
+                
+                st.dataframe(pivot, use_container_width=True, hide_index=True)
+            else:
+                # Simple list view
+                display_df = filtered[["competition_name", "sport_id", "medal", "rank", "athlete_name", "flag", "country", "prob_str"]].copy()
+                display_df = display_df.rename(columns={
+                    "competition_name": "Event",
+                    "sport_id": "Sport",
+                    "medal": "Medal",
+                    "rank": "Rank",
+                    "athlete_name": "Athlete",
+                    "flag": "🏳️",
+                    "country": "Country",
+                    "prob_str": "Probability"
+                })
+                st.dataframe(display_df, use_container_width=True, hide_index=True)
+            
+            # Nordic medal opportunities
+            st.divider()
+            st.subheader("🇳🇴🇸🇪🇫🇮🇩🇰 Nordic Medal Opportunities")
+            
+            nordic_pred = df_comp_pred[
+                (df_comp_pred["country"].isin(NORDIC_COUNTRIES)) & 
+                (df_comp_pred["rank"] == 1)
+            ].copy()
+            
+            nordic_pred["flag"] = nordic_pred["country"].map(lambda x: COUNTRY_FLAGS.get(x, ""))
+            nordic_pred = nordic_pred.sort_values("probability", ascending=False)
+            
+            if len(nordic_pred) > 0:
+                display_nordic = nordic_pred[["athlete_name", "flag", "country", "competition_name", "medal", "probability"]].head(20)
+                display_nordic = display_nordic.rename(columns={
+                    "athlete_name": "Athlete",
+                    "flag": "🏳️",
+                    "country": "Country",
+                    "competition_name": "Event",
+                    "medal": "Medal",
+                    "probability": "Probability %"
+                })
+                st.dataframe(display_nordic, use_container_width=True, hide_index=True)
+            else:
+                st.info("No Nordic athletes in top predictions with current filters")
     
     # Sports page
     elif page == "Sports":

@@ -126,6 +126,10 @@ def run_simulation(sports, competitions, athletes, entries):
     # Structure: {country: {"gold": count, "silver": count, "bronze": count}}
     medal_totals = defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0})
     
+    # Track per-competition medal wins by athlete
+    # Structure: {comp_id: {athlete_id: {"gold": count, "silver": count, "bronze": count}}}
+    comp_athlete_medals = defaultdict(lambda: defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0}))
+    
     # Track individual simulation results for confidence intervals
     simulation_results = []
     
@@ -147,6 +151,7 @@ def run_simulation(sports, competitions, athletes, entries):
                     country = athletes[athlete_id]["country"]
                     sim_medals[country][medal_type] += 1
                     medal_totals[country][medal_type] += 1
+                    comp_athlete_medals[comp_id][athlete_id][medal_type] += 1
         
         simulation_results.append(dict(sim_medals))
     
@@ -160,7 +165,7 @@ def run_simulation(sports, competitions, athletes, entries):
             "total": (medals["gold"] + medals["silver"] + medals["bronze"]) / NUM_SIMULATIONS
         }
     
-    return results, simulation_results
+    return results, simulation_results, comp_athlete_medals, entries_by_comp
 
 
 def calculate_confidence_intervals(simulation_results, country):
@@ -206,7 +211,7 @@ def main():
     print(f"Competitions with athlete data: {comps_with_entries}")
     
     print(f"\nRunning {NUM_SIMULATIONS:,} simulations...")
-    results, simulation_results = run_simulation(sports, competitions, athletes, entries)
+    results, simulation_results, comp_athlete_medals, entries_by_comp = run_simulation(sports, competitions, athletes, entries)
     
     # Filter to Nordic countries and sort
     nordic_results = {c: r for c, r in results.items() if c in NORDIC_COUNTRIES}
@@ -250,6 +255,45 @@ def main():
         s = round(medals['silver'])
         b = round(medals['bronze'])
         print(f"{country}: Gold {g} - Silver {s} - Bronze {b}")
+    
+    # Output per-competition predictions
+    comp_predictions = []
+    for comp_id, athlete_medals in comp_athlete_medals.items():
+        comp = competitions.get(comp_id, {})
+        comp_name = comp.get("name", comp_id)
+        sport_id = comp.get("sport_id", "unknown")
+        
+        # Find top athletes for each medal type
+        for medal_type in ["gold", "silver", "bronze"]:
+            medal_counts = [(aid, m[medal_type]) for aid, m in athlete_medals.items()]
+            medal_counts.sort(key=lambda x: -x[1])
+            
+            for rank, (athlete_id, count) in enumerate(medal_counts[:3], 1):
+                athlete = athletes.get(athlete_id, {})
+                probability = count / NUM_SIMULATIONS * 100
+                
+                comp_predictions.append({
+                    "competition_id": comp_id,
+                    "competition_name": comp_name,
+                    "sport_id": sport_id,
+                    "medal": medal_type,
+                    "rank": rank,
+                    "athlete_id": athlete_id,
+                    "athlete_name": athlete.get("name", "Unknown"),
+                    "country": athlete.get("country", "???"),
+                    "probability": probability,
+                    "win_count": count
+                })
+    
+    # Write per-competition CSV
+    comp_output_path = output_dir / "v1_competition_predictions.csv"
+    with open(comp_output_path, "w") as f:
+        f.write("competition_id,competition_name,sport_id,medal,rank,athlete_id,athlete_name,country,probability,win_count\n")
+        for p in sorted(comp_predictions, key=lambda x: (x["competition_name"], x["medal"], x["rank"])):
+            f.write(f"{p['competition_id']},{p['competition_name']},{p['sport_id']},{p['medal']},{p['rank']},")
+            f.write(f"{p['athlete_id']},{p['athlete_name']},{p['country']},{p['probability']:.1f},{p['win_count']}\n")
+    
+    print(f"Competition predictions written to {comp_output_path}")
 
 
 if __name__ == "__main__":
