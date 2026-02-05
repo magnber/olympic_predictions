@@ -11611,5 +11611,789 @@
     "score": 3400,
     "source_url": "https://www.iihf.com/en/worldranking",
     "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-nor",
+    "score": 8096,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-swe",
+    "score": 6812,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-ger",
+    "score": 5731,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-fin",
+    "score": 5420,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-fra",
+    "score": 4800,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-ita",
+    "score": 3500,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-sui",
+    "score": 3200,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-relay",
+    "athlete_id": "team-usa",
+    "score": 2800,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-swe",
+    "score": 7500,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-nor",
+    "score": 7200,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-fin",
+    "score": 5800,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-ger",
+    "score": 5400,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-usa",
+    "score": 4200,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-sui",
+    "score": 3000,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-ita",
+    "score": 2500,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-relay",
+    "athlete_id": "team-aut",
+    "score": 2000,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-nor",
+    "score": 3730,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-swe",
+    "score": 2689,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-fra",
+    "score": 2119,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-fin",
+    "score": 1644,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-usa",
+    "score": 2052,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-ger",
+    "score": 1004,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-ita",
+    "score": 1510,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-m-team-sprint",
+    "athlete_id": "team-sui",
+    "score": 492,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-swe",
+    "score": 3167,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-nor",
+    "score": 2755,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-fin",
+    "score": 3049,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-ger",
+    "score": 2977,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-usa",
+    "score": 3147,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-sui",
+    "score": 700,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-ita",
+    "score": 550,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "cross-country-w-team-sprint",
+    "athlete_id": "team-aut",
+    "score": 1200,
+    "source_url": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-fra",
+    "score": 90,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-nor",
+    "score": 75,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-swe",
+    "score": 60,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-ger",
+    "score": 50,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-fin",
+    "score": 45,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-usa",
+    "score": 40,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-ukr",
+    "score": 36,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-sui",
+    "score": 34,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-aut",
+    "score": 32,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-m-relay",
+    "athlete_id": "team-ita",
+    "score": 31,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-fra",
+    "score": 85,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-swe",
+    "score": 70,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-ger",
+    "score": 65,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-nor",
+    "score": 60,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-fin",
+    "score": 50,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-ita",
+    "score": 45,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-sui",
+    "score": 40,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-usa",
+    "score": 35,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-aut",
+    "score": 30,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-w-relay",
+    "athlete_id": "team-cze",
+    "score": 25,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-fra",
+    "score": 95,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-nor",
+    "score": 80,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-swe",
+    "score": 75,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-ger",
+    "score": 65,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-ita",
+    "score": 55,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-fin",
+    "score": 50,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-sui",
+    "score": 45,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-usa",
+    "score": 40,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-aut",
+    "score": 35,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "biathlon-x-mixed-relay",
+    "athlete_id": "team-cze",
+    "score": 30,
+    "source_url": "https://www.biathlonworld.com/standings",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-aut",
+    "score": 3280,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-ger",
+    "score": 1310,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-slo",
+    "score": 1720,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-nor",
+    "score": 2050,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-jpn",
+    "score": 1060,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-pol",
+    "score": 800,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-sui",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-m-team",
+    "athlete_id": "team-fin",
+    "score": 120,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-aut",
+    "score": 3179,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-slo",
+    "score": 2906,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-ger",
+    "score": 2247,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-nor",
+    "score": 1907,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-jpn",
+    "score": 2066,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-can",
+    "score": 904,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-fra",
+    "score": 320,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "ski-jumping-x-mixed-team",
+    "athlete_id": "team-sui",
+    "score": 750,
+    "source_url": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-ger",
+    "score": 2606,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-aut",
+    "score": 2167,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-jpn",
+    "score": 1350,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-nor",
+    "score": 1400,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-fin",
+    "score": 1350,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-fra",
+    "score": 500,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-usa",
+    "score": 400,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "nordic-combined-m-team-sprint",
+    "athlete_id": "team-ita",
+    "score": 300,
+    "source_url": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-ned",
+    "score": 1577,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-nor",
+    "score": 770,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-usa",
+    "score": 941,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-ita",
+    "score": 285,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-can",
+    "score": 70,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-chn",
+    "score": 393,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-kor",
+    "score": 30,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-m-team-pursuit",
+    "athlete_id": "team-pol",
+    "score": 501,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-ned",
+    "score": 1662,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-jpn",
+    "score": 1019,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-can",
+    "score": 565,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-usa",
+    "score": 762,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-nor",
+    "score": 370,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-ita",
+    "score": 80,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-cze",
+    "score": 160,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "speed-skating-w-team-pursuit",
+    "athlete_id": "team-kor",
+    "score": 10,
+    "source_url": "https://isu-skating.com/speed-skating/world-standings/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-gbr",
+    "score": 60254,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-ita",
+    "score": 58603,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-nor",
+    "score": 53254,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-swe",
+    "score": 50857,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-sui",
+    "score": 48000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-can",
+    "score": 45000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-usa",
+    "score": 42000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-kor",
+    "score": 38000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-jpn",
+    "score": 35000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
+  },
+  {
+    "competition_id": "curling-x-mixed-doubles",
+    "athlete_id": "team-hun",
+    "score": 32000,
+    "source_url": "https://worldcurling.org/teamrankings/mixed-doubles/",
+    "source_date": "2026-02-05"
   }
 ]

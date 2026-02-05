@@ -32,7 +32,7 @@
   {"id": "cross-country-m-skiathlon", "name": "Men's Skiathlon", "sport_id": "cross-country", "gender": "M", "type": "individual"},
   {"id": "cross-country-m-15km", "name": "Men's 15km", "sport_id": "cross-country", "gender": "M", "type": "individual"},
   {"id": "cross-country-m-50km-mass", "name": "Men's 50km Mass Start", "sport_id": "cross-country", "gender": "M", "type": "individual"},
-  {"id": "cross-country-m-relay", "name": "Men's 4x10km Relay", "sport_id": "cros s-country", "gender": "M", "type": "team"},
+  {"id": "cross-country-m-relay", "name": "Men's 4x10km Relay", "sport_id": "cross-country", "gender": "M", "type": "team"},
   {"id": "cross-country-w-sprint", "name": "Women's Sprint", "sport_id": "cross-country", "gender": "F", "type": "individual"},
   {"id": "cross-country-w-team-sprint", "name": "Women's Team Sprint", "sport_id": "cross-country", "gender": "F", "type": "team"},
   {"id": "cross-country-w-skiathlon", "name": "Women's Skiathlon", "sport_id": "cross-country", "gender": "F", "type": "individual"},

@@ -7,6 +7,11 @@ Data sources: FIS, IBU, ISU - January 2026
 import json
 import re
 from datetime import date
+from pathlib import Path
+
+# Get the directory where this script is located
+SCRIPT_DIR = Path(__file__).parent
+DATA_DIR = SCRIPT_DIR.parent / "data"
 
 # =============================================================================
 # CROSS-COUNTRY SKIING
@@ -835,10 +840,184 @@ HOCKEY_WOMEN = [
 ]
 
 # =============================================================================
+# TEAM/RELAY EVENTS (Nation-level entries)
+# =============================================================================
+
+# Cross-Country Relay - Men's 4x10km (FIS Nations Cup standings)
+CROSS_COUNTRY_RELAY_MEN = [
+    ("Team Norway", "NOR", 8096),
+    ("Team Sweden", "SWE", 6812),
+    ("Team Germany", "GER", 5731),
+    ("Team Finland", "FIN", 5420),
+    ("Team France", "FRA", 4800),
+    ("Team Italy", "ITA", 3500),
+    ("Team Switzerland", "SUI", 3200),
+    ("Team USA", "USA", 2800),
+]
+
+# Cross-Country Relay - Women's 4x5km (FIS Nations Cup standings)
+CROSS_COUNTRY_RELAY_WOMEN = [
+    ("Team Sweden", "SWE", 7500),
+    ("Team Norway", "NOR", 7200),
+    ("Team Finland", "FIN", 5800),
+    ("Team Germany", "GER", 5400),
+    ("Team USA", "USA", 4200),
+    ("Team Switzerland", "SUI", 3000),
+    ("Team Italy", "ITA", 2500),
+    ("Team Austria", "AUT", 2000),
+]
+
+# Cross-Country Team Sprint - Men (Top 2 athletes per nation aggregated)
+CROSS_COUNTRY_TEAM_SPRINT_MEN = [
+    ("Team Norway", "NOR", 3730),   # Klaebo + Valnes
+    ("Team Sweden", "SWE", 2689),   # Anger + Poromaa
+    ("Team France", "FRA", 2119),   # Lapalus + Desloges
+    ("Team Finland", "FIN", 1644),  # Niskanen + Vuorinen
+    ("Team USA", "USA", 2052),      # Ogden + Schumacher
+    ("Team Germany", "GER", 1004),
+    ("Team Italy", "ITA", 1510),    # Pellegrino
+    ("Team Switzerland", "SUI", 492),
+]
+
+# Cross-Country Team Sprint - Women (Top 2 athletes per nation aggregated)
+CROSS_COUNTRY_TEAM_SPRINT_WOMEN = [
+    ("Team Sweden", "SWE", 3167),   # Ilar + Sundling
+    ("Team Norway", "NOR", 2755),   # Simpson-Larsen + Weng
+    ("Team Finland", "FIN", 3049),  # Niskanen + Joensuu
+    ("Team Germany", "GER", 2977),  # Carl + Hennig
+    ("Team USA", "USA", 3147),      # Diggins + Brennan
+    ("Team Switzerland", "SUI", 700),
+    ("Team Italy", "ITA", 550),
+    ("Team Austria", "AUT", 1200),
+]
+
+# Biathlon Relay - Men's 4x7.5km (IBU Nations Cup relay standings)
+BIATHLON_RELAY_MEN = [
+    ("Team France", "FRA", 90),
+    ("Team Norway", "NOR", 75),
+    ("Team Sweden", "SWE", 60),
+    ("Team Germany", "GER", 50),
+    ("Team Finland", "FIN", 45),
+    ("Team USA", "USA", 40),
+    ("Team Ukraine", "UKR", 36),
+    ("Team Switzerland", "SUI", 34),
+    ("Team Austria", "AUT", 32),
+    ("Team Italy", "ITA", 31),
+]
+
+# Biathlon Relay - Women's 4x6km (IBU Nations Cup relay standings)
+BIATHLON_RELAY_WOMEN = [
+    ("Team France", "FRA", 85),
+    ("Team Sweden", "SWE", 70),
+    ("Team Germany", "GER", 65),
+    ("Team Norway", "NOR", 60),
+    ("Team Finland", "FIN", 50),
+    ("Team Italy", "ITA", 45),
+    ("Team Switzerland", "SUI", 40),
+    ("Team USA", "USA", 35),
+    ("Team Austria", "AUT", 30),
+    ("Team Czechia", "CZE", 25),
+]
+
+# Biathlon Mixed Relay (IBU Nations Cup)
+BIATHLON_MIXED_RELAY = [
+    ("Team France", "FRA", 95),
+    ("Team Norway", "NOR", 80),
+    ("Team Sweden", "SWE", 75),
+    ("Team Germany", "GER", 65),
+    ("Team Italy", "ITA", 55),
+    ("Team Finland", "FIN", 50),
+    ("Team Switzerland", "SUI", 45),
+    ("Team USA", "USA", 40),
+    ("Team Austria", "AUT", 35),
+    ("Team Czechia", "CZE", 30),
+]
+
+# Ski Jumping Team - Men's Large Hill (Top 4 jumpers per nation aggregated)
+SKI_JUMPING_TEAM_MEN = [
+    ("Team Austria", "AUT", 3280),   # Kraft + Hoerl + Tschofenig + Hayboeck
+    ("Team Germany", "GER", 1310),   # Paschke + Geiger + Wellinger + Eisenbichler
+    ("Team Slovenia", "SLO", 1720),  # Lanisek + D.Prevc + P.Prevc + Kos
+    ("Team Norway", "NOR", 2050),    # Forfang + Lindvik + Granerud + Johansson
+    ("Team Japan", "JPN", 1060),     # Kobayashi + Nikaido
+    ("Team Poland", "POL", 800),     # Kubacki + Zyla + Stoch
+    ("Team Switzerland", "SUI", 750),
+    ("Team Finland", "FIN", 120),
+]
+
+# Ski Jumping Mixed Team (Top 2 men + top 2 women per nation)
+SKI_JUMPING_MIXED_TEAM = [
+    ("Team Austria", "AUT", 3179),   # Kraft + Hoerl + Eder + Pinkelnig
+    ("Team Slovenia", "SLO", 2906),  # Lanisek + D.Prevc + N.Prevc + Vodan
+    ("Team Germany", "GER", 2247),   # Paschke + Geiger + Freitag + Schmid
+    ("Team Norway", "NOR", 1907),    # Forfang + Lindvik + Stroem + Opseth
+    ("Team Japan", "JPN", 2066),     # Kobayashi + Nikaido + Maruyama + Takanashi
+    ("Team Canada", "CAN", 904),     # Strate + Loutitt
+    ("Team France", "FRA", 320),
+    ("Team Switzerland", "SUI", 750),
+]
+
+# Nordic Combined Team Sprint - Men (Top 2 per nation)
+NORDIC_COMBINED_TEAM_MEN = [
+    ("Team Germany", "GER", 2606),   # Geiger + Schmid
+    ("Team Austria", "AUT", 2167),   # Lamparter + Rettenegger
+    ("Team Japan", "JPN", 1350),     # Yamamoto + Watabe
+    ("Team Norway", "NOR", 1400),    # Oftebro + Graabak
+    ("Team Finland", "FIN", 1350),   # Herola + Hirvonen
+    ("Team France", "FRA", 500),
+    ("Team USA", "USA", 400),
+    ("Team Italy", "ITA", 300),
+]
+
+# Speed Skating Team Pursuit - Men (Nations based on individual depth)
+SPEED_SKATING_TEAM_PURSUIT_MEN = [
+    ("Team Netherlands", "NED", 1577),  # De Boo + Nuis + Roest + Bergsma
+    ("Team Norway", "NOR", 770),        # Eitrem + Lorentzen + Kongshaug + Johansson
+    ("Team USA", "USA", 941),           # Stolz + Mantia
+    ("Team Italy", "ITA", 285),
+    ("Team Canada", "CAN", 70),
+    ("Team China", "CHN", 393),
+    ("Team South Korea", "KOR", 30),
+    ("Team Poland", "POL", 501),
+]
+
+# Speed Skating Team Pursuit - Women (Nations based on individual depth)
+SPEED_SKATING_TEAM_PURSUIT_WOMEN = [
+    ("Team Netherlands", "NED", 1662),  # Kok + Rijpma-de Jong + Beune + Fledderus
+    ("Team Japan", "JPN", 1019),        # Takagi + Yoshida + Takagi + Sato
+    ("Team Canada", "CAN", 565),        # Weidemann + Maltais + Blondin
+    ("Team USA", "USA", 762),           # Jackson + Bowe + Manganello
+    ("Team Norway", "NOR", 370),        # Wiklund + Njatun + Haugen
+    ("Team Italy", "ITA", 80),
+    ("Team Czechia", "CZE", 160),
+    ("Team South Korea", "KOR", 10),
+]
+
+# Curling Mixed Doubles (WCF Team Rankings - using ranking points)
+CURLING_MIXED_DOUBLES = [
+    ("Team Scotland", "GBR", 60254),    # Scotland competes as GBR at Olympics
+    ("Team Italy", "ITA", 58603),
+    ("Team Norway", "NOR", 53254),
+    ("Team Sweden", "SWE", 50857),
+    ("Team Switzerland", "SUI", 48000),
+    ("Team Canada", "CAN", 45000),
+    ("Team USA", "USA", 42000),
+    ("Team South Korea", "KOR", 38000),
+    ("Team Japan", "JPN", 35000),
+    ("Team Hungary", "HUN", 32000),
+]
+
+# =============================================================================
 # CONFIGURATION
 # =============================================================================
 
 NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
+
+# Athletes excluded from predictions (injury, retirement, etc.)
+EXCLUDED_ATHLETES = {
+    ("Aleksander Aamodt Kilde", "NOR"),  # Injury - not participating in 2026 Olympics
+    # ("Therese Johaug", "NOR"),  # Retired - not in current WC standings
+}
 
 SPORT_CONFIG = [
     # Cross-Country Skiing
@@ -1127,6 +1306,106 @@ SPORT_CONFIG = [
         "events": ["hockey-w"],
         "source": "https://www.iihf.com/en/worldranking"
     },
+    # =========================================================================
+    # TEAM/RELAY EVENTS
+    # =========================================================================
+    # Cross-Country Relays
+    {
+        "name": "Cross-Country Relay Men",
+        "data": CROSS_COUNTRY_RELAY_MEN,
+        "events": ["cross-country-m-relay"],
+        "source": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+        "type": "team"
+    },
+    {
+        "name": "Cross-Country Relay Women",
+        "data": CROSS_COUNTRY_RELAY_WOMEN,
+        "events": ["cross-country-w-relay"],
+        "source": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+        "type": "team"
+    },
+    {
+        "name": "Cross-Country Team Sprint Men",
+        "data": CROSS_COUNTRY_TEAM_SPRINT_MEN,
+        "events": ["cross-country-m-team-sprint"],
+        "source": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+        "type": "team"
+    },
+    {
+        "name": "Cross-Country Team Sprint Women",
+        "data": CROSS_COUNTRY_TEAM_SPRINT_WOMEN,
+        "events": ["cross-country-w-team-sprint"],
+        "source": "https://www.fis-ski.com/DB/cross-country/cup-standings.html",
+        "type": "team"
+    },
+    # Biathlon Relays
+    {
+        "name": "Biathlon Relay Men",
+        "data": BIATHLON_RELAY_MEN,
+        "events": ["biathlon-m-relay"],
+        "source": "https://www.biathlonworld.com/standings",
+        "type": "team"
+    },
+    {
+        "name": "Biathlon Relay Women",
+        "data": BIATHLON_RELAY_WOMEN,
+        "events": ["biathlon-w-relay"],
+        "source": "https://www.biathlonworld.com/standings",
+        "type": "team"
+    },
+    {
+        "name": "Biathlon Mixed Relay",
+        "data": BIATHLON_MIXED_RELAY,
+        "events": ["biathlon-x-mixed-relay"],
+        "source": "https://www.biathlonworld.com/standings",
+        "type": "team"
+    },
+    # Ski Jumping Team Events
+    {
+        "name": "Ski Jumping Team Men",
+        "data": SKI_JUMPING_TEAM_MEN,
+        "events": ["ski-jumping-m-team"],
+        "source": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+        "type": "team"
+    },
+    {
+        "name": "Ski Jumping Mixed Team",
+        "data": SKI_JUMPING_MIXED_TEAM,
+        "events": ["ski-jumping-x-mixed-team"],
+        "source": "https://www.fis-ski.com/DB/ski-jumping/cup-standings.html",
+        "type": "team"
+    },
+    # Nordic Combined Team
+    {
+        "name": "Nordic Combined Team Men",
+        "data": NORDIC_COMBINED_TEAM_MEN,
+        "events": ["nordic-combined-m-team-sprint"],
+        "source": "https://www.fis-ski.com/DB/nordic-combined/cup-standings.html",
+        "type": "team"
+    },
+    # Speed Skating Team Pursuit
+    {
+        "name": "Speed Skating Team Pursuit Men",
+        "data": SPEED_SKATING_TEAM_PURSUIT_MEN,
+        "events": ["speed-skating-m-team-pursuit"],
+        "source": "https://isu-skating.com/speed-skating/world-standings/",
+        "type": "team"
+    },
+    {
+        "name": "Speed Skating Team Pursuit Women",
+        "data": SPEED_SKATING_TEAM_PURSUIT_WOMEN,
+        "events": ["speed-skating-w-team-pursuit"],
+        "source": "https://isu-skating.com/speed-skating/world-standings/",
+        "type": "team"
+    },
+    # Curling Mixed Doubles
+    {
+        "name": "Curling Mixed Doubles",
+        "data": CURLING_MIXED_DOUBLES,
+        "events": ["curling-x-mixed-doubles"],
+        "source": "https://worldcurling.org/teamrankings/mixed-doubles/",
+        "type": "team"
+    },
 ]
 
 def generate_athlete_id(name, country):
@@ -1135,47 +1414,90 @@ def generate_athlete_id(name, country):
     clean_name = re.sub(r'-+', '-', clean_name).strip('-')
     return f"{clean_name}-{country.lower()}"
 
+def generate_team_id(country):
+    """Generate a unique team ID from country code."""
+    return f"team-{country.lower()}"
+
 def main():
     athletes = []
     entries = []
     seen_athletes = set()
+    seen_teams = set()
     source_date = date.today().isoformat()
     
     for config in SPORT_CONFIG:
+        is_team_event = config.get("type") == "team"
+        
         for name, country, points in config["data"]:
-            athlete_id = generate_athlete_id(name, country)
+            # Skip excluded athletes (injury, retirement, etc.)
+            if (name, country) in EXCLUDED_ATHLETES:
+                print(f"  Excluding: {name} ({country}) - not participating")
+                continue
             
-            # Add athlete if not already added
-            if athlete_id not in seen_athletes:
-                athletes.append({
-                    "id": athlete_id,
-                    "name": name,
-                    "country": country
-                })
-                seen_athletes.add(athlete_id)
-            
-            # Add entries for all relevant events
-            for event_id in config["events"]:
-                entries.append({
-                    "competition_id": event_id,
-                    "athlete_id": athlete_id,
-                    "score": points,
-                    "source_url": config["source"],
-                    "source_date": source_date
-                })
+            if is_team_event:
+                # Team event: use team ID instead of athlete ID
+                team_id = generate_team_id(country)
+                
+                # Add team as an "athlete" if not already added
+                if team_id not in seen_teams:
+                    athletes.append({
+                        "id": team_id,
+                        "name": name,
+                        "country": country,
+                        "type": "team"
+                    })
+                    seen_teams.add(team_id)
+                
+                # Add entries for team events
+                for event_id in config["events"]:
+                    entries.append({
+                        "competition_id": event_id,
+                        "athlete_id": team_id,
+                        "score": points,
+                        "source_url": config["source"],
+                        "source_date": source_date
+                    })
+            else:
+                # Individual event: use athlete ID
+                athlete_id = generate_athlete_id(name, country)
+                
+                # Add athlete if not already added
+                if athlete_id not in seen_athletes:
+                    athletes.append({
+                        "id": athlete_id,
+                        "name": name,
+                        "country": country
+                    })
+                    seen_athletes.add(athlete_id)
+                
+                # Add entries for all relevant events
+                for event_id in config["events"]:
+                    entries.append({
+                        "competition_id": event_id,
+                        "athlete_id": athlete_id,
+                        "score": points,
+                        "source_url": config["source"],
+                        "source_date": source_date
+                    })
     
     # Save athletes
-    with open("../data/athletes.json", "w") as f:
+    with open(DATA_DIR / "athletes.json", "w") as f:
         json.dump(athletes, f, indent=2)
     
     # Save entries  
-    with open("../data/entries.json", "w") as f:
+    with open(DATA_DIR / "entries.json", "w") as f:
         json.dump(entries, f, indent=2)
     
     # Print summary
-    nordic_athletes = [a for a in athletes if a["country"] in NORDIC_COUNTRIES]
-    print(f"Total athletes: {len(athletes)}")
-    print(f"Nordic athletes: {len(nordic_athletes)}")
+    individual_athletes = [a for a in athletes if a.get("type") != "team"]
+    team_entries = [a for a in athletes if a.get("type") == "team"]
+    nordic_athletes = [a for a in individual_athletes if a["country"] in NORDIC_COUNTRIES]
+    nordic_teams = [t for t in team_entries if t["country"] in NORDIC_COUNTRIES]
+    
+    print(f"Total individual athletes: {len(individual_athletes)}")
+    print(f"Total team entries: {len(team_entries)}")
+    print(f"Nordic individual athletes: {len(nordic_athletes)}")
+    print(f"Nordic team entries: {len(nordic_teams)}")
     print(f"Total entries: {len(entries)}")
     
     print("\nNordic athletes by country:")

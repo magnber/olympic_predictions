@@ -3108,5 +3108,125 @@
     "id": "team-japan-jpn",
     "name": "Team Japan",
     "country": "JPN"
+  },
+  {
+    "id": "team-nor",
+    "name": "Team Norway",
+    "country": "NOR",
+    "type": "team"
+  },
+  {
+    "id": "team-swe",
+    "name": "Team Sweden",
+    "country": "SWE",
+    "type": "team"
+  },
+  {
+    "id": "team-ger",
+    "name": "Team Germany",
+    "country": "GER",
+    "type": "team"
+  },
+  {
+    "id": "team-fin",
+    "name": "Team Finland",
+    "country": "FIN",
+    "type": "team"
+  },
+  {
+    "id": "team-fra",
+    "name": "Team France",
+    "country": "FRA",
+    "type": "team"
+  },
+  {
+    "id": "team-ita",
+    "name": "Team Italy",
+    "country": "ITA",
+    "type": "team"
+  },
+  {
+    "id": "team-sui",
+    "name": "Team Switzerland",
+    "country": "SUI",
+    "type": "team"
+  },
+  {
+    "id": "team-usa",
+    "name": "Team USA",
+    "country": "USA",
+    "type": "team"
+  },
+  {
+    "id": "team-aut",
+    "name": "Team Austria",
+    "country": "AUT",
+    "type": "team"
+  },
+  {
+    "id": "team-ukr",
+    "name": "Team Ukraine",
+    "country": "UKR",
+    "type": "team"
+  },
+  {
+    "id": "team-cze",
+    "name": "Team Czechia",
+    "country": "CZE",
+    "type": "team"
+  },
+  {
+    "id": "team-slo",
+    "name": "Team Slovenia",
+    "country": "SLO",
+    "type": "team"
+  },
+  {
+    "id": "team-jpn",
+    "name": "Team Japan",
+    "country": "JPN",
+    "type": "team"
+  },
+  {
+    "id": "team-pol",
+    "name": "Team Poland",
+    "country": "POL",
+    "type": "team"
+  },
+  {
+    "id": "team-can",
+    "name": "Team Canada",
+    "country": "CAN",
+    "type": "team"
+  },
+  {
+    "id": "team-ned",
+    "name": "Team Netherlands",
+    "country": "NED",
+    "type": "team"
+  },
+  {
+    "id": "team-chn",
+    "name": "Team China",
+    "country": "CHN",
+    "type": "team"
+  },
+  {
+    "id": "team-kor",
+    "name": "Team South Korea",
+    "country": "KOR",
+    "type": "team"
+  },
+  {
+    "id": "team-gbr",
+    "name": "Team Scotland",
+    "country": "GBR",
+    "type": "team"
+  },
+  {
+    "id": "team-hun",
+    "name": "Team Hungary",
+    "country": "HUN",
+    "type": "team"
   }
 ]
