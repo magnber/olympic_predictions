@@ -221,7 +221,7 @@ page = st.sidebar.radio(
 # PAGE: DATAGRUNNLAG
 # ============================================================
 if page == "Datagrunnlag":
-    st.header("📊 Datagrunnlag")
+    st.header("📊 Datagrunnlag", anchor="datagrunnlag")
     
     if not DB_PATH.exists():
         st.error(f"Database ikke funnet: {DB_PATH}")
@@ -231,7 +231,7 @@ if page == "Datagrunnlag":
     stats = load_database_stats()
     
     # Meta statistics
-    st.subheader("Database Oversikt")
+    st.subheader("Database Oversikt", anchor="database-oversikt")
     
     col1, col2, col3, col4 = st.columns(4)
     col1.metric("Utøvere", stats["athletes"])
@@ -245,7 +245,7 @@ if page == "Datagrunnlag":
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("Entries etter kilde")
+        st.subheader("Entries etter kilde", anchor="entries-kilde")
         df_sources = stats["entries_by_source"].copy()
         
         # Add percentage and description
@@ -267,14 +267,14 @@ if page == "Datagrunnlag":
         st.dataframe(df_sources, use_container_width=True, hide_index=True)
     
     with col2:
-        st.subheader("Entries etter sport")
+        st.subheader("Entries etter sport", anchor="entries-sport")
         df_sports = stats["entries_by_sport"]
         st.dataframe(df_sports, use_container_width=True, hide_index=True)
     
     st.divider()
     
     # Data quality section
-    st.subheader("📋 Datakvalitet per sport")
+    st.subheader("📋 Datakvalitet per sport", anchor="datakvalitet")
     st.caption("Score ratio = maks/min score. Høyere ratio = bedre differensiering mellom utøvere.")
     
     df_quality = stats["data_quality"].copy()
@@ -307,14 +307,14 @@ if page == "Datagrunnlag":
     st.divider()
     
     # Top countries
-    st.subheader("Land med flest entries")
+    st.subheader("Land med flest entries", anchor="topp-land")
     df_countries = stats["top_countries"]
     st.bar_chart(df_countries.set_index("country")["entries"])
     
     st.divider()
     
     # Detailed data explorer
-    st.subheader("Datautforsker")
+    st.subheader("Datautforsker", anchor="datautforsker")
     
     tab1, tab2, tab3 = st.tabs(["Utøvere", "Alle Entries", "Langrenn Spesialisering"])
     
@@ -451,7 +451,7 @@ if page == "Datagrunnlag":
 # PAGE: HISTORIKK
 # ============================================================
 elif page == "Historikk":
-    st.header("📜 Historiske resultater")
+    st.header("📜 Historiske resultater", anchor="historikk")
     st.markdown("**Medaljetabell fra de siste 4 vinter-OL (2010-2022)**")
     
     hist_data = load_historical_data()
@@ -462,7 +462,7 @@ elif page == "Historikk":
         st.stop()
     
     # Summary - Total medals last 4 Olympics
-    st.subheader("🏆 Samlet medaljetabell (2010-2022)")
+    st.subheader("🏆 Samlet medaljetabell (2010-2022)", anchor="samlet-medaljetabell")
     
     df_totals = hist_data["totals"].copy()
     df_totals = df_totals.head(15)
@@ -477,7 +477,7 @@ elif page == "Historikk":
     st.divider()
     
     # Pivot table - Countries x Olympics
-    st.subheader("📊 Medaljer per OL")
+    st.subheader("📊 Medaljer per OL", anchor="medaljer-per-ol")
     st.caption("Land nedover, OL bortover - viser totalt antall medaljer")
     
     df_medals = hist_data["medals"].copy()
@@ -507,7 +507,7 @@ elif page == "Historikk":
     st.divider()
     
     # Nordic countries focus
-    st.subheader("🇳🇴 Nordiske land")
+    st.subheader("🇳🇴 Nordiske land", anchor="nordiske-land")
     
     nordic_codes = ["NOR", "SWE", "FIN", "DEN"]
     df_nordic = hist_data["totals"][hist_data["totals"]["country_code"].isin(nordic_codes)].copy()
@@ -532,7 +532,7 @@ elif page == "Historikk":
     st.divider()
     
     # Per-Olympics breakdown
-    st.subheader("📅 Per OL")
+    st.subheader("📅 Per OL", anchor="per-ol")
     
     olympics_list = hist_data["olympics"]
     
@@ -560,7 +560,7 @@ elif page == "Historikk":
     st.divider()
     
     # Trend chart for Norway
-    st.subheader("📈 Norges utvikling")
+    st.subheader("📈 Norges utvikling", anchor="norges-utvikling")
     
     df_nor = hist_data["medals"][hist_data["medals"]["country_code"] == "NOR"].copy()
     df_nor = df_nor.sort_values("year")
@@ -575,7 +575,7 @@ elif page == "Historikk":
 # PAGE: PREDIKASJON OVERSIKT
 # ============================================================
 elif page == "Predikasjon oversikt":
-    st.header("🏆 Predikasjon oversikt")
+    st.header("🏆 Predikasjon oversikt", anchor="predikasjon-oversikt")
     
     df_pred = load_predictions()
     
@@ -585,7 +585,7 @@ elif page == "Predikasjon oversikt":
         st.stop()
     
     # Summary metrics
-    st.subheader("Topp 10 Land")
+    st.subheader("Topp 10 Land", anchor="topp-10-land")
     
     df_top10 = df_pred.head(10).copy()
     
@@ -613,7 +613,7 @@ elif page == "Predikasjon oversikt":
     st.divider()
     
     # Nordic countries detail
-    st.subheader("Nordiske land")
+    st.subheader("Nordiske land", anchor="nordiske-land-pred")
     
     nordic = ["NOR", "SWE", "FIN", "DEN"]
     df_nordic = df_pred[df_pred["country"].isin(nordic)].copy()
@@ -633,7 +633,7 @@ elif page == "Predikasjon oversikt":
     st.divider()
     
     # Chart
-    st.subheader("Medaljefordeling - Topp 15")
+    st.subheader("Medaljefordeling - Topp 15", anchor="medaljefordeling")
     
     df_chart = df_pred.head(15).set_index("country")[["gold", "silver", "bronze"]]
     st.bar_chart(df_chart)
@@ -641,7 +641,7 @@ elif page == "Predikasjon oversikt":
     st.divider()
     
     # Full table
-    st.subheader("Alle land")
+    st.subheader("Alle land", anchor="alle-land")
     st.dataframe(df_pred, use_container_width=True, hide_index=True)
 
 
@@ -649,7 +649,7 @@ elif page == "Predikasjon oversikt":
 # PAGE: DRILLDOWN
 # ============================================================
 elif page == "Drilldown":
-    st.header("🔍 Drilldown")
+    st.header("🔍 Drilldown", anchor="drilldown")
     
     df_comp = load_competition_predictions()
     
@@ -665,7 +665,7 @@ elif page == "Drilldown":
     # TAB: Per utøver
     # --------------------------------------------------------
     with tab_athlete:
-        st.subheader("🏃 Utøver-drilldown")
+        st.subheader("🏃 Utøver-drilldown", anchor="utover-drilldown")
         st.caption("Velg en utøver for å se alle konkurranser de kan ta medalje i.")
         
         # Get unique athletes with their countries
@@ -734,7 +734,7 @@ elif page == "Drilldown":
     # TAB: Per sport
     # --------------------------------------------------------
     with tab_sport:
-        st.subheader("🎿 Sport-drilldown")
+        st.subheader("🎿 Sport-drilldown", anchor="sport-drilldown")
         st.caption("Velg en sport for å se alle konkurranser og medaljekandidater.")
         
         # Get sports from database
