@@ -8,17 +8,22 @@ Forbedre datagrunnlaget med event-spesifikke scores fra APIer, kombinert med eks
 | Sport | Datakilde | Event-spesialisering | Status |
 |-------|-----------|----------------------|--------|
 | Skøyter | ISU API | ✅ Ja | **LØST** |
+| Alpint | FIS Scraping | ✅ Ja | **LØST** |
 | Skiskyting | Manual | ❌ Nei | IBU API begrenset |
-| Alpint | Manual | ❌ Nei | Trenger FIS/manuell fix |
 | Langrenn | Manual | ⚠️ Delvis | Allroundere OK |
 | Hopping | Manual | ⚠️ Delvis | OK |
 | Resten | Manual | ❌ Nei | Lav prioritet |
 
-**Resultater:**
-- USA: 43 → 34 medaljer (forbedring -9)
-- Nederland: 19 → 14 medaljer (forbedring -5)
+**Resultater (etter ISU + FIS):**
+- Norge: 1. plass med 33 medaljer (historisk: 37-39)
+- USA: 43 → 34 → 30 medaljer (historisk: 25-28) ✓
 - Stolz-problemet: ✅ Løst (8 → 3 events)
-- Shiffrin-problemet: ❌ Gjenstår (4 alpine events)
+- Shiffrin-problemet: ✅ Løst (4 → 2 events)
+
+**Datafordeling:**
+- ISU API: 314 entries (skøyter)
+- FIS Scraping: 240 entries (alpint)
+- Manual: 1159 entries (resten)
 
 ---
 

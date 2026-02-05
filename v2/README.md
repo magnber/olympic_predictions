@@ -4,16 +4,20 @@ Forbedret prediksjonssystem med SQLite database og API-integrasjon.
 
 ## Datakilder
 
-| Kilde | Sport | Type |
-|-------|-------|------|
-| **ISU API** | Skøyter | Event-spesifikke WC-resultater |
-| **Legacy JSON** | Alt annet | Overall WC-standings |
+| Kilde | Sport | Entries | Type |
+|-------|-------|---------|------|
+| **ISU API** | Skøyter | 314 | Event-spesifikke WC-resultater |
+| **FIS Scraping** | Alpint | 240 | Disiplin-spesifikke WC-standings |
+| **Legacy JSON** | Resten | 1159 | Overall WC-standings |
 
 ### ISU Speed Skating
-Aggregerer World Cup-resultater per distanse (500m, 1000m, 1500m, etc.) fra `api.isuresults.eu`. Løser problemet med at sprintere ble plassert i distanseøvelser.
+Aggregerer World Cup-resultater per distanse (500m, 1000m, 1500m, etc.) fra `api.isuresults.eu`. Løser Stolz-problemet (sprintere i distanseøvelser).
+
+### FIS Alpine Skiing
+Scraper disiplin-spesifikke standings fra `fis-ski.com`. Løser Shiffrin-problemet (tekniske utøvere i fart-øvelser).
 
 ### Legacy Data
-Importerer eksisterende data fra `data/*.json` (overall WC-standings).
+Importerer eksisterende data fra `data/*.json` (overall WC-standings) for øvrige idretter.
 
 ---
 
@@ -96,6 +100,8 @@ v2/output/
 
 | Problem | V1 | V2 |
 |---------|----|----|
-| Stolz i 10000m | ✗ Feil | ✓ Riktig (kun 500m, 1000m, 1500m) |
-| USA medaljer | 43 (overestimert) | 34 (realistisk) |
-| Datakilde | Kun manual | API + manual |
+| Stolz i 10000m | ✗ Alle 6 distanser | ✓ Kun 500m, 1000m, 1500m |
+| Shiffrin i utfor | ✗ Alle 4 alpine | ✓ Kun slalom, storslalom |
+| USA medaljer | 43 (overestimert) | 30 (nærmere historisk 25-28) |
+| Norge rangering | 2. plass | 1. plass (korrekt historisk) |
+| Datakilde | Kun manual | ISU API + FIS scraping + manual |

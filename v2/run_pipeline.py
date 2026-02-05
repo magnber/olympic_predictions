@@ -30,15 +30,15 @@ def run_all():
     print("=" * 60)
     
     # Step 1: Initialize database
-    print("\n[1/3] Initializing database...")
+    print("\n[1/4] Initializing database...")
     init_db()
     
     # Step 2: Import legacy data
-    print("\n[2/3] Importing legacy data...")
+    print("\n[2/4] Importing legacy data...")
     import_legacy_data()
     
-    # Step 3: Try ISU API (may fail without network)
-    print("\n[3/3] Checking ISU API...")
+    # Step 3: ISU Speed Skating API
+    print("\n[3/4] Checking ISU API...")
     try:
         from pipelines.isu_speed_skating import test_api_connection, import_isu_data
         if test_api_connection():
@@ -47,6 +47,17 @@ def run_all():
             print("  Skipping ISU import (API not accessible)")
     except Exception as e:
         print(f"  Skipping ISU import: {e}")
+    
+    # Step 4: FIS Alpine Skiing
+    print("\n[4/4] Fetching FIS Alpine data...")
+    try:
+        from pipelines.fis_alpine import test_scraping, import_fis_alpine_data
+        if test_scraping():
+            import_fis_alpine_data()
+        else:
+            print("  Skipping FIS import (scraping failed)")
+    except Exception as e:
+        print(f"  Skipping FIS import: {e}")
     
     # Final stats
     print("\n" + "=" * 60)
