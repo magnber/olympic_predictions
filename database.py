@@ -1,5 +1,5 @@
 """
-Database setup and operations for V2 pipeline.
+Database setup and operations for Olympic predictions pipeline.
 Uses SQLite for simplicity.
 """
 

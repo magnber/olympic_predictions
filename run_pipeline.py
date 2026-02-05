@@ -1,23 +1,20 @@
 #!/usr/bin/env python3
 """
-V2 Data Pipeline Runner
+Data Pipeline Runner
 
 Orchestrates the data import from various sources:
 1. Legacy JSON data (baseline)
 2. ISU Speed Skating API (event-specific)
-3. IBU Biathlon API (future)
+3. FIS Alpine Scraping (discipline-specific)
 
 Usage:
     python run_pipeline.py          # Run all pipelines
     python run_pipeline.py legacy   # Only legacy import
     python run_pipeline.py isu      # Only ISU import
+    python run_pipeline.py fis      # Only FIS import
 """
 
 import sys
-from pathlib import Path
-
-# Add v2 to path
-sys.path.insert(0, str(Path(__file__).parent))
 
 from database import init_db, get_stats
 from pipelines.import_legacy import import_legacy_data
@@ -26,7 +23,7 @@ from pipelines.import_legacy import import_legacy_data
 def run_all():
     """Run all pipelines in order."""
     print("=" * 60)
-    print("V2 DATA PIPELINE")
+    print("DATA PIPELINE")
     print("=" * 60)
     
     # Step 1: Initialize database
@@ -88,6 +85,13 @@ def run_isu_only():
         import_isu_data()
 
 
+def run_fis_only():
+    """Run only FIS import."""
+    from pipelines.fis_alpine import test_scraping, import_fis_alpine_data
+    if test_scraping():
+        import_fis_alpine_data()
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         cmd = sys.argv[1].lower()
@@ -95,8 +99,10 @@ if __name__ == "__main__":
             run_legacy_only()
         elif cmd == "isu":
             run_isu_only()
+        elif cmd == "fis":
+            run_fis_only()
         else:
             print(f"Unknown command: {cmd}")
-            print("Usage: python run_pipeline.py [legacy|isu]")
+            print("Usage: python run_pipeline.py [legacy|isu|fis]")
     else:
         run_all()

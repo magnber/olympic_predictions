@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-V2 Prediction Engine
+Olympic Prediction Engine
 
 Reads athlete/competition data from SQLite database and runs
 Monte Carlo simulation using Plackett-Luce model with temperature scaling.
-
-Based on V3 logic but reads from database instead of JSON files.
 """
 
 import math
@@ -13,9 +11,7 @@ import random
 from collections import defaultdict
 from pathlib import Path
 import csv
-import sys
 
-sys.path.insert(0, str(Path(__file__).parent))
 from database import get_connection, DB_PATH
 
 # Configuration
@@ -213,7 +209,7 @@ def output_results(results, simulation_results, competitions, comp_results, athl
     sorted_results = sorted(results.items(), key=lambda x: -x[1]["total"])
     
     print("\n" + "=" * 60)
-    print("V2 MEDAL PREDICTIONS - 2026 Winter Olympics")
+    print("MEDAL PREDICTIONS - 2026 Winter Olympics")
     print("(Plackett-Luce model with temperature scaling)")
     print(f"Data source: SQLite database")
     print(f"Simulations: {NUM_SIMULATIONS:,}, Temperature: {TEMPERATURE}")
@@ -243,7 +239,7 @@ def output_results(results, simulation_results, competitions, comp_results, athl
         print(f"  95% CI: G({ci['gold'][0]:.0f}-{ci['gold'][1]:.0f}) S({ci['silver'][0]:.0f}-{ci['silver'][1]:.0f}) B({ci['bronze'][0]:.0f}-{ci['bronze'][1]:.0f})")
     
     # Write country predictions CSV
-    pred_file = OUTPUT_DIR / "v2_predictions.csv"
+    pred_file = OUTPUT_DIR / "predictions.csv"
     with open(pred_file, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["country", "gold", "silver", "bronze", "total"])
@@ -258,7 +254,7 @@ def output_results(results, simulation_results, competitions, comp_results, athl
     print(f"\n✓ Country predictions: {pred_file}")
     
     # Write competition predictions CSV
-    comp_file = OUTPUT_DIR / "v2_competition_predictions.csv"
+    comp_file = OUTPUT_DIR / "competition_predictions.csv"
     with open(comp_file, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["competition", "athlete_id", "athlete_name", "country", "gold_prob", "silver_prob", "bronze_prob", "medal_prob"])
@@ -289,7 +285,7 @@ def output_results(results, simulation_results, competitions, comp_results, athl
 
 def main():
     print("=" * 60)
-    print("V2 PREDICTION ENGINE")
+    print("OLYMPIC PREDICTION ENGINE")
     print("=" * 60)
     
     # Check database exists
@@ -317,7 +313,7 @@ def main():
     # Output results
     output_results(results, simulation_results, competitions, comp_results, athletes)
     
-    print("\n✓ V2 prediction complete!")
+    print("\n✓ Prediction complete!")
 
 
 if __name__ == "__main__":

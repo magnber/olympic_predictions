@@ -1,21 +1,18 @@
-# 2026 Winter Olympics - Nordic Medal Predictions
+# 2026 Winter Olympics - Medal Predictions
 
-Monte Carlo simulation models to predict medal outcomes for Nordic countries (Norway, Sweden, Finland, Denmark) at the 2026 Milano-Cortina Winter Olympics.
+Monte Carlo simulation to predict medal outcomes at the 2026 Milano-Cortina Winter Olympics using a Plackett-Luce model with temperature scaling.
 
 ## Quick Start
 
 ```bash
-# 1. Clone and setup
-cd olympic_predictions
-python3 -m venv .venv
-source .venv/bin/activate
-pip install streamlit pandas
+# 1. Install dependencies
+pip install streamlit pandas requests beautifulsoup4 lxml
 
-# 2. Generate athlete data
-python3 scripts/parse_fis_data.py
+# 2. Run data pipeline (fetches fresh data from APIs)
+python run_pipeline.py
 
-# 3. Run predictions (V3 recommended)
-python3 prediction/v3/predict.py
+# 3. Run predictions
+python predict.py
 
 # 4. View results in Streamlit
 streamlit run app.py
@@ -25,146 +22,105 @@ streamlit run app.py
 
 ```
 olympic_predictions/
-├── data/                    # Athlete and competition data (JSON)
-│   ├── athletes.json        # Individual athletes + team entries
-│   ├── competitions.json    # All 116 Olympic events
-│   ├── entries.json         # Athlete scores per competition
-│   └── sports.json          # Sport metadata
-├── prediction/
-│   ├── v1/predict.py        # Plackett-Luce model
-│   ├── v2/predict.py        # Bradley-Terry model
-│   └── v3/predict.py        # Plackett-Luce + Variance Propagation (recommended)
-├── output/                  # Prediction results (CSV)
-├── scripts/
-│   └── parse_fis_data.py    # Data generation from WC standings
-├── app.py                   # Streamlit visualization
-├── DATA_FOUNDATION_REPORT.md
-└── README.md
+├── app.py                  # Streamlit visualization
+├── predict.py              # Monte Carlo prediction engine
+├── run_pipeline.py         # Data pipeline orchestrator
+├── database.py             # SQLite database setup
+├── excluded_athletes.py    # Athletes to exclude (injured/retired)
+├── pipelines/
+│   ├── import_legacy.py    # Import baseline JSON data
+│   ├── isu_speed_skating.py # ISU API for speed skating
+│   └── fis_alpine.py       # FIS scraping for alpine
+├── data/                   # Baseline athlete data (JSON)
+├── db/
+│   └── olympics.db         # SQLite database
+├── output/
+│   ├── predictions.csv     # Country medal totals
+│   └── competition_predictions.csv  # Per-event predictions
+└── scripts/
+    └── parse_fis_data.py   # Legacy data generation
 ```
 
-## Prediction Models
+## Data Pipeline
 
-### Model Comparison
+The pipeline aggregates data from multiple sources:
 
-| Model | Methodology | Norway | Sweden | Finland | Denmark |
-|-------|-------------|--------|--------|---------|---------|
-| **V1** | Plackett-Luce + Gumbel noise | 39 | 21 | 9 | 0 |
-| **V2** | Bradley-Terry + position weights | 37 | 21 | 9 | 0 |
-| **V3** | Plackett-Luce + Temperature scaling | **34** | **21** | **7** | 0 |
+| Source | Sports | Method |
+|--------|--------|--------|
+| **ISU API** | Speed Skating | Official API - event-specific standings |
+| **FIS Scraping** | Alpine Skiing | Web scraping - discipline-specific standings |
+| **Legacy JSON** | All others | World Cup overall standings |
 
-### Recommended: V3 Model
+### Key Improvements
+- **Event specialization**: Athletes only compete in their actual events
+- **Jordan Stolz fix**: Speed skaters now correctly appear only in their specialized distances
+- **Mikaela Shiffrin fix**: Alpine skiers now have discipline-specific scores (SL/GS vs DH/SG)
 
-V3 is recommended because it:
-- Uses **temperature scaling** (0.3) to properly balance noise vs signal
-- Models strength uncertainty (15% CV) with variance propagation
-- Produces realistic G/S/B differentiation (favorites win more gold)
-- Based on academic literature (FiveThirtyEight methodology)
+## Prediction Model
 
-### V3 Detailed Predictions
+Uses **Plackett-Luce** model with Monte Carlo simulation:
 
-| Country | Gold | Silver | Bronze | Total | 95% CI |
-|---------|------|--------|--------|-------|--------|
-| **Norway** | 11 | 11 | 12 | **34** | 25-43 |
-| **Sweden** | 7 | 7 | 7 | **21** | 14-28 |
-| **Finland** | 2 | 2 | 3 | **7** | 3-13 |
-| **Denmark** | 0 | 0 | 0 | **0** | 0-0 |
+1. **Strength**: Convert WC points to log-strength
+2. **Noise**: Add temperature-scaled Gumbel noise (temp=0.3)
+3. **Simulate**: Run 10,000 simulations per competition
+4. **Aggregate**: Count medals per country
 
-Note: Norway shows Gold < Bronze because they have **depth** (many top-5 athletes) but don't always have the globally #1 ranked athlete. With less noise, true favorites win more consistently.
+### Sample Results
 
-## Data Foundation
+| Country | Gold | Silver | Bronze | Total |
+|---------|------|--------|--------|-------|
+| NOR     | 12   | 11     | 10     | 33    |
+| SWE     | 6    | 6      | 6      | 18    |
+| USA     | 5    | 6      | 6      | 17    |
+| GER     | 5    | 5      | 5      | 15    |
 
-### Coverage
-- **99/116 events** (85%) have athlete data
-- **1,775 entries** across 623 individual athletes + 20 team entries
-- Data sourced from 2025-26 World Cup standings
+## Running
 
-### Selection Criteria
-- Top ~30 athletes per sport/gender from World Cup overall standings
-- Same athletes mapped to all events in their category
-- Team events use aggregated nation-level strength
+### Full Pipeline
+```bash
+python run_pipeline.py      # Fetch all data sources
+python predict.py           # Run predictions
+streamlit run app.py        # View results
+```
 
-### Excluded Athletes
-Athletes can be excluded in `scripts/parse_fis_data.py`:
+### Individual Steps
+```bash
+python run_pipeline.py legacy   # Only import JSON baseline
+python run_pipeline.py isu      # Only ISU speed skating
+python run_pipeline.py fis      # Only FIS alpine
+```
+
+## Streamlit App
+
+The app has three sections:
+
+1. **Datagrunnlag** - Database statistics, entries by source/sport
+2. **Prediksjoner** - Medal predictions per country, Nordic focus
+3. **Konkurransedetaljer** - Per-competition medal probabilities
+
+## Excluding Athletes
+
+Edit `excluded_athletes.py` to exclude injured/retired athletes:
+
 ```python
-EXCLUDED_ATHLETES = {
-    ("Aleksander Aamodt Kilde", "NOR"),  # Injury
-}
+EXCLUDED_ATHLETES = [
+    ("Aleksander Aamodt Kilde", "NOR", "injury"),
+    ("Therese Johaug", "NOR", "retired"),
+]
 ```
-
-## Running Predictions
-
-### Generate Data
-```bash
-python3 scripts/parse_fis_data.py
-```
-Output: Updates `data/athletes.json` and `data/entries.json`
-
-### Run V3 Model (Recommended)
-```bash
-python3 prediction/v3/predict.py
-```
-Output: 
-- `output/v3_predictions.csv` - Country medal totals
-- `output/v3_competition_predictions.csv` - Per-event predictions
-
-### Run All Models
-```bash
-python3 prediction/v1/predict.py
-python3 prediction/v2/predict.py
-python3 prediction/v3/predict.py
-```
-
-### View in Streamlit
-```bash
-streamlit run app.py
-```
-Opens browser at `http://localhost:8501`
-
-## Model Details
-
-### V1: Plackett-Luce
-- Converts WC points to strength
-- Adds Gumbel noise for randomness
-- Simulates 100,000 competitions
-
-### V2: Bradley-Terry
-- Position-weighted probabilities
-- Gold favors top athletes more (power=1.5)
-- Bronze is more "random" (power=1.0)
-
-### V3: Variance Propagation + Temperature Scaling
-- **Temperature parameter (0.3)**: Scales Gumbel noise to match log-strength spread
-  - Standard noise (temp=1.0) was 3x larger than signal → too random
-  - Calibrated noise (temp=0.3) matches the ~0.4 log-spread → favorites win realistically
-- Samples athlete strength uncertainty (15% CV) per simulation
-- Same multiplier affects athlete across all their events
-- Models correlated prediction errors (realistic)
-
-## Known Limitations
-
-1. **No event specialization** - Sprinters appear in distance events
-2. **Same score all events** - Uses overall WC points, not event-specific
-3. **Top 30 cutoff** - May miss surprise medalists ranked 31+
-4. **17 events missing** - Ski Mountaineering, Figure Skating pairs, etc.
-
-## Files
-
-| File | Description |
-|------|-------------|
-| `DATA_FOUNDATION_REPORT.md` | Detailed analysis of data quality |
-| `montecarlo_v3.md` | V3 model methodology documentation |
-| `STRATEGY.md` | Project strategy notes |
 
 ## Requirements
 
 - Python 3.8+
 - streamlit
 - pandas
+- requests
+- beautifulsoup4, lxml
 
 ```bash
-pip install streamlit pandas
+pip install streamlit pandas requests beautifulsoup4 lxml
 ```
 
 ---
 
-*Predictions generated February 2026 for Milano-Cortina 2026 Winter Olympics*
+*Predictions for Milano-Cortina 2026 Winter Olympics*

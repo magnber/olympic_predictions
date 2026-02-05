@@ -1,5 +1,5 @@
 """
-Import existing JSON data into the V2 database.
+Import existing JSON data into the database.
 This preserves our current data as a baseline.
 """
 
@@ -9,11 +9,11 @@ from datetime import datetime
 import sys
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from database import get_connection, init_db, clear_entries_by_source
+from database import get_connection, init_db
 from excluded_athletes import get_excluded_set, get_excluded_with_reasons
 
 # Paths to legacy data
-LEGACY_DATA_DIR = Path(__file__).parent.parent.parent / "data"
+LEGACY_DATA_DIR = Path(__file__).parent.parent / "data"
 
 
 def import_legacy_data():
