@@ -48,25 +48,28 @@ olympic_predictions/
 
 | Model | Methodology | Norway | Sweden | Finland | Denmark |
 |-------|-------------|--------|--------|---------|---------|
-| **V1** | Plackett-Luce + Gumbel noise | 33 | 15 | 6 | 0 |
-| **V2** | Bradley-Terry + position weights | 31 | 18 | 6 | 0 |
-| **V3** | Plackett-Luce + Variance Propagation | **39** | **21** | **9** | 0 |
+| **V1** | Plackett-Luce + Gumbel noise | 39 | 21 | 9 | 0 |
+| **V2** | Bradley-Terry + position weights | 37 | 21 | 9 | 0 |
+| **V3** | Plackett-Luce + Temperature scaling | **34** | **21** | **7** | 0 |
 
 ### Recommended: V3 Model
 
 V3 is recommended because it:
-- Models strength uncertainty (15% CV)
-- Creates realistic correlated errors across events
+- Uses **temperature scaling** (0.3) to properly balance noise vs signal
+- Models strength uncertainty (15% CV) with variance propagation
+- Produces realistic G/S/B differentiation (favorites win more gold)
 - Based on academic literature (FiveThirtyEight methodology)
 
 ### V3 Detailed Predictions
 
 | Country | Gold | Silver | Bronze | Total | 95% CI |
 |---------|------|--------|--------|-------|--------|
-| **Norway** | 13 | 13 | 13 | **39** | 28-47 |
-| **Sweden** | 7 | 7 | 7 | **21** | 13-27 |
-| **Finland** | 3 | 3 | 3 | **9** | 4-14 |
-| **Denmark** | 0 | 0 | 0 | **0** | 0-1 |
+| **Norway** | 11 | 11 | 12 | **34** | 25-43 |
+| **Sweden** | 7 | 7 | 7 | **21** | 14-28 |
+| **Finland** | 2 | 2 | 3 | **7** | 3-13 |
+| **Denmark** | 0 | 0 | 0 | **0** | 0-0 |
+
+Note: Norway shows Gold < Bronze because they have **depth** (many top-5 athletes) but don't always have the globally #1 ranked athlete. With less noise, true favorites win more consistently.
 
 ## Data Foundation
 
@@ -129,8 +132,11 @@ Opens browser at `http://localhost:8501`
 - Gold favors top athletes more (power=1.5)
 - Bronze is more "random" (power=1.0)
 
-### V3: Variance Propagation
-- Samples athlete strength uncertainty per simulation
+### V3: Variance Propagation + Temperature Scaling
+- **Temperature parameter (0.3)**: Scales Gumbel noise to match log-strength spread
+  - Standard noise (temp=1.0) was 3x larger than signal → too random
+  - Calibrated noise (temp=0.3) matches the ~0.4 log-spread → favorites win realistically
+- Samples athlete strength uncertainty (15% CV) per simulation
 - Same multiplier affects athlete across all their events
 - Models correlated prediction errors (realistic)
 
