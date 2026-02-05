@@ -1015,8 +1015,10 @@ NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
 
 # Athletes excluded from predictions (injury, retirement, etc.)
 EXCLUDED_ATHLETES = {
-    ("Aleksander Aamodt Kilde", "NOR"),  # Injury - not participating in 2026 Olympics
-    # ("Therese Johaug", "NOR"),  # Retired - not in current WC standings
+    ("Aleksander Aamodt Kilde", "NOR"),  # Injury - shoulder injury and sepsis, uncertain return
+    ("Alexander Steen Olsen", "NOR"),    # Knee surgery Dec 2025 - out for 2025/26 season including Olympics
+    ("Lara Gut-Behrami", "SUI"),         # ACL tear Nov 2024 - confirmed out for 2026 Olympics
+    # ("Therese Johaug", "NOR"),         # Retired May 2025 - not in current WC standings anyway
 }
 
 SPORT_CONFIG = [
