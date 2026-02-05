@@ -280,16 +280,27 @@ def run_and_output(sports, competitions, athletes, entries, run_name, output_suf
         sports, competitions, athletes, entries
     )
     
-    # Filter to Nordic countries and sort
-    nordic_results = {c: r for c, r in results.items() if c in NORDIC_COUNTRIES}
-    sorted_results = sorted(nordic_results.items(), key=lambda x: -x[1]["total"])
+    # Sort ALL countries by total medals (not just Nordic)
+    all_results = sorted(results.items(), key=lambda x: -x[1]["total"])
     
-    # Print results
-    print("\nNORDIC MEDAL PREDICTIONS - 2026 Winter Olympics (V3)")
+    # Print TOP 15 medal predictions
+    print("\nMEDAL PREDICTIONS - 2026 Winter Olympics (V3)")
     print("(Plackett-Luce model with variance propagation)")
     print(f"Prediction = Expected value (mean) from {NUM_SIMULATIONS:,} simulations\n")
     
-    for country, medals in sorted_results:
+    print("=== TOP 15 COUNTRIES ===")
+    for rank, (country, medals) in enumerate(all_results[:15], 1):
+        ci = calculate_confidence_intervals(simulation_results, country)
+        pred_g = round(medals['gold'])
+        pred_s = round(medals['silver'])
+        pred_b = round(medals['bronze'])
+        pred_total = pred_g + pred_s + pred_b
+        nordic_marker = " *" if country in NORDIC_COUNTRIES else ""
+        print(f"{rank:2d}. {country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total}){nordic_marker}")
+    
+    print("\n=== NORDIC COUNTRIES DETAIL ===")
+    nordic_results = [(c, r) for c, r in all_results if c in NORDIC_COUNTRIES]
+    for country, medals in nordic_results:
         ci = calculate_confidence_intervals(simulation_results, country)
         pred_g = round(medals['gold'])
         pred_s = round(medals['silver'])
@@ -297,6 +308,9 @@ def run_and_output(sports, competitions, athletes, entries, run_name, output_suf
         pred_total = pred_g + pred_s + pred_b
         print(f"{country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total})")
         print(f"  Mean: {medals['gold']:.2f}-{medals['silver']:.2f}-{medals['bronze']:.2f}, 95% CI: G({ci['gold'][0]:.0f}-{ci['gold'][1]:.0f}) S({ci['silver'][0]:.0f}-{ci['silver'][1]:.0f}) B({ci['bronze'][0]:.0f}-{ci['bronze'][1]:.0f})")
+    
+    # Use all results for output (not just Nordic)
+    sorted_results = all_results
     
     # Write CSV output
     output_dir = Path(__file__).parent.parent.parent / "output"
