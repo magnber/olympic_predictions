@@ -1,99 +1,48 @@
-# Olympic Medal Prediction - Agent Guide
+# Olympic Medal Prediction
 
 ## Goal
 
-Predict medal counts (Gold, Silver, Bronze) for **Denmark, Norway, Sweden, Finland** in the 2026 Winter Olympics.
-
-**Deadline:** February 6, 2026
+Predict Nordic medal counts (DEN, NOR, SWE, FIN) for 2026 Winter Olympics.
 
 ---
 
-## Workflow
+## Approach
 
 ```
-COLLECT FACTS → CALCULATE PROBABILITIES → AGGREGATE → OUTPUT
+DEFINE → GATHER → PREDICT → FILTER
 ```
 
-1. **Collect** - All 116 events, Nordic athletes, World Cup rankings/points
-2. **Calculate** - Convert WC points to medal probabilities
-3. **Aggregate** - Sum probabilities by country
-4. **Output** - Generate prediction in required format
+1. **Define** - Competition (event), Athlete (competitor), Entry (performance data)
+2. **Gather** - Top 30 athletes per competition globally (not just Nordic)
+3. **Predict** - Monte Carlo simulation based on World Cup points
+4. **Filter** - Extract Nordic countries from results
 
 ---
 
-## Key Principle
+## Data Model
 
-**Data first, conclusions second.**
-
-- Collect data for ALL sports and ALL Nordic countries
-- Do NOT pre-filter based on assumed strengths
-- Let the World Cup standings reveal medal chances
-
----
-
-## Data Model (5 Entities)
-
-| Entity | Purpose | Key Fields |
-|--------|---------|------------|
-| **Country** | Nordic nations | id, name |
-| **Sport** | 16 Olympic sports | id, federation, data_source |
-| **Competition** | 116 medal events | id, name, sport_id, gender, type |
-| **Athlete** | Nordic athletes + teams | id, name, country_id, sports |
-| **CompetitionEntry** | Links athlete↔competition | athlete_id, competition_id, wc_points, world_ranking, p_gold* |
-
-*Probabilities are **calculated** from wc_points, not manually assigned.
+| Entity | Key Fields |
+|--------|------------|
+| **Competition** | id, name, sport, gender, type |
+| **Athlete** | id, name, country |
+| **Entry** | competition_id, athlete_id, wc_points, world_ranking |
 
 ---
 
-## Data Files
+## Prediction Method
 
 ```
-data/
-├── countries.json    # 4 records
-├── sports.json       # 16 records
-├── competitions.json # 116 records
-├── athletes.json     # ~100-150 records
-└── entries.json      # ~300-500 records
+P(gold) = athlete_wc_points / total_wc_points
 ```
+
+Run 10,000 simulations → aggregate → filter to Nordic.
 
 ---
 
-## Output Format
+## Documents
 
-```
-Denmark:
-🥇 Gold – X
-🥈 Silver – Y
-🥉 Bronze – Z
-
-Norway:
-🥇 Gold – X
-🥈 Silver – Y
-🥉 Bronze – Z
-
-Sweden:
-🥇 Gold – X
-🥈 Silver – Y
-🥉 Bronze – Z
-
-Finland:
-🥇 Gold – X
-🥈 Silver – Y
-🥉 Bronze – Z
-```
-
----
-
-## Reference Documents
-
-| Document | Purpose |
-|----------|---------|
-| [STRATEGY.md](./STRATEGY.md) | Approach, phases, calculation methods |
-| [TECHNICAL.md](./TECHNICAL.md) | Data model, entity definitions, code logic |
-| [WORKING_NOTES.md](./WORKING_NOTES.md) | Task checklist, progress tracking |
-
----
-
-## Current Phase
-
-See `WORKING_NOTES.md` for current progress and next tasks.
+| File | Purpose |
+|------|---------|
+| [STRATEGY.md](./STRATEGY.md) | High-level approach |
+| [TECHNICAL.md](./TECHNICAL.md) | Data model & code |
+| [WORKING_NOTES.md](./WORKING_NOTES.md) | Task tracking |

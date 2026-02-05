@@ -1,131 +1,86 @@
-# Nordic Olympic Medal Prediction Strategy
+# Olympic Medal Prediction Strategy
 
-## Challenge
+## Goal
 
-Predict medal counts (Gold, Silver, Bronze) for Denmark, Norway, Sweden, and Finland in the 2026 Winter Olympics (Milan-Cortina).
-
----
-
-## Approach Overview
-
-```
-┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
-│  1. Collect  │───▶│  2. Calculate│───▶│  3. Aggregate│───▶│  4. Generate │
-│  Facts       │    │  Probability │    │  by Country  │    │  Prediction  │
-└──────────────┘    └──────────────┘    └──────────────┘    └──────────────┘
-   DATA FOUNDATION       MODELING           ANALYSIS           OUTPUT
-```
+Predict medal counts for Denmark, Norway, Sweden, and Finland in the 2026 Winter Olympics.
 
 ---
 
-## Phase 1: Data Foundation (Facts)
+## Approach
 
-Collect objective data - no filtering or assumptions about medal chances.
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│  1. DEFINE  │───▶│  2. GATHER  │───▶│  3. PREDICT │───▶│  4. FILTER  │
+│  Data Model │    │  All Data   │    │  All Medals │    │  Nordic     │
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+```
 
-### 1.1 Competitions
-- List all 116 medal events
-- Record: name, sport, gender, type (individual/team)
-
-### 1.2 Athletes
-- Gather all Nordic athletes (NOR, SWE, FIN, DEN) from World Cup standings
-- Record: name, country, sport(s)
-- Include team entries for hockey, curling, relays
-
-### 1.3 Rankings & Points
-- Collect current World Cup points for each athlete
-- Collect current world rankings
-- Source from federation websites (FIS, IBU, ISU, IIHF, WCF, etc.)
-
-### Data Sources
-
-| Federation | Sports | Source |
-|------------|--------|--------|
-| FIS | Alpine, Cross-country, Freestyle, Nordic Combined, Ski Jumping, Snowboard | fis-ski.com |
-| IBU | Biathlon | biathlonworld.com |
-| ISU | Figure Skating, Short Track, Speed Skating | isu.org |
-| IIHF | Ice Hockey | iihf.com |
-| WCF | Curling | worldcurling.org |
-| IBSF | Bobsleigh, Skeleton | ibsf.org |
-| FIL | Luge | fil-luge.org |
-| ISMF | Ski Mountaineering | ismf-ski.org |
+**Key insight:** To predict Nordic medals accurately, we need performance data on ALL top athletes globally, not just Nordic ones. Then filter results.
 
 ---
 
-## Phase 2: Probability Modeling (Derived)
+## Phase 1: Define Data Model
 
-Calculate medal probabilities from the collected data.
+### Core Entities
 
-### Individual Events
+**Competition** - An event where medals are awarded
+- id, name, sport, gender, type
 
-Convert World Cup performance to probability:
-```
-P(medal) = f(athlete_wc_points, field_wc_points)
-```
+**Athlete** - Someone who can win a medal
+- id, name, country
 
-Primary method:
-```
-P(gold) ≈ athlete_points / sum(top_30_points)
-```
-
-### Team Events
-
-For relays, hockey, curling:
-- Use team-level world rankings
-- Convert ranking to probability based on historical medal distribution by rank
-
-### Field Entry
-
-For each competition, create a "field" entry representing all non-Nordic competitors:
-```
-P(field_gold) = 1 - Σ P(nordic_athlete_gold)
-```
+**Entry** - An athlete's participation in a competition with performance data
+- competition_id, athlete_id, wc_points, world_ranking
 
 ---
 
-## Phase 3: Aggregation (Analysis)
+## Phase 2: Gather Data
 
-### Per-Event Expected Medals
+For each competition:
+1. Get World Cup standings (top 30 athletes globally)
+2. Record each athlete's points and ranking
+3. This gives us the full competitive field
 
-For each country, sum probabilities across their athletes:
-```
-E[gold|country|event] = Σ P(gold) for all country's athletes in event
-```
-
-### Country Totals
-
-Sum across all 116 events:
-```
-E[gold|country] = Σ E[gold|country|event]
-```
-
-### Confidence Intervals
-
-Monte Carlo simulation (10,000 runs) to understand variance:
-- Simulate each event outcome based on probabilities
-- Count medals per country per simulation
-- Calculate percentiles (10th, 50th, 90th)
+**Data sources:** FIS, IBU, ISU, IIHF, WCF (federation websites)
 
 ---
 
-## Phase 4: Output
+## Phase 3: Predict Medals
 
-Generate final predictions:
+Convert performance data to probabilities:
+
 ```
-Country:
-🥇 Gold – X
-🥈 Silver – Y
-🥉 Bronze – Z
+P(gold) = athlete_wc_points / sum(all_wc_points)
 ```
 
-Round expected values to integers for submission.
+Run Monte Carlo simulation:
+1. For each competition, randomly select winners based on probabilities
+2. Repeat 10,000 times
+3. Output: medal distribution across all athletes
 
 ---
 
-## Key Principle
+## Phase 4: Filter to Nordic
 
-**Data first, conclusions second.**
+From the full prediction results, filter to:
+- `country IN ('NOR', 'SWE', 'FIN', 'DEN')`
 
-- Do NOT pre-filter events based on assumed Nordic strength
-- Do NOT assign "relevance" labels before seeing the data
-- Let World Cup standings reveal where Nordic countries have chances
-- The model output tells us which sports matter, not our assumptions
+Sum expected medals by country.
+
+---
+
+## Output
+
+```
+Denmark:
+🥇 Gold – X    🥈 Silver – Y    🥉 Bronze – Z
+
+Norway:
+🥇 Gold – X    🥈 Silver – Y    🥉 Bronze – Z
+
+Sweden:
+🥇 Gold – X    🥈 Silver – Y    🥉 Bronze – Z
+
+Finland:
+🥇 Gold – X    🥈 Silver – Y    🥉 Bronze – Z
+```
