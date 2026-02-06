@@ -1,0 +1,98 @@
+competition,sport,gold_athlete,gold_country,silver_athlete,silver_country,bronze_athlete,bronze_country
+Men's Slalom,Alpine Skiing,Atle Lie McGrath,NOR,Vincent Kriechmayr,AUT,Marco Odermatt,SUI
+Women's Slalom,Alpine Skiing,Wendy Holdener,SUI,Anna Swenn Larsson,SWE,Paula Moltzan,USA
+Men's Giant Slalom,Alpine Skiing,Manuel Feller,AUT,Marco Odermatt,SUI,Cameron Alexander,CAN
+Women's Giant Slalom,Alpine Skiing,Lara Colturi,ALB,Paula Moltzan,USA,Ragnhild Mowinckel,NOR
+Men's Super-G,Alpine Skiing,Fredrik Moeller,NOR,Atle Lie McGrath,NOR,Vincent Kriechmayr,AUT
+Women's Super-G,Alpine Skiing,Federica Brignone,ITA,Roberta Melesi,ITA,Emma Aicher,GER
+Men's Downhill,Alpine Skiing,Marco Odermatt,SUI,Manuel Feller,AUT,Henrik Kristoffersen,NOR
+Women's Downhill,Alpine Skiing,Camille Rast,SUI,Marta Bassino,ITA,Mikaela Shiffrin,USA
+Men's Team Sprint,Cross-Country Skiing,Team Norway,NOR,Johannes Hoesflot Klaebo,NOR,Edvin Anger,SWE
+Men's Sprint,Cross-Country Skiing,Edvin Anger,SWE,Erik Valnes,NOR,Martin Loewstroem Nyenget,NOR
+Women's Team Sprint,Cross-Country Skiing,Team Germany,GER,Team Norway,NOR,Team Sweden,SWE
+Women's Sprint,Cross-Country Skiing,Lena Quintin,FRA,Teresa Stadlober,AUT,Rosie Brennan,USA
+Men's 4x10km Relay,Cross-Country Skiing,Team Germany,GER,Team Norway,NOR,Team USA,USA
+Men's Skiathlon,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,Richard Jouve,FRA,Federico Pellegrino,ITA
+Men's 15km,Cross-Country Skiing,Even Northug,NOR,Mika Vermeulen,AUT,Erik Valnes,NOR
+Men's 50km Mass Start,Cross-Country Skiing,Westgaard Thomas Maloney,IRL,Gus Schumacher,USA,Johannes Hoesflot Klaebo,NOR
+Women's 4x5km Relay,Cross-Country Skiing,Flora Dolci,FRA,Team Norway,NOR,Team Switzerland,SUI
+Women's Skiathlon,Cross-Country Skiing,Astrid Oeyre Slind,NOR,Karoline Simpson-Larsen,NOR,Moa Ilar,SWE
+Women's 10km,Cross-Country Skiing,Julia Kern,USA,Delphine Claudel,FRA,Emma Ribom,SWE
+Women's 50km Mass Start,Cross-Country Skiing,Karoline Simpson-Larsen,NOR,Ebba Andersson,SWE,Kerttu Niskanen,FIN
+Men's 10km Sprint,Biathlon,Tommaso Giacomel,ITA,Benedikt Doll,GER,Emilien Jacquelin,FRA
+Men's 20km Individual,Biathlon,Johannes Dale-Skjevdal,NOR,Tommaso Giacomel,ITA,Martin Ponsiluoma,SWE
+Men's 12.5km Pursuit,Biathlon,Tommaso Giacomel,ITA,Sturla Holm Laegreid,NOR,Lukas Hofer,ITA
+Men's 15km Mass Start,Biathlon,Tommaso Giacomel,ITA,Sebastian Samuelsson,SWE,Philipp Nawrath,GER
+Women's 7.5km Sprint,Biathlon,Justine Braisaz-Bouchet,FRA,Suvi Minkkinen,FIN,Maren Kirkeeide,NOR
+Women's 15km Individual,Biathlon,Lou Jeanmonnot,FRA,Daria Krykova-Budasheva,AIN,Sophia Schneider,GER
+Women's 10km Pursuit,Biathlon,Julia Simon,FRA,Hanna Oeberg,SWE,Suvi Minkkinen,FIN
+Women's 12.5km Mass Start,Biathlon,Hanna Oeberg,SWE,Lou Jeanmonnot,FRA,Marketa Davidova,CZE
+Men's Normal Hill Individual,Ski Jumping,Anze Lanisek,SLO,Stefan Kraft,AUT,Daniel Tschofenig,AUT
+Men's Large Hill Individual,Ski Jumping,Stefan Kraft,AUT,Gregor Deschwanden,SUI,Anze Lanisek,SLO
+Women's Normal Hill Individual,Ski Jumping,Nozomi Maruyama,JPN,Sara Takanashi,JPN,Abigail Strate,CAN
+Women's Large Hill Individual,Ski Jumping,Nika Vodan,SLO,Nika Prevc,SLO,Nozomi Maruyama,JPN
+Men's Moguls,Freestyle Skiing,Mikael Kingsbury,CAN,Matt Graham,AUS,Walter Wallberg,SWE
+Men's Dual Moguls,Freestyle Skiing,Mikael Kingsbury,CAN,Ludvig Fjallstrom,SWE,Benjamin Cavet,FRA
+Women's Moguls,Freestyle Skiing,Jaelin Kauf,USA,Tess Johnson,USA,Perrine Laffont,FRA
+Women's Dual Moguls,Freestyle Skiing,Perrine Laffont,FRA,Jaelin Kauf,USA,Justine Dufour-Lapointe,CAN
+Men's Aerials,Freestyle Skiing,Noe Roth,SUI,Eric Loughran,USA,Wang Xindi,CHN
+Women's Aerials,Freestyle Skiing,Laura Peel,AUS,Xu Mengtao,CHN,Winter Vinecki,USA
+Men's Ski Cross,Freestyle Skiing,Simone Deromedis,ITA,Kevin Drury,CAN,Florian Wilmsmann,GER
+Women's Ski Cross,Freestyle Skiing,Brittany Phelan,CAN,Daniela Maier,GER,Talina Gantenbein,SUI
+Men's Halfpipe,Freestyle Skiing,Birk Ruud,NOR,Noah Bowman,CAN,Ben Harrington,NZL
+Women's Halfpipe,Freestyle Skiing,Eileen Gu,CHN,Valeriya Demidova,RUS,Rachael Karker,CAN
+Men's Slopestyle,Freestyle Skiing,Mac Forehand,USA,Ferdinand Dahl,NOR,Alex Hall,USA
+Men's Big Air,Freestyle Skiing,Colby Stevenson,USA,Oliwer Magnusson,SWE,Birk Ruud,NOR
+Women's Slopestyle,Freestyle Skiing,Megan Oldham,CAN,Darian Stevens,USA,Tess Ledeux,FRA
+Women's Big Air,Freestyle Skiing,Megan Oldham,CAN,Mathilde Gremaud,SUI,Darian Stevens,USA
+Men's Halfpipe,Snowboard,Valentino Guseli,AUS,Ruka Hirano,JPN,Ryusei Yamada,JPN
+Women's Halfpipe,Snowboard,Chloe Kim,USA,Xuetong Cai,CHN,Sena Tomita,JPN
+Men's Slopestyle,Snowboard,Chris Corning,USA,Marcus Kleveland,NOR,Kira Kimura,JPN
+Men's Big Air,Snowboard,Kira Kimura,JPN,Staale Sandbech,NOR,Su Yiming,CHN
+Women's Slopestyle,Snowboard,Anna Gasser,AUT,Tess Coady,AUS,Julia Marino,USA
+Women's Big Air,Snowboard,Zoi Sadowski-Synnott,NZL,Kokomo Murase,JPN,Jamie Anderson,USA
+Men's Snowboard Cross,Snowboard,Alessandro Haemmerle,AUT,Eliot Grondin,CAN,Cameron Bolton,AUS
+Women's Snowboard Cross,Snowboard,Charlotte Bankes,GBR,Eva Samkova,CZE,Michela Moioli,ITA
+Men's Parallel Giant Slalom,Snowboard,Edwin Coratti,ITA,Dmitry Loginov,RUS,Tim Mastnak,SLO
+Women's Parallel Giant Slalom,Snowboard,Ramona Theresia Hofmeister,GER,Daniela Ulbing,AUT,Julie Zogg,SUI
+Men's 500m,Short Track Speed Skating,Oleh Handei,UKR,Park Ji-won,KOR,Pascal Dion,CAN
+Men's 1000m,Short Track Speed Skating,Pietro Sighel,ITA,Park Ji-won,KOR,Steven Dubois,CAN
+Men's 1500m,Short Track Speed Skating,Steven Dubois,CAN,Park Ji-won,KOR,Liu Shaolin Sandor,HUN
+Women's 500m,Short Track Speed Skating,Kim Gil-li,KOR,Courtney Sarault,CAN,Kim Boutin,CAN
+Women's 1000m,Short Track Speed Skating,Kim Gil-li,KOR,Suzanne Schulting,NED,Kristen Santos-Griswold,USA
+Women's 1500m,Short Track Speed Skating,Choi Min-jeong,KOR,Hanne Desmet,BEL,Kim Gil-li,KOR
+Men's Individual Normal Hill,Nordic Combined,Johannes Lamparter,AUT,Vinzenz Geiger,GER,Ryota Yamamoto,JPN
+Men's Individual Large Hill,Nordic Combined,Ryota Yamamoto,JPN,Joergen Graabak,NOR,Vinzenz Geiger,GER
+Men's Singles,Figure Skating,Daniel Grassl,ITA,Ilia Malinin,USA,Mikhail Shaidorov,KAZ
+Women's Singles,Figure Skating,Loena Hendrickx,BEL,Mai Mihara,JPN,Bradie Tennell,USA
+Men's Singles Luge,Luge,Wolfgang Kindl,AUT,Felix Loch,GER,Jonas Mueller,AUT
+Women's Singles Luge,Luge,Julia Taubitz,GER,Dajana Eitberger,GER,Summer Britcher,USA
+Two-Man Bobsled,Bobsleigh,Benjamin Maier,AUT,Christoph Hafer,GER,Johannes Lochner,GER
+Four-Man Bobsled,Bobsleigh,Justin Kripps,CAN,Frank Delduca,USA,Christoph Hafer,GER
+Two-Woman Bobsled,Bobsleigh,Lisa Buckwitz,GER,Laura Nolte,GER,Elana Meyers Taylor,USA
+Women's Monobob,Bobsleigh,Elana Meyers Taylor,USA,Lisa Buckwitz,GER,Laura Nolte,GER
+Men's Skeleton,Skeleton,Vladyslav Heraskevych,UKR,Matt Weston,GBR,Martins Dukurs,LAT
+Women's Skeleton,Skeleton,Janine Flock,AUT,Hannah Neise,GER,Tina Hermann,GER
+Men's Curling,Curling,Brad Gushue,CAN,Yannick Schwaller,SUI,Bruce Mouat,SCO
+Women's Curling,Curling,Kristin Skaslien,NOR,Silvana Tirinzoni,SUI,Kim Eun-jung,KOR
+Men's Ice Hockey,Ice Hockey,Team Czechia,CZE,Team Germany,GER,Team USA,USA
+Women's Ice Hockey,Ice Hockey,Team Canada,CAN,Team Finland,FIN,Team Japan,JPN
+Men's 4x7.5km Relay,Biathlon,Team USA,USA,Team France,FRA,Team Norway,NOR
+Women's 4x6km Relay,Biathlon,Team Switzerland,SUI,Team Norway,NOR,Team Sweden,SWE
+Mixed Relay,Biathlon,Team Germany,GER,Team France,FRA,Team Italy,ITA
+Men's Team,Ski Jumping,Team Austria,AUT,Team Slovenia,SLO,Team Switzerland,SUI
+Mixed Team,Ski Jumping,Team Norway,NOR,Team Slovenia,SLO,Team Japan,JPN
+Men's Team Sprint,Nordic Combined,Team Germany,GER,Team Austria,AUT,Team Finland,FIN
+Mixed Doubles Curling,Curling,Team Italy,ITA,Team Switzerland,SUI,Team Canada,CAN
+Women's 500m,Speed Skating,Suzanne Schulting,NED,Vanessa Herzog,AUT,Naomi Verkerk,NED
+Men's 500m,Speed Skating,Jordan Stolz,USA,Jenning De Boo,NED,Tatsuya Shinhama,JPN
+Women's 1500m,Speed Skating,Brittany Bowe,USA,Miho Takagi,JPN,Ivanie Blondin,CAN
+Men's 1500m,Speed Skating,Jordan Stolz,USA,Kjeld Nuis,NED,Zhongyan Ning,CHN
+Women's 1000m,Speed Skating,Brittany Bowe,USA,Miho Takagi,JPN,Antoinette Rijpma-de Jong,NED
+Men's 1000m,Speed Skating,Jordan Stolz,USA,Ziwen Lian,CHN,Marten Liiv,EST
+Women's 3000m,Speed Skating,Francesca Lollobrigida,ITA,Ragne Wiklund,NOR,Martina Sáblíková,CZE
+Men's 5000m,Speed Skating,Davide Ghiotto,ITA,Beau Snellink,NED,Casey Dawson,USA
+Women's Mass Start,Speed Skating,Michelle Uhrig,GER,Marijke Groenewoud,NED,Momoka Horikawa,JPN
+Men's Mass Start,Speed Skating,Bart Swings,BEL,Bart Hoolwerf,NED,Andrea Giovannini,ITA
+Women's 5000m,Speed Skating,Joy Beune,NED,Ragne Wiklund,NOR,Merel Conijn,NED
+Men's 10000m,Speed Skating,Beau Snellink,NED,Davide Ghiotto,ITA,Casey Dawson,USA

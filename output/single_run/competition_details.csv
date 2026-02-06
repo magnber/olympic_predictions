@@ -1,0 +1,2079 @@
+competition,sport,athlete_name,country,score,relative_score,strength,gold_prob,silver_prob,bronze_prob,medal_prob
+Four-Man Bobsled,Bobsleigh,Justin Kripps,CAN,400.0,0,0.25,1.0,0.0,0.0,1.0
+Four-Man Bobsled,Bobsleigh,Francesco Friedrich,GER,800.0,0,1.0,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Johannes Lochner,GER,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Adam Edelman,GER,700.0,0,0.7656,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Benjamin Maier,AUT,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Brad Hall,GBR,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Christoph Hafer,GER,550.0,0,0.4727,0.0,0.0,1.0,1.0
+Four-Man Bobsled,Bobsleigh,Hunter Church,USA,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Four-Man Bobsled,Bobsleigh,Frank Delduca,USA,450.0,0,0.3164,0.0,1.0,0.0,1.0
+Four-Man Bobsled,Bobsleigh,Oskars Kibermanis,LAT,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Beau Snellink,NED,50.0,0,0.25,1.0,0.0,0.0,1.0
+Men's 10000m,Speed Skating,Davide Ghiotto,ITA,100.0,0,1.0,0.0,1.0,0.0,1.0
+Men's 10000m,Speed Skating,Metoděj Jílek,CZE,80.0,0,0.64,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Sander Eitrem,NOR,60.0,0,0.36,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Graeme Fish,CAN,45.0,0,0.2025,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Chris Huizinga,NED,40.0,0,0.16,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Casey Dawson,USA,36.0,0,0.1296,0.0,0.0,1.0,1.0
+Men's 10000m,Speed Skating,Bart Swings,BEL,32.0,0,0.1024,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Michele Malfatti,ITA,29.0,0,0.0841,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Ted-Jan Bloemen,CAN,26.0,0,0.0676,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Patrick Beckert,GER,24.0,0,0.0576,0.0,0.0,0.0,0.0
+Men's 10000m,Speed Skating,Marcel Bosker,NED,22.0,0,0.0484,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Pietro Sighel,ITA,750.0,0,0.8789,1.0,0.0,0.0,1.0
+Men's 1000m,Speed Skating,Jordan Stolz,USA,500.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 1000m,Short Track Speed Skating,William Dandjinou,CAN,800.0,0,1.0,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Park Ji-won,KOR,700.0,0,0.7656,0.0,1.0,0.0,1.0
+Men's 1000m,Short Track Speed Skating,Hwang Dae-heon,KOR,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Sebastien Lepape,FRA,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Liu Shaolin Sandor,HUN,550.0,0,0.4727,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Ren Ziwei,CHN,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Liu Shaoang,HUN,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Steven Dubois,CAN,400.0,0,0.25,0.0,0.0,1.0,1.0
+Men's 1000m,Short Track Speed Skating,Pascal Dion,CAN,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Luca Spechenhauser,ITA,300.0,0,0.1406,0.0,0.0,0.0,0.0
+Men's 1000m,Short Track Speed Skating,Oleh Handei,UKR,250.0,0,0.0977,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Jenning De Boo,NED,420.0,0,0.7056,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Cooper Mcleod,USA,307.0,0,0.377,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Kjeld Nuis,NED,290.0,0,0.3364,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Zhongyan Ning,CHN,251.0,0,0.252,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Tim Prins,NED,193.0,0,0.149,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Marten Liiv,EST,188.0,0,0.1414,0.0,0.0,1.0,1.0
+Men's 1000m,Speed Skating,Damian Żurek,POL,163.0,0,0.1063,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Laurent Dubreuil,CAN,162.0,0,0.105,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Joep Wennemars,NED,158.0,0,0.0999,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Ryota Kojima,JPN,155.0,0,0.0961,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Taiyo Nonomura,JPN,130.0,0,0.0676,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Tatsuya Shinhama,JPN,130.0,0,0.0676,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Moritz Klein,GER,124.0,0,0.0615,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Min-Seok Kim,HUN,116.0,0,0.0538,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Stefan Emele,GER,99.0,0,0.0392,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Zach Stoppelmoor,USA,87.0,0,0.0303,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Connor Howe,CAN,85.0,0,0.0289,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Mathias Vosté,BEL,68.0,0,0.0185,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Marek Kania,POL,58.0,0,0.0135,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Hendrik Dombek,GER,58.0,0,0.0135,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Ziwen Lian,CHN,40.0,0,0.0064,0.0,1.0,0.0,1.0
+Men's 1000m,Speed Skating,David Bosa,ITA,37.0,0,0.0055,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Masaya Yamada,JPN,32.0,0,0.0041,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Peder Kongshaug,NOR,29.0,0,0.0034,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Piotr Michalski,POL,20.0,0,0.0016,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Tijmen Snel,NED,16.0,0,0.001,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Finn Sonnekalb,GER,15.0,0,0.0009,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Sanghyeok Cho,KOR,14.0,0,0.0008,0.0,0.0,0.0,0.0
+Men's 1000m,Speed Skating,Kazuya Yamada,JPN,12.0,0,0.0006,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Tommaso Giacomel,ITA,767.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 10km Sprint,Biathlon,Eric Perrot,FRA,744.0,0,0.9409,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Sebastian Samuelsson,SWE,640.0,0,0.6963,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Johan-Olav Botn,NOR,589.0,0,0.5897,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Johannes Dale-Skjevdal,NOR,501.0,0,0.4267,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Quentin Fillon Maillet,FRA,481.0,0,0.3933,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Martin Ponsiluoma,SWE,476.0,0,0.3851,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Emilien Jacquelin,FRA,445.0,0,0.3366,0.0,0.0,1.0,1.0
+Men's 10km Sprint,Biathlon,Vetle Sjastad Christiansen,NOR,429.0,0,0.3128,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Sturla Holm Laegreid,NOR,404.0,0,0.2774,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Philipp Nawrath,GER,385.0,0,0.252,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Martin Uldal,NOR,359.0,0,0.2191,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Campbell Wright,USA,339.0,0,0.1953,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Isak Frey,NOR,306.0,0,0.1592,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Lukas Hofer,ITA,295.0,0,0.1479,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Fabien Claude,FRA,284.0,0,0.1371,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Philipp Horn,GER,274.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Tarjei Boe,NOR,260.0,0,0.1149,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Johannes Thingnes Boe,NOR,250.0,0,0.1062,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Jakov Fak,SLO,240.0,0,0.0979,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Justus Strelow,GER,230.0,0,0.0899,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Simon Eder,AUT,220.0,0,0.0823,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Florent Claude,BEL,210.0,0,0.075,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Benedikt Doll,GER,200.0,0,0.068,0.0,1.0,0.0,1.0
+Men's 10km Sprint,Biathlon,Dmytro Pidruchnyi,UKR,190.0,0,0.0614,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Sivert Guttorm Bakken,NOR,180.0,0,0.0551,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Felix Leitner,AUT,170.0,0,0.0491,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Michal Krcmar,CZE,160.0,0,0.0435,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Said Karimulla Khalili,AIN,150.0,0,0.0382,0.0,0.0,0.0,0.0
+Men's 10km Sprint,Biathlon,Jesper Nelin,SWE,140.0,0,0.0333,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Tommaso Giacomel,ITA,767.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 12.5km Pursuit,Biathlon,Eric Perrot,FRA,744.0,0,0.9409,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Sebastian Samuelsson,SWE,640.0,0,0.6963,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Johan-Olav Botn,NOR,589.0,0,0.5897,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Johannes Dale-Skjevdal,NOR,501.0,0,0.4267,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Quentin Fillon Maillet,FRA,481.0,0,0.3933,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Martin Ponsiluoma,SWE,476.0,0,0.3851,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Emilien Jacquelin,FRA,445.0,0,0.3366,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Vetle Sjastad Christiansen,NOR,429.0,0,0.3128,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Sturla Holm Laegreid,NOR,404.0,0,0.2774,0.0,1.0,0.0,1.0
+Men's 12.5km Pursuit,Biathlon,Philipp Nawrath,GER,385.0,0,0.252,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Martin Uldal,NOR,359.0,0,0.2191,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Campbell Wright,USA,339.0,0,0.1953,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Isak Frey,NOR,306.0,0,0.1592,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Lukas Hofer,ITA,295.0,0,0.1479,0.0,0.0,1.0,1.0
+Men's 12.5km Pursuit,Biathlon,Fabien Claude,FRA,284.0,0,0.1371,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Philipp Horn,GER,274.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Tarjei Boe,NOR,260.0,0,0.1149,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Johannes Thingnes Boe,NOR,250.0,0,0.1062,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Jakov Fak,SLO,240.0,0,0.0979,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Justus Strelow,GER,230.0,0,0.0899,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Simon Eder,AUT,220.0,0,0.0823,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Florent Claude,BEL,210.0,0,0.075,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Benedikt Doll,GER,200.0,0,0.068,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Dmytro Pidruchnyi,UKR,190.0,0,0.0614,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Sivert Guttorm Bakken,NOR,180.0,0,0.0551,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Felix Leitner,AUT,170.0,0,0.0491,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Michal Krcmar,CZE,160.0,0,0.0435,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Said Karimulla Khalili,AIN,150.0,0,0.0382,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,Biathlon,Jesper Nelin,SWE,140.0,0,0.0333,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Steven Dubois,CAN,400.0,0,0.25,1.0,0.0,0.0,1.0
+Men's 1500m,Speed Skating,Jordan Stolz,USA,545.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 1500m,Short Track Speed Skating,William Dandjinou,CAN,800.0,0,1.0,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Pietro Sighel,ITA,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Park Ji-won,KOR,700.0,0,0.7656,0.0,1.0,0.0,1.0
+Men's 1500m,Short Track Speed Skating,Hwang Dae-heon,KOR,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Sebastien Lepape,FRA,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Liu Shaolin Sandor,HUN,550.0,0,0.4727,0.0,0.0,1.0,1.0
+Men's 1500m,Short Track Speed Skating,Ren Ziwei,CHN,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Liu Shaoang,HUN,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Pascal Dion,CAN,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Luca Spechenhauser,ITA,300.0,0,0.1406,0.0,0.0,0.0,0.0
+Men's 1500m,Short Track Speed Skating,Oleh Handei,UKR,250.0,0,0.0977,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Peder Kongshaug,NOR,390.0,0,0.5121,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Zhongyan Ning,CHN,340.0,0,0.3892,0.0,0.0,1.0,1.0
+Men's 1500m,Speed Skating,Sander Eitrem,NOR,331.0,0,0.3689,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Kjeld Nuis,NED,275.0,0,0.2546,0.0,1.0,0.0,1.0
+Men's 1500m,Speed Skating,Connor Howe,CAN,194.0,0,0.1267,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Tim Prins,NED,185.0,0,0.1152,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Min-Seok Kim,HUN,179.0,0,0.1079,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Taiyo Nonomura,JPN,151.0,0,0.0768,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Seitaro Ichinohe,JPN,140.0,0,0.066,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Stefan Emele,GER,134.0,0,0.0605,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Wesly Dijs,NED,130.0,0,0.0569,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Daniele Di Stefano,ITA,127.0,0,0.0543,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Kazuya Yamada,JPN,122.0,0,0.0501,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Tijmen Snel,NED,119.0,0,0.0477,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Bart Swings,BEL,85.0,0,0.0243,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Joep Wennemars,NED,83.0,0,0.0232,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Ryota Kojima,JPN,82.0,0,0.0226,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Didrik Eng Strand,NOR,69.0,0,0.016,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,David La Rue,CAN,58.0,0,0.0113,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Moritz Klein,GER,40.0,0,0.0054,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Kristian Gamme Ulekleiv,NOR,31.0,0,0.0032,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Vladimir Semirunniy,POL,24.0,0,0.0019,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Hendrik Dombek,GER,24.0,0,0.0019,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Hanbin Liu,CHN,20.0,0,0.0013,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Motonaga Arito,JPN,14.0,0,0.0007,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Emery Lehman,USA,14.0,0,0.0007,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Finn Sonnekalb,GER,13.0,0,0.0006,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Riku Tsuchiya,JPN,13.0,0,0.0006,0.0,0.0,0.0,0.0
+Men's 1500m,Speed Skating,Alessio Trentini,ITA,12.0,0,0.0005,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Even Northug,NOR,699.0,0,0.101,1.0,0.0,0.0,1.0
+Men's 15km,Cross-Country Skiing,Westgaard Thomas Maloney,IRL,398.0,0,0.0327,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Jens Burman,SWE,350.0,0,0.0253,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Calle Halfvarsson,SWE,344.0,0,0.0244,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Truls Gisselman,SWE,333.0,0,0.0229,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Altimiras Ireneu Esteve,AND,320.0,0,0.0212,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Jules Lapierre,FRA,312.0,0,0.0201,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Davide Graz,ITA,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Naoto Baba,JPN,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,2200.0,0,1.0,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Edvin Anger,SWE,1731.0,0,0.6191,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Erik Valnes,NOR,1530.0,0,0.4837,0.0,0.0,1.0,1.0
+Men's 15km,Cross-Country Skiing,Federico Pellegrino,ITA,1510.0,0,0.4711,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,1439.0,0,0.4278,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Simen Hegstad Krueger,NOR,1431.0,0,0.4231,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Hugo Lapalus,FRA,1388.0,0,0.398,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Andreas Fjorden Ree,NOR,1235.0,0,0.3151,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Martin Loewstroem Nyenget,NOR,1154.0,0,0.2751,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Ben Ogden,USA,1087.0,0,0.2441,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Mika Vermeulen,AUT,1082.0,0,0.2419,0.0,1.0,0.0,1.0
+Men's 15km,Cross-Country Skiing,Friedrich Moch,GER,1004.0,0,0.2083,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Mathis Desloges,FRA,986.0,0,0.2009,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Gus Schumacher,USA,965.0,0,0.1924,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,William Poromaa,SWE,958.0,0,0.1896,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Iivo Niskanen,FIN,924.0,0,0.1764,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Paal Golberg,NOR,870.0,0,0.1564,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Iver Tildheim Andersen,NOR,782.0,0,0.1263,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Lucas Chanavat,FRA,731.0,0,0.1104,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Lauri Vuorinen,FIN,720.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Andrew Musgrave,GBR,659.0,0,0.0897,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Jan Thomas Jenssen,NOR,627.0,0,0.0812,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Arsi Ruuskanen,FIN,576.0,0,0.0685,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Michal Novak,CZE,555.0,0,0.0636,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Jules Chappaz,FRA,522.0,0,0.0563,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Richard Jouve,FRA,496.0,0,0.0508,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Valerio Grond,SUI,492.0,0,0.05,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,JC Schoonmaker,USA,480.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's 15km,Cross-Country Skiing,Thomas Maloney Westgaard,IRL,476.0,0,0.0468,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Tommaso Giacomel,ITA,767.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 15km Mass Start,Biathlon,Eric Perrot,FRA,744.0,0,0.9409,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Sebastian Samuelsson,SWE,640.0,0,0.6963,0.0,1.0,0.0,1.0
+Men's 15km Mass Start,Biathlon,Johan-Olav Botn,NOR,589.0,0,0.5897,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Johannes Dale-Skjevdal,NOR,501.0,0,0.4267,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Quentin Fillon Maillet,FRA,481.0,0,0.3933,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Martin Ponsiluoma,SWE,476.0,0,0.3851,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Emilien Jacquelin,FRA,445.0,0,0.3366,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Vetle Sjastad Christiansen,NOR,429.0,0,0.3128,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Sturla Holm Laegreid,NOR,404.0,0,0.2774,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Philipp Nawrath,GER,385.0,0,0.252,0.0,0.0,1.0,1.0
+Men's 15km Mass Start,Biathlon,Martin Uldal,NOR,359.0,0,0.2191,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Campbell Wright,USA,339.0,0,0.1953,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Isak Frey,NOR,306.0,0,0.1592,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Lukas Hofer,ITA,295.0,0,0.1479,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Fabien Claude,FRA,284.0,0,0.1371,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Philipp Horn,GER,274.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Tarjei Boe,NOR,260.0,0,0.1149,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Johannes Thingnes Boe,NOR,250.0,0,0.1062,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Jakov Fak,SLO,240.0,0,0.0979,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Justus Strelow,GER,230.0,0,0.0899,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Simon Eder,AUT,220.0,0,0.0823,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Florent Claude,BEL,210.0,0,0.075,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Benedikt Doll,GER,200.0,0,0.068,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Dmytro Pidruchnyi,UKR,190.0,0,0.0614,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Sivert Guttorm Bakken,NOR,180.0,0,0.0551,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Felix Leitner,AUT,170.0,0,0.0491,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Michal Krcmar,CZE,160.0,0,0.0435,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Said Karimulla Khalili,AIN,150.0,0,0.0382,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,Biathlon,Jesper Nelin,SWE,140.0,0,0.0333,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Johannes Dale-Skjevdal,NOR,501.0,0,0.4267,1.0,0.0,0.0,1.0
+Men's 20km Individual,Biathlon,Tommaso Giacomel,ITA,767.0,0,1.0,0.0,1.0,0.0,1.0
+Men's 20km Individual,Biathlon,Eric Perrot,FRA,744.0,0,0.9409,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Sebastian Samuelsson,SWE,640.0,0,0.6963,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Johan-Olav Botn,NOR,589.0,0,0.5897,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Quentin Fillon Maillet,FRA,481.0,0,0.3933,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Martin Ponsiluoma,SWE,476.0,0,0.3851,0.0,0.0,1.0,1.0
+Men's 20km Individual,Biathlon,Emilien Jacquelin,FRA,445.0,0,0.3366,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Vetle Sjastad Christiansen,NOR,429.0,0,0.3128,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Sturla Holm Laegreid,NOR,404.0,0,0.2774,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Philipp Nawrath,GER,385.0,0,0.252,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Martin Uldal,NOR,359.0,0,0.2191,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Campbell Wright,USA,339.0,0,0.1953,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Isak Frey,NOR,306.0,0,0.1592,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Lukas Hofer,ITA,295.0,0,0.1479,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Fabien Claude,FRA,284.0,0,0.1371,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Philipp Horn,GER,274.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Tarjei Boe,NOR,260.0,0,0.1149,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Johannes Thingnes Boe,NOR,250.0,0,0.1062,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Jakov Fak,SLO,240.0,0,0.0979,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Justus Strelow,GER,230.0,0,0.0899,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Simon Eder,AUT,220.0,0,0.0823,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Florent Claude,BEL,210.0,0,0.075,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Benedikt Doll,GER,200.0,0,0.068,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Dmytro Pidruchnyi,UKR,190.0,0,0.0614,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Sivert Guttorm Bakken,NOR,180.0,0,0.0551,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Felix Leitner,AUT,170.0,0,0.0491,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Michal Krcmar,CZE,160.0,0,0.0435,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Said Karimulla Khalili,AIN,150.0,0,0.0382,0.0,0.0,0.0,0.0
+Men's 20km Individual,Biathlon,Jesper Nelin,SWE,140.0,0,0.0333,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Germany,GER,5731.0,0,0.5011,1.0,0.0,0.0,1.0
+Men's 4x10km Relay,Cross-Country Skiing,Simen Hegstad Krueger,NOR,1317.0,0,0.0265,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Martin Loewstroem Nyenget,NOR,1154.0,0,0.0203,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Hugo Lapalus,FRA,1118.0,0,0.0191,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,1079.0,0,0.0178,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Andreas Fjorden Ree,NOR,1055.0,0,0.017,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,973.0,0,0.0144,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Iivo Niskanen,FIN,924.0,0,0.013,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Paal Golberg,NOR,870.0,0,0.0115,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Mika Vermeulen,AUT,789.0,0,0.0095,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,William Poromaa,SWE,784.0,0,0.0094,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Friedrich Moch,GER,779.0,0,0.0093,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Mathis Desloges,FRA,779.0,0,0.0093,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Edvin Anger,SWE,749.0,0,0.0086,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Gus Schumacher,USA,745.0,0,0.0085,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Iver Tildheim Andersen,NOR,620.0,0,0.0059,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Federico Pellegrino,ITA,561.0,0,0.0048,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Erik Valnes,NOR,486.0,0,0.0036,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Andrew Musgrave,GBR,485.0,0,0.0036,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Arsi Ruuskanen,FIN,444.0,0,0.003,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Jan Thomas Jenssen,NOR,438.0,0,0.0029,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Westgaard Thomas Maloney,IRL,398.0,0,0.0024,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Ben Ogden,USA,387.0,0,0.0023,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Jens Burman,SWE,350.0,0,0.0019,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Calle Halfvarsson,SWE,344.0,0,0.0018,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Truls Gisselman,SWE,333.0,0,0.0017,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Altimiras Ireneu Esteve,AND,320.0,0,0.0016,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Jules Lapierre,FRA,312.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Michal Novak,CZE,311.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Davide Graz,ITA,307.0,0,0.0014,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Naoto Baba,JPN,307.0,0,0.0014,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Norway,NOR,8096.0,0,1.0,0.0,1.0,0.0,1.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Sweden,SWE,6812.0,0,0.708,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Finland,FIN,5420.0,0,0.4482,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team France,FRA,4800.0,0,0.3515,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Italy,ITA,3500.0,0,0.1869,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team Switzerland,SUI,3200.0,0,0.1562,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,Cross-Country Skiing,Team USA,USA,2800.0,0,0.1196,0.0,0.0,1.0,1.0
+Men's 4x7.5km Relay,Biathlon,Team USA,USA,40.0,0,0.1975,1.0,0.0,0.0,1.0
+Men's 4x7.5km Relay,Biathlon,Team France,FRA,90.0,0,1.0,0.0,1.0,0.0,1.0
+Men's 4x7.5km Relay,Biathlon,Team Norway,NOR,75.0,0,0.6944,0.0,0.0,1.0,1.0
+Men's 4x7.5km Relay,Biathlon,Team Sweden,SWE,60.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Germany,GER,50.0,0,0.3086,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Finland,FIN,45.0,0,0.25,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Ukraine,UKR,36.0,0,0.16,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Switzerland,SUI,34.0,0,0.1427,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Austria,AUT,32.0,0,0.1264,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,Biathlon,Team Italy,ITA,31.0,0,0.1186,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Davide Ghiotto,ITA,362.0,0,0.6769,1.0,0.0,0.0,1.0
+Men's 5000m,Speed Skating,Sander Eitrem,NOR,440.0,0,1.0,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Beau Snellink,NED,260.0,0,0.3492,0.0,1.0,0.0,1.0
+Men's 5000m,Speed Skating,Chris Huizinga,NED,203.0,0,0.2129,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Casey Dawson,USA,199.0,0,0.2046,0.0,0.0,1.0,1.0
+Men's 5000m,Speed Skating,Ted-Jan Bloemen,CAN,179.0,0,0.1655,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Bart Swings,BEL,153.0,0,0.1209,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Michele Malfatti,ITA,148.0,0,0.1131,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Graeme Fish,CAN,146.0,0,0.1101,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Metoděj Jílek,CZE,137.0,0,0.0969,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Timothy Loubineaud,FRA,135.0,0,0.0941,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Marcel Bosker,NED,128.0,0,0.0846,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Yu Wu,CHN,76.0,0,0.0298,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Peder Kongshaug,NOR,72.0,0,0.0268,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Felix Maly,GER,66.0,0,0.0225,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Seitaro Ichinohe,JPN,57.0,0,0.0168,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Vladimir Semirunniy,POL,50.0,0,0.0129,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Riccardo Lorello,ITA,45.0,0,0.0105,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Jorrit Bergsma,NED,42.0,0,0.0091,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Hallgeir Engebråten,NOR,35.0,0,0.0063,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Patrick Beckert,GER,33.0,0,0.0056,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Marwin Talsma,NED,32.0,0,0.0053,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Fridtjof Petzold,GER,18.0,0,0.0017,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Sigurd Henriksen,NOR,18.0,0,0.0017,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Kristian Gamme Ulekleiv,NOR,16.0,0,0.0013,0.0,0.0,0.0,0.0
+Men's 5000m,Speed Skating,Shomu Sasaki,JPN,15.0,0,0.0012,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Oleh Handei,UKR,250.0,0,0.0977,1.0,0.0,0.0,1.0
+Men's 500m,Speed Skating,Jordan Stolz,USA,905.0,0,1.0,1.0,0.0,0.0,1.0
+Men's 500m,Short Track Speed Skating,William Dandjinou,CAN,800.0,0,1.0,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Pietro Sighel,ITA,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Park Ji-won,KOR,700.0,0,0.7656,0.0,1.0,0.0,1.0
+Men's 500m,Short Track Speed Skating,Hwang Dae-heon,KOR,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Sebastien Lepape,FRA,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Liu Shaolin Sandor,HUN,550.0,0,0.4727,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Ren Ziwei,CHN,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Liu Shaoang,HUN,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Steven Dubois,CAN,400.0,0,0.25,0.0,0.0,0.0,0.0
+Men's 500m,Short Track Speed Skating,Pascal Dion,CAN,350.0,0,0.1914,0.0,0.0,1.0,1.0
+Men's 500m,Short Track Speed Skating,Luca Spechenhauser,ITA,300.0,0,0.1406,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Laurent Dubreuil,CAN,598.0,0,0.4366,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Jenning De Boo,NED,582.0,0,0.4136,0.0,1.0,0.0,1.0
+Men's 500m,Speed Skating,Tatsuya Shinhama,JPN,528.0,0,0.3404,0.0,0.0,1.0,1.0
+Men's 500m,Speed Skating,Marek Kania,POL,404.0,0,0.1993,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Jun-Ho Kim,KOR,392.0,0,0.1876,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Cooper Mcleod,USA,366.0,0,0.1636,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Wataru Morishige,JPN,336.0,0,0.1378,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Damian Żurek,POL,330.0,0,0.133,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Merijn Scheperkamp,NED,320.0,0,0.125,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Sebas Diniz,NED,316.0,0,0.1219,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Marten Liiv,EST,288.0,0,0.1013,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Yevgeniy Koshkin,KAZ,284.0,0,0.0985,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Stefan Westenbroek,NED,272.0,0,0.0903,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Bjørn Magnussen,NOR,216.0,0,0.057,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Katsuhiro Kuratsubo,JPN,170.0,0,0.0353,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Piotr Michalski,POL,147.0,0,0.0264,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Tingyu Gao,CHN,134.0,0,0.0219,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Zach Stoppelmoor,USA,114.0,0,0.0159,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Ziwen Lian,CHN,87.0,0,0.0092,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Anders Johnson,CAN,69.0,0,0.0058,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Yamato Matsui,JPN,66.0,0,0.0053,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Sanghyeok Cho,KOR,48.0,0,0.0028,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Christopher Fiola,CAN,44.0,0,0.0024,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Nil Llop Izquierdo,ESP,40.0,0,0.002,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,David Bosa,ITA,37.0,0,0.0017,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Siver Brattgjerd,NOR,27.0,0,0.0009,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Bin Liu,CHN,26.0,0,0.0008,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Ryota Kojima,JPN,24.0,0,0.0007,0.0,0.0,0.0,0.0
+Men's 500m,Speed Skating,Janno Botman,NED,20.0,0,0.0005,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Westgaard Thomas Maloney,IRL,398.0,0,0.0327,1.0,0.0,0.0,1.0
+Men's 50km Mass Start,Cross-Country Skiing,Jens Burman,SWE,350.0,0,0.0253,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Calle Halfvarsson,SWE,344.0,0,0.0244,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Truls Gisselman,SWE,333.0,0,0.0229,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Altimiras Ireneu Esteve,AND,320.0,0,0.0212,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Jules Lapierre,FRA,312.0,0,0.0201,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Davide Graz,ITA,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Naoto Baba,JPN,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,2200.0,0,1.0,0.0,0.0,1.0,1.0
+Men's 50km Mass Start,Cross-Country Skiing,Edvin Anger,SWE,1731.0,0,0.6191,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Erik Valnes,NOR,1530.0,0,0.4837,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Federico Pellegrino,ITA,1510.0,0,0.4711,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,1439.0,0,0.4278,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Simen Hegstad Krueger,NOR,1431.0,0,0.4231,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Hugo Lapalus,FRA,1388.0,0,0.398,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Andreas Fjorden Ree,NOR,1235.0,0,0.3151,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Martin Loewstroem Nyenget,NOR,1154.0,0,0.2751,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Ben Ogden,USA,1087.0,0,0.2441,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Mika Vermeulen,AUT,1082.0,0,0.2419,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Friedrich Moch,GER,1004.0,0,0.2083,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Mathis Desloges,FRA,986.0,0,0.2009,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Gus Schumacher,USA,965.0,0,0.1924,0.0,1.0,0.0,1.0
+Men's 50km Mass Start,Cross-Country Skiing,William Poromaa,SWE,958.0,0,0.1896,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Iivo Niskanen,FIN,924.0,0,0.1764,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Paal Golberg,NOR,870.0,0,0.1564,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Iver Tildheim Andersen,NOR,782.0,0,0.1263,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Lucas Chanavat,FRA,731.0,0,0.1104,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Lauri Vuorinen,FIN,720.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Even Northug,NOR,699.0,0,0.101,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Andrew Musgrave,GBR,659.0,0,0.0897,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Jan Thomas Jenssen,NOR,627.0,0,0.0812,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Arsi Ruuskanen,FIN,576.0,0,0.0685,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Michal Novak,CZE,555.0,0,0.0636,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Jules Chappaz,FRA,522.0,0,0.0563,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Richard Jouve,FRA,496.0,0,0.0508,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Valerio Grond,SUI,492.0,0,0.05,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,JC Schoonmaker,USA,480.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,Cross-Country Skiing,Thomas Maloney Westgaard,IRL,476.0,0,0.0468,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Noe Roth,SUI,400.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Aerials,Freestyle Skiing,Qi Guangpu,CHN,400.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Wang Xindi,CHN,304.0,0,0.5776,0.0,0.0,1.0,1.0
+Men's Aerials,Freestyle Skiing,Sun Jiaxu,CHN,298.0,0,0.555,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Christopher Lillis,USA,274.0,0,0.4692,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Eric Loughran,USA,250.0,0,0.3906,0.0,1.0,0.0,1.0
+Men's Aerials,Freestyle Skiing,Maxim Burov,RUS,220.0,0,0.3025,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Mykola Puzderko,UKR,200.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Lloyd Wallace,GBR,180.0,0,0.2025,0.0,0.0,0.0,0.0
+Men's Aerials,Freestyle Skiing,Pirmin Werner,SUI,160.0,0,0.16,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Colby Stevenson,USA,500.0,0,0.5102,1.0,0.0,0.0,1.0
+Men's Big Air,Snowboard,Kira Kimura,JPN,550.0,0,0.8403,1.0,0.0,0.0,1.0
+Men's Big Air,Freestyle Skiing,Birk Ruud,NOR,700.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Big Air,Freestyle Skiing,Oliwer Magnusson,SWE,650.0,0,0.8622,0.0,1.0,0.0,1.0
+Men's Big Air,Freestyle Skiing,Alex Hall,USA,600.0,0,0.7347,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Mac Forehand,USA,550.0,0,0.6173,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Andri Ragettli,SUI,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Ferdinand Dahl,NOR,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Kim Gubser,SUI,350.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Jesper Tjader,SWE,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Men's Big Air,Freestyle Skiing,Henrik Harlaut,SWE,250.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Su Yiming,CHN,600.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Big Air,Snowboard,Marcus Kleveland,NOR,500.0,0,0.6944,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Mark McMorris,CAN,450.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Max Parrot,CAN,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Mons Roisland,NOR,350.0,0,0.3403,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Staale Sandbech,NOR,300.0,0,0.25,0.0,1.0,0.0,1.0
+Men's Big Air,Snowboard,Chris Corning,USA,280.0,0,0.2178,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Sebastien Toutant,CAN,260.0,0,0.1878,0.0,0.0,0.0,0.0
+Men's Big Air,Snowboard,Red Gerard,USA,240.0,0,0.16,0.0,0.0,0.0,0.0
+Men's Curling,Curling,Brad Gushue,CAN,77015.0,0,0.8341,1.0,0.0,0.0,1.0
+Men's Curling,Curling,Bruce Mouat,SCO,84328.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Curling,Curling,Niklas Edin,SWE,67254.0,0,0.6361,0.0,0.0,0.0,0.0
+Men's Curling,Curling,Yannick Schwaller,SUI,53716.0,0,0.4058,0.0,1.0,0.0,1.0
+Men's Curling,Curling,Joel Retornaz,ITA,41000.0,0,0.2364,0.0,0.0,0.0,0.0
+Men's Curling,Curling,Korey Dropkin,USA,38000.0,0,0.2031,0.0,0.0,0.0,0.0
+Men's Curling,Curling,Magnus Ramsfjell,NOR,35000.0,0,0.1723,0.0,0.0,0.0,0.0
+Men's Curling,Curling,Steffen Walstad,NOR,32000.0,0,0.144,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Marco Odermatt,SUI,1285.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Downhill,Alpine Skiing,Allmen Franjo Von,SUI,522.0,0,0.165,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Alexis Monney,SUI,327.0,0,0.0648,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Miha Hrobat,SLO,320.0,0,0.062,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Justin Murisier,SUI,257.0,0,0.04,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Stefan Rogentin,SUI,234.0,0,0.0332,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Nils Allegre,FRA,193.0,0,0.0226,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Ryan Cochran-Siegle,USA,176.0,0,0.0188,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Bryce Bennett,USA,164.0,0,0.0163,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Stefan Eichberger,AUT,129.0,0,0.0101,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Florian Schieder,ITA,128.0,0,0.0099,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Daniel Hemetsberger,AUT,122.0,0,0.009,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Mattia Casse,ITA,122.0,0,0.009,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Stefan Babinsky,AUT,121.0,0,0.0089,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Maxence Muzaton,FRA,105.0,0,0.0067,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Lars Roesti,SUI,99.0,0,0.0059,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Elian Lehto,FIN,70.0,0,0.003,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Brodie Seger,CAN,66.0,0,0.0026,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Otmar Striedinger,AUT,64.0,0,0.0025,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Romed Baumann,GER,62.0,0,0.0023,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Marco Kohler,SUI,59.0,0,0.0021,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Nejc Naralocnik,SLO,58.0,0,0.002,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Adrien Theaux,FRA,57.0,0,0.002,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Martin Cater,SLO,50.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Jan Zabystran,CZE,46.0,0,0.0013,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Lucas Pinheiro Braathen,BRA,618.0,0,0.2313,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Atle Lie McGrath,NOR,578.0,0,0.2023,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Franjo von Allmen,SUI,524.0,0,0.1663,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Henrik Kristoffersen,NOR,516.0,0,0.1612,0.0,0.0,1.0,1.0
+Men's Downhill,Alpine Skiing,Loic Meillard,SUI,490.0,0,0.1454,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Manuel Feller,AUT,460.0,0,0.1281,0.0,1.0,0.0,1.0
+Men's Downhill,Alpine Skiing,Alexis Pinturault,FRA,420.0,0,0.1068,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Clement Noel,FRA,400.0,0,0.0969,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Marco Schwarz,AUT,380.0,0,0.0875,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Timon Haugan,NOR,360.0,0,0.0785,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Vincent Kriechmayr,AUT,340.0,0,0.07,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Cameron Alexander,CAN,300.0,0,0.0545,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,James Crawford,CAN,280.0,0,0.0475,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Johan Clarey,FRA,260.0,0,0.0409,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Travis Ganong,USA,240.0,0,0.0349,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Dominik Paris,ITA,220.0,0,0.0293,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Cyprien Sarrazin,FRA,200.0,0,0.0242,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Zan Kranjec,SLO,180.0,0,0.0196,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,River Radamus,USA,160.0,0,0.0155,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Filip Zubcic,CRO,140.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Stefan Hadalin,SLO,130.0,0,0.0102,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Sebastian Foss-Solevaag,NOR,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Luca De Aliprandini,ITA,110.0,0,0.0073,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Tommy Ford,USA,100.0,0,0.0061,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Adrian Smiseth Sejersted,NOR,90.0,0,0.0049,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Rasmus Windingstad,NOR,80.0,0,0.0039,0.0,0.0,0.0,0.0
+Men's Downhill,Alpine Skiing,Leif Kristian Nestvold-Haugen,NOR,70.0,0,0.003,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Mikael Kingsbury,CAN,1100.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Dual Moguls,Freestyle Skiing,Matt Graham,AUS,950.0,0,0.7459,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Nick Page,USA,850.0,0,0.5971,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Ikuma Horishima,JPN,800.0,0,0.5289,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Walter Wallberg,SWE,750.0,0,0.4649,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Benjamin Cavet,FRA,700.0,0,0.405,0.0,0.0,1.0,1.0
+Men's Dual Moguls,Freestyle Skiing,Ludvig Fjallstrom,SWE,650.0,0,0.3492,0.0,1.0,0.0,1.0
+Men's Dual Moguls,Freestyle Skiing,Daichi Hara,JPN,600.0,0,0.2975,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Cole McDonald,USA,550.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Dylan Walczyk,USA,500.0,0,0.2066,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Rasmus Stegfeldt,SWE,450.0,0,0.1674,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Filip Gravenfors,SWE,400.0,0,0.1322,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Albin Holmgren,SWE,350.0,0,0.1012,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Felix Elofsson,SWE,300.0,0,0.0744,0.0,0.0,0.0,0.0
+Men's Dual Moguls,Freestyle Skiing,Birk Ruud,NOR,250.0,0,0.0517,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Manuel Feller,AUT,460.0,0,0.1281,1.0,0.0,0.0,1.0
+Men's Giant Slalom,Alpine Skiing,Olsen Alexander Steen,NOR,346.0,0,0.0725,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Braathen Lucas Pinheiro,BRA,341.0,0,0.0704,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Thomas Tumler,SUI,298.0,0,0.0538,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Stefan Brennsteiner,AUT,284.0,0,0.0488,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Aliprandini Luca De,ITA,237.0,0,0.034,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Patrick Feurstein,AUT,205.0,0,0.0255,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Leo Anguenot,FRA,165.0,0,0.0165,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Thibaut Favrot,FRA,162.0,0,0.0159,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Joan Verdu,AND,153.0,0,0.0142,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Sam Maes,BEL,121.0,0,0.0089,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Luca Aerni,SUI,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Anton Grammel,GER,107.0,0,0.0069,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Alex Vinatzer,ITA,98.0,0,0.0058,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Raphael Haaser,AUT,94.0,0,0.0054,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Gino Caviezel,SUI,89.0,0,0.0048,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Alexander Schmid,GER,53.0,0,0.0017,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Vite Filippo Della,ITA,45.0,0,0.0012,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Tormis Laine,EST,44.0,0,0.0012,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Fabian Gratz,GER,43.0,0,0.0011,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Marco Odermatt,SUI,1285.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Giant Slalom,Alpine Skiing,Lucas Pinheiro Braathen,BRA,618.0,0,0.2313,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Atle Lie McGrath,NOR,578.0,0,0.2023,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Franjo von Allmen,SUI,524.0,0,0.1663,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Henrik Kristoffersen,NOR,516.0,0,0.1612,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Loic Meillard,SUI,490.0,0,0.1454,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Alexis Pinturault,FRA,420.0,0,0.1068,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Clement Noel,FRA,400.0,0,0.0969,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Marco Schwarz,AUT,380.0,0,0.0875,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Timon Haugan,NOR,360.0,0,0.0785,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Vincent Kriechmayr,AUT,340.0,0,0.07,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Cameron Alexander,CAN,300.0,0,0.0545,0.0,0.0,1.0,1.0
+Men's Giant Slalom,Alpine Skiing,James Crawford,CAN,280.0,0,0.0475,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Johan Clarey,FRA,260.0,0,0.0409,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Travis Ganong,USA,240.0,0,0.0349,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Dominik Paris,ITA,220.0,0,0.0293,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Cyprien Sarrazin,FRA,200.0,0,0.0242,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Zan Kranjec,SLO,180.0,0,0.0196,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,River Radamus,USA,160.0,0,0.0155,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Filip Zubcic,CRO,140.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Stefan Hadalin,SLO,130.0,0,0.0102,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Sebastian Foss-Solevaag,NOR,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Luca De Aliprandini,ITA,110.0,0,0.0073,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Tommy Ford,USA,100.0,0,0.0061,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Adrian Smiseth Sejersted,NOR,90.0,0,0.0049,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Rasmus Windingstad,NOR,80.0,0,0.0039,0.0,0.0,0.0,0.0
+Men's Giant Slalom,Alpine Skiing,Leif Kristian Nestvold-Haugen,NOR,70.0,0,0.003,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Birk Ruud,NOR,550.0,0,0.8403,1.0,0.0,0.0,1.0
+Men's Halfpipe,Snowboard,Valentino Guseli,AUS,550.0,0,0.8403,1.0,0.0,0.0,1.0
+Men's Halfpipe,Freestyle Skiing,Nico Porteous,NZL,600.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Alex Ferreira,USA,500.0,0,0.6944,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,David Wise,USA,450.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Aaron Blunck,USA,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Noah Bowman,CAN,350.0,0,0.3403,0.0,1.0,0.0,1.0
+Men's Halfpipe,Freestyle Skiing,Brendan Mackay,CAN,300.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Simon D Artois,CAN,250.0,0,0.1736,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Kevin Rolland,FRA,200.0,0,0.1111,0.0,0.0,0.0,0.0
+Men's Halfpipe,Freestyle Skiing,Ben Harrington,NZL,150.0,0,0.0625,0.0,0.0,1.0,1.0
+Men's Halfpipe,Snowboard,Yuto Totsuka,JPN,600.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Ryusei Yamada,JPN,500.0,0,0.6944,0.0,0.0,1.0,1.0
+Men's Halfpipe,Snowboard,Ruka Hirano,JPN,450.0,0,0.5625,0.0,1.0,0.0,1.0
+Men's Halfpipe,Snowboard,Jan Scherrer,SUI,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Scotty James,AUS,350.0,0,0.3403,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Chase Josey,USA,300.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Taylor Gold,USA,280.0,0,0.2178,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Ayumu Hirano,JPN,260.0,0,0.1878,0.0,0.0,0.0,0.0
+Men's Halfpipe,Snowboard,Andre Hoeflich,GER,240.0,0,0.16,0.0,0.0,0.0,0.0
+Men's Ice Hockey,Ice Hockey,Team Czechia,CZE,3945.0,0,0.9258,1.0,0.0,0.0,1.0
+Men's Ice Hockey,Ice Hockey,Team Canada,CAN,4100.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Ice Hockey,Ice Hockey,Team Finland,FIN,3955.0,0,0.9305,0.0,0.0,0.0,0.0
+Men's Ice Hockey,Ice Hockey,Team Switzerland,SUI,3945.0,0,0.9258,0.0,0.0,0.0,0.0
+Men's Ice Hockey,Ice Hockey,Team USA,USA,3900.0,0,0.9048,0.0,0.0,1.0,1.0
+Men's Ice Hockey,Ice Hockey,Team Sweden,SWE,3850.0,0,0.8818,0.0,0.0,0.0,0.0
+Men's Ice Hockey,Ice Hockey,Team Germany,GER,3600.0,0,0.771,0.0,1.0,0.0,1.0
+Men's Ice Hockey,Ice Hockey,Team Slovakia,SVK,3500.0,0,0.7287,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Ryota Yamamoto,JPN,950.0,0,0.3979,1.0,0.0,0.0,1.0
+Men's Individual Large Hill,Nordic Combined,Vinzenz Geiger,GER,1506.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Individual Large Hill,Nordic Combined,Johannes Lamparter,AUT,1317.0,0,0.7648,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Julian Schmid,GER,1100.0,0,0.5335,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Stefan Rettenegger,AUT,850.0,0,0.3186,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Jens Luraas Oftebro,NOR,800.0,0,0.2822,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Manuel Faisst,GER,750.0,0,0.248,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Ilkka Herola,FIN,700.0,0,0.216,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Eero Hirvonen,FIN,650.0,0,0.1863,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Joergen Graabak,NOR,600.0,0,0.1587,0.0,1.0,0.0,1.0
+Men's Individual Large Hill,Nordic Combined,Espen Andersen,NOR,550.0,0,0.1334,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Lukas Greiderer,AUT,500.0,0,0.1102,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Espen Bjoernstad,NOR,450.0,0,0.0893,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,Nordic Combined,Akito Watabe,JPN,400.0,0,0.0705,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Johannes Lamparter,AUT,1317.0,0,0.7648,1.0,0.0,0.0,1.0
+Men's Individual Normal Hill,Nordic Combined,Vinzenz Geiger,GER,1506.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Individual Normal Hill,Nordic Combined,Julian Schmid,GER,1100.0,0,0.5335,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Ryota Yamamoto,JPN,950.0,0,0.3979,0.0,0.0,1.0,1.0
+Men's Individual Normal Hill,Nordic Combined,Stefan Rettenegger,AUT,850.0,0,0.3186,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Jens Luraas Oftebro,NOR,800.0,0,0.2822,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Manuel Faisst,GER,750.0,0,0.248,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Ilkka Herola,FIN,700.0,0,0.216,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Eero Hirvonen,FIN,650.0,0,0.1863,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Joergen Graabak,NOR,600.0,0,0.1587,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Espen Andersen,NOR,550.0,0,0.1334,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Lukas Greiderer,AUT,500.0,0,0.1102,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Espen Bjoernstad,NOR,450.0,0,0.0893,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,Nordic Combined,Akito Watabe,JPN,400.0,0,0.0705,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Stefan Kraft,AUT,1100.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Large Hill Individual,Ski Jumping,Jan Hoerl,AUT,950.0,0,0.7459,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Pius Paschke,GER,900.0,0,0.6694,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Daniel Tschofenig,AUT,850.0,0,0.5971,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Anze Lanisek,SLO,800.0,0,0.5289,0.0,0.0,1.0,1.0
+Men's Large Hill Individual,Ski Jumping,Gregor Deschwanden,SUI,750.0,0,0.4649,0.0,1.0,0.0,1.0
+Men's Large Hill Individual,Ski Jumping,Ryoyu Kobayashi,JPN,700.0,0,0.405,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Johann Andre Forfang,NOR,650.0,0,0.3492,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Marius Lindvik,NOR,600.0,0,0.2975,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Halvor Egner Granerud,NOR,550.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Karl Geiger,GER,500.0,0,0.2066,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Andreas Wellinger,GER,450.0,0,0.1674,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Domen Prevc,SLO,420.0,0,0.1458,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Peter Prevc,SLO,400.0,0,0.1322,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Michael Hayboeck,AUT,380.0,0,0.1193,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Ren Nikaido,JPN,360.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Lovro Kos,SLO,340.0,0,0.0955,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Dawid Kubacki,POL,320.0,0,0.0846,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Piotr Zyla,POL,300.0,0,0.0744,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Markus Eisenbichler,GER,280.0,0,0.0648,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Robert Johansson,NOR,260.0,0,0.0559,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Robin Pedersen,NOR,240.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Thomas Aasen Markeng,NOR,220.0,0,0.04,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Daniel Andre Tande,NOR,200.0,0,0.0331,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Kamil Stoch,POL,180.0,0,0.0268,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Anders Fannemel,NOR,160.0,0,0.0212,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Philip Sjoeen,NOR,140.0,0,0.0162,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Benjamin Oestvold,NOR,120.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Stephan Embacher,AUT,100.0,0,0.0083,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,Ski Jumping,Felix Hoffmann,GER,80.0,0,0.0053,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Bart Swings,BEL,286.0,0,0.7034,1.0,0.0,0.0,1.0
+Men's Mass Start,Speed Skating,Andrea Giovannini,ITA,341.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Mass Start,Speed Skating,Bart Hoolwerf,NED,312.0,0,0.8371,0.0,1.0,0.0,1.0
+Men's Mass Start,Speed Skating,Timothy Loubineaud,FRA,310.0,0,0.8264,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Jorrit Bergsma,NED,269.0,0,0.6223,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Daniele Di Stefano,ITA,258.0,0,0.5724,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Indra Medard,BEL,254.0,0,0.5548,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Seung-Hoon Lee,KOR,220.0,0,0.4162,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Livio Wenger,SUI,216.0,0,0.4012,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Fridtjof Petzold,GER,204.0,0,0.3579,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Mathieu Belloir,FRA,154.0,0,0.204,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Ethan Cepuran,USA,136.0,0,0.1591,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Gabriel Odor,AUT,130.0,0,0.1453,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Shomu Sasaki,JPN,119.0,0,0.1218,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,David La Rue,CAN,118.0,0,0.1197,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Felix Maly,GER,106.0,0,0.0966,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Jae-Won Chung,KOR,92.0,0,0.0728,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Allan Dahl Johansson,NOR,65.0,0,0.0363,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Didrik Eng Strand,NOR,59.0,0,0.0299,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Szymon Palka,POL,51.0,0,0.0224,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Peter Michael,NZL,47.0,0,0.019,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Metoděj Jílek,CZE,43.0,0,0.0159,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Kotaro Kasahara,JPN,33.0,0,0.0094,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Hayden Mayeur,CAN,30.0,0,0.0077,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Viktor Hald Thorup,DEN,24.0,0,0.005,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Marcin Bachanek,POL,22.0,0,0.0042,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Jake Weidemann,CAN,16.0,0,0.0022,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Baoshuo Pan,CHN,15.0,0,0.0019,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Jonathan Tobon,USA,13.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's Mass Start,Speed Skating,Motonaga Arito,JPN,12.0,0,0.0012,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Mikael Kingsbury,CAN,1100.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Moguls,Freestyle Skiing,Matt Graham,AUS,950.0,0,0.7459,0.0,1.0,0.0,1.0
+Men's Moguls,Freestyle Skiing,Nick Page,USA,850.0,0,0.5971,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Ikuma Horishima,JPN,800.0,0,0.5289,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Walter Wallberg,SWE,750.0,0,0.4649,0.0,0.0,1.0,1.0
+Men's Moguls,Freestyle Skiing,Benjamin Cavet,FRA,700.0,0,0.405,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Ludvig Fjallstrom,SWE,650.0,0,0.3492,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Daichi Hara,JPN,600.0,0,0.2975,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Cole McDonald,USA,550.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Dylan Walczyk,USA,500.0,0,0.2066,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Rasmus Stegfeldt,SWE,450.0,0,0.1674,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Filip Gravenfors,SWE,400.0,0,0.1322,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Albin Holmgren,SWE,350.0,0,0.1012,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Felix Elofsson,SWE,300.0,0,0.0744,0.0,0.0,0.0,0.0
+Men's Moguls,Freestyle Skiing,Birk Ruud,NOR,250.0,0,0.0517,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Anze Lanisek,SLO,800.0,0,0.5289,1.0,0.0,0.0,1.0
+Men's Normal Hill Individual,Ski Jumping,Stefan Kraft,AUT,1100.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Normal Hill Individual,Ski Jumping,Jan Hoerl,AUT,950.0,0,0.7459,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Pius Paschke,GER,900.0,0,0.6694,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Daniel Tschofenig,AUT,850.0,0,0.5971,0.0,0.0,1.0,1.0
+Men's Normal Hill Individual,Ski Jumping,Gregor Deschwanden,SUI,750.0,0,0.4649,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Ryoyu Kobayashi,JPN,700.0,0,0.405,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Johann Andre Forfang,NOR,650.0,0,0.3492,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Marius Lindvik,NOR,600.0,0,0.2975,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Halvor Egner Granerud,NOR,550.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Karl Geiger,GER,500.0,0,0.2066,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Andreas Wellinger,GER,450.0,0,0.1674,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Domen Prevc,SLO,420.0,0,0.1458,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Peter Prevc,SLO,400.0,0,0.1322,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Michael Hayboeck,AUT,380.0,0,0.1193,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Ren Nikaido,JPN,360.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Lovro Kos,SLO,340.0,0,0.0955,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Dawid Kubacki,POL,320.0,0,0.0846,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Piotr Zyla,POL,300.0,0,0.0744,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Markus Eisenbichler,GER,280.0,0,0.0648,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Robert Johansson,NOR,260.0,0,0.0559,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Robin Pedersen,NOR,240.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Thomas Aasen Markeng,NOR,220.0,0,0.04,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Daniel Andre Tande,NOR,200.0,0,0.0331,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Kamil Stoch,POL,180.0,0,0.0268,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Anders Fannemel,NOR,160.0,0,0.0212,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Philip Sjoeen,NOR,140.0,0,0.0162,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Benjamin Oestvold,NOR,120.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Stephan Embacher,AUT,100.0,0,0.0083,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,Ski Jumping,Felix Hoffmann,GER,80.0,0,0.0053,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,Snowboard,Edwin Coratti,ITA,350.0,0,0.3403,1.0,0.0,0.0,1.0
+Men's Parallel Giant Slalom,Snowboard,Benjamin Karl,AUT,600.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,Snowboard,Dmitry Loginov,RUS,550.0,0,0.8403,0.0,1.0,0.0,1.0
+Men's Parallel Giant Slalom,Snowboard,Roland Fischnaller,ITA,500.0,0,0.6944,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,Snowboard,Tim Mastnak,SLO,450.0,0,0.5625,0.0,0.0,1.0,1.0
+Men's Parallel Giant Slalom,Snowboard,Sangho Lee,KOR,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,Snowboard,Arvid Auner,AUT,300.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,Snowboard,Victor Wild,RUS,250.0,0,0.1736,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Daniel Grassl,ITA,1186.0,0,0.6252,1.0,0.0,0.0,1.0
+Men's Singles,Figure Skating,Ilia Malinin,USA,1500.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Singles,Figure Skating,Yuma Kagiyama,JPN,1390.0,0,0.8587,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Adam Siao Him Fa,FRA,1333.0,0,0.7897,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Shun Sato,JPN,1267.0,0,0.7135,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Nika Egadze,GEO,1156.0,0,0.5939,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Mikhail Shaidorov,KAZ,1132.0,0,0.5695,0.0,0.0,1.0,1.0
+Men's Singles,Figure Skating,Lukas Britschgi,SUI,1129.0,0,0.5665,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Kazuki Tomono,JPN,1105.0,0,0.5427,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Jason Brown,USA,1067.0,0,0.506,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Kevin Aymoz,FRA,1000.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Singles,Figure Skating,Keegan Messing,CAN,950.0,0,0.4011,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Wolfgang Kindl,AUT,159.0,0,0.4178,1.0,0.0,0.0,1.0
+Men's Singles Luge,Luge,Felix Loch,GER,246.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Singles Luge,Luge,Jonas Mueller,AUT,245.0,0,0.9919,0.0,0.0,1.0,1.0
+Men's Singles Luge,Luge,Max Langenhan,GER,240.0,0,0.9518,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Nico Gleirscher,AUT,152.0,0,0.3818,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Kristers Aparjods,LAT,140.0,0,0.3239,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Dominik Fischnaller,ITA,130.0,0,0.2793,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Sebastian Bley,GER,120.0,0,0.238,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Chris Mazdzer,USA,100.0,0,0.1652,0.0,0.0,0.0,0.0
+Men's Singles Luge,Luge,Tucker West,USA,90.0,0,0.1338,0.0,0.0,0.0,0.0
+Men's Skeleton,Skeleton,Vladyslav Heraskevych,UKR,300.0,0,0.25,1.0,0.0,0.0,1.0
+Men's Skeleton,Skeleton,Matt Weston,GBR,600.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Skeleton,Skeleton,Martins Dukurs,LAT,550.0,0,0.8403,0.0,0.0,1.0,1.0
+Men's Skeleton,Skeleton,Marcus Wyatt,GBR,500.0,0,0.6944,0.0,0.0,0.0,0.0
+Men's Skeleton,Skeleton,Christopher Grotheer,GER,450.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's Skeleton,Skeleton,Axel Jungk,GER,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Skeleton,Skeleton,Austin Florian,USA,350.0,0,0.3403,0.0,0.0,0.0,0.0
+Men's Skeleton,Skeleton,Seunggi Jung,KOR,280.0,0,0.2178,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Simone Deromedis,ITA,965.0,0,0.8643,1.0,0.0,0.0,1.0
+Men's Ski Cross,Freestyle Skiing,Reece Howden,CAN,1038.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Florian Wilmsmann,GER,902.0,0,0.7551,0.0,0.0,1.0,1.0
+Men's Ski Cross,Freestyle Skiing,Youri Duplessis Kergomard,FRA,715.0,0,0.4745,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Alex Fiva,SUI,638.0,0,0.3778,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,David Mobaerg,SWE,544.0,0,0.2747,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Kevin Drury,CAN,518.0,0,0.249,0.0,1.0,0.0,1.0
+Men's Ski Cross,Freestyle Skiing,Ryan Regez,SUI,495.0,0,0.2274,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Tobias Baur,SUI,413.0,0,0.1583,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Adam Kappacher,AUT,392.0,0,0.1426,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Erik Mobaerg,SWE,350.0,0,0.1137,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Victor Oehling Norberg,SWE,300.0,0,0.0835,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Kristoffer Haugen,NOR,250.0,0,0.058,0.0,0.0,0.0,0.0
+Men's Ski Cross,Freestyle Skiing,Terence Tchiknavorian,FRA,200.0,0,0.0371,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,2200.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Skiathlon,Cross-Country Skiing,Westgaard Thomas Maloney,IRL,398.0,0,0.0327,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Jens Burman,SWE,350.0,0,0.0253,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Calle Halfvarsson,SWE,344.0,0,0.0244,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Truls Gisselman,SWE,333.0,0,0.0229,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Altimiras Ireneu Esteve,AND,320.0,0,0.0212,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Jules Lapierre,FRA,312.0,0,0.0201,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Davide Graz,ITA,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Naoto Baba,JPN,307.0,0,0.0195,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Edvin Anger,SWE,1731.0,0,0.6191,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Erik Valnes,NOR,1530.0,0,0.4837,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Federico Pellegrino,ITA,1510.0,0,0.4711,0.0,0.0,1.0,1.0
+Men's Skiathlon,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,1439.0,0,0.4278,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Simen Hegstad Krueger,NOR,1431.0,0,0.4231,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Hugo Lapalus,FRA,1388.0,0,0.398,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Andreas Fjorden Ree,NOR,1235.0,0,0.3151,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Martin Loewstroem Nyenget,NOR,1154.0,0,0.2751,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Ben Ogden,USA,1087.0,0,0.2441,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Mika Vermeulen,AUT,1082.0,0,0.2419,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Friedrich Moch,GER,1004.0,0,0.2083,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Mathis Desloges,FRA,986.0,0,0.2009,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Gus Schumacher,USA,965.0,0,0.1924,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,William Poromaa,SWE,958.0,0,0.1896,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Iivo Niskanen,FIN,924.0,0,0.1764,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Paal Golberg,NOR,870.0,0,0.1564,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Iver Tildheim Andersen,NOR,782.0,0,0.1263,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Lucas Chanavat,FRA,731.0,0,0.1104,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Lauri Vuorinen,FIN,720.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Even Northug,NOR,699.0,0,0.101,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Andrew Musgrave,GBR,659.0,0,0.0897,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Jan Thomas Jenssen,NOR,627.0,0,0.0812,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Arsi Ruuskanen,FIN,576.0,0,0.0685,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Michal Novak,CZE,555.0,0,0.0636,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Jules Chappaz,FRA,522.0,0,0.0563,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Richard Jouve,FRA,496.0,0,0.0508,0.0,1.0,0.0,1.0
+Men's Skiathlon,Cross-Country Skiing,Valerio Grond,SUI,492.0,0,0.05,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,JC Schoonmaker,USA,480.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's Skiathlon,Cross-Country Skiing,Thomas Maloney Westgaard,IRL,476.0,0,0.0468,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Atle Lie McGrath,NOR,578.0,0,0.2023,1.0,0.0,0.0,1.0
+Men's Slalom,Alpine Skiing,Braathen Lucas Pinheiro,BRA,373.0,0,0.0843,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Fabio Gstrein,AUT,359.0,0,0.0781,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Tanguy Nef,SUI,327.0,0,0.0648,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Linus Strasser,GER,305.0,0,0.0563,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Steven Amiez,FRA,268.0,0,0.0435,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Albert Popov,BUL,229.0,0,0.0318,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Samuel Kolega,CRO,226.0,0,0.0309,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Daniel Yule,SUI,217.0,0,0.0285,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Dave Ryding,GBR,197.0,0,0.0235,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Kristoffer Jakobsen,SWE,188.0,0,0.0214,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Benjamin Ritchie,USA,178.0,0,0.0192,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Alex Vinatzer,ITA,174.0,0,0.0183,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Victor Muffat-Jeandet,FRA,169.0,0,0.0173,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Armand Marchant,BEL,153.0,0,0.0142,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Dominik Raschner,AUT,134.0,0,0.0109,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Paco Rassat,FRA,123.0,0,0.0092,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Johannes Strolz,AUT,119.0,0,0.0086,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Michael Matt,AUT,105.0,0,0.0067,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Olsen Alexander Steen,NOR,97.0,0,0.0057,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Adrian Pertl,AUT,86.0,0,0.0045,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Luca Aerni,SUI,74.0,0,0.0033,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Marc Rochat,SUI,71.0,0,0.0031,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Marco Odermatt,SUI,1285.0,0,1.0,0.0,0.0,1.0,1.0
+Men's Slalom,Alpine Skiing,Lucas Pinheiro Braathen,BRA,618.0,0,0.2313,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Franjo von Allmen,SUI,524.0,0,0.1663,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Henrik Kristoffersen,NOR,516.0,0,0.1612,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Loic Meillard,SUI,490.0,0,0.1454,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Manuel Feller,AUT,460.0,0,0.1281,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Alexis Pinturault,FRA,420.0,0,0.1068,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Clement Noel,FRA,400.0,0,0.0969,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Marco Schwarz,AUT,380.0,0,0.0875,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Timon Haugan,NOR,360.0,0,0.0785,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Vincent Kriechmayr,AUT,340.0,0,0.07,0.0,1.0,0.0,1.0
+Men's Slalom,Alpine Skiing,Cameron Alexander,CAN,300.0,0,0.0545,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,James Crawford,CAN,280.0,0,0.0475,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Johan Clarey,FRA,260.0,0,0.0409,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Travis Ganong,USA,240.0,0,0.0349,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Dominik Paris,ITA,220.0,0,0.0293,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Cyprien Sarrazin,FRA,200.0,0,0.0242,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Zan Kranjec,SLO,180.0,0,0.0196,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,River Radamus,USA,160.0,0,0.0155,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Filip Zubcic,CRO,140.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Stefan Hadalin,SLO,130.0,0,0.0102,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Sebastian Foss-Solevaag,NOR,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Luca De Aliprandini,ITA,110.0,0,0.0073,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Tommy Ford,USA,100.0,0,0.0061,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Adrian Smiseth Sejersted,NOR,90.0,0,0.0049,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Rasmus Windingstad,NOR,80.0,0,0.0039,0.0,0.0,0.0,0.0
+Men's Slalom,Alpine Skiing,Leif Kristian Nestvold-Haugen,NOR,70.0,0,0.003,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Mac Forehand,USA,550.0,0,0.6173,1.0,0.0,0.0,1.0
+Men's Slopestyle,Snowboard,Chris Corning,USA,280.0,0,0.2178,1.0,0.0,0.0,1.0
+Men's Slopestyle,Freestyle Skiing,Birk Ruud,NOR,700.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Oliwer Magnusson,SWE,650.0,0,0.8622,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Alex Hall,USA,600.0,0,0.7347,0.0,0.0,1.0,1.0
+Men's Slopestyle,Freestyle Skiing,Colby Stevenson,USA,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Andri Ragettli,SUI,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Ferdinand Dahl,NOR,400.0,0,0.3265,0.0,1.0,0.0,1.0
+Men's Slopestyle,Freestyle Skiing,Kim Gubser,SUI,350.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Jesper Tjader,SWE,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Men's Slopestyle,Freestyle Skiing,Henrik Harlaut,SWE,250.0,0,0.1276,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Su Yiming,CHN,600.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Kira Kimura,JPN,550.0,0,0.8403,0.0,0.0,1.0,1.0
+Men's Slopestyle,Snowboard,Marcus Kleveland,NOR,500.0,0,0.6944,0.0,1.0,0.0,1.0
+Men's Slopestyle,Snowboard,Mark McMorris,CAN,450.0,0,0.5625,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Max Parrot,CAN,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Mons Roisland,NOR,350.0,0,0.3403,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Staale Sandbech,NOR,300.0,0,0.25,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Sebastien Toutant,CAN,260.0,0,0.1878,0.0,0.0,0.0,0.0
+Men's Slopestyle,Snowboard,Red Gerard,USA,240.0,0,0.16,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Alessandro Haemmerle,AUT,342.0,0,0.171,1.0,0.0,0.0,1.0
+Men's Snowboard Cross,Snowboard,Eliot Grondin,CAN,827.0,0,1.0,0.0,1.0,0.0,1.0
+Men's Snowboard Cross,Snowboard,Loan Bozzolo,FRA,541.0,0,0.4279,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Aidan Chollet,FRA,503.0,0,0.3699,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Jakob Dusek,AUT,491.0,0,0.3525,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Adam Lambert,AUS,394.0,0,0.227,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Julien Tomas,FRA,372.0,0,0.2023,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Cameron Bolton,AUS,354.0,0,0.1832,0.0,0.0,1.0,1.0
+Men's Snowboard Cross,Snowboard,Leon Ulbricht,GER,350.0,0,0.1791,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,Snowboard,Merlin Surget,FRA,313.0,0,0.1432,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Edvin Anger,SWE,1731.0,0,0.6191,1.0,0.0,0.0,1.0
+Men's Sprint,Cross-Country Skiing,Janik Riebli,SUI,431.0,0,0.0384,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Oskar Opstad Vike,NOR,431.0,0,0.0384,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Ansgar Evensen,NOR,343.0,0,0.0243,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Jaume Pueyo,ESP,332.0,0,0.0228,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Niilo Moilanen,FIN,330.0,0,0.0225,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Joni Maki,FIN,330.0,0,0.0225,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Jan Stoelben,GER,327.0,0,0.0221,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Emil Danielsson,SWE,322.0,0,0.0214,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Benjamin Moser,AUT,294.0,0,0.0179,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Michael Hellweger,ITA,292.0,0,0.0176,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Emil Liekari,FIN,287.0,0,0.017,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Matz William Jenssen,NOR,268.0,0,0.0148,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Ondrej Cerny,CZE,265.0,0,0.0145,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Haavard Solaas Taugboel,NOR,248.0,0,0.0127,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Oskar Svensson,SWE,234.0,0,0.0113,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Remi Bourdin,FRA,228.0,0,0.0107,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,2200.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Erik Valnes,NOR,1530.0,0,0.4837,0.0,1.0,0.0,1.0
+Men's Sprint,Cross-Country Skiing,Federico Pellegrino,ITA,1510.0,0,0.4711,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,1439.0,0,0.4278,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Simen Hegstad Krueger,NOR,1431.0,0,0.4231,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Hugo Lapalus,FRA,1388.0,0,0.398,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Andreas Fjorden Ree,NOR,1235.0,0,0.3151,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Martin Loewstroem Nyenget,NOR,1154.0,0,0.2751,0.0,0.0,1.0,1.0
+Men's Sprint,Cross-Country Skiing,Ben Ogden,USA,1087.0,0,0.2441,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Mika Vermeulen,AUT,1082.0,0,0.2419,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Friedrich Moch,GER,1004.0,0,0.2083,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Mathis Desloges,FRA,986.0,0,0.2009,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Gus Schumacher,USA,965.0,0,0.1924,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,William Poromaa,SWE,958.0,0,0.1896,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Iivo Niskanen,FIN,924.0,0,0.1764,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Paal Golberg,NOR,870.0,0,0.1564,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Iver Tildheim Andersen,NOR,782.0,0,0.1263,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Lucas Chanavat,FRA,731.0,0,0.1104,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Lauri Vuorinen,FIN,720.0,0,0.1071,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Even Northug,NOR,699.0,0,0.101,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Andrew Musgrave,GBR,659.0,0,0.0897,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Jan Thomas Jenssen,NOR,627.0,0,0.0812,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Arsi Ruuskanen,FIN,576.0,0,0.0685,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Michal Novak,CZE,555.0,0,0.0636,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Jules Chappaz,FRA,522.0,0,0.0563,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Richard Jouve,FRA,496.0,0,0.0508,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Valerio Grond,SUI,492.0,0,0.05,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,JC Schoonmaker,USA,480.0,0,0.0476,0.0,0.0,0.0,0.0
+Men's Sprint,Cross-Country Skiing,Thomas Maloney Westgaard,IRL,476.0,0,0.0468,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Fredrik Moeller,NOR,270.0,0,0.0441,1.0,0.0,0.0,1.0
+Men's Super-G,Alpine Skiing,Stefan Rogentin,SUI,321.0,0,0.0624,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Allmen Franjo Von,SUI,314.0,0,0.0597,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Mattia Casse,ITA,260.0,0,0.0409,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Alexis Monney,SUI,240.0,0,0.0349,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Lukas Feurstein,AUT,236.0,0,0.0337,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Raphael Haaser,AUT,225.0,0,0.0307,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Nils Allegre,FRA,176.0,0,0.0188,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Giovanni Franzoni,ITA,147.0,0,0.0131,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Stefan Eichberger,AUT,141.0,0,0.012,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Justin Murisier,SUI,128.0,0,0.0099,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Miha Hrobat,SLO,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Ryan Cochran-Siegle,USA,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Jared Goldberg,USA,113.0,0,0.0077,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Stefan Babinsky,AUT,111.0,0,0.0075,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Jan Zabystran,CZE,97.0,0,0.0057,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Daniel Hemetsberger,AUT,87.0,0,0.0046,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Christof Innerhofer,ITA,59.0,0,0.0021,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Blaise Giezendanner,FRA,50.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Florian Loriot,FRA,49.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Romed Baumann,GER,49.0,0,0.0015,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Felix Monsen,SWE,45.0,0,0.0012,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Marco Odermatt,SUI,1285.0,0,1.0,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Lucas Pinheiro Braathen,BRA,618.0,0,0.2313,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Atle Lie McGrath,NOR,578.0,0,0.2023,0.0,1.0,0.0,1.0
+Men's Super-G,Alpine Skiing,Franjo von Allmen,SUI,524.0,0,0.1663,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Henrik Kristoffersen,NOR,516.0,0,0.1612,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Loic Meillard,SUI,490.0,0,0.1454,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Manuel Feller,AUT,460.0,0,0.1281,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Alexis Pinturault,FRA,420.0,0,0.1068,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Clement Noel,FRA,400.0,0,0.0969,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Marco Schwarz,AUT,380.0,0,0.0875,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Timon Haugan,NOR,360.0,0,0.0785,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Vincent Kriechmayr,AUT,340.0,0,0.07,0.0,0.0,1.0,1.0
+Men's Super-G,Alpine Skiing,Cameron Alexander,CAN,300.0,0,0.0545,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,James Crawford,CAN,280.0,0,0.0475,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Johan Clarey,FRA,260.0,0,0.0409,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Travis Ganong,USA,240.0,0,0.0349,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Dominik Paris,ITA,220.0,0,0.0293,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Cyprien Sarrazin,FRA,200.0,0,0.0242,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Zan Kranjec,SLO,180.0,0,0.0196,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,River Radamus,USA,160.0,0,0.0155,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Filip Zubcic,CRO,140.0,0,0.0119,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Stefan Hadalin,SLO,130.0,0,0.0102,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Sebastian Foss-Solevaag,NOR,120.0,0,0.0087,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Luca De Aliprandini,ITA,110.0,0,0.0073,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Tommy Ford,USA,100.0,0,0.0061,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Adrian Smiseth Sejersted,NOR,90.0,0,0.0049,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Rasmus Windingstad,NOR,80.0,0,0.0039,0.0,0.0,0.0,0.0
+Men's Super-G,Alpine Skiing,Leif Kristian Nestvold-Haugen,NOR,70.0,0,0.003,0.0,0.0,0.0,0.0
+Men's Team,Ski Jumping,Team Austria,AUT,3280.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Team,Ski Jumping,Team Germany,GER,1310.0,0,0.1595,0.0,0.0,0.0,0.0
+Men's Team,Ski Jumping,Team Slovenia,SLO,1720.0,0,0.275,0.0,1.0,0.0,1.0
+Men's Team,Ski Jumping,Team Norway,NOR,2050.0,0,0.3906,0.0,0.0,0.0,0.0
+Men's Team,Ski Jumping,Team Japan,JPN,1060.0,0,0.1044,0.0,0.0,0.0,0.0
+Men's Team,Ski Jumping,Team Poland,POL,800.0,0,0.0595,0.0,0.0,0.0,0.0
+Men's Team,Ski Jumping,Team Switzerland,SUI,750.0,0,0.0523,0.0,0.0,1.0,1.0
+Men's Team,Ski Jumping,Team Finland,FIN,120.0,0,0.0013,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Norway,NOR,3730.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Team Sprint,Nordic Combined,Team Germany,GER,2606.0,0,1.0,1.0,0.0,0.0,1.0
+Men's Team Sprint,Cross-Country Skiing,Johannes Hoesflot Klaebo,NOR,927.0,0,0.0618,0.0,1.0,0.0,1.0
+Men's Team Sprint,Cross-Country Skiing,Erik Valnes,NOR,828.0,0,0.0493,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Edvin Anger,SWE,784.0,0,0.0442,0.0,0.0,1.0,1.0
+Men's Team Sprint,Cross-Country Skiing,Lucas Chanavat,FRA,731.0,0,0.0384,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Even Northug,NOR,699.0,0,0.0351,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Federico Pellegrino,ITA,694.0,0,0.0346,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Ben Ogden,USA,544.0,0,0.0213,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Lauri Vuorinen,FIN,525.0,0,0.0198,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Valerio Grond,SUI,439.0,0,0.0139,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Janik Riebli,SUI,431.0,0,0.0134,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Oskar Opstad Vike,NOR,431.0,0,0.0134,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Jules Chappaz,FRA,414.0,0,0.0123,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,JC Schoonmaker,USA,411.0,0,0.0121,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Richard Jouve,FRA,389.0,0,0.0109,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Harald Oestberg Amundsen,NOR,360.0,0,0.0093,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Ansgar Evensen,NOR,343.0,0,0.0085,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Jaume Pueyo,ESP,332.0,0,0.0079,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Niilo Moilanen,FIN,330.0,0,0.0078,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Joni Maki,FIN,330.0,0,0.0078,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Jan Stoelben,GER,327.0,0,0.0077,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Emil Danielsson,SWE,322.0,0,0.0075,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Benjamin Moser,AUT,294.0,0,0.0062,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Michael Hellweger,ITA,292.0,0,0.0061,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Emil Liekari,FIN,287.0,0,0.0059,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Matz William Jenssen,NOR,268.0,0,0.0052,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Ondrej Cerny,CZE,265.0,0,0.005,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Haavard Solaas Taugboel,NOR,248.0,0,0.0044,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Oskar Svensson,SWE,234.0,0,0.0039,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Remi Bourdin,FRA,228.0,0,0.0037,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Gus Schumacher,USA,220.0,0,0.0035,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Sweden,SWE,2689.0,0,0.5197,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team France,FRA,2119.0,0,0.3227,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Finland,FIN,1644.0,0,0.1943,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team USA,USA,2052.0,0,0.3026,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Germany,GER,1004.0,0,0.0725,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Italy,ITA,1510.0,0,0.1639,0.0,0.0,0.0,0.0
+Men's Team Sprint,Cross-Country Skiing,Team Switzerland,SUI,492.0,0,0.0174,0.0,0.0,0.0,0.0
+Men's Team Sprint,Nordic Combined,Team Austria,AUT,2167.0,0,0.6915,0.0,1.0,0.0,1.0
+Men's Team Sprint,Nordic Combined,Team Japan,JPN,1350.0,0,0.2684,0.0,0.0,0.0,0.0
+Men's Team Sprint,Nordic Combined,Team Norway,NOR,1400.0,0,0.2886,0.0,0.0,0.0,0.0
+Men's Team Sprint,Nordic Combined,Team Finland,FIN,1350.0,0,0.2684,0.0,0.0,1.0,1.0
+Men's Team Sprint,Nordic Combined,Team France,FRA,500.0,0,0.0368,0.0,0.0,0.0,0.0
+Men's Team Sprint,Nordic Combined,Team USA,USA,400.0,0,0.0236,0.0,0.0,0.0,0.0
+Men's Team Sprint,Nordic Combined,Team Italy,ITA,300.0,0,0.0133,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Italy,ITA,58603.0,0,0.9459,1.0,0.0,0.0,1.0
+Mixed Doubles Curling,Curling,Team Scotland,GBR,60254.0,0,1.0,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Norway,NOR,53254.0,0,0.7811,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Sweden,SWE,50857.0,0,0.7124,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Switzerland,SUI,48000.0,0,0.6346,0.0,1.0,0.0,1.0
+Mixed Doubles Curling,Curling,Team Canada,CAN,45000.0,0,0.5578,0.0,0.0,1.0,1.0
+Mixed Doubles Curling,Curling,Team USA,USA,42000.0,0,0.4859,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team South Korea,KOR,38000.0,0,0.3977,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Japan,JPN,35000.0,0,0.3374,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,Curling,Team Hungary,HUN,32000.0,0,0.2821,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Germany,GER,65.0,0,0.4681,1.0,0.0,0.0,1.0
+Mixed Relay,Biathlon,Team France,FRA,95.0,0,1.0,0.0,1.0,0.0,1.0
+Mixed Relay,Biathlon,Team Norway,NOR,80.0,0,0.7091,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Sweden,SWE,75.0,0,0.6233,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Italy,ITA,55.0,0,0.3352,0.0,0.0,1.0,1.0
+Mixed Relay,Biathlon,Team Finland,FIN,50.0,0,0.277,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Switzerland,SUI,45.0,0,0.2244,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team USA,USA,40.0,0,0.1773,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Austria,AUT,35.0,0,0.1357,0.0,0.0,0.0,0.0
+Mixed Relay,Biathlon,Team Czechia,CZE,30.0,0,0.0997,0.0,0.0,0.0,0.0
+Mixed Team,Ski Jumping,Team Norway,NOR,1907.0,0,0.3598,1.0,0.0,0.0,1.0
+Mixed Team,Ski Jumping,Team Austria,AUT,3179.0,0,1.0,0.0,0.0,0.0,0.0
+Mixed Team,Ski Jumping,Team Slovenia,SLO,2906.0,0,0.8356,0.0,1.0,0.0,1.0
+Mixed Team,Ski Jumping,Team Germany,GER,2247.0,0,0.4996,0.0,0.0,0.0,0.0
+Mixed Team,Ski Jumping,Team Japan,JPN,2066.0,0,0.4224,0.0,0.0,1.0,1.0
+Mixed Team,Ski Jumping,Team Canada,CAN,904.0,0,0.0809,0.0,0.0,0.0,0.0
+Mixed Team,Ski Jumping,Team France,FRA,320.0,0,0.0101,0.0,0.0,0.0,0.0
+Mixed Team,Ski Jumping,Team Switzerland,SUI,750.0,0,0.0557,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Benjamin Maier,AUT,650.0,0,0.6602,1.0,0.0,0.0,1.0
+Two-Man Bobsled,Bobsleigh,Francesco Friedrich,GER,800.0,0,1.0,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Johannes Lochner,GER,750.0,0,0.8789,0.0,0.0,1.0,1.0
+Two-Man Bobsled,Bobsleigh,Adam Edelman,GER,700.0,0,0.7656,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Brad Hall,GBR,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Christoph Hafer,GER,550.0,0,0.4727,0.0,1.0,0.0,1.0
+Two-Man Bobsled,Bobsleigh,Hunter Church,USA,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Frank Delduca,USA,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Justin Kripps,CAN,400.0,0,0.25,0.0,0.0,0.0,0.0
+Two-Man Bobsled,Bobsleigh,Oskars Kibermanis,LAT,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,Bobsleigh,Lisa Buckwitz,GER,650.0,0,0.8622,1.0,0.0,0.0,1.0
+Two-Woman Bobsled,Bobsleigh,Laura Nolte,GER,700.0,0,1.0,0.0,1.0,0.0,1.0
+Two-Woman Bobsled,Bobsleigh,Kaillie Humphries,USA,600.0,0,0.7347,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,Bobsleigh,Elana Meyers Taylor,USA,550.0,0,0.6173,0.0,0.0,1.0,1.0
+Two-Woman Bobsled,Bobsleigh,Mariama Jamanka,GER,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,Bobsleigh,Christine de Bruin,CAN,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,Bobsleigh,Kim Kalicki,GER,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,Bobsleigh,Melanie Hasler,SUI,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Kim Gil-li,KOR,700.0,0,0.7656,1.0,0.0,0.0,1.0
+Women's 1000m,Speed Skating,Brittany Bowe,USA,306.0,0,0.2783,1.0,0.0,0.0,1.0
+Women's 1000m,Short Track Speed Skating,Courtney Sarault,CAN,800.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Xandra Velzeboer,NED,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Choi Min-jeong,KOR,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Suzanne Schulting,NED,600.0,0,0.5625,0.0,1.0,0.0,1.0
+Women's 1000m,Short Track Speed Skating,Kim Boutin,CAN,550.0,0,0.4727,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Natalia Maliszewska,POL,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Kristen Santos-Griswold,USA,450.0,0,0.3164,0.0,0.0,1.0,1.0
+Women's 1000m,Short Track Speed Skating,Hanne Desmet,BEL,400.0,0,0.25,0.0,0.0,0.0,0.0
+Women's 1000m,Short Track Speed Skating,Florence Brunelle,CAN,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Miho Takagi,JPN,580.0,0,1.0,0.0,1.0,0.0,1.0
+Women's 1000m,Speed Skating,Jutta Leerdam,NED,311.0,0,0.2875,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Mei Han,CHN,290.0,0,0.25,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Antoinette Rijpma-de Jong,NED,248.0,0,0.1828,0.0,0.0,1.0,1.0
+Women's 1000m,Speed Skating,Angel Daleman,NED,245.0,0,0.1784,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Suzanne Schulting,NED,189.0,0,0.1062,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Kimi Goetz,USA,163.0,0,0.079,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Rio Yamada,JPN,155.0,0,0.0714,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Natalia Jabrzyk,POL,149.0,0,0.066,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Ayano Sato,JPN,135.0,0,0.0542,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Nadezhda Morozova,KAZ,110.0,0,0.036,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Marrit Fledderus,NED,109.0,0,0.0353,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Karolina Bosiek,POL,108.0,0,0.0347,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Béatrice Lamarche,CAN,102.0,0,0.0309,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Andżelika Wójcik,POL,96.0,0,0.0274,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Min Sun Kim,KOR,90.0,0,0.0241,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Vanessa Herzog,AUT,84.0,0,0.021,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Yukino Yoshida,JPN,81.0,0,0.0195,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Nikola Zdráhalova,CZE,72.0,0,0.0154,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Lea Sophie Scholz,GER,66.0,0,0.0129,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Isabelle Van Elst,BEL,64.0,0,0.0122,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Mia Manganello,USA,37.0,0,0.0041,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Sofia Thorup,DEN,30.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Na-Hyun Lee,KOR,26.0,0,0.002,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Ivanie Blondin,CAN,26.0,0,0.002,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Greta Myers,USA,23.0,0,0.0016,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Anna Ostlender,GER,22.0,0,0.0014,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Qi Yin,CHN,20.0,0,0.0012,0.0,0.0,0.0,0.0
+Women's 1000m,Speed Skating,Isabel Grevelt,NED,18.0,0,0.001,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Julia Kern,USA,347.0,0,0.0249,1.0,0.0,0.0,1.0
+Women's 10km,Cross-Country Skiing,Therese Johaug,NOR,1121.0,0,0.2603,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Nora Sanness,NOR,821.0,0,0.1396,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Katerina Janatova,CZE,742.0,0,0.1141,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Kristin Austgulen Fosnaes,NOR,736.0,0,0.1122,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Pia Fink,GER,709.0,0,0.1041,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Flora Dolci,FRA,646.0,0,0.0865,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Silje Theodorsen,NOR,567.0,0,0.0666,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Sophia Laukli,USA,519.0,0,0.0558,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Katherine Stewart-Jones,CAN,468.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Helen Hoffmann,GER,466.0,0,0.045,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Lotta Udnes Weng,NOR,418.0,0,0.0362,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Katherine Sauerbrey,GER,363.0,0,0.0273,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Helene Marie Fossesholm,NOR,341.0,0,0.0241,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Jessie Diggins,USA,2197.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Victoria Carl,GER,1827.0,0,0.6915,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Kerttu Niskanen,FIN,1692.0,0,0.5931,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Moa Ilar,SWE,1630.0,0,0.5504,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Jonna Sundling,SWE,1537.0,0,0.4894,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Maja Dahlqvist,SWE,1454.0,0,0.438,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Ebba Andersson,SWE,1412.0,0,0.4131,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Karoline Simpson-Larsen,NOR,1380.0,0,0.3945,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Heidi Weng,NOR,1375.0,0,0.3917,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Frida Karlsson,SWE,1368.0,0,0.3877,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Jasmi Joensuu,FIN,1357.0,0,0.3815,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Emma Ribom,SWE,1338.0,0,0.3709,0.0,0.0,1.0,1.0
+Women's 10km,Cross-Country Skiing,Teresa Stadlober,AUT,1200.0,0,0.2983,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Katharina Hennig,GER,1150.0,0,0.274,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Astrid Oeyre Slind,NOR,1100.0,0,0.2507,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Linn Svahn,SWE,1050.0,0,0.2284,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Krista Parmakoski,FIN,1000.0,0,0.2072,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Rosie Brennan,USA,950.0,0,0.187,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Anne Kjersti Kalva,NOR,850.0,0,0.1497,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Delphine Claudel,FRA,800.0,0,0.1326,0.0,1.0,0.0,1.0
+Women's 10km,Cross-Country Skiing,Johanna Hagstroem,SWE,750.0,0,0.1165,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Nadine Faehndrich,SUI,700.0,0,0.1015,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Ane Appelkvist Stenseth,NOR,650.0,0,0.0875,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Jessica Yeaton,AUS,600.0,0,0.0746,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Caterina Ganz,ITA,550.0,0,0.0627,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Margrethe Bergane,NOR,500.0,0,0.0518,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Anamarija Lampic,SLO,450.0,0,0.042,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Anna Dyvik,SWE,400.0,0,0.0331,0.0,0.0,0.0,0.0
+Women's 10km,Cross-Country Skiing,Sofia Henriksson,SWE,350.0,0,0.0254,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Julia Simon,FRA,317.0,0,0.1598,1.0,0.0,0.0,1.0
+Women's 10km Pursuit,Biathlon,Lou Jeanmonnot,FRA,793.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Suvi Minkkinen,FIN,601.0,0,0.5744,0.0,0.0,1.0,1.0
+Women's 10km Pursuit,Biathlon,Maren Kirkeeide,NOR,576.0,0,0.5276,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Hanna Oeberg,SWE,560.0,0,0.4987,0.0,1.0,0.0,1.0
+Women's 10km Pursuit,Biathlon,Anna Magnusson,SWE,556.0,0,0.4916,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Elvira Karin Oeberg,SWE,506.0,0,0.4072,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Justine Braisaz-Bouchet,FRA,453.0,0,0.3263,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Camille Bened,FRA,441.0,0,0.3093,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Lisa Vittozzi,ITA,429.0,0,0.2927,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Dorothea Wierer,ITA,415.0,0,0.2739,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Franziska Preuss,GER,366.0,0,0.213,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Oceane Michelon,FRA,350.0,0,0.1948,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Amy Baserga,SUI,315.0,0,0.1578,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Vanessa Voigt,GER,245.0,0,0.0955,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Karoline Knotten,NOR,240.0,0,0.0916,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Ingrid Landmark Tandrevold,NOR,235.0,0,0.0878,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Mari Eder,FIN,230.0,0,0.0841,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Marte Olsbu Roeiseland,NOR,225.0,0,0.0805,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Lena Haecki-Gross,SUI,220.0,0,0.077,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Marketa Davidova,CZE,215.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Sophia Schneider,GER,210.0,0,0.0701,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Ida Lien,NOR,205.0,0,0.0668,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Lucie Charvatova,CZE,200.0,0,0.0636,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Synnoeve Solemdal,NOR,195.0,0,0.0605,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Gilonne Guigonnat,FRA,190.0,0,0.0574,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Selina Grotian,GER,185.0,0,0.0544,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Daria Krykova-Budasheva,AIN,180.0,0,0.0515,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Ella Halvarsson,SWE,175.0,0,0.0487,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,Biathlon,Erika Janka,FIN,170.0,0,0.046,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Hanna Oeberg,SWE,560.0,0,0.4987,1.0,0.0,0.0,1.0
+Women's 12.5km Mass Start,Biathlon,Lou Jeanmonnot,FRA,793.0,0,1.0,0.0,1.0,0.0,1.0
+Women's 12.5km Mass Start,Biathlon,Suvi Minkkinen,FIN,601.0,0,0.5744,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Maren Kirkeeide,NOR,576.0,0,0.5276,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Anna Magnusson,SWE,556.0,0,0.4916,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Elvira Karin Oeberg,SWE,506.0,0,0.4072,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Justine Braisaz-Bouchet,FRA,453.0,0,0.3263,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Camille Bened,FRA,441.0,0,0.3093,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Lisa Vittozzi,ITA,429.0,0,0.2927,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Dorothea Wierer,ITA,415.0,0,0.2739,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Franziska Preuss,GER,366.0,0,0.213,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Oceane Michelon,FRA,350.0,0,0.1948,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Julia Simon,FRA,317.0,0,0.1598,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Amy Baserga,SUI,315.0,0,0.1578,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Vanessa Voigt,GER,245.0,0,0.0955,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Karoline Knotten,NOR,240.0,0,0.0916,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Ingrid Landmark Tandrevold,NOR,235.0,0,0.0878,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Mari Eder,FIN,230.0,0,0.0841,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Marte Olsbu Roeiseland,NOR,225.0,0,0.0805,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Lena Haecki-Gross,SUI,220.0,0,0.077,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Marketa Davidova,CZE,215.0,0,0.0735,0.0,0.0,1.0,1.0
+Women's 12.5km Mass Start,Biathlon,Sophia Schneider,GER,210.0,0,0.0701,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Ida Lien,NOR,205.0,0,0.0668,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Lucie Charvatova,CZE,200.0,0,0.0636,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Synnoeve Solemdal,NOR,195.0,0,0.0605,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Gilonne Guigonnat,FRA,190.0,0,0.0574,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Selina Grotian,GER,185.0,0,0.0544,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Daria Krykova-Budasheva,AIN,180.0,0,0.0515,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Ella Halvarsson,SWE,175.0,0,0.0487,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,Biathlon,Erika Janka,FIN,170.0,0,0.046,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Choi Min-jeong,KOR,650.0,0,0.6602,1.0,0.0,0.0,1.0
+Women's 1500m,Speed Skating,Brittany Bowe,USA,204.0,0,0.1539,1.0,0.0,0.0,1.0
+Women's 1500m,Short Track Speed Skating,Courtney Sarault,CAN,800.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Xandra Velzeboer,NED,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Kim Gil-li,KOR,700.0,0,0.7656,0.0,0.0,1.0,1.0
+Women's 1500m,Short Track Speed Skating,Suzanne Schulting,NED,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Kim Boutin,CAN,550.0,0,0.4727,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Natalia Maliszewska,POL,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Kristen Santos-Griswold,USA,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Women's 1500m,Short Track Speed Skating,Hanne Desmet,BEL,400.0,0,0.25,0.0,1.0,0.0,1.0
+Women's 1500m,Short Track Speed Skating,Florence Brunelle,CAN,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Miho Takagi,JPN,520.0,0,1.0,0.0,1.0,0.0,1.0
+Women's 1500m,Speed Skating,Joy Beune,NED,440.0,0,0.716,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Mei Han,CHN,276.0,0,0.2817,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Marijke Groenewoud,NED,252.0,0,0.2349,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Antoinette Rijpma-de Jong,NED,219.0,0,0.1774,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Francesca Lollobrigida,ITA,201.0,0,0.1494,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Binyu Yang,CHN,200.0,0,0.1479,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Ragne Wiklund,NOR,200.0,0,0.1479,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Ivanie Blondin,CAN,183.0,0,0.1238,0.0,0.0,1.0,1.0
+Women's 1500m,Speed Skating,Angel Daleman,NED,169.0,0,0.1056,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Valerie Maltais,CAN,158.0,0,0.0923,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Isabelle Van Elst,BEL,132.0,0,0.0644,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Melissa Wijfje,NED,108.0,0,0.0431,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Momoka Horikawa,JPN,100.0,0,0.037,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Martina Sáblíková,CZE,87.0,0,0.028,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Greta Myers,USA,87.0,0,0.028,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Ayano Sato,JPN,66.0,0,0.0161,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Nikola Zdráhalova,CZE,65.0,0,0.0156,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Nadezhda Morozova,KAZ,42.0,0,0.0065,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Qi Yin,CHN,40.0,0,0.0059,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Kaitlyn McGregor,SUI,39.0,0,0.0056,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Kimi Goetz,USA,38.0,0,0.0053,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Natalia Jabrzyk,POL,36.0,0,0.0048,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Mia Manganello,USA,28.0,0,0.0029,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Lea Sophie Scholz,GER,27.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Arianna Fontana,ITA,14.0,0,0.0007,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Ji-Woo Park,KOR,14.0,0,0.0007,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Rin Kosaka,JPN,13.0,0,0.0006,0.0,0.0,0.0,0.0
+Women's 1500m,Speed Skating,Marlen Ehseluns,GER,11.0,0,0.0004,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Lou Jeanmonnot,FRA,793.0,0,1.0,1.0,0.0,0.0,1.0
+Women's 15km Individual,Biathlon,Suvi Minkkinen,FIN,601.0,0,0.5744,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Maren Kirkeeide,NOR,576.0,0,0.5276,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Hanna Oeberg,SWE,560.0,0,0.4987,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Anna Magnusson,SWE,556.0,0,0.4916,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Elvira Karin Oeberg,SWE,506.0,0,0.4072,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Justine Braisaz-Bouchet,FRA,453.0,0,0.3263,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Camille Bened,FRA,441.0,0,0.3093,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Lisa Vittozzi,ITA,429.0,0,0.2927,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Dorothea Wierer,ITA,415.0,0,0.2739,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Franziska Preuss,GER,366.0,0,0.213,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Oceane Michelon,FRA,350.0,0,0.1948,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Julia Simon,FRA,317.0,0,0.1598,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Amy Baserga,SUI,315.0,0,0.1578,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Vanessa Voigt,GER,245.0,0,0.0955,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Karoline Knotten,NOR,240.0,0,0.0916,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Ingrid Landmark Tandrevold,NOR,235.0,0,0.0878,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Mari Eder,FIN,230.0,0,0.0841,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Marte Olsbu Roeiseland,NOR,225.0,0,0.0805,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Lena Haecki-Gross,SUI,220.0,0,0.077,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Marketa Davidova,CZE,215.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Sophia Schneider,GER,210.0,0,0.0701,0.0,0.0,1.0,1.0
+Women's 15km Individual,Biathlon,Ida Lien,NOR,205.0,0,0.0668,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Lucie Charvatova,CZE,200.0,0,0.0636,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Synnoeve Solemdal,NOR,195.0,0,0.0605,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Gilonne Guigonnat,FRA,190.0,0,0.0574,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Selina Grotian,GER,185.0,0,0.0544,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Daria Krykova-Budasheva,AIN,180.0,0,0.0515,0.0,1.0,0.0,1.0
+Women's 15km Individual,Biathlon,Ella Halvarsson,SWE,175.0,0,0.0487,0.0,0.0,0.0,0.0
+Women's 15km Individual,Biathlon,Erika Janka,FIN,170.0,0,0.046,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Francesca Lollobrigida,ITA,260.0,0,0.3195,1.0,0.0,0.0,1.0
+Women's 3000m,Speed Skating,Ragne Wiklund,NOR,460.0,0,1.0,0.0,1.0,0.0,1.0
+Women's 3000m,Speed Skating,Joy Beune,NED,280.0,0,0.3705,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Merel Conijn,NED,231.0,0,0.2522,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Marijke Groenewoud,NED,220.0,0,0.2287,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Martina Sáblíková,CZE,210.0,0,0.2084,0.0,0.0,1.0,1.0
+Women's 3000m,Speed Skating,Isabelle Weidemann,CAN,204.0,0,0.1967,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Ivanie Blondin,CAN,194.0,0,0.1779,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Valerie Maltais,CAN,165.0,0,0.1287,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Momoka Horikawa,JPN,150.0,0,0.1063,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Sanne In 't Hof,NED,142.0,0,0.0953,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Binyu Yang,CHN,138.0,0,0.09,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Josie Hofmann,GER,67.0,0,0.0212,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Laura Hall,CAN,53.0,0,0.0133,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Sandrine Tas,BEL,52.0,0,0.0128,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Mei Han,CHN,42.0,0,0.0083,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Elisa Dul,NED,34.0,0,0.0055,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Nikola Zdráhalova,CZE,32.0,0,0.0048,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Ahenaer Adake,CHN,20.0,0,0.0019,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Greta Myers,USA,18.0,0,0.0015,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Alice Marletti,ITA,16.0,0,0.0012,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Mia Manganello,USA,16.0,0,0.0012,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Nadezhda Morozova,KAZ,16.0,0,0.0012,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Melissa Wijfje,NED,15.0,0,0.0011,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Maira Jasch,GER,15.0,0,0.0011,0.0,0.0,0.0,0.0
+Women's 3000m,Speed Skating,Yuka Takahashi,JPN,15.0,0,0.0011,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Flora Dolci,FRA,646.0,0,0.0074,1.0,0.0,0.0,1.0
+Women's 4x5km Relay,Cross-Country Skiing,Jessie Diggins,USA,1384.0,0,0.0341,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Astrid Oeyre Slind,NOR,1382.0,0,0.034,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Victoria Carl,GER,1211.0,0,0.0261,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Kerttu Niskanen,FIN,1205.0,0,0.0258,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Therese Johaug,NOR,1121.0,0,0.0223,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Ebba Andersson,SWE,1096.0,0,0.0214,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Teresa Stadlober,AUT,970.0,0,0.0167,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Heidi Weng,NOR,956.0,0,0.0162,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Nora Sanness,NOR,821.0,0,0.012,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Moa Ilar,SWE,805.0,0,0.0115,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Katharina Hennig,GER,799.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Katerina Janatova,CZE,742.0,0,0.0098,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Kristin Austgulen Fosnaes,NOR,736.0,0,0.0096,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Pia Fink,GER,709.0,0,0.0089,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Krista Parmakoski,FIN,692.0,0,0.0085,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Silje Theodorsen,NOR,567.0,0,0.0057,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Sophia Laukli,USA,519.0,0,0.0048,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Katherine Stewart-Jones,CAN,468.0,0,0.0039,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Helen Hoffmann,GER,466.0,0,0.0039,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Lotta Udnes Weng,NOR,418.0,0,0.0031,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Jonna Sundling,SWE,398.0,0,0.0028,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Caterina Ganz,ITA,397.0,0,0.0028,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Emma Ribom,SWE,390.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Frida Karlsson,SWE,387.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Katherine Sauerbrey,GER,363.0,0,0.0023,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Julia Kern,USA,347.0,0,0.0021,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Helene Marie Fossesholm,NOR,341.0,0,0.0021,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Nadine Faehndrich,SUI,328.0,0,0.0019,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Rosie Brennan,USA,305.0,0,0.0017,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Sweden,SWE,7500.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Norway,NOR,7200.0,0,0.9216,0.0,1.0,0.0,1.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Finland,FIN,5800.0,0,0.598,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Germany,GER,5400.0,0,0.5184,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team USA,USA,4200.0,0,0.3136,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Switzerland,SUI,3000.0,0,0.16,0.0,0.0,1.0,1.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Italy,ITA,2500.0,0,0.1111,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,Cross-Country Skiing,Team Austria,AUT,2000.0,0,0.0711,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Switzerland,SUI,40.0,0,0.2215,1.0,0.0,0.0,1.0
+Women's 4x6km Relay,Biathlon,Team France,FRA,85.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Sweden,SWE,70.0,0,0.6782,0.0,0.0,1.0,1.0
+Women's 4x6km Relay,Biathlon,Team Germany,GER,65.0,0,0.5848,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Norway,NOR,60.0,0,0.4983,0.0,1.0,0.0,1.0
+Women's 4x6km Relay,Biathlon,Team Finland,FIN,50.0,0,0.346,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Italy,ITA,45.0,0,0.2803,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team USA,USA,35.0,0,0.1696,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Austria,AUT,30.0,0,0.1246,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,Biathlon,Team Czechia,CZE,25.0,0,0.0865,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Joy Beune,NED,100.0,0,1.0,1.0,0.0,0.0,1.0
+Women's 5000m,Speed Skating,Merel Conijn,NED,80.0,0,0.64,0.0,0.0,1.0,1.0
+Women's 5000m,Speed Skating,Martina Sáblíková,CZE,60.0,0,0.36,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Francesca Lollobrigida,ITA,50.0,0,0.25,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Isabelle Weidemann,CAN,45.0,0,0.2025,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Ragne Wiklund,NOR,40.0,0,0.16,0.0,1.0,0.0,1.0
+Women's 5000m,Speed Skating,Sanne In 't Hof,NED,36.0,0,0.1296,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Valerie Maltais,CAN,32.0,0,0.1024,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Binyu Yang,CHN,29.0,0,0.0841,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Marijke Groenewoud,NED,26.0,0,0.0676,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Ivanie Blondin,CAN,24.0,0,0.0576,0.0,0.0,0.0,0.0
+Women's 5000m,Speed Skating,Momoka Horikawa,JPN,22.0,0,0.0484,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Kim Gil-li,KOR,700.0,0,0.7656,1.0,0.0,0.0,1.0
+Women's 500m,Speed Skating,Suzanne Schulting,NED,513.0,0,0.4938,1.0,0.0,0.0,1.0
+Women's 500m,Short Track Speed Skating,Courtney Sarault,CAN,800.0,0,1.0,0.0,1.0,0.0,1.0
+Women's 500m,Short Track Speed Skating,Xandra Velzeboer,NED,750.0,0,0.8789,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Choi Min-jeong,KOR,650.0,0,0.6602,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Suzanne Schulting,NED,600.0,0,0.5625,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Kim Boutin,CAN,550.0,0,0.4727,0.0,0.0,1.0,1.0
+Women's 500m,Short Track Speed Skating,Natalia Maliszewska,POL,500.0,0,0.3906,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Kristen Santos-Griswold,USA,450.0,0,0.3164,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Hanne Desmet,BEL,400.0,0,0.25,0.0,0.0,0.0,0.0
+Women's 500m,Short Track Speed Skating,Florence Brunelle,CAN,350.0,0,0.1914,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Erin Jackson,USA,730.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Andżelika Wójcik,POL,581.0,0,0.6334,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Yukino Yoshida,JPN,562.0,0,0.5927,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Femke Kok,NED,500.0,0,0.4691,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Kaja Ziomek-Nogal,POL,442.0,0,0.3666,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Kurumi Inagawa,JPN,394.0,0,0.2913,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Min Sun Kim,KOR,381.0,0,0.2724,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Dione Voskamp,NED,369.0,0,0.2555,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Jutta Leerdam,NED,296.0,0,0.1644,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Naomi Verkerk,NED,267.0,0,0.1338,0.0,0.0,1.0,1.0
+Women's 500m,Speed Skating,Kimi Goetz,USA,240.0,0,0.1081,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Kristina Silaeva,KAZ,220.0,0,0.0908,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Ruining Tian,CHN,214.0,0,0.0859,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Carolina Hiller-Donnelly,CAN,197.0,0,0.0728,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Na-Hyun Lee,KOR,188.0,0,0.0663,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Vanessa Herzog,AUT,158.0,0,0.0468,0.0,1.0,0.0,1.0
+Women's 500m,Speed Skating,Serena Pergher,ITA,146.0,0,0.04,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Brittany Bowe,USA,128.0,0,0.0307,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Karolina Bosiek,POL,117.0,0,0.0257,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Sophie Warmuth,GER,104.0,0,0.0203,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Rio Yamada,JPN,80.0,0,0.012,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Julie Nistad Samsonsen,NOR,79.0,0,0.0117,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Ying-Chu Chen,TPE,70.0,0,0.0092,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Michelle De Jong,NED,66.0,0,0.0082,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Jingziqian Wang,CHN,53.0,0,0.0053,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Marrit Fledderus,NED,36.0,0,0.0024,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Kako Yamane,JPN,34.0,0,0.0022,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Anna Ostlender,GER,30.0,0,0.0017,0.0,0.0,0.0,0.0
+Women's 500m,Speed Skating,Meng Xu,CHN,12.0,0,0.0003,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Karoline Simpson-Larsen,NOR,1380.0,0,0.3945,1.0,0.0,0.0,1.0
+Women's 50km Mass Start,Cross-Country Skiing,Therese Johaug,NOR,1121.0,0,0.2603,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Nora Sanness,NOR,821.0,0,0.1396,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Katerina Janatova,CZE,742.0,0,0.1141,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Kristin Austgulen Fosnaes,NOR,736.0,0,0.1122,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Pia Fink,GER,709.0,0,0.1041,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Flora Dolci,FRA,646.0,0,0.0865,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Silje Theodorsen,NOR,567.0,0,0.0666,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Sophia Laukli,USA,519.0,0,0.0558,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Katherine Stewart-Jones,CAN,468.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Helen Hoffmann,GER,466.0,0,0.045,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Lotta Udnes Weng,NOR,418.0,0,0.0362,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Katherine Sauerbrey,GER,363.0,0,0.0273,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Julia Kern,USA,347.0,0,0.0249,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Helene Marie Fossesholm,NOR,341.0,0,0.0241,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Jessie Diggins,USA,2197.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Victoria Carl,GER,1827.0,0,0.6915,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Kerttu Niskanen,FIN,1692.0,0,0.5931,0.0,0.0,1.0,1.0
+Women's 50km Mass Start,Cross-Country Skiing,Moa Ilar,SWE,1630.0,0,0.5504,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Jonna Sundling,SWE,1537.0,0,0.4894,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Maja Dahlqvist,SWE,1454.0,0,0.438,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Ebba Andersson,SWE,1412.0,0,0.4131,0.0,1.0,0.0,1.0
+Women's 50km Mass Start,Cross-Country Skiing,Heidi Weng,NOR,1375.0,0,0.3917,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Frida Karlsson,SWE,1368.0,0,0.3877,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Jasmi Joensuu,FIN,1357.0,0,0.3815,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Emma Ribom,SWE,1338.0,0,0.3709,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Teresa Stadlober,AUT,1200.0,0,0.2983,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Katharina Hennig,GER,1150.0,0,0.274,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Astrid Oeyre Slind,NOR,1100.0,0,0.2507,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Linn Svahn,SWE,1050.0,0,0.2284,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Krista Parmakoski,FIN,1000.0,0,0.2072,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Rosie Brennan,USA,950.0,0,0.187,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Anne Kjersti Kalva,NOR,850.0,0,0.1497,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Delphine Claudel,FRA,800.0,0,0.1326,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Johanna Hagstroem,SWE,750.0,0,0.1165,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Nadine Faehndrich,SUI,700.0,0,0.1015,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Ane Appelkvist Stenseth,NOR,650.0,0,0.0875,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Jessica Yeaton,AUS,600.0,0,0.0746,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Caterina Ganz,ITA,550.0,0,0.0627,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Margrethe Bergane,NOR,500.0,0,0.0518,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Anamarija Lampic,SLO,450.0,0,0.042,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Anna Dyvik,SWE,400.0,0,0.0331,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,Cross-Country Skiing,Sofia Henriksson,SWE,350.0,0,0.0254,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Justine Braisaz-Bouchet,FRA,453.0,0,0.3263,1.0,0.0,0.0,1.0
+Women's 7.5km Sprint,Biathlon,Lou Jeanmonnot,FRA,793.0,0,1.0,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Suvi Minkkinen,FIN,601.0,0,0.5744,0.0,1.0,0.0,1.0
+Women's 7.5km Sprint,Biathlon,Maren Kirkeeide,NOR,576.0,0,0.5276,0.0,0.0,1.0,1.0
+Women's 7.5km Sprint,Biathlon,Hanna Oeberg,SWE,560.0,0,0.4987,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Anna Magnusson,SWE,556.0,0,0.4916,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Elvira Karin Oeberg,SWE,506.0,0,0.4072,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Camille Bened,FRA,441.0,0,0.3093,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Lisa Vittozzi,ITA,429.0,0,0.2927,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Dorothea Wierer,ITA,415.0,0,0.2739,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Franziska Preuss,GER,366.0,0,0.213,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Oceane Michelon,FRA,350.0,0,0.1948,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Julia Simon,FRA,317.0,0,0.1598,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Amy Baserga,SUI,315.0,0,0.1578,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Vanessa Voigt,GER,245.0,0,0.0955,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Karoline Knotten,NOR,240.0,0,0.0916,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Ingrid Landmark Tandrevold,NOR,235.0,0,0.0878,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Mari Eder,FIN,230.0,0,0.0841,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Marte Olsbu Roeiseland,NOR,225.0,0,0.0805,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Lena Haecki-Gross,SUI,220.0,0,0.077,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Marketa Davidova,CZE,215.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Sophia Schneider,GER,210.0,0,0.0701,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Ida Lien,NOR,205.0,0,0.0668,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Lucie Charvatova,CZE,200.0,0,0.0636,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Synnoeve Solemdal,NOR,195.0,0,0.0605,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Gilonne Guigonnat,FRA,190.0,0,0.0574,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Selina Grotian,GER,185.0,0,0.0544,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Daria Krykova-Budasheva,AIN,180.0,0,0.0515,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Ella Halvarsson,SWE,175.0,0,0.0487,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,Biathlon,Erika Janka,FIN,170.0,0,0.046,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Laura Peel,AUS,380.0,0,0.9025,1.0,0.0,0.0,1.0
+Women's Aerials,Freestyle Skiing,Xu Mengtao,CHN,400.0,0,1.0,0.0,1.0,0.0,1.0
+Women's Aerials,Freestyle Skiing,Winter Vinecki,USA,320.0,0,0.64,0.0,0.0,1.0,1.0
+Women's Aerials,Freestyle Skiing,Megan Nick,USA,300.0,0,0.5625,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Kong Fanyu,CHN,280.0,0,0.49,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Xu Sicun,CHN,260.0,0,0.4225,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Marion Thenault,CAN,240.0,0,0.36,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Mengtao Xu,CHN,220.0,0,0.3025,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Liubov Nikitina,RUS,200.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Aerials,Freestyle Skiing,Olga Polyuk,UKR,180.0,0,0.2025,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Megan Oldham,CAN,600.0,0,0.7347,1.0,0.0,0.0,1.0
+Women's Big Air,Snowboard,Zoi Sadowski-Synnott,NZL,700.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Big Air,Freestyle Skiing,Eileen Gu,CHN,700.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Kelly Sildaru,EST,650.0,0,0.8622,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Mathilde Gremaud,SUI,550.0,0,0.6173,0.0,1.0,0.0,1.0
+Women's Big Air,Freestyle Skiing,Olivia Asselin,CAN,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Darian Stevens,USA,450.0,0,0.4133,0.0,0.0,1.0,1.0
+Women's Big Air,Freestyle Skiing,Tess Ledeux,FRA,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Johanne Killi,NOR,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Big Air,Freestyle Skiing,Jennie-Lee Burmansson,SWE,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Women's Big Air,Snowboard,Anna Gasser,AUT,650.0,0,0.8622,0.0,0.0,0.0,0.0
+Women's Big Air,Snowboard,Kokomo Murase,JPN,600.0,0,0.7347,0.0,1.0,0.0,1.0
+Women's Big Air,Snowboard,Tess Coady,AUS,550.0,0,0.6173,0.0,0.0,0.0,0.0
+Women's Big Air,Snowboard,Julia Marino,USA,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Big Air,Snowboard,Laurie Blouin,CAN,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Women's Big Air,Snowboard,Jamie Anderson,USA,400.0,0,0.3265,0.0,0.0,1.0,1.0
+Women's Big Air,Snowboard,Mia Brookes,GBR,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Curling,Curling,Kristin Skaslien,NOR,28000.0,0,0.0971,1.0,0.0,0.0,1.0
+Women's Curling,Curling,Silvana Tirinzoni,SUI,89851.0,0,1.0,0.0,1.0,0.0,1.0
+Women's Curling,Curling,Rachel Homan,CAN,83284.0,0,0.8592,0.0,0.0,0.0,0.0
+Women's Curling,Curling,Kim Eun-jung,KOR,55925.0,0,0.3874,0.0,0.0,1.0,1.0
+Women's Curling,Curling,Anna Hasselborg,SWE,46567.0,0,0.2686,0.0,0.0,0.0,0.0
+Women's Curling,Curling,Satsuki Fujisawa,JPN,36836.0,0,0.1681,0.0,0.0,0.0,0.0
+Women's Curling,Curling,Tabitha Peterson,USA,33000.0,0,0.1349,0.0,0.0,0.0,0.0
+Women's Curling,Curling,Marianne Roervik,NOR,30000.0,0,0.1115,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Camille Rast,SUI,883.0,0,0.7307,1.0,0.0,0.0,1.0
+Women's Downhill,Alpine Skiing,Lauren Macuga,USA,230.0,0,0.0496,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Laura Pirovano,ITA,209.0,0,0.0409,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Breezy Johnson,USA,189.0,0,0.0335,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Jacqueline Wiles,USA,112.0,0,0.0118,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Mirjam Puchner,AUT,107.0,0,0.0107,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Ariane Raedler,AUT,106.0,0,0.0105,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Kira Weidle-Winkelmann,GER,91.0,0,0.0078,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Malorie Blanc,SUI,89.0,0,0.0074,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Marte Monsen,NOR,75.0,0,0.0053,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Nicol Delago,ITA,57.0,0,0.003,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Laura Gauche,FRA,55.0,0,0.0028,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Nadia Delago,ITA,54.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Christina Ager,AUT,54.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Ricarda Haaser,AUT,53.0,0,0.0026,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Priska Ming-Nufer,SUI,50.0,0,0.0023,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Nina Ortlieb,AUT,45.0,0,0.0019,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Mikaela Shiffrin,USA,1033.0,0,1.0,0.0,0.0,1.0,1.0
+Women's Downhill,Alpine Skiing,Emma Aicher,GER,624.0,0,0.3649,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Paula Moltzan,USA,614.0,0,0.3533,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Lindsey Vonn,USA,590.0,0,0.3262,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Federica Brignone,ITA,520.0,0,0.2534,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Sofia Goggia,ITA,490.0,0,0.225,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Cornelia Huetter,AUT,460.0,0,0.1983,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Ilka Stuhec,SLO,430.0,0,0.1733,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Kajsa Vickhoff Lie,NOR,400.0,0,0.1499,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Marta Bassino,ITA,380.0,0,0.1353,0.0,1.0,0.0,1.0
+Women's Downhill,Alpine Skiing,Petra Vlhova,SVK,360.0,0,0.1215,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Sara Hector,SWE,340.0,0,0.1083,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Wendy Holdener,SUI,320.0,0,0.096,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Michelle Gisin,SUI,300.0,0,0.0843,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Ragnhild Mowinckel,NOR,280.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Thea Louise Stjernesund,NOR,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Elena Curtoni,ITA,240.0,0,0.054,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Ester Ledecka,CZE,220.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Stephanie Venier,AUT,200.0,0,0.0375,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Corinne Suter,SUI,180.0,0,0.0304,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Marie-Michele Gagnon,CAN,160.0,0,0.024,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Nina O Brien,USA,140.0,0,0.0184,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Anna Swenn Larsson,SWE,130.0,0,0.0158,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Mina Fuerst Holtmann,NOR,120.0,0,0.0135,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Maria Therese Tviberg,NOR,110.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Kristine Gjelsten Haugen,NOR,100.0,0,0.0094,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Riikka Honkanen,FIN,90.0,0,0.0076,0.0,0.0,0.0,0.0
+Women's Downhill,Alpine Skiing,Rosa Pohjolainen,FIN,80.0,0,0.006,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Perrine Laffont,FRA,1090.0,0,0.6656,1.0,0.0,0.0,1.0
+Women's Dual Moguls,Freestyle Skiing,Jaelin Kauf,USA,1336.0,0,1.0,0.0,1.0,0.0,1.0
+Women's Dual Moguls,Freestyle Skiing,Tess Johnson,USA,683.0,0,0.2614,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Maia Schwinghammer,CAN,681.0,0,0.2598,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Olivia Giaccio,USA,573.0,0,0.1839,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Jakara Anthony,AUS,550.0,0,0.1695,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Anri Kawamura,JPN,500.0,0,0.1401,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Hannah Soar,USA,450.0,0,0.1135,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Anastassiya Gorodko,KAZ,400.0,0,0.0896,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Justine Dufour-Lapointe,CAN,350.0,0,0.0686,0.0,0.0,1.0,1.0
+Women's Dual Moguls,Freestyle Skiing,Chloe Dufour-Lapointe,CAN,300.0,0,0.0504,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Hedda Berntsen,NOR,250.0,0,0.035,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Moa Backlund,SWE,200.0,0,0.0224,0.0,0.0,0.0,0.0
+Women's Dual Moguls,Freestyle Skiing,Tilde Hansson,SWE,150.0,0,0.0126,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Lara Colturi,ALB,379.0,0,0.1346,1.0,0.0,0.0,1.0
+Women's Giant Slalom,Alpine Skiing,Alice Robinson,NZL,520.0,0,0.2534,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Zrinka Ljutic,CRO,275.0,0,0.0709,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Julia Scheib,AUT,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Brien Nina O,USA,220.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Valerie Grenier,CAN,174.0,0,0.0284,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Neja Dvornik,SLO,164.0,0,0.0252,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,A J Hurt,USA,152.0,0,0.0217,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Maryna Gasienica-Daniel,POL,113.0,0,0.012,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Estelle Alphand,SWE,110.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Stephanie Brunner,AUT,108.0,0,0.0109,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Britt Richardson,CAN,102.0,0,0.0097,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Katie Hensien,USA,97.0,0,0.0088,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Ricarda Haaser,AUT,84.0,0,0.0066,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Jogan Ana Bucik,SLO,82.0,0,0.0063,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Lena Duerr,GER,75.0,0,0.0053,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Lisa Nyberg,SWE,57.0,0,0.003,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Katharina Liensberger,AUT,54.0,0,0.0027,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Mikaela Shiffrin,USA,1033.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Camille Rast,SUI,883.0,0,0.7307,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Emma Aicher,GER,624.0,0,0.3649,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Paula Moltzan,USA,614.0,0,0.3533,0.0,1.0,0.0,1.0
+Women's Giant Slalom,Alpine Skiing,Lindsey Vonn,USA,590.0,0,0.3262,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Federica Brignone,ITA,520.0,0,0.2534,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Sofia Goggia,ITA,490.0,0,0.225,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Cornelia Huetter,AUT,460.0,0,0.1983,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Ilka Stuhec,SLO,430.0,0,0.1733,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Kajsa Vickhoff Lie,NOR,400.0,0,0.1499,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Marta Bassino,ITA,380.0,0,0.1353,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Petra Vlhova,SVK,360.0,0,0.1215,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Sara Hector,SWE,340.0,0,0.1083,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Wendy Holdener,SUI,320.0,0,0.096,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Michelle Gisin,SUI,300.0,0,0.0843,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Ragnhild Mowinckel,NOR,280.0,0,0.0735,0.0,0.0,1.0,1.0
+Women's Giant Slalom,Alpine Skiing,Thea Louise Stjernesund,NOR,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Elena Curtoni,ITA,240.0,0,0.054,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Ester Ledecka,CZE,220.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Stephanie Venier,AUT,200.0,0,0.0375,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Corinne Suter,SUI,180.0,0,0.0304,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Marie-Michele Gagnon,CAN,160.0,0,0.024,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Nina O Brien,USA,140.0,0,0.0184,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Anna Swenn Larsson,SWE,130.0,0,0.0158,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Mina Fuerst Holtmann,NOR,120.0,0,0.0135,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Maria Therese Tviberg,NOR,110.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Kristine Gjelsten Haugen,NOR,100.0,0,0.0094,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Riikka Honkanen,FIN,90.0,0,0.0076,0.0,0.0,0.0,0.0
+Women's Giant Slalom,Alpine Skiing,Rosa Pohjolainen,FIN,80.0,0,0.006,0.0,0.0,0.0,0.0
+Women's Halfpipe,Freestyle Skiing,Eileen Gu,CHN,700.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Halfpipe,Snowboard,Chloe Kim,USA,700.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Halfpipe,Freestyle Skiing,Rachael Karker,CAN,600.0,0,0.7347,0.0,0.0,1.0,1.0
+Women's Halfpipe,Freestyle Skiing,Zoe Atkin,GBR,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Halfpipe,Freestyle Skiing,Hanna Faulhaber,USA,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Women's Halfpipe,Freestyle Skiing,Amy Fraser,CAN,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Halfpipe,Freestyle Skiing,Valeriya Demidova,RUS,350.0,0,0.25,0.0,1.0,0.0,1.0
+Women's Halfpipe,Freestyle Skiing,Sabrina Cakmakli,GER,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Women's Halfpipe,Freestyle Skiing,Cassie Sharpe,CAN,250.0,0,0.1276,0.0,0.0,0.0,0.0
+Women's Halfpipe,Snowboard,Sena Tomita,JPN,600.0,0,0.7347,0.0,0.0,1.0,1.0
+Women's Halfpipe,Snowboard,Queralt Castellet,ESP,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Halfpipe,Snowboard,Xuetong Cai,CHN,450.0,0,0.4133,0.0,1.0,0.0,1.0
+Women's Halfpipe,Snowboard,Maddie Mastro,USA,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Halfpipe,Snowboard,Mitsuki Ono,JPN,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Halfpipe,Snowboard,Elizabeth Hosking,CAN,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Women's Halfpipe,Snowboard,Kurumi Imai,JPN,250.0,0,0.1276,0.0,0.0,0.0,0.0
+Women's Ice Hockey,Ice Hockey,Team Canada,CAN,4140.0,0,0.9952,1.0,0.0,0.0,1.0
+Women's Ice Hockey,Ice Hockey,Team USA,USA,4150.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Ice Hockey,Ice Hockey,Team Finland,FIN,3930.0,0,0.8968,0.0,1.0,0.0,1.0
+Women's Ice Hockey,Ice Hockey,Team Czechia,CZE,3920.0,0,0.8922,0.0,0.0,0.0,0.0
+Women's Ice Hockey,Ice Hockey,Team Switzerland,SUI,3855.0,0,0.8629,0.0,0.0,0.0,0.0
+Women's Ice Hockey,Ice Hockey,Team Sweden,SWE,3800.0,0,0.8384,0.0,0.0,0.0,0.0
+Women's Ice Hockey,Ice Hockey,Team Japan,JPN,3600.0,0,0.7525,0.0,0.0,1.0,1.0
+Women's Ice Hockey,Ice Hockey,Team Germany,GER,3400.0,0,0.6712,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Nika Vodan,SLO,483.0,0,0.1456,1.0,0.0,0.0,1.0
+Women's Large Hill Individual,Ski Jumping,Nika Prevc,SLO,1266.0,0,1.0,0.0,1.0,0.0,1.0
+Women's Large Hill Individual,Ski Jumping,Nozomi Maruyama,JPN,966.0,0,0.5822,0.0,0.0,1.0,1.0
+Women's Large Hill Individual,Ski Jumping,Lisa Eder,AUT,819.0,0,0.4185,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Abigail Strate,CAN,664.0,0,0.2751,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Anna Odine Stroem,NOR,657.0,0,0.2693,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Selina Freitag,GER,618.0,0,0.2383,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Katharina Schmid,GER,529.0,0,0.1746,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Agnes Reisch,GER,470.0,0,0.1378,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Sara Takanashi,JPN,446.0,0,0.1241,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Yuki Ito,JPN,400.0,0,0.0998,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Silje Opseth,NOR,380.0,0,0.0901,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Eirin Maria Kvandal,NOR,360.0,0,0.0809,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Thea Minyan Bjoerseth,NOR,340.0,0,0.0721,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Eva Pinkelnig,AUT,300.0,0,0.0562,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Jacqueline Seifriedsberger,AUT,280.0,0,0.0489,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Alexandria Loutitt,CAN,240.0,0,0.0359,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Josephine Pagnier,FRA,220.0,0,0.0302,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Anna Rupprecht,GER,200.0,0,0.025,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Juliane Seyfarth,GER,180.0,0,0.0202,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Ursa Bogataj,SLO,160.0,0,0.016,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Ema Klinec,SLO,140.0,0,0.0122,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Jenny Rautionaho,FIN,120.0,0,0.009,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Julia Clair,FRA,100.0,0,0.0062,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Katra Komar,SLO,80.0,0,0.004,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Luisa Goerlich,GER,60.0,0,0.0022,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Frida Westman,SWE,40.0,0,0.001,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,Ski Jumping,Astrid Norstedt,SWE,20.0,0,0.0002,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Michelle Uhrig,GER,175.0,0,0.1031,1.0,0.0,0.0,1.0
+Women's Mass Start,Speed Skating,Marijke Groenewoud,NED,545.0,0,1.0,0.0,1.0,0.0,1.0
+Women's Mass Start,Speed Skating,Ivanie Blondin,CAN,297.0,0,0.297,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Mia Manganello,USA,280.0,0,0.264,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Francesca Lollobrigida,ITA,273.0,0,0.2509,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Binyu Yang,CHN,248.0,0,0.2071,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Greta Myers,USA,219.0,0,0.1615,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Valerie Maltais,CAN,207.0,0,0.1443,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Wenjing Jin,CHN,192.0,0,0.1241,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Elisa Dul,NED,178.0,0,0.1067,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Kaitlyn McGregor,SUI,156.0,0,0.0819,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Ramona Härdi,SUI,137.0,0,0.0632,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Ayano Sato,JPN,135.0,0,0.0614,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Natalia Jabrzyk,POL,115.0,0,0.0445,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Josie Hofmann,GER,106.0,0,0.0378,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Momoka Horikawa,JPN,103.0,0,0.0357,0.0,0.0,1.0,1.0
+Women's Mass Start,Speed Skating,Ji-Woo Park,KOR,100.0,0,0.0337,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Sandrine Tas,BEL,99.0,0,0.033,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Fran Vanhoutte,BEL,97.0,0,0.0317,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Alice Marletti,ITA,64.0,0,0.0138,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Aurora Grinden Løvås,NOR,57.0,0,0.0109,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Zuzana Kuršová,CZE,44.0,0,0.0065,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Violette Braun,FRA,31.0,0,0.0032,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Laura Peveri,ITA,24.0,0,0.0019,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Hanna Svenni,NOR,13.0,0,0.0006,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Olga Piotrowska,POL,12.0,0,0.0005,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Yoonji Kim,KOR,11.0,0,0.0004,0.0,0.0,0.0,0.0
+Women's Mass Start,Speed Skating,Hana Noake,JPN,11.0,0,0.0004,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Jaelin Kauf,USA,1336.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Moguls,Freestyle Skiing,Perrine Laffont,FRA,1090.0,0,0.6656,0.0,0.0,1.0,1.0
+Women's Moguls,Freestyle Skiing,Tess Johnson,USA,683.0,0,0.2614,0.0,1.0,0.0,1.0
+Women's Moguls,Freestyle Skiing,Maia Schwinghammer,CAN,681.0,0,0.2598,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Olivia Giaccio,USA,573.0,0,0.1839,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Jakara Anthony,AUS,550.0,0,0.1695,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Anri Kawamura,JPN,500.0,0,0.1401,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Hannah Soar,USA,450.0,0,0.1135,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Anastassiya Gorodko,KAZ,400.0,0,0.0896,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Justine Dufour-Lapointe,CAN,350.0,0,0.0686,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Chloe Dufour-Lapointe,CAN,300.0,0,0.0504,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Hedda Berntsen,NOR,250.0,0,0.035,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Moa Backlund,SWE,200.0,0,0.0224,0.0,0.0,0.0,0.0
+Women's Moguls,Freestyle Skiing,Tilde Hansson,SWE,150.0,0,0.0126,0.0,0.0,0.0,0.0
+Women's Monobob,Bobsleigh,Elana Meyers Taylor,USA,550.0,0,0.6173,1.0,0.0,0.0,1.0
+Women's Monobob,Bobsleigh,Laura Nolte,GER,700.0,0,1.0,0.0,0.0,1.0,1.0
+Women's Monobob,Bobsleigh,Lisa Buckwitz,GER,650.0,0,0.8622,0.0,1.0,0.0,1.0
+Women's Monobob,Bobsleigh,Kaillie Humphries,USA,600.0,0,0.7347,0.0,0.0,0.0,0.0
+Women's Monobob,Bobsleigh,Mariama Jamanka,GER,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Monobob,Bobsleigh,Christine de Bruin,CAN,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Women's Monobob,Bobsleigh,Kim Kalicki,GER,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Monobob,Bobsleigh,Melanie Hasler,SUI,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Nozomi Maruyama,JPN,966.0,0,0.5822,1.0,0.0,0.0,1.0
+Women's Normal Hill Individual,Ski Jumping,Nika Prevc,SLO,1266.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Lisa Eder,AUT,819.0,0,0.4185,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Abigail Strate,CAN,664.0,0,0.2751,0.0,0.0,1.0,1.0
+Women's Normal Hill Individual,Ski Jumping,Anna Odine Stroem,NOR,657.0,0,0.2693,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Selina Freitag,GER,618.0,0,0.2383,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Katharina Schmid,GER,529.0,0,0.1746,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Nika Vodan,SLO,483.0,0,0.1456,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Agnes Reisch,GER,470.0,0,0.1378,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Sara Takanashi,JPN,446.0,0,0.1241,0.0,1.0,0.0,1.0
+Women's Normal Hill Individual,Ski Jumping,Yuki Ito,JPN,400.0,0,0.0998,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Silje Opseth,NOR,380.0,0,0.0901,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Eirin Maria Kvandal,NOR,360.0,0,0.0809,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Thea Minyan Bjoerseth,NOR,340.0,0,0.0721,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Eva Pinkelnig,AUT,300.0,0,0.0562,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Jacqueline Seifriedsberger,AUT,280.0,0,0.0489,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Alexandria Loutitt,CAN,240.0,0,0.0359,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Josephine Pagnier,FRA,220.0,0,0.0302,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Anna Rupprecht,GER,200.0,0,0.025,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Juliane Seyfarth,GER,180.0,0,0.0202,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Ursa Bogataj,SLO,160.0,0,0.016,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Ema Klinec,SLO,140.0,0,0.0122,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Jenny Rautionaho,FIN,120.0,0,0.009,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Julia Clair,FRA,100.0,0,0.0062,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Katra Komar,SLO,80.0,0,0.004,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Luisa Goerlich,GER,60.0,0,0.0022,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Frida Westman,SWE,40.0,0,0.001,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,Ski Jumping,Astrid Norstedt,SWE,20.0,0,0.0002,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,Snowboard,Ramona Theresia Hofmeister,GER,600.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Parallel Giant Slalom,Snowboard,Ester Ledecka,CZE,550.0,0,0.8403,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,Snowboard,Daniela Ulbing,AUT,500.0,0,0.6944,0.0,1.0,0.0,1.0
+Women's Parallel Giant Slalom,Snowboard,Julie Zogg,SUI,450.0,0,0.5625,0.0,0.0,1.0,1.0
+Women's Parallel Giant Slalom,Snowboard,Sofia Nadyrshina,RUS,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,Snowboard,Selina Joerg,GER,350.0,0,0.3403,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,Snowboard,Sabine Schoeffmann,AUT,300.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,Snowboard,Cheyenne Loch,GER,250.0,0,0.1736,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Loena Hendrickx,BEL,1350.0,0,0.81,1.0,0.0,0.0,1.0
+Women's Singles,Figure Skating,Kaori Sakamoto,JPN,1500.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Isabeau Levito,USA,1400.0,0,0.8711,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Mai Mihara,JPN,1300.0,0,0.7511,0.0,1.0,0.0,1.0
+Women's Singles,Figure Skating,Bradie Tennell,USA,1250.0,0,0.6944,0.0,0.0,1.0,1.0
+Women's Singles,Figure Skating,Kim Ye-lim,KOR,1200.0,0,0.64,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Amber Glenn,USA,1150.0,0,0.5878,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Mana Kawabe,JPN,1100.0,0,0.5378,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Haein Lee,KOR,1050.0,0,0.49,0.0,0.0,0.0,0.0
+Women's Singles,Figure Skating,Young You,KOR,1000.0,0,0.4444,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Julia Taubitz,GER,250.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Singles Luge,Luge,Lisa Schulte,AUT,220.0,0,0.7744,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Madeleine Egle,AUT,200.0,0,0.64,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Dajana Eitberger,GER,180.0,0,0.5184,0.0,1.0,0.0,1.0
+Women's Singles Luge,Luge,Natalie Geisenberger,GER,160.0,0,0.4096,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Tatjana Huefner,GER,140.0,0,0.3136,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Summer Britcher,USA,120.0,0,0.2304,0.0,0.0,1.0,1.0
+Women's Singles Luge,Luge,Emily Sweeney,USA,100.0,0,0.16,0.0,0.0,0.0,0.0
+Women's Singles Luge,Luge,Eliza Tiruma,LAT,90.0,0,0.1296,0.0,0.0,0.0,0.0
+Women's Skeleton,Skeleton,Janine Flock,AUT,600.0,0,1.0,1.0,0.0,0.0,1.0
+Women's Skeleton,Skeleton,Kim Meylemans,BEL,550.0,0,0.8403,0.0,0.0,0.0,0.0
+Women's Skeleton,Skeleton,Tina Hermann,GER,500.0,0,0.6944,0.0,0.0,1.0,1.0
+Women's Skeleton,Skeleton,Jaclyn Narracott,AUS,450.0,0,0.5625,0.0,0.0,0.0,0.0
+Women's Skeleton,Skeleton,Kimberley Bos,NED,400.0,0,0.4444,0.0,0.0,0.0,0.0
+Women's Skeleton,Skeleton,Hannah Neise,GER,350.0,0,0.3403,0.0,1.0,0.0,1.0
+Women's Skeleton,Skeleton,Amelia Coltman,GBR,300.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Skeleton,Skeleton,Katie Uhlaender,USA,250.0,0,0.1736,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Brittany Phelan,CAN,700.0,0,0.6049,1.0,0.0,0.0,1.0
+Women's Ski Cross,Freestyle Skiing,Marielle Thompson,CAN,900.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Sandra Naeslund,SWE,850.0,0,0.892,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Fanny Smith,SUI,800.0,0,0.7901,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Talina Gantenbein,SUI,650.0,0,0.5216,0.0,0.0,1.0,1.0
+Women's Ski Cross,Freestyle Skiing,Daniela Maier,GER,600.0,0,0.4444,0.0,1.0,0.0,1.0
+Women's Ski Cross,Freestyle Skiing,India Sherret,CAN,550.0,0,0.3735,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Lisa Andersson,SWE,500.0,0,0.3086,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Alexandra Edebo,SWE,450.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Courtney Hoffos,CAN,400.0,0,0.1975,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Andrea Limbacher,AUT,350.0,0,0.1512,0.0,0.0,0.0,0.0
+Women's Ski Cross,Freestyle Skiing,Alizee Baron,FRA,300.0,0,0.1111,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Astrid Oeyre Slind,NOR,1100.0,0,0.2507,1.0,0.0,0.0,1.0
+Women's Skiathlon,Cross-Country Skiing,Therese Johaug,NOR,1121.0,0,0.2603,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Nora Sanness,NOR,821.0,0,0.1396,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Katerina Janatova,CZE,742.0,0,0.1141,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Kristin Austgulen Fosnaes,NOR,736.0,0,0.1122,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Pia Fink,GER,709.0,0,0.1041,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Flora Dolci,FRA,646.0,0,0.0865,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Silje Theodorsen,NOR,567.0,0,0.0666,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Sophia Laukli,USA,519.0,0,0.0558,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Katherine Stewart-Jones,CAN,468.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Helen Hoffmann,GER,466.0,0,0.045,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Lotta Udnes Weng,NOR,418.0,0,0.0362,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Katherine Sauerbrey,GER,363.0,0,0.0273,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Julia Kern,USA,347.0,0,0.0249,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Helene Marie Fossesholm,NOR,341.0,0,0.0241,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Jessie Diggins,USA,2197.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Victoria Carl,GER,1827.0,0,0.6915,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Kerttu Niskanen,FIN,1692.0,0,0.5931,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Moa Ilar,SWE,1630.0,0,0.5504,0.0,0.0,1.0,1.0
+Women's Skiathlon,Cross-Country Skiing,Jonna Sundling,SWE,1537.0,0,0.4894,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Maja Dahlqvist,SWE,1454.0,0,0.438,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Ebba Andersson,SWE,1412.0,0,0.4131,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Karoline Simpson-Larsen,NOR,1380.0,0,0.3945,0.0,1.0,0.0,1.0
+Women's Skiathlon,Cross-Country Skiing,Heidi Weng,NOR,1375.0,0,0.3917,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Frida Karlsson,SWE,1368.0,0,0.3877,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Jasmi Joensuu,FIN,1357.0,0,0.3815,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Emma Ribom,SWE,1338.0,0,0.3709,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Teresa Stadlober,AUT,1200.0,0,0.2983,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Katharina Hennig,GER,1150.0,0,0.274,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Linn Svahn,SWE,1050.0,0,0.2284,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Krista Parmakoski,FIN,1000.0,0,0.2072,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Rosie Brennan,USA,950.0,0,0.187,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Anne Kjersti Kalva,NOR,850.0,0,0.1497,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Delphine Claudel,FRA,800.0,0,0.1326,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Johanna Hagstroem,SWE,750.0,0,0.1165,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Nadine Faehndrich,SUI,700.0,0,0.1015,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Ane Appelkvist Stenseth,NOR,650.0,0,0.0875,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Jessica Yeaton,AUS,600.0,0,0.0746,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Caterina Ganz,ITA,550.0,0,0.0627,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Margrethe Bergane,NOR,500.0,0,0.0518,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Anamarija Lampic,SLO,450.0,0,0.042,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Anna Dyvik,SWE,400.0,0,0.0331,0.0,0.0,0.0,0.0
+Women's Skiathlon,Cross-Country Skiing,Sofia Henriksson,SWE,350.0,0,0.0254,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Wendy Holdener,SUI,320.0,0,0.096,1.0,0.0,0.0,1.0
+Women's Slalom,Alpine Skiing,Zrinka Ljutic,CRO,541.0,0,0.2743,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Katharina Liensberger,AUT,509.0,0,0.2428,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Lena Duerr,GER,473.0,0,0.2097,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Larsson Anna Swenn,SWE,347.0,0,0.1128,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Melanie Meillard,SUI,310.0,0,0.0901,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Lara Colturi,ALB,276.0,0,0.0714,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Andreja Slokar,SLO,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Katharina Truppe,AUT,234.0,0,0.0513,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Katharina Huber,AUT,189.0,0,0.0335,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Cornelia Oehlund,SWE,156.0,0,0.0228,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Laurence St-Germain,CAN,121.0,0,0.0137,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Marie Lamure,FRA,100.0,0,0.0094,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Neja Dvornik,SLO,95.0,0,0.0085,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Elfman Hanna Aronsson,SWE,94.0,0,0.0083,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Ali Nullmeyer,CAN,86.0,0,0.0069,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Martina Peterlini,ITA,84.0,0,0.0066,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Clarisse Breche,FRA,65.0,0,0.004,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Mea Lara Della,ITA,52.0,0,0.0025,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Marta Rossetti,ITA,47.0,0,0.0021,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Jogan Ana Bucik,SLO,47.0,0,0.0021,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Eliane Christen,SUI,44.0,0,0.0018,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,A J Hurt,USA,44.0,0,0.0018,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Franziska Gritsch,AUT,42.0,0,0.0017,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Mikaela Shiffrin,USA,1033.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Camille Rast,SUI,883.0,0,0.7307,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Emma Aicher,GER,624.0,0,0.3649,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Paula Moltzan,USA,614.0,0,0.3533,0.0,0.0,1.0,1.0
+Women's Slalom,Alpine Skiing,Lindsey Vonn,USA,590.0,0,0.3262,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Federica Brignone,ITA,520.0,0,0.2534,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Sofia Goggia,ITA,490.0,0,0.225,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Cornelia Huetter,AUT,460.0,0,0.1983,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Ilka Stuhec,SLO,430.0,0,0.1733,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Kajsa Vickhoff Lie,NOR,400.0,0,0.1499,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Marta Bassino,ITA,380.0,0,0.1353,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Petra Vlhova,SVK,360.0,0,0.1215,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Sara Hector,SWE,340.0,0,0.1083,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Michelle Gisin,SUI,300.0,0,0.0843,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Ragnhild Mowinckel,NOR,280.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Thea Louise Stjernesund,NOR,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Elena Curtoni,ITA,240.0,0,0.054,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Ester Ledecka,CZE,220.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Stephanie Venier,AUT,200.0,0,0.0375,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Corinne Suter,SUI,180.0,0,0.0304,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Marie-Michele Gagnon,CAN,160.0,0,0.024,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Nina O Brien,USA,140.0,0,0.0184,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Anna Swenn Larsson,SWE,130.0,0,0.0158,0.0,1.0,0.0,1.0
+Women's Slalom,Alpine Skiing,Mina Fuerst Holtmann,NOR,120.0,0,0.0135,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Maria Therese Tviberg,NOR,110.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Kristine Gjelsten Haugen,NOR,100.0,0,0.0094,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Riikka Honkanen,FIN,90.0,0,0.0076,0.0,0.0,0.0,0.0
+Women's Slalom,Alpine Skiing,Rosa Pohjolainen,FIN,80.0,0,0.006,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Megan Oldham,CAN,600.0,0,0.7347,1.0,0.0,0.0,1.0
+Women's Slopestyle,Snowboard,Anna Gasser,AUT,650.0,0,0.8622,1.0,0.0,0.0,1.0
+Women's Slopestyle,Freestyle Skiing,Eileen Gu,CHN,700.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Kelly Sildaru,EST,650.0,0,0.8622,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Mathilde Gremaud,SUI,550.0,0,0.6173,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Olivia Asselin,CAN,500.0,0,0.5102,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Darian Stevens,USA,450.0,0,0.4133,0.0,1.0,0.0,1.0
+Women's Slopestyle,Freestyle Skiing,Tess Ledeux,FRA,400.0,0,0.3265,0.0,0.0,1.0,1.0
+Women's Slopestyle,Freestyle Skiing,Johanne Killi,NOR,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Slopestyle,Freestyle Skiing,Jennie-Lee Burmansson,SWE,300.0,0,0.1837,0.0,0.0,0.0,0.0
+Women's Slopestyle,Snowboard,Zoi Sadowski-Synnott,NZL,700.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Slopestyle,Snowboard,Kokomo Murase,JPN,600.0,0,0.7347,0.0,0.0,0.0,0.0
+Women's Slopestyle,Snowboard,Tess Coady,AUS,550.0,0,0.6173,0.0,1.0,0.0,1.0
+Women's Slopestyle,Snowboard,Julia Marino,USA,500.0,0,0.5102,0.0,0.0,1.0,1.0
+Women's Slopestyle,Snowboard,Laurie Blouin,CAN,450.0,0,0.4133,0.0,0.0,0.0,0.0
+Women's Slopestyle,Snowboard,Jamie Anderson,USA,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Slopestyle,Snowboard,Mia Brookes,GBR,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,Snowboard,Charlotte Bankes,GBR,650.0,0,0.8622,1.0,0.0,0.0,1.0
+Women's Snowboard Cross,Snowboard,Lindsey Jacobellis,USA,700.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,Snowboard,Belle Brockhoff,AUS,600.0,0,0.7347,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,Snowboard,Caterina Carpano,ITA,550.0,0,0.6173,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,Snowboard,Michela Moioli,ITA,500.0,0,0.5102,0.0,0.0,1.0,1.0
+Women's Snowboard Cross,Snowboard,Eva Samkova,CZE,450.0,0,0.4133,0.0,1.0,0.0,1.0
+Women's Snowboard Cross,Snowboard,Hanna Ihedioha,GER,400.0,0,0.3265,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,Snowboard,Lara Casanova,SUI,350.0,0,0.25,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Lena Quintin,FRA,370.0,0,0.0284,1.0,0.0,0.0,1.0
+Women's Sprint,Cross-Country Skiing,Coletta Rydzek,GER,608.0,0,0.0766,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Laura Gimmler,GER,593.0,0,0.0729,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Julie Myhre,NOR,525.0,0,0.0571,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Kristine Stavaas Skistad,NOR,500.0,0,0.0518,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Katerina Janatova,CZE,497.0,0,0.0512,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Mathilde Myhrvold,NOR,399.0,0,0.033,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Lotta Udnes Weng,NOR,399.0,0,0.033,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Elena Rise Johnsen,NOR,399.0,0,0.033,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Julia Kern,USA,395.0,0,0.0323,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Anja Weber,SUI,389.0,0,0.0314,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Jasmin Kahara,FIN,363.0,0,0.0273,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Sofie Krehl,GER,339.0,0,0.0238,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Moa Lundgren,SWE,335.0,0,0.0233,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Federica Cassol,ITA,315.0,0,0.0206,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Hedda Oestberg Amundsen,NOR,294.0,0,0.0179,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Katri Lylynpera,FIN,242.0,0,0.0121,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Maerta Rosenberg,SWE,239.0,0,0.0118,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Alina Meier,SUI,206.0,0,0.0088,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Jessie Diggins,USA,2197.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Victoria Carl,GER,1827.0,0,0.6915,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Kerttu Niskanen,FIN,1692.0,0,0.5931,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Moa Ilar,SWE,1630.0,0,0.5504,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Jonna Sundling,SWE,1537.0,0,0.4894,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Maja Dahlqvist,SWE,1454.0,0,0.438,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Ebba Andersson,SWE,1412.0,0,0.4131,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Karoline Simpson-Larsen,NOR,1380.0,0,0.3945,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Heidi Weng,NOR,1375.0,0,0.3917,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Frida Karlsson,SWE,1368.0,0,0.3877,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Jasmi Joensuu,FIN,1357.0,0,0.3815,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Emma Ribom,SWE,1338.0,0,0.3709,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Teresa Stadlober,AUT,1200.0,0,0.2983,0.0,1.0,0.0,1.0
+Women's Sprint,Cross-Country Skiing,Katharina Hennig,GER,1150.0,0,0.274,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Astrid Oeyre Slind,NOR,1100.0,0,0.2507,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Linn Svahn,SWE,1050.0,0,0.2284,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Krista Parmakoski,FIN,1000.0,0,0.2072,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Rosie Brennan,USA,950.0,0,0.187,0.0,0.0,1.0,1.0
+Women's Sprint,Cross-Country Skiing,Anne Kjersti Kalva,NOR,850.0,0,0.1497,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Delphine Claudel,FRA,800.0,0,0.1326,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Johanna Hagstroem,SWE,750.0,0,0.1165,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Nadine Faehndrich,SUI,700.0,0,0.1015,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Ane Appelkvist Stenseth,NOR,650.0,0,0.0875,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Jessica Yeaton,AUS,600.0,0,0.0746,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Caterina Ganz,ITA,550.0,0,0.0627,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Margrethe Bergane,NOR,500.0,0,0.0518,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Anamarija Lampic,SLO,450.0,0,0.042,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Anna Dyvik,SWE,400.0,0,0.0331,0.0,0.0,0.0,0.0
+Women's Sprint,Cross-Country Skiing,Sofia Henriksson,SWE,350.0,0,0.0254,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Federica Brignone,ITA,520.0,0,0.2534,1.0,0.0,0.0,1.0
+Women's Super-G,Alpine Skiing,Lauren Macuga,USA,279.0,0,0.0729,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Romane Miradoli,FRA,241.0,0,0.0544,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Ariane Raedler,AUT,233.0,0,0.0509,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Laura Pirovano,ITA,195.0,0,0.0356,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Alice Robinson,NZL,176.0,0,0.029,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Kira Weidle-Winkelmann,GER,134.0,0,0.0168,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Mirjam Puchner,AUT,104.0,0,0.0101,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Ricarda Haaser,AUT,102.0,0,0.0097,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Roberta Melesi,ITA,102.0,0,0.0097,0.0,1.0,0.0,1.0
+Women's Super-G,Alpine Skiing,Joana Haehlen,SUI,72.0,0,0.0049,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Malorie Blanc,SUI,70.0,0,0.0046,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Laura Gauche,FRA,69.0,0,0.0045,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Christina Ager,AUT,65.0,0,0.004,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Keely Cashman,USA,62.0,0,0.0036,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Karen Clement,FRA,57.0,0,0.003,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Valerie Grenier,CAN,56.0,0,0.0029,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Mikaela Shiffrin,USA,1033.0,0,1.0,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Camille Rast,SUI,883.0,0,0.7307,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Emma Aicher,GER,624.0,0,0.3649,0.0,0.0,1.0,1.0
+Women's Super-G,Alpine Skiing,Paula Moltzan,USA,614.0,0,0.3533,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Lindsey Vonn,USA,590.0,0,0.3262,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Sofia Goggia,ITA,490.0,0,0.225,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Cornelia Huetter,AUT,460.0,0,0.1983,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Ilka Stuhec,SLO,430.0,0,0.1733,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Kajsa Vickhoff Lie,NOR,400.0,0,0.1499,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Marta Bassino,ITA,380.0,0,0.1353,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Petra Vlhova,SVK,360.0,0,0.1215,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Sara Hector,SWE,340.0,0,0.1083,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Wendy Holdener,SUI,320.0,0,0.096,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Michelle Gisin,SUI,300.0,0,0.0843,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Ragnhild Mowinckel,NOR,280.0,0,0.0735,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Thea Louise Stjernesund,NOR,260.0,0,0.0633,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Elena Curtoni,ITA,240.0,0,0.054,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Ester Ledecka,CZE,220.0,0,0.0454,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Stephanie Venier,AUT,200.0,0,0.0375,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Corinne Suter,SUI,180.0,0,0.0304,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Marie-Michele Gagnon,CAN,160.0,0,0.024,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Nina O Brien,USA,140.0,0,0.0184,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Anna Swenn Larsson,SWE,130.0,0,0.0158,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Mina Fuerst Holtmann,NOR,120.0,0,0.0135,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Maria Therese Tviberg,NOR,110.0,0,0.0113,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Kristine Gjelsten Haugen,NOR,100.0,0,0.0094,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Riikka Honkanen,FIN,90.0,0,0.0076,0.0,0.0,0.0,0.0
+Women's Super-G,Alpine Skiing,Rosa Pohjolainen,FIN,80.0,0,0.006,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team Germany,GER,2977.0,0,0.8836,1.0,0.0,0.0,1.0
+Women's Team Sprint,Cross-Country Skiing,Jasmi Joensuu,FIN,848.0,0,0.0717,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Nadine Faehndrich,SUI,732.0,0,0.0534,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Maja Dahlqvist,SWE,682.0,0,0.0464,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Coletta Rydzek,GER,608.0,0,0.0369,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Laura Gimmler,GER,593.0,0,0.0351,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Johanna Hagstroem,SWE,564.0,0,0.0317,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Jessie Diggins,USA,543.0,0,0.0294,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Jonna Sundling,SWE,532.0,0,0.0282,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Julie Myhre,NOR,525.0,0,0.0275,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Kristine Stavaas Skistad,NOR,500.0,0,0.0249,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Katerina Janatova,CZE,497.0,0,0.0246,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Victoria Carl,GER,409.0,0,0.0167,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Mathilde Myhrvold,NOR,399.0,0,0.0159,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Lotta Udnes Weng,NOR,399.0,0,0.0159,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Elena Rise Johnsen,NOR,399.0,0,0.0159,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Julia Kern,USA,395.0,0,0.0156,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Anja Weber,SUI,389.0,0,0.0151,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Ane Appelkvist Stenseth,NOR,381.0,0,0.0145,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Lena Quintin,FRA,370.0,0,0.0136,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Jasmin Kahara,FIN,363.0,0,0.0131,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Sofie Krehl,GER,339.0,0,0.0115,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Moa Lundgren,SWE,335.0,0,0.0112,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Federica Cassol,ITA,315.0,0,0.0099,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Hedda Oestberg Amundsen,NOR,294.0,0,0.0086,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Emma Ribom,SWE,279.0,0,0.0078,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Katri Lylynpera,FIN,242.0,0,0.0058,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Maerta Rosenberg,SWE,239.0,0,0.0057,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Linn Svahn,SWE,238.0,0,0.0056,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Kerttu Niskanen,FIN,232.0,0,0.0054,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Alina Meier,SUI,206.0,0,0.0042,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team Sweden,SWE,3167.0,0,1.0,0.0,0.0,1.0,1.0
+Women's Team Sprint,Cross-Country Skiing,Team Norway,NOR,2755.0,0,0.7567,0.0,1.0,0.0,1.0
+Women's Team Sprint,Cross-Country Skiing,Team Finland,FIN,3049.0,0,0.9269,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team USA,USA,3147.0,0,0.9874,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team Switzerland,SUI,700.0,0,0.0489,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team Italy,ITA,550.0,0,0.0302,0.0,0.0,0.0,0.0
+Women's Team Sprint,Cross-Country Skiing,Team Austria,AUT,1200.0,0,0.1436,0.0,0.0,0.0,0.0

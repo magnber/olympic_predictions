@@ -1,0 +1,2079 @@
+competition,athlete_id,athlete_name,country,gold_prob,silver_prob,bronze_prob,medal_prob
+Men's Slalom,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,1.0,0.0,0.0,1.0
+Men's Slalom,braathen-lucas-pinheiro-bra,Braathen Lucas Pinheiro,BRA,0.0,0.0,0.0,0.0
+Men's Slalom,fabio-gstrein-aut,Fabio Gstrein,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,tanguy-nef-sui,Tanguy Nef,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,linus-strasser-ger,Linus Strasser,GER,0.0,0.0,0.0,0.0
+Men's Slalom,steven-amiez-fra,Steven Amiez,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,albert-popov-bul,Albert Popov,BUL,0.0,0.0,0.0,0.0
+Men's Slalom,samuel-kolega-cro,Samuel Kolega,CRO,0.0,0.0,0.0,0.0
+Men's Slalom,daniel-yule-sui,Daniel Yule,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,dave-ryding-gbr,Dave Ryding,GBR,0.0,0.0,0.0,0.0
+Men's Slalom,kristoffer-jakobsen-swe,Kristoffer Jakobsen,SWE,0.0,0.0,0.0,0.0
+Men's Slalom,benjamin-ritchie-usa,Benjamin Ritchie,USA,0.0,0.0,0.0,0.0
+Men's Slalom,alex-vinatzer-ita,Alex Vinatzer,ITA,0.0,0.0,0.0,0.0
+Men's Slalom,victor-muffat-jeandet-fra,Victor Muffat-Jeandet,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,armand-marchant-bel,Armand Marchant,BEL,0.0,0.0,0.0,0.0
+Men's Slalom,dominik-raschner-aut,Dominik Raschner,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,paco-rassat-fra,Paco Rassat,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,johannes-strolz-aut,Johannes Strolz,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,michael-matt-aut,Michael Matt,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,olsen-alexander-steen-nor,Olsen Alexander Steen,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,adrian-pertl-aut,Adrian Pertl,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,luca-aerni-sui,Luca Aerni,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,marc-rochat-sui,Marc Rochat,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,marco-odermatt-sui,Marco Odermatt,SUI,0.0,0.0,1.0,1.0
+Men's Slalom,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,0.0,0.0,0.0,0.0
+Men's Slalom,franjo-von-allmen-sui,Franjo von Allmen,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,henrik-kristoffersen-nor,Henrik Kristoffersen,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,loic-meillard-sui,Loic Meillard,SUI,0.0,0.0,0.0,0.0
+Men's Slalom,manuel-feller-aut,Manuel Feller,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,alexis-pinturault-fra,Alexis Pinturault,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,clement-noel-fra,Clement Noel,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,marco-schwarz-aut,Marco Schwarz,AUT,0.0,0.0,0.0,0.0
+Men's Slalom,timon-haugan-nor,Timon Haugan,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,vincent-kriechmayr-aut,Vincent Kriechmayr,AUT,0.0,1.0,0.0,1.0
+Men's Slalom,cameron-alexander-can,Cameron Alexander,CAN,0.0,0.0,0.0,0.0
+Men's Slalom,james-crawford-can,James Crawford,CAN,0.0,0.0,0.0,0.0
+Men's Slalom,johan-clarey-fra,Johan Clarey,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,travis-ganong-usa,Travis Ganong,USA,0.0,0.0,0.0,0.0
+Men's Slalom,dominik-paris-ita,Dominik Paris,ITA,0.0,0.0,0.0,0.0
+Men's Slalom,cyprien-sarrazin-fra,Cyprien Sarrazin,FRA,0.0,0.0,0.0,0.0
+Men's Slalom,zan-kranjec-slo,Zan Kranjec,SLO,0.0,0.0,0.0,0.0
+Men's Slalom,river-radamus-usa,River Radamus,USA,0.0,0.0,0.0,0.0
+Men's Slalom,filip-zubcic-cro,Filip Zubcic,CRO,0.0,0.0,0.0,0.0
+Men's Slalom,stefan-hadalin-slo,Stefan Hadalin,SLO,0.0,0.0,0.0,0.0
+Men's Slalom,sebastian-foss-solevaag-nor,Sebastian Foss-Solevaag,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,luca-de-aliprandini-ita,Luca De Aliprandini,ITA,0.0,0.0,0.0,0.0
+Men's Slalom,tommy-ford-usa,Tommy Ford,USA,0.0,0.0,0.0,0.0
+Men's Slalom,adrian-smiseth-sejersted-nor,Adrian Smiseth Sejersted,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,rasmus-windingstad-nor,Rasmus Windingstad,NOR,0.0,0.0,0.0,0.0
+Men's Slalom,leif-kristian-nestvold-haugen-nor,Leif Kristian Nestvold-Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,wendy-holdener-sui,Wendy Holdener,SUI,1.0,0.0,0.0,1.0
+Women's Slalom,zrinka-ljutic-cro,Zrinka Ljutic,CRO,0.0,0.0,0.0,0.0
+Women's Slalom,katharina-liensberger-aut,Katharina Liensberger,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,lena-duerr-ger,Lena Duerr,GER,0.0,0.0,0.0,0.0
+Women's Slalom,larsson-anna-swenn-swe,Larsson Anna Swenn,SWE,0.0,0.0,0.0,0.0
+Women's Slalom,melanie-meillard-sui,Melanie Meillard,SUI,0.0,0.0,0.0,0.0
+Women's Slalom,lara-colturi-alb,Lara Colturi,ALB,0.0,0.0,0.0,0.0
+Women's Slalom,andreja-slokar-slo,Andreja Slokar,SLO,0.0,0.0,0.0,0.0
+Women's Slalom,katharina-truppe-aut,Katharina Truppe,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,katharina-huber-aut,Katharina Huber,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,cornelia-oehlund-swe,Cornelia Oehlund,SWE,0.0,0.0,0.0,0.0
+Women's Slalom,laurence-st-germain-can,Laurence St-Germain,CAN,0.0,0.0,0.0,0.0
+Women's Slalom,marie-lamure-fra,Marie Lamure,FRA,0.0,0.0,0.0,0.0
+Women's Slalom,neja-dvornik-slo,Neja Dvornik,SLO,0.0,0.0,0.0,0.0
+Women's Slalom,elfman-hanna-aronsson-swe,Elfman Hanna Aronsson,SWE,0.0,0.0,0.0,0.0
+Women's Slalom,ali-nullmeyer-can,Ali Nullmeyer,CAN,0.0,0.0,0.0,0.0
+Women's Slalom,martina-peterlini-ita,Martina Peterlini,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,clarisse-breche-fra,Clarisse Breche,FRA,0.0,0.0,0.0,0.0
+Women's Slalom,mea-lara-della-ita,Mea Lara Della,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,marta-rossetti-ita,Marta Rossetti,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,jogan-ana-bucik-slo,Jogan Ana Bucik,SLO,0.0,0.0,0.0,0.0
+Women's Slalom,eliane-christen-sui,Eliane Christen,SUI,0.0,0.0,0.0,0.0
+Women's Slalom,a-j-hurt-usa,A J Hurt,USA,0.0,0.0,0.0,0.0
+Women's Slalom,franziska-gritsch-aut,Franziska Gritsch,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,0.0,0.0,0.0,0.0
+Women's Slalom,camille-rast-sui,Camille Rast,SUI,0.0,0.0,0.0,0.0
+Women's Slalom,emma-aicher-ger,Emma Aicher,GER,0.0,0.0,0.0,0.0
+Women's Slalom,paula-moltzan-usa,Paula Moltzan,USA,0.0,0.0,1.0,1.0
+Women's Slalom,lindsey-vonn-usa,Lindsey Vonn,USA,0.0,0.0,0.0,0.0
+Women's Slalom,federica-brignone-ita,Federica Brignone,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,sofia-goggia-ita,Sofia Goggia,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,cornelia-huetter-aut,Cornelia Huetter,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,ilka-stuhec-slo,Ilka Stuhec,SLO,0.0,0.0,0.0,0.0
+Women's Slalom,kajsa-vickhoff-lie-nor,Kajsa Vickhoff Lie,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,marta-bassino-ita,Marta Bassino,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,petra-vlhova-svk,Petra Vlhova,SVK,0.0,0.0,0.0,0.0
+Women's Slalom,sara-hector-swe,Sara Hector,SWE,0.0,0.0,0.0,0.0
+Women's Slalom,michelle-gisin-sui,Michelle Gisin,SUI,0.0,0.0,0.0,0.0
+Women's Slalom,ragnhild-mowinckel-nor,Ragnhild Mowinckel,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,thea-louise-stjernesund-nor,Thea Louise Stjernesund,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,elena-curtoni-ita,Elena Curtoni,ITA,0.0,0.0,0.0,0.0
+Women's Slalom,ester-ledecka-cze,Ester Ledecka,CZE,0.0,0.0,0.0,0.0
+Women's Slalom,stephanie-venier-aut,Stephanie Venier,AUT,0.0,0.0,0.0,0.0
+Women's Slalom,corinne-suter-sui,Corinne Suter,SUI,0.0,0.0,0.0,0.0
+Women's Slalom,marie-michele-gagnon-can,Marie-Michele Gagnon,CAN,0.0,0.0,0.0,0.0
+Women's Slalom,nina-o-brien-usa,Nina O Brien,USA,0.0,0.0,0.0,0.0
+Women's Slalom,anna-swenn-larsson-swe,Anna Swenn Larsson,SWE,0.0,1.0,0.0,1.0
+Women's Slalom,mina-fuerst-holtmann-nor,Mina Fuerst Holtmann,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,maria-therese-tviberg-nor,Maria Therese Tviberg,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,kristine-gjelsten-haugen-nor,Kristine Gjelsten Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Slalom,riikka-honkanen-fin,Riikka Honkanen,FIN,0.0,0.0,0.0,0.0
+Women's Slalom,rosa-pohjolainen-fin,Rosa Pohjolainen,FIN,0.0,0.0,0.0,0.0
+Men's Giant Slalom,manuel-feller-aut,Manuel Feller,AUT,1.0,0.0,0.0,1.0
+Men's Giant Slalom,olsen-alexander-steen-nor,Olsen Alexander Steen,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,braathen-lucas-pinheiro-bra,Braathen Lucas Pinheiro,BRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,thomas-tumler-sui,Thomas Tumler,SUI,0.0,0.0,0.0,0.0
+Men's Giant Slalom,stefan-brennsteiner-aut,Stefan Brennsteiner,AUT,0.0,0.0,0.0,0.0
+Men's Giant Slalom,aliprandini-luca-de-ita,Aliprandini Luca De,ITA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,patrick-feurstein-aut,Patrick Feurstein,AUT,0.0,0.0,0.0,0.0
+Men's Giant Slalom,leo-anguenot-fra,Leo Anguenot,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,thibaut-favrot-fra,Thibaut Favrot,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,joan-verdu-and,Joan Verdu,AND,0.0,0.0,0.0,0.0
+Men's Giant Slalom,sam-maes-bel,Sam Maes,BEL,0.0,0.0,0.0,0.0
+Men's Giant Slalom,luca-aerni-sui,Luca Aerni,SUI,0.0,0.0,0.0,0.0
+Men's Giant Slalom,anton-grammel-ger,Anton Grammel,GER,0.0,0.0,0.0,0.0
+Men's Giant Slalom,alex-vinatzer-ita,Alex Vinatzer,ITA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,raphael-haaser-aut,Raphael Haaser,AUT,0.0,0.0,0.0,0.0
+Men's Giant Slalom,gino-caviezel-sui,Gino Caviezel,SUI,0.0,0.0,0.0,0.0
+Men's Giant Slalom,alexander-schmid-ger,Alexander Schmid,GER,0.0,0.0,0.0,0.0
+Men's Giant Slalom,vite-filippo-della-ita,Vite Filippo Della,ITA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,tormis-laine-est,Tormis Laine,EST,0.0,0.0,0.0,0.0
+Men's Giant Slalom,fabian-gratz-ger,Fabian Gratz,GER,0.0,0.0,0.0,0.0
+Men's Giant Slalom,marco-odermatt-sui,Marco Odermatt,SUI,0.0,1.0,0.0,1.0
+Men's Giant Slalom,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,franjo-von-allmen-sui,Franjo von Allmen,SUI,0.0,0.0,0.0,0.0
+Men's Giant Slalom,henrik-kristoffersen-nor,Henrik Kristoffersen,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,loic-meillard-sui,Loic Meillard,SUI,0.0,0.0,0.0,0.0
+Men's Giant Slalom,alexis-pinturault-fra,Alexis Pinturault,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,clement-noel-fra,Clement Noel,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,marco-schwarz-aut,Marco Schwarz,AUT,0.0,0.0,0.0,0.0
+Men's Giant Slalom,timon-haugan-nor,Timon Haugan,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,vincent-kriechmayr-aut,Vincent Kriechmayr,AUT,0.0,0.0,0.0,0.0
+Men's Giant Slalom,cameron-alexander-can,Cameron Alexander,CAN,0.0,0.0,1.0,1.0
+Men's Giant Slalom,james-crawford-can,James Crawford,CAN,0.0,0.0,0.0,0.0
+Men's Giant Slalom,johan-clarey-fra,Johan Clarey,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,travis-ganong-usa,Travis Ganong,USA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,dominik-paris-ita,Dominik Paris,ITA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,cyprien-sarrazin-fra,Cyprien Sarrazin,FRA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,zan-kranjec-slo,Zan Kranjec,SLO,0.0,0.0,0.0,0.0
+Men's Giant Slalom,river-radamus-usa,River Radamus,USA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,filip-zubcic-cro,Filip Zubcic,CRO,0.0,0.0,0.0,0.0
+Men's Giant Slalom,stefan-hadalin-slo,Stefan Hadalin,SLO,0.0,0.0,0.0,0.0
+Men's Giant Slalom,sebastian-foss-solevaag-nor,Sebastian Foss-Solevaag,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,luca-de-aliprandini-ita,Luca De Aliprandini,ITA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,tommy-ford-usa,Tommy Ford,USA,0.0,0.0,0.0,0.0
+Men's Giant Slalom,adrian-smiseth-sejersted-nor,Adrian Smiseth Sejersted,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,rasmus-windingstad-nor,Rasmus Windingstad,NOR,0.0,0.0,0.0,0.0
+Men's Giant Slalom,leif-kristian-nestvold-haugen-nor,Leif Kristian Nestvold-Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,lara-colturi-alb,Lara Colturi,ALB,1.0,0.0,0.0,1.0
+Women's Giant Slalom,alice-robinson-nzl,Alice Robinson,NZL,0.0,0.0,0.0,0.0
+Women's Giant Slalom,zrinka-ljutic-cro,Zrinka Ljutic,CRO,0.0,0.0,0.0,0.0
+Women's Giant Slalom,julia-scheib-aut,Julia Scheib,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,brien-nina-o-usa,Brien Nina O,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,valerie-grenier-can,Valerie Grenier,CAN,0.0,0.0,0.0,0.0
+Women's Giant Slalom,neja-dvornik-slo,Neja Dvornik,SLO,0.0,0.0,0.0,0.0
+Women's Giant Slalom,a-j-hurt-usa,A J Hurt,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,maryna-gasienica-daniel-pol,Maryna Gasienica-Daniel,POL,0.0,0.0,0.0,0.0
+Women's Giant Slalom,estelle-alphand-swe,Estelle Alphand,SWE,0.0,0.0,0.0,0.0
+Women's Giant Slalom,stephanie-brunner-aut,Stephanie Brunner,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,britt-richardson-can,Britt Richardson,CAN,0.0,0.0,0.0,0.0
+Women's Giant Slalom,katie-hensien-usa,Katie Hensien,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,ricarda-haaser-aut,Ricarda Haaser,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,jogan-ana-bucik-slo,Jogan Ana Bucik,SLO,0.0,0.0,0.0,0.0
+Women's Giant Slalom,lena-duerr-ger,Lena Duerr,GER,0.0,0.0,0.0,0.0
+Women's Giant Slalom,lisa-nyberg-swe,Lisa Nyberg,SWE,0.0,0.0,0.0,0.0
+Women's Giant Slalom,katharina-liensberger-aut,Katharina Liensberger,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,camille-rast-sui,Camille Rast,SUI,0.0,0.0,0.0,0.0
+Women's Giant Slalom,emma-aicher-ger,Emma Aicher,GER,0.0,0.0,0.0,0.0
+Women's Giant Slalom,paula-moltzan-usa,Paula Moltzan,USA,0.0,1.0,0.0,1.0
+Women's Giant Slalom,lindsey-vonn-usa,Lindsey Vonn,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,federica-brignone-ita,Federica Brignone,ITA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,sofia-goggia-ita,Sofia Goggia,ITA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,cornelia-huetter-aut,Cornelia Huetter,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,ilka-stuhec-slo,Ilka Stuhec,SLO,0.0,0.0,0.0,0.0
+Women's Giant Slalom,kajsa-vickhoff-lie-nor,Kajsa Vickhoff Lie,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,marta-bassino-ita,Marta Bassino,ITA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,petra-vlhova-svk,Petra Vlhova,SVK,0.0,0.0,0.0,0.0
+Women's Giant Slalom,sara-hector-swe,Sara Hector,SWE,0.0,0.0,0.0,0.0
+Women's Giant Slalom,wendy-holdener-sui,Wendy Holdener,SUI,0.0,0.0,0.0,0.0
+Women's Giant Slalom,michelle-gisin-sui,Michelle Gisin,SUI,0.0,0.0,0.0,0.0
+Women's Giant Slalom,ragnhild-mowinckel-nor,Ragnhild Mowinckel,NOR,0.0,0.0,1.0,1.0
+Women's Giant Slalom,thea-louise-stjernesund-nor,Thea Louise Stjernesund,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,elena-curtoni-ita,Elena Curtoni,ITA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,ester-ledecka-cze,Ester Ledecka,CZE,0.0,0.0,0.0,0.0
+Women's Giant Slalom,stephanie-venier-aut,Stephanie Venier,AUT,0.0,0.0,0.0,0.0
+Women's Giant Slalom,corinne-suter-sui,Corinne Suter,SUI,0.0,0.0,0.0,0.0
+Women's Giant Slalom,marie-michele-gagnon-can,Marie-Michele Gagnon,CAN,0.0,0.0,0.0,0.0
+Women's Giant Slalom,nina-o-brien-usa,Nina O Brien,USA,0.0,0.0,0.0,0.0
+Women's Giant Slalom,anna-swenn-larsson-swe,Anna Swenn Larsson,SWE,0.0,0.0,0.0,0.0
+Women's Giant Slalom,mina-fuerst-holtmann-nor,Mina Fuerst Holtmann,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,maria-therese-tviberg-nor,Maria Therese Tviberg,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,kristine-gjelsten-haugen-nor,Kristine Gjelsten Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Giant Slalom,riikka-honkanen-fin,Riikka Honkanen,FIN,0.0,0.0,0.0,0.0
+Women's Giant Slalom,rosa-pohjolainen-fin,Rosa Pohjolainen,FIN,0.0,0.0,0.0,0.0
+Men's Super-G,fredrik-moeller-nor,Fredrik Moeller,NOR,1.0,0.0,0.0,1.0
+Men's Super-G,stefan-rogentin-sui,Stefan Rogentin,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,allmen-franjo-von-sui,Allmen Franjo Von,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,mattia-casse-ita,Mattia Casse,ITA,0.0,0.0,0.0,0.0
+Men's Super-G,alexis-monney-sui,Alexis Monney,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,lukas-feurstein-aut,Lukas Feurstein,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,raphael-haaser-aut,Raphael Haaser,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,nils-allegre-fra,Nils Allegre,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,giovanni-franzoni-ita,Giovanni Franzoni,ITA,0.0,0.0,0.0,0.0
+Men's Super-G,stefan-eichberger-aut,Stefan Eichberger,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,justin-murisier-sui,Justin Murisier,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,miha-hrobat-slo,Miha Hrobat,SLO,0.0,0.0,0.0,0.0
+Men's Super-G,ryan-cochran-siegle-usa,Ryan Cochran-Siegle,USA,0.0,0.0,0.0,0.0
+Men's Super-G,jared-goldberg-usa,Jared Goldberg,USA,0.0,0.0,0.0,0.0
+Men's Super-G,stefan-babinsky-aut,Stefan Babinsky,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,jan-zabystran-cze,Jan Zabystran,CZE,0.0,0.0,0.0,0.0
+Men's Super-G,daniel-hemetsberger-aut,Daniel Hemetsberger,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,christof-innerhofer-ita,Christof Innerhofer,ITA,0.0,0.0,0.0,0.0
+Men's Super-G,blaise-giezendanner-fra,Blaise Giezendanner,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,florian-loriot-fra,Florian Loriot,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,romed-baumann-ger,Romed Baumann,GER,0.0,0.0,0.0,0.0
+Men's Super-G,felix-monsen-swe,Felix Monsen,SWE,0.0,0.0,0.0,0.0
+Men's Super-G,marco-odermatt-sui,Marco Odermatt,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,0.0,0.0,0.0,0.0
+Men's Super-G,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,0.0,1.0,0.0,1.0
+Men's Super-G,franjo-von-allmen-sui,Franjo von Allmen,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,henrik-kristoffersen-nor,Henrik Kristoffersen,NOR,0.0,0.0,0.0,0.0
+Men's Super-G,loic-meillard-sui,Loic Meillard,SUI,0.0,0.0,0.0,0.0
+Men's Super-G,manuel-feller-aut,Manuel Feller,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,alexis-pinturault-fra,Alexis Pinturault,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,clement-noel-fra,Clement Noel,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,marco-schwarz-aut,Marco Schwarz,AUT,0.0,0.0,0.0,0.0
+Men's Super-G,timon-haugan-nor,Timon Haugan,NOR,0.0,0.0,0.0,0.0
+Men's Super-G,vincent-kriechmayr-aut,Vincent Kriechmayr,AUT,0.0,0.0,1.0,1.0
+Men's Super-G,cameron-alexander-can,Cameron Alexander,CAN,0.0,0.0,0.0,0.0
+Men's Super-G,james-crawford-can,James Crawford,CAN,0.0,0.0,0.0,0.0
+Men's Super-G,johan-clarey-fra,Johan Clarey,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,travis-ganong-usa,Travis Ganong,USA,0.0,0.0,0.0,0.0
+Men's Super-G,dominik-paris-ita,Dominik Paris,ITA,0.0,0.0,0.0,0.0
+Men's Super-G,cyprien-sarrazin-fra,Cyprien Sarrazin,FRA,0.0,0.0,0.0,0.0
+Men's Super-G,zan-kranjec-slo,Zan Kranjec,SLO,0.0,0.0,0.0,0.0
+Men's Super-G,river-radamus-usa,River Radamus,USA,0.0,0.0,0.0,0.0
+Men's Super-G,filip-zubcic-cro,Filip Zubcic,CRO,0.0,0.0,0.0,0.0
+Men's Super-G,stefan-hadalin-slo,Stefan Hadalin,SLO,0.0,0.0,0.0,0.0
+Men's Super-G,sebastian-foss-solevaag-nor,Sebastian Foss-Solevaag,NOR,0.0,0.0,0.0,0.0
+Men's Super-G,luca-de-aliprandini-ita,Luca De Aliprandini,ITA,0.0,0.0,0.0,0.0
+Men's Super-G,tommy-ford-usa,Tommy Ford,USA,0.0,0.0,0.0,0.0
+Men's Super-G,adrian-smiseth-sejersted-nor,Adrian Smiseth Sejersted,NOR,0.0,0.0,0.0,0.0
+Men's Super-G,rasmus-windingstad-nor,Rasmus Windingstad,NOR,0.0,0.0,0.0,0.0
+Men's Super-G,leif-kristian-nestvold-haugen-nor,Leif Kristian Nestvold-Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,federica-brignone-ita,Federica Brignone,ITA,1.0,0.0,0.0,1.0
+Women's Super-G,lauren-macuga-usa,Lauren Macuga,USA,0.0,0.0,0.0,0.0
+Women's Super-G,romane-miradoli-fra,Romane Miradoli,FRA,0.0,0.0,0.0,0.0
+Women's Super-G,ariane-raedler-aut,Ariane Raedler,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,laura-pirovano-ita,Laura Pirovano,ITA,0.0,0.0,0.0,0.0
+Women's Super-G,alice-robinson-nzl,Alice Robinson,NZL,0.0,0.0,0.0,0.0
+Women's Super-G,kira-weidle-winkelmann-ger,Kira Weidle-Winkelmann,GER,0.0,0.0,0.0,0.0
+Women's Super-G,mirjam-puchner-aut,Mirjam Puchner,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,ricarda-haaser-aut,Ricarda Haaser,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,roberta-melesi-ita,Roberta Melesi,ITA,0.0,1.0,0.0,1.0
+Women's Super-G,joana-haehlen-sui,Joana Haehlen,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,malorie-blanc-sui,Malorie Blanc,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,laura-gauche-fra,Laura Gauche,FRA,0.0,0.0,0.0,0.0
+Women's Super-G,christina-ager-aut,Christina Ager,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,keely-cashman-usa,Keely Cashman,USA,0.0,0.0,0.0,0.0
+Women's Super-G,karen-clement-fra,Karen Clement,FRA,0.0,0.0,0.0,0.0
+Women's Super-G,valerie-grenier-can,Valerie Grenier,CAN,0.0,0.0,0.0,0.0
+Women's Super-G,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,0.0,0.0,0.0,0.0
+Women's Super-G,camille-rast-sui,Camille Rast,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,emma-aicher-ger,Emma Aicher,GER,0.0,0.0,1.0,1.0
+Women's Super-G,paula-moltzan-usa,Paula Moltzan,USA,0.0,0.0,0.0,0.0
+Women's Super-G,lindsey-vonn-usa,Lindsey Vonn,USA,0.0,0.0,0.0,0.0
+Women's Super-G,sofia-goggia-ita,Sofia Goggia,ITA,0.0,0.0,0.0,0.0
+Women's Super-G,cornelia-huetter-aut,Cornelia Huetter,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,ilka-stuhec-slo,Ilka Stuhec,SLO,0.0,0.0,0.0,0.0
+Women's Super-G,kajsa-vickhoff-lie-nor,Kajsa Vickhoff Lie,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,marta-bassino-ita,Marta Bassino,ITA,0.0,0.0,0.0,0.0
+Women's Super-G,petra-vlhova-svk,Petra Vlhova,SVK,0.0,0.0,0.0,0.0
+Women's Super-G,sara-hector-swe,Sara Hector,SWE,0.0,0.0,0.0,0.0
+Women's Super-G,wendy-holdener-sui,Wendy Holdener,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,michelle-gisin-sui,Michelle Gisin,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,ragnhild-mowinckel-nor,Ragnhild Mowinckel,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,thea-louise-stjernesund-nor,Thea Louise Stjernesund,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,elena-curtoni-ita,Elena Curtoni,ITA,0.0,0.0,0.0,0.0
+Women's Super-G,ester-ledecka-cze,Ester Ledecka,CZE,0.0,0.0,0.0,0.0
+Women's Super-G,stephanie-venier-aut,Stephanie Venier,AUT,0.0,0.0,0.0,0.0
+Women's Super-G,corinne-suter-sui,Corinne Suter,SUI,0.0,0.0,0.0,0.0
+Women's Super-G,marie-michele-gagnon-can,Marie-Michele Gagnon,CAN,0.0,0.0,0.0,0.0
+Women's Super-G,nina-o-brien-usa,Nina O Brien,USA,0.0,0.0,0.0,0.0
+Women's Super-G,anna-swenn-larsson-swe,Anna Swenn Larsson,SWE,0.0,0.0,0.0,0.0
+Women's Super-G,mina-fuerst-holtmann-nor,Mina Fuerst Holtmann,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,maria-therese-tviberg-nor,Maria Therese Tviberg,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,kristine-gjelsten-haugen-nor,Kristine Gjelsten Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Super-G,riikka-honkanen-fin,Riikka Honkanen,FIN,0.0,0.0,0.0,0.0
+Women's Super-G,rosa-pohjolainen-fin,Rosa Pohjolainen,FIN,0.0,0.0,0.0,0.0
+Men's Downhill,marco-odermatt-sui,Marco Odermatt,SUI,1.0,0.0,0.0,1.0
+Men's Downhill,allmen-franjo-von-sui,Allmen Franjo Von,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,alexis-monney-sui,Alexis Monney,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,miha-hrobat-slo,Miha Hrobat,SLO,0.0,0.0,0.0,0.0
+Men's Downhill,justin-murisier-sui,Justin Murisier,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,stefan-rogentin-sui,Stefan Rogentin,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,nils-allegre-fra,Nils Allegre,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,ryan-cochran-siegle-usa,Ryan Cochran-Siegle,USA,0.0,0.0,0.0,0.0
+Men's Downhill,bryce-bennett-usa,Bryce Bennett,USA,0.0,0.0,0.0,0.0
+Men's Downhill,stefan-eichberger-aut,Stefan Eichberger,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,florian-schieder-ita,Florian Schieder,ITA,0.0,0.0,0.0,0.0
+Men's Downhill,daniel-hemetsberger-aut,Daniel Hemetsberger,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,mattia-casse-ita,Mattia Casse,ITA,0.0,0.0,0.0,0.0
+Men's Downhill,stefan-babinsky-aut,Stefan Babinsky,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,maxence-muzaton-fra,Maxence Muzaton,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,lars-roesti-sui,Lars Roesti,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,elian-lehto-fin,Elian Lehto,FIN,0.0,0.0,0.0,0.0
+Men's Downhill,brodie-seger-can,Brodie Seger,CAN,0.0,0.0,0.0,0.0
+Men's Downhill,otmar-striedinger-aut,Otmar Striedinger,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,romed-baumann-ger,Romed Baumann,GER,0.0,0.0,0.0,0.0
+Men's Downhill,marco-kohler-sui,Marco Kohler,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,nejc-naralocnik-slo,Nejc Naralocnik,SLO,0.0,0.0,0.0,0.0
+Men's Downhill,adrien-theaux-fra,Adrien Theaux,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,martin-cater-slo,Martin Cater,SLO,0.0,0.0,0.0,0.0
+Men's Downhill,jan-zabystran-cze,Jan Zabystran,CZE,0.0,0.0,0.0,0.0
+Men's Downhill,lucas-pinheiro-braathen-bra,Lucas Pinheiro Braathen,BRA,0.0,0.0,0.0,0.0
+Men's Downhill,atle-lie-mcgrath-nor,Atle Lie McGrath,NOR,0.0,0.0,0.0,0.0
+Men's Downhill,franjo-von-allmen-sui,Franjo von Allmen,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,henrik-kristoffersen-nor,Henrik Kristoffersen,NOR,0.0,0.0,1.0,1.0
+Men's Downhill,loic-meillard-sui,Loic Meillard,SUI,0.0,0.0,0.0,0.0
+Men's Downhill,manuel-feller-aut,Manuel Feller,AUT,0.0,1.0,0.0,1.0
+Men's Downhill,alexis-pinturault-fra,Alexis Pinturault,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,clement-noel-fra,Clement Noel,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,marco-schwarz-aut,Marco Schwarz,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,timon-haugan-nor,Timon Haugan,NOR,0.0,0.0,0.0,0.0
+Men's Downhill,vincent-kriechmayr-aut,Vincent Kriechmayr,AUT,0.0,0.0,0.0,0.0
+Men's Downhill,cameron-alexander-can,Cameron Alexander,CAN,0.0,0.0,0.0,0.0
+Men's Downhill,james-crawford-can,James Crawford,CAN,0.0,0.0,0.0,0.0
+Men's Downhill,johan-clarey-fra,Johan Clarey,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,travis-ganong-usa,Travis Ganong,USA,0.0,0.0,0.0,0.0
+Men's Downhill,dominik-paris-ita,Dominik Paris,ITA,0.0,0.0,0.0,0.0
+Men's Downhill,cyprien-sarrazin-fra,Cyprien Sarrazin,FRA,0.0,0.0,0.0,0.0
+Men's Downhill,zan-kranjec-slo,Zan Kranjec,SLO,0.0,0.0,0.0,0.0
+Men's Downhill,river-radamus-usa,River Radamus,USA,0.0,0.0,0.0,0.0
+Men's Downhill,filip-zubcic-cro,Filip Zubcic,CRO,0.0,0.0,0.0,0.0
+Men's Downhill,stefan-hadalin-slo,Stefan Hadalin,SLO,0.0,0.0,0.0,0.0
+Men's Downhill,sebastian-foss-solevaag-nor,Sebastian Foss-Solevaag,NOR,0.0,0.0,0.0,0.0
+Men's Downhill,luca-de-aliprandini-ita,Luca De Aliprandini,ITA,0.0,0.0,0.0,0.0
+Men's Downhill,tommy-ford-usa,Tommy Ford,USA,0.0,0.0,0.0,0.0
+Men's Downhill,adrian-smiseth-sejersted-nor,Adrian Smiseth Sejersted,NOR,0.0,0.0,0.0,0.0
+Men's Downhill,rasmus-windingstad-nor,Rasmus Windingstad,NOR,0.0,0.0,0.0,0.0
+Men's Downhill,leif-kristian-nestvold-haugen-nor,Leif Kristian Nestvold-Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,camille-rast-sui,Camille Rast,SUI,1.0,0.0,0.0,1.0
+Women's Downhill,lauren-macuga-usa,Lauren Macuga,USA,0.0,0.0,0.0,0.0
+Women's Downhill,laura-pirovano-ita,Laura Pirovano,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,breezy-johnson-usa,Breezy Johnson,USA,0.0,0.0,0.0,0.0
+Women's Downhill,jacqueline-wiles-usa,Jacqueline Wiles,USA,0.0,0.0,0.0,0.0
+Women's Downhill,mirjam-puchner-aut,Mirjam Puchner,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,ariane-raedler-aut,Ariane Raedler,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,kira-weidle-winkelmann-ger,Kira Weidle-Winkelmann,GER,0.0,0.0,0.0,0.0
+Women's Downhill,malorie-blanc-sui,Malorie Blanc,SUI,0.0,0.0,0.0,0.0
+Women's Downhill,marte-monsen-nor,Marte Monsen,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,nicol-delago-ita,Nicol Delago,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,laura-gauche-fra,Laura Gauche,FRA,0.0,0.0,0.0,0.0
+Women's Downhill,nadia-delago-ita,Nadia Delago,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,christina-ager-aut,Christina Ager,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,ricarda-haaser-aut,Ricarda Haaser,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,priska-ming-nufer-sui,Priska Ming-Nufer,SUI,0.0,0.0,0.0,0.0
+Women's Downhill,nina-ortlieb-aut,Nina Ortlieb,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,mikaela-shiffrin-usa,Mikaela Shiffrin,USA,0.0,0.0,1.0,1.0
+Women's Downhill,emma-aicher-ger,Emma Aicher,GER,0.0,0.0,0.0,0.0
+Women's Downhill,paula-moltzan-usa,Paula Moltzan,USA,0.0,0.0,0.0,0.0
+Women's Downhill,lindsey-vonn-usa,Lindsey Vonn,USA,0.0,0.0,0.0,0.0
+Women's Downhill,federica-brignone-ita,Federica Brignone,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,sofia-goggia-ita,Sofia Goggia,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,cornelia-huetter-aut,Cornelia Huetter,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,ilka-stuhec-slo,Ilka Stuhec,SLO,0.0,0.0,0.0,0.0
+Women's Downhill,kajsa-vickhoff-lie-nor,Kajsa Vickhoff Lie,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,marta-bassino-ita,Marta Bassino,ITA,0.0,1.0,0.0,1.0
+Women's Downhill,petra-vlhova-svk,Petra Vlhova,SVK,0.0,0.0,0.0,0.0
+Women's Downhill,sara-hector-swe,Sara Hector,SWE,0.0,0.0,0.0,0.0
+Women's Downhill,wendy-holdener-sui,Wendy Holdener,SUI,0.0,0.0,0.0,0.0
+Women's Downhill,michelle-gisin-sui,Michelle Gisin,SUI,0.0,0.0,0.0,0.0
+Women's Downhill,ragnhild-mowinckel-nor,Ragnhild Mowinckel,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,thea-louise-stjernesund-nor,Thea Louise Stjernesund,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,elena-curtoni-ita,Elena Curtoni,ITA,0.0,0.0,0.0,0.0
+Women's Downhill,ester-ledecka-cze,Ester Ledecka,CZE,0.0,0.0,0.0,0.0
+Women's Downhill,stephanie-venier-aut,Stephanie Venier,AUT,0.0,0.0,0.0,0.0
+Women's Downhill,corinne-suter-sui,Corinne Suter,SUI,0.0,0.0,0.0,0.0
+Women's Downhill,marie-michele-gagnon-can,Marie-Michele Gagnon,CAN,0.0,0.0,0.0,0.0
+Women's Downhill,nina-o-brien-usa,Nina O Brien,USA,0.0,0.0,0.0,0.0
+Women's Downhill,anna-swenn-larsson-swe,Anna Swenn Larsson,SWE,0.0,0.0,0.0,0.0
+Women's Downhill,mina-fuerst-holtmann-nor,Mina Fuerst Holtmann,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,maria-therese-tviberg-nor,Maria Therese Tviberg,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,kristine-gjelsten-haugen-nor,Kristine Gjelsten Haugen,NOR,0.0,0.0,0.0,0.0
+Women's Downhill,riikka-honkanen-fin,Riikka Honkanen,FIN,0.0,0.0,0.0,0.0
+Women's Downhill,rosa-pohjolainen-fin,Rosa Pohjolainen,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-nor,Team Norway,NOR,1.0,0.0,0.0,1.0
+Men's Team Sprint,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,0.0,1.0,0.0,1.0
+Men's Team Sprint,erik-valnes-nor,Erik Valnes,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,edvin-anger-swe,Edvin Anger,SWE,0.0,0.0,1.0,1.0
+Men's Team Sprint,lucas-chanavat-fra,Lucas Chanavat,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,even-northug-nor,Even Northug,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,0.0,0.0
+Men's Team Sprint,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's Team Sprint,lauri-vuorinen-fin,Lauri Vuorinen,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,valerio-grond-sui,Valerio Grond,SUI,0.0,0.0,0.0,0.0
+Men's Team Sprint,janik-riebli-sui,Janik Riebli,SUI,0.0,0.0,0.0,0.0
+Men's Team Sprint,oskar-opstad-vike-nor,Oskar Opstad Vike,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,jules-chappaz-fra,Jules Chappaz,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,jc-schoonmaker-usa,JC Schoonmaker,USA,0.0,0.0,0.0,0.0
+Men's Team Sprint,richard-jouve-fra,Richard Jouve,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,ansgar-evensen-nor,Ansgar Evensen,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,jaume-pueyo-esp,Jaume Pueyo,ESP,0.0,0.0,0.0,0.0
+Men's Team Sprint,niilo-moilanen-fin,Niilo Moilanen,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,joni-maki-fin,Joni Maki,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,jan-stoelben-ger,Jan Stoelben,GER,0.0,0.0,0.0,0.0
+Men's Team Sprint,emil-danielsson-swe,Emil Danielsson,SWE,0.0,0.0,0.0,0.0
+Men's Team Sprint,benjamin-moser-aut,Benjamin Moser,AUT,0.0,0.0,0.0,0.0
+Men's Team Sprint,michael-hellweger-ita,Michael Hellweger,ITA,0.0,0.0,0.0,0.0
+Men's Team Sprint,emil-liekari-fin,Emil Liekari,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,matz-william-jenssen-nor,Matz William Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,ondrej-cerny-cze,Ondrej Cerny,CZE,0.0,0.0,0.0,0.0
+Men's Team Sprint,haavard-solaas-taugboel-nor,Haavard Solaas Taugboel,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,oskar-svensson-swe,Oskar Svensson,SWE,0.0,0.0,0.0,0.0
+Men's Team Sprint,remi-bourdin-fra,Remi Bourdin,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,gus-schumacher-usa,Gus Schumacher,USA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-fra,Team France,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Men's Sprint,edvin-anger-swe,Edvin Anger,SWE,1.0,0.0,0.0,1.0
+Men's Sprint,janik-riebli-sui,Janik Riebli,SUI,0.0,0.0,0.0,0.0
+Men's Sprint,oskar-opstad-vike-nor,Oskar Opstad Vike,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,ansgar-evensen-nor,Ansgar Evensen,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,jaume-pueyo-esp,Jaume Pueyo,ESP,0.0,0.0,0.0,0.0
+Men's Sprint,niilo-moilanen-fin,Niilo Moilanen,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,joni-maki-fin,Joni Maki,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,jan-stoelben-ger,Jan Stoelben,GER,0.0,0.0,0.0,0.0
+Men's Sprint,emil-danielsson-swe,Emil Danielsson,SWE,0.0,0.0,0.0,0.0
+Men's Sprint,benjamin-moser-aut,Benjamin Moser,AUT,0.0,0.0,0.0,0.0
+Men's Sprint,michael-hellweger-ita,Michael Hellweger,ITA,0.0,0.0,0.0,0.0
+Men's Sprint,emil-liekari-fin,Emil Liekari,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,matz-william-jenssen-nor,Matz William Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,ondrej-cerny-cze,Ondrej Cerny,CZE,0.0,0.0,0.0,0.0
+Men's Sprint,haavard-solaas-taugboel-nor,Haavard Solaas Taugboel,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,oskar-svensson-swe,Oskar Svensson,SWE,0.0,0.0,0.0,0.0
+Men's Sprint,remi-bourdin-fra,Remi Bourdin,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,erik-valnes-nor,Erik Valnes,NOR,0.0,1.0,0.0,1.0
+Men's Sprint,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,0.0,0.0
+Men's Sprint,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,simen-hegstad-krueger-nor,Simen Hegstad Krueger,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,hugo-lapalus-fra,Hugo Lapalus,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,andreas-fjorden-ree-nor,Andreas Fjorden Ree,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,martin-loewstroem-nyenget-nor,Martin Loewstroem Nyenget,NOR,0.0,0.0,1.0,1.0
+Men's Sprint,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's Sprint,mika-vermeulen-aut,Mika Vermeulen,AUT,0.0,0.0,0.0,0.0
+Men's Sprint,friedrich-moch-ger,Friedrich Moch,GER,0.0,0.0,0.0,0.0
+Men's Sprint,mathis-desloges-fra,Mathis Desloges,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,gus-schumacher-usa,Gus Schumacher,USA,0.0,0.0,0.0,0.0
+Men's Sprint,william-poromaa-swe,William Poromaa,SWE,0.0,0.0,0.0,0.0
+Men's Sprint,iivo-niskanen-fin,Iivo Niskanen,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,paal-golberg-nor,Paal Golberg,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,iver-tildheim-andersen-nor,Iver Tildheim Andersen,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,lucas-chanavat-fra,Lucas Chanavat,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,lauri-vuorinen-fin,Lauri Vuorinen,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,even-northug-nor,Even Northug,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,andrew-musgrave-gbr,Andrew Musgrave,GBR,0.0,0.0,0.0,0.0
+Men's Sprint,jan-thomas-jenssen-nor,Jan Thomas Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's Sprint,arsi-ruuskanen-fin,Arsi Ruuskanen,FIN,0.0,0.0,0.0,0.0
+Men's Sprint,michal-novak-cze,Michal Novak,CZE,0.0,0.0,0.0,0.0
+Men's Sprint,jules-chappaz-fra,Jules Chappaz,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,richard-jouve-fra,Richard Jouve,FRA,0.0,0.0,0.0,0.0
+Men's Sprint,valerio-grond-sui,Valerio Grond,SUI,0.0,0.0,0.0,0.0
+Men's Sprint,jc-schoonmaker-usa,JC Schoonmaker,USA,0.0,0.0,0.0,0.0
+Men's Sprint,thomas-maloney-westgaard-irl,Thomas Maloney Westgaard,IRL,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-ger,Team Germany,GER,1.0,0.0,0.0,1.0
+Women's Team Sprint,jasmi-joensuu-fin,Jasmi Joensuu,FIN,0.0,0.0,0.0,0.0
+Women's Team Sprint,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's Team Sprint,maja-dahlqvist-swe,Maja Dahlqvist,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,coletta-rydzek-ger,Coletta Rydzek,GER,0.0,0.0,0.0,0.0
+Women's Team Sprint,laura-gimmler-ger,Laura Gimmler,GER,0.0,0.0,0.0,0.0
+Women's Team Sprint,johanna-hagstroem-swe,Johanna Hagstroem,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's Team Sprint,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,julie-myhre-nor,Julie Myhre,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,kristine-stavaas-skistad-nor,Kristine Stavaas Skistad,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's Team Sprint,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's Team Sprint,mathilde-myhrvold-nor,Mathilde Myhrvold,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,elena-rise-johnsen-nor,Elena Rise Johnsen,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,julia-kern-usa,Julia Kern,USA,0.0,0.0,0.0,0.0
+Women's Team Sprint,anja-weber-sui,Anja Weber,SUI,0.0,0.0,0.0,0.0
+Women's Team Sprint,ane-appelkvist-stenseth-nor,Ane Appelkvist Stenseth,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,lena-quintin-fra,Lena Quintin,FRA,0.0,0.0,0.0,0.0
+Women's Team Sprint,jasmin-kahara-fin,Jasmin Kahara,FIN,0.0,0.0,0.0,0.0
+Women's Team Sprint,sofie-krehl-ger,Sofie Krehl,GER,0.0,0.0,0.0,0.0
+Women's Team Sprint,moa-lundgren-swe,Moa Lundgren,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,federica-cassol-ita,Federica Cassol,ITA,0.0,0.0,0.0,0.0
+Women's Team Sprint,hedda-oestberg-amundsen-nor,Hedda Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Women's Team Sprint,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,katri-lylynpera-fin,Katri Lylynpera,FIN,0.0,0.0,0.0,0.0
+Women's Team Sprint,maerta-rosenberg-swe,Maerta Rosenberg,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,linn-svahn-swe,Linn Svahn,SWE,0.0,0.0,0.0,0.0
+Women's Team Sprint,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,0.0,0.0
+Women's Team Sprint,alina-meier-sui,Alina Meier,SUI,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-swe,Team Sweden,SWE,0.0,0.0,1.0,1.0
+Women's Team Sprint,team-nor,Team Norway,NOR,0.0,1.0,0.0,1.0
+Women's Team Sprint,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Women's Team Sprint,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Women's Sprint,lena-quintin-fra,Lena Quintin,FRA,1.0,0.0,0.0,1.0
+Women's Sprint,coletta-rydzek-ger,Coletta Rydzek,GER,0.0,0.0,0.0,0.0
+Women's Sprint,laura-gimmler-ger,Laura Gimmler,GER,0.0,0.0,0.0,0.0
+Women's Sprint,julie-myhre-nor,Julie Myhre,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,kristine-stavaas-skistad-nor,Kristine Stavaas Skistad,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's Sprint,mathilde-myhrvold-nor,Mathilde Myhrvold,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,elena-rise-johnsen-nor,Elena Rise Johnsen,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,julia-kern-usa,Julia Kern,USA,0.0,0.0,0.0,0.0
+Women's Sprint,anja-weber-sui,Anja Weber,SUI,0.0,0.0,0.0,0.0
+Women's Sprint,jasmin-kahara-fin,Jasmin Kahara,FIN,0.0,0.0,0.0,0.0
+Women's Sprint,sofie-krehl-ger,Sofie Krehl,GER,0.0,0.0,0.0,0.0
+Women's Sprint,moa-lundgren-swe,Moa Lundgren,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,federica-cassol-ita,Federica Cassol,ITA,0.0,0.0,0.0,0.0
+Women's Sprint,hedda-oestberg-amundsen-nor,Hedda Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,katri-lylynpera-fin,Katri Lylynpera,FIN,0.0,0.0,0.0,0.0
+Women's Sprint,maerta-rosenberg-swe,Maerta Rosenberg,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,alina-meier-sui,Alina Meier,SUI,0.0,0.0,0.0,0.0
+Women's Sprint,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's Sprint,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's Sprint,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,0.0,0.0
+Women's Sprint,moa-ilar-swe,Moa Ilar,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,maja-dahlqvist-swe,Maja Dahlqvist,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,ebba-andersson-swe,Ebba Andersson,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,karoline-simpson-larsen-nor,Karoline Simpson-Larsen,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,heidi-weng-nor,Heidi Weng,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,frida-karlsson-swe,Frida Karlsson,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,jasmi-joensuu-fin,Jasmi Joensuu,FIN,0.0,0.0,0.0,0.0
+Women's Sprint,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,teresa-stadlober-aut,Teresa Stadlober,AUT,0.0,1.0,0.0,1.0
+Women's Sprint,katharina-hennig-ger,Katharina Hennig,GER,0.0,0.0,0.0,0.0
+Women's Sprint,astrid-oeyre-slind-nor,Astrid Oeyre Slind,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,linn-svahn-swe,Linn Svahn,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,krista-parmakoski-fin,Krista Parmakoski,FIN,0.0,0.0,0.0,0.0
+Women's Sprint,rosie-brennan-usa,Rosie Brennan,USA,0.0,0.0,1.0,1.0
+Women's Sprint,anne-kjersti-kalva-nor,Anne Kjersti Kalva,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,delphine-claudel-fra,Delphine Claudel,FRA,0.0,0.0,0.0,0.0
+Women's Sprint,johanna-hagstroem-swe,Johanna Hagstroem,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's Sprint,ane-appelkvist-stenseth-nor,Ane Appelkvist Stenseth,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,jessica-yeaton-aus,Jessica Yeaton,AUS,0.0,0.0,0.0,0.0
+Women's Sprint,caterina-ganz-ita,Caterina Ganz,ITA,0.0,0.0,0.0,0.0
+Women's Sprint,margrethe-bergane-nor,Margrethe Bergane,NOR,0.0,0.0,0.0,0.0
+Women's Sprint,anamarija-lampic-slo,Anamarija Lampic,SLO,0.0,0.0,0.0,0.0
+Women's Sprint,anna-dyvik-swe,Anna Dyvik,SWE,0.0,0.0,0.0,0.0
+Women's Sprint,sofia-henriksson-swe,Sofia Henriksson,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-ger,Team Germany,GER,1.0,0.0,0.0,1.0
+Men's 4x10km Relay,simen-hegstad-krueger-nor,Simen Hegstad Krueger,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,martin-loewstroem-nyenget-nor,Martin Loewstroem Nyenget,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,hugo-lapalus-fra,Hugo Lapalus,FRA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,andreas-fjorden-ree-nor,Andreas Fjorden Ree,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,iivo-niskanen-fin,Iivo Niskanen,FIN,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,paal-golberg-nor,Paal Golberg,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,mika-vermeulen-aut,Mika Vermeulen,AUT,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,william-poromaa-swe,William Poromaa,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,friedrich-moch-ger,Friedrich Moch,GER,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,mathis-desloges-fra,Mathis Desloges,FRA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,edvin-anger-swe,Edvin Anger,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,gus-schumacher-usa,Gus Schumacher,USA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,iver-tildheim-andersen-nor,Iver Tildheim Andersen,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,erik-valnes-nor,Erik Valnes,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,andrew-musgrave-gbr,Andrew Musgrave,GBR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,arsi-ruuskanen-fin,Arsi Ruuskanen,FIN,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,jan-thomas-jenssen-nor,Jan Thomas Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,westgaard-thomas-maloney-irl,Westgaard Thomas Maloney,IRL,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,jens-burman-swe,Jens Burman,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,calle-halfvarsson-swe,Calle Halfvarsson,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,truls-gisselman-swe,Truls Gisselman,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,altimiras-ireneu-esteve-and,Altimiras Ireneu Esteve,AND,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,jules-lapierre-fra,Jules Lapierre,FRA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,michal-novak-cze,Michal Novak,CZE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,davide-graz-ita,Davide Graz,ITA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,naoto-baba-jpn,Naoto Baba,JPN,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-nor,Team Norway,NOR,0.0,1.0,0.0,1.0
+Men's 4x10km Relay,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-fra,Team France,FRA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Men's 4x10km Relay,team-usa,Team USA,USA,0.0,0.0,1.0,1.0
+Men's Skiathlon,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,1.0,0.0,0.0,1.0
+Men's Skiathlon,westgaard-thomas-maloney-irl,Westgaard Thomas Maloney,IRL,0.0,0.0,0.0,0.0
+Men's Skiathlon,jens-burman-swe,Jens Burman,SWE,0.0,0.0,0.0,0.0
+Men's Skiathlon,calle-halfvarsson-swe,Calle Halfvarsson,SWE,0.0,0.0,0.0,0.0
+Men's Skiathlon,truls-gisselman-swe,Truls Gisselman,SWE,0.0,0.0,0.0,0.0
+Men's Skiathlon,altimiras-ireneu-esteve-and,Altimiras Ireneu Esteve,AND,0.0,0.0,0.0,0.0
+Men's Skiathlon,jules-lapierre-fra,Jules Lapierre,FRA,0.0,0.0,0.0,0.0
+Men's Skiathlon,davide-graz-ita,Davide Graz,ITA,0.0,0.0,0.0,0.0
+Men's Skiathlon,naoto-baba-jpn,Naoto Baba,JPN,0.0,0.0,0.0,0.0
+Men's Skiathlon,edvin-anger-swe,Edvin Anger,SWE,0.0,0.0,0.0,0.0
+Men's Skiathlon,erik-valnes-nor,Erik Valnes,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,1.0,1.0
+Men's Skiathlon,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,simen-hegstad-krueger-nor,Simen Hegstad Krueger,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,hugo-lapalus-fra,Hugo Lapalus,FRA,0.0,0.0,0.0,0.0
+Men's Skiathlon,andreas-fjorden-ree-nor,Andreas Fjorden Ree,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,martin-loewstroem-nyenget-nor,Martin Loewstroem Nyenget,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's Skiathlon,mika-vermeulen-aut,Mika Vermeulen,AUT,0.0,0.0,0.0,0.0
+Men's Skiathlon,friedrich-moch-ger,Friedrich Moch,GER,0.0,0.0,0.0,0.0
+Men's Skiathlon,mathis-desloges-fra,Mathis Desloges,FRA,0.0,0.0,0.0,0.0
+Men's Skiathlon,gus-schumacher-usa,Gus Schumacher,USA,0.0,0.0,0.0,0.0
+Men's Skiathlon,william-poromaa-swe,William Poromaa,SWE,0.0,0.0,0.0,0.0
+Men's Skiathlon,iivo-niskanen-fin,Iivo Niskanen,FIN,0.0,0.0,0.0,0.0
+Men's Skiathlon,paal-golberg-nor,Paal Golberg,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,iver-tildheim-andersen-nor,Iver Tildheim Andersen,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,lucas-chanavat-fra,Lucas Chanavat,FRA,0.0,0.0,0.0,0.0
+Men's Skiathlon,lauri-vuorinen-fin,Lauri Vuorinen,FIN,0.0,0.0,0.0,0.0
+Men's Skiathlon,even-northug-nor,Even Northug,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,andrew-musgrave-gbr,Andrew Musgrave,GBR,0.0,0.0,0.0,0.0
+Men's Skiathlon,jan-thomas-jenssen-nor,Jan Thomas Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's Skiathlon,arsi-ruuskanen-fin,Arsi Ruuskanen,FIN,0.0,0.0,0.0,0.0
+Men's Skiathlon,michal-novak-cze,Michal Novak,CZE,0.0,0.0,0.0,0.0
+Men's Skiathlon,jules-chappaz-fra,Jules Chappaz,FRA,0.0,0.0,0.0,0.0
+Men's Skiathlon,richard-jouve-fra,Richard Jouve,FRA,0.0,1.0,0.0,1.0
+Men's Skiathlon,valerio-grond-sui,Valerio Grond,SUI,0.0,0.0,0.0,0.0
+Men's Skiathlon,jc-schoonmaker-usa,JC Schoonmaker,USA,0.0,0.0,0.0,0.0
+Men's Skiathlon,thomas-maloney-westgaard-irl,Thomas Maloney Westgaard,IRL,0.0,0.0,0.0,0.0
+Men's 15km,even-northug-nor,Even Northug,NOR,1.0,0.0,0.0,1.0
+Men's 15km,westgaard-thomas-maloney-irl,Westgaard Thomas Maloney,IRL,0.0,0.0,0.0,0.0
+Men's 15km,jens-burman-swe,Jens Burman,SWE,0.0,0.0,0.0,0.0
+Men's 15km,calle-halfvarsson-swe,Calle Halfvarsson,SWE,0.0,0.0,0.0,0.0
+Men's 15km,truls-gisselman-swe,Truls Gisselman,SWE,0.0,0.0,0.0,0.0
+Men's 15km,altimiras-ireneu-esteve-and,Altimiras Ireneu Esteve,AND,0.0,0.0,0.0,0.0
+Men's 15km,jules-lapierre-fra,Jules Lapierre,FRA,0.0,0.0,0.0,0.0
+Men's 15km,davide-graz-ita,Davide Graz,ITA,0.0,0.0,0.0,0.0
+Men's 15km,naoto-baba-jpn,Naoto Baba,JPN,0.0,0.0,0.0,0.0
+Men's 15km,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,0.0,0.0,0.0,0.0
+Men's 15km,edvin-anger-swe,Edvin Anger,SWE,0.0,0.0,0.0,0.0
+Men's 15km,erik-valnes-nor,Erik Valnes,NOR,0.0,0.0,1.0,1.0
+Men's 15km,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,0.0,0.0
+Men's 15km,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's 15km,simen-hegstad-krueger-nor,Simen Hegstad Krueger,NOR,0.0,0.0,0.0,0.0
+Men's 15km,hugo-lapalus-fra,Hugo Lapalus,FRA,0.0,0.0,0.0,0.0
+Men's 15km,andreas-fjorden-ree-nor,Andreas Fjorden Ree,NOR,0.0,0.0,0.0,0.0
+Men's 15km,martin-loewstroem-nyenget-nor,Martin Loewstroem Nyenget,NOR,0.0,0.0,0.0,0.0
+Men's 15km,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's 15km,mika-vermeulen-aut,Mika Vermeulen,AUT,0.0,1.0,0.0,1.0
+Men's 15km,friedrich-moch-ger,Friedrich Moch,GER,0.0,0.0,0.0,0.0
+Men's 15km,mathis-desloges-fra,Mathis Desloges,FRA,0.0,0.0,0.0,0.0
+Men's 15km,gus-schumacher-usa,Gus Schumacher,USA,0.0,0.0,0.0,0.0
+Men's 15km,william-poromaa-swe,William Poromaa,SWE,0.0,0.0,0.0,0.0
+Men's 15km,iivo-niskanen-fin,Iivo Niskanen,FIN,0.0,0.0,0.0,0.0
+Men's 15km,paal-golberg-nor,Paal Golberg,NOR,0.0,0.0,0.0,0.0
+Men's 15km,iver-tildheim-andersen-nor,Iver Tildheim Andersen,NOR,0.0,0.0,0.0,0.0
+Men's 15km,lucas-chanavat-fra,Lucas Chanavat,FRA,0.0,0.0,0.0,0.0
+Men's 15km,lauri-vuorinen-fin,Lauri Vuorinen,FIN,0.0,0.0,0.0,0.0
+Men's 15km,andrew-musgrave-gbr,Andrew Musgrave,GBR,0.0,0.0,0.0,0.0
+Men's 15km,jan-thomas-jenssen-nor,Jan Thomas Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's 15km,arsi-ruuskanen-fin,Arsi Ruuskanen,FIN,0.0,0.0,0.0,0.0
+Men's 15km,michal-novak-cze,Michal Novak,CZE,0.0,0.0,0.0,0.0
+Men's 15km,jules-chappaz-fra,Jules Chappaz,FRA,0.0,0.0,0.0,0.0
+Men's 15km,richard-jouve-fra,Richard Jouve,FRA,0.0,0.0,0.0,0.0
+Men's 15km,valerio-grond-sui,Valerio Grond,SUI,0.0,0.0,0.0,0.0
+Men's 15km,jc-schoonmaker-usa,JC Schoonmaker,USA,0.0,0.0,0.0,0.0
+Men's 15km,thomas-maloney-westgaard-irl,Thomas Maloney Westgaard,IRL,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,westgaard-thomas-maloney-irl,Westgaard Thomas Maloney,IRL,1.0,0.0,0.0,1.0
+Men's 50km Mass Start,jens-burman-swe,Jens Burman,SWE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,calle-halfvarsson-swe,Calle Halfvarsson,SWE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,truls-gisselman-swe,Truls Gisselman,SWE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,altimiras-ireneu-esteve-and,Altimiras Ireneu Esteve,AND,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,jules-lapierre-fra,Jules Lapierre,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,davide-graz-ita,Davide Graz,ITA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,naoto-baba-jpn,Naoto Baba,JPN,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,johannes-hoesflot-klaebo-nor,Johannes Hoesflot Klaebo,NOR,0.0,0.0,1.0,1.0
+Men's 50km Mass Start,edvin-anger-swe,Edvin Anger,SWE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,erik-valnes-nor,Erik Valnes,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,federico-pellegrino-ita,Federico Pellegrino,ITA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,harald-oestberg-amundsen-nor,Harald Oestberg Amundsen,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,simen-hegstad-krueger-nor,Simen Hegstad Krueger,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,hugo-lapalus-fra,Hugo Lapalus,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,andreas-fjorden-ree-nor,Andreas Fjorden Ree,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,martin-loewstroem-nyenget-nor,Martin Loewstroem Nyenget,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,ben-ogden-usa,Ben Ogden,USA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,mika-vermeulen-aut,Mika Vermeulen,AUT,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,friedrich-moch-ger,Friedrich Moch,GER,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,mathis-desloges-fra,Mathis Desloges,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,gus-schumacher-usa,Gus Schumacher,USA,0.0,1.0,0.0,1.0
+Men's 50km Mass Start,william-poromaa-swe,William Poromaa,SWE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,iivo-niskanen-fin,Iivo Niskanen,FIN,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,paal-golberg-nor,Paal Golberg,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,iver-tildheim-andersen-nor,Iver Tildheim Andersen,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,lucas-chanavat-fra,Lucas Chanavat,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,lauri-vuorinen-fin,Lauri Vuorinen,FIN,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,even-northug-nor,Even Northug,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,andrew-musgrave-gbr,Andrew Musgrave,GBR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,jan-thomas-jenssen-nor,Jan Thomas Jenssen,NOR,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,arsi-ruuskanen-fin,Arsi Ruuskanen,FIN,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,michal-novak-cze,Michal Novak,CZE,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,jules-chappaz-fra,Jules Chappaz,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,richard-jouve-fra,Richard Jouve,FRA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,valerio-grond-sui,Valerio Grond,SUI,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,jc-schoonmaker-usa,JC Schoonmaker,USA,0.0,0.0,0.0,0.0
+Men's 50km Mass Start,thomas-maloney-westgaard-irl,Thomas Maloney Westgaard,IRL,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,flora-dolci-fra,Flora Dolci,FRA,1.0,0.0,0.0,1.0
+Women's 4x5km Relay,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,astrid-oeyre-slind-nor,Astrid Oeyre Slind,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,therese-johaug-nor,Therese Johaug,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,ebba-andersson-swe,Ebba Andersson,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,teresa-stadlober-aut,Teresa Stadlober,AUT,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,heidi-weng-nor,Heidi Weng,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,nora-sanness-nor,Nora Sanness,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,moa-ilar-swe,Moa Ilar,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,katharina-hennig-ger,Katharina Hennig,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,kristin-austgulen-fosnaes-nor,Kristin Austgulen Fosnaes,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,pia-fink-ger,Pia Fink,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,krista-parmakoski-fin,Krista Parmakoski,FIN,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,silje-theodorsen-nor,Silje Theodorsen,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,sophia-laukli-usa,Sophia Laukli,USA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,katherine-stewart-jones-can,Katherine Stewart-Jones,CAN,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,helen-hoffmann-ger,Helen Hoffmann,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,caterina-ganz-ita,Caterina Ganz,ITA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,frida-karlsson-swe,Frida Karlsson,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,katherine-sauerbrey-ger,Katherine Sauerbrey,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,julia-kern-usa,Julia Kern,USA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,helene-marie-fossesholm-nor,Helene Marie Fossesholm,NOR,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,rosie-brennan-usa,Rosie Brennan,USA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-nor,Team Norway,NOR,0.0,1.0,0.0,1.0
+Women's 4x5km Relay,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-sui,Team Switzerland,SUI,0.0,0.0,1.0,1.0
+Women's 4x5km Relay,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Women's 4x5km Relay,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Women's Skiathlon,astrid-oeyre-slind-nor,Astrid Oeyre Slind,NOR,1.0,0.0,0.0,1.0
+Women's Skiathlon,therese-johaug-nor,Therese Johaug,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,nora-sanness-nor,Nora Sanness,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's Skiathlon,kristin-austgulen-fosnaes-nor,Kristin Austgulen Fosnaes,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,pia-fink-ger,Pia Fink,GER,0.0,0.0,0.0,0.0
+Women's Skiathlon,flora-dolci-fra,Flora Dolci,FRA,0.0,0.0,0.0,0.0
+Women's Skiathlon,silje-theodorsen-nor,Silje Theodorsen,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,sophia-laukli-usa,Sophia Laukli,USA,0.0,0.0,0.0,0.0
+Women's Skiathlon,katherine-stewart-jones-can,Katherine Stewart-Jones,CAN,0.0,0.0,0.0,0.0
+Women's Skiathlon,helen-hoffmann-ger,Helen Hoffmann,GER,0.0,0.0,0.0,0.0
+Women's Skiathlon,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,katherine-sauerbrey-ger,Katherine Sauerbrey,GER,0.0,0.0,0.0,0.0
+Women's Skiathlon,julia-kern-usa,Julia Kern,USA,0.0,0.0,0.0,0.0
+Women's Skiathlon,helene-marie-fossesholm-nor,Helene Marie Fossesholm,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's Skiathlon,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's Skiathlon,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,0.0,0.0
+Women's Skiathlon,moa-ilar-swe,Moa Ilar,SWE,0.0,0.0,1.0,1.0
+Women's Skiathlon,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,maja-dahlqvist-swe,Maja Dahlqvist,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,ebba-andersson-swe,Ebba Andersson,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,karoline-simpson-larsen-nor,Karoline Simpson-Larsen,NOR,0.0,1.0,0.0,1.0
+Women's Skiathlon,heidi-weng-nor,Heidi Weng,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,frida-karlsson-swe,Frida Karlsson,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,jasmi-joensuu-fin,Jasmi Joensuu,FIN,0.0,0.0,0.0,0.0
+Women's Skiathlon,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,teresa-stadlober-aut,Teresa Stadlober,AUT,0.0,0.0,0.0,0.0
+Women's Skiathlon,katharina-hennig-ger,Katharina Hennig,GER,0.0,0.0,0.0,0.0
+Women's Skiathlon,linn-svahn-swe,Linn Svahn,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,krista-parmakoski-fin,Krista Parmakoski,FIN,0.0,0.0,0.0,0.0
+Women's Skiathlon,rosie-brennan-usa,Rosie Brennan,USA,0.0,0.0,0.0,0.0
+Women's Skiathlon,anne-kjersti-kalva-nor,Anne Kjersti Kalva,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,delphine-claudel-fra,Delphine Claudel,FRA,0.0,0.0,0.0,0.0
+Women's Skiathlon,johanna-hagstroem-swe,Johanna Hagstroem,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's Skiathlon,ane-appelkvist-stenseth-nor,Ane Appelkvist Stenseth,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,jessica-yeaton-aus,Jessica Yeaton,AUS,0.0,0.0,0.0,0.0
+Women's Skiathlon,caterina-ganz-ita,Caterina Ganz,ITA,0.0,0.0,0.0,0.0
+Women's Skiathlon,margrethe-bergane-nor,Margrethe Bergane,NOR,0.0,0.0,0.0,0.0
+Women's Skiathlon,anamarija-lampic-slo,Anamarija Lampic,SLO,0.0,0.0,0.0,0.0
+Women's Skiathlon,anna-dyvik-swe,Anna Dyvik,SWE,0.0,0.0,0.0,0.0
+Women's Skiathlon,sofia-henriksson-swe,Sofia Henriksson,SWE,0.0,0.0,0.0,0.0
+Women's 10km,julia-kern-usa,Julia Kern,USA,1.0,0.0,0.0,1.0
+Women's 10km,therese-johaug-nor,Therese Johaug,NOR,0.0,0.0,0.0,0.0
+Women's 10km,nora-sanness-nor,Nora Sanness,NOR,0.0,0.0,0.0,0.0
+Women's 10km,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's 10km,kristin-austgulen-fosnaes-nor,Kristin Austgulen Fosnaes,NOR,0.0,0.0,0.0,0.0
+Women's 10km,pia-fink-ger,Pia Fink,GER,0.0,0.0,0.0,0.0
+Women's 10km,flora-dolci-fra,Flora Dolci,FRA,0.0,0.0,0.0,0.0
+Women's 10km,silje-theodorsen-nor,Silje Theodorsen,NOR,0.0,0.0,0.0,0.0
+Women's 10km,sophia-laukli-usa,Sophia Laukli,USA,0.0,0.0,0.0,0.0
+Women's 10km,katherine-stewart-jones-can,Katherine Stewart-Jones,CAN,0.0,0.0,0.0,0.0
+Women's 10km,helen-hoffmann-ger,Helen Hoffmann,GER,0.0,0.0,0.0,0.0
+Women's 10km,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's 10km,katherine-sauerbrey-ger,Katherine Sauerbrey,GER,0.0,0.0,0.0,0.0
+Women's 10km,helene-marie-fossesholm-nor,Helene Marie Fossesholm,NOR,0.0,0.0,0.0,0.0
+Women's 10km,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's 10km,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's 10km,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,0.0,0.0
+Women's 10km,moa-ilar-swe,Moa Ilar,SWE,0.0,0.0,0.0,0.0
+Women's 10km,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's 10km,maja-dahlqvist-swe,Maja Dahlqvist,SWE,0.0,0.0,0.0,0.0
+Women's 10km,ebba-andersson-swe,Ebba Andersson,SWE,0.0,0.0,0.0,0.0
+Women's 10km,karoline-simpson-larsen-nor,Karoline Simpson-Larsen,NOR,0.0,0.0,0.0,0.0
+Women's 10km,heidi-weng-nor,Heidi Weng,NOR,0.0,0.0,0.0,0.0
+Women's 10km,frida-karlsson-swe,Frida Karlsson,SWE,0.0,0.0,0.0,0.0
+Women's 10km,jasmi-joensuu-fin,Jasmi Joensuu,FIN,0.0,0.0,0.0,0.0
+Women's 10km,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,1.0,1.0
+Women's 10km,teresa-stadlober-aut,Teresa Stadlober,AUT,0.0,0.0,0.0,0.0
+Women's 10km,katharina-hennig-ger,Katharina Hennig,GER,0.0,0.0,0.0,0.0
+Women's 10km,astrid-oeyre-slind-nor,Astrid Oeyre Slind,NOR,0.0,0.0,0.0,0.0
+Women's 10km,linn-svahn-swe,Linn Svahn,SWE,0.0,0.0,0.0,0.0
+Women's 10km,krista-parmakoski-fin,Krista Parmakoski,FIN,0.0,0.0,0.0,0.0
+Women's 10km,rosie-brennan-usa,Rosie Brennan,USA,0.0,0.0,0.0,0.0
+Women's 10km,anne-kjersti-kalva-nor,Anne Kjersti Kalva,NOR,0.0,0.0,0.0,0.0
+Women's 10km,delphine-claudel-fra,Delphine Claudel,FRA,0.0,1.0,0.0,1.0
+Women's 10km,johanna-hagstroem-swe,Johanna Hagstroem,SWE,0.0,0.0,0.0,0.0
+Women's 10km,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's 10km,ane-appelkvist-stenseth-nor,Ane Appelkvist Stenseth,NOR,0.0,0.0,0.0,0.0
+Women's 10km,jessica-yeaton-aus,Jessica Yeaton,AUS,0.0,0.0,0.0,0.0
+Women's 10km,caterina-ganz-ita,Caterina Ganz,ITA,0.0,0.0,0.0,0.0
+Women's 10km,margrethe-bergane-nor,Margrethe Bergane,NOR,0.0,0.0,0.0,0.0
+Women's 10km,anamarija-lampic-slo,Anamarija Lampic,SLO,0.0,0.0,0.0,0.0
+Women's 10km,anna-dyvik-swe,Anna Dyvik,SWE,0.0,0.0,0.0,0.0
+Women's 10km,sofia-henriksson-swe,Sofia Henriksson,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,karoline-simpson-larsen-nor,Karoline Simpson-Larsen,NOR,1.0,0.0,0.0,1.0
+Women's 50km Mass Start,therese-johaug-nor,Therese Johaug,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,nora-sanness-nor,Nora Sanness,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,katerina-janatova-cze,Katerina Janatova,CZE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,kristin-austgulen-fosnaes-nor,Kristin Austgulen Fosnaes,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,pia-fink-ger,Pia Fink,GER,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,flora-dolci-fra,Flora Dolci,FRA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,silje-theodorsen-nor,Silje Theodorsen,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,sophia-laukli-usa,Sophia Laukli,USA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,katherine-stewart-jones-can,Katherine Stewart-Jones,CAN,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,helen-hoffmann-ger,Helen Hoffmann,GER,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,lotta-udnes-weng-nor,Lotta Udnes Weng,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,katherine-sauerbrey-ger,Katherine Sauerbrey,GER,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,julia-kern-usa,Julia Kern,USA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,helene-marie-fossesholm-nor,Helene Marie Fossesholm,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,jessie-diggins-usa,Jessie Diggins,USA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,victoria-carl-ger,Victoria Carl,GER,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,kerttu-niskanen-fin,Kerttu Niskanen,FIN,0.0,0.0,1.0,1.0
+Women's 50km Mass Start,moa-ilar-swe,Moa Ilar,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,jonna-sundling-swe,Jonna Sundling,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,maja-dahlqvist-swe,Maja Dahlqvist,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,ebba-andersson-swe,Ebba Andersson,SWE,0.0,1.0,0.0,1.0
+Women's 50km Mass Start,heidi-weng-nor,Heidi Weng,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,frida-karlsson-swe,Frida Karlsson,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,jasmi-joensuu-fin,Jasmi Joensuu,FIN,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,emma-ribom-swe,Emma Ribom,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,teresa-stadlober-aut,Teresa Stadlober,AUT,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,katharina-hennig-ger,Katharina Hennig,GER,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,astrid-oeyre-slind-nor,Astrid Oeyre Slind,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,linn-svahn-swe,Linn Svahn,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,krista-parmakoski-fin,Krista Parmakoski,FIN,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,rosie-brennan-usa,Rosie Brennan,USA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,anne-kjersti-kalva-nor,Anne Kjersti Kalva,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,delphine-claudel-fra,Delphine Claudel,FRA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,johanna-hagstroem-swe,Johanna Hagstroem,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,nadine-faehndrich-sui,Nadine Faehndrich,SUI,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,ane-appelkvist-stenseth-nor,Ane Appelkvist Stenseth,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,jessica-yeaton-aus,Jessica Yeaton,AUS,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,caterina-ganz-ita,Caterina Ganz,ITA,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,margrethe-bergane-nor,Margrethe Bergane,NOR,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,anamarija-lampic-slo,Anamarija Lampic,SLO,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,anna-dyvik-swe,Anna Dyvik,SWE,0.0,0.0,0.0,0.0
+Women's 50km Mass Start,sofia-henriksson-swe,Sofia Henriksson,SWE,0.0,0.0,0.0,0.0
+Men's 10km Sprint,tommaso-giacomel-ita,Tommaso Giacomel,ITA,1.0,0.0,0.0,1.0
+Men's 10km Sprint,eric-perrot-fra,Eric Perrot,FRA,0.0,0.0,0.0,0.0
+Men's 10km Sprint,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,0.0,0.0,0.0,0.0
+Men's 10km Sprint,johan-olav-botn-nor,Johan-Olav Botn,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,johannes-dale-skjevdal-nor,Johannes Dale-Skjevdal,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,quentin-fillon-maillet-fra,Quentin Fillon Maillet,FRA,0.0,0.0,0.0,0.0
+Men's 10km Sprint,martin-ponsiluoma-swe,Martin Ponsiluoma,SWE,0.0,0.0,0.0,0.0
+Men's 10km Sprint,emilien-jacquelin-fra,Emilien Jacquelin,FRA,0.0,0.0,1.0,1.0
+Men's 10km Sprint,vetle-sjastad-christiansen-nor,Vetle Sjastad Christiansen,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,sturla-holm-laegreid-nor,Sturla Holm Laegreid,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,philipp-nawrath-ger,Philipp Nawrath,GER,0.0,0.0,0.0,0.0
+Men's 10km Sprint,martin-uldal-nor,Martin Uldal,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,campbell-wright-usa,Campbell Wright,USA,0.0,0.0,0.0,0.0
+Men's 10km Sprint,isak-frey-nor,Isak Frey,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,lukas-hofer-ita,Lukas Hofer,ITA,0.0,0.0,0.0,0.0
+Men's 10km Sprint,fabien-claude-fra,Fabien Claude,FRA,0.0,0.0,0.0,0.0
+Men's 10km Sprint,philipp-horn-ger,Philipp Horn,GER,0.0,0.0,0.0,0.0
+Men's 10km Sprint,tarjei-boe-nor,Tarjei Boe,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,johannes-thingnes-boe-nor,Johannes Thingnes Boe,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,jakov-fak-slo,Jakov Fak,SLO,0.0,0.0,0.0,0.0
+Men's 10km Sprint,justus-strelow-ger,Justus Strelow,GER,0.0,0.0,0.0,0.0
+Men's 10km Sprint,simon-eder-aut,Simon Eder,AUT,0.0,0.0,0.0,0.0
+Men's 10km Sprint,florent-claude-bel,Florent Claude,BEL,0.0,0.0,0.0,0.0
+Men's 10km Sprint,benedikt-doll-ger,Benedikt Doll,GER,0.0,1.0,0.0,1.0
+Men's 10km Sprint,dmytro-pidruchnyi-ukr,Dmytro Pidruchnyi,UKR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,sivert-guttorm-bakken-nor,Sivert Guttorm Bakken,NOR,0.0,0.0,0.0,0.0
+Men's 10km Sprint,felix-leitner-aut,Felix Leitner,AUT,0.0,0.0,0.0,0.0
+Men's 10km Sprint,michal-krcmar-cze,Michal Krcmar,CZE,0.0,0.0,0.0,0.0
+Men's 10km Sprint,said-karimulla-khalili-ain,Said Karimulla Khalili,AIN,0.0,0.0,0.0,0.0
+Men's 10km Sprint,jesper-nelin-swe,Jesper Nelin,SWE,0.0,0.0,0.0,0.0
+Men's 20km Individual,johannes-dale-skjevdal-nor,Johannes Dale-Skjevdal,NOR,1.0,0.0,0.0,1.0
+Men's 20km Individual,tommaso-giacomel-ita,Tommaso Giacomel,ITA,0.0,1.0,0.0,1.0
+Men's 20km Individual,eric-perrot-fra,Eric Perrot,FRA,0.0,0.0,0.0,0.0
+Men's 20km Individual,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,0.0,0.0,0.0,0.0
+Men's 20km Individual,johan-olav-botn-nor,Johan-Olav Botn,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,quentin-fillon-maillet-fra,Quentin Fillon Maillet,FRA,0.0,0.0,0.0,0.0
+Men's 20km Individual,martin-ponsiluoma-swe,Martin Ponsiluoma,SWE,0.0,0.0,1.0,1.0
+Men's 20km Individual,emilien-jacquelin-fra,Emilien Jacquelin,FRA,0.0,0.0,0.0,0.0
+Men's 20km Individual,vetle-sjastad-christiansen-nor,Vetle Sjastad Christiansen,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,sturla-holm-laegreid-nor,Sturla Holm Laegreid,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,philipp-nawrath-ger,Philipp Nawrath,GER,0.0,0.0,0.0,0.0
+Men's 20km Individual,martin-uldal-nor,Martin Uldal,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,campbell-wright-usa,Campbell Wright,USA,0.0,0.0,0.0,0.0
+Men's 20km Individual,isak-frey-nor,Isak Frey,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,lukas-hofer-ita,Lukas Hofer,ITA,0.0,0.0,0.0,0.0
+Men's 20km Individual,fabien-claude-fra,Fabien Claude,FRA,0.0,0.0,0.0,0.0
+Men's 20km Individual,philipp-horn-ger,Philipp Horn,GER,0.0,0.0,0.0,0.0
+Men's 20km Individual,tarjei-boe-nor,Tarjei Boe,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,johannes-thingnes-boe-nor,Johannes Thingnes Boe,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,jakov-fak-slo,Jakov Fak,SLO,0.0,0.0,0.0,0.0
+Men's 20km Individual,justus-strelow-ger,Justus Strelow,GER,0.0,0.0,0.0,0.0
+Men's 20km Individual,simon-eder-aut,Simon Eder,AUT,0.0,0.0,0.0,0.0
+Men's 20km Individual,florent-claude-bel,Florent Claude,BEL,0.0,0.0,0.0,0.0
+Men's 20km Individual,benedikt-doll-ger,Benedikt Doll,GER,0.0,0.0,0.0,0.0
+Men's 20km Individual,dmytro-pidruchnyi-ukr,Dmytro Pidruchnyi,UKR,0.0,0.0,0.0,0.0
+Men's 20km Individual,sivert-guttorm-bakken-nor,Sivert Guttorm Bakken,NOR,0.0,0.0,0.0,0.0
+Men's 20km Individual,felix-leitner-aut,Felix Leitner,AUT,0.0,0.0,0.0,0.0
+Men's 20km Individual,michal-krcmar-cze,Michal Krcmar,CZE,0.0,0.0,0.0,0.0
+Men's 20km Individual,said-karimulla-khalili-ain,Said Karimulla Khalili,AIN,0.0,0.0,0.0,0.0
+Men's 20km Individual,jesper-nelin-swe,Jesper Nelin,SWE,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,tommaso-giacomel-ita,Tommaso Giacomel,ITA,1.0,0.0,0.0,1.0
+Men's 12.5km Pursuit,eric-perrot-fra,Eric Perrot,FRA,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,johan-olav-botn-nor,Johan-Olav Botn,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,johannes-dale-skjevdal-nor,Johannes Dale-Skjevdal,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,quentin-fillon-maillet-fra,Quentin Fillon Maillet,FRA,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,martin-ponsiluoma-swe,Martin Ponsiluoma,SWE,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,emilien-jacquelin-fra,Emilien Jacquelin,FRA,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,vetle-sjastad-christiansen-nor,Vetle Sjastad Christiansen,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,sturla-holm-laegreid-nor,Sturla Holm Laegreid,NOR,0.0,1.0,0.0,1.0
+Men's 12.5km Pursuit,philipp-nawrath-ger,Philipp Nawrath,GER,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,martin-uldal-nor,Martin Uldal,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,campbell-wright-usa,Campbell Wright,USA,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,isak-frey-nor,Isak Frey,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,lukas-hofer-ita,Lukas Hofer,ITA,0.0,0.0,1.0,1.0
+Men's 12.5km Pursuit,fabien-claude-fra,Fabien Claude,FRA,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,philipp-horn-ger,Philipp Horn,GER,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,tarjei-boe-nor,Tarjei Boe,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,johannes-thingnes-boe-nor,Johannes Thingnes Boe,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,jakov-fak-slo,Jakov Fak,SLO,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,justus-strelow-ger,Justus Strelow,GER,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,simon-eder-aut,Simon Eder,AUT,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,florent-claude-bel,Florent Claude,BEL,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,benedikt-doll-ger,Benedikt Doll,GER,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,dmytro-pidruchnyi-ukr,Dmytro Pidruchnyi,UKR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,sivert-guttorm-bakken-nor,Sivert Guttorm Bakken,NOR,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,felix-leitner-aut,Felix Leitner,AUT,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,michal-krcmar-cze,Michal Krcmar,CZE,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,said-karimulla-khalili-ain,Said Karimulla Khalili,AIN,0.0,0.0,0.0,0.0
+Men's 12.5km Pursuit,jesper-nelin-swe,Jesper Nelin,SWE,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,tommaso-giacomel-ita,Tommaso Giacomel,ITA,1.0,0.0,0.0,1.0
+Men's 15km Mass Start,eric-perrot-fra,Eric Perrot,FRA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,sebastian-samuelsson-swe,Sebastian Samuelsson,SWE,0.0,1.0,0.0,1.0
+Men's 15km Mass Start,johan-olav-botn-nor,Johan-Olav Botn,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,johannes-dale-skjevdal-nor,Johannes Dale-Skjevdal,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,quentin-fillon-maillet-fra,Quentin Fillon Maillet,FRA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,martin-ponsiluoma-swe,Martin Ponsiluoma,SWE,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,emilien-jacquelin-fra,Emilien Jacquelin,FRA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,vetle-sjastad-christiansen-nor,Vetle Sjastad Christiansen,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,sturla-holm-laegreid-nor,Sturla Holm Laegreid,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,philipp-nawrath-ger,Philipp Nawrath,GER,0.0,0.0,1.0,1.0
+Men's 15km Mass Start,martin-uldal-nor,Martin Uldal,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,campbell-wright-usa,Campbell Wright,USA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,isak-frey-nor,Isak Frey,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,lukas-hofer-ita,Lukas Hofer,ITA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,fabien-claude-fra,Fabien Claude,FRA,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,philipp-horn-ger,Philipp Horn,GER,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,tarjei-boe-nor,Tarjei Boe,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,johannes-thingnes-boe-nor,Johannes Thingnes Boe,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,jakov-fak-slo,Jakov Fak,SLO,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,justus-strelow-ger,Justus Strelow,GER,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,simon-eder-aut,Simon Eder,AUT,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,florent-claude-bel,Florent Claude,BEL,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,benedikt-doll-ger,Benedikt Doll,GER,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,dmytro-pidruchnyi-ukr,Dmytro Pidruchnyi,UKR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,sivert-guttorm-bakken-nor,Sivert Guttorm Bakken,NOR,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,felix-leitner-aut,Felix Leitner,AUT,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,michal-krcmar-cze,Michal Krcmar,CZE,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,said-karimulla-khalili-ain,Said Karimulla Khalili,AIN,0.0,0.0,0.0,0.0
+Men's 15km Mass Start,jesper-nelin-swe,Jesper Nelin,SWE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,justine-braisaz-bouchet-fra,Justine Braisaz-Bouchet,FRA,1.0,0.0,0.0,1.0
+Women's 7.5km Sprint,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,suvi-minkkinen-fin,Suvi Minkkinen,FIN,0.0,1.0,0.0,1.0
+Women's 7.5km Sprint,maren-kirkeeide-nor,Maren Kirkeeide,NOR,0.0,0.0,1.0,1.0
+Women's 7.5km Sprint,hanna-oeberg-swe,Hanna Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,anna-magnusson-swe,Anna Magnusson,SWE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,elvira-karin-oeberg-swe,Elvira Karin Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,camille-bened-fra,Camille Bened,FRA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,lisa-vittozzi-ita,Lisa Vittozzi,ITA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,dorothea-wierer-ita,Dorothea Wierer,ITA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,franziska-preuss-ger,Franziska Preuss,GER,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,oceane-michelon-fra,Oceane Michelon,FRA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,julia-simon-fra,Julia Simon,FRA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,amy-baserga-sui,Amy Baserga,SUI,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,vanessa-voigt-ger,Vanessa Voigt,GER,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,karoline-knotten-nor,Karoline Knotten,NOR,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,ingrid-landmark-tandrevold-nor,Ingrid Landmark Tandrevold,NOR,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,mari-eder-fin,Mari Eder,FIN,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,marte-olsbu-roeiseland-nor,Marte Olsbu Roeiseland,NOR,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,lena-haecki-gross-sui,Lena Haecki-Gross,SUI,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,marketa-davidova-cze,Marketa Davidova,CZE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,sophia-schneider-ger,Sophia Schneider,GER,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,ida-lien-nor,Ida Lien,NOR,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,lucie-charvatova-cze,Lucie Charvatova,CZE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,synnoeve-solemdal-nor,Synnoeve Solemdal,NOR,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,gilonne-guigonnat-fra,Gilonne Guigonnat,FRA,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,selina-grotian-ger,Selina Grotian,GER,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,daria-krykova-budasheva-ain,Daria Krykova-Budasheva,AIN,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,ella-halvarsson-swe,Ella Halvarsson,SWE,0.0,0.0,0.0,0.0
+Women's 7.5km Sprint,erika-janka-fin,Erika Janka,FIN,0.0,0.0,0.0,0.0
+Women's 15km Individual,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,1.0,0.0,0.0,1.0
+Women's 15km Individual,suvi-minkkinen-fin,Suvi Minkkinen,FIN,0.0,0.0,0.0,0.0
+Women's 15km Individual,maren-kirkeeide-nor,Maren Kirkeeide,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,hanna-oeberg-swe,Hanna Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 15km Individual,anna-magnusson-swe,Anna Magnusson,SWE,0.0,0.0,0.0,0.0
+Women's 15km Individual,elvira-karin-oeberg-swe,Elvira Karin Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 15km Individual,justine-braisaz-bouchet-fra,Justine Braisaz-Bouchet,FRA,0.0,0.0,0.0,0.0
+Women's 15km Individual,camille-bened-fra,Camille Bened,FRA,0.0,0.0,0.0,0.0
+Women's 15km Individual,lisa-vittozzi-ita,Lisa Vittozzi,ITA,0.0,0.0,0.0,0.0
+Women's 15km Individual,dorothea-wierer-ita,Dorothea Wierer,ITA,0.0,0.0,0.0,0.0
+Women's 15km Individual,franziska-preuss-ger,Franziska Preuss,GER,0.0,0.0,0.0,0.0
+Women's 15km Individual,oceane-michelon-fra,Oceane Michelon,FRA,0.0,0.0,0.0,0.0
+Women's 15km Individual,julia-simon-fra,Julia Simon,FRA,0.0,0.0,0.0,0.0
+Women's 15km Individual,amy-baserga-sui,Amy Baserga,SUI,0.0,0.0,0.0,0.0
+Women's 15km Individual,vanessa-voigt-ger,Vanessa Voigt,GER,0.0,0.0,0.0,0.0
+Women's 15km Individual,karoline-knotten-nor,Karoline Knotten,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,ingrid-landmark-tandrevold-nor,Ingrid Landmark Tandrevold,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,mari-eder-fin,Mari Eder,FIN,0.0,0.0,0.0,0.0
+Women's 15km Individual,marte-olsbu-roeiseland-nor,Marte Olsbu Roeiseland,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,lena-haecki-gross-sui,Lena Haecki-Gross,SUI,0.0,0.0,0.0,0.0
+Women's 15km Individual,marketa-davidova-cze,Marketa Davidova,CZE,0.0,0.0,0.0,0.0
+Women's 15km Individual,sophia-schneider-ger,Sophia Schneider,GER,0.0,0.0,1.0,1.0
+Women's 15km Individual,ida-lien-nor,Ida Lien,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,lucie-charvatova-cze,Lucie Charvatova,CZE,0.0,0.0,0.0,0.0
+Women's 15km Individual,synnoeve-solemdal-nor,Synnoeve Solemdal,NOR,0.0,0.0,0.0,0.0
+Women's 15km Individual,gilonne-guigonnat-fra,Gilonne Guigonnat,FRA,0.0,0.0,0.0,0.0
+Women's 15km Individual,selina-grotian-ger,Selina Grotian,GER,0.0,0.0,0.0,0.0
+Women's 15km Individual,daria-krykova-budasheva-ain,Daria Krykova-Budasheva,AIN,0.0,1.0,0.0,1.0
+Women's 15km Individual,ella-halvarsson-swe,Ella Halvarsson,SWE,0.0,0.0,0.0,0.0
+Women's 15km Individual,erika-janka-fin,Erika Janka,FIN,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,julia-simon-fra,Julia Simon,FRA,1.0,0.0,0.0,1.0
+Women's 10km Pursuit,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,suvi-minkkinen-fin,Suvi Minkkinen,FIN,0.0,0.0,1.0,1.0
+Women's 10km Pursuit,maren-kirkeeide-nor,Maren Kirkeeide,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,hanna-oeberg-swe,Hanna Oeberg,SWE,0.0,1.0,0.0,1.0
+Women's 10km Pursuit,anna-magnusson-swe,Anna Magnusson,SWE,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,elvira-karin-oeberg-swe,Elvira Karin Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,justine-braisaz-bouchet-fra,Justine Braisaz-Bouchet,FRA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,camille-bened-fra,Camille Bened,FRA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,lisa-vittozzi-ita,Lisa Vittozzi,ITA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,dorothea-wierer-ita,Dorothea Wierer,ITA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,franziska-preuss-ger,Franziska Preuss,GER,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,oceane-michelon-fra,Oceane Michelon,FRA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,amy-baserga-sui,Amy Baserga,SUI,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,vanessa-voigt-ger,Vanessa Voigt,GER,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,karoline-knotten-nor,Karoline Knotten,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,ingrid-landmark-tandrevold-nor,Ingrid Landmark Tandrevold,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,mari-eder-fin,Mari Eder,FIN,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,marte-olsbu-roeiseland-nor,Marte Olsbu Roeiseland,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,lena-haecki-gross-sui,Lena Haecki-Gross,SUI,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,marketa-davidova-cze,Marketa Davidova,CZE,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,sophia-schneider-ger,Sophia Schneider,GER,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,ida-lien-nor,Ida Lien,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,lucie-charvatova-cze,Lucie Charvatova,CZE,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,synnoeve-solemdal-nor,Synnoeve Solemdal,NOR,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,gilonne-guigonnat-fra,Gilonne Guigonnat,FRA,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,selina-grotian-ger,Selina Grotian,GER,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,daria-krykova-budasheva-ain,Daria Krykova-Budasheva,AIN,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,ella-halvarsson-swe,Ella Halvarsson,SWE,0.0,0.0,0.0,0.0
+Women's 10km Pursuit,erika-janka-fin,Erika Janka,FIN,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,hanna-oeberg-swe,Hanna Oeberg,SWE,1.0,0.0,0.0,1.0
+Women's 12.5km Mass Start,lou-jeanmonnot-fra,Lou Jeanmonnot,FRA,0.0,1.0,0.0,1.0
+Women's 12.5km Mass Start,suvi-minkkinen-fin,Suvi Minkkinen,FIN,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,maren-kirkeeide-nor,Maren Kirkeeide,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,anna-magnusson-swe,Anna Magnusson,SWE,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,elvira-karin-oeberg-swe,Elvira Karin Oeberg,SWE,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,justine-braisaz-bouchet-fra,Justine Braisaz-Bouchet,FRA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,camille-bened-fra,Camille Bened,FRA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,lisa-vittozzi-ita,Lisa Vittozzi,ITA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,dorothea-wierer-ita,Dorothea Wierer,ITA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,franziska-preuss-ger,Franziska Preuss,GER,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,oceane-michelon-fra,Oceane Michelon,FRA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,julia-simon-fra,Julia Simon,FRA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,amy-baserga-sui,Amy Baserga,SUI,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,vanessa-voigt-ger,Vanessa Voigt,GER,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,karoline-knotten-nor,Karoline Knotten,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,ingrid-landmark-tandrevold-nor,Ingrid Landmark Tandrevold,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,mari-eder-fin,Mari Eder,FIN,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,marte-olsbu-roeiseland-nor,Marte Olsbu Roeiseland,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,lena-haecki-gross-sui,Lena Haecki-Gross,SUI,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,marketa-davidova-cze,Marketa Davidova,CZE,0.0,0.0,1.0,1.0
+Women's 12.5km Mass Start,sophia-schneider-ger,Sophia Schneider,GER,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,ida-lien-nor,Ida Lien,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,lucie-charvatova-cze,Lucie Charvatova,CZE,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,synnoeve-solemdal-nor,Synnoeve Solemdal,NOR,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,gilonne-guigonnat-fra,Gilonne Guigonnat,FRA,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,selina-grotian-ger,Selina Grotian,GER,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,daria-krykova-budasheva-ain,Daria Krykova-Budasheva,AIN,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,ella-halvarsson-swe,Ella Halvarsson,SWE,0.0,0.0,0.0,0.0
+Women's 12.5km Mass Start,erika-janka-fin,Erika Janka,FIN,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,anze-lanisek-slo,Anze Lanisek,SLO,1.0,0.0,0.0,1.0
+Men's Normal Hill Individual,stefan-kraft-aut,Stefan Kraft,AUT,0.0,1.0,0.0,1.0
+Men's Normal Hill Individual,jan-hoerl-aut,Jan Hoerl,AUT,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,pius-paschke-ger,Pius Paschke,GER,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,daniel-tschofenig-aut,Daniel Tschofenig,AUT,0.0,0.0,1.0,1.0
+Men's Normal Hill Individual,gregor-deschwanden-sui,Gregor Deschwanden,SUI,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,ryoyu-kobayashi-jpn,Ryoyu Kobayashi,JPN,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,johann-andre-forfang-nor,Johann Andre Forfang,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,marius-lindvik-nor,Marius Lindvik,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,halvor-egner-granerud-nor,Halvor Egner Granerud,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,karl-geiger-ger,Karl Geiger,GER,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,andreas-wellinger-ger,Andreas Wellinger,GER,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,domen-prevc-slo,Domen Prevc,SLO,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,peter-prevc-slo,Peter Prevc,SLO,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,michael-hayboeck-aut,Michael Hayboeck,AUT,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,ren-nikaido-jpn,Ren Nikaido,JPN,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,lovro-kos-slo,Lovro Kos,SLO,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,dawid-kubacki-pol,Dawid Kubacki,POL,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,piotr-zyla-pol,Piotr Zyla,POL,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,markus-eisenbichler-ger,Markus Eisenbichler,GER,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,robert-johansson-nor,Robert Johansson,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,robin-pedersen-nor,Robin Pedersen,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,thomas-aasen-markeng-nor,Thomas Aasen Markeng,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,daniel-andre-tande-nor,Daniel Andre Tande,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,kamil-stoch-pol,Kamil Stoch,POL,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,anders-fannemel-nor,Anders Fannemel,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,philip-sjoeen-nor,Philip Sjoeen,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,benjamin-oestvold-nor,Benjamin Oestvold,NOR,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,stephan-embacher-aut,Stephan Embacher,AUT,0.0,0.0,0.0,0.0
+Men's Normal Hill Individual,felix-hoffmann-ger,Felix Hoffmann,GER,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,stefan-kraft-aut,Stefan Kraft,AUT,1.0,0.0,0.0,1.0
+Men's Large Hill Individual,jan-hoerl-aut,Jan Hoerl,AUT,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,pius-paschke-ger,Pius Paschke,GER,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,daniel-tschofenig-aut,Daniel Tschofenig,AUT,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,anze-lanisek-slo,Anze Lanisek,SLO,0.0,0.0,1.0,1.0
+Men's Large Hill Individual,gregor-deschwanden-sui,Gregor Deschwanden,SUI,0.0,1.0,0.0,1.0
+Men's Large Hill Individual,ryoyu-kobayashi-jpn,Ryoyu Kobayashi,JPN,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,johann-andre-forfang-nor,Johann Andre Forfang,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,marius-lindvik-nor,Marius Lindvik,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,halvor-egner-granerud-nor,Halvor Egner Granerud,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,karl-geiger-ger,Karl Geiger,GER,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,andreas-wellinger-ger,Andreas Wellinger,GER,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,domen-prevc-slo,Domen Prevc,SLO,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,peter-prevc-slo,Peter Prevc,SLO,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,michael-hayboeck-aut,Michael Hayboeck,AUT,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,ren-nikaido-jpn,Ren Nikaido,JPN,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,lovro-kos-slo,Lovro Kos,SLO,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,dawid-kubacki-pol,Dawid Kubacki,POL,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,piotr-zyla-pol,Piotr Zyla,POL,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,markus-eisenbichler-ger,Markus Eisenbichler,GER,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,robert-johansson-nor,Robert Johansson,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,robin-pedersen-nor,Robin Pedersen,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,thomas-aasen-markeng-nor,Thomas Aasen Markeng,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,daniel-andre-tande-nor,Daniel Andre Tande,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,kamil-stoch-pol,Kamil Stoch,POL,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,anders-fannemel-nor,Anders Fannemel,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,philip-sjoeen-nor,Philip Sjoeen,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,benjamin-oestvold-nor,Benjamin Oestvold,NOR,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,stephan-embacher-aut,Stephan Embacher,AUT,0.0,0.0,0.0,0.0
+Men's Large Hill Individual,felix-hoffmann-ger,Felix Hoffmann,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,1.0,0.0,0.0,1.0
+Women's Normal Hill Individual,nika-prevc-slo,Nika Prevc,SLO,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,lisa-eder-aut,Lisa Eder,AUT,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,abigail-strate-can,Abigail Strate,CAN,0.0,0.0,1.0,1.0
+Women's Normal Hill Individual,anna-odine-stroem-nor,Anna Odine Stroem,NOR,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,selina-freitag-ger,Selina Freitag,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,katharina-schmid-ger,Katharina Schmid,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,nika-vodan-slo,Nika Vodan,SLO,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,agnes-reisch-ger,Agnes Reisch,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,sara-takanashi-jpn,Sara Takanashi,JPN,0.0,1.0,0.0,1.0
+Women's Normal Hill Individual,yuki-ito-jpn,Yuki Ito,JPN,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,silje-opseth-nor,Silje Opseth,NOR,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,eirin-maria-kvandal-nor,Eirin Maria Kvandal,NOR,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,thea-minyan-bjoerseth-nor,Thea Minyan Bjoerseth,NOR,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,eva-pinkelnig-aut,Eva Pinkelnig,AUT,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,jacqueline-seifriedsberger-aut,Jacqueline Seifriedsberger,AUT,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,alexandria-loutitt-can,Alexandria Loutitt,CAN,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,josephine-pagnier-fra,Josephine Pagnier,FRA,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,anna-rupprecht-ger,Anna Rupprecht,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,juliane-seyfarth-ger,Juliane Seyfarth,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,ursa-bogataj-slo,Ursa Bogataj,SLO,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,ema-klinec-slo,Ema Klinec,SLO,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,jenny-rautionaho-fin,Jenny Rautionaho,FIN,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,julia-clair-fra,Julia Clair,FRA,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,katra-komar-slo,Katra Komar,SLO,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,luisa-goerlich-ger,Luisa Goerlich,GER,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,frida-westman-swe,Frida Westman,SWE,0.0,0.0,0.0,0.0
+Women's Normal Hill Individual,astrid-norstedt-swe,Astrid Norstedt,SWE,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,nika-vodan-slo,Nika Vodan,SLO,1.0,0.0,0.0,1.0
+Women's Large Hill Individual,nika-prevc-slo,Nika Prevc,SLO,0.0,1.0,0.0,1.0
+Women's Large Hill Individual,nozomi-maruyama-jpn,Nozomi Maruyama,JPN,0.0,0.0,1.0,1.0
+Women's Large Hill Individual,lisa-eder-aut,Lisa Eder,AUT,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,abigail-strate-can,Abigail Strate,CAN,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,anna-odine-stroem-nor,Anna Odine Stroem,NOR,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,selina-freitag-ger,Selina Freitag,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,katharina-schmid-ger,Katharina Schmid,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,agnes-reisch-ger,Agnes Reisch,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,sara-takanashi-jpn,Sara Takanashi,JPN,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,yuki-ito-jpn,Yuki Ito,JPN,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,silje-opseth-nor,Silje Opseth,NOR,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,eirin-maria-kvandal-nor,Eirin Maria Kvandal,NOR,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,thea-minyan-bjoerseth-nor,Thea Minyan Bjoerseth,NOR,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,eva-pinkelnig-aut,Eva Pinkelnig,AUT,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,jacqueline-seifriedsberger-aut,Jacqueline Seifriedsberger,AUT,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,alexandria-loutitt-can,Alexandria Loutitt,CAN,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,josephine-pagnier-fra,Josephine Pagnier,FRA,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,anna-rupprecht-ger,Anna Rupprecht,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,juliane-seyfarth-ger,Juliane Seyfarth,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,ursa-bogataj-slo,Ursa Bogataj,SLO,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,ema-klinec-slo,Ema Klinec,SLO,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,jenny-rautionaho-fin,Jenny Rautionaho,FIN,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,julia-clair-fra,Julia Clair,FRA,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,katra-komar-slo,Katra Komar,SLO,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,luisa-goerlich-ger,Luisa Goerlich,GER,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,frida-westman-swe,Frida Westman,SWE,0.0,0.0,0.0,0.0
+Women's Large Hill Individual,astrid-norstedt-swe,Astrid Norstedt,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,mikael-kingsbury-can,Mikael Kingsbury,CAN,1.0,0.0,0.0,1.0
+Men's Moguls,matt-graham-aus,Matt Graham,AUS,0.0,1.0,0.0,1.0
+Men's Moguls,nick-page-usa,Nick Page,USA,0.0,0.0,0.0,0.0
+Men's Moguls,ikuma-horishima-jpn,Ikuma Horishima,JPN,0.0,0.0,0.0,0.0
+Men's Moguls,walter-wallberg-swe,Walter Wallberg,SWE,0.0,0.0,1.0,1.0
+Men's Moguls,benjamin-cavet-fra,Benjamin Cavet,FRA,0.0,0.0,0.0,0.0
+Men's Moguls,ludvig-fjallstrom-swe,Ludvig Fjallstrom,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,daichi-hara-jpn,Daichi Hara,JPN,0.0,0.0,0.0,0.0
+Men's Moguls,cole-mcdonald-usa,Cole McDonald,USA,0.0,0.0,0.0,0.0
+Men's Moguls,dylan-walczyk-usa,Dylan Walczyk,USA,0.0,0.0,0.0,0.0
+Men's Moguls,rasmus-stegfeldt-swe,Rasmus Stegfeldt,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,filip-gravenfors-swe,Filip Gravenfors,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,albin-holmgren-swe,Albin Holmgren,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,felix-elofsson-swe,Felix Elofsson,SWE,0.0,0.0,0.0,0.0
+Men's Moguls,birk-ruud-nor,Birk Ruud,NOR,0.0,0.0,0.0,0.0
+Men's Dual Moguls,mikael-kingsbury-can,Mikael Kingsbury,CAN,1.0,0.0,0.0,1.0
+Men's Dual Moguls,matt-graham-aus,Matt Graham,AUS,0.0,0.0,0.0,0.0
+Men's Dual Moguls,nick-page-usa,Nick Page,USA,0.0,0.0,0.0,0.0
+Men's Dual Moguls,ikuma-horishima-jpn,Ikuma Horishima,JPN,0.0,0.0,0.0,0.0
+Men's Dual Moguls,walter-wallberg-swe,Walter Wallberg,SWE,0.0,0.0,0.0,0.0
+Men's Dual Moguls,benjamin-cavet-fra,Benjamin Cavet,FRA,0.0,0.0,1.0,1.0
+Men's Dual Moguls,ludvig-fjallstrom-swe,Ludvig Fjallstrom,SWE,0.0,1.0,0.0,1.0
+Men's Dual Moguls,daichi-hara-jpn,Daichi Hara,JPN,0.0,0.0,0.0,0.0
+Men's Dual Moguls,cole-mcdonald-usa,Cole McDonald,USA,0.0,0.0,0.0,0.0
+Men's Dual Moguls,dylan-walczyk-usa,Dylan Walczyk,USA,0.0,0.0,0.0,0.0
+Men's Dual Moguls,rasmus-stegfeldt-swe,Rasmus Stegfeldt,SWE,0.0,0.0,0.0,0.0
+Men's Dual Moguls,filip-gravenfors-swe,Filip Gravenfors,SWE,0.0,0.0,0.0,0.0
+Men's Dual Moguls,albin-holmgren-swe,Albin Holmgren,SWE,0.0,0.0,0.0,0.0
+Men's Dual Moguls,felix-elofsson-swe,Felix Elofsson,SWE,0.0,0.0,0.0,0.0
+Men's Dual Moguls,birk-ruud-nor,Birk Ruud,NOR,0.0,0.0,0.0,0.0
+Women's Moguls,jaelin-kauf-usa,Jaelin Kauf,USA,1.0,0.0,0.0,1.0
+Women's Moguls,perrine-laffont-fra,Perrine Laffont,FRA,0.0,0.0,1.0,1.0
+Women's Moguls,tess-johnson-usa,Tess Johnson,USA,0.0,1.0,0.0,1.0
+Women's Moguls,maia-schwinghammer-can,Maia Schwinghammer,CAN,0.0,0.0,0.0,0.0
+Women's Moguls,olivia-giaccio-usa,Olivia Giaccio,USA,0.0,0.0,0.0,0.0
+Women's Moguls,jakara-anthony-aus,Jakara Anthony,AUS,0.0,0.0,0.0,0.0
+Women's Moguls,anri-kawamura-jpn,Anri Kawamura,JPN,0.0,0.0,0.0,0.0
+Women's Moguls,hannah-soar-usa,Hannah Soar,USA,0.0,0.0,0.0,0.0
+Women's Moguls,anastassiya-gorodko-kaz,Anastassiya Gorodko,KAZ,0.0,0.0,0.0,0.0
+Women's Moguls,justine-dufour-lapointe-can,Justine Dufour-Lapointe,CAN,0.0,0.0,0.0,0.0
+Women's Moguls,chloe-dufour-lapointe-can,Chloe Dufour-Lapointe,CAN,0.0,0.0,0.0,0.0
+Women's Moguls,hedda-berntsen-nor,Hedda Berntsen,NOR,0.0,0.0,0.0,0.0
+Women's Moguls,moa-backlund-swe,Moa Backlund,SWE,0.0,0.0,0.0,0.0
+Women's Moguls,tilde-hansson-swe,Tilde Hansson,SWE,0.0,0.0,0.0,0.0
+Women's Dual Moguls,perrine-laffont-fra,Perrine Laffont,FRA,1.0,0.0,0.0,1.0
+Women's Dual Moguls,jaelin-kauf-usa,Jaelin Kauf,USA,0.0,1.0,0.0,1.0
+Women's Dual Moguls,tess-johnson-usa,Tess Johnson,USA,0.0,0.0,0.0,0.0
+Women's Dual Moguls,maia-schwinghammer-can,Maia Schwinghammer,CAN,0.0,0.0,0.0,0.0
+Women's Dual Moguls,olivia-giaccio-usa,Olivia Giaccio,USA,0.0,0.0,0.0,0.0
+Women's Dual Moguls,jakara-anthony-aus,Jakara Anthony,AUS,0.0,0.0,0.0,0.0
+Women's Dual Moguls,anri-kawamura-jpn,Anri Kawamura,JPN,0.0,0.0,0.0,0.0
+Women's Dual Moguls,hannah-soar-usa,Hannah Soar,USA,0.0,0.0,0.0,0.0
+Women's Dual Moguls,anastassiya-gorodko-kaz,Anastassiya Gorodko,KAZ,0.0,0.0,0.0,0.0
+Women's Dual Moguls,justine-dufour-lapointe-can,Justine Dufour-Lapointe,CAN,0.0,0.0,1.0,1.0
+Women's Dual Moguls,chloe-dufour-lapointe-can,Chloe Dufour-Lapointe,CAN,0.0,0.0,0.0,0.0
+Women's Dual Moguls,hedda-berntsen-nor,Hedda Berntsen,NOR,0.0,0.0,0.0,0.0
+Women's Dual Moguls,moa-backlund-swe,Moa Backlund,SWE,0.0,0.0,0.0,0.0
+Women's Dual Moguls,tilde-hansson-swe,Tilde Hansson,SWE,0.0,0.0,0.0,0.0
+Men's Aerials,noe-roth-sui,Noe Roth,SUI,1.0,0.0,0.0,1.0
+Men's Aerials,qi-guangpu-chn,Qi Guangpu,CHN,0.0,0.0,0.0,0.0
+Men's Aerials,wang-xindi-chn,Wang Xindi,CHN,0.0,0.0,1.0,1.0
+Men's Aerials,sun-jiaxu-chn,Sun Jiaxu,CHN,0.0,0.0,0.0,0.0
+Men's Aerials,christopher-lillis-usa,Christopher Lillis,USA,0.0,0.0,0.0,0.0
+Men's Aerials,eric-loughran-usa,Eric Loughran,USA,0.0,1.0,0.0,1.0
+Men's Aerials,maxim-burov-rus,Maxim Burov,RUS,0.0,0.0,0.0,0.0
+Men's Aerials,mykola-puzderko-ukr,Mykola Puzderko,UKR,0.0,0.0,0.0,0.0
+Men's Aerials,lloyd-wallace-gbr,Lloyd Wallace,GBR,0.0,0.0,0.0,0.0
+Men's Aerials,pirmin-werner-sui,Pirmin Werner,SUI,0.0,0.0,0.0,0.0
+Women's Aerials,laura-peel-aus,Laura Peel,AUS,1.0,0.0,0.0,1.0
+Women's Aerials,xu-mengtao-chn,Xu Mengtao,CHN,0.0,1.0,0.0,1.0
+Women's Aerials,winter-vinecki-usa,Winter Vinecki,USA,0.0,0.0,1.0,1.0
+Women's Aerials,megan-nick-usa,Megan Nick,USA,0.0,0.0,0.0,0.0
+Women's Aerials,kong-fanyu-chn,Kong Fanyu,CHN,0.0,0.0,0.0,0.0
+Women's Aerials,xu-sicun-chn,Xu Sicun,CHN,0.0,0.0,0.0,0.0
+Women's Aerials,marion-thenault-can,Marion Thenault,CAN,0.0,0.0,0.0,0.0
+Women's Aerials,mengtao-xu-chn,Mengtao Xu,CHN,0.0,0.0,0.0,0.0
+Women's Aerials,liubov-nikitina-rus,Liubov Nikitina,RUS,0.0,0.0,0.0,0.0
+Women's Aerials,olga-polyuk-ukr,Olga Polyuk,UKR,0.0,0.0,0.0,0.0
+Men's Ski Cross,simone-deromedis-ita,Simone Deromedis,ITA,1.0,0.0,0.0,1.0
+Men's Ski Cross,reece-howden-can,Reece Howden,CAN,0.0,0.0,0.0,0.0
+Men's Ski Cross,florian-wilmsmann-ger,Florian Wilmsmann,GER,0.0,0.0,1.0,1.0
+Men's Ski Cross,youri-duplessis-kergomard-fra,Youri Duplessis Kergomard,FRA,0.0,0.0,0.0,0.0
+Men's Ski Cross,alex-fiva-sui,Alex Fiva,SUI,0.0,0.0,0.0,0.0
+Men's Ski Cross,david-mobaerg-swe,David Mobaerg,SWE,0.0,0.0,0.0,0.0
+Men's Ski Cross,kevin-drury-can,Kevin Drury,CAN,0.0,1.0,0.0,1.0
+Men's Ski Cross,ryan-regez-sui,Ryan Regez,SUI,0.0,0.0,0.0,0.0
+Men's Ski Cross,tobias-baur-sui,Tobias Baur,SUI,0.0,0.0,0.0,0.0
+Men's Ski Cross,adam-kappacher-aut,Adam Kappacher,AUT,0.0,0.0,0.0,0.0
+Men's Ski Cross,erik-mobaerg-swe,Erik Mobaerg,SWE,0.0,0.0,0.0,0.0
+Men's Ski Cross,victor-oehling-norberg-swe,Victor Oehling Norberg,SWE,0.0,0.0,0.0,0.0
+Men's Ski Cross,kristoffer-haugen-nor,Kristoffer Haugen,NOR,0.0,0.0,0.0,0.0
+Men's Ski Cross,terence-tchiknavorian-fra,Terence Tchiknavorian,FRA,0.0,0.0,0.0,0.0
+Women's Ski Cross,brittany-phelan-can,Brittany Phelan,CAN,1.0,0.0,0.0,1.0
+Women's Ski Cross,marielle-thompson-can,Marielle Thompson,CAN,0.0,0.0,0.0,0.0
+Women's Ski Cross,sandra-naeslund-swe,Sandra Naeslund,SWE,0.0,0.0,0.0,0.0
+Women's Ski Cross,fanny-smith-sui,Fanny Smith,SUI,0.0,0.0,0.0,0.0
+Women's Ski Cross,talina-gantenbein-sui,Talina Gantenbein,SUI,0.0,0.0,1.0,1.0
+Women's Ski Cross,daniela-maier-ger,Daniela Maier,GER,0.0,1.0,0.0,1.0
+Women's Ski Cross,india-sherret-can,India Sherret,CAN,0.0,0.0,0.0,0.0
+Women's Ski Cross,lisa-andersson-swe,Lisa Andersson,SWE,0.0,0.0,0.0,0.0
+Women's Ski Cross,alexandra-edebo-swe,Alexandra Edebo,SWE,0.0,0.0,0.0,0.0
+Women's Ski Cross,courtney-hoffos-can,Courtney Hoffos,CAN,0.0,0.0,0.0,0.0
+Women's Ski Cross,andrea-limbacher-aut,Andrea Limbacher,AUT,0.0,0.0,0.0,0.0
+Women's Ski Cross,alizee-baron-fra,Alizee Baron,FRA,0.0,0.0,0.0,0.0
+Men's Halfpipe,birk-ruud-nor,Birk Ruud,NOR,1.0,0.0,0.0,1.0
+Men's Halfpipe,nico-porteous-nzl,Nico Porteous,NZL,0.0,0.0,0.0,0.0
+Men's Halfpipe,alex-ferreira-usa,Alex Ferreira,USA,0.0,0.0,0.0,0.0
+Men's Halfpipe,david-wise-usa,David Wise,USA,0.0,0.0,0.0,0.0
+Men's Halfpipe,aaron-blunck-usa,Aaron Blunck,USA,0.0,0.0,0.0,0.0
+Men's Halfpipe,noah-bowman-can,Noah Bowman,CAN,0.0,1.0,0.0,1.0
+Men's Halfpipe,brendan-mackay-can,Brendan Mackay,CAN,0.0,0.0,0.0,0.0
+Men's Halfpipe,simon-d-artois-can,Simon D Artois,CAN,0.0,0.0,0.0,0.0
+Men's Halfpipe,kevin-rolland-fra,Kevin Rolland,FRA,0.0,0.0,0.0,0.0
+Men's Halfpipe,ben-harrington-nzl,Ben Harrington,NZL,0.0,0.0,1.0,1.0
+Women's Halfpipe,eileen-gu-chn,Eileen Gu,CHN,1.0,0.0,0.0,1.0
+Women's Halfpipe,rachael-karker-can,Rachael Karker,CAN,0.0,0.0,1.0,1.0
+Women's Halfpipe,zoe-atkin-gbr,Zoe Atkin,GBR,0.0,0.0,0.0,0.0
+Women's Halfpipe,hanna-faulhaber-usa,Hanna Faulhaber,USA,0.0,0.0,0.0,0.0
+Women's Halfpipe,amy-fraser-can,Amy Fraser,CAN,0.0,0.0,0.0,0.0
+Women's Halfpipe,valeriya-demidova-rus,Valeriya Demidova,RUS,0.0,1.0,0.0,1.0
+Women's Halfpipe,sabrina-cakmakli-ger,Sabrina Cakmakli,GER,0.0,0.0,0.0,0.0
+Women's Halfpipe,cassie-sharpe-can,Cassie Sharpe,CAN,0.0,0.0,0.0,0.0
+Men's Slopestyle,mac-forehand-usa,Mac Forehand,USA,1.0,0.0,0.0,1.0
+Men's Slopestyle,birk-ruud-nor,Birk Ruud,NOR,0.0,0.0,0.0,0.0
+Men's Slopestyle,oliwer-magnusson-swe,Oliwer Magnusson,SWE,0.0,0.0,0.0,0.0
+Men's Slopestyle,alex-hall-usa,Alex Hall,USA,0.0,0.0,1.0,1.0
+Men's Slopestyle,colby-stevenson-usa,Colby Stevenson,USA,0.0,0.0,0.0,0.0
+Men's Slopestyle,andri-ragettli-sui,Andri Ragettli,SUI,0.0,0.0,0.0,0.0
+Men's Slopestyle,ferdinand-dahl-nor,Ferdinand Dahl,NOR,0.0,1.0,0.0,1.0
+Men's Slopestyle,kim-gubser-sui,Kim Gubser,SUI,0.0,0.0,0.0,0.0
+Men's Slopestyle,jesper-tjader-swe,Jesper Tjader,SWE,0.0,0.0,0.0,0.0
+Men's Slopestyle,henrik-harlaut-swe,Henrik Harlaut,SWE,0.0,0.0,0.0,0.0
+Men's Big Air,colby-stevenson-usa,Colby Stevenson,USA,1.0,0.0,0.0,1.0
+Men's Big Air,birk-ruud-nor,Birk Ruud,NOR,0.0,0.0,1.0,1.0
+Men's Big Air,oliwer-magnusson-swe,Oliwer Magnusson,SWE,0.0,1.0,0.0,1.0
+Men's Big Air,alex-hall-usa,Alex Hall,USA,0.0,0.0,0.0,0.0
+Men's Big Air,mac-forehand-usa,Mac Forehand,USA,0.0,0.0,0.0,0.0
+Men's Big Air,andri-ragettli-sui,Andri Ragettli,SUI,0.0,0.0,0.0,0.0
+Men's Big Air,ferdinand-dahl-nor,Ferdinand Dahl,NOR,0.0,0.0,0.0,0.0
+Men's Big Air,kim-gubser-sui,Kim Gubser,SUI,0.0,0.0,0.0,0.0
+Men's Big Air,jesper-tjader-swe,Jesper Tjader,SWE,0.0,0.0,0.0,0.0
+Men's Big Air,henrik-harlaut-swe,Henrik Harlaut,SWE,0.0,0.0,0.0,0.0
+Women's Slopestyle,megan-oldham-can,Megan Oldham,CAN,1.0,0.0,0.0,1.0
+Women's Slopestyle,eileen-gu-chn,Eileen Gu,CHN,0.0,0.0,0.0,0.0
+Women's Slopestyle,kelly-sildaru-est,Kelly Sildaru,EST,0.0,0.0,0.0,0.0
+Women's Slopestyle,mathilde-gremaud-sui,Mathilde Gremaud,SUI,0.0,0.0,0.0,0.0
+Women's Slopestyle,olivia-asselin-can,Olivia Asselin,CAN,0.0,0.0,0.0,0.0
+Women's Slopestyle,darian-stevens-usa,Darian Stevens,USA,0.0,1.0,0.0,1.0
+Women's Slopestyle,tess-ledeux-fra,Tess Ledeux,FRA,0.0,0.0,1.0,1.0
+Women's Slopestyle,johanne-killi-nor,Johanne Killi,NOR,0.0,0.0,0.0,0.0
+Women's Slopestyle,jennie-lee-burmansson-swe,Jennie-Lee Burmansson,SWE,0.0,0.0,0.0,0.0
+Women's Big Air,megan-oldham-can,Megan Oldham,CAN,1.0,0.0,0.0,1.0
+Women's Big Air,eileen-gu-chn,Eileen Gu,CHN,0.0,0.0,0.0,0.0
+Women's Big Air,kelly-sildaru-est,Kelly Sildaru,EST,0.0,0.0,0.0,0.0
+Women's Big Air,mathilde-gremaud-sui,Mathilde Gremaud,SUI,0.0,1.0,0.0,1.0
+Women's Big Air,olivia-asselin-can,Olivia Asselin,CAN,0.0,0.0,0.0,0.0
+Women's Big Air,darian-stevens-usa,Darian Stevens,USA,0.0,0.0,1.0,1.0
+Women's Big Air,tess-ledeux-fra,Tess Ledeux,FRA,0.0,0.0,0.0,0.0
+Women's Big Air,johanne-killi-nor,Johanne Killi,NOR,0.0,0.0,0.0,0.0
+Women's Big Air,jennie-lee-burmansson-swe,Jennie-Lee Burmansson,SWE,0.0,0.0,0.0,0.0
+Men's Halfpipe,valentino-guseli-aus,Valentino Guseli,AUS,1.0,0.0,0.0,1.0
+Men's Halfpipe,yuto-totsuka-jpn,Yuto Totsuka,JPN,0.0,0.0,0.0,0.0
+Men's Halfpipe,ryusei-yamada-jpn,Ryusei Yamada,JPN,0.0,0.0,1.0,1.0
+Men's Halfpipe,ruka-hirano-jpn,Ruka Hirano,JPN,0.0,1.0,0.0,1.0
+Men's Halfpipe,jan-scherrer-sui,Jan Scherrer,SUI,0.0,0.0,0.0,0.0
+Men's Halfpipe,scotty-james-aus,Scotty James,AUS,0.0,0.0,0.0,0.0
+Men's Halfpipe,chase-josey-usa,Chase Josey,USA,0.0,0.0,0.0,0.0
+Men's Halfpipe,taylor-gold-usa,Taylor Gold,USA,0.0,0.0,0.0,0.0
+Men's Halfpipe,ayumu-hirano-jpn,Ayumu Hirano,JPN,0.0,0.0,0.0,0.0
+Men's Halfpipe,andre-hoeflich-ger,Andre Hoeflich,GER,0.0,0.0,0.0,0.0
+Women's Halfpipe,chloe-kim-usa,Chloe Kim,USA,1.0,0.0,0.0,1.0
+Women's Halfpipe,sena-tomita-jpn,Sena Tomita,JPN,0.0,0.0,1.0,1.0
+Women's Halfpipe,queralt-castellet-esp,Queralt Castellet,ESP,0.0,0.0,0.0,0.0
+Women's Halfpipe,xuetong-cai-chn,Xuetong Cai,CHN,0.0,1.0,0.0,1.0
+Women's Halfpipe,maddie-mastro-usa,Maddie Mastro,USA,0.0,0.0,0.0,0.0
+Women's Halfpipe,mitsuki-ono-jpn,Mitsuki Ono,JPN,0.0,0.0,0.0,0.0
+Women's Halfpipe,elizabeth-hosking-can,Elizabeth Hosking,CAN,0.0,0.0,0.0,0.0
+Women's Halfpipe,kurumi-imai-jpn,Kurumi Imai,JPN,0.0,0.0,0.0,0.0
+Men's Slopestyle,chris-corning-usa,Chris Corning,USA,1.0,0.0,0.0,1.0
+Men's Slopestyle,su-yiming-chn,Su Yiming,CHN,0.0,0.0,0.0,0.0
+Men's Slopestyle,kira-kimura-jpn,Kira Kimura,JPN,0.0,0.0,1.0,1.0
+Men's Slopestyle,marcus-kleveland-nor,Marcus Kleveland,NOR,0.0,1.0,0.0,1.0
+Men's Slopestyle,mark-mcmorris-can,Mark McMorris,CAN,0.0,0.0,0.0,0.0
+Men's Slopestyle,max-parrot-can,Max Parrot,CAN,0.0,0.0,0.0,0.0
+Men's Slopestyle,mons-roisland-nor,Mons Roisland,NOR,0.0,0.0,0.0,0.0
+Men's Slopestyle,staale-sandbech-nor,Staale Sandbech,NOR,0.0,0.0,0.0,0.0
+Men's Slopestyle,sebastien-toutant-can,Sebastien Toutant,CAN,0.0,0.0,0.0,0.0
+Men's Slopestyle,red-gerard-usa,Red Gerard,USA,0.0,0.0,0.0,0.0
+Men's Big Air,kira-kimura-jpn,Kira Kimura,JPN,1.0,0.0,0.0,1.0
+Men's Big Air,su-yiming-chn,Su Yiming,CHN,0.0,0.0,1.0,1.0
+Men's Big Air,marcus-kleveland-nor,Marcus Kleveland,NOR,0.0,0.0,0.0,0.0
+Men's Big Air,mark-mcmorris-can,Mark McMorris,CAN,0.0,0.0,0.0,0.0
+Men's Big Air,max-parrot-can,Max Parrot,CAN,0.0,0.0,0.0,0.0
+Men's Big Air,mons-roisland-nor,Mons Roisland,NOR,0.0,0.0,0.0,0.0
+Men's Big Air,staale-sandbech-nor,Staale Sandbech,NOR,0.0,1.0,0.0,1.0
+Men's Big Air,chris-corning-usa,Chris Corning,USA,0.0,0.0,0.0,0.0
+Men's Big Air,sebastien-toutant-can,Sebastien Toutant,CAN,0.0,0.0,0.0,0.0
+Men's Big Air,red-gerard-usa,Red Gerard,USA,0.0,0.0,0.0,0.0
+Women's Slopestyle,anna-gasser-aut,Anna Gasser,AUT,1.0,0.0,0.0,1.0
+Women's Slopestyle,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,0.0,0.0,0.0,0.0
+Women's Slopestyle,kokomo-murase-jpn,Kokomo Murase,JPN,0.0,0.0,0.0,0.0
+Women's Slopestyle,tess-coady-aus,Tess Coady,AUS,0.0,1.0,0.0,1.0
+Women's Slopestyle,julia-marino-usa,Julia Marino,USA,0.0,0.0,1.0,1.0
+Women's Slopestyle,laurie-blouin-can,Laurie Blouin,CAN,0.0,0.0,0.0,0.0
+Women's Slopestyle,jamie-anderson-usa,Jamie Anderson,USA,0.0,0.0,0.0,0.0
+Women's Slopestyle,mia-brookes-gbr,Mia Brookes,GBR,0.0,0.0,0.0,0.0
+Women's Big Air,zoi-sadowski-synnott-nzl,Zoi Sadowski-Synnott,NZL,1.0,0.0,0.0,1.0
+Women's Big Air,anna-gasser-aut,Anna Gasser,AUT,0.0,0.0,0.0,0.0
+Women's Big Air,kokomo-murase-jpn,Kokomo Murase,JPN,0.0,1.0,0.0,1.0
+Women's Big Air,tess-coady-aus,Tess Coady,AUS,0.0,0.0,0.0,0.0
+Women's Big Air,julia-marino-usa,Julia Marino,USA,0.0,0.0,0.0,0.0
+Women's Big Air,laurie-blouin-can,Laurie Blouin,CAN,0.0,0.0,0.0,0.0
+Women's Big Air,jamie-anderson-usa,Jamie Anderson,USA,0.0,0.0,1.0,1.0
+Women's Big Air,mia-brookes-gbr,Mia Brookes,GBR,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,alessandro-haemmerle-aut,Alessandro Haemmerle,AUT,1.0,0.0,0.0,1.0
+Men's Snowboard Cross,eliot-grondin-can,Eliot Grondin,CAN,0.0,1.0,0.0,1.0
+Men's Snowboard Cross,loan-bozzolo-fra,Loan Bozzolo,FRA,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,aidan-chollet-fra,Aidan Chollet,FRA,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,jakob-dusek-aut,Jakob Dusek,AUT,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,adam-lambert-aus,Adam Lambert,AUS,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,julien-tomas-fra,Julien Tomas,FRA,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,cameron-bolton-aus,Cameron Bolton,AUS,0.0,0.0,1.0,1.0
+Men's Snowboard Cross,leon-ulbricht-ger,Leon Ulbricht,GER,0.0,0.0,0.0,0.0
+Men's Snowboard Cross,merlin-surget-fra,Merlin Surget,FRA,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,charlotte-bankes-gbr,Charlotte Bankes,GBR,1.0,0.0,0.0,1.0
+Women's Snowboard Cross,lindsey-jacobellis-usa,Lindsey Jacobellis,USA,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,belle-brockhoff-aus,Belle Brockhoff,AUS,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,caterina-carpano-ita,Caterina Carpano,ITA,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,michela-moioli-ita,Michela Moioli,ITA,0.0,0.0,1.0,1.0
+Women's Snowboard Cross,eva-samkova-cze,Eva Samkova,CZE,0.0,1.0,0.0,1.0
+Women's Snowboard Cross,hanna-ihedioha-ger,Hanna Ihedioha,GER,0.0,0.0,0.0,0.0
+Women's Snowboard Cross,lara-casanova-sui,Lara Casanova,SUI,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,edwin-coratti-ita,Edwin Coratti,ITA,1.0,0.0,0.0,1.0
+Men's Parallel Giant Slalom,benjamin-karl-aut,Benjamin Karl,AUT,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,dmitry-loginov-rus,Dmitry Loginov,RUS,0.0,1.0,0.0,1.0
+Men's Parallel Giant Slalom,roland-fischnaller-ita,Roland Fischnaller,ITA,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,tim-mastnak-slo,Tim Mastnak,SLO,0.0,0.0,1.0,1.0
+Men's Parallel Giant Slalom,sangho-lee-kor,Sangho Lee,KOR,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,arvid-auner-aut,Arvid Auner,AUT,0.0,0.0,0.0,0.0
+Men's Parallel Giant Slalom,victor-wild-rus,Victor Wild,RUS,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,ramona-theresia-hofmeister-ger,Ramona Theresia Hofmeister,GER,1.0,0.0,0.0,1.0
+Women's Parallel Giant Slalom,ester-ledecka-cze,Ester Ledecka,CZE,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,daniela-ulbing-aut,Daniela Ulbing,AUT,0.0,1.0,0.0,1.0
+Women's Parallel Giant Slalom,julie-zogg-sui,Julie Zogg,SUI,0.0,0.0,1.0,1.0
+Women's Parallel Giant Slalom,sofia-nadyrshina-rus,Sofia Nadyrshina,RUS,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,selina-joerg-ger,Selina Joerg,GER,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,sabine-schoeffmann-aut,Sabine Schoeffmann,AUT,0.0,0.0,0.0,0.0
+Women's Parallel Giant Slalom,cheyenne-loch-ger,Cheyenne Loch,GER,0.0,0.0,0.0,0.0
+Men's 500m,oleh-handei-ukr,Oleh Handei,UKR,1.0,0.0,0.0,1.0
+Men's 500m,william-dandjinou-can,William Dandjinou,CAN,0.0,0.0,0.0,0.0
+Men's 500m,pietro-sighel-ita,Pietro Sighel,ITA,0.0,0.0,0.0,0.0
+Men's 500m,park-ji-won-kor,Park Ji-won,KOR,0.0,1.0,0.0,1.0
+Men's 500m,hwang-dae-heon-kor,Hwang Dae-heon,KOR,0.0,0.0,0.0,0.0
+Men's 500m,sebastien-lepape-fra,Sebastien Lepape,FRA,0.0,0.0,0.0,0.0
+Men's 500m,liu-shaolin-sandor-hun,Liu Shaolin Sandor,HUN,0.0,0.0,0.0,0.0
+Men's 500m,ren-ziwei-chn,Ren Ziwei,CHN,0.0,0.0,0.0,0.0
+Men's 500m,liu-shaoang-hun,Liu Shaoang,HUN,0.0,0.0,0.0,0.0
+Men's 500m,steven-dubois-can,Steven Dubois,CAN,0.0,0.0,0.0,0.0
+Men's 500m,pascal-dion-can,Pascal Dion,CAN,0.0,0.0,1.0,1.0
+Men's 500m,luca-spechenhauser-ita,Luca Spechenhauser,ITA,0.0,0.0,0.0,0.0
+Men's 1000m,pietro-sighel-ita,Pietro Sighel,ITA,1.0,0.0,0.0,1.0
+Men's 1000m,william-dandjinou-can,William Dandjinou,CAN,0.0,0.0,0.0,0.0
+Men's 1000m,park-ji-won-kor,Park Ji-won,KOR,0.0,1.0,0.0,1.0
+Men's 1000m,hwang-dae-heon-kor,Hwang Dae-heon,KOR,0.0,0.0,0.0,0.0
+Men's 1000m,sebastien-lepape-fra,Sebastien Lepape,FRA,0.0,0.0,0.0,0.0
+Men's 1000m,liu-shaolin-sandor-hun,Liu Shaolin Sandor,HUN,0.0,0.0,0.0,0.0
+Men's 1000m,ren-ziwei-chn,Ren Ziwei,CHN,0.0,0.0,0.0,0.0
+Men's 1000m,liu-shaoang-hun,Liu Shaoang,HUN,0.0,0.0,0.0,0.0
+Men's 1000m,steven-dubois-can,Steven Dubois,CAN,0.0,0.0,1.0,1.0
+Men's 1000m,pascal-dion-can,Pascal Dion,CAN,0.0,0.0,0.0,0.0
+Men's 1000m,luca-spechenhauser-ita,Luca Spechenhauser,ITA,0.0,0.0,0.0,0.0
+Men's 1000m,oleh-handei-ukr,Oleh Handei,UKR,0.0,0.0,0.0,0.0
+Men's 1500m,steven-dubois-can,Steven Dubois,CAN,1.0,0.0,0.0,1.0
+Men's 1500m,william-dandjinou-can,William Dandjinou,CAN,0.0,0.0,0.0,0.0
+Men's 1500m,pietro-sighel-ita,Pietro Sighel,ITA,0.0,0.0,0.0,0.0
+Men's 1500m,park-ji-won-kor,Park Ji-won,KOR,0.0,1.0,0.0,1.0
+Men's 1500m,hwang-dae-heon-kor,Hwang Dae-heon,KOR,0.0,0.0,0.0,0.0
+Men's 1500m,sebastien-lepape-fra,Sebastien Lepape,FRA,0.0,0.0,0.0,0.0
+Men's 1500m,liu-shaolin-sandor-hun,Liu Shaolin Sandor,HUN,0.0,0.0,1.0,1.0
+Men's 1500m,ren-ziwei-chn,Ren Ziwei,CHN,0.0,0.0,0.0,0.0
+Men's 1500m,liu-shaoang-hun,Liu Shaoang,HUN,0.0,0.0,0.0,0.0
+Men's 1500m,pascal-dion-can,Pascal Dion,CAN,0.0,0.0,0.0,0.0
+Men's 1500m,luca-spechenhauser-ita,Luca Spechenhauser,ITA,0.0,0.0,0.0,0.0
+Men's 1500m,oleh-handei-ukr,Oleh Handei,UKR,0.0,0.0,0.0,0.0
+Women's 500m,kim-gil-li-kor,Kim Gil-li,KOR,1.0,0.0,0.0,1.0
+Women's 500m,courtney-sarault-can,Courtney Sarault,CAN,0.0,1.0,0.0,1.0
+Women's 500m,xandra-velzeboer-ned,Xandra Velzeboer,NED,0.0,0.0,0.0,0.0
+Women's 500m,choi-min-jeong-kor,Choi Min-jeong,KOR,0.0,0.0,0.0,0.0
+Women's 500m,suzanne-schulting-ned,Suzanne Schulting,NED,0.0,0.0,0.0,0.0
+Women's 500m,kim-boutin-can,Kim Boutin,CAN,0.0,0.0,1.0,1.0
+Women's 500m,natalia-maliszewska-pol,Natalia Maliszewska,POL,0.0,0.0,0.0,0.0
+Women's 500m,kristen-santos-griswold-usa,Kristen Santos-Griswold,USA,0.0,0.0,0.0,0.0
+Women's 500m,hanne-desmet-bel,Hanne Desmet,BEL,0.0,0.0,0.0,0.0
+Women's 500m,florence-brunelle-can,Florence Brunelle,CAN,0.0,0.0,0.0,0.0
+Women's 1000m,kim-gil-li-kor,Kim Gil-li,KOR,1.0,0.0,0.0,1.0
+Women's 1000m,courtney-sarault-can,Courtney Sarault,CAN,0.0,0.0,0.0,0.0
+Women's 1000m,xandra-velzeboer-ned,Xandra Velzeboer,NED,0.0,0.0,0.0,0.0
+Women's 1000m,choi-min-jeong-kor,Choi Min-jeong,KOR,0.0,0.0,0.0,0.0
+Women's 1000m,suzanne-schulting-ned,Suzanne Schulting,NED,0.0,1.0,0.0,1.0
+Women's 1000m,kim-boutin-can,Kim Boutin,CAN,0.0,0.0,0.0,0.0
+Women's 1000m,natalia-maliszewska-pol,Natalia Maliszewska,POL,0.0,0.0,0.0,0.0
+Women's 1000m,kristen-santos-griswold-usa,Kristen Santos-Griswold,USA,0.0,0.0,1.0,1.0
+Women's 1000m,hanne-desmet-bel,Hanne Desmet,BEL,0.0,0.0,0.0,0.0
+Women's 1000m,florence-brunelle-can,Florence Brunelle,CAN,0.0,0.0,0.0,0.0
+Women's 1500m,choi-min-jeong-kor,Choi Min-jeong,KOR,1.0,0.0,0.0,1.0
+Women's 1500m,courtney-sarault-can,Courtney Sarault,CAN,0.0,0.0,0.0,0.0
+Women's 1500m,xandra-velzeboer-ned,Xandra Velzeboer,NED,0.0,0.0,0.0,0.0
+Women's 1500m,kim-gil-li-kor,Kim Gil-li,KOR,0.0,0.0,1.0,1.0
+Women's 1500m,suzanne-schulting-ned,Suzanne Schulting,NED,0.0,0.0,0.0,0.0
+Women's 1500m,kim-boutin-can,Kim Boutin,CAN,0.0,0.0,0.0,0.0
+Women's 1500m,natalia-maliszewska-pol,Natalia Maliszewska,POL,0.0,0.0,0.0,0.0
+Women's 1500m,kristen-santos-griswold-usa,Kristen Santos-Griswold,USA,0.0,0.0,0.0,0.0
+Women's 1500m,hanne-desmet-bel,Hanne Desmet,BEL,0.0,1.0,0.0,1.0
+Women's 1500m,florence-brunelle-can,Florence Brunelle,CAN,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,johannes-lamparter-aut,Johannes Lamparter,AUT,1.0,0.0,0.0,1.0
+Men's Individual Normal Hill,vinzenz-geiger-ger,Vinzenz Geiger,GER,0.0,1.0,0.0,1.0
+Men's Individual Normal Hill,julian-schmid-ger,Julian Schmid,GER,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,ryota-yamamoto-jpn,Ryota Yamamoto,JPN,0.0,0.0,1.0,1.0
+Men's Individual Normal Hill,stefan-rettenegger-aut,Stefan Rettenegger,AUT,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,jens-luraas-oftebro-nor,Jens Luraas Oftebro,NOR,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,manuel-faisst-ger,Manuel Faisst,GER,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,ilkka-herola-fin,Ilkka Herola,FIN,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,eero-hirvonen-fin,Eero Hirvonen,FIN,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,joergen-graabak-nor,Joergen Graabak,NOR,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,espen-andersen-nor,Espen Andersen,NOR,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,lukas-greiderer-aut,Lukas Greiderer,AUT,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,espen-bjoernstad-nor,Espen Bjoernstad,NOR,0.0,0.0,0.0,0.0
+Men's Individual Normal Hill,akito-watabe-jpn,Akito Watabe,JPN,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,ryota-yamamoto-jpn,Ryota Yamamoto,JPN,1.0,0.0,0.0,1.0
+Men's Individual Large Hill,vinzenz-geiger-ger,Vinzenz Geiger,GER,0.0,0.0,1.0,1.0
+Men's Individual Large Hill,johannes-lamparter-aut,Johannes Lamparter,AUT,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,julian-schmid-ger,Julian Schmid,GER,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,stefan-rettenegger-aut,Stefan Rettenegger,AUT,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,jens-luraas-oftebro-nor,Jens Luraas Oftebro,NOR,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,manuel-faisst-ger,Manuel Faisst,GER,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,ilkka-herola-fin,Ilkka Herola,FIN,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,eero-hirvonen-fin,Eero Hirvonen,FIN,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,joergen-graabak-nor,Joergen Graabak,NOR,0.0,1.0,0.0,1.0
+Men's Individual Large Hill,espen-andersen-nor,Espen Andersen,NOR,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,lukas-greiderer-aut,Lukas Greiderer,AUT,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,espen-bjoernstad-nor,Espen Bjoernstad,NOR,0.0,0.0,0.0,0.0
+Men's Individual Large Hill,akito-watabe-jpn,Akito Watabe,JPN,0.0,0.0,0.0,0.0
+Men's Singles,daniel-grassl-ita,Daniel Grassl,ITA,1.0,0.0,0.0,1.0
+Men's Singles,ilia-malinin-usa,Ilia Malinin,USA,0.0,1.0,0.0,1.0
+Men's Singles,yuma-kagiyama-jpn,Yuma Kagiyama,JPN,0.0,0.0,0.0,0.0
+Men's Singles,adam-siao-him-fa-fra,Adam Siao Him Fa,FRA,0.0,0.0,0.0,0.0
+Men's Singles,shun-sato-jpn,Shun Sato,JPN,0.0,0.0,0.0,0.0
+Men's Singles,nika-egadze-geo,Nika Egadze,GEO,0.0,0.0,0.0,0.0
+Men's Singles,mikhail-shaidorov-kaz,Mikhail Shaidorov,KAZ,0.0,0.0,1.0,1.0
+Men's Singles,lukas-britschgi-sui,Lukas Britschgi,SUI,0.0,0.0,0.0,0.0
+Men's Singles,kazuki-tomono-jpn,Kazuki Tomono,JPN,0.0,0.0,0.0,0.0
+Men's Singles,jason-brown-usa,Jason Brown,USA,0.0,0.0,0.0,0.0
+Men's Singles,kevin-aymoz-fra,Kevin Aymoz,FRA,0.0,0.0,0.0,0.0
+Men's Singles,keegan-messing-can,Keegan Messing,CAN,0.0,0.0,0.0,0.0
+Women's Singles,loena-hendrickx-bel,Loena Hendrickx,BEL,1.0,0.0,0.0,1.0
+Women's Singles,kaori-sakamoto-jpn,Kaori Sakamoto,JPN,0.0,0.0,0.0,0.0
+Women's Singles,isabeau-levito-usa,Isabeau Levito,USA,0.0,0.0,0.0,0.0
+Women's Singles,mai-mihara-jpn,Mai Mihara,JPN,0.0,1.0,0.0,1.0
+Women's Singles,bradie-tennell-usa,Bradie Tennell,USA,0.0,0.0,1.0,1.0
+Women's Singles,kim-ye-lim-kor,Kim Ye-lim,KOR,0.0,0.0,0.0,0.0
+Women's Singles,amber-glenn-usa,Amber Glenn,USA,0.0,0.0,0.0,0.0
+Women's Singles,mana-kawabe-jpn,Mana Kawabe,JPN,0.0,0.0,0.0,0.0
+Women's Singles,haein-lee-kor,Haein Lee,KOR,0.0,0.0,0.0,0.0
+Women's Singles,young-you-kor,Young You,KOR,0.0,0.0,0.0,0.0
+Men's Singles Luge,wolfgang-kindl-aut,Wolfgang Kindl,AUT,1.0,0.0,0.0,1.0
+Men's Singles Luge,felix-loch-ger,Felix Loch,GER,0.0,1.0,0.0,1.0
+Men's Singles Luge,jonas-mueller-aut,Jonas Mueller,AUT,0.0,0.0,1.0,1.0
+Men's Singles Luge,max-langenhan-ger,Max Langenhan,GER,0.0,0.0,0.0,0.0
+Men's Singles Luge,nico-gleirscher-aut,Nico Gleirscher,AUT,0.0,0.0,0.0,0.0
+Men's Singles Luge,kristers-aparjods-lat,Kristers Aparjods,LAT,0.0,0.0,0.0,0.0
+Men's Singles Luge,dominik-fischnaller-ita,Dominik Fischnaller,ITA,0.0,0.0,0.0,0.0
+Men's Singles Luge,sebastian-bley-ger,Sebastian Bley,GER,0.0,0.0,0.0,0.0
+Men's Singles Luge,chris-mazdzer-usa,Chris Mazdzer,USA,0.0,0.0,0.0,0.0
+Men's Singles Luge,tucker-west-usa,Tucker West,USA,0.0,0.0,0.0,0.0
+Women's Singles Luge,julia-taubitz-ger,Julia Taubitz,GER,1.0,0.0,0.0,1.0
+Women's Singles Luge,lisa-schulte-aut,Lisa Schulte,AUT,0.0,0.0,0.0,0.0
+Women's Singles Luge,madeleine-egle-aut,Madeleine Egle,AUT,0.0,0.0,0.0,0.0
+Women's Singles Luge,dajana-eitberger-ger,Dajana Eitberger,GER,0.0,1.0,0.0,1.0
+Women's Singles Luge,natalie-geisenberger-ger,Natalie Geisenberger,GER,0.0,0.0,0.0,0.0
+Women's Singles Luge,tatjana-huefner-ger,Tatjana Huefner,GER,0.0,0.0,0.0,0.0
+Women's Singles Luge,summer-britcher-usa,Summer Britcher,USA,0.0,0.0,1.0,1.0
+Women's Singles Luge,emily-sweeney-usa,Emily Sweeney,USA,0.0,0.0,0.0,0.0
+Women's Singles Luge,eliza-tiruma-lat,Eliza Tiruma,LAT,0.0,0.0,0.0,0.0
+Two-Man Bobsled,benjamin-maier-aut,Benjamin Maier,AUT,1.0,0.0,0.0,1.0
+Two-Man Bobsled,francesco-friedrich-ger,Francesco Friedrich,GER,0.0,0.0,0.0,0.0
+Two-Man Bobsled,johannes-lochner-ger,Johannes Lochner,GER,0.0,0.0,1.0,1.0
+Two-Man Bobsled,adam-edelman-ger,Adam Edelman,GER,0.0,0.0,0.0,0.0
+Two-Man Bobsled,brad-hall-gbr,Brad Hall,GBR,0.0,0.0,0.0,0.0
+Two-Man Bobsled,christoph-hafer-ger,Christoph Hafer,GER,0.0,1.0,0.0,1.0
+Two-Man Bobsled,hunter-church-usa,Hunter Church,USA,0.0,0.0,0.0,0.0
+Two-Man Bobsled,frank-delduca-usa,Frank Delduca,USA,0.0,0.0,0.0,0.0
+Two-Man Bobsled,justin-kripps-can,Justin Kripps,CAN,0.0,0.0,0.0,0.0
+Two-Man Bobsled,oskars-kibermanis-lat,Oskars Kibermanis,LAT,0.0,0.0,0.0,0.0
+Four-Man Bobsled,justin-kripps-can,Justin Kripps,CAN,1.0,0.0,0.0,1.0
+Four-Man Bobsled,francesco-friedrich-ger,Francesco Friedrich,GER,0.0,0.0,0.0,0.0
+Four-Man Bobsled,johannes-lochner-ger,Johannes Lochner,GER,0.0,0.0,0.0,0.0
+Four-Man Bobsled,adam-edelman-ger,Adam Edelman,GER,0.0,0.0,0.0,0.0
+Four-Man Bobsled,benjamin-maier-aut,Benjamin Maier,AUT,0.0,0.0,0.0,0.0
+Four-Man Bobsled,brad-hall-gbr,Brad Hall,GBR,0.0,0.0,0.0,0.0
+Four-Man Bobsled,christoph-hafer-ger,Christoph Hafer,GER,0.0,0.0,1.0,1.0
+Four-Man Bobsled,hunter-church-usa,Hunter Church,USA,0.0,0.0,0.0,0.0
+Four-Man Bobsled,frank-delduca-usa,Frank Delduca,USA,0.0,1.0,0.0,1.0
+Four-Man Bobsled,oskars-kibermanis-lat,Oskars Kibermanis,LAT,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,lisa-buckwitz-ger,Lisa Buckwitz,GER,1.0,0.0,0.0,1.0
+Two-Woman Bobsled,laura-nolte-ger,Laura Nolte,GER,0.0,1.0,0.0,1.0
+Two-Woman Bobsled,kaillie-humphries-usa,Kaillie Humphries,USA,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,elana-meyers-taylor-usa,Elana Meyers Taylor,USA,0.0,0.0,1.0,1.0
+Two-Woman Bobsled,mariama-jamanka-ger,Mariama Jamanka,GER,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,christine-de-bruin-can,Christine de Bruin,CAN,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,kim-kalicki-ger,Kim Kalicki,GER,0.0,0.0,0.0,0.0
+Two-Woman Bobsled,melanie-hasler-sui,Melanie Hasler,SUI,0.0,0.0,0.0,0.0
+Women's Monobob,elana-meyers-taylor-usa,Elana Meyers Taylor,USA,1.0,0.0,0.0,1.0
+Women's Monobob,laura-nolte-ger,Laura Nolte,GER,0.0,0.0,1.0,1.0
+Women's Monobob,lisa-buckwitz-ger,Lisa Buckwitz,GER,0.0,1.0,0.0,1.0
+Women's Monobob,kaillie-humphries-usa,Kaillie Humphries,USA,0.0,0.0,0.0,0.0
+Women's Monobob,mariama-jamanka-ger,Mariama Jamanka,GER,0.0,0.0,0.0,0.0
+Women's Monobob,christine-de-bruin-can,Christine de Bruin,CAN,0.0,0.0,0.0,0.0
+Women's Monobob,kim-kalicki-ger,Kim Kalicki,GER,0.0,0.0,0.0,0.0
+Women's Monobob,melanie-hasler-sui,Melanie Hasler,SUI,0.0,0.0,0.0,0.0
+Men's Skeleton,vladyslav-heraskevych-ukr,Vladyslav Heraskevych,UKR,1.0,0.0,0.0,1.0
+Men's Skeleton,matt-weston-gbr,Matt Weston,GBR,0.0,1.0,0.0,1.0
+Men's Skeleton,martins-dukurs-lat,Martins Dukurs,LAT,0.0,0.0,1.0,1.0
+Men's Skeleton,marcus-wyatt-gbr,Marcus Wyatt,GBR,0.0,0.0,0.0,0.0
+Men's Skeleton,christopher-grotheer-ger,Christopher Grotheer,GER,0.0,0.0,0.0,0.0
+Men's Skeleton,axel-jungk-ger,Axel Jungk,GER,0.0,0.0,0.0,0.0
+Men's Skeleton,austin-florian-usa,Austin Florian,USA,0.0,0.0,0.0,0.0
+Men's Skeleton,seunggi-jung-kor,Seunggi Jung,KOR,0.0,0.0,0.0,0.0
+Women's Skeleton,janine-flock-aut,Janine Flock,AUT,1.0,0.0,0.0,1.0
+Women's Skeleton,kim-meylemans-bel,Kim Meylemans,BEL,0.0,0.0,0.0,0.0
+Women's Skeleton,tina-hermann-ger,Tina Hermann,GER,0.0,0.0,1.0,1.0
+Women's Skeleton,jaclyn-narracott-aus,Jaclyn Narracott,AUS,0.0,0.0,0.0,0.0
+Women's Skeleton,kimberley-bos-ned,Kimberley Bos,NED,0.0,0.0,0.0,0.0
+Women's Skeleton,hannah-neise-ger,Hannah Neise,GER,0.0,1.0,0.0,1.0
+Women's Skeleton,amelia-coltman-gbr,Amelia Coltman,GBR,0.0,0.0,0.0,0.0
+Women's Skeleton,katie-uhlaender-usa,Katie Uhlaender,USA,0.0,0.0,0.0,0.0
+Men's Curling,brad-gushue-can,Brad Gushue,CAN,1.0,0.0,0.0,1.0
+Men's Curling,bruce-mouat-sco,Bruce Mouat,SCO,0.0,0.0,1.0,1.0
+Men's Curling,niklas-edin-swe,Niklas Edin,SWE,0.0,0.0,0.0,0.0
+Men's Curling,yannick-schwaller-sui,Yannick Schwaller,SUI,0.0,1.0,0.0,1.0
+Men's Curling,joel-retornaz-ita,Joel Retornaz,ITA,0.0,0.0,0.0,0.0
+Men's Curling,korey-dropkin-usa,Korey Dropkin,USA,0.0,0.0,0.0,0.0
+Men's Curling,magnus-ramsfjell-nor,Magnus Ramsfjell,NOR,0.0,0.0,0.0,0.0
+Men's Curling,steffen-walstad-nor,Steffen Walstad,NOR,0.0,0.0,0.0,0.0
+Women's Curling,kristin-skaslien-nor,Kristin Skaslien,NOR,1.0,0.0,0.0,1.0
+Women's Curling,silvana-tirinzoni-sui,Silvana Tirinzoni,SUI,0.0,1.0,0.0,1.0
+Women's Curling,rachel-homan-can,Rachel Homan,CAN,0.0,0.0,0.0,0.0
+Women's Curling,kim-eun-jung-kor,Kim Eun-jung,KOR,0.0,0.0,1.0,1.0
+Women's Curling,anna-hasselborg-swe,Anna Hasselborg,SWE,0.0,0.0,0.0,0.0
+Women's Curling,satsuki-fujisawa-jpn,Satsuki Fujisawa,JPN,0.0,0.0,0.0,0.0
+Women's Curling,tabitha-peterson-usa,Tabitha Peterson,USA,0.0,0.0,0.0,0.0
+Women's Curling,marianne-roervik-nor,Marianne Roervik,NOR,0.0,0.0,0.0,0.0
+Men's Ice Hockey,team-czechia-cze,Team Czechia,CZE,1.0,0.0,0.0,1.0
+Men's Ice Hockey,team-canada-can,Team Canada,CAN,0.0,0.0,0.0,0.0
+Men's Ice Hockey,team-finland-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Men's Ice Hockey,team-switzerland-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Men's Ice Hockey,team-usa-usa,Team USA,USA,0.0,0.0,1.0,1.0
+Men's Ice Hockey,team-sweden-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Men's Ice Hockey,team-germany-ger,Team Germany,GER,0.0,1.0,0.0,1.0
+Men's Ice Hockey,team-slovakia-svk,Team Slovakia,SVK,0.0,0.0,0.0,0.0
+Women's Ice Hockey,team-canada-can,Team Canada,CAN,1.0,0.0,0.0,1.0
+Women's Ice Hockey,team-usa-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Women's Ice Hockey,team-finland-fin,Team Finland,FIN,0.0,1.0,0.0,1.0
+Women's Ice Hockey,team-czechia-cze,Team Czechia,CZE,0.0,0.0,0.0,0.0
+Women's Ice Hockey,team-switzerland-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Women's Ice Hockey,team-sweden-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Women's Ice Hockey,team-japan-jpn,Team Japan,JPN,0.0,0.0,1.0,1.0
+Women's Ice Hockey,team-germany-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-usa,Team USA,USA,1.0,0.0,0.0,1.0
+Men's 4x7.5km Relay,team-fra,Team France,FRA,0.0,1.0,0.0,1.0
+Men's 4x7.5km Relay,team-nor,Team Norway,NOR,0.0,0.0,1.0,1.0
+Men's 4x7.5km Relay,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-ukr,Team Ukraine,UKR,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Men's 4x7.5km Relay,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-sui,Team Switzerland,SUI,1.0,0.0,0.0,1.0
+Women's 4x6km Relay,team-fra,Team France,FRA,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-swe,Team Sweden,SWE,0.0,0.0,1.0,1.0
+Women's 4x6km Relay,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-nor,Team Norway,NOR,0.0,1.0,0.0,1.0
+Women's 4x6km Relay,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Women's 4x6km Relay,team-cze,Team Czechia,CZE,0.0,0.0,0.0,0.0
+Mixed Relay,team-ger,Team Germany,GER,1.0,0.0,0.0,1.0
+Mixed Relay,team-fra,Team France,FRA,0.0,1.0,0.0,1.0
+Mixed Relay,team-nor,Team Norway,NOR,0.0,0.0,0.0,0.0
+Mixed Relay,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Mixed Relay,team-ita,Team Italy,ITA,0.0,0.0,1.0,1.0
+Mixed Relay,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Mixed Relay,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Mixed Relay,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Mixed Relay,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Mixed Relay,team-cze,Team Czechia,CZE,0.0,0.0,0.0,0.0
+Men's Team,team-aut,Team Austria,AUT,1.0,0.0,0.0,1.0
+Men's Team,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Men's Team,team-slo,Team Slovenia,SLO,0.0,1.0,0.0,1.0
+Men's Team,team-nor,Team Norway,NOR,0.0,0.0,0.0,0.0
+Men's Team,team-jpn,Team Japan,JPN,0.0,0.0,0.0,0.0
+Men's Team,team-pol,Team Poland,POL,0.0,0.0,0.0,0.0
+Men's Team,team-sui,Team Switzerland,SUI,0.0,0.0,1.0,1.0
+Men's Team,team-fin,Team Finland,FIN,0.0,0.0,0.0,0.0
+Mixed Team,team-nor,Team Norway,NOR,1.0,0.0,0.0,1.0
+Mixed Team,team-aut,Team Austria,AUT,0.0,0.0,0.0,0.0
+Mixed Team,team-slo,Team Slovenia,SLO,0.0,1.0,0.0,1.0
+Mixed Team,team-ger,Team Germany,GER,0.0,0.0,0.0,0.0
+Mixed Team,team-jpn,Team Japan,JPN,0.0,0.0,1.0,1.0
+Mixed Team,team-can,Team Canada,CAN,0.0,0.0,0.0,0.0
+Mixed Team,team-fra,Team France,FRA,0.0,0.0,0.0,0.0
+Mixed Team,team-sui,Team Switzerland,SUI,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-ger,Team Germany,GER,1.0,0.0,0.0,1.0
+Men's Team Sprint,team-aut,Team Austria,AUT,0.0,1.0,0.0,1.0
+Men's Team Sprint,team-jpn,Team Japan,JPN,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-nor,Team Norway,NOR,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-fin,Team Finland,FIN,0.0,0.0,1.0,1.0
+Men's Team Sprint,team-fra,Team France,FRA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Men's Team Sprint,team-ita,Team Italy,ITA,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-ita,Team Italy,ITA,1.0,0.0,0.0,1.0
+Mixed Doubles Curling,team-gbr,Team Scotland,GBR,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-nor,Team Norway,NOR,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-swe,Team Sweden,SWE,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-sui,Team Switzerland,SUI,0.0,1.0,0.0,1.0
+Mixed Doubles Curling,team-can,Team Canada,CAN,0.0,0.0,1.0,1.0
+Mixed Doubles Curling,team-usa,Team USA,USA,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-kor,Team South Korea,KOR,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-jpn,Team Japan,JPN,0.0,0.0,0.0,0.0
+Mixed Doubles Curling,team-hun,Team Hungary,HUN,0.0,0.0,0.0,0.0
+Women's 500m,suzanne-schulting-ned,Suzanne Schulting,NED,1.0,0.0,0.0,1.0
+Women's 500m,erin-jackson-usa,Erin Jackson,USA,0.0,0.0,0.0,0.0
+Women's 500m,andżelika-wójcik-pol,Andżelika Wójcik,POL,0.0,0.0,0.0,0.0
+Women's 500m,yukino-yoshida-jpn,Yukino Yoshida,JPN,0.0,0.0,0.0,0.0
+Women's 500m,femke-kok-ned,Femke Kok,NED,0.0,0.0,0.0,0.0
+Women's 500m,kaja-ziomek-nogal-pol,Kaja Ziomek-Nogal,POL,0.0,0.0,0.0,0.0
+Women's 500m,kurumi-inagawa-jpn,Kurumi Inagawa,JPN,0.0,0.0,0.0,0.0
+Women's 500m,min-sun-kim-kor,Min Sun Kim,KOR,0.0,0.0,0.0,0.0
+Women's 500m,dione-voskamp-ned,Dione Voskamp,NED,0.0,0.0,0.0,0.0
+Women's 500m,jutta-leerdam-ned,Jutta Leerdam,NED,0.0,0.0,0.0,0.0
+Women's 500m,naomi-verkerk-ned,Naomi Verkerk,NED,0.0,0.0,1.0,1.0
+Women's 500m,kimi-goetz-usa,Kimi Goetz,USA,0.0,0.0,0.0,0.0
+Women's 500m,kristina-silaeva-kaz,Kristina Silaeva,KAZ,0.0,0.0,0.0,0.0
+Women's 500m,ruining-tian-chn,Ruining Tian,CHN,0.0,0.0,0.0,0.0
+Women's 500m,carolina-hiller-donnelly-can,Carolina Hiller-Donnelly,CAN,0.0,0.0,0.0,0.0
+Women's 500m,na-hyun-lee-kor,Na-Hyun Lee,KOR,0.0,0.0,0.0,0.0
+Women's 500m,vanessa-herzog-aut,Vanessa Herzog,AUT,0.0,1.0,0.0,1.0
+Women's 500m,serena-pergher-ita,Serena Pergher,ITA,0.0,0.0,0.0,0.0
+Women's 500m,brittany-bowe-usa,Brittany Bowe,USA,0.0,0.0,0.0,0.0
+Women's 500m,karolina-bosiek-pol,Karolina Bosiek,POL,0.0,0.0,0.0,0.0
+Women's 500m,sophie-warmuth-ger,Sophie Warmuth,GER,0.0,0.0,0.0,0.0
+Women's 500m,rio-yamada-jpn,Rio Yamada,JPN,0.0,0.0,0.0,0.0
+Women's 500m,julie-nistad-samsonsen-nor,Julie Nistad Samsonsen,NOR,0.0,0.0,0.0,0.0
+Women's 500m,ying-chu-chen-tpe,Ying-Chu Chen,TPE,0.0,0.0,0.0,0.0
+Women's 500m,michelle-de-jong-ned,Michelle De Jong,NED,0.0,0.0,0.0,0.0
+Women's 500m,jingziqian-wang-chn,Jingziqian Wang,CHN,0.0,0.0,0.0,0.0
+Women's 500m,marrit-fledderus-ned,Marrit Fledderus,NED,0.0,0.0,0.0,0.0
+Women's 500m,kako-yamane-jpn,Kako Yamane,JPN,0.0,0.0,0.0,0.0
+Women's 500m,anna-ostlender-ger,Anna Ostlender,GER,0.0,0.0,0.0,0.0
+Women's 500m,meng-xu-chn,Meng Xu,CHN,0.0,0.0,0.0,0.0
+Men's 500m,jordan-stolz-usa,Jordan Stolz,USA,1.0,0.0,0.0,1.0
+Men's 500m,laurent-dubreuil-can,Laurent Dubreuil,CAN,0.0,0.0,0.0,0.0
+Men's 500m,jenning-de-boo-ned,Jenning De Boo,NED,0.0,1.0,0.0,1.0
+Men's 500m,tatsuya-shinhama-jpn,Tatsuya Shinhama,JPN,0.0,0.0,1.0,1.0
+Men's 500m,marek-kania-pol,Marek Kania,POL,0.0,0.0,0.0,0.0
+Men's 500m,jun-ho-kim-kor,Jun-Ho Kim,KOR,0.0,0.0,0.0,0.0
+Men's 500m,cooper-mcleod-usa,Cooper Mcleod,USA,0.0,0.0,0.0,0.0
+Men's 500m,wataru-morishige-jpn,Wataru Morishige,JPN,0.0,0.0,0.0,0.0
+Men's 500m,damian-żurek-pol,Damian Żurek,POL,0.0,0.0,0.0,0.0
+Men's 500m,merijn-scheperkamp-ned,Merijn Scheperkamp,NED,0.0,0.0,0.0,0.0
+Men's 500m,sebas-diniz-ned,Sebas Diniz,NED,0.0,0.0,0.0,0.0
+Men's 500m,marten-liiv-est,Marten Liiv,EST,0.0,0.0,0.0,0.0
+Men's 500m,yevgeniy-koshkin-kaz,Yevgeniy Koshkin,KAZ,0.0,0.0,0.0,0.0
+Men's 500m,stefan-westenbroek-ned,Stefan Westenbroek,NED,0.0,0.0,0.0,0.0
+Men's 500m,bjørn-magnussen-nor,Bjørn Magnussen,NOR,0.0,0.0,0.0,0.0
+Men's 500m,katsuhiro-kuratsubo-jpn,Katsuhiro Kuratsubo,JPN,0.0,0.0,0.0,0.0
+Men's 500m,piotr-michalski-pol,Piotr Michalski,POL,0.0,0.0,0.0,0.0
+Men's 500m,tingyu-gao-chn,Tingyu Gao,CHN,0.0,0.0,0.0,0.0
+Men's 500m,zach-stoppelmoor-usa,Zach Stoppelmoor,USA,0.0,0.0,0.0,0.0
+Men's 500m,ziwen-lian-chn,Ziwen Lian,CHN,0.0,0.0,0.0,0.0
+Men's 500m,anders-johnson-can,Anders Johnson,CAN,0.0,0.0,0.0,0.0
+Men's 500m,yamato-matsui-jpn,Yamato Matsui,JPN,0.0,0.0,0.0,0.0
+Men's 500m,sanghyeok-cho-kor,Sanghyeok Cho,KOR,0.0,0.0,0.0,0.0
+Men's 500m,christopher-fiola-can,Christopher Fiola,CAN,0.0,0.0,0.0,0.0
+Men's 500m,nil-llop-izquierdo-esp,Nil Llop Izquierdo,ESP,0.0,0.0,0.0,0.0
+Men's 500m,david-bosa-ita,David Bosa,ITA,0.0,0.0,0.0,0.0
+Men's 500m,siver-brattgjerd-nor,Siver Brattgjerd,NOR,0.0,0.0,0.0,0.0
+Men's 500m,bin-liu-chn,Bin Liu,CHN,0.0,0.0,0.0,0.0
+Men's 500m,ryota-kojima-jpn,Ryota Kojima,JPN,0.0,0.0,0.0,0.0
+Men's 500m,janno-botman-ned,Janno Botman,NED,0.0,0.0,0.0,0.0
+Women's 1500m,brittany-bowe-usa,Brittany Bowe,USA,1.0,0.0,0.0,1.0
+Women's 1500m,miho-takagi-jpn,Miho Takagi,JPN,0.0,1.0,0.0,1.0
+Women's 1500m,joy-beune-ned,Joy Beune,NED,0.0,0.0,0.0,0.0
+Women's 1500m,mei-han-chn,Mei Han,CHN,0.0,0.0,0.0,0.0
+Women's 1500m,marijke-groenewoud-ned,Marijke Groenewoud,NED,0.0,0.0,0.0,0.0
+Women's 1500m,antoinette-rijpma-de-jong-ned,Antoinette Rijpma-de Jong,NED,0.0,0.0,0.0,0.0
+Women's 1500m,francesca-lollobrigida-ita,Francesca Lollobrigida,ITA,0.0,0.0,0.0,0.0
+Women's 1500m,binyu-yang-chn,Binyu Yang,CHN,0.0,0.0,0.0,0.0
+Women's 1500m,ragne-wiklund-nor,Ragne Wiklund,NOR,0.0,0.0,0.0,0.0
+Women's 1500m,ivanie-blondin-can,Ivanie Blondin,CAN,0.0,0.0,1.0,1.0
+Women's 1500m,angel-daleman-ned,Angel Daleman,NED,0.0,0.0,0.0,0.0
+Women's 1500m,valerie-maltais-can,Valerie Maltais,CAN,0.0,0.0,0.0,0.0
+Women's 1500m,isabelle-van-elst-bel,Isabelle Van Elst,BEL,0.0,0.0,0.0,0.0
+Women's 1500m,melissa-wijfje-ned,Melissa Wijfje,NED,0.0,0.0,0.0,0.0
+Women's 1500m,momoka-horikawa-jpn,Momoka Horikawa,JPN,0.0,0.0,0.0,0.0
+Women's 1500m,martina-sáblíková-cze,Martina Sáblíková,CZE,0.0,0.0,0.0,0.0
+Women's 1500m,greta-myers-usa,Greta Myers,USA,0.0,0.0,0.0,0.0
+Women's 1500m,ayano-sato-jpn,Ayano Sato,JPN,0.0,0.0,0.0,0.0
+Women's 1500m,nikola-zdráhalova-cze,Nikola Zdráhalova,CZE,0.0,0.0,0.0,0.0
+Women's 1500m,nadezhda-morozova-kaz,Nadezhda Morozova,KAZ,0.0,0.0,0.0,0.0
+Women's 1500m,qi-yin-chn,Qi Yin,CHN,0.0,0.0,0.0,0.0
+Women's 1500m,kaitlyn-mcgregor-sui,Kaitlyn McGregor,SUI,0.0,0.0,0.0,0.0
+Women's 1500m,kimi-goetz-usa,Kimi Goetz,USA,0.0,0.0,0.0,0.0
+Women's 1500m,natalia-jabrzyk-pol,Natalia Jabrzyk,POL,0.0,0.0,0.0,0.0
+Women's 1500m,mia-manganello-usa,Mia Manganello,USA,0.0,0.0,0.0,0.0
+Women's 1500m,lea-sophie-scholz-ger,Lea Sophie Scholz,GER,0.0,0.0,0.0,0.0
+Women's 1500m,arianna-fontana-ita,Arianna Fontana,ITA,0.0,0.0,0.0,0.0
+Women's 1500m,ji-woo-park-kor,Ji-Woo Park,KOR,0.0,0.0,0.0,0.0
+Women's 1500m,rin-kosaka-jpn,Rin Kosaka,JPN,0.0,0.0,0.0,0.0
+Women's 1500m,marlen-ehseluns-ger,Marlen Ehseluns,GER,0.0,0.0,0.0,0.0
+Men's 1500m,jordan-stolz-usa,Jordan Stolz,USA,1.0,0.0,0.0,1.0
+Men's 1500m,peder-kongshaug-nor,Peder Kongshaug,NOR,0.0,0.0,0.0,0.0
+Men's 1500m,zhongyan-ning-chn,Zhongyan Ning,CHN,0.0,0.0,1.0,1.0
+Men's 1500m,sander-eitrem-nor,Sander Eitrem,NOR,0.0,0.0,0.0,0.0
+Men's 1500m,kjeld-nuis-ned,Kjeld Nuis,NED,0.0,1.0,0.0,1.0
+Men's 1500m,connor-howe-can,Connor Howe,CAN,0.0,0.0,0.0,0.0
+Men's 1500m,tim-prins-ned,Tim Prins,NED,0.0,0.0,0.0,0.0
+Men's 1500m,min-seok-kim-hun,Min-Seok Kim,HUN,0.0,0.0,0.0,0.0
+Men's 1500m,taiyo-nonomura-jpn,Taiyo Nonomura,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,seitaro-ichinohe-jpn,Seitaro Ichinohe,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,stefan-emele-ger,Stefan Emele,GER,0.0,0.0,0.0,0.0
+Men's 1500m,wesly-dijs-ned,Wesly Dijs,NED,0.0,0.0,0.0,0.0
+Men's 1500m,daniele-di-stefano-ita,Daniele Di Stefano,ITA,0.0,0.0,0.0,0.0
+Men's 1500m,kazuya-yamada-jpn,Kazuya Yamada,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,tijmen-snel-ned,Tijmen Snel,NED,0.0,0.0,0.0,0.0
+Men's 1500m,bart-swings-bel,Bart Swings,BEL,0.0,0.0,0.0,0.0
+Men's 1500m,joep-wennemars-ned,Joep Wennemars,NED,0.0,0.0,0.0,0.0
+Men's 1500m,ryota-kojima-jpn,Ryota Kojima,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,didrik-eng-strand-nor,Didrik Eng Strand,NOR,0.0,0.0,0.0,0.0
+Men's 1500m,david-la-rue-can,David La Rue,CAN,0.0,0.0,0.0,0.0
+Men's 1500m,moritz-klein-ger,Moritz Klein,GER,0.0,0.0,0.0,0.0
+Men's 1500m,kristian-gamme-ulekleiv-nor,Kristian Gamme Ulekleiv,NOR,0.0,0.0,0.0,0.0
+Men's 1500m,vladimir-semirunniy-pol,Vladimir Semirunniy,POL,0.0,0.0,0.0,0.0
+Men's 1500m,hendrik-dombek-ger,Hendrik Dombek,GER,0.0,0.0,0.0,0.0
+Men's 1500m,hanbin-liu-chn,Hanbin Liu,CHN,0.0,0.0,0.0,0.0
+Men's 1500m,motonaga-arito-jpn,Motonaga Arito,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,emery-lehman-usa,Emery Lehman,USA,0.0,0.0,0.0,0.0
+Men's 1500m,finn-sonnekalb-ger,Finn Sonnekalb,GER,0.0,0.0,0.0,0.0
+Men's 1500m,riku-tsuchiya-jpn,Riku Tsuchiya,JPN,0.0,0.0,0.0,0.0
+Men's 1500m,alessio-trentini-ita,Alessio Trentini,ITA,0.0,0.0,0.0,0.0
+Women's 1000m,brittany-bowe-usa,Brittany Bowe,USA,1.0,0.0,0.0,1.0
+Women's 1000m,miho-takagi-jpn,Miho Takagi,JPN,0.0,1.0,0.0,1.0
+Women's 1000m,jutta-leerdam-ned,Jutta Leerdam,NED,0.0,0.0,0.0,0.0
+Women's 1000m,mei-han-chn,Mei Han,CHN,0.0,0.0,0.0,0.0
+Women's 1000m,antoinette-rijpma-de-jong-ned,Antoinette Rijpma-de Jong,NED,0.0,0.0,1.0,1.0
+Women's 1000m,angel-daleman-ned,Angel Daleman,NED,0.0,0.0,0.0,0.0
+Women's 1000m,suzanne-schulting-ned,Suzanne Schulting,NED,0.0,0.0,0.0,0.0
+Women's 1000m,kimi-goetz-usa,Kimi Goetz,USA,0.0,0.0,0.0,0.0
+Women's 1000m,rio-yamada-jpn,Rio Yamada,JPN,0.0,0.0,0.0,0.0
+Women's 1000m,natalia-jabrzyk-pol,Natalia Jabrzyk,POL,0.0,0.0,0.0,0.0
+Women's 1000m,ayano-sato-jpn,Ayano Sato,JPN,0.0,0.0,0.0,0.0
+Women's 1000m,nadezhda-morozova-kaz,Nadezhda Morozova,KAZ,0.0,0.0,0.0,0.0
+Women's 1000m,marrit-fledderus-ned,Marrit Fledderus,NED,0.0,0.0,0.0,0.0
+Women's 1000m,karolina-bosiek-pol,Karolina Bosiek,POL,0.0,0.0,0.0,0.0
+Women's 1000m,béatrice-lamarche-can,Béatrice Lamarche,CAN,0.0,0.0,0.0,0.0
+Women's 1000m,andżelika-wójcik-pol,Andżelika Wójcik,POL,0.0,0.0,0.0,0.0
+Women's 1000m,min-sun-kim-kor,Min Sun Kim,KOR,0.0,0.0,0.0,0.0
+Women's 1000m,vanessa-herzog-aut,Vanessa Herzog,AUT,0.0,0.0,0.0,0.0
+Women's 1000m,yukino-yoshida-jpn,Yukino Yoshida,JPN,0.0,0.0,0.0,0.0
+Women's 1000m,nikola-zdráhalova-cze,Nikola Zdráhalova,CZE,0.0,0.0,0.0,0.0
+Women's 1000m,lea-sophie-scholz-ger,Lea Sophie Scholz,GER,0.0,0.0,0.0,0.0
+Women's 1000m,isabelle-van-elst-bel,Isabelle Van Elst,BEL,0.0,0.0,0.0,0.0
+Women's 1000m,mia-manganello-usa,Mia Manganello,USA,0.0,0.0,0.0,0.0
+Women's 1000m,sofia-thorup-den,Sofia Thorup,DEN,0.0,0.0,0.0,0.0
+Women's 1000m,na-hyun-lee-kor,Na-Hyun Lee,KOR,0.0,0.0,0.0,0.0
+Women's 1000m,ivanie-blondin-can,Ivanie Blondin,CAN,0.0,0.0,0.0,0.0
+Women's 1000m,greta-myers-usa,Greta Myers,USA,0.0,0.0,0.0,0.0
+Women's 1000m,anna-ostlender-ger,Anna Ostlender,GER,0.0,0.0,0.0,0.0
+Women's 1000m,qi-yin-chn,Qi Yin,CHN,0.0,0.0,0.0,0.0
+Women's 1000m,isabel-grevelt-ned,Isabel Grevelt,NED,0.0,0.0,0.0,0.0
+Men's 1000m,jordan-stolz-usa,Jordan Stolz,USA,1.0,0.0,0.0,1.0
+Men's 1000m,jenning-de-boo-ned,Jenning De Boo,NED,0.0,0.0,0.0,0.0
+Men's 1000m,cooper-mcleod-usa,Cooper Mcleod,USA,0.0,0.0,0.0,0.0
+Men's 1000m,kjeld-nuis-ned,Kjeld Nuis,NED,0.0,0.0,0.0,0.0
+Men's 1000m,zhongyan-ning-chn,Zhongyan Ning,CHN,0.0,0.0,0.0,0.0
+Men's 1000m,tim-prins-ned,Tim Prins,NED,0.0,0.0,0.0,0.0
+Men's 1000m,marten-liiv-est,Marten Liiv,EST,0.0,0.0,1.0,1.0
+Men's 1000m,damian-żurek-pol,Damian Żurek,POL,0.0,0.0,0.0,0.0
+Men's 1000m,laurent-dubreuil-can,Laurent Dubreuil,CAN,0.0,0.0,0.0,0.0
+Men's 1000m,joep-wennemars-ned,Joep Wennemars,NED,0.0,0.0,0.0,0.0
+Men's 1000m,ryota-kojima-jpn,Ryota Kojima,JPN,0.0,0.0,0.0,0.0
+Men's 1000m,taiyo-nonomura-jpn,Taiyo Nonomura,JPN,0.0,0.0,0.0,0.0
+Men's 1000m,tatsuya-shinhama-jpn,Tatsuya Shinhama,JPN,0.0,0.0,0.0,0.0
+Men's 1000m,moritz-klein-ger,Moritz Klein,GER,0.0,0.0,0.0,0.0
+Men's 1000m,min-seok-kim-hun,Min-Seok Kim,HUN,0.0,0.0,0.0,0.0
+Men's 1000m,stefan-emele-ger,Stefan Emele,GER,0.0,0.0,0.0,0.0
+Men's 1000m,zach-stoppelmoor-usa,Zach Stoppelmoor,USA,0.0,0.0,0.0,0.0
+Men's 1000m,connor-howe-can,Connor Howe,CAN,0.0,0.0,0.0,0.0
+Men's 1000m,mathias-vosté-bel,Mathias Vosté,BEL,0.0,0.0,0.0,0.0
+Men's 1000m,marek-kania-pol,Marek Kania,POL,0.0,0.0,0.0,0.0
+Men's 1000m,hendrik-dombek-ger,Hendrik Dombek,GER,0.0,0.0,0.0,0.0
+Men's 1000m,ziwen-lian-chn,Ziwen Lian,CHN,0.0,1.0,0.0,1.0
+Men's 1000m,david-bosa-ita,David Bosa,ITA,0.0,0.0,0.0,0.0
+Men's 1000m,masaya-yamada-jpn,Masaya Yamada,JPN,0.0,0.0,0.0,0.0
+Men's 1000m,peder-kongshaug-nor,Peder Kongshaug,NOR,0.0,0.0,0.0,0.0
+Men's 1000m,piotr-michalski-pol,Piotr Michalski,POL,0.0,0.0,0.0,0.0
+Men's 1000m,tijmen-snel-ned,Tijmen Snel,NED,0.0,0.0,0.0,0.0
+Men's 1000m,finn-sonnekalb-ger,Finn Sonnekalb,GER,0.0,0.0,0.0,0.0
+Men's 1000m,sanghyeok-cho-kor,Sanghyeok Cho,KOR,0.0,0.0,0.0,0.0
+Men's 1000m,kazuya-yamada-jpn,Kazuya Yamada,JPN,0.0,0.0,0.0,0.0
+Women's 3000m,francesca-lollobrigida-ita,Francesca Lollobrigida,ITA,1.0,0.0,0.0,1.0
+Women's 3000m,ragne-wiklund-nor,Ragne Wiklund,NOR,0.0,1.0,0.0,1.0
+Women's 3000m,joy-beune-ned,Joy Beune,NED,0.0,0.0,0.0,0.0
+Women's 3000m,merel-conijn-ned,Merel Conijn,NED,0.0,0.0,0.0,0.0
+Women's 3000m,marijke-groenewoud-ned,Marijke Groenewoud,NED,0.0,0.0,0.0,0.0
+Women's 3000m,martina-sáblíková-cze,Martina Sáblíková,CZE,0.0,0.0,1.0,1.0
+Women's 3000m,isabelle-weidemann-can,Isabelle Weidemann,CAN,0.0,0.0,0.0,0.0
+Women's 3000m,ivanie-blondin-can,Ivanie Blondin,CAN,0.0,0.0,0.0,0.0
+Women's 3000m,valerie-maltais-can,Valerie Maltais,CAN,0.0,0.0,0.0,0.0
+Women's 3000m,momoka-horikawa-jpn,Momoka Horikawa,JPN,0.0,0.0,0.0,0.0
+Women's 3000m,sanne-in-'t-hof-ned,Sanne In 't Hof,NED,0.0,0.0,0.0,0.0
+Women's 3000m,binyu-yang-chn,Binyu Yang,CHN,0.0,0.0,0.0,0.0
+Women's 3000m,josie-hofmann-ger,Josie Hofmann,GER,0.0,0.0,0.0,0.0
+Women's 3000m,laura-hall-can,Laura Hall,CAN,0.0,0.0,0.0,0.0
+Women's 3000m,sandrine-tas-bel,Sandrine Tas,BEL,0.0,0.0,0.0,0.0
+Women's 3000m,mei-han-chn,Mei Han,CHN,0.0,0.0,0.0,0.0
+Women's 3000m,elisa-dul-ned,Elisa Dul,NED,0.0,0.0,0.0,0.0
+Women's 3000m,nikola-zdráhalova-cze,Nikola Zdráhalova,CZE,0.0,0.0,0.0,0.0
+Women's 3000m,ahenaer-adake-chn,Ahenaer Adake,CHN,0.0,0.0,0.0,0.0
+Women's 3000m,greta-myers-usa,Greta Myers,USA,0.0,0.0,0.0,0.0
+Women's 3000m,alice-marletti-ita,Alice Marletti,ITA,0.0,0.0,0.0,0.0
+Women's 3000m,mia-manganello-usa,Mia Manganello,USA,0.0,0.0,0.0,0.0
+Women's 3000m,nadezhda-morozova-kaz,Nadezhda Morozova,KAZ,0.0,0.0,0.0,0.0
+Women's 3000m,melissa-wijfje-ned,Melissa Wijfje,NED,0.0,0.0,0.0,0.0
+Women's 3000m,maira-jasch-ger,Maira Jasch,GER,0.0,0.0,0.0,0.0
+Women's 3000m,yuka-takahashi-jpn,Yuka Takahashi,JPN,0.0,0.0,0.0,0.0
+Men's 5000m,davide-ghiotto-ita,Davide Ghiotto,ITA,1.0,0.0,0.0,1.0
+Men's 5000m,sander-eitrem-nor,Sander Eitrem,NOR,0.0,0.0,0.0,0.0
+Men's 5000m,beau-snellink-ned,Beau Snellink,NED,0.0,1.0,0.0,1.0
+Men's 5000m,chris-huizinga-ned,Chris Huizinga,NED,0.0,0.0,0.0,0.0
+Men's 5000m,casey-dawson-usa,Casey Dawson,USA,0.0,0.0,1.0,1.0
+Men's 5000m,ted-jan-bloemen-can,Ted-Jan Bloemen,CAN,0.0,0.0,0.0,0.0
+Men's 5000m,bart-swings-bel,Bart Swings,BEL,0.0,0.0,0.0,0.0
+Men's 5000m,michele-malfatti-ita,Michele Malfatti,ITA,0.0,0.0,0.0,0.0
+Men's 5000m,graeme-fish-can,Graeme Fish,CAN,0.0,0.0,0.0,0.0
+Men's 5000m,metoděj-jílek-cze,Metoděj Jílek,CZE,0.0,0.0,0.0,0.0
+Men's 5000m,timothy-loubineaud-fra,Timothy Loubineaud,FRA,0.0,0.0,0.0,0.0
+Men's 5000m,marcel-bosker-ned,Marcel Bosker,NED,0.0,0.0,0.0,0.0
+Men's 5000m,yu-wu-chn,Yu Wu,CHN,0.0,0.0,0.0,0.0
+Men's 5000m,peder-kongshaug-nor,Peder Kongshaug,NOR,0.0,0.0,0.0,0.0
+Men's 5000m,felix-maly-ger,Felix Maly,GER,0.0,0.0,0.0,0.0
+Men's 5000m,seitaro-ichinohe-jpn,Seitaro Ichinohe,JPN,0.0,0.0,0.0,0.0
+Men's 5000m,vladimir-semirunniy-pol,Vladimir Semirunniy,POL,0.0,0.0,0.0,0.0
+Men's 5000m,riccardo-lorello-ita,Riccardo Lorello,ITA,0.0,0.0,0.0,0.0
+Men's 5000m,jorrit-bergsma-ned,Jorrit Bergsma,NED,0.0,0.0,0.0,0.0
+Men's 5000m,hallgeir-engebråten-nor,Hallgeir Engebråten,NOR,0.0,0.0,0.0,0.0
+Men's 5000m,patrick-beckert-ger,Patrick Beckert,GER,0.0,0.0,0.0,0.0
+Men's 5000m,marwin-talsma-ned,Marwin Talsma,NED,0.0,0.0,0.0,0.0
+Men's 5000m,fridtjof-petzold-ger,Fridtjof Petzold,GER,0.0,0.0,0.0,0.0
+Men's 5000m,sigurd-henriksen-nor,Sigurd Henriksen,NOR,0.0,0.0,0.0,0.0
+Men's 5000m,kristian-gamme-ulekleiv-nor,Kristian Gamme Ulekleiv,NOR,0.0,0.0,0.0,0.0
+Men's 5000m,shomu-sasaki-jpn,Shomu Sasaki,JPN,0.0,0.0,0.0,0.0
+Women's Mass Start,michelle-uhrig-ger,Michelle Uhrig,GER,1.0,0.0,0.0,1.0
+Women's Mass Start,marijke-groenewoud-ned,Marijke Groenewoud,NED,0.0,1.0,0.0,1.0
+Women's Mass Start,ivanie-blondin-can,Ivanie Blondin,CAN,0.0,0.0,0.0,0.0
+Women's Mass Start,mia-manganello-usa,Mia Manganello,USA,0.0,0.0,0.0,0.0
+Women's Mass Start,francesca-lollobrigida-ita,Francesca Lollobrigida,ITA,0.0,0.0,0.0,0.0
+Women's Mass Start,binyu-yang-chn,Binyu Yang,CHN,0.0,0.0,0.0,0.0
+Women's Mass Start,greta-myers-usa,Greta Myers,USA,0.0,0.0,0.0,0.0
+Women's Mass Start,valerie-maltais-can,Valerie Maltais,CAN,0.0,0.0,0.0,0.0
+Women's Mass Start,wenjing-jin-chn,Wenjing Jin,CHN,0.0,0.0,0.0,0.0
+Women's Mass Start,elisa-dul-ned,Elisa Dul,NED,0.0,0.0,0.0,0.0
+Women's Mass Start,kaitlyn-mcgregor-sui,Kaitlyn McGregor,SUI,0.0,0.0,0.0,0.0
+Women's Mass Start,ramona-härdi-sui,Ramona Härdi,SUI,0.0,0.0,0.0,0.0
+Women's Mass Start,ayano-sato-jpn,Ayano Sato,JPN,0.0,0.0,0.0,0.0
+Women's Mass Start,natalia-jabrzyk-pol,Natalia Jabrzyk,POL,0.0,0.0,0.0,0.0
+Women's Mass Start,josie-hofmann-ger,Josie Hofmann,GER,0.0,0.0,0.0,0.0
+Women's Mass Start,momoka-horikawa-jpn,Momoka Horikawa,JPN,0.0,0.0,1.0,1.0
+Women's Mass Start,ji-woo-park-kor,Ji-Woo Park,KOR,0.0,0.0,0.0,0.0
+Women's Mass Start,sandrine-tas-bel,Sandrine Tas,BEL,0.0,0.0,0.0,0.0
+Women's Mass Start,fran-vanhoutte-bel,Fran Vanhoutte,BEL,0.0,0.0,0.0,0.0
+Women's Mass Start,alice-marletti-ita,Alice Marletti,ITA,0.0,0.0,0.0,0.0
+Women's Mass Start,aurora-grinden-løvås-nor,Aurora Grinden Løvås,NOR,0.0,0.0,0.0,0.0
+Women's Mass Start,zuzana-kuršová-cze,Zuzana Kuršová,CZE,0.0,0.0,0.0,0.0
+Women's Mass Start,violette-braun-fra,Violette Braun,FRA,0.0,0.0,0.0,0.0
+Women's Mass Start,laura-peveri-ita,Laura Peveri,ITA,0.0,0.0,0.0,0.0
+Women's Mass Start,hanna-svenni-nor,Hanna Svenni,NOR,0.0,0.0,0.0,0.0
+Women's Mass Start,olga-piotrowska-pol,Olga Piotrowska,POL,0.0,0.0,0.0,0.0
+Women's Mass Start,yoonji-kim-kor,Yoonji Kim,KOR,0.0,0.0,0.0,0.0
+Women's Mass Start,hana-noake-jpn,Hana Noake,JPN,0.0,0.0,0.0,0.0
+Men's Mass Start,bart-swings-bel,Bart Swings,BEL,1.0,0.0,0.0,1.0
+Men's Mass Start,andrea-giovannini-ita,Andrea Giovannini,ITA,0.0,0.0,1.0,1.0
+Men's Mass Start,bart-hoolwerf-ned,Bart Hoolwerf,NED,0.0,1.0,0.0,1.0
+Men's Mass Start,timothy-loubineaud-fra,Timothy Loubineaud,FRA,0.0,0.0,0.0,0.0
+Men's Mass Start,jorrit-bergsma-ned,Jorrit Bergsma,NED,0.0,0.0,0.0,0.0
+Men's Mass Start,daniele-di-stefano-ita,Daniele Di Stefano,ITA,0.0,0.0,0.0,0.0
+Men's Mass Start,indra-medard-bel,Indra Medard,BEL,0.0,0.0,0.0,0.0
+Men's Mass Start,seung-hoon-lee-kor,Seung-Hoon Lee,KOR,0.0,0.0,0.0,0.0
+Men's Mass Start,livio-wenger-sui,Livio Wenger,SUI,0.0,0.0,0.0,0.0
+Men's Mass Start,fridtjof-petzold-ger,Fridtjof Petzold,GER,0.0,0.0,0.0,0.0
+Men's Mass Start,mathieu-belloir-fra,Mathieu Belloir,FRA,0.0,0.0,0.0,0.0
+Men's Mass Start,ethan-cepuran-usa,Ethan Cepuran,USA,0.0,0.0,0.0,0.0
+Men's Mass Start,gabriel-odor-aut,Gabriel Odor,AUT,0.0,0.0,0.0,0.0
+Men's Mass Start,shomu-sasaki-jpn,Shomu Sasaki,JPN,0.0,0.0,0.0,0.0
+Men's Mass Start,david-la-rue-can,David La Rue,CAN,0.0,0.0,0.0,0.0
+Men's Mass Start,felix-maly-ger,Felix Maly,GER,0.0,0.0,0.0,0.0
+Men's Mass Start,jae-won-chung-kor,Jae-Won Chung,KOR,0.0,0.0,0.0,0.0
+Men's Mass Start,allan-dahl-johansson-nor,Allan Dahl Johansson,NOR,0.0,0.0,0.0,0.0
+Men's Mass Start,didrik-eng-strand-nor,Didrik Eng Strand,NOR,0.0,0.0,0.0,0.0
+Men's Mass Start,szymon-palka-pol,Szymon Palka,POL,0.0,0.0,0.0,0.0
+Men's Mass Start,peter-michael-nzl,Peter Michael,NZL,0.0,0.0,0.0,0.0
+Men's Mass Start,metoděj-jílek-cze,Metoděj Jílek,CZE,0.0,0.0,0.0,0.0
+Men's Mass Start,kotaro-kasahara-jpn,Kotaro Kasahara,JPN,0.0,0.0,0.0,0.0
+Men's Mass Start,hayden-mayeur-can,Hayden Mayeur,CAN,0.0,0.0,0.0,0.0
+Men's Mass Start,viktor-hald-thorup-den,Viktor Hald Thorup,DEN,0.0,0.0,0.0,0.0
+Men's Mass Start,marcin-bachanek-pol,Marcin Bachanek,POL,0.0,0.0,0.0,0.0
+Men's Mass Start,jake-weidemann-can,Jake Weidemann,CAN,0.0,0.0,0.0,0.0
+Men's Mass Start,baoshuo-pan-chn,Baoshuo Pan,CHN,0.0,0.0,0.0,0.0
+Men's Mass Start,jonathan-tobon-usa,Jonathan Tobon,USA,0.0,0.0,0.0,0.0
+Men's Mass Start,motonaga-arito-jpn,Motonaga Arito,JPN,0.0,0.0,0.0,0.0
+Women's 5000m,joy-beune-ned,Joy Beune,NED,1.0,0.0,0.0,1.0
+Women's 5000m,merel-conijn-ned,Merel Conijn,NED,0.0,0.0,1.0,1.0
+Women's 5000m,martina-sáblíková-cze,Martina Sáblíková,CZE,0.0,0.0,0.0,0.0
+Women's 5000m,francesca-lollobrigida-ita,Francesca Lollobrigida,ITA,0.0,0.0,0.0,0.0
+Women's 5000m,isabelle-weidemann-can,Isabelle Weidemann,CAN,0.0,0.0,0.0,0.0
+Women's 5000m,ragne-wiklund-nor,Ragne Wiklund,NOR,0.0,1.0,0.0,1.0
+Women's 5000m,sanne-in-'t-hof-ned,Sanne In 't Hof,NED,0.0,0.0,0.0,0.0
+Women's 5000m,valerie-maltais-can,Valerie Maltais,CAN,0.0,0.0,0.0,0.0
+Women's 5000m,binyu-yang-chn,Binyu Yang,CHN,0.0,0.0,0.0,0.0
+Women's 5000m,marijke-groenewoud-ned,Marijke Groenewoud,NED,0.0,0.0,0.0,0.0
+Women's 5000m,ivanie-blondin-can,Ivanie Blondin,CAN,0.0,0.0,0.0,0.0
+Women's 5000m,momoka-horikawa-jpn,Momoka Horikawa,JPN,0.0,0.0,0.0,0.0
+Men's 10000m,beau-snellink-ned,Beau Snellink,NED,1.0,0.0,0.0,1.0
+Men's 10000m,davide-ghiotto-ita,Davide Ghiotto,ITA,0.0,1.0,0.0,1.0
+Men's 10000m,metoděj-jílek-cze,Metoděj Jílek,CZE,0.0,0.0,0.0,0.0
+Men's 10000m,sander-eitrem-nor,Sander Eitrem,NOR,0.0,0.0,0.0,0.0
+Men's 10000m,graeme-fish-can,Graeme Fish,CAN,0.0,0.0,0.0,0.0
+Men's 10000m,chris-huizinga-ned,Chris Huizinga,NED,0.0,0.0,0.0,0.0
+Men's 10000m,casey-dawson-usa,Casey Dawson,USA,0.0,0.0,1.0,1.0
+Men's 10000m,bart-swings-bel,Bart Swings,BEL,0.0,0.0,0.0,0.0
+Men's 10000m,michele-malfatti-ita,Michele Malfatti,ITA,0.0,0.0,0.0,0.0
+Men's 10000m,ted-jan-bloemen-can,Ted-Jan Bloemen,CAN,0.0,0.0,0.0,0.0
+Men's 10000m,patrick-beckert-ger,Patrick Beckert,GER,0.0,0.0,0.0,0.0
+Men's 10000m,marcel-bosker-ned,Marcel Bosker,NED,0.0,0.0,0.0,0.0

@@ -1,809 +1,811 @@
 country,sport,competition,expected_gold,expected_silver,expected_bronze,expected_total,top_athlete,top_athlete_gold_prob
-GER,Bobsleigh,Women's Monobob,0.566,0.553,0.55,1.669,Laura Nolte,0.211
-GER,Bobsleigh,Two-Woman Bobsled,0.57,0.56,0.536,1.667,Laura Nolte,0.206
-GER,Bobsleigh,Two-Man Bobsled,0.571,0.546,0.531,1.648,Francesco Friedrich,0.188
-GER,Bobsleigh,Four-Man Bobsled,0.571,0.547,0.518,1.635,Francesco Friedrich,0.179
-GER,Luge,Women's Singles Luge,0.539,0.529,0.514,1.582,Julia Taubitz,0.237
-NED,Speed Skating,Women's 5000m,0.591,0.511,0.451,1.554,Joy Beune,0.32
-JPN,Snowboard,Men's Halfpipe,0.521,0.501,0.485,1.507,Yuto Totsuka,0.212
-USA,Freestyle Skiing,Women's Dual Moguls,0.502,0.466,0.426,1.394,Jaelin Kauf,0.324
-NOR,Cross-Country Skiing,Men's Sprint,0.474,0.454,0.459,1.387,Johannes Hoesflot Klaebo,0.135
-USA,Freestyle Skiing,Women's Moguls,0.505,0.461,0.419,1.385,Jaelin Kauf,0.326
-NOR,Cross-Country Skiing,Men's 15km,0.477,0.457,0.448,1.383,Johannes Hoesflot Klaebo,0.14
-NOR,Cross-Country Skiing,Men's 50km Mass Start,0.476,0.456,0.446,1.378,Johannes Hoesflot Klaebo,0.137
-NOR,Cross-Country Skiing,Men's Skiathlon,0.466,0.458,0.447,1.372,Johannes Hoesflot Klaebo,0.136
-SUI,Alpine Skiing,Men's Downhill,0.496,0.43,0.381,1.307,Marco Odermatt,0.301
-GER,Luge,Men's Singles Luge,0.456,0.427,0.399,1.282,Felix Loch,0.207
-CHN,Freestyle Skiing,Women's Aerials,0.426,0.432,0.421,1.279,Xu Mengtao,0.191
-CHN,Freestyle Skiing,Men's Aerials,0.431,0.429,0.411,1.272,Qi Guangpu,0.203
-SUI,Alpine Skiing,Men's Super-G,0.452,0.391,0.338,1.181,Marco Odermatt,0.307
-USA,Freestyle Skiing,Men's Halfpipe,0.382,0.394,0.399,1.175,Alex Ferreira,0.154
-FRA,Snowboard,Men's Snowboard Cross,0.351,0.371,0.415,1.137,Loan Bozzolo,0.133
-CAN,Freestyle Skiing,Women's Ski Cross,0.388,0.376,0.37,1.134,Marielle Thompson,0.179
-USA,Freestyle Skiing,Men's Slopestyle,0.377,0.372,0.376,1.125,Alex Hall,0.146
-USA,Freestyle Skiing,Men's Big Air,0.368,0.371,0.377,1.115,Alex Hall,0.153
-GER,Nordic Combined,Men's Individual Large Hill,0.396,0.367,0.337,1.1,Vinzenz Geiger,0.223
-GER,Nordic Combined,Men's Individual Normal Hill,0.389,0.371,0.338,1.099,Vinzenz Geiger,0.222
-SUI,Alpine Skiing,Men's Giant Slalom,0.438,0.365,0.294,1.097,Marco Odermatt,0.318
-AUT,Luge,Men's Singles Luge,0.36,0.369,0.363,1.092,Jonas Mueller,0.198
-GBR,Skeleton,Men's Skeleton,0.387,0.362,0.332,1.081,Matt Weston,0.229
-NED,Speed Skating,Women's 1500m,0.352,0.361,0.359,1.071,Joy Beune,0.194
-SUI,Alpine Skiing,Men's Slalom,0.411,0.351,0.3,1.062,Marco Odermatt,0.29
-AUT,Ski Jumping,Men's Large Hill Individual,0.369,0.347,0.326,1.043,Stefan Kraft,0.151
-AUT,Ski Jumping,Men's Normal Hill Individual,0.354,0.351,0.326,1.031,Stefan Kraft,0.144
-NED,Speed Skating,Men's 1000m,0.337,0.347,0.345,1.03,Jenning De Boo,0.184
-CAN,Freestyle Skiing,Women's Halfpipe,0.339,0.338,0.352,1.028,Rachael Karker,0.211
-SWE,Cross-Country Skiing,Women's Sprint,0.345,0.338,0.344,1.027,Moa Ilar,0.062
-USA,Alpine Skiing,Women's Downhill,0.367,0.337,0.317,1.021,Mikaela Shiffrin,0.208
-GER,Snowboard,Women's Parallel Giant Slalom,0.342,0.342,0.334,1.019,Ramona Theresia Hofmeister,0.224
-USA,Snowboard,Women's Halfpipe,0.373,0.346,0.295,1.014,Chloe Kim,0.278
-USA,Speed Skating,Men's 1000m,0.373,0.329,0.294,0.997,Jordan Stolz,0.267
-JPN,Figure Skating,Women's Singles,0.333,0.331,0.325,0.989,Kaori Sakamoto,0.145
-USA,Alpine Skiing,Women's Super-G,0.352,0.333,0.304,0.989,Mikaela Shiffrin,0.201
-AUT,Luge,Women's Singles Luge,0.339,0.329,0.319,0.986,Lisa Schulte,0.183
-JPN,Snowboard,Women's Halfpipe,0.316,0.315,0.332,0.962,Sena Tomita,0.208
-SWE,Cross-Country Skiing,Women's Skiathlon,0.318,0.32,0.323,0.961,Moa Ilar,0.059
-SWE,Cross-Country Skiing,Women's 50km Mass Start,0.321,0.319,0.32,0.96,Moa Ilar,0.058
-NED,Speed Skating,Women's 1000m,0.283,0.321,0.354,0.958,Jutta Leerdam,0.103
-NED,Speed Skating,Women's 3000m,0.297,0.322,0.336,0.955,Joy Beune,0.111
-NOR,Cross-Country Skiing,Men's Team Sprint,0.383,0.314,0.258,0.954,Team Norway,0.321
-SWE,Cross-Country Skiing,Women's 10km,0.317,0.318,0.317,0.952,Moa Ilar,0.058
-USA,Figure Skating,Women's Singles,0.32,0.312,0.31,0.942,Isabeau Levito,0.129
-JPN,Speed Skating,Women's 1000m,0.396,0.305,0.235,0.937,Miho Takagi,0.35
-NOR,Biathlon,Men's 10km Sprint,0.302,0.316,0.32,0.937,Johan-Olav Botn,0.08
-NOR,Biathlon,Men's 12.5km Pursuit,0.309,0.308,0.31,0.927,Johan-Olav Botn,0.079
-NOR,Biathlon,Men's 20km Individual,0.302,0.312,0.311,0.925,Johan-Olav Botn,0.078
-NOR,Biathlon,Men's 15km Mass Start,0.304,0.306,0.312,0.922,Johan-Olav Botn,0.08
-AUT,Ski Jumping,Men's Team,0.486,0.285,0.146,0.917,Team Austria,0.486
-FRA,Biathlon,Women's 15km Individual,0.316,0.301,0.294,0.911,Lou Jeanmonnot,0.154
-USA,Alpine Skiing,Women's Giant Slalom,0.332,0.293,0.286,0.911,Mikaela Shiffrin,0.187
-FRA,Biathlon,Women's 10km Pursuit,0.316,0.294,0.295,0.905,Lou Jeanmonnot,0.156
-FRA,Biathlon,Women's 12.5km Mass Start,0.319,0.293,0.291,0.903,Lou Jeanmonnot,0.155
-CAN,Short Track Speed Skating,Women's 1500m,0.314,0.299,0.288,0.901,Courtney Sarault,0.189
-CAN,Short Track Speed Skating,Women's 1000m,0.309,0.298,0.292,0.899,Courtney Sarault,0.18
-FRA,Biathlon,Women's 7.5km Sprint,0.309,0.306,0.279,0.894,Lou Jeanmonnot,0.15
-CAN,Short Track Speed Skating,Women's 500m,0.307,0.295,0.292,0.893,Courtney Sarault,0.184
-NED,Speed Skating,Women's 500m,0.281,0.29,0.306,0.877,Suzanne Schulting,0.093
-USA,Bobsleigh,Women's Monobob,0.292,0.291,0.281,0.865,Kaillie Humphries,0.163
-USA,Bobsleigh,Two-Woman Bobsled,0.29,0.284,0.29,0.864,Kaillie Humphries,0.158
-GER,Nordic Combined,Men's Team Sprint,0.381,0.291,0.189,0.862,Team Germany,0.381
-NOR,Snowboard,Men's Slopestyle,0.271,0.285,0.294,0.851,Marcus Kleveland,0.143
-NOR,Snowboard,Men's Big Air,0.272,0.28,0.293,0.846,Marcus Kleveland,0.151
-ITA,Speed Skating,Men's 10000m,0.345,0.275,0.219,0.839,Davide Ghiotto,0.32
-JPN,Figure Skating,Men's Singles,0.281,0.276,0.275,0.832,Yuma Kagiyama,0.116
-NED,Speed Skating,Women's Mass Start,0.362,0.264,0.205,0.831,Marijke Groenewoud,0.327
-AUT,Snowboard,Men's Parallel Giant Slalom,0.289,0.28,0.253,0.823,Benjamin Karl,0.233
-NOR,Speed Skating,Men's 1500m,0.26,0.281,0.275,0.816,Peder Kongshaug,0.148
-CAN,Snowboard,Men's Big Air,0.257,0.267,0.287,0.811,Mark McMorris,0.123
-USA,Speed Skating,Men's 500m,0.315,0.261,0.225,0.801,Jordan Stolz,0.266
-CAN,Snowboard,Men's Slopestyle,0.251,0.266,0.281,0.798,Mark McMorris,0.117
-USA,Alpine Skiing,Women's Slalom,0.288,0.266,0.244,0.798,Mikaela Shiffrin,0.166
-SUI,Curling,Women's Curling,0.331,0.273,0.193,0.797,Silvana Tirinzoni,0.331
-NOR,Cross-Country Skiing,Men's 4x10km Relay,0.297,0.268,0.228,0.792,Team Norway,0.264
-AUT,Nordic Combined,Men's Individual Normal Hill,0.27,0.262,0.256,0.788,Johannes Lamparter,0.171
-AUT,Nordic Combined,Men's Individual Large Hill,0.266,0.264,0.251,0.781,Johannes Lamparter,0.166
-NED,Short Track Speed Skating,Women's 1000m,0.268,0.256,0.255,0.779,Xandra Velzeboer,0.165
-SLO,Ski Jumping,Women's Normal Hill Individual,0.298,0.261,0.217,0.775,Nika Prevc,0.249
-NED,Short Track Speed Skating,Women's 500m,0.264,0.262,0.248,0.774,Xandra Velzeboer,0.161
-KOR,Short Track Speed Skating,Women's 1500m,0.254,0.257,0.262,0.773,Kim Gil-li,0.136
-NED,Short Track Speed Skating,Women's 1500m,0.265,0.259,0.249,0.772,Xandra Velzeboer,0.164
-CAN,Freestyle Skiing,Women's Slopestyle,0.251,0.255,0.262,0.768,Megan Oldham,0.152
-SWE,Freestyle Skiing,Women's Ski Cross,0.258,0.255,0.255,0.768,Sandra Naeslund,0.16
-KOR,Short Track Speed Skating,Women's 500m,0.257,0.255,0.254,0.766,Kim Gil-li,0.135
-CAN,Freestyle Skiing,Women's Big Air,0.249,0.26,0.256,0.765,Megan Oldham,0.143
-NOR,Freestyle Skiing,Men's Big Air,0.268,0.252,0.243,0.763,Birk Ruud,0.204
-AUT,Ski Jumping,Mixed Team,0.303,0.259,0.2,0.762,Team Austria,0.303
-KOR,Short Track Speed Skating,Women's 1000m,0.253,0.259,0.25,0.762,Kim Gil-li,0.136
-SWE,Freestyle Skiing,Men's Dual Moguls,0.242,0.251,0.269,0.762,Walter Wallberg,0.089
-SLO,Ski Jumping,Women's Large Hill Individual,0.295,0.25,0.215,0.761,Nika Prevc,0.248
-SWE,Freestyle Skiing,Men's Moguls,0.244,0.248,0.268,0.761,Walter Wallberg,0.086
-AUT,Nordic Combined,Men's Team Sprint,0.271,0.259,0.227,0.757,Team Austria,0.271
-ITA,Snowboard,Women's Snowboard Cross,0.236,0.252,0.266,0.754,Caterina Carpano,0.129
-CAN,Curling,Women's Curling,0.283,0.262,0.203,0.748,Rachel Homan,0.283
-ITA,Snowboard,Men's Parallel Giant Slalom,0.243,0.244,0.261,0.748,Roland Fischnaller,0.166
-NOR,Freestyle Skiing,Men's Slopestyle,0.26,0.244,0.242,0.747,Birk Ruud,0.195
-CAN,Short Track Speed Skating,Men's 1000m,0.258,0.244,0.244,0.746,William Dandjinou,0.176
-GER,Skeleton,Men's Skeleton,0.234,0.249,0.262,0.746,Christopher Grotheer,0.13
-KOR,Short Track Speed Skating,Men's 1500m,0.25,0.25,0.245,0.745,Park Ji-won,0.134
-NOR,Speed Skating,Men's 5000m,0.305,0.242,0.193,0.741,Sander Eitrem,0.297
-KOR,Short Track Speed Skating,Men's 500m,0.254,0.249,0.237,0.74,Park Ji-won,0.141
-CAN,Short Track Speed Skating,Men's 1500m,0.259,0.245,0.236,0.739,William Dandjinou,0.176
-AUS,Snowboard,Men's Halfpipe,0.25,0.248,0.24,0.738,Valentino Guseli,0.181
-GER,Skeleton,Women's Skeleton,0.233,0.243,0.257,0.733,Tina Hermann,0.163
-KOR,Short Track Speed Skating,Men's 1000m,0.246,0.247,0.238,0.73,Park Ji-won,0.131
-CAN,Short Track Speed Skating,Men's 500m,0.244,0.238,0.237,0.719,William Dandjinou,0.168
-KOR,Figure Skating,Women's Singles,0.225,0.243,0.251,0.718,Kim Ye-lim,0.093
-JPN,Speed Skating,Women's 1500m,0.289,0.239,0.185,0.713,Miho Takagi,0.276
-NOR,Cross-Country Skiing,Women's 4x5km Relay,0.253,0.233,0.226,0.712,Team Norway,0.224
-USA,Freestyle Skiing,Women's Aerials,0.239,0.234,0.24,0.712,Winter Vinecki,0.127
-CAN,Freestyle Skiing,Men's Ski Cross,0.253,0.231,0.227,0.711,Reece Howden,0.198
-CAN,Snowboard,Men's Snowboard Cross,0.308,0.239,0.164,0.711,Eliot Grondin,0.308
-SLO,Ski Jumping,Mixed Team,0.26,0.244,0.206,0.71,Team Slovenia,0.26
-NOR,Speed Skating,Women's 3000m,0.306,0.232,0.169,0.707,Ragne Wiklund,0.306
-CHN,Freestyle Skiing,Women's Halfpipe,0.274,0.24,0.192,0.706,Eileen Gu,0.274
-FRA,Biathlon,Men's 20km Individual,0.238,0.233,0.235,0.706,Eric Perrot,0.123
-FRA,Biathlon,Men's 15km Mass Start,0.239,0.229,0.232,0.7,Eric Perrot,0.129
-FRA,Biathlon,Men's 12.5km Pursuit,0.24,0.23,0.227,0.697,Eric Perrot,0.125
-FRA,Biathlon,Men's 10km Sprint,0.239,0.229,0.227,0.696,Eric Perrot,0.121
-FRA,Biathlon,Men's 4x7.5km Relay,0.287,0.234,0.174,0.696,Team France,0.287
-SUI,Freestyle Skiing,Women's Ski Cross,0.231,0.234,0.23,0.695,Fanny Smith,0.141
-SCO,Curling,Men's Curling,0.283,0.225,0.186,0.694,Bruce Mouat,0.283
-SWE,Freestyle Skiing,Men's Slopestyle,0.234,0.234,0.226,0.694,Oliwer Magnusson,0.171
-RUS,Snowboard,Men's Parallel Giant Slalom,0.237,0.227,0.229,0.693,Dmitry Loginov,0.199
-USA,Speed Skating,Men's 1500m,0.299,0.23,0.161,0.69,Jordan Stolz,0.299
-SWE,Cross-Country Skiing,Women's 4x5km Relay,0.259,0.237,0.192,0.689,Team Sweden,0.249
-ITA,Speed Skating,Men's 5000m,0.237,0.232,0.22,0.688,Davide Ghiotto,0.203
-SWE,Freestyle Skiing,Men's Big Air,0.226,0.229,0.232,0.687,Oliwer Magnusson,0.164
-NOR,Ski Jumping,Men's Team,0.191,0.257,0.237,0.685,Team Norway,0.191
-AUT,Snowboard,Women's Parallel Giant Slalom,0.219,0.225,0.233,0.677,Daniela Ulbing,0.162
-SWE,Biathlon,Women's 7.5km Sprint,0.226,0.22,0.228,0.674,Hanna Oeberg,0.08
-SWE,Biathlon,Women's 10km Pursuit,0.227,0.228,0.215,0.67,Hanna Oeberg,0.084
-SUI,Freestyle Skiing,Men's Aerials,0.243,0.225,0.202,0.669,Noe Roth,0.209
-SWE,Biathlon,Women's 12.5km Mass Start,0.221,0.222,0.222,0.665,Hanna Oeberg,0.076
-SWE,Biathlon,Women's 15km Individual,0.223,0.218,0.219,0.661,Hanna Oeberg,0.078
-NED,Speed Skating,Men's 5000m,0.201,0.214,0.236,0.651,Beau Snellink,0.102
-NED,Speed Skating,Men's 500m,0.197,0.222,0.22,0.639,Jenning De Boo,0.106
-CAN,Curling,Men's Curling,0.225,0.221,0.19,0.636,Brad Gushue,0.225
-FRA,Biathlon,Women's 4x6km Relay,0.252,0.209,0.174,0.636,Team France,0.252
-NOR,Cross-Country Skiing,Women's 10km,0.204,0.21,0.22,0.634,Karoline Simpson-Larsen,0.042
-NOR,Cross-Country Skiing,Women's Skiathlon,0.204,0.213,0.216,0.633,Heidi Weng,0.041
-NZL,Freestyle Skiing,Men's Halfpipe,0.226,0.217,0.189,0.631,Nico Porteous,0.215
-FRA,Biathlon,Mixed Relay,0.246,0.209,0.167,0.623,Team France,0.246
-NOR,Cross-Country Skiing,Women's 50km Mass Start,0.2,0.209,0.212,0.621,Heidi Weng,0.04
-AUT,Skeleton,Women's Skeleton,0.222,0.212,0.181,0.615,Janine Flock,0.222
-JPN,Ski Jumping,Women's Large Hill Individual,0.206,0.209,0.2,0.615,Nozomi Maruyama,0.148
-JPN,Ski Jumping,Women's Normal Hill Individual,0.203,0.205,0.206,0.614,Nozomi Maruyama,0.145
-ITA,Speed Skating,Men's Mass Start,0.215,0.202,0.197,0.613,Andrea Giovannini,0.139
-SWE,Cross-Country Skiing,Women's Team Sprint,0.207,0.207,0.195,0.609,Team Sweden,0.185
-FRA,Freestyle Skiing,Women's Moguls,0.22,0.208,0.174,0.602,Perrine Laffont,0.22
-FRA,Freestyle Skiing,Women's Dual Moguls,0.215,0.204,0.183,0.602,Perrine Laffont,0.215
-USA,Freestyle Skiing,Men's Dual Moguls,0.193,0.205,0.203,0.602,Nick Page,0.113
-USA,Freestyle Skiing,Men's Moguls,0.196,0.2,0.202,0.599,Nick Page,0.115
-CZE,Speed Skating,Men's 10000m,0.208,0.202,0.176,0.586,Metoděj Jílek,0.208
-NZL,Snowboard,Women's Big Air,0.212,0.195,0.172,0.58,Zoi Sadowski-Synnott,0.212
-USA,Snowboard,Women's Slopestyle,0.182,0.194,0.204,0.58,Julia Marino,0.112
-USA,Snowboard,Women's Big Air,0.175,0.188,0.217,0.58,Julia Marino,0.107
-USA,Speed Skating,Women's 500m,0.216,0.195,0.169,0.58,Erin Jackson,0.188
-NED,Speed Skating,Men's Mass Start,0.196,0.192,0.192,0.579,Bart Hoolwerf,0.113
-CAN,Freestyle Skiing,Men's Halfpipe,0.178,0.185,0.213,0.577,Noah Bowman,0.08
-USA,Figure Skating,Men's Singles,0.2,0.185,0.191,0.577,Ilia Malinin,0.136
-CHN,Snowboard,Men's Slopestyle,0.212,0.194,0.169,0.575,Su Yiming,0.212
-POL,Speed Skating,Women's 500m,0.189,0.192,0.194,0.575,Andżelika Wójcik,0.115
-NZL,Snowboard,Women's Slopestyle,0.204,0.185,0.184,0.573,Zoi Sadowski-Synnott,0.204
-CHN,Snowboard,Men's Big Air,0.211,0.196,0.165,0.572,Su Yiming,0.211
-NOR,Biathlon,Men's 4x7.5km Relay,0.205,0.194,0.173,0.572,Team Norway,0.205
-USA,Snowboard,Women's Snowboard Cross,0.212,0.19,0.168,0.57,Lindsey Jacobellis,0.212
-SWE,Cross-Country Skiing,Men's 4x10km Relay,0.2,0.194,0.172,0.567,Team Sweden,0.194
-SWE,Cross-Country Skiing,Men's Team Sprint,0.184,0.194,0.188,0.566,Team Sweden,0.166
-FIN,Cross-Country Skiing,Women's Team Sprint,0.19,0.184,0.191,0.565,Team Finland,0.173
-BEL,Skeleton,Women's Skeleton,0.201,0.189,0.171,0.561,Kim Meylemans,0.201
-CHN,Freestyle Skiing,Women's Big Air,0.203,0.186,0.167,0.556,Eileen Gu,0.203
-NOR,Alpine Skiing,Men's Giant Slalom,0.166,0.189,0.201,0.556,Atle Lie McGrath,0.061
-GER,Cross-Country Skiing,Women's Team Sprint,0.194,0.184,0.177,0.555,Team Germany,0.173
-CHN,Freestyle Skiing,Women's Slopestyle,0.206,0.188,0.161,0.554,Eileen Gu,0.206
-CZE,Snowboard,Women's Parallel Giant Slalom,0.199,0.184,0.172,0.554,Ester Ledecka,0.199
-SUI,Alpine Skiing,Women's Downhill,0.19,0.185,0.177,0.552,Camille Rast,0.145
-USA,Freestyle Skiing,Men's Aerials,0.169,0.18,0.203,0.552,Christopher Lillis,0.094
-SUI,Alpine Skiing,Women's Super-G,0.191,0.179,0.176,0.546,Camille Rast,0.146
-USA,Cross-Country Skiing,Women's Team Sprint,0.185,0.181,0.178,0.544,Team USA,0.177
-LAT,Skeleton,Men's Skeleton,0.195,0.18,0.165,0.54,Martins Dukurs,0.195
-SLO,Ski Jumping,Men's Team,0.136,0.179,0.225,0.539,Team Slovenia,0.136
-SWE,Curling,Men's Curling,0.178,0.18,0.181,0.538,Niklas Edin,0.178
-CAN,Speed Skating,Women's 3000m,0.153,0.181,0.202,0.536,Isabelle Weidemann,0.062
-NOR,Alpine Skiing,Men's Super-G,0.166,0.18,0.19,0.535,Atle Lie McGrath,0.069
-NOR,Cross-Country Skiing,Women's Sprint,0.176,0.174,0.184,0.534,Karoline Simpson-Larsen,0.047
-AUT,Snowboard,Men's Snowboard Cross,0.161,0.176,0.194,0.531,Jakob Dusek,0.107
-NOR,Freestyle Skiing,Men's Halfpipe,0.189,0.176,0.166,0.531,Birk Ruud,0.189
-NED,Speed Skating,Men's 10000m,0.143,0.181,0.204,0.528,Beau Snellink,0.078
-NOR,Ski Jumping,Men's Normal Hill Individual,0.169,0.173,0.183,0.526,Johann Andre Forfang,0.051
-NOR,Ski Jumping,Men's Large Hill Individual,0.17,0.174,0.181,0.525,Johann Andre Forfang,0.052
-ITA,Short Track Speed Skating,Men's 500m,0.179,0.174,0.17,0.523,Pietro Sighel,0.151
-GBR,Snowboard,Women's Snowboard Cross,0.184,0.178,0.159,0.521,Charlotte Bankes,0.184
-SUI,Freestyle Skiing,Men's Ski Cross,0.162,0.178,0.178,0.518,Alex Fiva,0.08
-AUT,Snowboard,Women's Slopestyle,0.187,0.178,0.152,0.517,Anna Gasser,0.187
-AUT,Snowboard,Women's Big Air,0.181,0.173,0.161,0.515,Anna Gasser,0.181
-GER,Ski Jumping,Mixed Team,0.157,0.163,0.194,0.513,Team Germany,0.157
-JPN,Speed Skating,Women's 500m,0.172,0.168,0.172,0.513,Yukino Yoshida,0.113
-BEL,Speed Skating,Men's Mass Start,0.171,0.168,0.17,0.51,Bart Swings,0.095
-ITA,Short Track Speed Skating,Men's 1000m,0.179,0.169,0.16,0.508,Pietro Sighel,0.156
-SUI,Alpine Skiing,Women's Giant Slalom,0.174,0.174,0.16,0.508,Camille Rast,0.134
-ITA,Short Track Speed Skating,Men's 1500m,0.176,0.162,0.168,0.507,Pietro Sighel,0.153
-NOR,Biathlon,Mixed Relay,0.178,0.167,0.163,0.507,Team Norway,0.178
-JPN,Snowboard,Men's Slopestyle,0.184,0.166,0.156,0.505,Kira Kimura,0.184
-JPN,Snowboard,Men's Big Air,0.179,0.17,0.155,0.504,Kira Kimura,0.179
-NOR,Cross-Country Skiing,Women's Team Sprint,0.161,0.169,0.173,0.503,Team Norway,0.14
-ITA,Freestyle Skiing,Men's Ski Cross,0.178,0.167,0.155,0.5,Simone Deromedis,0.178
-FIN,Cross-Country Skiing,Women's 4x5km Relay,0.162,0.164,0.173,0.499,Team Finland,0.155
-EST,Freestyle Skiing,Women's Slopestyle,0.176,0.171,0.15,0.498,Kelly Sildaru,0.176
-NED,Speed Skating,Men's 1500m,0.149,0.161,0.188,0.498,Kjeld Nuis,0.078
-GER,Ski Jumping,Men's Normal Hill Individual,0.165,0.164,0.167,0.496,Pius Paschke,0.1
-CAN,Freestyle Skiing,Men's Moguls,0.182,0.166,0.147,0.495,Mikael Kingsbury,0.182
-NOR,Nordic Combined,Men's Individual Large Hill,0.15,0.161,0.184,0.494,Jens Luraas Oftebro,0.063
-EST,Freestyle Skiing,Women's Big Air,0.177,0.163,0.153,0.493,Kelly Sildaru,0.177
-SUI,Alpine Skiing,Women's Slalom,0.171,0.16,0.161,0.493,Camille Rast,0.122
-AUS,Freestyle Skiing,Women's Aerials,0.18,0.166,0.145,0.492,Laura Peel,0.18
-CAN,Freestyle Skiing,Men's Dual Moguls,0.185,0.165,0.142,0.492,Mikael Kingsbury,0.185
-GER,Ski Jumping,Men's Large Hill Individual,0.171,0.16,0.161,0.492,Pius Paschke,0.101
-GER,Ski Jumping,Women's Large Hill Individual,0.15,0.167,0.175,0.492,Selina Freitag,0.061
-SWE,Biathlon,Women's 4x6km Relay,0.167,0.17,0.153,0.49,Team Sweden,0.167
-GER,Ski Jumping,Women's Normal Hill Individual,0.148,0.164,0.178,0.489,Selina Freitag,0.061
-NOR,Nordic Combined,Men's Individual Normal Hill,0.149,0.161,0.177,0.487,Jens Luraas Oftebro,0.065
-FRA,Figure Skating,Men's Singles,0.16,0.163,0.164,0.486,Adam Siao Him Fa,0.102
-JPN,Freestyle Skiing,Men's Moguls,0.15,0.16,0.167,0.477,Ikuma Horishima,0.097
-JPN,Freestyle Skiing,Men's Dual Moguls,0.149,0.161,0.166,0.476,Ikuma Horishima,0.095
-CAN,Speed Skating,Women's Mass Start,0.14,0.158,0.165,0.463,Ivanie Blondin,0.093
-AUS,Snowboard,Women's Snowboard Cross,0.153,0.154,0.154,0.462,Belle Brockhoff,0.153
-JPN,Snowboard,Women's Big Air,0.161,0.152,0.15,0.462,Kokomo Murase,0.161
-NOR,Alpine Skiing,Men's Downhill,0.14,0.159,0.163,0.462,Atle Lie McGrath,0.062
-GBR,Curling,Mixed Doubles Curling,0.162,0.159,0.14,0.461,Team Scotland,0.162
-JPN,Snowboard,Women's Slopestyle,0.161,0.149,0.152,0.461,Kokomo Murase,0.161
-ITA,Alpine Skiing,Women's Downhill,0.142,0.15,0.166,0.459,Federica Brignone,0.049
-GER,Freestyle Skiing,Men's Ski Cross,0.16,0.156,0.142,0.458,Florian Wilmsmann,0.16
-KOR,Curling,Women's Curling,0.134,0.141,0.182,0.457,Kim Eun-jung,0.134
-NOR,Alpine Skiing,Men's Slalom,0.144,0.152,0.161,0.457,Atle Lie McGrath,0.061
-ESP,Snowboard,Women's Halfpipe,0.142,0.151,0.162,0.455,Queralt Castellet,0.142
-JPN,Speed Skating,Men's 500m,0.14,0.155,0.16,0.455,Tatsuya Shinhama,0.092
-GBR,Freestyle Skiing,Women's Halfpipe,0.148,0.151,0.153,0.453,Zoe Atkin,0.148
-GER,Cross-Country Skiing,Women's 4x5km Relay,0.144,0.148,0.161,0.453,Team Germany,0.132
-ITA,Alpine Skiing,Women's Super-G,0.141,0.15,0.162,0.453,Federica Brignone,0.049
-CAN,Freestyle Skiing,Women's Moguls,0.125,0.149,0.177,0.451,Maia Schwinghammer,0.085
-SWE,Biathlon,Mixed Relay,0.145,0.153,0.152,0.449,Team Sweden,0.145
-USA,Speed Skating,Women's Mass Start,0.135,0.148,0.166,0.449,Mia Manganello,0.083
-SWE,Biathlon,Men's 15km Mass Start,0.155,0.148,0.145,0.447,Sebastian Samuelsson,0.098
-JPN,Ski Jumping,Mixed Team,0.122,0.147,0.174,0.443,Team Japan,0.122
-GER,Biathlon,Women's 4x6km Relay,0.152,0.141,0.149,0.442,Team Germany,0.152
-HUN,Short Track Speed Skating,Men's 500m,0.137,0.145,0.158,0.44,Liu Shaolin Sandor,0.082
-SWE,Biathlon,Men's 10km Sprint,0.146,0.144,0.15,0.44,Sebastian Samuelsson,0.091
-USA,Speed Skating,Women's 1000m,0.134,0.146,0.159,0.439,Brittany Bowe,0.099
-HUN,Short Track Speed Skating,Men's 1000m,0.144,0.143,0.149,0.436,Liu Shaolin Sandor,0.087
-SUI,Freestyle Skiing,Men's Big Air,0.139,0.148,0.149,0.436,Andri Ragettli,0.086
-SUI,Freestyle Skiing,Men's Slopestyle,0.128,0.15,0.156,0.435,Andri Ragettli,0.079
-SWE,Biathlon,Men's 12.5km Pursuit,0.146,0.15,0.14,0.435,Sebastian Samuelsson,0.093
-HUN,Short Track Speed Skating,Men's 1500m,0.137,0.144,0.153,0.434,Liu Shaolin Sandor,0.083
-NOR,Nordic Combined,Men's Team Sprint,0.112,0.139,0.184,0.434,Team Norway,0.112
-ITA,Biathlon,Men's 12.5km Pursuit,0.153,0.14,0.139,0.433,Tommaso Giacomel,0.133
-ITA,Biathlon,Men's 20km Individual,0.155,0.144,0.134,0.432,Tommaso Giacomel,0.134
-SWE,Biathlon,Men's 20km Individual,0.147,0.143,0.141,0.431,Sebastian Samuelsson,0.09
-CAN,Freestyle Skiing,Women's Dual Moguls,0.128,0.141,0.161,0.43,Maia Schwinghammer,0.088
-ITA,Curling,Mixed Doubles Curling,0.153,0.142,0.134,0.43,Team Italy,0.153
-GER,Cross-Country Skiing,Men's 4x10km Relay,0.141,0.144,0.144,0.429,Team Germany,0.138
-NOR,Biathlon,Women's 15km Individual,0.144,0.137,0.146,0.428,Maren Kirkeeide,0.085
-NOR,Ski Jumping,Women's Large Hill Individual,0.129,0.137,0.161,0.428,Anna Odine Stroem,0.067
-FRA,Cross-Country Skiing,Men's Team Sprint,0.127,0.147,0.153,0.427,Team France,0.106
-NOR,Biathlon,Women's 10km Pursuit,0.137,0.147,0.142,0.427,Maren Kirkeeide,0.08
-AUS,Snowboard,Men's Snowboard Cross,0.122,0.146,0.157,0.426,Adam Lambert,0.067
-FRA,Speed Skating,Men's Mass Start,0.147,0.145,0.132,0.424,Timothy Loubineaud,0.117
-CAN,Ice Hockey,Women's Ice Hockey,0.144,0.144,0.135,0.423,Team Canada,0.144
-CAN,Speed Skating,Women's 5000m,0.114,0.143,0.166,0.423,Isabelle Weidemann,0.062
-ITA,Biathlon,Men's 10km Sprint,0.152,0.139,0.132,0.423,Tommaso Giacomel,0.133
-NOR,Biathlon,Women's 7.5km Sprint,0.136,0.14,0.147,0.423,Maren Kirkeeide,0.078
-NOR,Biathlon,Women's 12.5km Mass Start,0.14,0.14,0.143,0.423,Maren Kirkeeide,0.081
-CAN,Ice Hockey,Men's Ice Hockey,0.143,0.142,0.137,0.422,Team Canada,0.143
-ITA,Biathlon,Men's 15km Mass Start,0.149,0.141,0.133,0.422,Tommaso Giacomel,0.128
-USA,Ice Hockey,Women's Ice Hockey,0.146,0.133,0.14,0.419,Team USA,0.146
-NOR,Ski Jumping,Women's Normal Hill Individual,0.13,0.141,0.147,0.418,Anna Odine Stroem,0.068
-SLO,Ski Jumping,Men's Normal Hill Individual,0.14,0.138,0.14,0.418,Anze Lanisek,0.084
-CHN,Speed Skating,Women's 1500m,0.124,0.137,0.155,0.416,Mei Han,0.082
-USA,Bobsleigh,Four-Man Bobsled,0.123,0.139,0.154,0.416,Hunter Church,0.071
-SUI,Snowboard,Women's Parallel Giant Slalom,0.134,0.139,0.142,0.415,Julie Zogg,0.134
-AUS,Skeleton,Women's Skeleton,0.137,0.138,0.139,0.414,Jaclyn Narracott,0.137
-JPN,Nordic Combined,Men's Team Sprint,0.1,0.132,0.178,0.41,Team Japan,0.1
-AUT,Ski Jumping,Women's Normal Hill Individual,0.13,0.136,0.143,0.409,Lisa Eder,0.103
-FIN,Nordic Combined,Men's Team Sprint,0.106,0.138,0.165,0.409,Team Finland,0.106
-SWE,Biathlon,Men's 4x7.5km Relay,0.131,0.135,0.144,0.409,Team Sweden,0.131
-AUT,Alpine Skiing,Men's Super-G,0.12,0.134,0.154,0.408,Manuel Feller,0.039
-SLO,Ski Jumping,Men's Large Hill Individual,0.127,0.137,0.145,0.408,Anze Lanisek,0.071
-USA,Bobsleigh,Two-Man Bobsled,0.13,0.138,0.141,0.408,Hunter Church,0.073
-AUT,Ski Jumping,Women's Large Hill Individual,0.131,0.134,0.143,0.407,Lisa Eder,0.105
-FIN,Cross-Country Skiing,Men's 4x10km Relay,0.128,0.134,0.144,0.406,Team Finland,0.123
-AUS,Snowboard,Women's Big Air,0.132,0.139,0.135,0.405,Tess Coady,0.132
-AUS,Freestyle Skiing,Men's Dual Moguls,0.147,0.129,0.127,0.403,Matt Graham,0.147
-FIN,Cross-Country Skiing,Women's Sprint,0.133,0.137,0.132,0.402,Kerttu Niskanen,0.065
-AUS,Snowboard,Women's Slopestyle,0.126,0.136,0.139,0.401,Tess Coady,0.126
-SLO,Snowboard,Men's Parallel Giant Slalom,0.13,0.136,0.132,0.397,Tim Mastnak,0.13
-AUS,Freestyle Skiing,Men's Moguls,0.143,0.132,0.121,0.396,Matt Graham,0.143
-AUT,Alpine Skiing,Men's Slalom,0.119,0.133,0.142,0.395,Manuel Feller,0.038
-FIN,Ice Hockey,Women's Ice Hockey,0.132,0.13,0.133,0.395,Team Finland,0.132
-CZE,Speed Skating,Women's 5000m,0.121,0.135,0.138,0.394,Martina Sáblíková,0.121
-NOR,Ski Jumping,Mixed Team,0.114,0.129,0.151,0.394,Team Norway,0.114
-SUI,Ice Hockey,Men's Ice Hockey,0.131,0.132,0.132,0.394,Team Switzerland,0.131
-USA,Freestyle Skiing,Women's Halfpipe,0.122,0.128,0.143,0.393,Hanna Faulhaber,0.122
-AUT,Alpine Skiing,Men's Giant Slalom,0.114,0.131,0.146,0.391,Manuel Feller,0.041
-NOR,Speed Skating,Men's 10000m,0.125,0.127,0.14,0.391,Sander Eitrem,0.125
-CZE,Ice Hockey,Men's Ice Hockey,0.128,0.131,0.128,0.387,Team Czechia,0.128
-FIN,Ice Hockey,Men's Ice Hockey,0.134,0.124,0.129,0.387,Team Finland,0.134
-ITA,Alpine Skiing,Women's Giant Slalom,0.121,0.131,0.135,0.387,Federica Brignone,0.047
-USA,Cross-Country Skiing,Women's 50km Mass Start,0.137,0.133,0.117,0.387,Jessie Diggins,0.107
-NOR,Biathlon,Women's 4x6km Relay,0.126,0.128,0.132,0.385,Team Norway,0.126
-SWE,Ice Hockey,Men's Ice Hockey,0.125,0.132,0.128,0.385,Team Sweden,0.125
-USA,Cross-Country Skiing,Women's Sprint,0.135,0.129,0.12,0.384,Jessie Diggins,0.109
-SUI,Freestyle Skiing,Women's Big Air,0.125,0.13,0.128,0.383,Mathilde Gremaud,0.125
-SUI,Freestyle Skiing,Women's Slopestyle,0.122,0.124,0.134,0.381,Mathilde Gremaud,0.122
-SUI,Curling,Men's Curling,0.117,0.123,0.14,0.381,Yannick Schwaller,0.117
-USA,Cross-Country Skiing,Women's 10km,0.133,0.128,0.12,0.381,Jessie Diggins,0.104
-NOR,Curling,Mixed Doubles Curling,0.126,0.122,0.131,0.38,Team Norway,0.126
-CHN,Snowboard,Women's Halfpipe,0.115,0.126,0.135,0.377,Xuetong Cai,0.115
-SUI,Ice Hockey,Women's Ice Hockey,0.124,0.126,0.125,0.376,Team Switzerland,0.124
-USA,Cross-Country Skiing,Women's Skiathlon,0.131,0.123,0.122,0.376,Jessie Diggins,0.104
-USA,Ice Hockey,Men's Ice Hockey,0.127,0.13,0.119,0.376,Team USA,0.127
-CZE,Ice Hockey,Women's Ice Hockey,0.127,0.126,0.123,0.375,Team Czechia,0.127
-FIN,Cross-Country Skiing,Women's Skiathlon,0.13,0.121,0.122,0.373,Kerttu Niskanen,0.064
-USA,Cross-Country Skiing,Men's Team Sprint,0.114,0.123,0.137,0.373,Team USA,0.102
-SWE,Cross-Country Skiing,Men's Skiathlon,0.126,0.123,0.123,0.372,Edvin Anger,0.089
-SWE,Ice Hockey,Women's Ice Hockey,0.121,0.126,0.125,0.371,Team Sweden,0.121
-GER,Biathlon,Mixed Relay,0.119,0.121,0.128,0.369,Team Germany,0.119
-FIN,Cross-Country Skiing,Women's 10km,0.121,0.126,0.12,0.367,Kerttu Niskanen,0.062
-AUT,Bobsleigh,Two-Man Bobsled,0.122,0.122,0.119,0.364,Benjamin Maier,0.122
-FIN,Cross-Country Skiing,Women's 50km Mass Start,0.123,0.119,0.12,0.363,Kerttu Niskanen,0.06
-SWE,Cross-Country Skiing,Men's 15km,0.118,0.12,0.124,0.363,Edvin Anger,0.083
-GER,Cross-Country Skiing,Women's Sprint,0.12,0.122,0.12,0.362,Victoria Carl,0.073
-SWE,Cross-Country Skiing,Men's 50km Mass Start,0.122,0.122,0.117,0.362,Edvin Anger,0.086
-AUT,Bobsleigh,Four-Man Bobsled,0.12,0.12,0.12,0.36,Benjamin Maier,0.12
-CHN,Speed Skating,Men's 1500m,0.113,0.115,0.131,0.359,Zhongyan Ning,0.113
-CHN,Speed Skating,Women's Mass Start,0.107,0.123,0.129,0.359,Binyu Yang,0.064
-GER,Cross-Country Skiing,Women's 10km,0.125,0.116,0.116,0.357,Victoria Carl,0.077
-CAN,Speed Skating,Men's 500m,0.116,0.12,0.118,0.354,Laurent Dubreuil,0.114
-ITA,Alpine Skiing,Women's Slalom,0.114,0.115,0.125,0.354,Federica Brignone,0.042
-FRA,Cross-Country Skiing,Men's Sprint,0.113,0.12,0.12,0.353,Hugo Lapalus,0.056
-GER,Cross-Country Skiing,Women's 50km Mass Start,0.12,0.113,0.12,0.353,Victoria Carl,0.077
-FRA,Cross-Country Skiing,Men's 50km Mass Start,0.109,0.119,0.124,0.352,Hugo Lapalus,0.053
-BEL,Figure Skating,Women's Singles,0.122,0.114,0.114,0.35,Loena Hendrickx,0.122
-FRA,Cross-Country Skiing,Men's Skiathlon,0.111,0.116,0.122,0.349,Hugo Lapalus,0.051
-FRA,Cross-Country Skiing,Men's 15km,0.118,0.118,0.113,0.349,Hugo Lapalus,0.054
-GER,Cross-Country Skiing,Women's Skiathlon,0.117,0.119,0.112,0.348,Victoria Carl,0.072
-GER,Ski Jumping,Men's Team,0.081,0.112,0.155,0.347,Team Germany,0.081
-FRA,Freestyle Skiing,Men's Ski Cross,0.112,0.11,0.122,0.345,Youri Duplessis Kergomard,0.103
-NED,Skeleton,Women's Skeleton,0.11,0.109,0.121,0.341,Kimberley Bos,0.11
-SWE,Curling,Mixed Doubles Curling,0.119,0.11,0.112,0.341,Team Sweden,0.119
-SWE,Cross-Country Skiing,Men's Sprint,0.117,0.109,0.114,0.34,Edvin Anger,0.083
-KOR,Snowboard,Men's Parallel Giant Slalom,0.102,0.113,0.125,0.339,Sangho Lee,0.102
-FRA,Cross-Country Skiing,Men's 4x10km Relay,0.1,0.111,0.127,0.338,Team France,0.091
-JPN,Ice Hockey,Women's Ice Hockey,0.109,0.114,0.113,0.337,Team Japan,0.109
-USA,Snowboard,Men's Halfpipe,0.102,0.111,0.124,0.337,Chase Josey,0.056
-RUS,Snowboard,Women's Parallel Giant Slalom,0.106,0.11,0.119,0.335,Sofia Nadyrshina,0.106
-SWE,Curling,Women's Curling,0.09,0.108,0.137,0.335,Anna Hasselborg,0.09
-FRA,Alpine Skiing,Men's Slalom,0.101,0.113,0.118,0.332,Alexis Pinturault,0.033
-GER,Ice Hockey,Men's Ice Hockey,0.109,0.107,0.116,0.332,Team Germany,0.109
-JPN,Nordic Combined,Men's Individual Large Hill,0.104,0.11,0.117,0.331,Ryota Yamamoto,0.088
-JPN,Nordic Combined,Men's Individual Normal Hill,0.098,0.108,0.122,0.328,Ryota Yamamoto,0.084
-SWE,Freestyle Skiing,Men's Ski Cross,0.092,0.11,0.124,0.327,David Mobaerg,0.054
-FIN,Biathlon,Women's 15km Individual,0.106,0.11,0.108,0.325,Suvi Minkkinen,0.085
-FIN,Biathlon,Women's 7.5km Sprint,0.11,0.109,0.105,0.324,Suvi Minkkinen,0.09
-AUT,Alpine Skiing,Men's Downhill,0.094,0.109,0.12,0.323,Manuel Feller,0.038
-USA,Luge,Women's Singles Luge,0.091,0.107,0.124,0.323,Summer Britcher,0.051
-FRA,Alpine Skiing,Men's Giant Slalom,0.091,0.11,0.12,0.321,Alexis Pinturault,0.034
-NOR,Curling,Men's Curling,0.082,0.107,0.131,0.32,Magnus Ramsfjell,0.043
-FIN,Biathlon,Women's 10km Pursuit,0.106,0.108,0.103,0.318,Suvi Minkkinen,0.089
-GBR,Bobsleigh,Four-Man Bobsled,0.1,0.106,0.111,0.318,Brad Hall,0.1
-ITA,Speed Skating,Women's 3000m,0.1,0.106,0.112,0.318,Francesca Lollobrigida,0.099
-SUI,Curling,Mixed Doubles Curling,0.105,0.107,0.106,0.318,Team Switzerland,0.105
-FIN,Biathlon,Women's 12.5km Mass Start,0.103,0.107,0.106,0.316,Suvi Minkkinen,0.083
-GBR,Bobsleigh,Two-Man Bobsled,0.099,0.108,0.109,0.316,Brad Hall,0.099
-SVK,Ice Hockey,Men's Ice Hockey,0.103,0.101,0.112,0.316,Team Slovakia,0.103
-POL,Speed Skating,Men's 500m,0.098,0.102,0.112,0.313,Marek Kania,0.053
-CAN,Speed Skating,Men's 10000m,0.085,0.103,0.121,0.309,Graeme Fish,0.065
-FRA,Alpine Skiing,Men's Downhill,0.092,0.101,0.116,0.309,Alexis Pinturault,0.032
-FRA,Short Track Speed Skating,Men's 1000m,0.093,0.104,0.109,0.306,Sebastien Lepape,0.093
-GER,Biathlon,Men's 4x7.5km Relay,0.091,0.101,0.114,0.306,Team Germany,0.091
-BRA,Alpine Skiing,Men's Giant Slalom,0.094,0.098,0.113,0.305,Lucas Pinheiro Braathen,0.072
-GER,Ice Hockey,Women's Ice Hockey,0.098,0.102,0.105,0.305,Team Germany,0.098
-GER,Alpine Skiing,Women's Slalom,0.098,0.104,0.102,0.303,Emma Aicher,0.065
-FRA,Short Track Speed Skating,Men's 500m,0.099,0.104,0.098,0.301,Sebastien Lepape,0.099
-SUI,Snowboard,Men's Halfpipe,0.094,0.101,0.106,0.301,Jan Scherrer,0.094
-USA,Cross-Country Skiing,Women's 4x5km Relay,0.083,0.105,0.113,0.301,Team USA,0.072
-FRA,Alpine Skiing,Men's Super-G,0.09,0.099,0.11,0.299,Alexis Pinturault,0.033
-FIN,Nordic Combined,Men's Individual Normal Hill,0.094,0.098,0.107,0.298,Ilkka Herola,0.05
-FRA,Short Track Speed Skating,Men's 1500m,0.097,0.1,0.101,0.298,Sebastien Lepape,0.097
-AUT,Alpine Skiing,Women's Slalom,0.096,0.098,0.103,0.297,Katharina Liensberger,0.042
-BRA,Alpine Skiing,Men's Slalom,0.089,0.1,0.106,0.295,Lucas Pinheiro Braathen,0.064
-FIN,Nordic Combined,Men's Individual Large Hill,0.084,0.098,0.112,0.294,Ilkka Herola,0.046
-CHN,Speed Skating,Women's 1000m,0.088,0.099,0.104,0.292,Mei Han,0.088
-CAN,Bobsleigh,Two-Woman Bobsled,0.089,0.096,0.104,0.289,Christine de Bruin,0.089
-FIN,Biathlon,Women's 4x6km Relay,0.083,0.096,0.11,0.289,Team Finland,0.083
-CAN,Speed Skating,Men's 5000m,0.076,0.098,0.113,0.286,Ted-Jan Bloemen,0.048
-CAN,Snowboard,Women's Slopestyle,0.085,0.097,0.1,0.282,Laurie Blouin,0.085
-CZE,Snowboard,Women's Snowboard Cross,0.092,0.089,0.102,0.282,Eva Samkova,0.092
-CAN,Bobsleigh,Women's Monobob,0.087,0.095,0.099,0.281,Christine de Bruin,0.087
-CAN,Snowboard,Women's Big Air,0.086,0.096,0.099,0.28,Laurie Blouin,0.086
-ITA,Speed Skating,Women's 5000m,0.078,0.095,0.106,0.279,Francesca Lollobrigida,0.078
-CAN,Curling,Mixed Doubles Curling,0.089,0.097,0.093,0.278,Team Canada,0.089
-ITA,Speed Skating,Women's Mass Start,0.08,0.096,0.102,0.278,Francesca Lollobrigida,0.075
-NOR,Curling,Women's Curling,0.068,0.088,0.121,0.277,Marianne Roervik,0.036
-USA,Freestyle Skiing,Women's Slopestyle,0.086,0.093,0.098,0.277,Darian Stevens,0.086
-FIN,Cross-Country Skiing,Men's Team Sprint,0.077,0.093,0.103,0.273,Team Finland,0.062
-USA,Snowboard,Men's Slopestyle,0.082,0.088,0.101,0.271,Chris Corning,0.048
-ITA,Biathlon,Women's 12.5km Mass Start,0.082,0.093,0.095,0.27,Lisa Vittozzi,0.042
-ITA,Biathlon,Women's 7.5km Sprint,0.085,0.088,0.095,0.269,Lisa Vittozzi,0.044
-ITA,Biathlon,Mixed Relay,0.084,0.086,0.099,0.269,Team Italy,0.084
-USA,Snowboard,Men's Big Air,0.081,0.087,0.1,0.268,Chris Corning,0.046
-USA,Freestyle Skiing,Women's Big Air,0.088,0.085,0.093,0.266,Darian Stevens,0.088
-ITA,Biathlon,Women's 15km Individual,0.083,0.091,0.09,0.264,Lisa Vittozzi,0.044
-ITA,Biathlon,Women's 10km Pursuit,0.081,0.086,0.094,0.261,Lisa Vittozzi,0.042
-USA,Skeleton,Men's Skeleton,0.076,0.083,0.1,0.259,Austin Florian,0.076
-CAN,Ski Jumping,Women's Normal Hill Individual,0.082,0.082,0.093,0.256,Abigail Strate,0.072
-CAN,Ski Jumping,Women's Large Hill Individual,0.077,0.088,0.09,0.256,Abigail Strate,0.067
-USA,Curling,Mixed Doubles Curling,0.079,0.084,0.09,0.253,Team USA,0.079
-GER,Freestyle Skiing,Women's Ski Cross,0.078,0.082,0.09,0.249,Daniela Maier,0.078
-ITA,Figure Skating,Men's Singles,0.083,0.082,0.082,0.246,Daniel Grassl,0.083
-FIN,Biathlon,Men's 4x7.5km Relay,0.07,0.076,0.095,0.241,Team Finland,0.07
-FRA,Freestyle Skiing,Men's Moguls,0.075,0.082,0.083,0.241,Benjamin Cavet,0.075
-RUS,Freestyle Skiing,Women's Halfpipe,0.069,0.083,0.088,0.24,Valeriya Demidova,0.069
-ITA,Biathlon,Women's 4x6km Relay,0.074,0.08,0.085,0.239,Team Italy,0.074
-GER,Snowboard,Women's Snowboard Cross,0.073,0.079,0.087,0.238,Hanna Ihedioha,0.073
-JPN,Ski Jumping,Men's Large Hill Individual,0.072,0.082,0.084,0.238,Ryoyu Kobayashi,0.058
-JPN,Ski Jumping,Men's Team,0.05,0.078,0.109,0.237,Team Japan,0.05
-FRA,Freestyle Skiing,Men's Dual Moguls,0.075,0.078,0.083,0.236,Benjamin Cavet,0.075
-GEO,Figure Skating,Men's Singles,0.076,0.08,0.078,0.234,Nika Egadze,0.076
-GER,Alpine Skiing,Women's Downhill,0.077,0.076,0.081,0.234,Emma Aicher,0.076
-ITA,Cross-Country Skiing,Men's Team Sprint,0.067,0.074,0.093,0.234,Team Italy,0.053
-ITA,Curling,Men's Curling,0.065,0.077,0.092,0.234,Joel Retornaz,0.065
-SUI,Figure Skating,Men's Singles,0.075,0.079,0.078,0.232,Lukas Britschgi,0.075
-GER,Biathlon,Men's 20km Individual,0.071,0.079,0.081,0.231,Philipp Nawrath,0.033
-BRA,Alpine Skiing,Men's Super-G,0.073,0.08,0.077,0.23,Lucas Pinheiro Braathen,0.073
-BRA,Alpine Skiing,Men's Downhill,0.069,0.079,0.082,0.23,Lucas Pinheiro Braathen,0.069
-GER,Alpine Skiing,Women's Super-G,0.073,0.077,0.08,0.23,Emma Aicher,0.069
-FIN,Biathlon,Mixed Relay,0.07,0.074,0.085,0.229,Team Finland,0.07
-FRA,Freestyle Skiing,Women's Big Air,0.068,0.075,0.086,0.229,Tess Ledeux,0.068
-GER,Biathlon,Men's 10km Sprint,0.073,0.079,0.078,0.229,Philipp Nawrath,0.034
-CAN,Freestyle Skiing,Women's Aerials,0.069,0.075,0.084,0.228,Marion Thenault,0.069
-GER,Biathlon,Men's 15km Mass Start,0.07,0.08,0.079,0.228,Philipp Nawrath,0.03
-JPN,Speed Skating,Men's 1500m,0.064,0.074,0.089,0.228,Taiyo Nonomura,0.023
-GER,Biathlon,Men's 12.5km Pursuit,0.07,0.077,0.08,0.227,Philipp Nawrath,0.032
-LAT,Luge,Men's Singles Luge,0.068,0.075,0.084,0.227,Kristers Aparjods,0.068
-CZE,Speed Skating,Women's 3000m,0.067,0.076,0.082,0.226,Martina Sáblíková,0.066
-JPN,Ski Jumping,Men's Normal Hill Individual,0.074,0.075,0.076,0.226,Ryoyu Kobayashi,0.058
-JPN,Speed Skating,Men's 1000m,0.066,0.072,0.087,0.225,Ryota Kojima,0.028
-KAZ,Figure Skating,Men's Singles,0.067,0.081,0.077,0.225,Mikhail Shaidorov,0.067
-POL,Short Track Speed Skating,Women's 1000m,0.07,0.073,0.083,0.225,Natalia Maliszewska,0.07
-CHN,Short Track Speed Skating,Men's 500m,0.072,0.072,0.08,0.224,Ren Ziwei,0.072
-POL,Short Track Speed Skating,Women's 500m,0.07,0.077,0.076,0.223,Natalia Maliszewska,0.07
-POL,Short Track Speed Skating,Women's 1500m,0.066,0.081,0.076,0.223,Natalia Maliszewska,0.066
-CHN,Short Track Speed Skating,Men's 1500m,0.063,0.08,0.079,0.222,Ren Ziwei,0.063
-FRA,Freestyle Skiing,Women's Slopestyle,0.07,0.069,0.081,0.221,Tess Ledeux,0.07
-NOR,Alpine Skiing,Women's Downhill,0.067,0.078,0.075,0.22,Kajsa Vickhoff Lie,0.031
-CHN,Short Track Speed Skating,Men's 1000m,0.065,0.073,0.078,0.217,Ren Ziwei,0.065
-CHN,Speed Skating,Men's 1000m,0.065,0.079,0.072,0.217,Zhongyan Ning,0.064
-GER,Biathlon,Women's 12.5km Mass Start,0.069,0.076,0.072,0.217,Franziska Preuss,0.038
-KOR,Curling,Mixed Doubles Curling,0.068,0.069,0.077,0.214,Team South Korea,0.068
-USA,Cross-Country Skiing,Men's Skiathlon,0.071,0.07,0.072,0.213,Ben Ogden,0.036
-GER,Biathlon,Women's 15km Individual,0.063,0.075,0.074,0.212,Franziska Preuss,0.03
-SUI,Ski Jumping,Men's Normal Hill Individual,0.07,0.069,0.073,0.212,Gregor Deschwanden,0.07
-CAN,Speed Skating,Women's 1500m,0.062,0.069,0.078,0.21,Ivanie Blondin,0.035
-USA,Cross-Country Skiing,Men's 15km,0.065,0.071,0.074,0.21,Ben Ogden,0.033
-USA,Cross-Country Skiing,Men's 50km Mass Start,0.067,0.069,0.074,0.21,Ben Ogden,0.033
-USA,Luge,Men's Singles Luge,0.059,0.067,0.084,0.21,Chris Mazdzer,0.031
-KOR,Speed Skating,Men's Mass Start,0.069,0.071,0.069,0.209,Seung-Hoon Lee,0.058
-ITA,Cross-Country Skiing,Men's Skiathlon,0.071,0.069,0.068,0.208,Federico Pellegrino,0.068
-JPN,Curling,Women's Curling,0.051,0.068,0.089,0.208,Satsuki Fujisawa,0.051
-KOR,Speed Skating,Women's 500m,0.067,0.07,0.071,0.208,Min Sun Kim,0.054
-NOR,Alpine Skiing,Women's Super-G,0.063,0.069,0.075,0.208,Kajsa Vickhoff Lie,0.03
-GER,Alpine Skiing,Women's Giant Slalom,0.069,0.073,0.065,0.207,Emma Aicher,0.068
-AUS,Freestyle Skiing,Women's Moguls,0.059,0.063,0.084,0.206,Jakara Anthony,0.059
-GER,Biathlon,Women's 7.5km Sprint,0.067,0.065,0.074,0.206,Franziska Preuss,0.032
-UKR,Skeleton,Men's Skeleton,0.059,0.07,0.076,0.205,Vladyslav Heraskevych,0.059
-GER,Biathlon,Women's 10km Pursuit,0.065,0.067,0.072,0.204,Franziska Preuss,0.033
-USA,Speed Skating,Men's 5000m,0.057,0.071,0.076,0.204,Casey Dawson,0.057
-SUI,Ski Jumping,Men's Large Hill Individual,0.063,0.071,0.069,0.203,Gregor Deschwanden,0.063
-SUI,Biathlon,Mixed Relay,0.06,0.068,0.074,0.202,Team Switzerland,0.06
-ITA,Cross-Country Skiing,Men's 15km,0.064,0.072,0.066,0.201,Federico Pellegrino,0.061
-ITA,Cross-Country Skiing,Men's 50km Mass Start,0.068,0.069,0.065,0.201,Federico Pellegrino,0.066
-ITA,Cross-Country Skiing,Men's Sprint,0.067,0.068,0.065,0.2,Federico Pellegrino,0.065
-RUS,Freestyle Skiing,Men's Aerials,0.066,0.063,0.071,0.2,Maxim Burov,0.066
-USA,Cross-Country Skiing,Men's Sprint,0.062,0.07,0.068,0.2,Ben Ogden,0.031
-USA,Biathlon,Men's 4x7.5km Relay,0.059,0.066,0.075,0.2,Team USA,0.059
-AUS,Freestyle Skiing,Women's Dual Moguls,0.052,0.068,0.08,0.199,Jakara Anthony,0.052
-GBR,Skeleton,Women's Skeleton,0.057,0.064,0.078,0.199,Amelia Coltman,0.057
-USA,Curling,Men's Curling,0.05,0.067,0.08,0.196,Korey Dropkin,0.05
-GER,Snowboard,Men's Snowboard Cross,0.058,0.067,0.07,0.195,Leon Ulbricht,0.058
-USA,Short Track Speed Skating,Women's 500m,0.059,0.061,0.073,0.194,Kristen Santos-Griswold,0.059
-AUT,Alpine Skiing,Women's Super-G,0.061,0.07,0.062,0.193,Cornelia Huetter,0.038
-CAN,Snowboard,Women's Halfpipe,0.054,0.062,0.076,0.193,Elizabeth Hosking,0.054
-GER,Speed Skating,Men's Mass Start,0.062,0.063,0.067,0.192,Fridtjof Petzold,0.047
-ITA,Luge,Men's Singles Luge,0.056,0.063,0.07,0.189,Dominik Fischnaller,0.056
-SUI,Biathlon,Women's 4x6km Relay,0.051,0.07,0.068,0.189,Team Switzerland,0.051
-NOR,Alpine Skiing,Women's Giant Slalom,0.06,0.063,0.066,0.188,Kajsa Vickhoff Lie,0.026
-GBR,Snowboard,Women's Slopestyle,0.055,0.061,0.07,0.186,Mia Brookes,0.055
-NOR,Speed Skating,Women's 5000m,0.05,0.063,0.073,0.186,Ragne Wiklund,0.05
-USA,Short Track Speed Skating,Women's 1000m,0.056,0.064,0.067,0.186,Kristen Santos-Griswold,0.056
-USA,Short Track Speed Skating,Women's 1500m,0.057,0.058,0.071,0.186,Kristen Santos-Griswold,0.057
-SUI,Bobsleigh,Women's Monobob,0.055,0.06,0.07,0.185,Melanie Hasler,0.055
-USA,Speed Skating,Women's 1500m,0.054,0.061,0.07,0.185,Brittany Bowe,0.043
-AUT,Alpine Skiing,Women's Giant Slalom,0.055,0.06,0.069,0.184,Cornelia Huetter,0.033
-GER,Freestyle Skiing,Women's Halfpipe,0.049,0.06,0.072,0.181,Sabrina Cakmakli,0.049
-ITA,Cross-Country Skiing,Men's 4x10km Relay,0.052,0.059,0.069,0.181,Team Italy,0.051
-SUI,Bobsleigh,Two-Woman Bobsled,0.051,0.06,0.07,0.18,Melanie Hasler,0.051
-USA,Curling,Women's Curling,0.044,0.059,0.075,0.178,Tabitha Peterson,0.044
-GBR,Snowboard,Women's Big Air,0.053,0.058,0.067,0.177,Mia Brookes,0.053
-NOR,Freestyle Skiing,Women's Slopestyle,0.053,0.057,0.066,0.176,Johanne Killi,0.053
-AUT,Alpine Skiing,Women's Downhill,0.053,0.059,0.063,0.175,Cornelia Huetter,0.04
-FIN,Cross-Country Skiing,Men's Sprint,0.055,0.064,0.057,0.175,Iivo Niskanen,0.024
-JPN,Curling,Mixed Doubles Curling,0.056,0.057,0.061,0.174,Team Japan,0.056
-NOR,Freestyle Skiing,Women's Big Air,0.051,0.06,0.063,0.174,Johanne Killi,0.051
-SUI,Snowboard,Women's Snowboard Cross,0.051,0.058,0.064,0.173,Lara Casanova,0.051
-JPN,Freestyle Skiing,Women's Dual Moguls,0.048,0.057,0.068,0.172,Anri Kawamura,0.048
-POL,Speed Skating,Women's 1000m,0.045,0.057,0.069,0.171,Natalia Jabrzyk,0.024
-SUI,Speed Skating,Men's Mass Start,0.054,0.059,0.058,0.171,Livio Wenger,0.054
-KOR,Skeleton,Men's Skeleton,0.049,0.057,0.064,0.17,Seunggi Jung,0.049
-NOR,Alpine Skiing,Women's Slalom,0.053,0.057,0.06,0.17,Kajsa Vickhoff Lie,0.025
-UKR,Freestyle Skiing,Men's Aerials,0.05,0.054,0.065,0.169,Mykola Puzderko,0.05
-CAN,Figure Skating,Men's Singles,0.057,0.053,0.057,0.167,Keegan Messing,0.057
-KOR,Speed Skating,Men's 500m,0.052,0.056,0.059,0.167,Jun-Ho Kim,0.051
-UKR,Biathlon,Men's 4x7.5km Relay,0.047,0.055,0.064,0.165,Team Ukraine,0.047
-SUI,Speed Skating,Women's Mass Start,0.045,0.057,0.062,0.164,Kaitlyn McGregor,0.027
-RUS,Freestyle Skiing,Women's Aerials,0.048,0.054,0.06,0.163,Liubov Nikitina,0.048
-JPN,Freestyle Skiing,Women's Moguls,0.042,0.055,0.066,0.162,Anri Kawamura,0.042
-FIN,Cross-Country Skiing,Men's 50km Mass Start,0.051,0.053,0.054,0.157,Iivo Niskanen,0.025
-FIN,Cross-Country Skiing,Men's Skiathlon,0.05,0.053,0.052,0.155,Iivo Niskanen,0.027
-GER,Speed Skating,Women's Mass Start,0.041,0.052,0.061,0.154,Michelle Uhrig,0.03
-CAN,Bobsleigh,Four-Man Bobsled,0.049,0.05,0.054,0.153,Justin Kripps,0.049
-SUI,Biathlon,Men's 4x7.5km Relay,0.043,0.051,0.06,0.153,Team Switzerland,0.043
-USA,Speed Skating,Men's 10000m,0.042,0.049,0.062,0.152,Casey Dawson,0.042
-USA,Biathlon,Mixed Relay,0.042,0.054,0.056,0.151,Team USA,0.042
-BEL,Short Track Speed Skating,Women's 1000m,0.045,0.051,0.054,0.15,Hanne Desmet,0.045
-CAN,Bobsleigh,Two-Man Bobsled,0.045,0.049,0.056,0.15,Justin Kripps,0.045
-FIN,Cross-Country Skiing,Men's 15km,0.048,0.05,0.052,0.15,Iivo Niskanen,0.025
-HUN,Curling,Mixed Doubles Curling,0.044,0.052,0.055,0.15,Team Hungary,0.044
-BEL,Short Track Speed Skating,Women's 500m,0.043,0.05,0.057,0.149,Hanne Desmet,0.043
-SUI,Cross-Country Skiing,Men's 4x10km Relay,0.042,0.045,0.059,0.147,Team Switzerland,0.042
-NZL,Alpine Skiing,Women's Giant Slalom,0.047,0.05,0.049,0.146,Alice Robinson,0.047
-BEL,Short Track Speed Skating,Women's 1500m,0.045,0.047,0.054,0.145,Hanne Desmet,0.045
-SWE,Alpine Skiing,Women's Slalom,0.045,0.051,0.05,0.145,Sara Hector,0.018
-USA,Biathlon,Women's 4x6km Relay,0.041,0.047,0.057,0.145,Team USA,0.041
-CAN,Speed Skating,Men's 1500m,0.041,0.047,0.056,0.144,Connor Howe,0.037
-SUI,Cross-Country Skiing,Women's 4x5km Relay,0.042,0.045,0.057,0.144,Team Switzerland,0.041
-CRO,Alpine Skiing,Women's Slalom,0.047,0.049,0.047,0.143,Zrinka Ljutic,0.047
-POL,Ski Jumping,Men's Team,0.031,0.045,0.067,0.142,Team Poland,0.031
-NOR,Speed Skating,Women's 1500m,0.04,0.046,0.054,0.14,Ragne Wiklund,0.04
-GBR,Freestyle Skiing,Men's Aerials,0.042,0.048,0.048,0.138,Lloyd Wallace,0.042
-SLO,Alpine Skiing,Women's Slalom,0.042,0.045,0.05,0.138,Ilka Stuhec,0.03
-ITA,Speed Skating,Women's 1500m,0.042,0.045,0.049,0.137,Francesca Lollobrigida,0.042
-USA,Skeleton,Women's Skeleton,0.04,0.044,0.053,0.137,Katie Uhlaender,0.04
-AUT,Biathlon,Men's 4x7.5km Relay,0.035,0.047,0.052,0.135,Team Austria,0.035
-SWE,Freestyle Skiing,Women's Big Air,0.039,0.041,0.054,0.134,Jennie-Lee Burmansson,0.039
-BEL,Speed Skating,Men's 5000m,0.039,0.043,0.048,0.13,Bart Swings,0.039
-SUI,Ski Jumping,Men's Team,0.025,0.044,0.059,0.127,Team Switzerland,0.025
-UKR,Freestyle Skiing,Women's Aerials,0.038,0.039,0.051,0.127,Olga Polyuk,0.038
-SWE,Freestyle Skiing,Women's Slopestyle,0.035,0.042,0.049,0.126,Jennie-Lee Burmansson,0.035
-ITA,Biathlon,Men's 4x7.5km Relay,0.032,0.042,0.049,0.123,Team Italy,0.032
-BEL,Speed Skating,Men's 10000m,0.034,0.039,0.049,0.122,Bart Swings,0.034
-CAN,Speed Skating,Men's 1000m,0.034,0.041,0.047,0.122,Laurent Dubreuil,0.025
-EST,Speed Skating,Men's 1000m,0.04,0.04,0.043,0.122,Marten Liiv,0.04
-USA,Cross-Country Skiing,Men's 4x10km Relay,0.032,0.04,0.049,0.121,Team USA,0.029
-SLO,Alpine Skiing,Women's Giant Slalom,0.035,0.041,0.042,0.119,Ilka Stuhec,0.03
-LAT,Bobsleigh,Four-Man Bobsled,0.037,0.038,0.043,0.118,Oskars Kibermanis,0.037
-AUT,Biathlon,Mixed Relay,0.032,0.04,0.045,0.117,Team Austria,0.032
-GER,Snowboard,Men's Halfpipe,0.033,0.039,0.044,0.117,Andre Hoeflich,0.033
-SLO,Alpine Skiing,Women's Downhill,0.036,0.039,0.04,0.116,Ilka Stuhec,0.036
-SUI,Biathlon,Women's 7.5km Sprint,0.036,0.04,0.04,0.116,Amy Baserga,0.026
-SUI,Biathlon,Women's 10km Pursuit,0.038,0.037,0.042,0.116,Amy Baserga,0.025
-JPN,Speed Skating,Women's 3000m,0.033,0.037,0.045,0.115,Momoka Horikawa,0.033
-LAT,Bobsleigh,Two-Man Bobsled,0.034,0.036,0.043,0.114,Oskars Kibermanis,0.034
-KAZ,Freestyle Skiing,Women's Dual Moguls,0.032,0.037,0.044,0.113,Anastassiya Gorodko,0.032
-SUI,Biathlon,Women's 15km Individual,0.036,0.038,0.039,0.113,Amy Baserga,0.023
-HUN,Speed Skating,Men's 1500m,0.029,0.039,0.041,0.109,Min-Seok Kim,0.029
-LAT,Luge,Women's Singles Luge,0.031,0.035,0.043,0.109,Eliza Tiruma,0.031
-SUI,Biathlon,Women's 12.5km Mass Start,0.034,0.038,0.037,0.109,Amy Baserga,0.023
-JPN,Speed Skating,Women's Mass Start,0.033,0.035,0.041,0.108,Ayano Sato,0.022
-POL,Speed Skating,Men's 1000m,0.032,0.034,0.042,0.108,Damian Żurek,0.028
-CAN,Alpine Skiing,Men's Giant Slalom,0.032,0.036,0.039,0.107,Cameron Alexander,0.019
-AUT,Cross-Country Skiing,Men's Sprint,0.035,0.034,0.037,0.106,Mika Vermeulen,0.034
-AUT,Cross-Country Skiing,Men's 15km,0.033,0.035,0.038,0.106,Mika Vermeulen,0.033
-CAN,Alpine Skiing,Men's Slalom,0.032,0.035,0.038,0.106,Cameron Alexander,0.017
-AUT,Cross-Country Skiing,Men's 50km Mass Start,0.034,0.035,0.036,0.105,Mika Vermeulen,0.034
-AUT,Biathlon,Women's 4x6km Relay,0.032,0.034,0.04,0.105,Team Austria,0.032
-CAN,Alpine Skiing,Men's Downhill,0.029,0.034,0.041,0.105,Cameron Alexander,0.017
-ITA,Cross-Country Skiing,Women's 4x5km Relay,0.03,0.035,0.04,0.105,Team Italy,0.029
-SLO,Alpine Skiing,Women's Super-G,0.034,0.033,0.039,0.105,Ilka Stuhec,0.034
-CAN,Alpine Skiing,Men's Super-G,0.032,0.033,0.039,0.104,James Crawford,0.016
-CHN,Speed Skating,Women's 3000m,0.031,0.033,0.04,0.104,Binyu Yang,0.028
-GER,Speed Skating,Men's 1000m,0.031,0.032,0.041,0.104,Moritz Klein,0.018
-KAZ,Freestyle Skiing,Women's Moguls,0.028,0.034,0.042,0.104,Anastassiya Gorodko,0.028
-CHN,Speed Skating,Women's 5000m,0.029,0.033,0.042,0.103,Binyu Yang,0.029
-ITA,Alpine Skiing,Men's Super-G,0.029,0.036,0.038,0.103,Mattia Casse,0.011
-AUT,Cross-Country Skiing,Men's Skiathlon,0.033,0.033,0.036,0.102,Mika Vermeulen,0.033
-AUT,Cross-Country Skiing,Women's Sprint,0.032,0.034,0.034,0.101,Teresa Stadlober,0.032
-AUT,Freestyle Skiing,Men's Ski Cross,0.031,0.034,0.036,0.101,Adam Kappacher,0.031
-FRA,Speed Skating,Men's 5000m,0.027,0.034,0.037,0.099,Timothy Loubineaud,0.027
-GER,Cross-Country Skiing,Men's Sprint,0.032,0.034,0.033,0.099,Friedrich Moch,0.029
-AUT,Cross-Country Skiing,Women's Team Sprint,0.028,0.034,0.037,0.098,Team Austria,0.028
-CAN,Ski Jumping,Mixed Team,0.024,0.033,0.04,0.097,Team Canada,0.024
-CZE,Speed Skating,Men's 5000m,0.028,0.032,0.037,0.097,Metoděj Jílek,0.028
-EST,Speed Skating,Men's 500m,0.031,0.028,0.038,0.097,Marten Liiv,0.031
-AUT,Cross-Country Skiing,Women's Skiathlon,0.032,0.032,0.032,0.096,Teresa Stadlober,0.032
-AUT,Cross-Country Skiing,Women's 10km,0.033,0.032,0.032,0.096,Teresa Stadlober,0.033
-AUT,Cross-Country Skiing,Women's 50km Mass Start,0.029,0.034,0.032,0.095,Teresa Stadlober,0.029
-SLO,Alpine Skiing,Men's Downhill,0.029,0.031,0.035,0.095,Miha Hrobat,0.019
-USA,Alpine Skiing,Men's Downhill,0.028,0.032,0.034,0.095,Travis Ganong,0.012
-GER,Cross-Country Skiing,Men's Team Sprint,0.027,0.03,0.037,0.094,Team Germany,0.024
-POL,Ski Jumping,Men's Normal Hill Individual,0.028,0.029,0.034,0.091,Dawid Kubacki,0.013
-GER,Cross-Country Skiing,Men's 50km Mass Start,0.028,0.032,0.031,0.09,Friedrich Moch,0.028
-POL,Ski Jumping,Men's Large Hill Individual,0.028,0.028,0.034,0.09,Dawid Kubacki,0.012
-USA,Biathlon,Men's 12.5km Pursuit,0.027,0.03,0.032,0.089,Campbell Wright,0.027
-AUT,Freestyle Skiing,Women's Ski Cross,0.025,0.031,0.032,0.088,Andrea Limbacher,0.025
-GER,Cross-Country Skiing,Men's 15km,0.027,0.028,0.033,0.088,Friedrich Moch,0.027
-GER,Cross-Country Skiing,Men's Skiathlon,0.027,0.029,0.031,0.087,Friedrich Moch,0.027
-FRA,Freestyle Skiing,Men's Halfpipe,0.025,0.028,0.034,0.086,Kevin Rolland,0.025
-ITA,Alpine Skiing,Men's Giant Slalom,0.024,0.027,0.035,0.086,Aliprandini Luca De,0.011
-KAZ,Speed Skating,Men's 500m,0.026,0.027,0.032,0.085,Yevgeniy Koshkin,0.026
-SVK,Alpine Skiing,Women's Downhill,0.027,0.027,0.032,0.085,Petra Vlhova,0.027
-USA,Biathlon,Men's 15km Mass Start,0.027,0.029,0.029,0.085,Campbell Wright,0.027
-CZE,Biathlon,Mixed Relay,0.024,0.028,0.032,0.084,Team Czechia,0.024
-USA,Biathlon,Men's 10km Sprint,0.027,0.03,0.027,0.084,Campbell Wright,0.027
-SWE,Alpine Skiing,Women's Giant Slalom,0.024,0.027,0.032,0.083,Sara Hector,0.019
-SWE,Alpine Skiing,Women's Downhill,0.024,0.027,0.03,0.082,Sara Hector,0.021
-AUT,Cross-Country Skiing,Women's 4x5km Relay,0.022,0.026,0.032,0.081,Team Austria,0.019
-CZE,Biathlon,Women's 4x6km Relay,0.023,0.025,0.032,0.08,Team Czechia,0.023
-SWE,Alpine Skiing,Women's Super-G,0.027,0.025,0.028,0.08,Sara Hector,0.024
-ALB,Alpine Skiing,Women's Giant Slalom,0.023,0.026,0.029,0.079,Lara Colturi,0.023
-SVK,Alpine Skiing,Women's Super-G,0.022,0.025,0.031,0.079,Petra Vlhova,0.022
-USA,Biathlon,Men's 20km Individual,0.025,0.025,0.028,0.079,Campbell Wright,0.025
-SUI,Cross-Country Skiing,Women's Team Sprint,0.02,0.026,0.032,0.078,Nadine Faehndrich,0.01
-USA,Alpine Skiing,Men's Super-G,0.021,0.027,0.029,0.078,Travis Ganong,0.01
-USA,Alpine Skiing,Men's Slalom,0.023,0.023,0.031,0.077,Travis Ganong,0.011
-FRA,Cross-Country Skiing,Women's 50km Mass Start,0.024,0.023,0.027,0.074,Delphine Claudel,0.015
-CZE,Biathlon,Women's 12.5km Mass Start,0.026,0.022,0.025,0.073,Marketa Davidova,0.015
-FRA,Cross-Country Skiing,Women's 10km,0.022,0.025,0.025,0.073,Delphine Claudel,0.013
-SVK,Alpine Skiing,Women's Giant Slalom,0.023,0.025,0.025,0.073,Petra Vlhova,0.023
-BEL,Speed Skating,Women's Mass Start,0.021,0.025,0.027,0.072,Sandrine Tas,0.012
-CZE,Biathlon,Women's 10km Pursuit,0.022,0.024,0.025,0.072,Marketa Davidova,0.012
-GER,Speed Skating,Men's 1500m,0.02,0.025,0.027,0.072,Stefan Emele,0.017
-GER,Speed Skating,Men's 10000m,0.019,0.023,0.029,0.072,Patrick Beckert,0.019
-FRA,Cross-Country Skiing,Women's Skiathlon,0.025,0.023,0.022,0.069,Delphine Claudel,0.015
-SUI,Ski Jumping,Mixed Team,0.018,0.021,0.029,0.068,Team Switzerland,0.018
-USA,Speed Skating,Men's Mass Start,0.019,0.022,0.027,0.068,Ethan Cepuran,0.019
+GER,Bobsleigh,Two-Woman Bobsled,0.571,0.556,0.543,1.67,Laura Nolte,0.212
+GER,Bobsleigh,Women's Monobob,0.571,0.556,0.54,1.667,Laura Nolte,0.212
+GER,Bobsleigh,Four-Man Bobsled,0.569,0.546,0.523,1.639,Francesco Friedrich,0.184
+GER,Bobsleigh,Two-Man Bobsled,0.568,0.548,0.523,1.638,Francesco Friedrich,0.182
+GER,Luge,Women's Singles Luge,0.538,0.526,0.517,1.581,Julia Taubitz,0.24
+NED,Speed Skating,Women's 5000m,0.589,0.529,0.45,1.569,Joy Beune,0.32
+JPN,Snowboard,Men's Halfpipe,0.521,0.504,0.483,1.508,Yuto Totsuka,0.215
+USA,Freestyle Skiing,Women's Dual Moguls,0.508,0.46,0.428,1.396,Jaelin Kauf,0.326
+USA,Freestyle Skiing,Women's Moguls,0.507,0.461,0.426,1.394,Jaelin Kauf,0.326
+NOR,Cross-Country Skiing,Men's Sprint,0.475,0.463,0.453,1.391,Johannes Hoesflot Klaebo,0.137
+NOR,Cross-Country Skiing,Men's Skiathlon,0.47,0.461,0.452,1.384,Johannes Hoesflot Klaebo,0.137
+NOR,Cross-Country Skiing,Men's 15km,0.471,0.459,0.45,1.381,Johannes Hoesflot Klaebo,0.139
+NOR,Cross-Country Skiing,Men's 50km Mass Start,0.469,0.46,0.451,1.38,Johannes Hoesflot Klaebo,0.139
+SUI,Alpine Skiing,Men's Downhill,0.491,0.429,0.383,1.304,Marco Odermatt,0.304
+CHN,Freestyle Skiing,Women's Aerials,0.433,0.428,0.42,1.281,Xu Mengtao,0.195
+GER,Luge,Men's Singles Luge,0.447,0.426,0.4,1.273,Felix Loch,0.207
+CHN,Freestyle Skiing,Men's Aerials,0.434,0.42,0.408,1.262,Qi Guangpu,0.202
+SUI,Alpine Skiing,Men's Super-G,0.46,0.391,0.341,1.191,Marco Odermatt,0.311
+USA,Freestyle Skiing,Men's Halfpipe,0.38,0.389,0.397,1.166,Alex Ferreira,0.155
+FRA,Snowboard,Men's Snowboard Cross,0.353,0.383,0.403,1.138,Loan Bozzolo,0.132
+CAN,Freestyle Skiing,Women's Ski Cross,0.384,0.38,0.371,1.135,Marielle Thompson,0.176
+USA,Freestyle Skiing,Men's Big Air,0.37,0.374,0.38,1.124,Alex Hall,0.145
+USA,Freestyle Skiing,Men's Slopestyle,0.37,0.374,0.378,1.122,Alex Hall,0.148
+GER,Nordic Combined,Men's Individual Large Hill,0.396,0.37,0.344,1.11,Vinzenz Geiger,0.224
+GER,Nordic Combined,Men's Individual Normal Hill,0.393,0.369,0.34,1.101,Vinzenz Geiger,0.221
+AUT,Luge,Men's Singles Luge,0.37,0.365,0.364,1.099,Jonas Mueller,0.205
+SUI,Alpine Skiing,Men's Giant Slalom,0.432,0.356,0.301,1.089,Marco Odermatt,0.313
+GBR,Skeleton,Men's Skeleton,0.388,0.363,0.336,1.087,Matt Weston,0.23
+NED,Speed Skating,Women's 1500m,0.356,0.362,0.359,1.077,Joy Beune,0.199
+SUI,Alpine Skiing,Men's Slalom,0.417,0.349,0.298,1.065,Marco Odermatt,0.296
+AUT,Ski Jumping,Men's Normal Hill Individual,0.367,0.348,0.326,1.042,Stefan Kraft,0.148
+AUT,Ski Jumping,Men's Large Hill Individual,0.365,0.348,0.329,1.042,Stefan Kraft,0.148
+CAN,Freestyle Skiing,Women's Halfpipe,0.334,0.345,0.351,1.03,Rachael Karker,0.207
+NED,Speed Skating,Men's 1000m,0.34,0.345,0.342,1.026,Jenning De Boo,0.186
+SWE,Cross-Country Skiing,Women's Sprint,0.341,0.342,0.343,1.026,Moa Ilar,0.06
+USA,Alpine Skiing,Women's Downhill,0.364,0.341,0.319,1.024,Mikaela Shiffrin,0.204
+GER,Snowboard,Women's Parallel Giant Slalom,0.351,0.339,0.334,1.023,Ramona Theresia Hofmeister,0.231
+USA,Snowboard,Women's Halfpipe,0.377,0.337,0.304,1.018,Chloe Kim,0.285
+USA,Speed Skating,Men's 1000m,0.371,0.326,0.291,0.989,Jordan Stolz,0.264
+AUT,Luge,Women's Singles Luge,0.338,0.332,0.317,0.986,Lisa Schulte,0.184
+JPN,Figure Skating,Women's Singles,0.334,0.328,0.324,0.986,Kaori Sakamoto,0.145
+USA,Alpine Skiing,Women's Super-G,0.352,0.329,0.304,0.985,Mikaela Shiffrin,0.201
+JPN,Snowboard,Women's Halfpipe,0.313,0.322,0.328,0.963,Sena Tomita,0.207
+NOR,Cross-Country Skiing,Men's Team Sprint,0.389,0.313,0.259,0.961,Team Norway,0.328
+SWE,Cross-Country Skiing,Women's Skiathlon,0.32,0.322,0.318,0.96,Moa Ilar,0.057
+SWE,Cross-Country Skiing,Women's 10km,0.321,0.319,0.32,0.96,Moa Ilar,0.057
+NED,Speed Skating,Women's 3000m,0.294,0.321,0.341,0.957,Joy Beune,0.115
+SWE,Cross-Country Skiing,Women's 50km Mass Start,0.318,0.319,0.32,0.957,Moa Ilar,0.057
+NED,Speed Skating,Women's 1000m,0.279,0.323,0.352,0.953,Jutta Leerdam,0.101
+JPN,Speed Skating,Women's 1000m,0.406,0.305,0.236,0.947,Miho Takagi,0.354
+USA,Figure Skating,Women's Singles,0.318,0.316,0.312,0.946,Isabeau Levito,0.127
+NOR,Biathlon,Men's 20km Individual,0.302,0.31,0.318,0.929,Johan-Olav Botn,0.079
+NOR,Biathlon,Men's 12.5km Pursuit,0.301,0.31,0.316,0.927,Johan-Olav Botn,0.08
+NOR,Biathlon,Men's 10km Sprint,0.301,0.307,0.317,0.926,Johan-Olav Botn,0.079
+NOR,Biathlon,Men's 15km Mass Start,0.301,0.306,0.317,0.925,Johan-Olav Botn,0.08
+AUT,Ski Jumping,Men's Team,0.491,0.288,0.143,0.922,Team Austria,0.491
+USA,Alpine Skiing,Women's Giant Slalom,0.324,0.304,0.283,0.911,Mikaela Shiffrin,0.183
+FRA,Biathlon,Women's 7.5km Sprint,0.314,0.302,0.293,0.91,Lou Jeanmonnot,0.154
+FRA,Biathlon,Women's 12.5km Mass Start,0.313,0.303,0.292,0.909,Lou Jeanmonnot,0.153
+FRA,Biathlon,Women's 10km Pursuit,0.315,0.301,0.292,0.908,Lou Jeanmonnot,0.154
+FRA,Biathlon,Women's 15km Individual,0.314,0.301,0.292,0.907,Lou Jeanmonnot,0.154
+CAN,Short Track Speed Skating,Women's 1500m,0.303,0.3,0.289,0.892,Courtney Sarault,0.182
+CAN,Short Track Speed Skating,Women's 500m,0.303,0.297,0.291,0.89,Courtney Sarault,0.182
+NED,Speed Skating,Women's 500m,0.287,0.296,0.307,0.89,Suzanne Schulting,0.092
+CAN,Short Track Speed Skating,Women's 1000m,0.303,0.296,0.289,0.888,Courtney Sarault,0.183
+USA,Bobsleigh,Women's Monobob,0.287,0.29,0.288,0.866,Kaillie Humphries,0.156
+USA,Bobsleigh,Two-Woman Bobsled,0.287,0.291,0.287,0.865,Kaillie Humphries,0.156
+GER,Nordic Combined,Men's Team Sprint,0.387,0.289,0.185,0.862,Team Germany,0.387
+NOR,Snowboard,Men's Slopestyle,0.276,0.286,0.293,0.855,Marcus Kleveland,0.15
+NOR,Snowboard,Men's Big Air,0.273,0.283,0.293,0.849,Marcus Kleveland,0.146
+ITA,Speed Skating,Men's 10000m,0.35,0.28,0.217,0.848,Davide Ghiotto,0.323
+NED,Speed Skating,Women's Mass Start,0.354,0.27,0.206,0.831,Marijke Groenewoud,0.32
+JPN,Figure Skating,Men's Singles,0.279,0.276,0.273,0.828,Yuma Kagiyama,0.113
+AUT,Snowboard,Men's Parallel Giant Slalom,0.291,0.274,0.253,0.818,Benjamin Karl,0.232
+NOR,Speed Skating,Men's 1500m,0.264,0.274,0.273,0.812,Peder Kongshaug,0.15
+CAN,Snowboard,Men's Big Air,0.255,0.266,0.282,0.803,Mark McMorris,0.12
+CAN,Snowboard,Men's Slopestyle,0.253,0.266,0.281,0.8,Mark McMorris,0.12
+USA,Alpine Skiing,Women's Slalom,0.286,0.265,0.247,0.798,Mikaela Shiffrin,0.167
+USA,Speed Skating,Men's 500m,0.312,0.264,0.219,0.796,Jordan Stolz,0.264
+SUI,Curling,Women's Curling,0.329,0.271,0.194,0.793,Silvana Tirinzoni,0.329
+NOR,Cross-Country Skiing,Men's 4x10km Relay,0.3,0.263,0.226,0.789,Team Norway,0.267
+AUT,Nordic Combined,Men's Individual Normal Hill,0.267,0.262,0.255,0.784,Johannes Lamparter,0.17
+AUT,Nordic Combined,Men's Individual Large Hill,0.264,0.262,0.256,0.782,Johannes Lamparter,0.171
+KOR,Short Track Speed Skating,Women's 1000m,0.263,0.259,0.253,0.776,Kim Gil-li,0.141
+CAN,Freestyle Skiing,Women's Big Air,0.254,0.257,0.26,0.772,Megan Oldham,0.149
+NED,Short Track Speed Skating,Women's 500m,0.264,0.256,0.252,0.772,Xandra Velzeboer,0.161
+KOR,Short Track Speed Skating,Women's 500m,0.259,0.259,0.253,0.771,Kim Gil-li,0.14
+NED,Short Track Speed Skating,Women's 1000m,0.26,0.258,0.253,0.771,Xandra Velzeboer,0.159
+NED,Short Track Speed Skating,Women's 1500m,0.262,0.256,0.252,0.77,Xandra Velzeboer,0.161
+KOR,Short Track Speed Skating,Women's 1500m,0.261,0.256,0.252,0.769,Kim Gil-li,0.141
+SWE,Freestyle Skiing,Women's Ski Cross,0.256,0.257,0.255,0.769,Sandra Naeslund,0.158
+CAN,Freestyle Skiing,Women's Slopestyle,0.253,0.257,0.258,0.768,Megan Oldham,0.149
+SWE,Freestyle Skiing,Men's Dual Moguls,0.243,0.257,0.268,0.768,Walter Wallberg,0.087
+AUT,Ski Jumping,Mixed Team,0.305,0.259,0.202,0.766,Team Austria,0.305
+SLO,Ski Jumping,Women's Large Hill Individual,0.298,0.254,0.214,0.766,Nika Prevc,0.254
+SLO,Ski Jumping,Women's Normal Hill Individual,0.296,0.252,0.216,0.764,Nika Prevc,0.25
+AUT,Nordic Combined,Men's Team Sprint,0.268,0.271,0.221,0.76,Team Austria,0.268
+SWE,Freestyle Skiing,Men's Moguls,0.239,0.253,0.269,0.76,Walter Wallberg,0.086
+NOR,Freestyle Skiing,Men's Slopestyle,0.264,0.25,0.239,0.753,Birk Ruud,0.199
+NOR,Freestyle Skiing,Men's Big Air,0.263,0.252,0.236,0.751,Birk Ruud,0.198
+ITA,Snowboard,Women's Snowboard Cross,0.241,0.245,0.26,0.746,Caterina Carpano,0.132
+CAN,Curling,Women's Curling,0.285,0.258,0.202,0.745,Rachel Homan,0.285
+ITA,Snowboard,Men's Parallel Giant Slalom,0.241,0.247,0.257,0.745,Roland Fischnaller,0.161
+AUS,Snowboard,Men's Halfpipe,0.252,0.247,0.243,0.742,Valentino Guseli,0.179
+GER,Skeleton,Women's Skeleton,0.237,0.248,0.257,0.742,Tina Hermann,0.159
+KOR,Short Track Speed Skating,Men's 1500m,0.25,0.246,0.243,0.739,Park Ji-won,0.134
+KOR,Short Track Speed Skating,Men's 1000m,0.247,0.248,0.241,0.737,Park Ji-won,0.133
+NOR,Speed Skating,Men's 5000m,0.308,0.242,0.186,0.737,Sander Eitrem,0.297
+CAN,Short Track Speed Skating,Men's 1000m,0.255,0.244,0.238,0.736,William Dandjinou,0.178
+GER,Skeleton,Men's Skeleton,0.232,0.244,0.258,0.734,Christopher Grotheer,0.13
+KOR,Short Track Speed Skating,Men's 500m,0.247,0.245,0.242,0.734,Park Ji-won,0.133
+CAN,Short Track Speed Skating,Men's 500m,0.251,0.244,0.237,0.732,William Dandjinou,0.175
+CAN,Short Track Speed Skating,Men's 1500m,0.252,0.244,0.235,0.732,William Dandjinou,0.174
+CAN,Freestyle Skiing,Men's Ski Cross,0.259,0.242,0.223,0.724,Reece Howden,0.207
+JPN,Speed Skating,Women's 1500m,0.293,0.236,0.188,0.717,Miho Takagi,0.277
+KOR,Figure Skating,Women's Singles,0.23,0.239,0.247,0.717,Kim Ye-lim,0.094
+NOR,Cross-Country Skiing,Women's 4x5km Relay,0.258,0.239,0.219,0.715,Team Norway,0.232
+CAN,Snowboard,Men's Snowboard Cross,0.305,0.235,0.172,0.712,Eliot Grondin,0.305
+FRA,Biathlon,Men's 10km Sprint,0.24,0.239,0.232,0.71,Eric Perrot,0.124
+USA,Freestyle Skiing,Women's Aerials,0.234,0.237,0.239,0.709,Winter Vinecki,0.124
+NOR,Speed Skating,Women's 3000m,0.31,0.231,0.165,0.706,Ragne Wiklund,0.31
+FRA,Biathlon,Men's 15km Mass Start,0.24,0.235,0.229,0.705,Eric Perrot,0.124
+SLO,Ski Jumping,Mixed Team,0.255,0.24,0.21,0.705,Team Slovenia,0.255
+FRA,Biathlon,Men's 20km Individual,0.239,0.235,0.23,0.704,Eric Perrot,0.124
+FRA,Biathlon,Men's 12.5km Pursuit,0.242,0.233,0.229,0.704,Eric Perrot,0.125
+FRA,Biathlon,Men's 4x7.5km Relay,0.292,0.232,0.178,0.702,Team France,0.292
+SCO,Curling,Men's Curling,0.276,0.236,0.191,0.702,Bruce Mouat,0.276
+CHN,Freestyle Skiing,Women's Halfpipe,0.281,0.233,0.186,0.7,Eileen Gu,0.281
+SWE,Freestyle Skiing,Men's Big Air,0.236,0.232,0.232,0.699,Oliwer Magnusson,0.173
+RUS,Snowboard,Men's Parallel Giant Slalom,0.237,0.232,0.228,0.696,Dmitry Loginov,0.197
+SWE,Freestyle Skiing,Men's Slopestyle,0.234,0.232,0.229,0.695,Oliwer Magnusson,0.172
+SUI,Freestyle Skiing,Women's Ski Cross,0.232,0.231,0.227,0.691,Fanny Smith,0.14
+USA,Speed Skating,Men's 1500m,0.294,0.228,0.169,0.69,Jordan Stolz,0.294
+ITA,Speed Skating,Men's 5000m,0.235,0.235,0.219,0.688,Davide Ghiotto,0.199
+SWE,Cross-Country Skiing,Women's 4x5km Relay,0.259,0.23,0.196,0.685,Team Sweden,0.248
+NOR,Ski Jumping,Men's Team,0.192,0.25,0.239,0.681,Team Norway,0.192
+AUT,Snowboard,Women's Parallel Giant Slalom,0.219,0.226,0.234,0.679,Daniela Ulbing,0.161
+SWE,Biathlon,Women's 10km Pursuit,0.222,0.223,0.219,0.664,Hanna Oeberg,0.076
+SWE,Biathlon,Women's 7.5km Sprint,0.221,0.222,0.22,0.663,Hanna Oeberg,0.077
+SUI,Freestyle Skiing,Men's Aerials,0.238,0.222,0.203,0.662,Noe Roth,0.205
+SWE,Biathlon,Women's 15km Individual,0.219,0.222,0.22,0.661,Hanna Oeberg,0.077
+SWE,Biathlon,Women's 12.5km Mass Start,0.221,0.221,0.22,0.661,Anna Magnusson,0.076
+NED,Speed Skating,Men's 5000m,0.196,0.221,0.241,0.658,Beau Snellink,0.104
+NED,Speed Skating,Men's 500m,0.203,0.215,0.225,0.643,Jenning De Boo,0.111
+NZL,Freestyle Skiing,Men's Halfpipe,0.237,0.214,0.191,0.642,Nico Porteous,0.223
+FRA,Biathlon,Women's 4x6km Relay,0.249,0.213,0.175,0.638,Team France,0.249
+CAN,Curling,Men's Curling,0.229,0.217,0.189,0.635,Brad Gushue,0.229
+FRA,Biathlon,Mixed Relay,0.248,0.21,0.175,0.633,Team France,0.248
+NOR,Cross-Country Skiing,Women's 50km Mass Start,0.207,0.211,0.215,0.633,Karoline Simpson-Larsen,0.042
+NOR,Cross-Country Skiing,Women's Skiathlon,0.205,0.209,0.216,0.629,Karoline Simpson-Larsen,0.041
+NOR,Cross-Country Skiing,Women's 10km,0.203,0.21,0.211,0.624,Karoline Simpson-Larsen,0.041
+AUT,Skeleton,Women's Skeleton,0.234,0.208,0.179,0.621,Janine Flock,0.234
+ITA,Speed Skating,Men's Mass Start,0.211,0.207,0.195,0.613,Andrea Giovannini,0.134
+SWE,Cross-Country Skiing,Women's Team Sprint,0.209,0.206,0.198,0.613,Team Sweden,0.184
+JPN,Ski Jumping,Women's Normal Hill Individual,0.204,0.205,0.202,0.612,Nozomi Maruyama,0.147
+JPN,Ski Jumping,Women's Large Hill Individual,0.202,0.208,0.202,0.612,Nozomi Maruyama,0.146
+FRA,Freestyle Skiing,Women's Moguls,0.219,0.209,0.18,0.608,Perrine Laffont,0.219
+FRA,Freestyle Skiing,Women's Dual Moguls,0.217,0.209,0.18,0.606,Perrine Laffont,0.217
+USA,Freestyle Skiing,Men's Moguls,0.196,0.201,0.208,0.606,Nick Page,0.111
+USA,Freestyle Skiing,Men's Dual Moguls,0.193,0.199,0.208,0.6,Nick Page,0.11
+CZE,Speed Skating,Men's 10000m,0.206,0.201,0.18,0.587,Metoděj Jílek,0.206
+USA,Speed Skating,Women's 500m,0.213,0.194,0.173,0.58,Erin Jackson,0.188
+NZL,Snowboard,Women's Big Air,0.214,0.194,0.17,0.579,Zoi Sadowski-Synnott,0.214
+POL,Speed Skating,Women's 500m,0.193,0.193,0.192,0.578,Andżelika Wójcik,0.119
+NED,Speed Skating,Men's Mass Start,0.196,0.191,0.19,0.577,Bart Hoolwerf,0.112
+NZL,Snowboard,Women's Slopestyle,0.213,0.193,0.172,0.577,Zoi Sadowski-Synnott,0.213
+USA,Figure Skating,Men's Singles,0.197,0.193,0.186,0.577,Ilia Malinin,0.131
+CAN,Freestyle Skiing,Men's Halfpipe,0.172,0.19,0.214,0.576,Noah Bowman,0.076
+USA,Snowboard,Women's Big Air,0.178,0.191,0.207,0.576,Julia Marino,0.108
+USA,Snowboard,Women's Snowboard Cross,0.212,0.195,0.17,0.576,Lindsey Jacobellis,0.212
+USA,Snowboard,Women's Slopestyle,0.177,0.189,0.206,0.572,Julia Marino,0.108
+NOR,Biathlon,Men's 4x7.5km Relay,0.201,0.197,0.172,0.57,Team Norway,0.201
+CHN,Snowboard,Men's Slopestyle,0.213,0.189,0.166,0.568,Su Yiming,0.213
+CHN,Snowboard,Men's Big Air,0.213,0.189,0.166,0.568,Su Yiming,0.213
+SWE,Cross-Country Skiing,Men's Team Sprint,0.186,0.196,0.187,0.568,Team Sweden,0.168
+SWE,Cross-Country Skiing,Men's 4x10km Relay,0.196,0.193,0.178,0.567,Team Sweden,0.19
+USA,Freestyle Skiing,Men's Aerials,0.175,0.186,0.201,0.562,Christopher Lillis,0.097
+FIN,Cross-Country Skiing,Women's Team Sprint,0.189,0.186,0.185,0.56,Team Finland,0.171
+SUI,Alpine Skiing,Women's Downhill,0.193,0.188,0.178,0.559,Camille Rast,0.149
+CHN,Freestyle Skiing,Women's Slopestyle,0.206,0.185,0.164,0.555,Eileen Gu,0.206
+NOR,Alpine Skiing,Men's Giant Slalom,0.167,0.188,0.2,0.555,Atle Lie McGrath,0.064
+CHN,Freestyle Skiing,Women's Big Air,0.204,0.186,0.164,0.554,Eileen Gu,0.204
+BEL,Skeleton,Women's Skeleton,0.196,0.184,0.173,0.553,Kim Meylemans,0.196
+CZE,Snowboard,Women's Parallel Giant Slalom,0.195,0.184,0.172,0.551,Ester Ledecka,0.195
+LAT,Skeleton,Men's Skeleton,0.195,0.183,0.169,0.548,Martins Dukurs,0.195
+USA,Cross-Country Skiing,Women's Team Sprint,0.191,0.183,0.174,0.548,Team USA,0.183
+GER,Cross-Country Skiing,Women's Team Sprint,0.182,0.182,0.183,0.547,Team Germany,0.163
+SLO,Ski Jumping,Men's Team,0.135,0.186,0.223,0.545,Team Slovenia,0.135
+SUI,Alpine Skiing,Women's Super-G,0.189,0.179,0.173,0.542,Camille Rast,0.145
+SWE,Curling,Men's Curling,0.177,0.179,0.182,0.538,Niklas Edin,0.177
+CAN,Speed Skating,Women's 3000m,0.157,0.179,0.201,0.537,Isabelle Weidemann,0.06
+AUT,Snowboard,Men's Snowboard Cross,0.162,0.178,0.192,0.532,Jakob Dusek,0.109
+NOR,Freestyle Skiing,Men's Halfpipe,0.186,0.177,0.165,0.528,Birk Ruud,0.186
+NED,Speed Skating,Men's 10000m,0.147,0.173,0.204,0.524,Beau Snellink,0.08
+NOR,Cross-Country Skiing,Women's Sprint,0.17,0.174,0.18,0.523,Heidi Weng,0.043
+NOR,Ski Jumping,Men's Normal Hill Individual,0.166,0.173,0.183,0.522,Johann Andre Forfang,0.052
+GBR,Snowboard,Women's Snowboard Cross,0.183,0.174,0.164,0.521,Charlotte Bankes,0.183
+NOR,Alpine Skiing,Men's Super-G,0.158,0.176,0.188,0.521,Atle Lie McGrath,0.062
+AUT,Snowboard,Women's Big Air,0.182,0.173,0.165,0.52,Anna Gasser,0.182
+ITA,Short Track Speed Skating,Men's 500m,0.18,0.173,0.167,0.52,Pietro Sighel,0.155
+NOR,Ski Jumping,Men's Large Hill Individual,0.164,0.175,0.181,0.52,Johann Andre Forfang,0.051
+ITA,Short Track Speed Skating,Men's 1000m,0.177,0.173,0.169,0.519,Pietro Sighel,0.153
+ITA,Short Track Speed Skating,Men's 1500m,0.177,0.174,0.169,0.519,Pietro Sighel,0.152
+SUI,Freestyle Skiing,Men's Ski Cross,0.159,0.173,0.186,0.518,Alex Fiva,0.079
+AUT,Snowboard,Women's Slopestyle,0.181,0.174,0.163,0.517,Anna Gasser,0.181
+BEL,Speed Skating,Men's Mass Start,0.172,0.171,0.172,0.515,Bart Swings,0.096
+JPN,Speed Skating,Women's 500m,0.169,0.171,0.17,0.51,Yukino Yoshida,0.112
+GER,Ski Jumping,Mixed Team,0.152,0.169,0.187,0.508,Team Germany,0.152
+NOR,Cross-Country Skiing,Women's Team Sprint,0.165,0.169,0.174,0.508,Team Norway,0.143
+JPN,Snowboard,Men's Slopestyle,0.178,0.169,0.158,0.506,Kira Kimura,0.178
+JPN,Snowboard,Men's Big Air,0.179,0.17,0.156,0.505,Kira Kimura,0.179
+NOR,Biathlon,Mixed Relay,0.175,0.17,0.16,0.505,Team Norway,0.175
+SUI,Alpine Skiing,Women's Slalom,0.173,0.169,0.164,0.505,Camille Rast,0.121
+ITA,Freestyle Skiing,Men's Ski Cross,0.18,0.167,0.153,0.501,Simone Deromedis,0.18
+EST,Freestyle Skiing,Women's Slopestyle,0.175,0.168,0.157,0.5,Kelly Sildaru,0.175
+NED,Speed Skating,Men's 1500m,0.147,0.165,0.188,0.5,Kjeld Nuis,0.075
+EST,Freestyle Skiing,Women's Big Air,0.177,0.166,0.155,0.499,Kelly Sildaru,0.177
+SUI,Alpine Skiing,Women's Giant Slalom,0.174,0.166,0.158,0.498,Camille Rast,0.135
+CAN,Freestyle Skiing,Men's Dual Moguls,0.186,0.166,0.145,0.497,Mikael Kingsbury,0.186
+GER,Ski Jumping,Men's Large Hill Individual,0.165,0.164,0.168,0.497,Pius Paschke,0.099
+CAN,Freestyle Skiing,Men's Moguls,0.187,0.166,0.143,0.496,Mikael Kingsbury,0.187
+GER,Ski Jumping,Men's Normal Hill Individual,0.163,0.167,0.166,0.496,Pius Paschke,0.097
+AUS,Freestyle Skiing,Women's Aerials,0.176,0.164,0.154,0.494,Laura Peel,0.176
+GER,Ski Jumping,Women's Normal Hill Individual,0.149,0.164,0.179,0.492,Selina Freitag,0.059
+GER,Ski Jumping,Women's Large Hill Individual,0.149,0.163,0.18,0.492,Selina Freitag,0.06
+SWE,Biathlon,Women's 4x6km Relay,0.169,0.166,0.157,0.492,Team Sweden,0.169
+FIN,Cross-Country Skiing,Women's 4x5km Relay,0.156,0.164,0.17,0.49,Team Finland,0.147
+FRA,Figure Skating,Men's Singles,0.16,0.163,0.165,0.489,Adam Siao Him Fa,0.102
+NOR,Nordic Combined,Men's Individual Normal Hill,0.147,0.161,0.179,0.487,Jens Luraas Oftebro,0.062
+NOR,Nordic Combined,Men's Individual Large Hill,0.147,0.162,0.177,0.486,Jens Luraas Oftebro,0.062
+JPN,Freestyle Skiing,Men's Moguls,0.154,0.157,0.163,0.474,Ikuma Horishima,0.099
+JPN,Freestyle Skiing,Men's Dual Moguls,0.155,0.158,0.16,0.473,Ikuma Horishima,0.099
+CAN,Speed Skating,Women's Mass Start,0.143,0.156,0.165,0.464,Ivanie Blondin,0.096
+JPN,Snowboard,Women's Slopestyle,0.159,0.154,0.151,0.464,Kokomo Murase,0.159
+AUS,Snowboard,Women's Snowboard Cross,0.155,0.156,0.151,0.463,Belle Brockhoff,0.155
+ITA,Alpine Skiing,Women's Downhill,0.145,0.153,0.165,0.463,Federica Brignone,0.052
+NOR,Alpine Skiing,Men's Downhill,0.14,0.155,0.167,0.462,Atle Lie McGrath,0.062
+GBR,Curling,Mixed Doubles Curling,0.164,0.153,0.142,0.459,Team Scotland,0.164
+JPN,Snowboard,Women's Big Air,0.154,0.154,0.15,0.458,Kokomo Murase,0.154
+SWE,Biathlon,Mixed Relay,0.153,0.154,0.151,0.458,Team Sweden,0.153
+GER,Cross-Country Skiing,Women's 4x5km Relay,0.143,0.152,0.162,0.457,Team Germany,0.131
+KOR,Curling,Women's Curling,0.129,0.151,0.177,0.456,Kim Eun-jung,0.129
+GER,Freestyle Skiing,Men's Ski Cross,0.159,0.152,0.143,0.454,Florian Wilmsmann,0.159
+GBR,Freestyle Skiing,Women's Halfpipe,0.144,0.152,0.155,0.452,Zoe Atkin,0.144
+NOR,Alpine Skiing,Men's Slalom,0.14,0.152,0.161,0.452,Atle Lie McGrath,0.06
+ESP,Snowboard,Women's Halfpipe,0.141,0.152,0.156,0.45,Queralt Castellet,0.141
+USA,Speed Skating,Women's Mass Start,0.136,0.152,0.163,0.45,Mia Manganello,0.084
+ITA,Alpine Skiing,Women's Super-G,0.141,0.15,0.158,0.449,Federica Brignone,0.05
+JPN,Ski Jumping,Mixed Team,0.131,0.148,0.17,0.449,Team Japan,0.131
+JPN,Speed Skating,Men's 500m,0.137,0.15,0.158,0.446,Tatsuya Shinhama,0.09
+GER,Biathlon,Women's 4x6km Relay,0.148,0.148,0.148,0.444,Team Germany,0.148
+SWE,Biathlon,Men's 10km Sprint,0.149,0.148,0.145,0.442,Sebastian Samuelsson,0.093
+SWE,Biathlon,Men's 20km Individual,0.149,0.147,0.145,0.441,Sebastian Samuelsson,0.093
+SWE,Biathlon,Men's 15km Mass Start,0.149,0.147,0.145,0.441,Sebastian Samuelsson,0.094
+CAN,Freestyle Skiing,Women's Moguls,0.123,0.145,0.172,0.44,Maia Schwinghammer,0.085
+CAN,Freestyle Skiing,Women's Dual Moguls,0.125,0.145,0.17,0.44,Maia Schwinghammer,0.086
+SWE,Biathlon,Men's 12.5km Pursuit,0.148,0.148,0.144,0.439,Sebastian Samuelsson,0.092
+ITA,Curling,Mixed Doubles Curling,0.154,0.145,0.138,0.437,Team Italy,0.154
+HUN,Short Track Speed Skating,Men's 500m,0.135,0.147,0.154,0.436,Liu Shaolin Sandor,0.081
+HUN,Short Track Speed Skating,Men's 1500m,0.138,0.145,0.152,0.435,Liu Shaolin Sandor,0.083
+HUN,Short Track Speed Skating,Men's 1000m,0.136,0.145,0.153,0.434,Liu Shaolin Sandor,0.082
+NOR,Nordic Combined,Men's Team Sprint,0.111,0.14,0.183,0.434,Team Norway,0.111
+ITA,Biathlon,Men's 10km Sprint,0.155,0.143,0.133,0.431,Tommaso Giacomel,0.134
+ITA,Biathlon,Men's 12.5km Pursuit,0.152,0.143,0.136,0.431,Tommaso Giacomel,0.132
+USA,Speed Skating,Women's 1000m,0.126,0.148,0.157,0.431,Brittany Bowe,0.097
+GER,Cross-Country Skiing,Men's 4x10km Relay,0.14,0.144,0.147,0.43,Team Germany,0.137
+ITA,Biathlon,Men's 20km Individual,0.153,0.144,0.133,0.43,Tommaso Giacomel,0.133
+ITA,Biathlon,Men's 15km Mass Start,0.153,0.143,0.134,0.43,Tommaso Giacomel,0.133
+SUI,Freestyle Skiing,Men's Slopestyle,0.132,0.144,0.154,0.43,Andri Ragettli,0.083
+AUS,Snowboard,Men's Snowboard Cross,0.126,0.142,0.161,0.429,Adam Lambert,0.07
+NOR,Biathlon,Women's 10km Pursuit,0.14,0.143,0.145,0.428,Maren Kirkeeide,0.08
+NOR,Biathlon,Women's 15km Individual,0.141,0.141,0.144,0.427,Maren Kirkeeide,0.082
+NOR,Biathlon,Women's 12.5km Mass Start,0.14,0.143,0.144,0.427,Maren Kirkeeide,0.082
+NOR,Ski Jumping,Women's Large Hill Individual,0.13,0.141,0.156,0.427,Anna Odine Stroem,0.067
+FRA,Cross-Country Skiing,Men's Team Sprint,0.126,0.143,0.157,0.426,Team France,0.104
+NOR,Biathlon,Women's 7.5km Sprint,0.139,0.142,0.145,0.426,Maren Kirkeeide,0.079
+SUI,Freestyle Skiing,Men's Big Air,0.131,0.142,0.152,0.426,Andri Ragettli,0.082
+NOR,Ski Jumping,Women's Normal Hill Individual,0.129,0.142,0.154,0.424,Anna Odine Stroem,0.068
+USA,Ice Hockey,Women's Ice Hockey,0.143,0.141,0.138,0.422,Team USA,0.143
+CAN,Ice Hockey,Women's Ice Hockey,0.143,0.139,0.139,0.421,Team Canada,0.143
+CAN,Speed Skating,Women's 5000m,0.117,0.137,0.166,0.42,Isabelle Weidemann,0.065
+CAN,Ice Hockey,Men's Ice Hockey,0.142,0.139,0.134,0.415,Team Canada,0.142
+USA,Bobsleigh,Four-Man Bobsled,0.128,0.136,0.151,0.415,Hunter Church,0.07
+FRA,Speed Skating,Men's Mass Start,0.141,0.138,0.135,0.414,Timothy Loubineaud,0.113
+USA,Bobsleigh,Two-Man Bobsled,0.128,0.137,0.149,0.414,Hunter Church,0.071
+AUT,Ski Jumping,Women's Normal Hill Individual,0.13,0.139,0.143,0.413,Lisa Eder,0.103
+FIN,Nordic Combined,Men's Team Sprint,0.103,0.132,0.177,0.412,Team Finland,0.103
+SLO,Ski Jumping,Men's Large Hill Individual,0.134,0.136,0.14,0.411,Anze Lanisek,0.079
+SLO,Ski Jumping,Men's Normal Hill Individual,0.133,0.136,0.141,0.41,Anze Lanisek,0.077
+SUI,Snowboard,Women's Parallel Giant Slalom,0.131,0.139,0.14,0.41,Julie Zogg,0.131
+AUS,Skeleton,Women's Skeleton,0.131,0.136,0.142,0.409,Jaclyn Narracott,0.131
+AUT,Ski Jumping,Women's Large Hill Individual,0.131,0.137,0.141,0.409,Lisa Eder,0.105
+JPN,Nordic Combined,Men's Team Sprint,0.102,0.13,0.176,0.409,Team Japan,0.102
+SLO,Snowboard,Men's Parallel Giant Slalom,0.131,0.135,0.141,0.407,Tim Mastnak,0.131
+SWE,Biathlon,Men's 4x7.5km Relay,0.128,0.136,0.142,0.407,Team Sweden,0.128
+FIN,Cross-Country Skiing,Women's Sprint,0.134,0.137,0.134,0.405,Kerttu Niskanen,0.065
+AUS,Snowboard,Women's Slopestyle,0.131,0.136,0.137,0.404,Tess Coady,0.131
+AUS,Snowboard,Women's Big Air,0.132,0.134,0.138,0.403,Tess Coady,0.132
+CHN,Speed Skating,Women's 1500m,0.121,0.134,0.148,0.403,Mei Han,0.077
+FIN,Cross-Country Skiing,Men's 4x10km Relay,0.125,0.133,0.141,0.399,Team Finland,0.121
+AUS,Freestyle Skiing,Men's Moguls,0.138,0.133,0.125,0.397,Matt Graham,0.138
+AUS,Freestyle Skiing,Men's Dual Moguls,0.138,0.131,0.126,0.395,Matt Graham,0.138
+AUT,Alpine Skiing,Men's Super-G,0.116,0.132,0.145,0.394,Manuel Feller,0.039
+NOR,Ski Jumping,Mixed Team,0.112,0.128,0.152,0.392,Team Norway,0.112
+CZE,Ice Hockey,Men's Ice Hockey,0.131,0.13,0.131,0.391,Team Czechia,0.131
+SUI,Ice Hockey,Men's Ice Hockey,0.129,0.133,0.128,0.391,Team Switzerland,0.129
+FIN,Ice Hockey,Men's Ice Hockey,0.133,0.127,0.13,0.39,Team Finland,0.133
+AUT,Alpine Skiing,Men's Giant Slalom,0.114,0.13,0.145,0.389,Manuel Feller,0.039
+NOR,Biathlon,Women's 4x6km Relay,0.125,0.13,0.133,0.389,Team Norway,0.125
+AUT,Alpine Skiing,Men's Slalom,0.114,0.13,0.143,0.388,Manuel Feller,0.037
+CZE,Ice Hockey,Women's Ice Hockey,0.131,0.131,0.127,0.388,Team Czechia,0.131
+FIN,Ice Hockey,Women's Ice Hockey,0.13,0.129,0.129,0.388,Team Finland,0.13
+ITA,Alpine Skiing,Women's Giant Slalom,0.124,0.129,0.136,0.388,Federica Brignone,0.047
+CZE,Speed Skating,Women's 5000m,0.118,0.13,0.139,0.387,Martina Sáblíková,0.118
+SUI,Freestyle Skiing,Women's Big Air,0.126,0.129,0.131,0.387,Mathilde Gremaud,0.126
+SUI,Freestyle Skiing,Women's Slopestyle,0.127,0.127,0.131,0.385,Mathilde Gremaud,0.127
+NOR,Speed Skating,Men's 10000m,0.116,0.129,0.14,0.384,Sander Eitrem,0.116
+USA,Cross-Country Skiing,Women's Sprint,0.136,0.128,0.118,0.383,Jessie Diggins,0.112
+USA,Freestyle Skiing,Women's Halfpipe,0.116,0.127,0.139,0.383,Hanna Faulhaber,0.116
+CHN,Snowboard,Women's Halfpipe,0.116,0.127,0.139,0.382,Xuetong Cai,0.116
+USA,Ice Hockey,Men's Ice Hockey,0.128,0.127,0.127,0.382,Team USA,0.128
+USA,Cross-Country Skiing,Women's Skiathlon,0.132,0.126,0.122,0.38,Jessie Diggins,0.103
+USA,Cross-Country Skiing,Women's 50km Mass Start,0.132,0.126,0.121,0.379,Jessie Diggins,0.104
+USA,Cross-Country Skiing,Women's 10km,0.133,0.124,0.12,0.377,Jessie Diggins,0.104
+SWE,Ice Hockey,Men's Ice Hockey,0.126,0.125,0.126,0.376,Team Sweden,0.126
+GER,Cross-Country Skiing,Women's Sprint,0.126,0.123,0.125,0.375,Victoria Carl,0.078
+SUI,Curling,Men's Curling,0.111,0.123,0.14,0.375,Yannick Schwaller,0.111
+SUI,Ice Hockey,Women's Ice Hockey,0.126,0.125,0.125,0.375,Team Switzerland,0.126
+NOR,Curling,Mixed Doubles Curling,0.128,0.125,0.121,0.374,Team Norway,0.128
+FIN,Cross-Country Skiing,Women's 10km,0.125,0.123,0.123,0.371,Kerttu Niskanen,0.063
+USA,Cross-Country Skiing,Men's Team Sprint,0.109,0.124,0.137,0.37,Team USA,0.098
+FIN,Cross-Country Skiing,Women's Skiathlon,0.124,0.122,0.122,0.368,Kerttu Niskanen,0.061
+FIN,Cross-Country Skiing,Women's 50km Mass Start,0.123,0.124,0.12,0.368,Kerttu Niskanen,0.062
+SWE,Ice Hockey,Women's Ice Hockey,0.121,0.123,0.123,0.367,Team Sweden,0.121
+GER,Biathlon,Mixed Relay,0.115,0.123,0.127,0.365,Team Germany,0.115
+CHN,Speed Skating,Men's 1500m,0.115,0.123,0.124,0.363,Zhongyan Ning,0.115
+SWE,Cross-Country Skiing,Men's 50km Mass Start,0.123,0.121,0.119,0.363,Edvin Anger,0.087
+AUT,Bobsleigh,Four-Man Bobsled,0.12,0.122,0.12,0.362,Benjamin Maier,0.12
+SWE,Cross-Country Skiing,Men's 15km,0.12,0.124,0.118,0.362,Edvin Anger,0.084
+AUT,Bobsleigh,Two-Man Bobsled,0.119,0.12,0.121,0.361,Benjamin Maier,0.119
+SWE,Cross-Country Skiing,Men's Skiathlon,0.121,0.121,0.119,0.361,Edvin Anger,0.085
+FRA,Cross-Country Skiing,Men's 15km,0.117,0.121,0.122,0.36,Hugo Lapalus,0.056
+CAN,Speed Skating,Men's 500m,0.118,0.121,0.12,0.359,Laurent Dubreuil,0.116
+FRA,Cross-Country Skiing,Men's Skiathlon,0.118,0.119,0.122,0.359,Hugo Lapalus,0.057
+CHN,Speed Skating,Women's Mass Start,0.107,0.119,0.131,0.358,Binyu Yang,0.067
+FRA,Cross-Country Skiing,Men's 50km Mass Start,0.117,0.118,0.123,0.358,Hugo Lapalus,0.055
+GER,Cross-Country Skiing,Women's 10km,0.119,0.119,0.12,0.358,Victoria Carl,0.072
+ITA,Alpine Skiing,Women's Slalom,0.115,0.12,0.123,0.358,Federica Brignone,0.044
+GER,Cross-Country Skiing,Women's Skiathlon,0.12,0.118,0.116,0.355,Victoria Carl,0.072
+GER,Cross-Country Skiing,Women's 50km Mass Start,0.12,0.117,0.117,0.354,Victoria Carl,0.073
+BEL,Figure Skating,Women's Singles,0.118,0.117,0.116,0.352,Loena Hendrickx,0.118
+SWE,Curling,Mixed Doubles Curling,0.117,0.116,0.116,0.35,Team Sweden,0.117
+GER,Ski Jumping,Men's Team,0.077,0.115,0.157,0.349,Team Germany,0.077
+FRA,Cross-Country Skiing,Men's Sprint,0.113,0.115,0.118,0.346,Hugo Lapalus,0.054
+FRA,Cross-Country Skiing,Men's 4x10km Relay,0.104,0.114,0.122,0.341,Team France,0.096
+SWE,Cross-Country Skiing,Men's Sprint,0.114,0.114,0.111,0.339,Edvin Anger,0.084
+NED,Skeleton,Women's Skeleton,0.104,0.112,0.12,0.336,Kimberley Bos,0.104
+RUS,Snowboard,Women's Parallel Giant Slalom,0.104,0.112,0.12,0.336,Sofia Nadyrshina,0.104
+JPN,Ice Hockey,Women's Ice Hockey,0.109,0.112,0.114,0.335,Team Japan,0.109
+FRA,Alpine Skiing,Men's Slalom,0.101,0.113,0.121,0.334,Alexis Pinturault,0.032
+GER,Ice Hockey,Men's Ice Hockey,0.108,0.112,0.114,0.334,Team Germany,0.108
+KOR,Snowboard,Men's Parallel Giant Slalom,0.101,0.112,0.121,0.334,Sangho Lee,0.101
+USA,Snowboard,Men's Halfpipe,0.099,0.109,0.126,0.334,Chase Josey,0.053
+FRA,Freestyle Skiing,Men's Ski Cross,0.105,0.111,0.118,0.333,Youri Duplessis Kergomard,0.097
+SWE,Curling,Women's Curling,0.088,0.107,0.138,0.333,Anna Hasselborg,0.088
+JPN,Nordic Combined,Men's Individual Normal Hill,0.104,0.11,0.117,0.331,Ryota Yamamoto,0.088
+JPN,Nordic Combined,Men's Individual Large Hill,0.105,0.109,0.115,0.329,Ryota Yamamoto,0.089
+SWE,Freestyle Skiing,Men's Ski Cross,0.097,0.108,0.123,0.328,David Mobaerg,0.056
+AUT,Alpine Skiing,Men's Downhill,0.096,0.11,0.117,0.323,Manuel Feller,0.038
+FRA,Alpine Skiing,Men's Giant Slalom,0.094,0.109,0.119,0.322,Alexis Pinturault,0.034
+USA,Luge,Women's Singles Luge,0.094,0.105,0.124,0.322,Summer Britcher,0.055
+POL,Speed Skating,Men's 500m,0.099,0.105,0.117,0.321,Marek Kania,0.055
+FIN,Biathlon,Women's 7.5km Sprint,0.109,0.107,0.105,0.32,Suvi Minkkinen,0.088
+FIN,Biathlon,Women's 10km Pursuit,0.108,0.106,0.106,0.32,Suvi Minkkinen,0.089
+SVK,Ice Hockey,Men's Ice Hockey,0.103,0.107,0.11,0.32,Team Slovakia,0.103
+FIN,Biathlon,Women's 15km Individual,0.107,0.105,0.107,0.319,Suvi Minkkinen,0.088
+FIN,Biathlon,Women's 12.5km Mass Start,0.108,0.106,0.105,0.319,Suvi Minkkinen,0.087
+GBR,Bobsleigh,Two-Man Bobsled,0.104,0.106,0.108,0.319,Brad Hall,0.104
+NOR,Curling,Men's Curling,0.087,0.103,0.129,0.319,Magnus Ramsfjell,0.048
+ITA,Speed Skating,Women's 3000m,0.098,0.108,0.111,0.317,Francesca Lollobrigida,0.097
+GBR,Bobsleigh,Four-Man Bobsled,0.102,0.105,0.108,0.315,Brad Hall,0.102
+SUI,Curling,Mixed Doubles Curling,0.102,0.106,0.106,0.314,Team Switzerland,0.102
+CAN,Speed Skating,Men's 10000m,0.087,0.103,0.123,0.313,Graeme Fish,0.065
+FRA,Alpine Skiing,Men's Super-G,0.091,0.104,0.114,0.309,Alexis Pinturault,0.034
+BRA,Alpine Skiing,Men's Giant Slalom,0.095,0.102,0.111,0.308,Lucas Pinheiro Braathen,0.072
+FRA,Alpine Skiing,Men's Downhill,0.091,0.103,0.114,0.308,Alexis Pinturault,0.033
+USA,Cross-Country Skiing,Women's 4x5km Relay,0.088,0.101,0.116,0.305,Team USA,0.077
+BRA,Alpine Skiing,Men's Slalom,0.093,0.102,0.109,0.304,Lucas Pinheiro Braathen,0.068
+GER,Ice Hockey,Women's Ice Hockey,0.097,0.102,0.105,0.304,Team Germany,0.097
+FRA,Short Track Speed Skating,Men's 1500m,0.099,0.1,0.104,0.303,Sebastien Lepape,0.099
+GER,Biathlon,Men's 4x7.5km Relay,0.089,0.101,0.113,0.303,Team Germany,0.089
+FRA,Short Track Speed Skating,Men's 500m,0.1,0.1,0.102,0.302,Sebastien Lepape,0.1
+FRA,Short Track Speed Skating,Men's 1000m,0.1,0.101,0.101,0.302,Sebastien Lepape,0.1
+SUI,Snowboard,Men's Halfpipe,0.093,0.101,0.104,0.298,Jan Scherrer,0.093
+FIN,Nordic Combined,Men's Individual Normal Hill,0.089,0.098,0.109,0.296,Ilkka Herola,0.048
+AUT,Alpine Skiing,Women's Slalom,0.092,0.1,0.103,0.295,Katharina Liensberger,0.04
+CHN,Speed Skating,Women's 1000m,0.089,0.1,0.107,0.295,Mei Han,0.088
+FIN,Nordic Combined,Men's Individual Large Hill,0.088,0.097,0.108,0.293,Ilkka Herola,0.047
+GER,Alpine Skiing,Women's Slalom,0.096,0.096,0.101,0.293,Emma Aicher,0.06
+CAN,Bobsleigh,Women's Monobob,0.088,0.095,0.104,0.287,Christine de Bruin,0.088
+CAN,Speed Skating,Men's 5000m,0.082,0.093,0.11,0.286,Ted-Jan Bloemen,0.049
+CAN,Bobsleigh,Two-Woman Bobsled,0.088,0.094,0.103,0.285,Christine de Bruin,0.088
+CZE,Snowboard,Women's Snowboard Cross,0.088,0.094,0.103,0.285,Eva Samkova,0.088
+CAN,Snowboard,Women's Slopestyle,0.087,0.094,0.103,0.284,Laurie Blouin,0.087
+CAN,Snowboard,Women's Big Air,0.087,0.094,0.103,0.284,Laurie Blouin,0.087
+FIN,Biathlon,Women's 4x6km Relay,0.088,0.095,0.101,0.284,Team Finland,0.088
+CAN,Curling,Mixed Doubles Curling,0.091,0.093,0.097,0.281,Team Canada,0.091
+ITA,Speed Skating,Women's Mass Start,0.085,0.095,0.1,0.281,Francesca Lollobrigida,0.08
+ITA,Speed Skating,Women's 5000m,0.081,0.092,0.108,0.28,Francesca Lollobrigida,0.081
+NOR,Curling,Women's Curling,0.068,0.089,0.119,0.276,Marianne Roervik,0.037
+USA,Snowboard,Men's Big Air,0.08,0.091,0.103,0.274,Chris Corning,0.046
+ITA,Biathlon,Mixed Relay,0.082,0.091,0.098,0.271,Team Italy,0.082
+USA,Freestyle Skiing,Women's Slopestyle,0.084,0.089,0.098,0.271,Darian Stevens,0.084
+USA,Freestyle Skiing,Women's Big Air,0.085,0.09,0.096,0.271,Darian Stevens,0.085
+USA,Snowboard,Men's Slopestyle,0.08,0.089,0.102,0.271,Chris Corning,0.046
+ITA,Biathlon,Women's 7.5km Sprint,0.087,0.089,0.093,0.269,Lisa Vittozzi,0.045
+FIN,Cross-Country Skiing,Men's Team Sprint,0.078,0.088,0.103,0.268,Team Finland,0.064
+ITA,Biathlon,Women's 10km Pursuit,0.087,0.089,0.092,0.268,Lisa Vittozzi,0.045
+ITA,Biathlon,Women's 12.5km Mass Start,0.087,0.089,0.091,0.268,Lisa Vittozzi,0.045
+ITA,Biathlon,Women's 15km Individual,0.087,0.09,0.09,0.267,Lisa Vittozzi,0.045
+USA,Skeleton,Men's Skeleton,0.078,0.087,0.097,0.263,Austin Florian,0.078
+CAN,Ski Jumping,Women's Normal Hill Individual,0.08,0.085,0.09,0.255,Abigail Strate,0.07
+CAN,Ski Jumping,Women's Large Hill Individual,0.078,0.085,0.091,0.254,Abigail Strate,0.068
+FIN,Biathlon,Men's 4x7.5km Relay,0.073,0.083,0.094,0.25,Team Finland,0.073
+GER,Freestyle Skiing,Women's Ski Cross,0.081,0.082,0.087,0.249,Daniela Maier,0.081
+ITA,Figure Skating,Men's Singles,0.082,0.083,0.084,0.249,Daniel Grassl,0.082
+RUS,Freestyle Skiing,Women's Halfpipe,0.072,0.081,0.096,0.248,Valeriya Demidova,0.072
+USA,Curling,Mixed Doubles Curling,0.078,0.084,0.086,0.248,Team USA,0.078
+GEO,Figure Skating,Men's Singles,0.078,0.079,0.081,0.238,Nika Egadze,0.078
+JPN,Ski Jumping,Men's Team,0.051,0.077,0.111,0.238,Team Japan,0.051
+FRA,Freestyle Skiing,Men's Moguls,0.075,0.079,0.081,0.235,Benjamin Cavet,0.075
+FRA,Freestyle Skiing,Men's Dual Moguls,0.075,0.079,0.081,0.235,Benjamin Cavet,0.075
+ITA,Cross-Country Skiing,Men's Team Sprint,0.066,0.08,0.089,0.235,Team Italy,0.053
+ITA,Biathlon,Women's 4x6km Relay,0.07,0.076,0.087,0.234,Team Italy,0.07
+JPN,Ski Jumping,Men's Normal Hill Individual,0.076,0.078,0.08,0.234,Ryoyu Kobayashi,0.06
+GER,Alpine Skiing,Women's Super-G,0.075,0.078,0.079,0.232,Emma Aicher,0.072
+JPN,Ski Jumping,Men's Large Hill Individual,0.076,0.077,0.079,0.232,Ryoyu Kobayashi,0.06
+POL,Short Track Speed Skating,Women's 1500m,0.071,0.077,0.084,0.232,Natalia Maliszewska,0.071
+BRA,Alpine Skiing,Men's Super-G,0.072,0.078,0.081,0.231,Lucas Pinheiro Braathen,0.072
+GER,Alpine Skiing,Women's Downhill,0.076,0.079,0.077,0.231,Emma Aicher,0.075
+ITA,Curling,Men's Curling,0.065,0.075,0.09,0.23,Joel Retornaz,0.065
+CAN,Freestyle Skiing,Women's Aerials,0.071,0.077,0.081,0.229,Marion Thenault,0.071
+GER,Snowboard,Women's Snowboard Cross,0.069,0.076,0.084,0.229,Hanna Ihedioha,0.069
+POL,Short Track Speed Skating,Women's 500m,0.071,0.077,0.082,0.229,Natalia Maliszewska,0.071
+KAZ,Figure Skating,Men's Singles,0.076,0.076,0.077,0.228,Mikhail Shaidorov,0.076
+FIN,Biathlon,Mixed Relay,0.069,0.074,0.084,0.227,Team Finland,0.069
+SUI,Figure Skating,Men's Singles,0.075,0.076,0.077,0.227,Lukas Britschgi,0.075
+CHN,Speed Skating,Men's 1000m,0.069,0.075,0.082,0.226,Zhongyan Ning,0.068
+GER,Biathlon,Men's 20km Individual,0.071,0.075,0.08,0.226,Philipp Nawrath,0.034
+GER,Biathlon,Men's 15km Mass Start,0.071,0.076,0.079,0.226,Philipp Nawrath,0.033
+JPN,Speed Skating,Men's 1500m,0.063,0.075,0.088,0.226,Taiyo Nonomura,0.022
+POL,Short Track Speed Skating,Women's 1000m,0.071,0.074,0.081,0.226,Natalia Maliszewska,0.071
+BRA,Alpine Skiing,Men's Downhill,0.07,0.076,0.079,0.225,Lucas Pinheiro Braathen,0.07
+GER,Biathlon,Men's 12.5km Pursuit,0.072,0.075,0.078,0.225,Philipp Nawrath,0.033
+GER,Biathlon,Men's 10km Sprint,0.071,0.075,0.079,0.224,Philipp Nawrath,0.034
+LAT,Luge,Men's Singles Luge,0.066,0.074,0.081,0.221,Kristers Aparjods,0.066
+CHN,Short Track Speed Skating,Men's 500m,0.07,0.073,0.077,0.22,Ren Ziwei,0.07
+FRA,Freestyle Skiing,Women's Slopestyle,0.068,0.073,0.08,0.22,Tess Ledeux,0.068
+CZE,Speed Skating,Women's 3000m,0.065,0.074,0.081,0.219,Martina Sáblíková,0.063
+FRA,Freestyle Skiing,Women's Big Air,0.067,0.072,0.081,0.219,Tess Ledeux,0.067
+JPN,Curling,Women's Curling,0.056,0.069,0.092,0.218,Satsuki Fujisawa,0.056
+NOR,Alpine Skiing,Women's Downhill,0.067,0.072,0.079,0.218,Kajsa Vickhoff Lie,0.03
+JPN,Speed Skating,Men's 1000m,0.063,0.072,0.082,0.217,Ryota Kojima,0.026
+CHN,Short Track Speed Skating,Men's 1000m,0.067,0.071,0.076,0.215,Ren Ziwei,0.067
+CHN,Short Track Speed Skating,Men's 1500m,0.067,0.073,0.075,0.215,Ren Ziwei,0.067
+USA,Luge,Men's Singles Luge,0.06,0.071,0.082,0.213,Chris Mazdzer,0.033
+GER,Biathlon,Women's 15km Individual,0.066,0.072,0.073,0.212,Franziska Preuss,0.032
+KOR,Speed Skating,Men's Mass Start,0.068,0.07,0.073,0.211,Seung-Hoon Lee,0.057
+SUI,Ski Jumping,Men's Large Hill Individual,0.07,0.07,0.07,0.21,Gregor Deschwanden,0.07
+USA,Cross-Country Skiing,Men's 15km,0.068,0.068,0.073,0.209,Ben Ogden,0.034
+USA,Cross-Country Skiing,Men's 50km Mass Start,0.068,0.069,0.072,0.209,Ben Ogden,0.034
+CAN,Speed Skating,Women's 1500m,0.06,0.069,0.08,0.208,Ivanie Blondin,0.034
+GER,Biathlon,Women's 10km Pursuit,0.065,0.069,0.074,0.208,Franziska Preuss,0.032
+GER,Biathlon,Women's 12.5km Mass Start,0.065,0.069,0.074,0.208,Franziska Preuss,0.031
+KOR,Curling,Mixed Doubles Curling,0.064,0.069,0.075,0.208,Team South Korea,0.064
+SUI,Ski Jumping,Men's Normal Hill Individual,0.068,0.07,0.07,0.208,Gregor Deschwanden,0.068
+USA,Cross-Country Skiing,Men's Skiathlon,0.067,0.069,0.072,0.207,Ben Ogden,0.033
+USA,Speed Skating,Men's 5000m,0.061,0.068,0.078,0.207,Casey Dawson,0.061
+GER,Alpine Skiing,Women's Giant Slalom,0.068,0.069,0.069,0.206,Emma Aicher,0.067
+GER,Biathlon,Women's 7.5km Sprint,0.065,0.069,0.072,0.206,Franziska Preuss,0.032
+NOR,Alpine Skiing,Women's Super-G,0.062,0.069,0.075,0.206,Kajsa Vickhoff Lie,0.03
+KOR,Speed Skating,Women's 500m,0.064,0.068,0.072,0.205,Min Sun Kim,0.051
+RUS,Freestyle Skiing,Men's Aerials,0.062,0.068,0.074,0.205,Maxim Burov,0.062
+USA,Cross-Country Skiing,Men's Sprint,0.065,0.067,0.072,0.204,Ben Ogden,0.033
+ITA,Cross-Country Skiing,Men's 50km Mass Start,0.068,0.068,0.067,0.203,Federico Pellegrino,0.065
+AUT,Alpine Skiing,Women's Super-G,0.063,0.067,0.072,0.202,Cornelia Huetter,0.04
+ITA,Cross-Country Skiing,Men's Skiathlon,0.068,0.067,0.066,0.201,Federico Pellegrino,0.065
+ITA,Cross-Country Skiing,Men's 15km,0.068,0.066,0.067,0.201,Federico Pellegrino,0.065
+USA,Curling,Men's Curling,0.056,0.066,0.08,0.201,Korey Dropkin,0.056
+USA,Biathlon,Men's 4x7.5km Relay,0.057,0.066,0.078,0.201,Team USA,0.057
+AUS,Freestyle Skiing,Women's Dual Moguls,0.054,0.065,0.078,0.198,Jakara Anthony,0.054
+ITA,Cross-Country Skiing,Men's Sprint,0.066,0.066,0.066,0.198,Federico Pellegrino,0.063
+UKR,Skeleton,Men's Skeleton,0.057,0.065,0.075,0.198,Vladyslav Heraskevych,0.057
+AUS,Freestyle Skiing,Women's Moguls,0.055,0.065,0.077,0.197,Jakara Anthony,0.055
+GBR,Skeleton,Women's Skeleton,0.059,0.064,0.075,0.197,Amelia Coltman,0.059
+GER,Speed Skating,Men's Mass Start,0.062,0.064,0.068,0.194,Fridtjof Petzold,0.048
+ITA,Luge,Men's Singles Luge,0.057,0.064,0.073,0.194,Dominik Fischnaller,0.057
+NOR,Alpine Skiing,Women's Giant Slalom,0.059,0.064,0.07,0.193,Kajsa Vickhoff Lie,0.028
+USA,Short Track Speed Skating,Women's 1000m,0.058,0.063,0.069,0.19,Kristen Santos-Griswold,0.058
+USA,Short Track Speed Skating,Women's 1500m,0.058,0.062,0.069,0.189,Kristen Santos-Griswold,0.058
+GER,Snowboard,Men's Snowboard Cross,0.054,0.062,0.072,0.188,Leon Ulbricht,0.054
+SUI,Biathlon,Women's 4x6km Relay,0.054,0.063,0.071,0.188,Team Switzerland,0.054
+NOR,Speed Skating,Women's 5000m,0.052,0.061,0.074,0.187,Ragne Wiklund,0.052
+SUI,Biathlon,Mixed Relay,0.055,0.062,0.07,0.187,Team Switzerland,0.055
+USA,Short Track Speed Skating,Women's 500m,0.058,0.062,0.068,0.187,Kristen Santos-Griswold,0.058
+AUT,Alpine Skiing,Women's Giant Slalom,0.058,0.062,0.066,0.186,Cornelia Huetter,0.036
+CAN,Snowboard,Women's Halfpipe,0.052,0.061,0.073,0.186,Elizabeth Hosking,0.052
+GER,Freestyle Skiing,Women's Halfpipe,0.052,0.061,0.073,0.186,Sabrina Cakmakli,0.052
+USA,Speed Skating,Women's 1500m,0.053,0.062,0.069,0.184,Brittany Bowe,0.043
+ITA,Cross-Country Skiing,Men's 4x10km Relay,0.052,0.059,0.07,0.182,Team Italy,0.051
+GBR,Snowboard,Women's Slopestyle,0.053,0.06,0.068,0.181,Mia Brookes,0.053
+SUI,Bobsleigh,Women's Monobob,0.053,0.06,0.068,0.181,Melanie Hasler,0.053
+GBR,Snowboard,Women's Big Air,0.053,0.059,0.067,0.18,Mia Brookes,0.053
+SUI,Snowboard,Women's Snowboard Cross,0.052,0.06,0.068,0.18,Lara Casanova,0.052
+SUI,Bobsleigh,Two-Woman Bobsled,0.054,0.059,0.068,0.18,Melanie Hasler,0.054
+JPN,Curling,Mixed Doubles Curling,0.055,0.059,0.064,0.178,Team Japan,0.055
+USA,Curling,Women's Curling,0.046,0.056,0.077,0.178,Tabitha Peterson,0.046
+FIN,Cross-Country Skiing,Men's Sprint,0.056,0.059,0.061,0.177,Iivo Niskanen,0.024
+AUT,Alpine Skiing,Women's Downhill,0.052,0.058,0.062,0.172,Cornelia Huetter,0.04
+KOR,Skeleton,Men's Skeleton,0.05,0.058,0.065,0.172,Seunggi Jung,0.05
+NOR,Alpine Skiing,Women's Slalom,0.054,0.057,0.06,0.171,Kajsa Vickhoff Lie,0.025
+NOR,Freestyle Skiing,Women's Slopestyle,0.051,0.058,0.062,0.171,Johanne Killi,0.051
+NOR,Freestyle Skiing,Women's Big Air,0.05,0.058,0.064,0.171,Johanne Killi,0.05
+UKR,Freestyle Skiing,Men's Aerials,0.05,0.058,0.062,0.169,Mykola Puzderko,0.05
+SUI,Speed Skating,Men's Mass Start,0.054,0.056,0.058,0.168,Livio Wenger,0.054
+JPN,Freestyle Skiing,Women's Moguls,0.044,0.056,0.066,0.166,Anri Kawamura,0.044
+JPN,Freestyle Skiing,Women's Dual Moguls,0.045,0.056,0.065,0.166,Anri Kawamura,0.045
+KOR,Speed Skating,Men's 500m,0.05,0.056,0.06,0.166,Jun-Ho Kim,0.05
+UKR,Biathlon,Men's 4x7.5km Relay,0.048,0.054,0.064,0.166,Team Ukraine,0.048
+CAN,Figure Skating,Men's Singles,0.052,0.054,0.057,0.164,Keegan Messing,0.052
+POL,Speed Skating,Women's 1000m,0.044,0.055,0.065,0.164,Natalia Jabrzyk,0.023
+SUI,Speed Skating,Women's Mass Start,0.046,0.054,0.061,0.162,Kaitlyn McGregor,0.026
+RUS,Freestyle Skiing,Women's Aerials,0.048,0.053,0.058,0.159,Liubov Nikitina,0.048
+GER,Speed Skating,Women's Mass Start,0.045,0.053,0.06,0.158,Michelle Uhrig,0.033
+FIN,Cross-Country Skiing,Men's 50km Mass Start,0.048,0.051,0.054,0.154,Iivo Niskanen,0.024
+FIN,Cross-Country Skiing,Men's Skiathlon,0.048,0.051,0.053,0.152,Iivo Niskanen,0.024
+HUN,Curling,Mixed Doubles Curling,0.046,0.05,0.055,0.152,Team Hungary,0.046
+USA,Biathlon,Mixed Relay,0.045,0.05,0.058,0.152,Team USA,0.045
+USA,Speed Skating,Men's 10000m,0.042,0.051,0.06,0.152,Casey Dawson,0.042
+BEL,Short Track Speed Skating,Women's 500m,0.046,0.05,0.055,0.151,Hanne Desmet,0.046
+CAN,Bobsleigh,Two-Man Bobsled,0.046,0.05,0.055,0.151,Justin Kripps,0.046
+CAN,Bobsleigh,Four-Man Bobsled,0.045,0.051,0.055,0.151,Justin Kripps,0.045
+BEL,Short Track Speed Skating,Women's 1000m,0.045,0.05,0.055,0.15,Hanne Desmet,0.045
+FIN,Cross-Country Skiing,Men's 15km,0.048,0.05,0.052,0.15,Iivo Niskanen,0.024
+BEL,Short Track Speed Skating,Women's 1500m,0.046,0.049,0.054,0.149,Hanne Desmet,0.046
+SUI,Cross-Country Skiing,Men's 4x10km Relay,0.042,0.048,0.058,0.147,Team Switzerland,0.042
+USA,Biathlon,Women's 4x6km Relay,0.043,0.048,0.055,0.147,Team USA,0.043
+SUI,Biathlon,Men's 4x7.5km Relay,0.041,0.047,0.058,0.146,Team Switzerland,0.041
+NZL,Alpine Skiing,Women's Giant Slalom,0.045,0.049,0.051,0.145,Alice Robinson,0.045
+SUI,Cross-Country Skiing,Women's 4x5km Relay,0.041,0.047,0.055,0.144,Team Switzerland,0.041
+CAN,Speed Skating,Men's 1500m,0.041,0.047,0.055,0.143,Connor Howe,0.038
+SWE,Alpine Skiing,Women's Slalom,0.045,0.048,0.05,0.143,Larsson Anna Swenn,0.019
+ITA,Speed Skating,Women's 1500m,0.041,0.047,0.053,0.142,Francesca Lollobrigida,0.041
+NOR,Speed Skating,Women's 1500m,0.041,0.048,0.053,0.142,Ragne Wiklund,0.041
+USA,Skeleton,Women's Skeleton,0.039,0.048,0.054,0.142,Katie Uhlaender,0.039
+CRO,Alpine Skiing,Women's Slalom,0.045,0.047,0.049,0.14,Zrinka Ljutic,0.045
+GBR,Freestyle Skiing,Men's Aerials,0.041,0.046,0.052,0.139,Lloyd Wallace,0.041
+POL,Ski Jumping,Men's Team,0.028,0.045,0.066,0.139,Team Poland,0.028
+AUT,Biathlon,Men's 4x7.5km Relay,0.036,0.044,0.051,0.131,Team Austria,0.036
+SLO,Alpine Skiing,Women's Slalom,0.041,0.043,0.045,0.13,Ilka Stuhec,0.029
+SWE,Freestyle Skiing,Women's Slopestyle,0.037,0.043,0.049,0.13,Jennie-Lee Burmansson,0.037
+EST,Speed Skating,Men's 1000m,0.037,0.043,0.047,0.128,Marten Liiv,0.037
+UKR,Freestyle Skiing,Women's Aerials,0.038,0.042,0.048,0.128,Olga Polyuk,0.038
+SWE,Freestyle Skiing,Women's Big Air,0.037,0.042,0.048,0.127,Jennie-Lee Burmansson,0.037
+BEL,Speed Skating,Men's 5000m,0.035,0.042,0.049,0.126,Bart Swings,0.035
+ITA,Biathlon,Men's 4x7.5km Relay,0.036,0.04,0.048,0.125,Team Italy,0.036
+USA,Cross-Country Skiing,Men's 4x10km Relay,0.035,0.041,0.049,0.125,Team USA,0.032
+SUI,Ski Jumping,Men's Team,0.026,0.039,0.058,0.123,Team Switzerland,0.026
+BEL,Speed Skating,Men's 10000m,0.033,0.04,0.049,0.122,Bart Swings,0.033
+CAN,Speed Skating,Men's 1000m,0.035,0.041,0.046,0.122,Laurent Dubreuil,0.027
+SLO,Alpine Skiing,Women's Giant Slalom,0.038,0.041,0.042,0.121,Ilka Stuhec,0.032
+LAT,Bobsleigh,Four-Man Bobsled,0.035,0.04,0.043,0.118,Oskars Kibermanis,0.035
+AUT,Biathlon,Mixed Relay,0.033,0.038,0.045,0.117,Team Austria,0.033
+GER,Snowboard,Men's Halfpipe,0.035,0.038,0.044,0.117,Andre Hoeflich,0.035
+LAT,Bobsleigh,Two-Man Bobsled,0.035,0.039,0.044,0.117,Oskars Kibermanis,0.035
+SUI,Biathlon,Women's 12.5km Mass Start,0.037,0.038,0.041,0.115,Amy Baserga,0.024
+JPN,Speed Skating,Women's 3000m,0.033,0.038,0.043,0.114,Momoka Horikawa,0.032
+SLO,Alpine Skiing,Women's Downhill,0.036,0.038,0.04,0.114,Ilka Stuhec,0.036
+SUI,Biathlon,Women's 7.5km Sprint,0.036,0.037,0.04,0.114,Amy Baserga,0.025
+SUI,Biathlon,Women's 15km Individual,0.036,0.038,0.04,0.114,Amy Baserga,0.024
+SUI,Biathlon,Women's 10km Pursuit,0.035,0.038,0.04,0.113,Amy Baserga,0.023
+CAN,Alpine Skiing,Men's Super-G,0.033,0.036,0.041,0.11,Cameron Alexander,0.017
+LAT,Luge,Women's Singles Luge,0.03,0.037,0.043,0.11,Eliza Tiruma,0.03
+POL,Speed Skating,Men's 1000m,0.032,0.037,0.041,0.11,Damian Żurek,0.028
+SLO,Alpine Skiing,Women's Super-G,0.034,0.037,0.039,0.11,Ilka Stuhec,0.034
+AUT,Cross-Country Skiing,Men's Sprint,0.036,0.037,0.037,0.109,Mika Vermeulen,0.033
+AUT,Biathlon,Women's 4x6km Relay,0.031,0.035,0.042,0.109,Team Austria,0.031
+HUN,Speed Skating,Men's 1500m,0.032,0.036,0.041,0.109,Min-Seok Kim,0.032
+KAZ,Freestyle Skiing,Women's Moguls,0.029,0.035,0.045,0.109,Anastassiya Gorodko,0.029
+CAN,Alpine Skiing,Men's Giant Slalom,0.032,0.036,0.04,0.108,Cameron Alexander,0.017
+CAN,Alpine Skiing,Men's Downhill,0.032,0.036,0.039,0.108,Cameron Alexander,0.017
+CHN,Speed Skating,Women's 3000m,0.032,0.035,0.041,0.108,Binyu Yang,0.029
+JPN,Speed Skating,Women's Mass Start,0.031,0.036,0.041,0.108,Ayano Sato,0.019
+KAZ,Freestyle Skiing,Women's Dual Moguls,0.029,0.036,0.044,0.108,Anastassiya Gorodko,0.029
+GER,Speed Skating,Men's 1000m,0.031,0.035,0.04,0.106,Moritz Klein,0.017
+AUT,Cross-Country Skiing,Men's Skiathlon,0.034,0.034,0.036,0.104,Mika Vermeulen,0.034
+AUT,Cross-Country Skiing,Men's 15km,0.033,0.033,0.036,0.103,Mika Vermeulen,0.033
+CAN,Alpine Skiing,Men's Slalom,0.031,0.034,0.038,0.103,Cameron Alexander,0.016
+CZE,Speed Skating,Men's 5000m,0.028,0.034,0.04,0.103,Metoděj Jílek,0.028
+AUT,Cross-Country Skiing,Men's 50km Mass Start,0.033,0.034,0.034,0.102,Mika Vermeulen,0.033
+ITA,Cross-Country Skiing,Women's 4x5km Relay,0.028,0.033,0.04,0.102,Team Italy,0.027
+ITA,Alpine Skiing,Men's Super-G,0.029,0.034,0.038,0.101,Mattia Casse,0.013
+AUT,Cross-Country Skiing,Women's Sprint,0.032,0.034,0.033,0.099,Teresa Stadlober,0.032
+AUT,Freestyle Skiing,Men's Ski Cross,0.03,0.033,0.037,0.099,Adam Kappacher,0.03
+CAN,Ski Jumping,Mixed Team,0.025,0.031,0.043,0.099,Team Canada,0.025
+CHN,Speed Skating,Women's 5000m,0.027,0.032,0.04,0.099,Binyu Yang,0.027
+FRA,Speed Skating,Men's 5000m,0.027,0.033,0.039,0.099,Timothy Loubineaud,0.027
+SLO,Alpine Skiing,Men's Downhill,0.029,0.033,0.037,0.099,Miha Hrobat,0.019
+GER,Cross-Country Skiing,Men's Sprint,0.032,0.033,0.033,0.098,Friedrich Moch,0.028
+AUT,Cross-Country Skiing,Women's 10km,0.031,0.033,0.032,0.096,Teresa Stadlober,0.031
+AUT,Cross-Country Skiing,Women's Skiathlon,0.03,0.032,0.033,0.095,Teresa Stadlober,0.03
+AUT,Cross-Country Skiing,Women's 50km Mass Start,0.03,0.032,0.032,0.095,Teresa Stadlober,0.03
+GER,Cross-Country Skiing,Men's Team Sprint,0.026,0.031,0.037,0.095,Team Germany,0.023
+USA,Alpine Skiing,Men's Downhill,0.028,0.032,0.035,0.095,Travis Ganong,0.011
+AUT,Cross-Country Skiing,Women's Team Sprint,0.027,0.03,0.036,0.093,Team Austria,0.027
+EST,Speed Skating,Men's 500m,0.028,0.03,0.035,0.093,Marten Liiv,0.028
+GER,Cross-Country Skiing,Men's 15km,0.03,0.03,0.031,0.091,Friedrich Moch,0.03
+AUT,Freestyle Skiing,Women's Ski Cross,0.027,0.029,0.034,0.09,Andrea Limbacher,0.027
+GER,Cross-Country Skiing,Men's 50km Mass Start,0.029,0.031,0.031,0.09,Friedrich Moch,0.029
+KAZ,Speed Skating,Men's 500m,0.027,0.03,0.033,0.09,Yevgeniy Koshkin,0.027
+GER,Cross-Country Skiing,Men's Skiathlon,0.028,0.03,0.031,0.089,Friedrich Moch,0.028
+POL,Ski Jumping,Men's Normal Hill Individual,0.027,0.029,0.032,0.088,Dawid Kubacki,0.012
+POL,Ski Jumping,Men's Large Hill Individual,0.026,0.03,0.032,0.088,Dawid Kubacki,0.012
+FRA,Freestyle Skiing,Men's Halfpipe,0.025,0.029,0.033,0.087,Kevin Rolland,0.025
+CZE,Biathlon,Mixed Relay,0.025,0.028,0.032,0.085,Team Czechia,0.025
+ITA,Alpine Skiing,Men's Giant Slalom,0.024,0.029,0.031,0.084,Aliprandini Luca De,0.01
+AUT,Cross-Country Skiing,Women's 4x5km Relay,0.022,0.026,0.033,0.082,Team Austria,0.018
+USA,Biathlon,Men's 15km Mass Start,0.026,0.027,0.029,0.082,Campbell Wright,0.026
+SWE,Alpine Skiing,Women's Giant Slalom,0.025,0.027,0.029,0.081,Sara Hector,0.02
+SWE,Alpine Skiing,Women's Downhill,0.025,0.027,0.029,0.081,Sara Hector,0.022
+USA,Biathlon,Men's 12.5km Pursuit,0.025,0.027,0.029,0.081,Campbell Wright,0.025
+SUI,Cross-Country Skiing,Women's Team Sprint,0.023,0.026,0.031,0.08,Nadine Faehndrich,0.01
+SVK,Alpine Skiing,Women's Downhill,0.025,0.026,0.029,0.08,Petra Vlhova,0.025
+USA,Alpine Skiing,Men's Super-G,0.023,0.027,0.03,0.08,Travis Ganong,0.011
+USA,Biathlon,Men's 10km Sprint,0.025,0.027,0.028,0.08,Campbell Wright,0.025
+USA,Biathlon,Men's 20km Individual,0.025,0.027,0.028,0.08,Campbell Wright,0.025
+SWE,Alpine Skiing,Women's Super-G,0.025,0.026,0.028,0.079,Sara Hector,0.021
+ALB,Alpine Skiing,Women's Giant Slalom,0.025,0.025,0.028,0.078,Lara Colturi,0.025
+SVK,Alpine Skiing,Women's Super-G,0.024,0.026,0.028,0.078,Petra Vlhova,0.024
+USA,Alpine Skiing,Men's Slalom,0.023,0.026,0.028,0.078,Travis Ganong,0.011
+CZE,Biathlon,Women's 4x6km Relay,0.021,0.025,0.03,0.076,Team Czechia,0.021
+BEL,Speed Skating,Women's Mass Start,0.021,0.025,0.029,0.074,Fran Vanhoutte,0.011
+GER,Speed Skating,Men's 1500m,0.02,0.024,0.029,0.073,Stefan Emele,0.018
+FRA,Cross-Country Skiing,Women's 10km,0.024,0.024,0.024,0.072,Delphine Claudel,0.014
+SVK,Alpine Skiing,Women's Giant Slalom,0.023,0.024,0.026,0.072,Petra Vlhova,0.023
+FRA,Cross-Country Skiing,Women's Skiathlon,0.023,0.023,0.025,0.071,Delphine Claudel,0.014
+FRA,Cross-Country Skiing,Women's 50km Mass Start,0.023,0.024,0.024,0.071,Delphine Claudel,0.014
+GER,Speed Skating,Men's 10000m,0.018,0.023,0.028,0.07,Patrick Beckert,0.018
+USA,Speed Skating,Men's Mass Start,0.022,0.024,0.024,0.07,Ethan Cepuran,0.022
+CZE,Biathlon,Women's 12.5km Mass Start,0.021,0.023,0.025,0.069,Marketa Davidova,0.011
+SUI,Ski Jumping,Mixed Team,0.017,0.021,0.03,0.068,Team Switzerland,0.017
+CZE,Biathlon,Women's 15km Individual,0.021,0.022,0.024,0.067,Marketa Davidova,0.011
+CZE,Biathlon,Women's 10km Pursuit,0.021,0.023,0.024,0.067,Marketa Davidova,0.011
 CZE,Biathlon,Women's 7.5km Sprint,0.021,0.022,0.023,0.066,Marketa Davidova,0.011
-FRA,Freestyle Skiing,Women's Ski Cross,0.02,0.022,0.024,0.066,Alizee Baron,0.02
-BEL,Speed Skating,Women's 1500m,0.019,0.021,0.023,0.063,Isabelle Van Elst,0.019
-SVK,Alpine Skiing,Women's Slalom,0.018,0.022,0.022,0.062,Petra Vlhova,0.018
-CZE,Biathlon,Women's 15km Individual,0.02,0.02,0.021,0.061,Marketa Davidova,0.01
-FRA,Nordic Combined,Men's Team Sprint,0.013,0.021,0.026,0.061,Team France,0.013
-JPN,Speed Skating,Women's 5000m,0.017,0.019,0.025,0.061,Momoka Horikawa,0.017
-KAZ,Speed Skating,Women's 500m,0.018,0.021,0.022,0.061,Kristina Silaeva,0.018
-AUT,Speed Skating,Men's Mass Start,0.019,0.019,0.022,0.06,Gabriel Odor,0.019
-USA,Alpine Skiing,Men's Giant Slalom,0.018,0.02,0.022,0.06,Travis Ganong,0.012
-AUT,Biathlon,Men's 10km Sprint,0.02,0.02,0.019,0.059,Simon Eder,0.012
-ITA,Alpine Skiing,Men's Downhill,0.017,0.018,0.022,0.058,Dominik Paris,0.01
-AUT,Biathlon,Men's 20km Individual,0.017,0.02,0.019,0.057,Simon Eder,0.011
-AUT,Biathlon,Men's 12.5km Pursuit,0.016,0.019,0.022,0.057,Simon Eder,0.01
-CHN,Speed Skating,Women's 500m,0.017,0.02,0.019,0.057,Ruining Tian,0.016
-JPN,Speed Skating,Men's Mass Start,0.015,0.019,0.023,0.057,Shomu Sasaki,0.014
-CAN,Speed Skating,Men's Mass Start,0.016,0.02,0.02,0.056,David La Rue,0.015
-GER,Alpine Skiing,Men's Slalom,0.018,0.017,0.021,0.056,Linus Strasser,0.018
-ITA,Alpine Skiing,Men's Slalom,0.017,0.019,0.02,0.056,Dominik Paris,0.009
-UKR,Short Track Speed Skating,Men's 1000m,0.015,0.02,0.021,0.056,Oleh Handei,0.015
-FRA,Cross-Country Skiing,Women's Sprint,0.016,0.021,0.017,0.055,Delphine Claudel,0.013
-NOR,Speed Skating,Men's 500m,0.017,0.016,0.022,0.055,Bjørn Magnussen,0.017
-SUI,Cross-Country Skiing,Men's Team Sprint,0.015,0.018,0.022,0.055,Team Switzerland,0.006
-UKR,Short Track Speed Skating,Men's 1500m,0.017,0.019,0.019,0.055,Oleh Handei,0.017
-AUT,Biathlon,Men's 15km Mass Start,0.014,0.019,0.02,0.054,Simon Eder,0.009
-ITA,Speed Skating,Men's 1500m,0.016,0.018,0.019,0.054,Daniele Di Stefano,0.016
-POL,Speed Skating,Women's Mass Start,0.016,0.018,0.019,0.054,Natalia Jabrzyk,0.016
-UKR,Short Track Speed Skating,Men's 500m,0.016,0.016,0.02,0.053,Oleh Handei,0.016
-HUN,Speed Skating,Men's 1000m,0.016,0.015,0.02,0.051,Min-Seok Kim,0.016
-SUI,Cross-Country Skiing,Women's Sprint,0.016,0.017,0.018,0.05,Nadine Faehndrich,0.011
-CAN,Speed Skating,Women's 500m,0.014,0.017,0.015,0.046,Carolina Hiller-Donnelly,0.014
-KAZ,Speed Skating,Women's 1000m,0.013,0.017,0.017,0.046,Nadezhda Morozova,0.013
-NOR,Freestyle Skiing,Women's Moguls,0.011,0.015,0.018,0.045,Hedda Berntsen,0.011
-NOR,Freestyle Skiing,Women's Dual Moguls,0.011,0.015,0.019,0.045,Hedda Berntsen,0.011
-SWE,Freestyle Skiing,Women's Dual Moguls,0.012,0.013,0.02,0.045,Moa Backlund,0.008
-CZE,Speed Skating,Women's 1500m,0.011,0.015,0.018,0.044,Martina Sáblíková,0.008
-GBR,Cross-Country Skiing,Men's 15km,0.015,0.015,0.015,0.044,Andrew Musgrave,0.015
-SLO,Biathlon,Men's 12.5km Pursuit,0.012,0.015,0.017,0.044,Jakov Fak,0.012
-SWE,Freestyle Skiing,Women's Moguls,0.01,0.014,0.02,0.044,Moa Backlund,0.006
-CAN,Speed Skating,Women's 1000m,0.012,0.016,0.015,0.043,Béatrice Lamarche,0.01
-SLO,Biathlon,Men's 20km Individual,0.013,0.014,0.017,0.043,Jakov Fak,0.013
-USA,Nordic Combined,Men's Team Sprint,0.011,0.013,0.02,0.043,Team USA,0.011
-SLO,Biathlon,Men's 15km Mass Start,0.013,0.014,0.015,0.042,Jakov Fak,0.013
-CRO,Alpine Skiing,Men's Slalom,0.012,0.015,0.014,0.041,Samuel Kolega,0.009
+FRA,Freestyle Skiing,Women's Ski Cross,0.02,0.021,0.025,0.066,Alizee Baron,0.02
+SVK,Alpine Skiing,Women's Slalom,0.02,0.022,0.023,0.065,Petra Vlhova,0.02
+AUT,Speed Skating,Men's Mass Start,0.02,0.021,0.022,0.063,Gabriel Odor,0.02
+BEL,Speed Skating,Women's 1500m,0.018,0.021,0.024,0.063,Isabelle Van Elst,0.018
+FRA,Nordic Combined,Men's Team Sprint,0.014,0.019,0.029,0.063,Team France,0.014
+USA,Alpine Skiing,Men's Giant Slalom,0.017,0.021,0.023,0.061,Travis Ganong,0.011
+JPN,Speed Skating,Men's Mass Start,0.019,0.019,0.021,0.059,Shomu Sasaki,0.017
+CAN,Speed Skating,Men's Mass Start,0.018,0.019,0.021,0.058,David La Rue,0.017
+ITA,Alpine Skiing,Men's Downhill,0.018,0.019,0.021,0.058,Dominik Paris,0.009
+ITA,Speed Skating,Men's 1500m,0.016,0.02,0.022,0.058,Daniele Di Stefano,0.016
+JPN,Speed Skating,Women's 5000m,0.016,0.019,0.023,0.058,Momoka Horikawa,0.016
+UKR,Short Track Speed Skating,Men's 1000m,0.017,0.019,0.022,0.058,Oleh Handei,0.017
+UKR,Short Track Speed Skating,Men's 1500m,0.018,0.019,0.021,0.058,Oleh Handei,0.018
+AUT,Biathlon,Men's 20km Individual,0.018,0.019,0.02,0.057,Simon Eder,0.011
+CHN,Speed Skating,Women's 500m,0.017,0.018,0.021,0.057,Ruining Tian,0.017
+GER,Alpine Skiing,Men's Slalom,0.017,0.019,0.021,0.057,Linus Strasser,0.017
+UKR,Short Track Speed Skating,Men's 500m,0.017,0.018,0.022,0.057,Oleh Handei,0.017
+AUT,Biathlon,Men's 15km Mass Start,0.017,0.019,0.02,0.056,Simon Eder,0.011
+KAZ,Speed Skating,Women's 500m,0.017,0.019,0.02,0.056,Kristina Silaeva,0.017
+AUT,Biathlon,Men's 10km Sprint,0.018,0.018,0.02,0.055,Simon Eder,0.011
+AUT,Biathlon,Men's 12.5km Pursuit,0.017,0.019,0.019,0.055,Simon Eder,0.011
+FRA,Cross-Country Skiing,Women's Sprint,0.017,0.018,0.02,0.055,Delphine Claudel,0.014
+ITA,Alpine Skiing,Men's Slalom,0.016,0.019,0.02,0.055,Dominik Paris,0.008
+SUI,Cross-Country Skiing,Men's Team Sprint,0.014,0.017,0.022,0.054,Team Switzerland,0.006
+NOR,Speed Skating,Men's 500m,0.016,0.017,0.02,0.053,Bjørn Magnussen,0.015
+POL,Speed Skating,Women's Mass Start,0.015,0.017,0.02,0.052,Natalia Jabrzyk,0.015
+HUN,Speed Skating,Men's 1000m,0.015,0.016,0.019,0.05,Min-Seok Kim,0.015
+SUI,Cross-Country Skiing,Women's Sprint,0.015,0.016,0.017,0.048,Nadine Faehndrich,0.011
+KAZ,Speed Skating,Women's 1000m,0.013,0.016,0.019,0.047,Nadezhda Morozova,0.013
+CAN,Speed Skating,Women's 500m,0.014,0.015,0.017,0.045,Carolina Hiller-Donnelly,0.014
+NOR,Freestyle Skiing,Women's Dual Moguls,0.011,0.015,0.018,0.044,Hedda Berntsen,0.011
+CZE,Speed Skating,Women's 1500m,0.012,0.014,0.017,0.043,Martina Sáblíková,0.008
+NOR,Freestyle Skiing,Women's Moguls,0.012,0.014,0.017,0.043,Hedda Berntsen,0.012
+NOR,Freestyle Skiing,Men's Ski Cross,0.013,0.014,0.016,0.043,Kristoffer Haugen,0.013
+SWE,Freestyle Skiing,Women's Moguls,0.011,0.014,0.018,0.043,Moa Backlund,0.007
+SWE,Freestyle Skiing,Women's Dual Moguls,0.011,0.014,0.018,0.043,Moa Backlund,0.007
+CAN,Speed Skating,Women's 1000m,0.011,0.014,0.017,0.042,Béatrice Lamarche,0.011
+CRO,Alpine Skiing,Men's Slalom,0.012,0.015,0.016,0.042,Samuel Kolega,0.009
+SLO,Alpine Skiing,Men's Super-G,0.012,0.014,0.016,0.042,Zan Kranjec,0.006
+SLO,Biathlon,Men's 12.5km Pursuit,0.013,0.014,0.015,0.042,Jakov Fak,0.013
+CRO,Alpine Skiing,Women's Giant Slalom,0.013,0.014,0.015,0.041,Zrinka Ljutic,0.013
 FRA,Alpine Skiing,Women's Super-G,0.012,0.014,0.015,0.041,Romane Miradoli,0.011
-SLO,Alpine Skiing,Men's Super-G,0.012,0.013,0.016,0.041,Zan Kranjec,0.006
-CRO,Alpine Skiing,Women's Giant Slalom,0.013,0.011,0.015,0.04,Zrinka Ljutic,0.013
-GBR,Cross-Country Skiing,Men's Sprint,0.01,0.015,0.015,0.04,Andrew Musgrave,0.01
-GBR,Cross-Country Skiing,Men's 50km Mass Start,0.015,0.012,0.014,0.04,Andrew Musgrave,0.015
-KOR,Speed Skating,Women's Mass Start,0.012,0.014,0.014,0.04,Ji-Woo Park,0.012
-NOR,Freestyle Skiing,Men's Ski Cross,0.012,0.013,0.015,0.04,Kristoffer Haugen,0.012
+SLO,Biathlon,Men's 20km Individual,0.013,0.014,0.015,0.041,Jakov Fak,0.013
+SLO,Biathlon,Men's 15km Mass Start,0.013,0.014,0.015,0.041,Jakov Fak,0.013
+GBR,Cross-Country Skiing,Men's Skiathlon,0.013,0.013,0.014,0.04,Andrew Musgrave,0.013
+GBR,Cross-Country Skiing,Men's 15km,0.013,0.013,0.014,0.04,Andrew Musgrave,0.013
+SLO,Biathlon,Men's 10km Sprint,0.012,0.014,0.015,0.04,Jakov Fak,0.012
+USA,Nordic Combined,Men's Team Sprint,0.009,0.012,0.019,0.04,Team USA,0.009
+GBR,Cross-Country Skiing,Men's Sprint,0.012,0.013,0.013,0.039,Andrew Musgrave,0.012
+GBR,Cross-Country Skiing,Men's 50km Mass Start,0.013,0.013,0.013,0.039,Andrew Musgrave,0.013
 ALB,Alpine Skiing,Women's Slalom,0.012,0.013,0.013,0.038,Lara Colturi,0.012
-GBR,Cross-Country Skiing,Men's Skiathlon,0.01,0.013,0.014,0.038,Andrew Musgrave,0.01
-SLO,Biathlon,Men's 10km Sprint,0.012,0.013,0.013,0.038,Jakov Fak,0.012
-SUI,Cross-Country Skiing,Men's Sprint,0.013,0.013,0.013,0.038,Valerio Grond,0.007
-CZE,Cross-Country Skiing,Women's Skiathlon,0.011,0.013,0.013,0.037,Katerina Janatova,0.011
+KOR,Speed Skating,Women's Mass Start,0.011,0.013,0.014,0.038,Ji-Woo Park,0.011
 CZE,Cross-Country Skiing,Women's 10km,0.011,0.012,0.013,0.037,Katerina Janatova,0.011
-CZE,Cross-Country Skiing,Women's 50km Mass Start,0.013,0.012,0.012,0.037,Katerina Janatova,0.013
-BEL,Biathlon,Men's 10km Sprint,0.012,0.01,0.013,0.035,Florent Claude,0.012
-BEL,Biathlon,Men's 15km Mass Start,0.01,0.012,0.013,0.035,Florent Claude,0.01
-CAN,Alpine Skiing,Women's Giant Slalom,0.01,0.012,0.013,0.035,Marie-Michele Gagnon,0.005
-CHN,Speed Skating,Men's 5000m,0.011,0.011,0.013,0.035,Yu Wu,0.011
-IRL,Cross-Country Skiing,Men's Skiathlon,0.012,0.012,0.012,0.035,Thomas Maloney Westgaard,0.007
-IRL,Cross-Country Skiing,Men's 15km,0.011,0.011,0.012,0.035,Thomas Maloney Westgaard,0.007
-IRL,Cross-Country Skiing,Men's 50km Mass Start,0.012,0.012,0.012,0.035,Thomas Maloney Westgaard,0.007
-KOR,Speed Skating,Women's 1000m,0.009,0.013,0.013,0.035,Min Sun Kim,0.009
-SUI,Cross-Country Skiing,Women's 50km Mass Start,0.01,0.013,0.012,0.035,Nadine Faehndrich,0.01
-BEL,Biathlon,Men's 20km Individual,0.01,0.01,0.013,0.033,Florent Claude,0.01
-BUL,Alpine Skiing,Men's Slalom,0.009,0.012,0.013,0.033,Albert Popov,0.009
-FRA,Ski Jumping,Women's Large Hill Individual,0.009,0.011,0.012,0.033,Josephine Pagnier,0.007
-GER,Speed Skating,Men's 5000m,0.01,0.011,0.013,0.033,Felix Maly,0.007
-CZE,Cross-Country Skiing,Men's Sprint,0.011,0.01,0.011,0.032,Michal Novak,0.009
-SLO,Alpine Skiing,Men's Slalom,0.008,0.011,0.013,0.032,Zan Kranjec,0.005
-BEL,Biathlon,Men's 12.5km Pursuit,0.008,0.011,0.012,0.031,Florent Claude,0.008
-CHN,Speed Skating,Men's 500m,0.008,0.011,0.012,0.031,Tingyu Gao,0.006
-NOR,Freestyle Skiing,Men's Moguls,0.009,0.011,0.011,0.031,Birk Ruud,0.009
-SLO,Alpine Skiing,Men's Giant Slalom,0.008,0.009,0.013,0.031,Zan Kranjec,0.006
-SUI,Cross-Country Skiing,Women's Skiathlon,0.01,0.009,0.012,0.031,Nadine Faehndrich,0.01
-SUI,Cross-Country Skiing,Women's 10km,0.009,0.011,0.011,0.031,Nadine Faehndrich,0.009
-AUT,Speed Skating,Women's 500m,0.009,0.009,0.012,0.03,Vanessa Herzog,0.009
+CZE,Cross-Country Skiing,Women's 50km Mass Start,0.012,0.012,0.013,0.037,Katerina Janatova,0.012
+SUI,Cross-Country Skiing,Men's Sprint,0.011,0.013,0.013,0.037,Valerio Grond,0.007
+CAN,Alpine Skiing,Women's Giant Slalom,0.011,0.012,0.013,0.036,Valerie Grenier,0.005
+CZE,Cross-Country Skiing,Women's Skiathlon,0.012,0.012,0.013,0.036,Katerina Janatova,0.012
+IRL,Cross-Country Skiing,Men's 15km,0.011,0.012,0.012,0.035,Thomas Maloney Westgaard,0.006
+IRL,Cross-Country Skiing,Men's 50km Mass Start,0.011,0.011,0.013,0.035,Thomas Maloney Westgaard,0.007
+IRL,Cross-Country Skiing,Men's Skiathlon,0.011,0.011,0.012,0.034,Thomas Maloney Westgaard,0.006
+BUL,Alpine Skiing,Men's Slalom,0.009,0.011,0.012,0.033,Albert Popov,0.009
+CZE,Cross-Country Skiing,Men's Sprint,0.01,0.011,0.012,0.033,Michal Novak,0.008
+FRA,Ski Jumping,Women's Normal Hill Individual,0.009,0.011,0.013,0.033,Josephine Pagnier,0.008
+GER,Speed Skating,Men's 5000m,0.009,0.011,0.013,0.033,Felix Maly,0.006
+KOR,Speed Skating,Women's 1000m,0.009,0.01,0.014,0.033,Min Sun Kim,0.008
+SUI,Cross-Country Skiing,Women's Skiathlon,0.01,0.011,0.012,0.033,Nadine Faehndrich,0.01
+SUI,Cross-Country Skiing,Women's 50km Mass Start,0.011,0.011,0.012,0.033,Nadine Faehndrich,0.011
+BEL,Biathlon,Men's 10km Sprint,0.01,0.01,0.011,0.032,Florent Claude,0.01
+BEL,Biathlon,Men's 12.5km Pursuit,0.01,0.011,0.011,0.032,Florent Claude,0.01
+BEL,Biathlon,Men's 15km Mass Start,0.01,0.011,0.011,0.032,Florent Claude,0.01
+CHN,Speed Skating,Men's 5000m,0.009,0.011,0.012,0.032,Yu Wu,0.009
+FRA,Ski Jumping,Women's Large Hill Individual,0.009,0.01,0.012,0.032,Josephine Pagnier,0.008
+NOR,Freestyle Skiing,Men's Moguls,0.01,0.01,0.011,0.032,Birk Ruud,0.01
+NOR,Freestyle Skiing,Men's Dual Moguls,0.01,0.01,0.012,0.032,Birk Ruud,0.01
+SLO,Alpine Skiing,Men's Giant Slalom,0.009,0.011,0.012,0.032,Zan Kranjec,0.006
+SUI,Cross-Country Skiing,Women's 10km,0.011,0.011,0.011,0.032,Nadine Faehndrich,0.011
+BEL,Biathlon,Men's 20km Individual,0.01,0.01,0.011,0.031,Florent Claude,0.01
+CZE,Alpine Skiing,Women's Downhill,0.01,0.01,0.011,0.031,Ester Ledecka,0.01
+CHN,Speed Skating,Men's 500m,0.009,0.01,0.011,0.03,Tingyu Gao,0.006
 CZE,Alpine Skiing,Women's Super-G,0.009,0.01,0.011,0.03,Ester Ledecka,0.009
-CZE,Alpine Skiing,Women's Downhill,0.008,0.011,0.01,0.03,Ester Ledecka,0.008
-FRA,Ski Jumping,Women's Normal Hill Individual,0.008,0.009,0.013,0.03,Josephine Pagnier,0.007
-NOR,Speed Skating,Men's Mass Start,0.009,0.011,0.01,0.03,Allan Dahl Johansson,0.005
-CZE,Cross-Country Skiing,Men's Skiathlon,0.009,0.01,0.01,0.029,Michal Novak,0.009
-NOR,Freestyle Skiing,Men's Dual Moguls,0.009,0.011,0.01,0.029,Birk Ruud,0.009
-AIN,Biathlon,Women's 7.5km Sprint,0.01,0.009,0.009,0.028,Daria Krykova-Budasheva,0.01
-AIN,Biathlon,Women's 10km Pursuit,0.008,0.009,0.012,0.028,Daria Krykova-Budasheva,0.008
-AUS,Cross-Country Skiing,Women's Skiathlon,0.008,0.009,0.01,0.028,Jessica Yeaton,0.008
-BEL,Speed Skating,Men's 1500m,0.008,0.01,0.01,0.028,Bart Swings,0.008
-CZE,Cross-Country Skiing,Men's 50km Mass Start,0.009,0.008,0.01,0.028,Michal Novak,0.009
-ITA,Cross-Country Skiing,Women's Sprint,0.011,0.01,0.008,0.028,Caterina Ganz,0.008
-UKR,Biathlon,Men's 15km Mass Start,0.009,0.01,0.01,0.028,Dmytro Pidruchnyi,0.009
-AUS,Cross-Country Skiing,Women's 50km Mass Start,0.01,0.008,0.009,0.027,Jessica Yeaton,0.01
-CZE,Cross-Country Skiing,Men's 15km,0.009,0.008,0.01,0.027,Michal Novak,0.009
-ITA,Speed Skating,Women's 500m,0.009,0.009,0.009,0.027,Serena Pergher,0.009
-UKR,Biathlon,Men's 12.5km Pursuit,0.009,0.009,0.009,0.027,Dmytro Pidruchnyi,0.009
+NOR,Speed Skating,Men's Mass Start,0.01,0.009,0.011,0.03,Allan Dahl Johansson,0.005
+SLO,Alpine Skiing,Men's Slalom,0.009,0.01,0.011,0.03,Zan Kranjec,0.006
+AUT,Speed Skating,Women's 500m,0.009,0.009,0.011,0.029,Vanessa Herzog,0.009
+CZE,Cross-Country Skiing,Men's 15km,0.009,0.009,0.01,0.029,Michal Novak,0.009
+ITA,Cross-Country Skiing,Women's Sprint,0.009,0.009,0.01,0.029,Caterina Ganz,0.007
+CZE,Cross-Country Skiing,Men's Skiathlon,0.009,0.009,0.01,0.028,Michal Novak,0.009
+CZE,Cross-Country Skiing,Men's 50km Mass Start,0.009,0.009,0.01,0.028,Michal Novak,0.009
+AUT,Speed Skating,Women's 1000m,0.007,0.009,0.011,0.027,Vanessa Herzog,0.007
+CZE,Alpine Skiing,Women's Giant Slalom,0.008,0.009,0.01,0.027,Ester Ledecka,0.008
+UKR,Biathlon,Men's 20km Individual,0.008,0.009,0.009,0.027,Dmytro Pidruchnyi,0.008
+UKR,Biathlon,Men's 12.5km Pursuit,0.008,0.009,0.01,0.027,Dmytro Pidruchnyi,0.008
+AIN,Biathlon,Women's 15km Individual,0.008,0.008,0.009,0.026,Daria Krykova-Budasheva,0.008
 AUS,Cross-Country Skiing,Women's Sprint,0.009,0.009,0.009,0.026,Jessica Yeaton,0.009
-ITA,Cross-Country Skiing,Women's Team Sprint,0.009,0.007,0.01,0.026,Team Italy,0.007
-UKR,Biathlon,Men's 20km Individual,0.008,0.009,0.008,0.026,Dmytro Pidruchnyi,0.008
-AIN,Biathlon,Women's 12.5km Mass Start,0.008,0.009,0.008,0.025,Daria Krykova-Budasheva,0.008
-AUT,Speed Skating,Women's 1000m,0.006,0.008,0.011,0.025,Vanessa Herzog,0.006
-SUI,Cross-Country Skiing,Men's 15km,0.009,0.007,0.009,0.025,Valerio Grond,0.009
-UKR,Biathlon,Men's 10km Sprint,0.007,0.009,0.009,0.025,Dmytro Pidruchnyi,0.007
-AIN,Biathlon,Women's 15km Individual,0.007,0.008,0.009,0.024,Daria Krykova-Budasheva,0.007
-CAN,Alpine Skiing,Women's Slalom,0.007,0.009,0.008,0.024,Marie-Michele Gagnon,0.004
-CZE,Alpine Skiing,Women's Giant Slalom,0.008,0.008,0.009,0.024,Ester Ledecka,0.008
-AUS,Cross-Country Skiing,Women's 10km,0.008,0.007,0.008,0.023,Jessica Yeaton,0.008
-CZE,Alpine Skiing,Women's Slalom,0.006,0.008,0.008,0.023,Ester Ledecka,0.006
-GER,Speed Skating,Women's 3000m,0.007,0.007,0.008,0.023,Josie Hofmann,0.007
-ITA,Nordic Combined,Men's Team Sprint,0.005,0.007,0.011,0.023,Team Italy,0.005
-ITA,Cross-Country Skiing,Women's 50km Mass Start,0.006,0.007,0.008,0.022,Caterina Ganz,0.006
-SUI,Cross-Country Skiing,Men's Skiathlon,0.008,0.007,0.007,0.022,Valerio Grond,0.008
-SWE,Alpine Skiing,Men's Slalom,0.007,0.007,0.008,0.022,Kristoffer Jakobsen,0.007
-IRL,Cross-Country Skiing,Men's Sprint,0.007,0.008,0.006,0.021,Thomas Maloney Westgaard,0.007
-JPN,Speed Skating,Men's 5000m,0.006,0.006,0.008,0.021,Seitaro Ichinohe,0.006
-SUI,Cross-Country Skiing,Men's 50km Mass Start,0.006,0.005,0.009,0.021,Valerio Grond,0.006
-CZE,Biathlon,Men's 20km Individual,0.006,0.007,0.008,0.02,Michal Krcmar,0.006
-GBR,Alpine Skiing,Men's Slalom,0.007,0.006,0.008,0.02,Dave Ryding,0.007
-ITA,Cross-Country Skiing,Women's Skiathlon,0.006,0.007,0.007,0.02,Caterina Ganz,0.006
-ITA,Cross-Country Skiing,Women's 10km,0.007,0.006,0.007,0.02,Caterina Ganz,0.007
-CAN,Alpine Skiing,Women's Super-G,0.005,0.006,0.007,0.019,Marie-Michele Gagnon,0.005
-CZE,Biathlon,Men's 10km Sprint,0.007,0.006,0.006,0.019,Michal Krcmar,0.007
-CZE,Biathlon,Men's 12.5km Pursuit,0.006,0.005,0.007,0.019,Michal Krcmar,0.006
-CZE,Biathlon,Men's 15km Mass Start,0.005,0.007,0.007,0.019,Michal Krcmar,0.005
-NZL,Alpine Skiing,Women's Super-G,0.006,0.007,0.007,0.019,Alice Robinson,0.006
-CZE,Cross-Country Skiing,Women's Sprint,0.005,0.005,0.008,0.018,Katerina Janatova,0.005
-CZE,Speed Skating,Women's 1000m,0.006,0.005,0.007,0.018,Nikola Zdráhalova,0.006
-AIN,Biathlon,Men's 20km Individual,0.007,0.005,0.005,0.017,Said Karimulla Khalili,0.007
-AIN,Biathlon,Men's 15km Mass Start,0.006,0.005,0.006,0.017,Said Karimulla Khalili,0.006
-GER,Speed Skating,Women's 1000m,0.004,0.006,0.007,0.017,Lea Sophie Scholz,0.004
+ITA,Cross-Country Skiing,Women's Team Sprint,0.007,0.009,0.01,0.026,Team Italy,0.005
+UKR,Biathlon,Men's 15km Mass Start,0.008,0.009,0.009,0.026,Dmytro Pidruchnyi,0.008
+AIN,Biathlon,Women's 7.5km Sprint,0.007,0.009,0.009,0.025,Daria Krykova-Budasheva,0.007
+AIN,Biathlon,Women's 10km Pursuit,0.008,0.008,0.009,0.025,Daria Krykova-Budasheva,0.008
+AIN,Biathlon,Women's 12.5km Mass Start,0.008,0.009,0.009,0.025,Daria Krykova-Budasheva,0.008
+AUS,Cross-Country Skiing,Women's Skiathlon,0.008,0.008,0.009,0.025,Jessica Yeaton,0.008
+AUS,Cross-Country Skiing,Women's 50km Mass Start,0.008,0.008,0.009,0.025,Jessica Yeaton,0.008
+BEL,Speed Skating,Men's 1500m,0.007,0.008,0.01,0.025,Bart Swings,0.007
+CZE,Alpine Skiing,Women's Slalom,0.008,0.008,0.009,0.025,Ester Ledecka,0.008
+GER,Speed Skating,Women's 3000m,0.007,0.008,0.01,0.025,Josie Hofmann,0.007
+ITA,Speed Skating,Women's 500m,0.008,0.008,0.009,0.025,Serena Pergher,0.008
+UKR,Biathlon,Men's 10km Sprint,0.008,0.009,0.009,0.025,Dmytro Pidruchnyi,0.008
+AUS,Cross-Country Skiing,Women's 10km,0.007,0.008,0.009,0.024,Jessica Yeaton,0.007
+CAN,Alpine Skiing,Women's Slalom,0.007,0.008,0.008,0.024,Marie-Michele Gagnon,0.004
+GBR,Alpine Skiing,Men's Slalom,0.007,0.008,0.009,0.024,Dave Ryding,0.007
+ITA,Nordic Combined,Men's Team Sprint,0.005,0.007,0.01,0.022,Team Italy,0.005
+SUI,Cross-Country Skiing,Men's Skiathlon,0.007,0.007,0.008,0.022,Valerio Grond,0.007
+SUI,Cross-Country Skiing,Men's 15km,0.007,0.007,0.008,0.022,Valerio Grond,0.007
+SWE,Alpine Skiing,Men's Slalom,0.006,0.007,0.008,0.022,Kristoffer Jakobsen,0.006
+CZE,Speed Skating,Women's 1000m,0.006,0.007,0.008,0.021,Nikola Zdráhalova,0.006
+ITA,Cross-Country Skiing,Women's 50km Mass Start,0.007,0.007,0.007,0.021,Caterina Ganz,0.007
+SUI,Cross-Country Skiing,Men's 50km Mass Start,0.007,0.007,0.007,0.021,Valerio Grond,0.007
+IRL,Cross-Country Skiing,Men's Sprint,0.006,0.007,0.007,0.02,Thomas Maloney Westgaard,0.006
+ITA,Cross-Country Skiing,Women's 10km,0.006,0.007,0.007,0.02,Caterina Ganz,0.006
+JPN,Speed Skating,Men's 5000m,0.006,0.006,0.008,0.02,Seitaro Ichinohe,0.005
+CZE,Biathlon,Men's 20km Individual,0.006,0.006,0.007,0.019,Michal Krcmar,0.006
+CZE,Biathlon,Men's 12.5km Pursuit,0.006,0.006,0.007,0.019,Michal Krcmar,0.006
+GER,Speed Skating,Women's 1000m,0.005,0.006,0.008,0.019,Lea Sophie Scholz,0.005
+ITA,Cross-Country Skiing,Women's Skiathlon,0.006,0.007,0.007,0.019,Caterina Ganz,0.006
+NZL,Alpine Skiing,Women's Super-G,0.006,0.006,0.007,0.019,Alice Robinson,0.006
+CZE,Cross-Country Skiing,Women's Sprint,0.006,0.006,0.006,0.018,Katerina Janatova,0.006
+CZE,Biathlon,Men's 10km Sprint,0.006,0.006,0.006,0.018,Michal Krcmar,0.006
+CZE,Biathlon,Men's 15km Mass Start,0.005,0.006,0.006,0.018,Michal Krcmar,0.005
+AIN,Biathlon,Men's 15km Mass Start,0.005,0.006,0.006,0.017,Said Karimulla Khalili,0.005
+BEL,Speed Skating,Men's 1000m,0.005,0.006,0.007,0.017,Mathias Vosté,0.005
+CAN,Alpine Skiing,Women's Super-G,0.006,0.006,0.006,0.017,Marie-Michele Gagnon,0.005
+AIN,Biathlon,Men's 10km Sprint,0.005,0.005,0.006,0.016,Said Karimulla Khalili,0.005
+AIN,Biathlon,Men's 20km Individual,0.005,0.005,0.006,0.016,Said Karimulla Khalili,0.005
+AIN,Biathlon,Men's 12.5km Pursuit,0.005,0.005,0.006,0.016,Said Karimulla Khalili,0.005
+AND,Alpine Skiing,Men's Giant Slalom,0.005,0.005,0.006,0.016,Joan Verdu,0.005
 BEL,Speed Skating,Women's 1000m,0.004,0.005,0.007,0.016,Isabelle Van Elst,0.004
-CAN,Alpine Skiing,Women's Downhill,0.004,0.006,0.006,0.016,Marie-Michele Gagnon,0.004
-CZE,Cross-Country Skiing,Women's Team Sprint,0.004,0.005,0.006,0.016,Katerina Janatova,0.004
-AIN,Biathlon,Men's 10km Sprint,0.005,0.004,0.005,0.015,Said Karimulla Khalili,0.005
-AND,Alpine Skiing,Men's Giant Slalom,0.004,0.004,0.007,0.015,Joan Verdu,0.004
-BEL,Alpine Skiing,Men's Slalom,0.003,0.005,0.006,0.015,Armand Marchant,0.003
-BEL,Speed Skating,Men's 1000m,0.004,0.005,0.006,0.015,Mathias Vosté,0.004
-NOR,Speed Skating,Women's Mass Start,0.004,0.005,0.005,0.015,Aurora Grinden Løvås,0.004
-POL,Speed Skating,Men's 5000m,0.004,0.005,0.006,0.015,Vladimir Semirunniy,0.004
-AIN,Biathlon,Men's 12.5km Pursuit,0.005,0.005,0.005,0.014,Said Karimulla Khalili,0.005
-CAN,Cross-Country Skiing,Women's Skiathlon,0.004,0.006,0.005,0.014,Katherine Stewart-Jones,0.004
+CAN,Alpine Skiing,Women's Downhill,0.005,0.005,0.006,0.016,Marie-Michele Gagnon,0.005
+CZE,Cross-Country Skiing,Women's Team Sprint,0.005,0.005,0.006,0.016,Katerina Janatova,0.005
+CAN,Cross-Country Skiing,Women's 10km,0.005,0.005,0.005,0.015,Katherine Stewart-Jones,0.005
+BEL,Alpine Skiing,Men's Slalom,0.005,0.005,0.005,0.014,Armand Marchant,0.005
+BEL,Speed Skating,Women's 3000m,0.004,0.005,0.005,0.014,Sandrine Tas,0.004
+CAN,Cross-Country Skiing,Women's Skiathlon,0.005,0.005,0.005,0.014,Katherine Stewart-Jones,0.005
 CAN,Cross-Country Skiing,Women's 50km Mass Start,0.005,0.005,0.005,0.014,Katherine Stewart-Jones,0.005
-GER,Speed Skating,Women's 500m,0.004,0.004,0.005,0.014,Sophie Warmuth,0.004
-POL,Speed Skating,Men's Mass Start,0.004,0.005,0.005,0.014,Szymon Palka,0.003
-SLO,Cross-Country Skiing,Women's Sprint,0.004,0.005,0.005,0.014,Anamarija Lampic,0.004
-SLO,Cross-Country Skiing,Women's Skiathlon,0.005,0.004,0.005,0.014,Anamarija Lampic,0.005
+FRA,Ski Jumping,Mixed Team,0.003,0.005,0.006,0.014,Team France,0.003
+POL,Speed Skating,Men's 5000m,0.004,0.005,0.006,0.014,Vladimir Semirunniy,0.004
+SLO,Cross-Country Skiing,Women's Sprint,0.004,0.004,0.005,0.014,Anamarija Lampic,0.004
+SLO,Cross-Country Skiing,Women's Skiathlon,0.004,0.005,0.005,0.014,Anamarija Lampic,0.004
 SLO,Cross-Country Skiing,Women's 10km,0.004,0.005,0.005,0.014,Anamarija Lampic,0.004
-BEL,Speed Skating,Women's 3000m,0.004,0.004,0.005,0.013,Sandrine Tas,0.004
-CAN,Cross-Country Skiing,Women's 10km,0.004,0.004,0.005,0.013,Katherine Stewart-Jones,0.004
-CRO,Alpine Skiing,Men's Downhill,0.004,0.004,0.005,0.013,Filip Zubcic,0.004
-FRA,Ski Jumping,Mixed Team,0.003,0.004,0.006,0.013,Team France,0.003
+SLO,Cross-Country Skiing,Women's 50km Mass Start,0.005,0.005,0.005,0.014,Anamarija Lampic,0.005
+CRO,Alpine Skiing,Men's Giant Slalom,0.003,0.004,0.005,0.013,Filip Zubcic,0.003
+GER,Speed Skating,Women's 500m,0.004,0.004,0.005,0.013,Sophie Warmuth,0.004
+NOR,Speed Skating,Women's Mass Start,0.003,0.005,0.005,0.013,Aurora Grinden Løvås,0.003
 CRO,Alpine Skiing,Men's Super-G,0.003,0.004,0.005,0.012,Filip Zubcic,0.003
-CRO,Alpine Skiing,Men's Giant Slalom,0.003,0.004,0.004,0.011,Filip Zubcic,0.003
-SLO,Cross-Country Skiing,Women's 50km Mass Start,0.002,0.004,0.005,0.011,Anamarija Lampic,0.002
-GER,Alpine Skiing,Men's Giant Slalom,0.004,0.003,0.004,0.01,Anton Grammel,0.002
+CRO,Alpine Skiing,Men's Downhill,0.004,0.004,0.005,0.012,Filip Zubcic,0.004
+GER,Alpine Skiing,Men's Giant Slalom,0.003,0.004,0.004,0.011,Anton Grammel,0.002
+POL,Speed Skating,Men's Mass Start,0.003,0.004,0.004,0.011,Szymon Palka,0.003
+BEL,Alpine Skiing,Men's Giant Slalom,0.003,0.004,0.004,0.01,Sam Maes,0.003
+ESP,Cross-Country Skiing,Men's Sprint,0.003,0.003,0.004,0.01,Jaume Pueyo,0.003

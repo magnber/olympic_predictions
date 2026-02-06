@@ -1,0 +1,269 @@
+country,sport,competition,expected_gold,expected_silver,expected_bronze,expected_total,top_athlete,top_athlete_gold_prob
+AUT,Ski Jumping,Men's Normal Hill Individual,0.0,1.0,1.0,2.0,Stefan Kraft,0.0
+AUT,Luge,Men's Singles Luge,1.0,0.0,1.0,2.0,Wolfgang Kindl,1.0
+CAN,Short Track Speed Skating,Women's 500m,0.0,1.0,1.0,2.0,Courtney Sarault,0.0
+GER,Luge,Women's Singles Luge,1.0,1.0,0.0,2.0,Julia Taubitz,1.0
+GER,Bobsleigh,Two-Man Bobsled,0.0,1.0,1.0,2.0,Francesco Friedrich,0.0
+GER,Bobsleigh,Two-Woman Bobsled,1.0,1.0,0.0,2.0,Lisa Buckwitz,1.0
+GER,Bobsleigh,Women's Monobob,0.0,1.0,1.0,2.0,Laura Nolte,0.0
+GER,Skeleton,Women's Skeleton,0.0,1.0,1.0,2.0,Tina Hermann,0.0
+ITA,Alpine Skiing,Women's Super-G,1.0,1.0,0.0,2.0,Federica Brignone,1.0
+ITA,Biathlon,Men's 12.5km Pursuit,1.0,0.0,1.0,2.0,Tommaso Giacomel,1.0
+JPN,Ski Jumping,Women's Normal Hill Individual,1.0,1.0,0.0,2.0,Nozomi Maruyama,1.0
+JPN,Snowboard,Men's Halfpipe,0.0,1.0,1.0,2.0,Yuto Totsuka,0.0
+KOR,Short Track Speed Skating,Women's 1500m,1.0,0.0,1.0,2.0,Choi Min-jeong,1.0
+NED,Speed Skating,Women's 500m,1.0,0.0,1.0,2.0,Suzanne Schulting,1.0
+NED,Speed Skating,Women's 5000m,1.0,0.0,1.0,2.0,Joy Beune,1.0
+NOR,Alpine Skiing,Men's Super-G,1.0,1.0,0.0,2.0,Fredrik Moeller,1.0
+NOR,Cross-Country Skiing,Men's Team Sprint,1.0,1.0,0.0,2.0,Team Norway,1.0
+NOR,Cross-Country Skiing,Men's Sprint,0.0,1.0,1.0,2.0,Oskar Opstad Vike,0.0
+NOR,Cross-Country Skiing,Men's 15km,1.0,0.0,1.0,2.0,Even Northug,1.0
+NOR,Cross-Country Skiing,Women's Skiathlon,1.0,1.0,0.0,2.0,Astrid Oeyre Slind,1.0
+SLO,Ski Jumping,Women's Large Hill Individual,1.0,1.0,0.0,2.0,Nika Vodan,1.0
+USA,Freestyle Skiing,Women's Moguls,1.0,1.0,0.0,2.0,Jaelin Kauf,1.0
+USA,Freestyle Skiing,Men's Slopestyle,1.0,0.0,1.0,2.0,Mac Forehand,1.0
+AIN,Biathlon,Women's 15km Individual,0.0,1.0,0.0,1.0,Daria Krykova-Budasheva,0.0
+ALB,Alpine Skiing,Women's Giant Slalom,1.0,0.0,0.0,1.0,Lara Colturi,1.0
+AUS,Freestyle Skiing,Men's Moguls,0.0,1.0,0.0,1.0,Matt Graham,0.0
+AUS,Freestyle Skiing,Women's Aerials,1.0,0.0,0.0,1.0,Laura Peel,1.0
+AUS,Snowboard,Men's Halfpipe,1.0,0.0,0.0,1.0,Valentino Guseli,1.0
+AUS,Snowboard,Women's Slopestyle,0.0,1.0,0.0,1.0,Tess Coady,0.0
+AUS,Snowboard,Men's Snowboard Cross,0.0,0.0,1.0,1.0,Adam Lambert,0.0
+AUT,Alpine Skiing,Men's Slalom,0.0,1.0,0.0,1.0,Fabio Gstrein,0.0
+AUT,Alpine Skiing,Men's Giant Slalom,1.0,0.0,0.0,1.0,Manuel Feller,1.0
+AUT,Alpine Skiing,Men's Super-G,0.0,0.0,1.0,1.0,Lukas Feurstein,0.0
+AUT,Alpine Skiing,Men's Downhill,0.0,1.0,0.0,1.0,Stefan Eichberger,0.0
+AUT,Cross-Country Skiing,Women's Sprint,0.0,1.0,0.0,1.0,Teresa Stadlober,0.0
+AUT,Cross-Country Skiing,Men's 15km,0.0,1.0,0.0,1.0,Mika Vermeulen,0.0
+AUT,Ski Jumping,Men's Large Hill Individual,1.0,0.0,0.0,1.0,Stefan Kraft,1.0
+AUT,Snowboard,Women's Slopestyle,1.0,0.0,0.0,1.0,Anna Gasser,1.0
+AUT,Snowboard,Men's Snowboard Cross,1.0,0.0,0.0,1.0,Alessandro Haemmerle,1.0
+AUT,Snowboard,Women's Parallel Giant Slalom,0.0,1.0,0.0,1.0,Daniela Ulbing,0.0
+AUT,Nordic Combined,Men's Individual Normal Hill,1.0,0.0,0.0,1.0,Johannes Lamparter,1.0
+AUT,Bobsleigh,Two-Man Bobsled,1.0,0.0,0.0,1.0,Benjamin Maier,1.0
+AUT,Skeleton,Women's Skeleton,1.0,0.0,0.0,1.0,Janine Flock,1.0
+AUT,Ski Jumping,Men's Team,1.0,0.0,0.0,1.0,Team Austria,1.0
+AUT,Nordic Combined,Men's Team Sprint,0.0,1.0,0.0,1.0,Team Austria,0.0
+AUT,Speed Skating,Women's 500m,0.0,1.0,0.0,1.0,Vanessa Herzog,0.0
+BEL,Short Track Speed Skating,Women's 1500m,0.0,1.0,0.0,1.0,Hanne Desmet,0.0
+BEL,Figure Skating,Women's Singles,1.0,0.0,0.0,1.0,Loena Hendrickx,1.0
+BEL,Speed Skating,Men's Mass Start,1.0,0.0,0.0,1.0,Bart Swings,1.0
+CAN,Alpine Skiing,Men's Giant Slalom,0.0,0.0,1.0,1.0,Cameron Alexander,0.0
+CAN,Ski Jumping,Women's Normal Hill Individual,0.0,0.0,1.0,1.0,Abigail Strate,0.0
+CAN,Freestyle Skiing,Men's Moguls,1.0,0.0,0.0,1.0,Mikael Kingsbury,1.0
+CAN,Freestyle Skiing,Men's Dual Moguls,1.0,0.0,0.0,1.0,Mikael Kingsbury,1.0
+CAN,Freestyle Skiing,Women's Dual Moguls,0.0,0.0,1.0,1.0,Maia Schwinghammer,0.0
+CAN,Freestyle Skiing,Men's Ski Cross,0.0,1.0,0.0,1.0,Reece Howden,0.0
+CAN,Freestyle Skiing,Women's Ski Cross,1.0,0.0,0.0,1.0,Brittany Phelan,1.0
+CAN,Freestyle Skiing,Men's Halfpipe,0.0,1.0,0.0,1.0,Noah Bowman,0.0
+CAN,Freestyle Skiing,Women's Halfpipe,0.0,0.0,1.0,1.0,Rachael Karker,0.0
+CAN,Freestyle Skiing,Women's Slopestyle,1.0,0.0,0.0,1.0,Megan Oldham,1.0
+CAN,Freestyle Skiing,Women's Big Air,1.0,0.0,0.0,1.0,Megan Oldham,1.0
+CAN,Snowboard,Men's Snowboard Cross,0.0,1.0,0.0,1.0,Eliot Grondin,0.0
+CAN,Short Track Speed Skating,Men's 500m,0.0,0.0,1.0,1.0,William Dandjinou,0.0
+CAN,Short Track Speed Skating,Men's 1000m,0.0,0.0,1.0,1.0,William Dandjinou,0.0
+CAN,Short Track Speed Skating,Men's 1500m,1.0,0.0,0.0,1.0,Steven Dubois,1.0
+CAN,Bobsleigh,Four-Man Bobsled,1.0,0.0,0.0,1.0,Justin Kripps,1.0
+CAN,Curling,Men's Curling,1.0,0.0,0.0,1.0,Brad Gushue,1.0
+CAN,Ice Hockey,Women's Ice Hockey,1.0,0.0,0.0,1.0,Team Canada,1.0
+CAN,Curling,Mixed Doubles Curling,0.0,0.0,1.0,1.0,Team Canada,0.0
+CAN,Speed Skating,Women's 1500m,0.0,0.0,1.0,1.0,Ivanie Blondin,0.0
+CHN,Freestyle Skiing,Men's Aerials,0.0,0.0,1.0,1.0,Qi Guangpu,0.0
+CHN,Freestyle Skiing,Women's Aerials,0.0,1.0,0.0,1.0,Xu Mengtao,0.0
+CHN,Freestyle Skiing,Women's Halfpipe,1.0,0.0,0.0,1.0,Eileen Gu,1.0
+CHN,Snowboard,Women's Halfpipe,0.0,1.0,0.0,1.0,Xuetong Cai,0.0
+CHN,Snowboard,Men's Big Air,0.0,0.0,1.0,1.0,Su Yiming,0.0
+CHN,Speed Skating,Men's 1500m,0.0,0.0,1.0,1.0,Zhongyan Ning,0.0
+CHN,Speed Skating,Men's 1000m,0.0,1.0,0.0,1.0,Zhongyan Ning,0.0
+CZE,Biathlon,Women's 12.5km Mass Start,0.0,0.0,1.0,1.0,Marketa Davidova,0.0
+CZE,Snowboard,Women's Snowboard Cross,0.0,1.0,0.0,1.0,Eva Samkova,0.0
+CZE,Ice Hockey,Men's Ice Hockey,1.0,0.0,0.0,1.0,Team Czechia,1.0
+CZE,Speed Skating,Women's 3000m,0.0,0.0,1.0,1.0,Martina Sáblíková,0.0
+EST,Speed Skating,Men's 1000m,0.0,0.0,1.0,1.0,Marten Liiv,0.0
+FIN,Cross-Country Skiing,Women's 50km Mass Start,0.0,0.0,1.0,1.0,Kerttu Niskanen,0.0
+FIN,Biathlon,Women's 7.5km Sprint,0.0,1.0,0.0,1.0,Suvi Minkkinen,0.0
+FIN,Biathlon,Women's 10km Pursuit,0.0,0.0,1.0,1.0,Suvi Minkkinen,0.0
+FIN,Ice Hockey,Women's Ice Hockey,0.0,1.0,0.0,1.0,Team Finland,0.0
+FIN,Nordic Combined,Men's Team Sprint,0.0,0.0,1.0,1.0,Team Finland,0.0
+FRA,Cross-Country Skiing,Women's Sprint,1.0,0.0,0.0,1.0,Lena Quintin,1.0
+FRA,Cross-Country Skiing,Men's Skiathlon,0.0,1.0,0.0,1.0,Jules Lapierre,0.0
+FRA,Cross-Country Skiing,Women's 4x5km Relay,1.0,0.0,0.0,1.0,Flora Dolci,1.0
+FRA,Cross-Country Skiing,Women's 10km,0.0,1.0,0.0,1.0,Flora Dolci,0.0
+FRA,Biathlon,Men's 10km Sprint,0.0,0.0,1.0,1.0,Eric Perrot,0.0
+FRA,Biathlon,Women's 7.5km Sprint,1.0,0.0,0.0,1.0,Justine Braisaz-Bouchet,1.0
+FRA,Biathlon,Women's 15km Individual,1.0,0.0,0.0,1.0,Lou Jeanmonnot,1.0
+FRA,Biathlon,Women's 10km Pursuit,1.0,0.0,0.0,1.0,Julia Simon,1.0
+FRA,Biathlon,Women's 12.5km Mass Start,0.0,1.0,0.0,1.0,Lou Jeanmonnot,0.0
+FRA,Freestyle Skiing,Men's Dual Moguls,0.0,0.0,1.0,1.0,Benjamin Cavet,0.0
+FRA,Freestyle Skiing,Women's Moguls,0.0,0.0,1.0,1.0,Perrine Laffont,0.0
+FRA,Freestyle Skiing,Women's Dual Moguls,1.0,0.0,0.0,1.0,Perrine Laffont,1.0
+FRA,Freestyle Skiing,Women's Slopestyle,0.0,0.0,1.0,1.0,Tess Ledeux,0.0
+FRA,Biathlon,Men's 4x7.5km Relay,0.0,1.0,0.0,1.0,Team France,0.0
+FRA,Biathlon,Mixed Relay,0.0,1.0,0.0,1.0,Team France,0.0
+GBR,Snowboard,Women's Snowboard Cross,1.0,0.0,0.0,1.0,Charlotte Bankes,1.0
+GBR,Skeleton,Men's Skeleton,0.0,1.0,0.0,1.0,Matt Weston,0.0
+GER,Alpine Skiing,Women's Super-G,0.0,0.0,1.0,1.0,Kira Weidle-Winkelmann,0.0
+GER,Cross-Country Skiing,Women's Team Sprint,1.0,0.0,0.0,1.0,Team Germany,1.0
+GER,Cross-Country Skiing,Men's 4x10km Relay,1.0,0.0,0.0,1.0,Team Germany,1.0
+GER,Biathlon,Men's 10km Sprint,0.0,1.0,0.0,1.0,Philipp Nawrath,0.0
+GER,Biathlon,Men's 15km Mass Start,0.0,0.0,1.0,1.0,Philipp Nawrath,0.0
+GER,Biathlon,Women's 15km Individual,0.0,0.0,1.0,1.0,Franziska Preuss,0.0
+GER,Freestyle Skiing,Men's Ski Cross,0.0,0.0,1.0,1.0,Florian Wilmsmann,0.0
+GER,Freestyle Skiing,Women's Ski Cross,0.0,1.0,0.0,1.0,Daniela Maier,0.0
+GER,Snowboard,Women's Parallel Giant Slalom,1.0,0.0,0.0,1.0,Ramona Theresia Hofmeister,1.0
+GER,Nordic Combined,Men's Individual Normal Hill,0.0,1.0,0.0,1.0,Vinzenz Geiger,0.0
+GER,Nordic Combined,Men's Individual Large Hill,0.0,0.0,1.0,1.0,Vinzenz Geiger,0.0
+GER,Luge,Men's Singles Luge,0.0,1.0,0.0,1.0,Felix Loch,0.0
+GER,Bobsleigh,Four-Man Bobsled,0.0,0.0,1.0,1.0,Francesco Friedrich,0.0
+GER,Ice Hockey,Men's Ice Hockey,0.0,1.0,0.0,1.0,Team Germany,0.0
+GER,Biathlon,Mixed Relay,1.0,0.0,0.0,1.0,Team Germany,1.0
+GER,Nordic Combined,Men's Team Sprint,1.0,0.0,0.0,1.0,Team Germany,1.0
+GER,Speed Skating,Women's Mass Start,1.0,0.0,0.0,1.0,Michelle Uhrig,1.0
+HUN,Short Track Speed Skating,Men's 1500m,0.0,0.0,1.0,1.0,Liu Shaolin Sandor,0.0
+IRL,Cross-Country Skiing,Men's 50km Mass Start,1.0,0.0,0.0,1.0,Westgaard Thomas Maloney,1.0
+ITA,Alpine Skiing,Women's Downhill,0.0,1.0,0.0,1.0,Laura Pirovano,0.0
+ITA,Cross-Country Skiing,Men's Skiathlon,0.0,0.0,1.0,1.0,Davide Graz,0.0
+ITA,Biathlon,Men's 10km Sprint,1.0,0.0,0.0,1.0,Tommaso Giacomel,1.0
+ITA,Biathlon,Men's 20km Individual,0.0,1.0,0.0,1.0,Tommaso Giacomel,0.0
+ITA,Biathlon,Men's 15km Mass Start,1.0,0.0,0.0,1.0,Tommaso Giacomel,1.0
+ITA,Freestyle Skiing,Men's Ski Cross,1.0,0.0,0.0,1.0,Simone Deromedis,1.0
+ITA,Snowboard,Women's Snowboard Cross,0.0,0.0,1.0,1.0,Caterina Carpano,0.0
+ITA,Snowboard,Men's Parallel Giant Slalom,1.0,0.0,0.0,1.0,Edwin Coratti,1.0
+ITA,Short Track Speed Skating,Men's 1000m,1.0,0.0,0.0,1.0,Pietro Sighel,1.0
+ITA,Figure Skating,Men's Singles,1.0,0.0,0.0,1.0,Daniel Grassl,1.0
+ITA,Biathlon,Mixed Relay,0.0,0.0,1.0,1.0,Team Italy,0.0
+ITA,Curling,Mixed Doubles Curling,1.0,0.0,0.0,1.0,Team Italy,1.0
+ITA,Speed Skating,Women's 3000m,1.0,0.0,0.0,1.0,Francesca Lollobrigida,1.0
+ITA,Speed Skating,Men's 5000m,1.0,0.0,0.0,1.0,Davide Ghiotto,1.0
+ITA,Speed Skating,Men's Mass Start,0.0,0.0,1.0,1.0,Andrea Giovannini,0.0
+ITA,Speed Skating,Men's 10000m,0.0,1.0,0.0,1.0,Davide Ghiotto,0.0
+JPN,Ski Jumping,Women's Large Hill Individual,0.0,0.0,1.0,1.0,Nozomi Maruyama,0.0
+JPN,Snowboard,Women's Halfpipe,0.0,0.0,1.0,1.0,Sena Tomita,0.0
+JPN,Snowboard,Men's Slopestyle,0.0,0.0,1.0,1.0,Kira Kimura,0.0
+JPN,Snowboard,Men's Big Air,1.0,0.0,0.0,1.0,Kira Kimura,1.0
+JPN,Snowboard,Women's Big Air,0.0,1.0,0.0,1.0,Kokomo Murase,0.0
+JPN,Nordic Combined,Men's Individual Normal Hill,0.0,0.0,1.0,1.0,Ryota Yamamoto,0.0
+JPN,Nordic Combined,Men's Individual Large Hill,1.0,0.0,0.0,1.0,Ryota Yamamoto,1.0
+JPN,Figure Skating,Women's Singles,0.0,1.0,0.0,1.0,Kaori Sakamoto,0.0
+JPN,Ice Hockey,Women's Ice Hockey,0.0,0.0,1.0,1.0,Team Japan,0.0
+JPN,Ski Jumping,Mixed Team,0.0,0.0,1.0,1.0,Team Japan,0.0
+JPN,Speed Skating,Men's 500m,0.0,0.0,1.0,1.0,Tatsuya Shinhama,0.0
+JPN,Speed Skating,Women's 1500m,0.0,1.0,0.0,1.0,Miho Takagi,0.0
+JPN,Speed Skating,Women's 1000m,0.0,1.0,0.0,1.0,Miho Takagi,0.0
+JPN,Speed Skating,Women's Mass Start,0.0,0.0,1.0,1.0,Ayano Sato,0.0
+KAZ,Figure Skating,Men's Singles,0.0,0.0,1.0,1.0,Mikhail Shaidorov,0.0
+KOR,Short Track Speed Skating,Men's 500m,0.0,1.0,0.0,1.0,Park Ji-won,0.0
+KOR,Short Track Speed Skating,Men's 1000m,0.0,1.0,0.0,1.0,Park Ji-won,0.0
+KOR,Short Track Speed Skating,Men's 1500m,0.0,1.0,0.0,1.0,Park Ji-won,0.0
+KOR,Short Track Speed Skating,Women's 500m,1.0,0.0,0.0,1.0,Kim Gil-li,1.0
+KOR,Short Track Speed Skating,Women's 1000m,1.0,0.0,0.0,1.0,Kim Gil-li,1.0
+KOR,Curling,Women's Curling,0.0,0.0,1.0,1.0,Kim Eun-jung,0.0
+LAT,Skeleton,Men's Skeleton,0.0,0.0,1.0,1.0,Martins Dukurs,0.0
+NED,Short Track Speed Skating,Women's 1000m,0.0,1.0,0.0,1.0,Xandra Velzeboer,0.0
+NED,Speed Skating,Men's 500m,0.0,1.0,0.0,1.0,Jenning De Boo,0.0
+NED,Speed Skating,Men's 1500m,0.0,1.0,0.0,1.0,Kjeld Nuis,0.0
+NED,Speed Skating,Women's 1000m,0.0,0.0,1.0,1.0,Jutta Leerdam,0.0
+NED,Speed Skating,Men's 5000m,0.0,1.0,0.0,1.0,Beau Snellink,0.0
+NED,Speed Skating,Women's Mass Start,0.0,1.0,0.0,1.0,Marijke Groenewoud,0.0
+NED,Speed Skating,Men's Mass Start,0.0,1.0,0.0,1.0,Bart Hoolwerf,0.0
+NED,Speed Skating,Men's 10000m,1.0,0.0,0.0,1.0,Beau Snellink,1.0
+NOR,Alpine Skiing,Men's Slalom,1.0,0.0,0.0,1.0,Atle Lie McGrath,1.0
+NOR,Alpine Skiing,Women's Giant Slalom,0.0,0.0,1.0,1.0,Kajsa Vickhoff Lie,0.0
+NOR,Alpine Skiing,Men's Downhill,0.0,0.0,1.0,1.0,Atle Lie McGrath,0.0
+NOR,Cross-Country Skiing,Women's Team Sprint,0.0,1.0,0.0,1.0,Julie Myhre,0.0
+NOR,Cross-Country Skiing,Men's 4x10km Relay,0.0,1.0,0.0,1.0,Simen Hegstad Krueger,0.0
+NOR,Cross-Country Skiing,Men's Skiathlon,1.0,0.0,0.0,1.0,Johannes Hoesflot Klaebo,1.0
+NOR,Cross-Country Skiing,Men's 50km Mass Start,0.0,0.0,1.0,1.0,Johannes Hoesflot Klaebo,0.0
+NOR,Cross-Country Skiing,Women's 4x5km Relay,0.0,1.0,0.0,1.0,Astrid Oeyre Slind,0.0
+NOR,Cross-Country Skiing,Women's 50km Mass Start,1.0,0.0,0.0,1.0,Karoline Simpson-Larsen,1.0
+NOR,Biathlon,Men's 20km Individual,1.0,0.0,0.0,1.0,Johannes Dale-Skjevdal,1.0
+NOR,Biathlon,Men's 12.5km Pursuit,0.0,1.0,0.0,1.0,Johan-Olav Botn,0.0
+NOR,Biathlon,Women's 7.5km Sprint,0.0,0.0,1.0,1.0,Maren Kirkeeide,0.0
+NOR,Freestyle Skiing,Men's Halfpipe,1.0,0.0,0.0,1.0,Birk Ruud,1.0
+NOR,Freestyle Skiing,Men's Slopestyle,0.0,1.0,0.0,1.0,Birk Ruud,0.0
+NOR,Freestyle Skiing,Men's Big Air,0.0,0.0,1.0,1.0,Birk Ruud,0.0
+NOR,Snowboard,Men's Slopestyle,0.0,1.0,0.0,1.0,Marcus Kleveland,0.0
+NOR,Snowboard,Men's Big Air,0.0,1.0,0.0,1.0,Marcus Kleveland,0.0
+NOR,Nordic Combined,Men's Individual Large Hill,0.0,1.0,0.0,1.0,Jens Luraas Oftebro,0.0
+NOR,Curling,Women's Curling,1.0,0.0,0.0,1.0,Kristin Skaslien,1.0
+NOR,Biathlon,Men's 4x7.5km Relay,0.0,0.0,1.0,1.0,Team Norway,0.0
+NOR,Biathlon,Women's 4x6km Relay,0.0,1.0,0.0,1.0,Team Norway,0.0
+NOR,Ski Jumping,Mixed Team,1.0,0.0,0.0,1.0,Team Norway,1.0
+NOR,Speed Skating,Women's 3000m,0.0,1.0,0.0,1.0,Ragne Wiklund,0.0
+NOR,Speed Skating,Women's 5000m,0.0,1.0,0.0,1.0,Ragne Wiklund,0.0
+NZL,Freestyle Skiing,Men's Halfpipe,0.0,0.0,1.0,1.0,Nico Porteous,0.0
+NZL,Snowboard,Women's Big Air,1.0,0.0,0.0,1.0,Zoi Sadowski-Synnott,1.0
+RUS,Freestyle Skiing,Women's Halfpipe,0.0,1.0,0.0,1.0,Valeriya Demidova,0.0
+RUS,Snowboard,Men's Parallel Giant Slalom,0.0,1.0,0.0,1.0,Dmitry Loginov,0.0
+SCO,Curling,Men's Curling,0.0,0.0,1.0,1.0,Bruce Mouat,0.0
+SLO,Ski Jumping,Men's Normal Hill Individual,1.0,0.0,0.0,1.0,Anze Lanisek,1.0
+SLO,Ski Jumping,Men's Large Hill Individual,0.0,0.0,1.0,1.0,Anze Lanisek,0.0
+SLO,Snowboard,Men's Parallel Giant Slalom,0.0,0.0,1.0,1.0,Tim Mastnak,0.0
+SLO,Ski Jumping,Men's Team,0.0,1.0,0.0,1.0,Team Slovenia,0.0
+SLO,Ski Jumping,Mixed Team,0.0,1.0,0.0,1.0,Team Slovenia,0.0
+SUI,Alpine Skiing,Men's Slalom,0.0,0.0,1.0,1.0,Tanguy Nef,0.0
+SUI,Alpine Skiing,Women's Slalom,1.0,0.0,0.0,1.0,Wendy Holdener,1.0
+SUI,Alpine Skiing,Men's Giant Slalom,0.0,1.0,0.0,1.0,Thomas Tumler,0.0
+SUI,Alpine Skiing,Men's Downhill,1.0,0.0,0.0,1.0,Marco Odermatt,1.0
+SUI,Alpine Skiing,Women's Downhill,1.0,0.0,0.0,1.0,Camille Rast,1.0
+SUI,Cross-Country Skiing,Women's 4x5km Relay,0.0,0.0,1.0,1.0,Nadine Faehndrich,0.0
+SUI,Ski Jumping,Men's Large Hill Individual,0.0,1.0,0.0,1.0,Gregor Deschwanden,0.0
+SUI,Freestyle Skiing,Men's Aerials,1.0,0.0,0.0,1.0,Noe Roth,1.0
+SUI,Freestyle Skiing,Women's Ski Cross,0.0,0.0,1.0,1.0,Fanny Smith,0.0
+SUI,Freestyle Skiing,Women's Big Air,0.0,1.0,0.0,1.0,Mathilde Gremaud,0.0
+SUI,Snowboard,Women's Parallel Giant Slalom,0.0,0.0,1.0,1.0,Julie Zogg,0.0
+SUI,Curling,Men's Curling,0.0,1.0,0.0,1.0,Yannick Schwaller,0.0
+SUI,Curling,Women's Curling,0.0,1.0,0.0,1.0,Silvana Tirinzoni,0.0
+SUI,Biathlon,Women's 4x6km Relay,1.0,0.0,0.0,1.0,Team Switzerland,1.0
+SUI,Ski Jumping,Men's Team,0.0,0.0,1.0,1.0,Team Switzerland,0.0
+SUI,Curling,Mixed Doubles Curling,0.0,1.0,0.0,1.0,Team Switzerland,0.0
+SWE,Alpine Skiing,Women's Slalom,0.0,1.0,0.0,1.0,Larsson Anna Swenn,0.0
+SWE,Cross-Country Skiing,Men's Team Sprint,0.0,0.0,1.0,1.0,Edvin Anger,0.0
+SWE,Cross-Country Skiing,Men's Sprint,1.0,0.0,0.0,1.0,Edvin Anger,1.0
+SWE,Cross-Country Skiing,Women's Team Sprint,0.0,0.0,1.0,1.0,Maja Dahlqvist,0.0
+SWE,Cross-Country Skiing,Women's Skiathlon,0.0,0.0,1.0,1.0,Moa Ilar,0.0
+SWE,Cross-Country Skiing,Women's 10km,0.0,0.0,1.0,1.0,Moa Ilar,0.0
+SWE,Cross-Country Skiing,Women's 50km Mass Start,0.0,1.0,0.0,1.0,Moa Ilar,0.0
+SWE,Biathlon,Men's 20km Individual,0.0,0.0,1.0,1.0,Sebastian Samuelsson,0.0
+SWE,Biathlon,Men's 15km Mass Start,0.0,1.0,0.0,1.0,Sebastian Samuelsson,0.0
+SWE,Biathlon,Women's 10km Pursuit,0.0,1.0,0.0,1.0,Hanna Oeberg,0.0
+SWE,Biathlon,Women's 12.5km Mass Start,1.0,0.0,0.0,1.0,Hanna Oeberg,1.0
+SWE,Freestyle Skiing,Men's Moguls,0.0,0.0,1.0,1.0,Walter Wallberg,0.0
+SWE,Freestyle Skiing,Men's Dual Moguls,0.0,1.0,0.0,1.0,Walter Wallberg,0.0
+SWE,Freestyle Skiing,Men's Big Air,0.0,1.0,0.0,1.0,Oliwer Magnusson,0.0
+SWE,Biathlon,Women's 4x6km Relay,0.0,0.0,1.0,1.0,Team Sweden,0.0
+UKR,Short Track Speed Skating,Men's 500m,1.0,0.0,0.0,1.0,Oleh Handei,1.0
+UKR,Skeleton,Men's Skeleton,1.0,0.0,0.0,1.0,Vladyslav Heraskevych,1.0
+USA,Alpine Skiing,Women's Slalom,0.0,0.0,1.0,1.0,A J Hurt,0.0
+USA,Alpine Skiing,Women's Giant Slalom,0.0,1.0,0.0,1.0,Brien Nina O,0.0
+USA,Alpine Skiing,Women's Downhill,0.0,0.0,1.0,1.0,Lauren Macuga,0.0
+USA,Cross-Country Skiing,Women's Sprint,0.0,0.0,1.0,1.0,Julia Kern,0.0
+USA,Cross-Country Skiing,Men's 4x10km Relay,0.0,0.0,1.0,1.0,Gus Schumacher,0.0
+USA,Cross-Country Skiing,Men's 50km Mass Start,0.0,1.0,0.0,1.0,Ben Ogden,0.0
+USA,Cross-Country Skiing,Women's 10km,1.0,0.0,0.0,1.0,Julia Kern,1.0
+USA,Freestyle Skiing,Women's Dual Moguls,0.0,1.0,0.0,1.0,Jaelin Kauf,0.0
+USA,Freestyle Skiing,Men's Aerials,0.0,1.0,0.0,1.0,Christopher Lillis,0.0
+USA,Freestyle Skiing,Women's Aerials,0.0,0.0,1.0,1.0,Winter Vinecki,0.0
+USA,Freestyle Skiing,Men's Big Air,1.0,0.0,0.0,1.0,Colby Stevenson,1.0
+USA,Freestyle Skiing,Women's Slopestyle,0.0,1.0,0.0,1.0,Darian Stevens,0.0
+USA,Freestyle Skiing,Women's Big Air,0.0,0.0,1.0,1.0,Darian Stevens,0.0
+USA,Snowboard,Women's Halfpipe,1.0,0.0,0.0,1.0,Chloe Kim,1.0
+USA,Snowboard,Men's Slopestyle,1.0,0.0,0.0,1.0,Chris Corning,1.0
+USA,Snowboard,Women's Slopestyle,0.0,0.0,1.0,1.0,Julia Marino,0.0
+USA,Snowboard,Women's Big Air,0.0,0.0,1.0,1.0,Julia Marino,0.0
+USA,Short Track Speed Skating,Women's 1000m,0.0,0.0,1.0,1.0,Kristen Santos-Griswold,0.0
+USA,Figure Skating,Men's Singles,0.0,1.0,0.0,1.0,Ilia Malinin,0.0
+USA,Figure Skating,Women's Singles,0.0,0.0,1.0,1.0,Isabeau Levito,0.0
+USA,Luge,Women's Singles Luge,0.0,0.0,1.0,1.0,Summer Britcher,0.0
+USA,Bobsleigh,Four-Man Bobsled,0.0,1.0,0.0,1.0,Hunter Church,0.0
+USA,Bobsleigh,Two-Woman Bobsled,0.0,0.0,1.0,1.0,Kaillie Humphries,0.0
+USA,Bobsleigh,Women's Monobob,1.0,0.0,0.0,1.0,Elana Meyers Taylor,1.0
+USA,Ice Hockey,Men's Ice Hockey,0.0,0.0,1.0,1.0,Team USA,0.0
+USA,Biathlon,Men's 4x7.5km Relay,1.0,0.0,0.0,1.0,Team USA,1.0
+USA,Speed Skating,Men's 500m,1.0,0.0,0.0,1.0,Jordan Stolz,1.0
+USA,Speed Skating,Women's 1500m,1.0,0.0,0.0,1.0,Brittany Bowe,1.0
+USA,Speed Skating,Men's 1500m,1.0,0.0,0.0,1.0,Jordan Stolz,1.0
+USA,Speed Skating,Women's 1000m,1.0,0.0,0.0,1.0,Brittany Bowe,1.0
+USA,Speed Skating,Men's 1000m,1.0,0.0,0.0,1.0,Jordan Stolz,1.0
+USA,Speed Skating,Men's 5000m,0.0,0.0,1.0,1.0,Casey Dawson,0.0
+USA,Speed Skating,Men's 10000m,0.0,0.0,1.0,1.0,Casey Dawson,0.0

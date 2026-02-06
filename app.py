@@ -91,28 +91,41 @@ def load_database_stats():
     return stats
 
 
+SINGLE_RUN_DIR = OUTPUT_DIR / "single_run"
+
+
 @st.cache_data
-def load_predictions():
+def load_predictions(use_single_run=False):
     """Load prediction results."""
-    pred_file = OUTPUT_DIR / "predictions.csv"
+    if use_single_run:
+        pred_file = SINGLE_RUN_DIR / "predictions.csv"
+    else:
+        pred_file = OUTPUT_DIR / "predictions.csv"
     if pred_file.exists():
         return pd.read_csv(pred_file)
     return None
 
 
 @st.cache_data
-def load_competition_predictions():
+def load_competition_predictions(use_single_run=False):
     """Load competition-level predictions."""
-    comp_file = OUTPUT_DIR / "competition_predictions.csv"
+    if use_single_run:
+        # For single run, load competition results
+        comp_file = SINGLE_RUN_DIR / "competition_results.csv"
+    else:
+        comp_file = OUTPUT_DIR / "competition_predictions.csv"
     if comp_file.exists():
         return pd.read_csv(comp_file)
     return None
 
 
 @st.cache_data
-def load_country_breakdown():
+def load_country_breakdown(use_single_run=False):
     """Load country-competition breakdown for drilldown."""
-    breakdown_file = OUTPUT_DIR / "country_competition_breakdown.csv"
+    if use_single_run:
+        breakdown_file = SINGLE_RUN_DIR / "country_competition_breakdown.csv"
+    else:
+        breakdown_file = OUTPUT_DIR / "country_competition_breakdown.csv"
     if breakdown_file.exists():
         return pd.read_csv(breakdown_file)
     return None
@@ -273,12 +286,12 @@ if page == "Datagrunnlag":
         df_sources = df_sources[["beskrivelse", "count", "prosent"]]
         df_sources.columns = ["Kilde", "Entries", "Prosent"]
         
-        st.dataframe(df_sources, use_container_width=True, hide_index=True)
+        st.dataframe(df_sources, width="stretch", hide_index=True)
     
     with col2:
         st.subheader("Entries etter sport", anchor="entries-sport")
         df_sports = stats["entries_by_sport"]
-        st.dataframe(df_sports, use_container_width=True, hide_index=True)
+        st.dataframe(df_sports, width="stretch", hide_index=True)
     
     st.divider()
     
@@ -311,7 +324,7 @@ if page == "Datagrunnlag":
         "kvalitet": "Kvalitet"
     })
     
-    st.dataframe(df_quality, use_container_width=True, hide_index=True)
+    st.dataframe(df_quality, width="stretch", hide_index=True)
     
     st.divider()
     
@@ -342,7 +355,7 @@ if page == "Datagrunnlag":
         else:
             df_filtered = df_athletes
         
-        st.dataframe(df_filtered, use_container_width=True, hide_index=True)
+        st.dataframe(df_filtered, width="stretch", hide_index=True)
     
     with tab2:
         df_entries = load_entries_detail()
@@ -359,7 +372,7 @@ if page == "Datagrunnlag":
         else:
             df_entries_filtered = df_entries
         
-        st.dataframe(df_entries_filtered.head(100), use_container_width=True, hide_index=True)
+        st.dataframe(df_entries_filtered.head(100), width="stretch", hide_index=True)
         st.caption(f"Viser topp 100 av {len(df_entries_filtered)} entries")
     
     with tab3:
@@ -443,12 +456,12 @@ if page == "Datagrunnlag":
             if country_filter_xc:
                 df_display = df_display[df_display["Land"].isin(country_filter_xc)]
             
-            st.dataframe(df_display.head(50), use_container_width=True, hide_index=True)
+            st.dataframe(df_display.head(50), width="stretch", hide_index=True)
             
             # Show stats
             col1, col2, col3 = st.columns(3)
-            sprint_only = len(df_pivot[df_pivot["Sprint"] != "-"][df_pivot["Distance"] == "-"])
-            dist_only = len(df_pivot[df_pivot["Distance"] != "-"][df_pivot["Sprint"] == "-"])
+            sprint_only = len(df_pivot[(df_pivot["Sprint"] != "-") & (df_pivot["Distance"] == "-")])
+            dist_only = len(df_pivot[(df_pivot["Distance"] != "-") & (df_pivot["Sprint"] == "-")])
             both = len(df_pivot[(df_pivot["Sprint"] != "-") & (df_pivot["Distance"] != "-")])
             
             col1.metric("Sprint-spesialister", sprint_only)
@@ -481,7 +494,7 @@ elif page == "Historikk":
     df_display.columns = ["Land", "🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total", "Deltakelser", "Snitt rank"]
     df_display.index = range(1, len(df_display) + 1)
     
-    st.dataframe(df_display, use_container_width=True)
+    st.dataframe(df_display, width="stretch")
     
     st.divider()
     
@@ -511,7 +524,7 @@ elif page == "Historikk":
     df_pivot_display = df_pivot.head(15).copy()
     df_pivot_display.index.name = "Land"
     
-    st.dataframe(df_pivot_display, use_container_width=True)
+    st.dataframe(df_pivot_display, width="stretch")
     
     st.divider()
     
@@ -557,7 +570,7 @@ elif page == "Historikk":
             df_top10 = df_ol.head(10)[["rank", "country_code", "gold", "silver", "bronze", "total"]].copy()
             df_top10.columns = ["Rank", "Land", "🥇", "🥈", "🥉", "Total"]
             
-            st.dataframe(df_top10, use_container_width=True, hide_index=True)
+            st.dataframe(df_top10, width="stretch", hide_index=True)
             
             # Nordic countries in this Olympics
             df_nordic_ol = df_ol[df_ol["country_code"].isin(nordic_codes)]
@@ -586,7 +599,26 @@ elif page == "Historikk":
 elif page == "Predikasjon oversikt":
     st.header("🏆 Predikasjon oversikt", anchor="predikasjon-oversikt")
     
-    df_pred = load_predictions()
+    # Toggle between Monte Carlo and Single Run
+    col_toggle1, col_toggle2 = st.columns([3, 1])
+    with col_toggle1:
+        view_mode = st.radio(
+            "Visningsmodus",
+            ["Monte Carlo (100k simuleringer)", "Enkelt utfall (én simulering)"],
+            horizontal=True,
+            key="pred_view_mode"
+        )
+    
+    use_single_run = "Enkelt" in view_mode
+    
+    if use_single_run:
+        st.info("📌 **Enkelt utfall**: Viser resultatet av ÉN simulert OL-gjennomføring. "
+                "Dette er ETT mulig utfall, ikke forventet verdi.")
+    else:
+        st.info("📊 **Monte Carlo**: Viser gjennomsnitt over 100.000 simuleringer. "
+                "Tallene representerer *forventet* antall medaljer.")
+    
+    df_pred = load_predictions(use_single_run=use_single_run)
     
     if df_pred is None:
         st.error("Ingen prediksjoner funnet.")
@@ -615,7 +647,7 @@ elif page == "Predikasjon oversikt":
     for col in ["🥇 Gull", "🥈 Sølv", "🥉 Bronse", "Total"]:
         df_display[col] = df_display[col].apply(lambda x: f"{float(x):.1f}")
     
-    st.dataframe(df_display, use_container_width=True)
+    st.dataframe(df_display, width="stretch")
     
     st.caption("G/B = Gull/Bronse ratio. >1.0 = flere gull enn bronse (dominans), <1.0 = flere bronse (dybde)")
     
@@ -651,7 +683,7 @@ elif page == "Predikasjon oversikt":
     
     # Full table
     st.subheader("Alle land", anchor="alle-land")
-    st.dataframe(df_pred, use_container_width=True, hide_index=True)
+    st.dataframe(df_pred, width="stretch", hide_index=True)
 
 
 # ============================================================
@@ -660,8 +692,25 @@ elif page == "Predikasjon oversikt":
 elif page == "Drilldown":
     st.header("🔍 Drilldown", anchor="drilldown")
     
-    df_comp = load_competition_predictions()
-    df_breakdown = load_country_breakdown()
+    # Toggle between Monte Carlo and Single Run
+    view_mode = st.radio(
+        "Visningsmodus",
+        ["Monte Carlo (100k simuleringer)", "Enkelt utfall (én simulering)"],
+        horizontal=True,
+        key="drilldown_view_mode"
+    )
+    
+    use_single_run = "Enkelt" in view_mode
+    
+    if use_single_run:
+        st.info("📌 **Enkelt utfall**: Viser resultatet fra ÉN simulering. "
+                "Verdier er enten 0 eller 1 (vant medalje eller ikke).")
+    else:
+        st.info("📊 **Monte Carlo**: Viser gjennomsnitt over 100.000 simuleringer. "
+                "Verdier representerer sannsynligheter/forventet antall.")
+    
+    df_comp = load_competition_predictions(use_single_run=use_single_run)
+    df_breakdown = load_country_breakdown(use_single_run=use_single_run)
     
     if df_comp is None:
         st.error("Ingen konkurranseprediksjoner funnet.")
@@ -682,7 +731,7 @@ elif page == "Drilldown":
             st.warning("Ingen breakdown-data funnet. Kjør `python predict.py` på nytt.")
         else:
             # Get predictions for country totals
-            df_pred = load_predictions()
+            df_pred = load_predictions(use_single_run=use_single_run)
             
             # Country selector
             countries = sorted(df_breakdown["country"].unique())
@@ -699,7 +748,9 @@ elif page == "Drilldown":
             
             if selected_country:
                 # Get country totals
-                country_row = df_pred[df_pred["country"] == selected_country].iloc[0] if df_pred is not None else None
+                country_row = None
+                if df_pred is not None and selected_country in df_pred["country"].values:
+                    country_row = df_pred[df_pred["country"] == selected_country].iloc[0]
                 
                 # Header with totals
                 st.markdown(f"### {selected_country}")
@@ -716,9 +767,6 @@ elif page == "Drilldown":
                 # Get breakdown for this country
                 df_country = df_breakdown[df_breakdown["country"] == selected_country].copy()
                 df_country = df_country.sort_values("expected_total", ascending=False)
-                
-                # Group by sport
-                sports = df_country["sport"].unique()
                 
                 st.markdown("#### Medaljer per sport")
                 
@@ -738,7 +786,7 @@ elif page == "Drilldown":
                 df_sport_display["E[Bronse]"] = df_sport_display["E[Bronse]"].round(2)
                 df_sport_display["E[Total]"] = df_sport_display["E[Total]"].round(2)
                 
-                st.dataframe(df_sport_display, use_container_width=True, hide_index=True)
+                st.dataframe(df_sport_display, width="stretch", hide_index=True)
                 
                 st.divider()
                 
@@ -761,7 +809,7 @@ elif page == "Drilldown":
                         for col in ["E[G]", "E[S]", "E[B]", "E[Total]"]:
                             df_show[col] = df_show[col].round(2)
                         
-                        st.dataframe(df_show, use_container_width=True, hide_index=True)
+                        st.dataframe(df_show, width="stretch", hide_index=True)
     
     # --------------------------------------------------------
     # TAB: Per utøver
@@ -830,7 +878,7 @@ elif page == "Drilldown":
             df_show = df_athlete[["competition", "Gull %", "Sølv %", "Bronse %", "Medalje %"]].copy()
             df_show.columns = ["Konkurranse", "🥇 Gull %", "🥈 Sølv %", "🥉 Bronse %", "Medalje %"]
             
-            st.dataframe(df_show, use_container_width=True, hide_index=True)
+            st.dataframe(df_show, width="stretch", hide_index=True)
     
     # --------------------------------------------------------
     # TAB: Per sport
@@ -889,7 +937,7 @@ elif page == "Drilldown":
                 with st.expander(f"**{comp_name}**", expanded=False):
                     df_show = top5[["athlete_name", "country", "Gull %", "Medalje %"]].copy()
                     df_show.columns = ["Utøver", "Land", "🥇 Gull %", "Medalje %"]
-                    st.dataframe(df_show, use_container_width=True, hide_index=True)
+                    st.dataframe(df_show, width="stretch", hide_index=True)
 
 
 # ============================================================

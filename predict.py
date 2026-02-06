@@ -10,10 +10,12 @@ Integrates:
 Pipeline:
 1. Load data from SQLite
 2. Calculate exact probabilities using Plackett-Luce model
-3. Run Monte Carlo simulation for confidence intervals
-4. Output to structured format supporting country → competition → athlete drilldown
+3. Run single deterministic simulation (one outcome)
+4. Run Monte Carlo simulation (many outcomes)
+5. Output both to separate files for comparison in Streamlit
 """
 
+import random
 from collections import defaultdict
 from pathlib import Path
 
@@ -37,6 +39,7 @@ NUM_SIMULATIONS = 100000  # Monte Carlo iterations
 EXTRA_NOISE = 0.0         # Extra noise beyond Plackett-Luce (0 = pure model)
 
 OUTPUT_DIR = Path(__file__).parent / "output"
+SINGLE_RUN_DIR = Path(__file__).parent / "output" / "single_run"
 
 
 # ============================================================
@@ -104,33 +107,35 @@ def load_data_from_db():
 # PREDICTION PIPELINE
 # ============================================================
 
-def run_predictions():
-    """Run full prediction pipeline."""
+def run_predictions(competitions, entries_by_comp, num_simulations, label=""):
+    """
+    Run prediction pipeline with specified number of simulations.
+    
+    Args:
+        competitions: Dict of competition info
+        entries_by_comp: Dict of entries per competition
+        num_simulations: Number of Monte Carlo simulations (1 = single snapshot)
+        label: Label for logging
+    """
     
     print("=" * 70)
-    print("OLYMPIC PREDICTIONS 2026")
+    print(f"OLYMPIC PREDICTIONS 2026 - {label}")
     print(f"Model: Plackett-Luce (power={STRENGTH_POWER})")
-    print(f"Simulation: {NUM_SIMULATIONS:,} iterations")
+    print(f"Simulation: {num_simulations:,} iterations")
     print("=" * 70)
     
-    # 1. Load data
-    print("\n[1/4] Loading data from database...")
-    competitions, entries_by_comp = load_data_from_db()
-    print(f"      {len(competitions)} competitions")
-    print(f"      {sum(len(e) for e in entries_by_comp.values())} total entries")
-    
-    # 2. Initialize model and simulator
-    print("\n[2/4] Initializing model...")
+    # Initialize model and simulator
+    print("\n[1/3] Initializing model...")
     model = PlackettLuceModel(strength_power=STRENGTH_POWER)
     
     config = SimulationConfig(
-        num_simulations=NUM_SIMULATIONS,
+        num_simulations=num_simulations,
         extra_noise_scale=EXTRA_NOISE
     )
     simulator = MonteCarloSimulator(model, config)
     
-    # 3. Process each competition
-    print(f"\n[3/4] Processing {len(entries_by_comp)} competitions...")
+    # 2. Process each competition
+    print(f"\n[2/3] Processing {len(entries_by_comp)} competitions...")
     
     competition_results = []
     country_totals = defaultdict(lambda: {
@@ -236,8 +241,8 @@ def run_predictions():
     
     print(f"      Processed {comp_count} competitions total")
     
-    # 4. Build country summaries
-    print("\n[4/4] Building output...")
+    # 3. Build country summaries
+    print("\n[3/3] Building output...")
     
     country_summaries = []
     for country, data in country_totals.items():
@@ -255,7 +260,7 @@ def run_predictions():
     
     # Create SimulationOutput
     output = SimulationOutput(
-        num_simulations=NUM_SIMULATIONS,
+        num_simulations=num_simulations,
         strength_power=STRENGTH_POWER,
         noise_scale=EXTRA_NOISE,
         country_summaries=country_summaries,
@@ -267,32 +272,56 @@ def run_predictions():
 
 def main():
     """Main entry point."""
-    output = run_predictions()
+    # Load data once
+    print("Loading data from database...")
+    competitions, entries_by_comp = load_data_from_db()
+    print(f"  {len(competitions)} competitions")
+    print(f"  {sum(len(e) for e in entries_by_comp.values())} total entries")
     
-    # Save outputs
-    print("\nSaving outputs...")
+    # 1. Run single snapshot (1 simulation)
+    print("\n")
+    random.seed(42)  # For reproducibility
+    single_output = run_predictions(
+        competitions, entries_by_comp, 
+        num_simulations=1, 
+        label="ENKELT UTFALL"
+    )
+    
+    # Save single run outputs
+    SINGLE_RUN_DIR.mkdir(parents=True, exist_ok=True)
+    single_output.save_all(SINGLE_RUN_DIR)
+    single_output.print_summary()
+    
+    # 2. Run Monte Carlo (100k simulations)
+    print("\n")
+    random.seed(None)  # Reset to random seed
+    mc_output = run_predictions(
+        competitions, entries_by_comp, 
+        num_simulations=NUM_SIMULATIONS, 
+        label="MONTE CARLO"
+    )
+    
+    # Save Monte Carlo outputs
     OUTPUT_DIR.mkdir(exist_ok=True)
-    output.save_all(OUTPUT_DIR)
+    mc_output.save_all(OUTPUT_DIR)
+    mc_output.print_summary()
     
-    # Print summary
-    output.print_summary()
-    
-    # Show drilldown example
+    # Show comparison
     print("\n" + "=" * 70)
-    print("DRILLDOWN EXAMPLE: Norway")
+    print("COMPARISON: Single Run (1 sim) vs Monte Carlo (100k sims)")
     print("=" * 70)
+    print(f"\n{'Country':<10}{'Single Run':>15}{'Monte Carlo':>15}{'Difference':>15}")
+    print("-" * 55)
     
-    norway = output.get_country("NOR")
-    if norway:
-        print(f"\nTotal: {norway.total:.1f} medals (G:{norway.gold:.1f} S:{norway.silver:.1f} B:{norway.bronze:.1f})")
-        print(f"\nTop 10 competitions contributing to Norway's medals:")
-        print(f"{'Competition':<35}{'Sport':<15}{'E[G]':>8}{'E[Total]':>10}{'Top Athlete':<25}")
-        print("-" * 95)
+    for country in ["NOR", "USA", "GER", "CAN", "SWE"]:
+        single = single_output.get_country(country)
+        single_total = single.total if single else 0
         
-        for comp in norway.get_top_competitions(10):
-            print(f"{comp.competition[:34]:<35}{comp.sport[:14]:<15}"
-                  f"{comp.expected_gold:>8.2f}{comp.expected_total:>10.2f}"
-                  f"{comp.top_athlete[:24]:<25}")
+        mc = mc_output.get_country(country)
+        mc_total = mc.total if mc else 0
+        
+        diff = single_total - mc_total
+        print(f"{country:<10}{single_total:>15.1f}{mc_total:>15.1f}{diff:>+15.1f}")
 
 
 if __name__ == "__main__":
