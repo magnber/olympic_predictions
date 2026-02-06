@@ -2,31 +2,55 @@
 
 ## 1. Teoretisk grunnlag
 
-### Plackett-Luce modellen
+### Hvorfor Plackett-Luce?
 
-Vi bruker **Plackett-Luce**-modellen for å simulere konkurranser. Dette er en standard modell for ranking-problemer.
+Plackett-Luce er **industristandard** for sportsprediksjoner:
+
+- Brukt i Formel 1-prediksjoner (Henderson & Sherwin, 2017)
+- Brukt i friidrett og skisport
+- Forskningsartikler bekrefter at Gumbel-støy + log(strength) er korrekt implementasjon
+
+**Referanser:**
+- [Plackett–Luce modeling with trajectory models](https://www.degruyter.com/document/doi/10.1515/jqas-2021-0034/html)
+- [Time-Weighted Plackett-Luce for F1](https://projecteuclid.org/journals/bayesian-analysis/volume-13/issue-2/)
+
+### Plackett-Luce modellen
 
 **Grunnleggende idé:**
 - Hver utøver har en "styrke" (strength) basert på deres prestasjoner
-- I en konkurranse trekkes vinneren proporsjonalt med styrke
-- Deretter trekkes #2 fra de gjenværende, osv.
+- Sannsynlighet for å vinne er proporsjonal med styrke
+- For 2. og 3. plass: Fjern vinneren og gjenta
 
-**Matematisk:**
+**Matematisk (eksakte formler):**
 ```
-P(utøver i vinner) = strength_i / Σ(strength_j for alle j)
+P(gull for i)  = s_i / Σ(s_j)
+P(sølv for i)  = Σ_{k≠i} [P(k vinner) × s_i / (Σ(s_j) - s_k)]
+P(bronse for i) = Σ_{k≠i} Σ_{j≠i,k} [P(k vinner) × P(j sølv|k) × s_i / (Σ(s_j) - s_k - s_j)]
 ```
 
-### Gumbel-noise og temperatur
+### Gumbel-noise for Monte Carlo
 
-For å simulere variasjon bruker vi **Gumbel-distribuert støy**:
+For å sample fra Plackett-Luce bruker vi **Gumbel-fordelt støy**:
 
 ```python
-noisy_strength = log(strength) + temperature * Gumbel_noise
+noisy_value = log(strength) + Gumbel(0, 1)
 ```
 
-- **Temperatur = 1.0**: Standard Gumbel, mye variasjon
-- **Temperatur = 0.3**: Mindre variasjon, favoritter vinner oftere
-- **Temperatur = 0.0**: Ingen variasjon, rangering er deterministisk
+**Matematisk garanti:** Dette gir eksakt Plackett-Luce-fordeling:
+```
+P(argmax{noisy_value} = i) = strength_i / Σ(strength_j)
+```
+
+### Ekstra støy for variasjon
+
+Utover standard Plackett-Luce kan vi legge til ekstra støy:
+
+```python
+noisy_value = log(strength) + Gumbel(0,1) + extra_noise
+```
+
+- **extra_noise = 0**: Ren Plackett-Luce (simulering konvergerer til eksakt modell)
+- **extra_noise > 0**: Mer upsets, reflekterer race-day variasjon
 
 ### Forventet G/S/B-asymmetri
 

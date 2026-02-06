@@ -110,6 +110,15 @@ def load_competition_predictions():
 
 
 @st.cache_data
+def load_country_breakdown():
+    """Load country-competition breakdown for drilldown."""
+    breakdown_file = OUTPUT_DIR / "country_competition_breakdown.csv"
+    if breakdown_file.exists():
+        return pd.read_csv(breakdown_file)
+    return None
+
+
+@st.cache_data
 def load_athletes():
     """Load athletes from database."""
     conn = get_connection()
@@ -652,14 +661,107 @@ elif page == "Drilldown":
     st.header("🔍 Drilldown", anchor="drilldown")
     
     df_comp = load_competition_predictions()
+    df_breakdown = load_country_breakdown()
     
     if df_comp is None:
         st.error("Ingen konkurranseprediksjoner funnet.")
         st.info("Kjør `python predict.py` for å generere prediksjoner.")
         st.stop()
     
-    # Two tabs: Athlete and Sport
-    tab_athlete, tab_sport = st.tabs(["Per utøver", "Per sport"])
+    # Three tabs: Country, Athlete, Sport
+    tab_country, tab_athlete, tab_sport = st.tabs(["Per land", "Per utøver", "Per sport"])
+    
+    # --------------------------------------------------------
+    # TAB: Per land
+    # --------------------------------------------------------
+    with tab_country:
+        st.subheader("🏳️ Land-drilldown", anchor="land-drilldown")
+        st.caption("Velg et land for å se hvilke konkurranser som bidrar til medaljene.")
+        
+        if df_breakdown is None:
+            st.warning("Ingen breakdown-data funnet. Kjør `python predict.py` på nytt.")
+        else:
+            # Get predictions for country totals
+            df_pred = load_predictions()
+            
+            # Country selector
+            countries = sorted(df_breakdown["country"].unique())
+            
+            # Default to Norway
+            default_idx = countries.index("NOR") if "NOR" in countries else 0
+            
+            selected_country = st.selectbox(
+                "Velg land",
+                countries,
+                index=default_idx,
+                key="country_drilldown_selector"
+            )
+            
+            if selected_country:
+                # Get country totals
+                country_row = df_pred[df_pred["country"] == selected_country].iloc[0] if df_pred is not None else None
+                
+                # Header with totals
+                st.markdown(f"### {selected_country}")
+                
+                if country_row is not None:
+                    col1, col2, col3, col4 = st.columns(4)
+                    col1.metric("🥇 Gull", f"{country_row['gold']:.1f}")
+                    col2.metric("🥈 Sølv", f"{country_row['silver']:.1f}")
+                    col3.metric("🥉 Bronse", f"{country_row['bronze']:.1f}")
+                    col4.metric("Total", f"{country_row['total']:.1f}")
+                
+                st.divider()
+                
+                # Get breakdown for this country
+                df_country = df_breakdown[df_breakdown["country"] == selected_country].copy()
+                df_country = df_country.sort_values("expected_total", ascending=False)
+                
+                # Group by sport
+                sports = df_country["sport"].unique()
+                
+                st.markdown("#### Medaljer per sport")
+                
+                # Sport summary
+                sport_summary = df_country.groupby("sport").agg({
+                    "expected_gold": "sum",
+                    "expected_silver": "sum", 
+                    "expected_bronze": "sum",
+                    "expected_total": "sum"
+                }).reset_index()
+                sport_summary = sport_summary.sort_values("expected_total", ascending=False)
+                
+                df_sport_display = sport_summary.copy()
+                df_sport_display.columns = ["Sport", "E[Gull]", "E[Sølv]", "E[Bronse]", "E[Total]"]
+                df_sport_display["E[Gull]"] = df_sport_display["E[Gull]"].round(2)
+                df_sport_display["E[Sølv]"] = df_sport_display["E[Sølv]"].round(2)
+                df_sport_display["E[Bronse]"] = df_sport_display["E[Bronse]"].round(2)
+                df_sport_display["E[Total]"] = df_sport_display["E[Total]"].round(2)
+                
+                st.dataframe(df_sport_display, use_container_width=True, hide_index=True)
+                
+                st.divider()
+                
+                st.markdown("#### Konkurranser (detaljert)")
+                
+                # Show competitions grouped by sport
+                for sport in sport_summary["sport"].tolist():
+                    df_sport = df_country[df_country["sport"] == sport].copy()
+                    sport_total = df_sport["expected_total"].sum()
+                    
+                    with st.expander(f"**{sport}** ({sport_total:.1f} medaljer)", expanded=(sport_total > 2)):
+                        df_show = df_sport[["competition", "expected_gold", "expected_silver", 
+                                           "expected_bronze", "expected_total", "top_athlete", 
+                                           "top_athlete_gold_prob"]].copy()
+                        df_show["top_athlete_gold_prob"] = (df_show["top_athlete_gold_prob"] * 100).round(1)
+                        df_show.columns = ["Konkurranse", "E[G]", "E[S]", "E[B]", "E[Total]", 
+                                          "Topp utøver", "Gull %"]
+                        
+                        # Round values
+                        for col in ["E[G]", "E[S]", "E[B]", "E[Total]"]:
+                            df_show[col] = df_show[col].round(2)
+                        
+                        st.dataframe(df_show, use_container_width=True, hide_index=True)
     
     # --------------------------------------------------------
     # TAB: Per utøver

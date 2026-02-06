@@ -2,50 +2,66 @@
 """
 Olympic Prediction Engine
 
-Reads athlete/competition data from SQLite database and runs
-Monte Carlo simulation using Plackett-Luce model with temperature scaling.
+Integrates:
+- model.py: Plackett-Luce base model (exact probabilities)
+- simulator.py: Monte Carlo simulation
+- models.py: Output data structures for drilldown
+
+Pipeline:
+1. Load data from SQLite
+2. Calculate exact probabilities using Plackett-Luce model
+3. Run Monte Carlo simulation for confidence intervals
+4. Output to structured format supporting country → competition → athlete drilldown
 """
 
-import math
-import random
 from collections import defaultdict
 from pathlib import Path
-import csv
 
-from database import get_connection, DB_PATH
+from database import get_connection
+from model import PlackettLuceModel, AthleteStrength, create_athletes_from_scores
+from simulator import MonteCarloSimulator, SimulationConfig
+from models import (
+    AthleteCompetitionResult,
+    CompetitionResult,
+    CountryCompetitionBreakdown,
+    CountrySummary,
+    SimulationOutput
+)
 
-# Configuration
-NUM_SIMULATIONS = 100000
-TEMPERATURE = 0.3  # Controls noise level (lower = more deterministic)
-PERFORMANCE_VARIANCE = 1.0  # Base variance for Gumbel noise
+# ============================================================
+# CONFIGURATION
+# ============================================================
 
-NORDIC_COUNTRIES = {"NOR", "SWE", "FIN", "DEN"}
+STRENGTH_POWER = 2.0      # Power transformation for scores
+NUM_SIMULATIONS = 100000  # Monte Carlo iterations
+EXTRA_NOISE = 0.0         # Extra noise beyond Plackett-Luce (0 = pure model)
 
 OUTPUT_DIR = Path(__file__).parent / "output"
 
 
-def gumbel_noise():
-    """Generate Gumbel-distributed noise, scaled by temperature."""
-    u = random.random()
-    while u == 0:
-        u = random.random()
-    return -TEMPERATURE * PERFORMANCE_VARIANCE * math.log(-math.log(u))
-
+# ============================================================
+# DATA LOADING
+# ============================================================
 
 def load_data_from_db():
     """Load competition, athlete, and entry data from database."""
     conn = get_connection()
     cursor = conn.cursor()
     
-    # Get competitions
-    cursor.execute("SELECT id, sport_id, name, gender FROM competitions")
+    # Get competitions with sport info
+    cursor.execute("""
+        SELECT c.id, c.sport_id, c.name, c.gender, s.name as sport_name
+        FROM competitions c
+        JOIN sports s ON c.sport_id = s.id
+    """)
     competitions = {}
     for row in cursor.fetchall():
         competitions[row[0]] = {
             "id": row[0],
             "sport_id": row[1],
             "name": row[2],
-            "gender": row[3]
+            "gender": row[3],
+            "sport_name": row[4]
         }
     
     # Get athletes (excluding excluded ones)
@@ -63,257 +79,220 @@ def load_data_from_db():
             "country": row[2]
         }
     
-    # Get entries
-    cursor.execute("SELECT athlete_id, competition_id, score FROM entries")
-    entries = []
+    # Get entries grouped by competition
+    cursor.execute("""
+        SELECT e.athlete_id, e.competition_id, e.score
+        FROM entries e
+    """)
+    
+    entries_by_comp = defaultdict(list)
     for row in cursor.fetchall():
-        # Skip entries for excluded athletes
-        if row[0] in athletes:
-            entries.append({
-                "athlete_id": row[0],
-                "competition_id": row[1],
-                "score": row[2]
+        athlete_id, comp_id, score = row
+        if athlete_id in athletes and comp_id in competitions:
+            entries_by_comp[comp_id].append({
+                "id": athlete_id,
+                "name": athletes[athlete_id]["name"],
+                "country": athletes[athlete_id]["country"],
+                "score": score
             })
     
     conn.close()
-    
-    return competitions, athletes, entries
+    return competitions, entries_by_comp
 
 
-def build_competition_entries(competitions, athletes, entries):
-    """Build mapping of competition -> list of (athlete, score)."""
-    comp_entries = defaultdict(list)
+# ============================================================
+# PREDICTION PIPELINE
+# ============================================================
+
+def run_predictions():
+    """Run full prediction pipeline."""
     
-    for entry in entries:
-        athlete_id = entry["athlete_id"]
-        comp_id = entry["competition_id"]
-        score = entry["score"]
+    print("=" * 70)
+    print("OLYMPIC PREDICTIONS 2026")
+    print(f"Model: Plackett-Luce (power={STRENGTH_POWER})")
+    print(f"Simulation: {NUM_SIMULATIONS:,} iterations")
+    print("=" * 70)
+    
+    # 1. Load data
+    print("\n[1/4] Loading data from database...")
+    competitions, entries_by_comp = load_data_from_db()
+    print(f"      {len(competitions)} competitions")
+    print(f"      {sum(len(e) for e in entries_by_comp.values())} total entries")
+    
+    # 2. Initialize model and simulator
+    print("\n[2/4] Initializing model...")
+    model = PlackettLuceModel(strength_power=STRENGTH_POWER)
+    
+    config = SimulationConfig(
+        num_simulations=NUM_SIMULATIONS,
+        extra_noise_scale=EXTRA_NOISE
+    )
+    simulator = MonteCarloSimulator(model, config)
+    
+    # 3. Process each competition
+    print(f"\n[3/4] Processing {len(entries_by_comp)} competitions...")
+    
+    competition_results = []
+    country_totals = defaultdict(lambda: {
+        "gold": 0, "silver": 0, "bronze": 0,
+        "breakdowns": []
+    })
+    
+    comp_count = 0
+    for comp_id, entries in entries_by_comp.items():
+        if len(entries) < 3:
+            continue
         
-        if athlete_id in athletes and comp_id in competitions:
-            athlete = athletes[athlete_id]
-            comp_entries[comp_id].append({
-                "athlete": athlete,
-                "score": score,
-                "log_strength": math.log(max(score, 0.01))
+        comp_info = competitions[comp_id]
+        comp_count += 1
+        
+        # Create AthleteStrength objects
+        athletes = create_athletes_from_scores(entries)
+        
+        # Get exact predictions from model
+        exact_predictions = model.predict(athletes)
+        
+        # Run simulation
+        sim_results = simulator.simulate_competition(athletes)
+        
+        # Build athlete results (using simulation results)
+        athlete_results = []
+        country_comp_medals = defaultdict(lambda: {
+            "gold": 0, "silver": 0, "bronze": 0, "athletes": []
+        })
+        
+        for sim_result in sim_results:
+            result = AthleteCompetitionResult(
+                athlete_id=sim_result.athlete_id,
+                athlete_name=sim_result.name,
+                country=sim_result.country,
+                score=0,  # Will get from exact predictions
+                relative_score=0,
+                strength=0,
+                gold_prob=sim_result.sim_gold_prob,
+                silver_prob=sim_result.sim_silver_prob,
+                bronze_prob=sim_result.sim_bronze_prob
+            )
+            
+            # Get score/strength from exact predictions
+            for ep in exact_predictions:
+                if ep.athlete_id == sim_result.athlete_id:
+                    result.score = ep.score
+                    result.strength = ep.strength
+                    break
+            
+            athlete_results.append(result)
+            
+            # Aggregate by country for this competition
+            country = sim_result.country
+            country_comp_medals[country]["gold"] += sim_result.sim_gold_prob
+            country_comp_medals[country]["silver"] += sim_result.sim_silver_prob
+            country_comp_medals[country]["bronze"] += sim_result.sim_bronze_prob
+            country_comp_medals[country]["athletes"].append({
+                "name": sim_result.name,
+                "gold_prob": sim_result.sim_gold_prob
             })
-    
-    return comp_entries
-
-
-def simulate_competition(entries):
-    """
-    Simulate a single competition using Plackett-Luce model.
-    Returns top 3 finishers (gold, silver, bronze).
-    """
-    if len(entries) < 3:
-        return []
-    
-    # Calculate noisy strengths for this simulation
-    noisy = []
-    for e in entries:
-        perturbed = e["log_strength"] + gumbel_noise()
-        noisy.append((perturbed, e["athlete"]))
-    
-    # Sort by noisy strength (descending)
-    noisy.sort(key=lambda x: -x[0])
-    
-    # Return top 3
-    return [noisy[i][1] for i in range(min(3, len(noisy)))]
-
-
-def run_simulation(competitions, comp_entries):
-    """Run full Monte Carlo simulation."""
-    # Track medal counts per country
-    country_medals = defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0})
-    
-    # Track per-simulation results for confidence intervals
-    simulation_results = []
-    
-    # Competition-level tracking
-    comp_results = defaultdict(lambda: defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0}))
-    
-    for sim in range(NUM_SIMULATIONS):
-        sim_medals = defaultdict(lambda: {"gold": 0, "silver": 0, "bronze": 0})
+            
+            # Add to country totals
+            country_totals[country]["gold"] += sim_result.sim_gold_prob
+            country_totals[country]["silver"] += sim_result.sim_silver_prob
+            country_totals[country]["bronze"] += sim_result.sim_bronze_prob
         
-        for comp_id, entries in comp_entries.items():
-            if len(entries) < 3:
+        # Sort by gold probability
+        athlete_results.sort(key=lambda x: -x.gold_prob)
+        
+        # Create CompetitionResult
+        competition_results.append(CompetitionResult(
+            competition_id=comp_id,
+            competition_name=comp_info["name"],
+            sport=comp_info["sport_name"],
+            gender=comp_info["gender"],
+            athlete_results=athlete_results
+        ))
+        
+        # Create CountryCompetitionBreakdown for each country
+        for country, medals in country_comp_medals.items():
+            total = medals["gold"] + medals["silver"] + medals["bronze"]
+            if total < 0.01:
                 continue
             
-            winners = simulate_competition(entries)
+            top_athlete = max(medals["athletes"], key=lambda x: x["gold_prob"])
             
-            if len(winners) >= 3:
-                # Gold
-                sim_medals[winners[0]["country"]]["gold"] += 1
-                comp_results[comp_id][winners[0]["id"]]["gold"] += 1
-                
-                # Silver
-                sim_medals[winners[1]["country"]]["silver"] += 1
-                comp_results[comp_id][winners[1]["id"]]["silver"] += 1
-                
-                # Bronze
-                sim_medals[winners[2]["country"]]["bronze"] += 1
-                comp_results[comp_id][winners[2]["id"]]["bronze"] += 1
+            breakdown = CountryCompetitionBreakdown(
+                country=country,
+                sport=comp_info["sport_name"],
+                competition=comp_info["name"],
+                competition_id=comp_id,
+                expected_gold=medals["gold"],
+                expected_silver=medals["silver"],
+                expected_bronze=medals["bronze"],
+                top_athlete=top_athlete["name"],
+                top_athlete_gold_prob=top_athlete["gold_prob"]
+            )
+            country_totals[country]["breakdowns"].append(breakdown)
         
-        simulation_results.append(dict(sim_medals))
-        
-        # Accumulate
-        for country, medals in sim_medals.items():
-            for medal_type, count in medals.items():
-                country_medals[country][medal_type] += count
+        if comp_count % 20 == 0:
+            print(f"      Processed {comp_count} competitions...")
     
-    # Average over simulations
-    for country in country_medals:
-        for medal_type in ["gold", "silver", "bronze"]:
-            country_medals[country][medal_type] /= NUM_SIMULATIONS
+    print(f"      Processed {comp_count} competitions total")
     
-    # Add totals
-    for country in country_medals:
-        m = country_medals[country]
-        m["total"] = m["gold"] + m["silver"] + m["bronze"]
+    # 4. Build country summaries
+    print("\n[4/4] Building output...")
     
-    return dict(country_medals), simulation_results, comp_results
-
-
-def calculate_confidence_intervals(simulation_results, country, confidence=0.95):
-    """Calculate confidence intervals for a country's medals."""
-    gold_counts = []
-    silver_counts = []
-    bronze_counts = []
-    
-    for sim in simulation_results:
-        medals = sim.get(country, {"gold": 0, "silver": 0, "bronze": 0})
-        gold_counts.append(medals["gold"])
-        silver_counts.append(medals["silver"])
-        bronze_counts.append(medals["bronze"])
-    
-    def percentile(data, p):
-        sorted_data = sorted(data)
-        idx = int(len(sorted_data) * p)
-        return sorted_data[min(idx, len(sorted_data) - 1)]
-    
-    lower = (1 - confidence) / 2
-    upper = 1 - lower
-    
-    return {
-        "gold": (percentile(gold_counts, lower), percentile(gold_counts, upper)),
-        "silver": (percentile(silver_counts, lower), percentile(silver_counts, upper)),
-        "bronze": (percentile(bronze_counts, lower), percentile(bronze_counts, upper))
-    }
-
-
-def output_results(results, simulation_results, competitions, comp_results, athletes):
-    """Output prediction results."""
-    OUTPUT_DIR.mkdir(exist_ok=True)
+    country_summaries = []
+    for country, data in country_totals.items():
+        summary = CountrySummary(
+            country=country,
+            gold=data["gold"],
+            silver=data["silver"],
+            bronze=data["bronze"],
+            competition_breakdown=data["breakdowns"]
+        )
+        country_summaries.append(summary)
     
     # Sort by total medals
-    sorted_results = sorted(results.items(), key=lambda x: -x[1]["total"])
+    country_summaries.sort(key=lambda x: -x.total)
     
-    print("\n" + "=" * 60)
-    print("MEDAL PREDICTIONS - 2026 Winter Olympics")
-    print("(Plackett-Luce model with temperature scaling)")
-    print(f"Data source: SQLite database")
-    print(f"Simulations: {NUM_SIMULATIONS:,}, Temperature: {TEMPERATURE}")
-    print("=" * 60)
+    # Create SimulationOutput
+    output = SimulationOutput(
+        num_simulations=NUM_SIMULATIONS,
+        strength_power=STRENGTH_POWER,
+        noise_scale=EXTRA_NOISE,
+        country_summaries=country_summaries,
+        competition_results=competition_results
+    )
     
-    # Top 15 countries
-    print("\n=== TOP 15 COUNTRIES ===")
-    for rank, (country, medals) in enumerate(sorted_results[:15], 1):
-        ci = calculate_confidence_intervals(simulation_results, country)
-        pred_g = round(medals['gold'])
-        pred_s = round(medals['silver'])
-        pred_b = round(medals['bronze'])
-        pred_total = pred_g + pred_s + pred_b
-        nordic_marker = " *" if country in NORDIC_COUNTRIES else ""
-        print(f"{rank:2d}. {country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total}){nordic_marker}")
-    
-    # Nordic detail
-    print("\n=== NORDIC COUNTRIES DETAIL ===")
-    nordic_results = [(c, r) for c, r in sorted_results if c in NORDIC_COUNTRIES]
-    for country, medals in nordic_results:
-        ci = calculate_confidence_intervals(simulation_results, country)
-        pred_g = round(medals['gold'])
-        pred_s = round(medals['silver'])
-        pred_b = round(medals['bronze'])
-        pred_total = pred_g + pred_s + pred_b
-        print(f"{country}: Gold {pred_g:2d} - Silver {pred_s:2d} - Bronze {pred_b:2d} (Total: {pred_total})")
-        print(f"  95% CI: G({ci['gold'][0]:.0f}-{ci['gold'][1]:.0f}) S({ci['silver'][0]:.0f}-{ci['silver'][1]:.0f}) B({ci['bronze'][0]:.0f}-{ci['bronze'][1]:.0f})")
-    
-    # Write country predictions CSV (with 1 decimal precision)
-    pred_file = OUTPUT_DIR / "predictions.csv"
-    with open(pred_file, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["country", "gold", "silver", "bronze", "total"])
-        for country, medals in sorted_results:
-            writer.writerow([
-                country,
-                f"{medals['gold']:.1f}",
-                f"{medals['silver']:.1f}",
-                f"{medals['bronze']:.1f}",
-                f"{medals['total']:.1f}"
-            ])
-    print(f"\n✓ Country predictions: {pred_file}")
-    
-    # Write competition predictions CSV
-    comp_file = OUTPUT_DIR / "competition_predictions.csv"
-    with open(comp_file, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["competition", "athlete_id", "athlete_name", "country", "gold_prob", "silver_prob", "bronze_prob", "medal_prob"])
-        
-        for comp_id in sorted(comp_results.keys()):
-            comp = competitions.get(comp_id, {"name": comp_id})
-            for athlete_id, counts in comp_results[comp_id].items():
-                athlete = athletes.get(athlete_id, {"name": athlete_id, "country": "UNK"})
-                gold_prob = counts["gold"] / NUM_SIMULATIONS
-                silver_prob = counts["silver"] / NUM_SIMULATIONS
-                bronze_prob = counts["bronze"] / NUM_SIMULATIONS
-                medal_prob = gold_prob + silver_prob + bronze_prob
-                
-                writer.writerow([
-                    comp.get("name", comp_id),
-                    athlete_id,
-                    athlete["name"],
-                    athlete["country"],
-                    f"{gold_prob:.4f}",
-                    f"{silver_prob:.4f}",
-                    f"{bronze_prob:.4f}",
-                    f"{medal_prob:.4f}"
-                ])
-    print(f"✓ Competition predictions: {comp_file}")
-    
-    return results
+    return output
 
 
 def main():
-    print("=" * 60)
-    print("OLYMPIC PREDICTION ENGINE")
-    print("=" * 60)
+    """Main entry point."""
+    output = run_predictions()
     
-    # Check database exists
-    if not DB_PATH.exists():
-        print(f"\n✗ Database not found: {DB_PATH}")
-        print("  Run 'python run_pipeline.py' first to create the database.")
-        return
+    # Save outputs
+    print("\nSaving outputs...")
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    output.save_all(OUTPUT_DIR)
     
-    print(f"\nLoading data from: {DB_PATH}")
+    # Print summary
+    output.print_summary()
     
-    # Load data
-    competitions, athletes, entries = load_data_from_db()
-    print(f"  Competitions: {len(competitions)}")
-    print(f"  Athletes: {len(athletes)}")
-    print(f"  Entries: {len(entries)}")
+    # Show drilldown example
+    print("\n" + "=" * 70)
+    print("DRILLDOWN EXAMPLE: Norway")
+    print("=" * 70)
     
-    # Build competition entries
-    comp_entries = build_competition_entries(competitions, athletes, entries)
-    print(f"  Competitions with entries: {len(comp_entries)}")
-    
-    # Run simulation
-    print(f"\nRunning {NUM_SIMULATIONS:,} simulations...")
-    results, simulation_results, comp_results = run_simulation(competitions, comp_entries)
-    
-    # Output results
-    output_results(results, simulation_results, competitions, comp_results, athletes)
-    
-    print("\n✓ Prediction complete!")
+    norway = output.get_country("NOR")
+    if norway:
+        print(f"\nTotal: {norway.total:.1f} medals (G:{norway.gold:.1f} S:{norway.silver:.1f} B:{norway.bronze:.1f})")
+        print(f"\nTop 10 competitions contributing to Norway's medals:")
+        print(f"{'Competition':<35}{'Sport':<15}{'E[G]':>8}{'E[Total]':>10}{'Top Athlete':<25}")
+        print("-" * 95)
+        
+        for comp in norway.get_top_competitions(10):
+            print(f"{comp.competition[:34]:<35}{comp.sport[:14]:<15}"
+                  f"{comp.expected_gold:>8.2f}{comp.expected_total:>10.2f}"
+                  f"{comp.top_athlete[:24]:<25}")
 
 
 if __name__ == "__main__":
